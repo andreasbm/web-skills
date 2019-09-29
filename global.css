@@ -1,0 +1,37 @@
+html {
+	--background: #0B0B19;
+	--foreground: #E8E8EA;
+
+	--shade-400: rgb(62, 62, 62);
+	--shade-500: rgb(124, 124, 124);
+	--shade-600: rgb(135, 138, 140);
+	--shade-700: rgb(173, 178, 181);
+
+	--accent-500: rgb(0, 121, 211);
+	--primary-500: rgb(254, 68, 1);
+
+	/* TODO: Should be in REM */
+	--spacing-xs: 0.25rem; /* 4px; */
+	--spacing-s: 0.38rem; /* 6px; */
+	--spacing-sm: 0.57rem; /* 8px; */
+	--spacing-m: 0.86rem; /* 12px; */
+	--spacing-l: 1.23rem; /* 18px; */
+	--spacing-xl: 1.72rem; /* 24px; */
+	--spacing-xxl: 2.14rem; /* 30px; */
+
+	--font-size-s: 0.9rem;
+	--font-size-m: 1rem;
+	--font-size-l: 1.2rem;
+	--font-size-xl: 1.4rem;
+
+	--font-family: 'Rubik', sans-serif;
+
+	font-family: var(--font-family);
+	background: var(--background);
+	color: var(--foreground);
+}
+
+body {
+	margin: 0;
+}
+

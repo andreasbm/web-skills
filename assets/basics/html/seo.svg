@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="73px" height="73px" viewBox="0 0 73 73" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>basics/html/seo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
+    </defs>
+    <g id="basics/html/seo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Bitmap" transform="translate(2.000000, 2.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <rect stroke="#1C1C2C" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+            <g id="research" mask="url(#mask-2)">
+                <g transform="translate(12.000000, 12.000000)">
+                    <circle id="Oval" fill="#D6E5FF" fill-rule="nonzero" cx="29.5" cy="15.5" r="13.5"></circle>
+                    <rect id="Rectangle-path" fill="#1C1C2C" fill-rule="nonzero" transform="translate(10.000000, 35.500000) rotate(-135.000000) translate(-10.000000, -35.500000) " x="7" y="27" width="6" height="17"></rect>
+                    <rect id="Rectangle-path" fill="#61F17D" fill-rule="nonzero" transform="translate(15.500000, 30.000000) rotate(-135.000000) translate(-15.500000, -30.000000) " x="12" y="29" width="7" height="2"></rect>
+                    <rect id="Rectangle-path" fill="#61F17D" fill-rule="nonzero" transform="translate(3.000000, 43.000000) rotate(-135.000000) translate(-3.000000, -43.000000) " x="0" y="42" width="6" height="2"></rect>
+                    <g id="Group" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(22.000000, 0.000000)" opacity="0.2">
+                        <polygon id="Shape" fill="#FFFFFF" fill-rule="nonzero" points="3.01390265 38.3992449 0.0417610619 37.2587094 14.693177 0 17.6655133 1.13861327"></polygon>
+                        <polygon id="Shape" fill="#FFFFFF" fill-rule="nonzero" points="7.26778761 41.950984 4.2949646 40.8097757 18.9463805 3.55087414 21.9172566 4.68794966"></polygon>
+                    </g>
+                    <path d="M40.6066215,5.39336433 C37.7735427,2.56019763 34.0066525,1 30,1 C25.9933475,1 22.2265544,2.56019763 19.3933785,5.39336433 C16.5602998,8.22643396 15,11.9933119 15,15.9999515 C15,19.4805715 16.1780389,22.7798658 18.3446366,25.4436463 L15.8927508,27.8955241 L18.1044859,30.1072521 L20.5563717,27.6553743 C23.2201607,29.8218678 26.5193687,31 30,31 C34.0066525,31 37.7734456,29.4398024 40.6066215,26.6066357 C43.4397973,23.773469 45,20.006591 45,15.9999515 C45,11.9933119 43.4397973,8.22643396 40.6066215,5.39336433 Z M38.4159505,24.4158747 C36.1680084,26.6638096 33.1791326,27.9018336 30,27.9019307 C26.8208674,27.9019307 23.8319916,26.6639067 21.5840495,24.4158747 C19.3361074,22.1679399 18.0980793,19.1790738 18.0979822,15.9999515 C18.0979822,12.8208292 19.3360103,9.83196304 21.5840495,7.58402819 C23.8319916,5.33609334 26.8208674,4.09806929 30,4.09797222 C33.1791326,4.09797222 36.1680084,5.33599627 38.4159505,7.58402819 C40.6638926,9.83206011 41.9019207,12.8208292 41.9020178,15.9999515 C41.9020178,19.1790738 40.6639897,22.1679399 38.4159505,24.4158747 Z" id="Shape" fill="#1C1C2C" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

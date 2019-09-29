@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="73px" height="73px" viewBox="0 0 73 73" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>basics/html/forms</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
+    </defs>
+    <g id="basics/html/forms" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Bitmap" transform="translate(2.000000, 2.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <rect stroke="#5947B3" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+            <g id="forms" mask="url(#mask-2)">
+                <g transform="translate(17.000000, 13.000000)">
+                    <path d="M33.5416376,44 L1.45836245,44 C0.6532758,44 0,43.3572734 0,42.5651875 L0,1.4348125 C0,0.642726562 0.6532758,0 1.45836245,0 L21.875,0 C22.2614276,0 22.6326567,0.151335937 22.906056,0.42040625 L34.5726935,11.8986484 C34.8461801,12.1676328 35,12.5327812 35,12.9130547 L35,42.5651875 C35,43.3572734 34.3467242,44 33.5416376,44 Z" id="Shape" fill="#7A51CC" fill-rule="nonzero"></path>
+                    <path d="M23.5605147,0.42040625 C23.279304,0.151335937 22.8974684,0 22.5,0 L18,0 L18,44 L34.4999701,44 C35.3280592,44 36,43.3572734 36,42.5651875 L36,12.9130547 C36,12.5328672 35.8417853,12.1676328 35.5604848,11.8986484 L23.5605147,0.42040625 Z" id="Shape" fill="#5947B3" fill-rule="nonzero"></path>
+                    <path d="M35.6043522,11.951254 L23.5605395,0.439514366 C23.2792396,0.158124547 22.8974946,0 22.4995777,0 L21,0 L21.0000898,13.499973 C21.0000898,14.32833 21.67167,15 22.5001168,15 L36,15 L36,12.8800155 C36,12.4822784 35.8855624,12.2324641 35.6043522,11.951254 Z" id="Shape" fill="#7A51CC" fill-rule="nonzero"></path>
+                    <g id="Group" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(6.000000, 21.000000)">
+                        <ellipse id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="1.47011194" cy="1.56830357" rx="1.43286567" ry="1.49071429"></ellipse>
+                        <ellipse id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="1.47011194" cy="7.53107143" rx="1.43286567" ry="1.49071429"></ellipse>
+                        <ellipse id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="1.47011194" cy="13.49375" rx="1.43286567" ry="1.49071429"></ellipse>
+                        <path d="M21.5298881,14.9844643 L7.20148881,14.9844643 C6.41047761,14.9844643 5.76862313,14.3166964 5.76862313,13.49375 C5.76862313,12.6708036 6.41047761,12.0030357 7.20148881,12.0030357 L21.5298881,12.0030357 C22.3208993,12.0030357 22.9627537,12.6708036 22.9627537,13.49375 C22.9626679,14.3167857 22.3208993,14.9844643 21.5298881,14.9844643 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    </g>
+                    <path d="M28.4999775,30 L13.5000225,30 C12.6719375,30 12,29.3280726 12,28.5 C12,27.6719274 12.6719375,27 13.5000225,27 L28.4999775,27 C29.3280625,27 30,27.6719274 30,28.5 C29.9999102,29.3281624 29.3280625,30 28.4999775,30 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path d="M28.4999775,24 L13.5000225,24 C12.6719375,24 12,23.3280726 12,22.5 C12,21.6719274 12.6719375,21 13.5000225,21 L28.4999775,21 C29.3280625,21 30,21.6719274 30,22.5 C29.9999102,23.3280726 29.3280625,24 28.4999775,24 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
