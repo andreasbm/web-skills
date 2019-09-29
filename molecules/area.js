@@ -38,7 +38,7 @@ export class Area extends LitElement {
 
 	render () {
 		return html`
-			<h4 id="title">${this.area.name}</h1>
+			${this.area.name != null ? html`<h4 id="title">${this.area.name}</h1>` : undefined}
 			<div id="skills">
 				${repeat(this.area.skills, skill => html`
 					<st-skill class="skill" .skill="${skill}" .collection="${this.collection}" .area="${this.area}"></st-skill>

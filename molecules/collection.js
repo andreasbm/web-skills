@@ -35,8 +35,21 @@ export class Collection extends LitElement {
 					display: flex;
 				}
 
+				.area {
+					position: relative;
+					scroll-snap-align: center;
+				}
+
 				.area:not(:last-child) {
-					margin: 0 40px 0 0;
+					margin: 0 80px 0 0;
+				}
+
+				.line {
+					height: 100%;
+    			border: 1px dashed currentColor;
+					position: absolute;
+					top: 0;
+					left: calc(100% + 40px);
 				}
 			`
 		];
@@ -44,10 +57,15 @@ export class Collection extends LitElement {
 
 	render () {
 		return html`
-			<h1 id="title">${this.index != null ? `${this.index}. ` : undefined}${this.collection.name}</h1>
+			${this.collection.name != null ? html`<h1 id="title">${this.index != null ? `${this.index}. ` : undefined}${this.collection.name}</h1>` : undefined}
 			<div id="areas">
-				${repeat(this.collection.areas || [], area => html`
-					<st-area class="area" .area="${area}" .collection="${this.collection}"></st-area>
+				${repeat(this.collection.areas || [], (area, i) => html`
+					<div class="area">
+						<st-area .area="${area}" .collection="${this.collection}"></st-area>
+						${i < this.collection.areas.length - 1 ? html`
+							<hr class="line"></hr>
+						` : undefined}
+					</div>
 				`)}
 			</div>
 		`;

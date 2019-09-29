@@ -1,6 +1,7 @@
 html {
 	--background: #0B0B19;
 	--foreground: #E8E8EA;
+	--link: #3366FF; 
 
 	--shade-400: rgb(62, 62, 62);
 	--shade-500: rgb(124, 124, 124);
@@ -9,6 +10,7 @@ html {
 
 	--accent-500: rgb(0, 121, 211);
 	--primary-500: rgb(254, 68, 1);
+
 
 	/* TODO: Should be in REM */
 	--spacing-xs: 0.25rem; /* 4px; */
@@ -33,5 +35,7 @@ html {
 
 body {
 	margin: 0;
+	scroll-snap-type: both proximity;
+	scroll-padding: 50%;
 }
 

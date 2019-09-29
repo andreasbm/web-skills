@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="73px" height="73px" viewBox="0 0 73 73" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>basics/css/specificity</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
+    </defs>
+    <g id="basics/css/specificity" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="container" transform="translate(2.000000, 2.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <rect stroke="#FF3031" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        </g>
+        <g id="Group-2" transform="translate(15.000000, 13.000000)" fill-rule="nonzero">
+            <g id="Group" transform="translate(0.000000, 2.000000)" stroke="#FF9882">
+                <circle id="Oval-2" fill="#FF9882" cx="22" cy="22" r="4"></circle>
+                <circle id="Oval-2" stroke-width="6" cx="22" cy="22" r="12"></circle>
+                <circle id="Oval-2" stroke-width="6" cx="22" cy="22" r="22"></circle>
+            </g>
+            <g id="target" transform="translate(20.000000, 0.000000)">
+                <path d="M26.9575195,25.4825897 C26.7476355,28.9460224 25.9440822,31.8525722 24.4520566,35.0184096 L20.9139662,34.1019573 L19.8646466,30.533563 L1.50160327,25.6008682 C0.557225645,25.3909449 0.0325156178,24.4463906 0.347341634,23.5018363 C0.557225645,22.557282 1.50160327,22.0324738 2.4459809,22.3473588 L20.7040822,27.2800535 L23.4322731,24.6563139 L26.9575195,25.4825897 Z" id="Shape" fill="#334A5E" opacity="0.2"></path>
+                <path d="M17.2160909,8.78381918 C16.5740989,8.14182772 15.3970284,8.14182772 14.754934,8.78381918 L0.737307905,22.8015374 C0.0953159696,23.4435289 0.0953159696,24.6205986 0.737307905,25.2626924 C1.37929984,25.9046839 2.5563704,25.9046839 3.19846474,25.2626924 L17.2161933,11.2449742 C17.8581852,10.6029827 17.8581852,9.42591305 17.2160909,8.78381918 Z" id="Shape" fill="#40596B"></path>
+                <polygon id="Path-2" fill="#42C3FF" points="14.0695287 11.7809704 19.5878851 13.0488605 25.5863921 7.34524349 19.8279604 5.9577577 18.6999199 0 13 6.22435623"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
