@@ -21,7 +21,6 @@ export const basicCollection = {
 					skills: [
 						{
 							name: "Discoverable Content",
-							description: "",
 							img: "discoverable-content"
 						}
 					]
@@ -154,7 +153,10 @@ export const basicCollection = {
 						},
 						{
 							name: "Gecko"
-						}
+						},
+						{
+							name: "Presto"
+						},
 					]
 				},
 				{

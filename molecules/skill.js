@@ -47,8 +47,8 @@ export class Skill extends LitElement {
 					top: 50%;
     			left: 0;
 					width: 300px;
-					transform: translate(-7%, 0);
-					transition: 120ms ease-in opacity;
+					transform: translate(-7%, -5px);
+					transition: 90ms ease-in opacity, 90ms ease-in transform;
 
 					opacity: 0;
 					pointer-events: none;
@@ -84,6 +84,7 @@ export class Skill extends LitElement {
 				#skill:hover #description {
 					opacity: 1;
 					pointer-events: all;
+					transform: translate(-7%, 0);
 				}
 
 				#title {
@@ -95,7 +96,7 @@ export class Skill extends LitElement {
 					width: 70px;
 					height: 70px;
 					margin: 0 0 6px;
-					transition: 120ms ease-in transform;
+					transition: 90ms ease-in transform;
 					user-select: none;
 				}
 

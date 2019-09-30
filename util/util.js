@@ -1,6 +1,6 @@
 
 export function pathify (name) {
-	return name.replace(` `, `-`).toLowerCase();
+	return name.replace(` `, `-`).replace(`/`, `-`).toLowerCase();
 }
 
 export function constructImagePathPrefix (collection, area, skill) {
