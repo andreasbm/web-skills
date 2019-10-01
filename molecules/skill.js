@@ -43,6 +43,7 @@ export class Skill extends LitElement {
 					position: absolute;
 					text-align: left;
 					z-index: 12345678;
+					overflow: hidden;
 
 					top: 50%;
     			left: 0;
@@ -65,11 +66,11 @@ export class Skill extends LitElement {
 				}
 
 				#description .text {
-					margin: 0 0 12px;
+					margin: 0;
 				}
 
 				#description .links {
-					margin: 0;
+					margin: 12px 0 0 0;
     			padding: 0 0 0 19px;
 				}
 
@@ -79,6 +80,7 @@ export class Skill extends LitElement {
 
 				a {
 					color: var(--link);
+					word-break: break-word;
 				}
 
 				#skill:hover #description {
@@ -119,13 +121,15 @@ export class Skill extends LitElement {
 				${this.skill.description != null && (this.skill.description.text != null || this.skill.description.links != null) ? html`
 					<div id="description">
 						<p class="text">${this.skill.description.text}</p>
-						<ul class="links">
-							${repeat(this.skill.description.links, link => html`
-								<li class="link">
-									<a href="${link}" target="_blank">${link}</a>
-								</li>
-							`)}
-						</ul>
+						${this.skill.description.links != null && this.skill.description.links.length > 0 ? html`
+							<ul class="links">
+								${repeat(this.skill.description.links, link => html`
+									<li class="link">
+										<a href="${Array.isArray(link) ? link[1] : link}" target="_blank">${Array.isArray(link) ? link[0] : link}</a>
+									</li>
+								`)}
+							</ul>
+						` : undefined}
 					</div>
 				` : undefined}
 			</div>
