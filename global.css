@@ -7,9 +7,14 @@ html {
 	--shade-500: rgb(124, 124, 124);
 	--shade-600: rgb(135, 138, 140);
 	--shade-700: rgb(173, 178, 181);
+	--shade-800: rgb(230, 230, 230);
+	--shade-900: rgb(240, 240, 240);
+	
 
 	--accent-500: rgb(0, 121, 211);
 	--primary-500: rgb(254, 68, 1);
+
+	--shadow: rgba(0, 0, 0, 0.15);
 
 
 	/* TODO: Should be in REM */

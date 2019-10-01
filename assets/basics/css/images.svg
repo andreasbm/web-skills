@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="73px" height="73px" viewBox="0 0 73 73" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>basics/css/images</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
+    </defs>
+    <g id="basics/css/images" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="container" transform="translate(2.000000, 2.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <rect stroke="#000000" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+            <circle id="Oval" fill="#EFCE4A" fill-rule="nonzero" mask="url(#mask-2)" cx="21.069" cy="23.069" r="9.069"></circle>
+            <polygon id="Shape" fill="#1A9172" fill-rule="nonzero" mask="url(#mask-2)" points="69.5 56.7492553 68.1170213 55.212766 51.5212766 40 37 55.9042553 44.5828723 63.4871277 50.1382979 69.0425532 69.5 69.0425532"></polygon>
+            <polygon id="Shape" fill="#25AE88" fill-rule="nonzero" mask="url(#mask-2)" points="47.8532188 64.0501875 33.8030313 50 12 69.1969687 53 69.1969687"></polygon>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="73px" height="73px" viewBox="0 0 73 73" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>accessibility/focus</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
+    </defs>
+    <g id="accessibility/focus" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="container" transform="translate(2.000000, 2.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <rect stroke="#204F77" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        </g>
+        <g id="focus" transform="translate(11.000000, 10.000000)">
+            <path d="M25.5255,0 L25.5255,9.10714286" id="Shape" stroke="#659C35" stroke-width="2" stroke-linecap="round"></path>
+            <path d="M25.5255,9.10714286 L29.1683571,5.46428571" id="Shape" stroke="#659C35" stroke-width="2" stroke-linecap="round"></path>
+            <path d="M25.5255,9.10714286 L21.8826429,5.46428571" id="Shape" stroke="#659C35" stroke-width="2" stroke-linecap="round"></path>
+            <path d="M25.5255,52.8214286 L25.5255,43.7142857" id="Shape" stroke="#659C35" stroke-width="2" stroke-linecap="round"></path>
+            <path d="M25.5255,43.7142857 L21.8826429,47.3571429" id="Shape" stroke="#659C35" stroke-width="2" stroke-linecap="round"></path>
+            <path d="M25.5255,43.7142857 L29.1683571,47.3571429" id="Shape" stroke="#659C35" stroke-width="2" stroke-linecap="round"></path>
+            <path d="M50.9745,26.0846786 L44.3863929,32.6727857 C33.8976964,43.1614821 16.8919286,43.1614821 6.40323214,32.6727857 L0.0245892857,26.2941429 L6.61269643,19.7060357 C17.1013929,9.21733929 34.1071607,9.21733929 44.5958571,19.7060357 L50.9745,26.0846786 Z" id="Shape" fill="#E7ECED" fill-rule="nonzero"></path>
+            <circle id="Oval" fill="#3083C9" fill-rule="nonzero" cx="25.1994643" cy="26.2130893" r="10.7582679"></circle>
+            <path d="M18.9947679,27.3214286 C18.4920536,27.3214286 18.0840536,26.9134286 18.0840536,26.4107143 C18.0840536,22.8953571 20.9436964,20.0357143 24.4590536,20.0357143 C24.9617679,20.0357143 25.3697679,20.4437143 25.3697679,20.9464286 C25.3697679,21.4491429 24.9617679,21.8571429 24.4590536,21.8571429 C21.9482143,21.8571429 19.9054821,23.899875 19.9054821,26.4107143 C19.9054821,26.9134286 19.4983929,27.3214286 18.9947679,27.3214286 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

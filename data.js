@@ -89,6 +89,12 @@ export const basicCollection = {
 							description: {
 								text: "Learn what specificity means and how to use it when writing CSS."
 							},
+						},
+						{
+							name: "Pseudo Selectors",
+							description: {
+								text: "Learn how to use the :before and :after pseudo selectors."
+							},
 						}
 					]
 				},
@@ -102,6 +108,12 @@ export const basicCollection = {
 					name: "Colors",
 					description: {
 						text: "Learn the different ways you can define colors in CSS."
+					},
+				},
+				{
+					name: "Calc",
+					description: {
+						text: "Learn how to use the CSS calc function."
 					},
 				},
 				{
@@ -439,10 +451,10 @@ export const webcomponentsCollection = {
 					name: "Constructible Stylesheets"
 				},
 				{
-					name: "lit-html"
+					name: "Best practices"
 				},
 				{
-					name: "Best practices"
+					name: "lit-element"
 				}
 			]
 		}

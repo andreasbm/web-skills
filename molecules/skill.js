@@ -20,7 +20,14 @@ export class Skill extends LitElement {
 		return [
 			css`
 				:host {
-					display: block;
+					--arrow-offset-y: -20px;
+					--arrow-z-index: 123456;
+					--arrow-width: 6px;
+					--skill-img-size: 70px;
+
+					display: flex;
+   				flex-direction: column;
+    			align-items: center;
 				}
 
 				#skill {
@@ -29,6 +36,7 @@ export class Skill extends LitElement {
 					align-items: center;
 					text-align: center;
 					position: relative;
+					margin: 0 0 30px;
 				}
 
 				#skill:hover #img {
@@ -43,7 +51,6 @@ export class Skill extends LitElement {
 					position: absolute;
 					text-align: left;
 					z-index: 12345678;
-					overflow: hidden;
 
 					top: 50%;
     			left: 0;
@@ -83,20 +90,20 @@ export class Skill extends LitElement {
 					word-break: break-word;
 				}
 
-				#skill:hover #description {
+				#skill:hover #description, #skill:focus-within #description {
 					opacity: 1;
 					pointer-events: all;
 					transform: translate(-7%, 0);
 				}
 
 				#title {
-					margin: 0 0 20px;
+					margin: 0;
     			font-weight: 300;
 				}
 
 				#img {
-					width: 70px;
-					height: 70px;
+					width: var(--skill-img-size);
+					height: var(--skill-img-size);
 					margin: 0 0 6px;
 					transition: 90ms ease-in transform;
 					user-select: none;
@@ -104,26 +111,62 @@ export class Skill extends LitElement {
 
 				#subskills {
 					display: flex;
+					position: relative;
+				}
+
+				#subskills.wide {
+					margin: 0 15px;
 				}
 
 				.subskill:not(:last-child) {
 					margin: 0 20px 0 0;
 				}
+
+				.subskill {
+					position: relative;
+				}
+
+				.arrow, .arrow-connection {
+					box-shadow: var(--shadow);
+					background: var(--shade-900);
+					left: 50%;
+					transform: translate(-50%, var(--arrow-offset-y));
+					position: absolute;
+				}
+				
+
+				.arrow {
+					box-shadow: 0 2px 2px var(--shadow);
+					width: var(--arrow-width);
+					height: 30px;
+					top: 0;
+					z-index: var(--arrow-z-index);
+				}
+
+				.arrow-connection {
+					box-shadow: 0 -1px 2px var(--shadow);
+					z-index: calc(var(--arrow-z-index) + 1);
+					height: var(--arrow-width);
+					width: calc(100% - var(--skill-img-size) + var(--arrow-width));
+				}
+
 			`
 		];
 	}
 
 	render () {
+		const {skill, collection, area} = this;
+		const {description, name, skills} = skill;
 		return html`
 			<div id="skill">
-				<img id="img" src="${constructImagePathPrefix(this.collection, this.area, this.skill)}" />
-				<h6 id="title">${this.skill.name}</h6>
-				${this.skill.description != null && (this.skill.description.text != null || this.skill.description.links != null) ? html`
+				<img id="img" src="${constructImagePathPrefix(collection, area, skill)}" />
+				<h6 id="title">${name}</h6>
+				${description != null && (description.text != null || description.links != null) ? html`
 					<div id="description">
-						<p class="text">${this.skill.description.text}</p>
-						${this.skill.description.links != null && this.skill.description.links.length > 0 ? html`
+						<p class="text">${description.text}</p>
+						${description.links != null && description.links.length > 0 ? html`
 							<ul class="links">
-								${repeat(this.skill.description.links, link => html`
+								${repeat(description.links, link => html`
 									<li class="link">
 										<a href="${Array.isArray(link) ? link[1] : link}" target="_blank">${Array.isArray(link) ? link[0] : link}</a>
 									</li>
@@ -133,10 +176,16 @@ export class Skill extends LitElement {
 					</div>
 				` : undefined}
 			</div>
-			${this.skill.skills != null ? html`
-				<div id="subskills">
-					${repeat(this.skill.skills, skill => html`
-						<st-skill class="subskill" .skill="${skill}" .collection="${this.collection}" .area="${this.area}"></st-skill>
+			${skills != null ? html`
+				<div id="subskills" class="${skills.length > 1 ? 'wide' : ''}">
+					${skills.length > 1 ? html`
+						<div class="arrow-connection"></div>
+					` : undefined}
+					${repeat(skills, skill => html`
+						<div class="subskill">
+							<div class="arrow"></div>
+							<st-skill .skill="${skill}" .collection="${collection}" .area="${area}"></st-skill>
+						</div>
 					`)}
 				</div>
 			` : undefined}

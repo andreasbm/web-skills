@@ -11,7 +11,7 @@
             <mask id="mask-2" fill="white">
                 <use xlink:href="#path-1"></use>
             </mask>
-            <rect stroke="#CBB292" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+            <rect stroke="#696055" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="tap" transform="translate(36.374356, 36.753521) rotate(-330.000000) translate(-36.374356, -36.753521) translate(22.374356, 16.253521)" fill-rule="nonzero">
             <path d="M15.1426955,10 C17.2552363,8.94733286 18.3910767,6.49640212 17.8773284,4.0995237 C17.3639015,1.70264518 15.3381642,0 12.9999342,0 C10.6620257,0 8.63628831,1.70264518 8.12254002,4.0995237 C7.60911321,6.49640212 8.74495352,8.94733286 10.8574944,10 L15.1426955,10 Z" id="Shape" fill="#3B97D3"></path>
