@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="74px" height="73px" viewBox="0 0 74 73" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>progressive-webapps/rendering-performance/style-calculations</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
+    </defs>
+    <g id="progressive-webapps/rendering-performance/style-calculations" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="container" transform="translate(2.000000, 2.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <rect stroke="#3A4863" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        </g>
+        <g id="tuxedo" transform="translate(10.000000, 16.000000)" fill-rule="nonzero">
+            <polygon id="Shape" fill="#C7E2FC" points="20.3243607 0.896754098 19.4391148 0.89852459 7.93622951 3.5755082 14.1657049 21.268918 14.1966885 38.0885902 38.9835738 38.0425574 38.9525902 21.2228852 45.1165574 3.50645902 33.6030492 0.871967213 32.7178033 0.873737705 26.5263934 3.54098361"></polygon>
+            <polyline id="Shape" fill="#4D5D7A" points="12.3854754 15.9609836 6.2312459 39.9219344 0 38.113377 7.93622951 3.5755082"></polyline>
+            <polygon id="Shape" fill="#8892A0" points="0.809114754 34.5918689 0 38.113377 6.2312459 39.9219344 7.1395082 36.3871475"></polygon>
+            <polyline id="Shape" fill="#4D5D7A" points="40.7399016 15.9609836 46.8932459 39.9219344 53.1244918 38.113377 45.1891475 3.5755082"></polyline>
+            <polygon id="Shape" fill="#8892A0" points="52.315377 34.5918689 53.1244918 38.113377 46.8932459 39.9219344 45.9858689 36.3871475"></polygon>
+            <path d="M26.557377,15.9344262 C26.2988852,15.9344262 26.0536721,15.8211148 25.8854754,15.6245902 L20.574,9.42786885 L21.9178033,8.27616393 L26.557377,13.6894426 L31.1969508,8.27704918 L32.5407541,9.4287541 L27.2292787,15.6254754 C27.061082,15.8211148 26.8158689,15.9344262 26.557377,15.9344262 Z" id="Shape" fill="#4D5D7A"></path>
+            <path d="M22.1408852,25.8243934 L22.1152131,1.77845902 L20.3243607,0.896754098 L19.4391148,0.89852459 L7.93622951,3.5755082 L14.1657049,21.268918 L14.1966885,38.0885902 L14.4967869,38.0877049 L19.8799672,31.7502295 C21.3397377,30.1222623 22.1453115,28.0109508 22.1408852,25.8243934 Z" id="Shape" fill="#8892A0"></path>
+            <path d="M30.9836066,25.8243934 L31.0092787,1.77845902 L32.8001311,0.896754098 L33.685377,0.89852459 L45.1882623,3.5755082 L38.9596721,21.268918 L38.9286885,38.0885902 L38.6285902,38.0877049 L33.2454098,31.7502295 C31.7847541,30.1222623 30.9791803,28.0109508 30.9836066,25.8243934 Z" id="Shape" fill="#8892A0"></path>
+            <g id="Group" transform="translate(19.475410, 0.000000)" fill="#4D5D7A">
+                <polygon id="Shape" points="7.05098361 3.54098361 13.2423934 0.873737705 13.2556721 7.95570492 7.05540984 6.19672131 0.862229508 7.97872131 0.84895082 0.896754098"></polygon>
+                <polygon id="Shape" points="14.1639344 14.1639344 19.4754098 14.1639344 19.4754098 15.9344262 14.1639344 15.9344262"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

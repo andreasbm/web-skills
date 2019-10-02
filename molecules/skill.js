@@ -20,9 +20,11 @@ export class Skill extends LitElement {
 		return [
 			css`
 				:host {
-					--arrow-offset-y: -20px;
+					--arrow-offset-y: -18px;
 					--arrow-z-index: 123456;
+					--arrow-height: 22px;
 					--arrow-width: 6px;
+					--arrow-head-size: 8px;
 					--skill-img-size: 70px;
 
 					display: flex;
@@ -126,28 +128,51 @@ export class Skill extends LitElement {
 					position: relative;
 				}
 
-				.arrow, .arrow-connection {
+				.arrow, .arrow-connection, .arrow-connection:after {
+					transform: translate(-50%, var(--arrow-offset-y));
 					box-shadow: var(--shadow);
 					background: var(--shade-900);
+					box-shadow: 0 -1px 2px var(--shadow);
 					left: 50%;
-					transform: translate(-50%, var(--arrow-offset-y));
 					position: absolute;
+					border-radius: 5px 5px 0 0;
 				}
 				
-
 				.arrow {
-					box-shadow: 0 2px 2px var(--shadow);
 					width: var(--arrow-width);
-					height: 30px;
+					height: var(--arrow-height);
+					box-shadow: 0 2px 2px var(--shadow);
 					top: 0;
 					z-index: var(--arrow-z-index);
 				}
 
+				.arrow:after {
+					content: "";
+					width: 0; 
+					height: 0; 
+					border-left: var(--arrow-head-size) solid transparent;
+					border-right: var(--arrow-head-size) solid transparent;
+					border-top: var(--arrow-head-size) solid var(--shade-900);
+					position: absolute;
+					left: 50%;
+					top: 100%;
+					transform: translate(-50%, 0);
+				}
+
+
 				.arrow-connection {
-					box-shadow: 0 -1px 2px var(--shadow);
 					z-index: calc(var(--arrow-z-index) + 1);
 					height: var(--arrow-width);
 					width: calc(100% - var(--skill-img-size) + var(--arrow-width));
+				}
+
+				.arrow-connection:after {
+					content: "";
+					width: var(--arrow-width);
+					height: 10px;
+					position: absolute;
+					left: 50%;
+					transform: translate(-50%, -100%);
 				}
 
 			`
@@ -159,7 +184,7 @@ export class Skill extends LitElement {
 		const {description, name, skills} = skill;
 		return html`
 			<div id="skill">
-				<img id="img" src="${constructImagePathPrefix(collection, area, skill)}" />
+				<img id="img" loading="lazy" src="${constructImagePathPrefix(collection, area, skill)}" />
 				<h6 id="title">${name}</h6>
 				${description != null && (description.text != null || description.links != null) ? html`
 					<div id="description">

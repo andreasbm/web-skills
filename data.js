@@ -292,7 +292,10 @@ export const basicCollection = {
 				{
 					name: "Web Animations",
 					description: {
-						text: "Learn how to use web animations to animate elements in the DOM."
+						text: "Learn how to use web animations to animate elements in the DOM.",
+						links: [
+							["Mozilla - Using The Web Animations API", "https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API/Using_the_Web_Animations_API"],
+						]
 					}
 				},
 				{
@@ -510,10 +513,12 @@ export const pwaCollection = {
 					name: "Storage"
 				},
 				{
-					name: "Web Sockets"
-				},
-				{
-					name: "History API"
+					name: "Routing",
+					skills: [
+						{
+							name: "History API"
+						}
+					]
 				},
 				{
 					name: "Service Workers",
@@ -558,7 +563,13 @@ export const pwaCollection = {
 					]
 				},
 				{
-					name: "Lazy Loading"
+					name: "Lazy Loading",
+					description: {
+						text: "",
+						links: [
+							["Addy Osmani - Lazy Loading Images", "https://addyosmani.com/blog/lazy-loading/"]
+						]
+					}
 				},
 				{
 					name: "Offscreen images"
@@ -621,7 +632,7 @@ export const pwaCollection = {
 					],
 				},
 				{
-					name: "Web Workesr"
+					name: "Web Workers"
 				}
 			],
 		},
@@ -828,6 +839,9 @@ export const advancedCollection = {
 							name: "Media Recorder"
 						}
 					]
+				},
+				{
+					name: "Web Sockets"
 				},
 				{
 					name: "User location"

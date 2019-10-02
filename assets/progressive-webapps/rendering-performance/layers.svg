@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="74px" height="73px" viewBox="0 0 74 73" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>progressive-webapps/rendering-performance/layers</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
+    </defs>
+    <g id="progressive-webapps/rendering-performance/layers" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="container" transform="translate(2.000000, 2.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <rect stroke="#556080" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        </g>
+        <g id="layers" transform="translate(14.000000, 14.000000)" fill-rule="nonzero">
+            <polygon id="Shape" fill="#694F87" points="23 26.1568627 8.74901961 18.0148627 0.0396862745 22.9603137 23 36.0784314 45.9603137 22.9603137 37.2509804 18.0148627"></polygon>
+            <polygon id="Shape" fill="#556080" points="23 36.0784314 8.74901961 27.9364314 0.0396862745 32.8818824 23 46 45.9603137 32.8818824 37.2509804 27.9364314"></polygon>
+            <g id="Group" transform="translate(5.411765, 18.039216)" fill="#BF4D90">
+                <circle id="Oval" cx="30.7063529" cy="0.901960784" r="1"></circle>
+                <circle id="Oval" cx="33.4122353" cy="3.60784314" r="1"></circle>
+                <circle id="Oval" cx="3.64752941" cy="0.901960784" r="1"></circle>
+                <circle id="Oval" cx="28.0004706" cy="3.60784314" r="1"></circle>
+                <circle id="Oval" cx="0.941647059" cy="3.60784314" r="1"></circle>
+                <circle id="Oval" cx="6.35341176" cy="3.60784314" r="1"></circle>
+                <circle id="Oval" cx="3.64752941" cy="6.31372549" r="1"></circle>
+                <circle id="Oval" cx="9.05929412" cy="6.31372549" r="1"></circle>
+                <circle id="Oval" cx="9.05929412" cy="11.7254902" r="1"></circle>
+                <circle id="Oval" cx="6.35341176" cy="9.01960784" r="1"></circle>
+                <circle id="Oval" cx="11.7651765" cy="9.01960784" r="1"></circle>
+                <circle id="Oval" cx="14.4710588" cy="11.7254902" r="1"></circle>
+                <circle id="Oval" cx="19.8828235" cy="11.7254902" r="1"></circle>
+                <circle id="Oval" cx="17.1769412" cy="9.01960784" r="1"></circle>
+                <circle id="Oval" cx="22.5887059" cy="9.01960784" r="1"></circle>
+                <circle id="Oval" cx="17.1769412" cy="14.4313725" r="1"></circle>
+                <circle id="Oval" cx="25.2945882" cy="6.31372549" r="1"></circle>
+                <circle id="Oval" cx="30.7063529" cy="6.31372549" r="1"></circle>
+                <circle id="Oval" cx="25.2945882" cy="11.7254902" r="1"></circle>
+                <circle id="Oval" cx="28.0004706" cy="9.01960784" r="1"></circle>
+                <circle id="Oval" cx="36.1181176" cy="6.31372549" r="1"></circle>
+            </g>
+            <polygon id="Shape" fill="#BF4D90" points="45.9603137 13.0387451 23 26.1568627 0.0396862745 13.0387451 23 0"></polygon>
+        </g>
+    </g>
+</svg>

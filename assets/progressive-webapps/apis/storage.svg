@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="73px" height="73px" viewBox="0 0 73 73" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>progressive-webapps/apis/storage</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
+    </defs>
+    <g id="progressive-webapps/apis/storage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="container" transform="translate(2.000000, 2.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <rect stroke="#424A60" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        </g>
+        <g id="database" transform="translate(15.000000, 13.000000)" fill-rule="nonzero">
+            <path d="M42.6404,7.04 C41.99712,3.11344 32.80728,0 21.56,0 C10.31272,0 1.12288,3.11344 0.4796,7.04 L0.44,7.04 L0.44,7.48 L0.44,17.6 L0.44,18.04 L0.44,18.48 L0.44,28.16 L0.44,28.6 L0.44,29.04 L0.44,39.6 L0.4796,39.6 C1.12288,43.52568 10.3136,46.64 21.56,46.64 C32.8064,46.64 41.99712,43.52568 42.6404,39.6 L42.68,39.6 L42.68,29.04 L42.68,28.6 L42.68,28.16 L42.68,18.48 L42.68,18.04 L42.68,17.6 L42.68,7.48 L42.68,7.04 L42.6404,7.04 Z" id="Shape" fill="#424A60"></path>
+            <g id="Group" transform="translate(0.000000, 28.160000)" fill="#424A60">
+                <path d="M21.56,7.92 C9.8956,7.92 0.44,4.57072 0.44,0.44 L0.44,11.44 L0.4796,11.44 C1.12288,15.36568 10.3136,18.48 21.56,18.48 C32.8064,18.48 41.99712,15.36568 42.6404,11.44 L42.68,11.44 L42.68,0.44 C42.68,4.57072 33.2244,7.92 21.56,7.92 Z" id="Shape"></path>
+                <path d="M0.44,0 L0.44,0.44 C0.44,0.29216 0.45584,0.14608 0.4796,0 L0.44,0 Z" id="Shape"></path>
+                <path d="M42.6404,0 C42.66416,0.14608 42.68,0.29216 42.68,0.44 L42.68,0 L42.6404,0 Z" id="Shape"></path>
+            </g>
+            <g id="Group" transform="translate(0.000000, 17.600000)" fill="#556080">
+                <path d="M21.56,7.92 C9.8956,7.92 0.44,4.57072 0.44,0.44 L0.44,11.44 L0.4796,11.44 C1.12288,15.36568 10.3136,18.48 21.56,18.48 C32.8064,18.48 41.99712,15.36568 42.6404,11.44 L42.68,11.44 L42.68,0.44 C42.68,4.57072 33.2244,7.92 21.56,7.92 Z" id="Shape"></path>
+                <path d="M0.44,0 L0.44,0.44 C0.44,0.29216 0.45584,0.14608 0.4796,0 L0.44,0 Z" id="Shape"></path>
+                <path d="M42.6404,0 C42.66416,0.14608 42.68,0.29216 42.68,0.44 L42.68,0 L42.6404,0 Z" id="Shape"></path>
+            </g>
+            <ellipse id="Oval" fill="#7FABDA" cx="21.56" cy="7.48" rx="21.12" ry="7.48"></ellipse>
+            <g id="Group" transform="translate(0.000000, 7.040000)" fill="#7383BF">
+                <path d="M21.56,7.92 C9.8956,7.92 0.44,4.57072 0.44,0.44 L0.44,11.44 L0.4796,11.44 C1.12288,15.36568 10.3136,18.48 21.56,18.48 C32.8064,18.48 41.99712,15.36568 42.6404,11.44 L42.68,11.44 L42.68,0.44 C42.68,4.57072 33.2244,7.92 21.56,7.92 Z" id="Shape"></path>
+                <path d="M0.44,0 L0.44,0.44 C0.44,0.29216 0.45584,0.14608 0.4796,0 L0.44,0 Z" id="Shape"></path>
+                <path d="M42.6404,0 C42.66416,0.14608 42.68,0.29216 42.68,0.44 L42.68,0 L42.6404,0 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
