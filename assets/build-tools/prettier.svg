@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="74px" height="73px" viewBox="0 0 74 73" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>build-tools/prettier</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
+    </defs>
+    <g id="build-tools/prettier" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="container" transform="translate(2.000000, 2.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <rect stroke="#B33F3F" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        </g>
+        <g id="68747470733a2f2f63646e2e7261776769742e636f6d2f70726574746965722f70726574746965722d6c6f676f2f6d61737465722f696d616765732f70726574746965722d69636f6e2d6c696768742e737667" transform="translate(15.000000, 15.000000)" fill-rule="nonzero">
+            <g id="line-11" transform="translate(0.000000, 41.904762)">
+                <rect id="line-11-dash-3" fill="#CFD4D7" opacity="0.5" x="31.4285714" y="0" width="12.5714286" height="2.0952381" rx="1.04761905"></rect>
+                <rect id="line-11-dash-2" fill="#CFD4D7" opacity="0.5" x="14.6666667" y="0" width="14.6666667" height="2.0952381" rx="1.04761905"></rect>
+                <rect id="line-11-dash-1" fill="#EA5E5E" x="0" y="0" width="12.5714286" height="2.0952381" rx="1.04761905"></rect>
+            </g>
+            <g id="line-10" transform="translate(0.000000, 37.714286)">
+                <rect id="line-10-dash-5" fill="#CFD4D7" opacity="0.5" x="33.5238095" y="0" width="10.4761905" height="2.0952381" rx="1.04761905"></rect>
+                <rect id="line-10-dash-4" fill="#CFD4D7" opacity="0.5" x="27.2380952" y="0" width="4.19047619" height="2.0952381" rx="1.04761905"></rect>
+                <rect id="line-10-dash-3" fill="#CFD4D7" opacity="0.5" x="14.6666667" y="0" width="10.4761905" height="2.0952381" rx="1.04761905"></rect>
+                <rect id="line-10-dash-2" fill="#F7B93E" x="8.38095238" y="0" width="4.19047619" height="2.0952381" rx="1.04761905"></rect>
+                <rect id="line-10-dash-1" fill="#56B3B4" x="0" y="0" width="6.28571429" height="2.0952381" rx="1.04761905"></rect>
+            </g>
+            <g id="line-9" transform="translate(0.000000, 33.523810)">
+                <rect id="line-9-dash-3" fill="#CFD4D7" opacity="0.5" x="23.047619" y="0" width="20.952381" height="2.0952381" rx="1.04761905"></rect>
+                <rect id="line-9-dash-2" fill="#CFD4D7" opacity="0.5" x="14.6666667" y="0" width="6.28571429" height="2.0952381" rx="1.04761905"></rect>
+                <rect id="line-9-dash-1" fill="#BF85BF" x="0" y="0" width="12.5714286" height="2.0952381" rx="1.04761905"></rect>
+            </g>
+            <g id="line-8" transform="translate(0.000000, 29.333333)">
+                <rect id="line-8-dash-4" fill="#CFD4D7" opacity="0.5" x="37.7142857" y="0" width="6.28571429" height="2.0952381" rx="1.04761905"></rect>
+                <rect id="line-8-dash-3" fill="#CFD4D7" opacity="0.5" x="29.3333333" y="0" width="6.28571429" height="2.0952381" rx="1.04761905"></rect>
+                <rect id="line-8-dash-2" fill="#F7B93E" x="6.28571429" y="0" width="20.952381" height="2.0952381" rx="1.04761905"></rect>
+                <rect id="line-8-dash-1" fill="#BF85BF" x="0" y="0" width="4.19047619" height="2.0952381" rx="1.04761905"></rect>
+            </g>
+            <g id="line-7" transform="translate(0.000000, 25.142857)">
+                <rect id="line-7-dash-4" fill="#CFD4D7" opacity="0.5" x="35.6190476" y="0" width="8.38095238" height="2.0952381" rx="1.04761905"></rect>
+                <rect id="line-7-dash-3" fill="#BF85BF" x="25.1428571" y="0" width="8.38095238" height="2.0952381" rx="1.04761905"></rect>
+                <rect id="line-7-dash-2" fill="#EA5E5E" x="12.5714286" y="0" width="10.4761905" height="2.0952381" rx="1.04761905"></rect>
+                <rect id="line-7-dash-1" fill="#56B3B4" x="0" y="0" width="10.4761905" height="2.0952381" rx="1.04761905"></rect>
+            </g>
+            <g id="line-6" transform="translate(0.000000, 20.952381)">
+                <rect id="line-6-dash-4" fill="#CFD4D7" opacity="0.5" x="37.7142857" y="0" width="6.28571429" height="2.0952381" rx="1.04761905"></rect>
+                <rect id="line-6-dash-3" fill="#56B3B4" x="16.7619048" y="0" width="18.8571429" height="2.0952381" rx="1.04761905"></rect>
+                <rect id="line-6-dash-2" fill="#F7B93E" x="6.28571429" y="0" width="8.38095238" height="2.0952381" rx="1.04761905"></rect>
+                <rect id="line-6-dash-1" fill="#EA5E5E" x="0" y="0" width="4.19047619" height="2.0952381" rx="1.04761905"></rect>
+            </g>
+            <g id="line-5" transform="translate(0.000000, 16.761905)">
+                <rect id="line-5-dash-4" fill="#CFD4D7" opacity="0.5" x="39.8095238" y="0" width="4.19047619" height="2.0952381" rx="1.04761905"></rect>
+                <rect id="line-5-dash-3" fill="#F7B93E" x="25.1428571" y="0" width="12.5714286" height="2.0952381" rx="1.04761905"></rect>
+                <rect id="line-5-dash-2" fill="#CFD4D7" opacity="0.5" x="14.6666667" y="0" width="8.38095238" height="2.0952381" rx="1.04761905"></rect>
+                <rect id="line-5-dash-1" fill="#BF85BF" x="0" y="0" width="12.5714286" height="2.0952381" rx="1.04761905"></rect>
+            </g>
+            <g id="line-4" transform="translate(0.000000, 12.571429)">
+                <rect id="line-4-dash-5" fill="#CFD4D7" opacity="0.5" x="39.8095238" y="0" width="4.19047619" height="2.0952381" rx="1.04761905"></rect>
+                <rect id="line-4-dash-4" fill="#EA5E5E" x="25.1428571" y="0" width="12.5714286" height="2.0952381" rx="1.04761905"></rect>
+                <rect id="line-4-dash-3" fill="#CFD4D7" opacity="0.5" x="14.6666667" y="0" width="8.38095238" height="2.0952381" rx="1.04761905"></rect>
+                <rect id="line-4-dash-2" fill="#56B3B4" x="8.38095238" y="0" width="4.19047619" height="2.0952381" rx="1.04761905"></rect>
+                <rect id="line-4-dash-1" fill="#F7B93E" x="0" y="0" width="6.28571429" height="2.0952381" rx="1.04761905"></rect>
+            </g>
+            <g id="line-3" transform="translate(0.000000, 8.380952)">
+                <rect id="line-3-dash-4" fill="#CFD4D7" opacity="0.5" x="37.7142857" y="0" width="6.28571429" height="2.0952381" rx="1.04761905"></rect>
+                <rect id="line-3-dash-3" fill="#56B3B4" x="31.4285714" y="0" width="4.19047619" height="2.0952381" rx="1.04761905"></rect>
+                <rect id="line-3-dash-2" fill="#BF85BF" x="18.8571429" y="0" width="10.4761905" height="2.0952381" rx="1.04761905"></rect>
+                <rect id="line-3-dash-1" fill="#56B3B4" x="0" y="0" width="16.7619048" height="2.0952381" rx="1.04761905"></rect>
+            </g>
+            <g id="line-2" transform="translate(0.000000, 4.190476)">
+                <rect id="line-2-dash-3" fill="#CFD4D7" opacity="0.5" x="35.6190476" y="0" width="8.38095238" height="2.0952381" rx="1.04761905"></rect>
+                <rect id="line-2-dash-2" fill="#F7B93E" x="10.4761905" y="0" width="23.047619" height="2.0952381" rx="1.04761905"></rect>
+                <rect id="line-2-dash-1" fill="#EA5E5E" x="0" y="0" width="8.38095238" height="2.0952381" rx="1.04761905"></rect>
+            </g>
+            <g id="line-1">
+                <rect id="line-1-dash-2" fill="#CFD4D7" opacity="0.5" x="29.3333333" y="0" width="14.6666667" height="2.0952381" rx="1.04761905"></rect>
+                <rect id="line-1-dash-1" fill="#56B3B4" x="0" y="0" width="27.2380952" height="2.0952381" rx="1.04761905"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

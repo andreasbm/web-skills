@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="74px" height="73px" viewBox="0 0 74 73" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>testing/white-box-testing</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
+    </defs>
+    <g id="testing/white-box-testing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="container" transform="translate(2.000000, 2.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <rect stroke="#523F2B" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        </g>
+        <g id="packing-(1)" transform="translate(12.000000, 14.000000)" fill-rule="nonzero">
+            <polygon id="Shape" fill="#F0DCBE" points="24.9999023 0.0189453125 3.87441406 9.76914062 24.9999023 19.5193359 46.1254883 9.76914062"></polygon>
+            <path d="M45.653418,35.1751953 L25,44.7075195 L25,19.5193359 L46.1255859,9.76914062 L46.1255859,34.4374023 C46.1254883,34.7542969 45.9412109,35.0422852 45.653418,35.1751953 Z" id="Shape" fill="#EBD2AF"></path>
+            <path d="M4.34638672,35.1751953 L24.9999023,44.7075195 L24.9999023,19.5193359 L3.87441406,9.76914062 L3.87441406,34.4373047 C3.87441406,34.7542969 4.05869141,35.0422852 4.34638672,35.1751953 Z" id="Shape" fill="#D2B493"></path>
+            <path d="M46.1254883,9.76914062 L24.9999023,19.5193359 L28.7753906,30.8459961 C28.9285156,31.3053711 29.4470703,31.5296875 29.8867188,31.3268555 L49.5276367,22.2618164 C49.9035156,22.0882812 50.0888672,21.6598633 49.9579102,21.2670898 L46.1254883,9.76914062 Z" id="Shape" fill="#F0DCBE"></path>
+            <path d="M3.87441406,9.76914062 L25,19.5193359 L21.2244141,30.8459961 C21.0712891,31.3053711 20.5527344,31.5296875 20.1130859,31.3268555 L0.472167969,22.2617187 C0.0962890625,22.0881836 -0.0890625,21.6597656 0.0418945312,21.2669922 L3.87441406,9.76914062 Z" id="Shape" fill="#EBD2AF"></path>
+            <polygon id="Shape" fill="#D2B493" points="46.1254883 9.76914062 24.9999023 0.0189453125 24.9999023 19.5193359"></polygon>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="74px" height="73px" viewBox="0 0 74 73" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>build-tools/parcel</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
+    </defs>
+    <g id="build-tools/parcel" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="container" transform="translate(2.000000, 2.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <rect stroke="#2D1C05" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        </g>
+        <g id="package" transform="translate(11.000000, 14.000000)" fill-rule="nonzero">
+            <polygon id="Shape" fill="#D38C0D" points="33.4790323 20.1943548 50.9177419 10.0766129 33.4790323 0.0411290323 16.1225806 10.241129"></polygon>
+            <g id="Group" fill="#EFBB67">
+                <polygon id="Shape" points="17.5209677 20.1943548 34.7951613 10.158871 17.5209677 0.0411290323 0 10.158871"></polygon>
+                <polygon id="Shape" points="42.7741935 35.0008065 25.5 45.1185484 8.22580645 35.0008065 8.22580645 14.8475806 25.5 4.72983871 42.7741935 14.8475806"></polygon>
+            </g>
+            <polyline id="Shape" fill="#D38C0D" points="25.5 4.72983871 42.7741935 14.8475806 42.7741935 35.0008065 25.5 45.1185484"></polyline>
+            <polygon id="Shape" fill="#EFBB67" points="33.5612903 29.4895161 50.9177419 19.5362903 33.4790323 9.41854839 16.0403226 19.5362903"></polygon>
+            <polygon id="Shape" fill="#D38C0D" points="17.5209677 29.6540323 34.8774194 19.4540323 17.5209677 9.41854839 0 19.5362903"></polygon>
+            <polygon id="Shape" fill="#704A0E" points="25.5822581 24.9653226 42.7741935 14.8475806 25.5822581 4.72983871 8.06129032 14.8475806"></polygon>
+            <polyline id="Shape" fill="#513307" points="25.5822581 24.9653226 42.7741935 14.8475806 25.5822581 4.72983871"></polyline>
+            <polygon id="Shape" fill="#2D1C05" points="25.5822581 24.9653226 29.283871 22.7443548 25.5822581 20.6056452 21.8806452 22.7443548"></polygon>
+            <g id="Group" transform="translate(37.838710, 27.556452)" fill="#0DD396">
+                <polygon id="Shape" points="0 8.59596774 4.11290323 6.21048387 4.11290323 4.89435484 0 7.27983871"></polygon>
+                <polygon id="Shape" points="0 6.21048387 4.11290323 3.825 4.11290323 2.50887097 0 4.89435484"></polygon>
+                <polygon id="Shape" points="0 3.825 4.11290323 1.43951613 4.11290323 0.0411290323 0 2.50887097"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

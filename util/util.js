@@ -2,7 +2,8 @@
 export function pathify (name) {
 	return name
 		.replace(/[\s\/]/gm, `-`)
-		.replace(/[']/gm, ``)
+		.replace(/['\.]/gm, ``)
+		.replace(/[&]/gm, `and`)
 		.toLowerCase();
 }
 

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="74px" height="73px" viewBox="0 0 74 73" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>testing/karma</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
+    </defs>
+    <g id="testing/karma" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="container" transform="translate(2.000000, 2.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <rect stroke="#1D745E" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        </g>
+        <g id="download" transform="translate(12.000000, 16.000000)" fill-rule="nonzero">
+            <g id="g10" transform="translate(24.500000, 19.874170) scale(-1, 1) rotate(-180.000000) translate(-24.500000, -19.874170) translate(0.000000, 0.700257)">
+                <g id="g12">
+                    <g id="g14">
+                        <g id="g16-Clipped">
+                            <g id="g16">
+                                <polyline id="path30" fill="#429F87" points="28.576748 11.4064327 36.2226493 0 47.8183333 0 34.2476433 20.0506068 28.576748 11.4064327"></polyline>
+                                <polyline id="path32" fill="#429F87" points="5.5120287 5.0753001 10.8826287 10.1346746 19.4691498 0 13.9571211 20.3295915 8.87089076 12.7471178 5.5120287 5.0753001"></polyline>
+                                <polyline id="path34" fill="#56C5A8" points="5.5120287 5.0753001 13.9571211 20.3295915 8.58775846 15.2679027 0 25.4028522 5.5120287 5.0753001"></polyline>
+                                <polyline id="path36" fill="#56C5A8" points="46.7127058 36.7338731 35.1170217 36.7338731 28.0151121 26.2408377 28.0151121 36.7338731 17.3785399 36.7338731 17.3785399 25.851061 23.0497561 4.94981997 24.3714679 0 28.0151121 0 28.0151121 9.18372034 46.7127058 36.7338731"></polyline>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

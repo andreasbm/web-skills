@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="74px" height="73px" viewBox="0 0 74 73" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>frameworks-and-libraries/vue</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
+    </defs>
+    <g id="frameworks-and-libraries/vue" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="container" transform="translate(2.000000, 2.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <rect stroke="#34495E" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        </g>
+        <g id="Vue.js_Logo_2" transform="translate(11.000000, 14.000000)" fill-rule="nonzero">
+            <g id="Group" transform="translate(26.036066, 22.633736) scale(-1, 1) rotate(-180.000000) translate(-26.036066, -22.633736) translate(0.134827, 0.133669)">
+                <g transform="translate(0.015698, 0.002616)" fill="#41B883" id="Shape">
+                    <polygon points="31.6570702 44.7385042 25.7262097 34.4659157 19.7953491 44.7385042 0.0447385042 44.7385042 25.7262097 0.256396106 51.4076808 44.7385042"></polygon>
+                </g>
+                <g transform="translate(10.219216, 17.793366)" fill="#34495E" id="Shape">
+                    <polygon points="21.4535517 26.947754 15.5226912 16.6751655 9.59183064 26.947754 0.113808475 26.947754 15.5226912 0.259012392 30.9315739 26.947754"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

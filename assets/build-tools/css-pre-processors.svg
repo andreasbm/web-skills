@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="74px" height="73px" viewBox="0 0 74 73" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>build-tools/css-pre-processors</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
+    </defs>
+    <g id="build-tools/css-pre-processors" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="container" transform="translate(2.000000, 2.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <rect stroke="#34475C" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        </g>
+        <g id="microwave-oven" transform="translate(13.000000, 19.000000)" fill-rule="nonzero">
+            <polygon id="Shape" fill="#F6BB00" points="0 0 47 0 47 31.6034483 0 31.6034483"></polygon>
+            <polygon id="Shape" fill="#EDA600" points="32.4137931 0 47 0 47 31.6034483 32.4137931 31.6034483"></polygon>
+            <polygon id="Shape" fill="#84D8E8" points="3.24137931 6.48275862 25.1206897 6.48275862 25.1206897 24.3103448 3.24137931 24.3103448"></polygon>
+            <polygon id="Shape" fill="#4D6378" points="32.4137931 6.48275862 43.7586207 6.48275862 43.7586207 24.3103448 32.4137931 24.3103448"></polygon>
+            <polygon id="Shape" fill="#6DC1D6" points="28.362069 6.48275862 32.4137931 6.48275862 32.4137931 24.3103448 28.362069 24.3103448"></polygon>
+            <polygon id="Shape" fill="#4D6378" points="25.1206897 4.05172414 28.362069 4.05172414 28.362069 27.5517241 25.1206897 27.5517241"></polygon>
+            <polygon id="Shape" fill="#02C26A" points="34.8448276 8.9137931 41.3275862 8.9137931 41.3275862 10.5344828 34.8448276 10.5344828"></polygon>
+            <g id="Group" transform="translate(34.844828, 12.155172)" fill="#34475C">
+                <polygon id="Shape" points="0 8.10344828 6.48275862 8.10344828 6.48275862 9.72413793 0 9.72413793"></polygon>
+                <polygon id="Shape" points="0 0 1.62068966 0 1.62068966 1.62068966 0 1.62068966"></polygon>
+                <polygon id="Shape" points="2.43103448 0 4.05172414 0 4.05172414 1.62068966 2.43103448 1.62068966"></polygon>
+                <polygon id="Shape" points="4.86206897 0 6.48275862 0 6.48275862 1.62068966 4.86206897 1.62068966"></polygon>
+                <polygon id="Shape" points="0 2.43103448 1.62068966 2.43103448 1.62068966 4.05172414 0 4.05172414"></polygon>
+                <polygon id="Shape" points="2.43103448 2.43103448 4.05172414 2.43103448 4.05172414 4.05172414 2.43103448 4.05172414"></polygon>
+                <polygon id="Shape" points="4.86206897 2.43103448 6.48275862 2.43103448 6.48275862 4.05172414 4.86206897 4.05172414"></polygon>
+                <polygon id="Shape" points="0 4.86206897 1.62068966 4.86206897 1.62068966 6.48275862 0 6.48275862"></polygon>
+                <polygon id="Shape" points="2.43103448 4.86206897 4.05172414 4.86206897 4.05172414 6.48275862 2.43103448 6.48275862"></polygon>
+                <polygon id="Shape" points="4.86206897 4.86206897 6.48275862 4.86206897 6.48275862 6.48275862 4.86206897 6.48275862"></polygon>
+            </g>
+            <polygon id="Shape" fill="#DE9400" points="44.5689655 31.6034483 42.137931 34.8448276 4.86206897 34.8448276 2.43103448 31.6034483"></polygon>
+            <path d="M25.1206897,21.8793103 L10.5344828,21.8793103 C9.4598987,21.8793103 8.42932682,21.4524335 7.66948115,20.6925878 C6.90963547,19.9327421 6.48275862,18.9021703 6.48275862,17.8275862 L25.1206897,17.8275862 L25.1206897,21.8793103 Z" id="Shape" fill="#E5E7E9"></path>
+            <polygon id="Shape" fill="#D8DBDD" points="12.1551724 21.8793103 25.1206897 21.8793103 25.1206897 24.3103448 12.1551724 24.3103448"></polygon>
+            <polygon id="Shape" fill="#D8DBDD" points="28.362069 17.8275862 32.4137931 17.8275862 32.4137931 21.8793103 28.362069 21.8793103"></polygon>
+            <polygon id="Shape" fill="#CBCFD2" points="28.362069 21.8793103 32.4137931 21.8793103 32.4137931 24.3103448 28.362069 24.3103448"></polygon>
+        </g>
+    </g>
+</svg>

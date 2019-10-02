@@ -9,6 +9,7 @@ export const basicCollection = {
 					description: {
 						text: "Learn the basic HTML syntax and get a feeling for how to structure a HTML document.",
 						links: [
+							["Mozilla - HTML Basics", "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics"],
 							["Codecademy - Learn HTML", "https://www.codecademy.com/learn/learn-html"]
 						]
 					}
@@ -24,6 +25,19 @@ export const basicCollection = {
 							["w3schools - HTML Elements", "https://www.w3schools.com/tags/ref_byfunc.asp"]
 						]
 					},
+					skills: [
+						{
+							name: "Basic Tags",
+							description: {
+								text: "Get familiar with the basic HTML tags",
+								links: [
+									["Tutorialspoint - Basic HTML tags", "https://www.tutorialspoint.com/html/html_basic_tags.htm"],
+									["Elated - First 10 HTML tags", "https://www.elated.com/first-10-html-tags/"],
+									["w3schools - HTML tags", "https://www.w3schools.com/tags/ref_byfunc.asp"]
+								]
+							}
+						}
+					]
 				},
 				{
 					name: "SEO",
@@ -54,7 +68,8 @@ export const basicCollection = {
 					description: {
 						text: "Learn how to design efficient forms, validating them effectively and keeping the user informed along the way.",
 						links: [
-							["Google Web - Forms", "https://developers.google.com/web/fundamentals/design-and-ux/input/forms/"]
+							["Google Web - Forms", "https://developers.google.com/web/fundamentals/design-and-ux/input/forms/"],
+							["w3schools - Forms", "https://www.w3schools.com/html/html_forms.asp"]
 						]
 					}
 				},
@@ -67,6 +82,15 @@ export const basicCollection = {
 						]
 					}
 				},
+				{
+					name: "Best Practices",
+					description: {
+						text: "Learn the best practices of writing HTML.",
+						links: [
+							["w3schools - HTML Coding Conventions", "https://www.w3schools.com/html/html5_syntax.asp"]
+						]
+					}
+				}
 			]
 		},
 		{
@@ -75,7 +99,11 @@ export const basicCollection = {
 				{
 					name: "Syntax",
 					description: {
-						text: "Learn the basic CSS syntax and get comfortable with CSS classes and selectors."
+						text: "Learn the basic CSS syntax and get comfortable with CSS classes and selectors.",
+						links: [
+							["Mozilla - CSS Basics", "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics"],
+							["w3schools - CSS Tutorial", "https://www.w3schools.com/css/default.asp"]
+						]
 					}
 				},
 				{
@@ -199,6 +227,15 @@ export const basicCollection = {
 					description: {
 						text: "Learn how to define and use CSS variables."
 					}
+				},
+				{
+					name: "Best Practices",
+					description: {
+						text: "Learn the best practices of writing CSS.",
+						links: [
+							["Speckyboy - Good and bad CSS practices", "https://speckyboy.com/good-bad-css-practices/"]
+						]
+					}
 				}
 			]
 		},
@@ -208,7 +245,10 @@ export const basicCollection = {
 				{
 					name: "Syntax",
 					description: {
-						text: "Learn the basic Javascript syntax and get comfortable with the basic API's, data types and how to create variables."
+						text: "Learn the basic Javascript syntax and get comfortable with the basic API's, data types and how to create variables.",
+						links: [
+							["Mozilla - Javascript Basics", "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics"]
+						]
 					}
 				},
 				{
@@ -318,6 +358,16 @@ export const basicCollection = {
 					name: "Canvas",
 					description: {
 						text: "Learn how to paint graphics onto a canvas."
+					}
+				},
+				{
+					name: "Best Practices",
+					description: {
+						text: "Learn the best practices of writing Javascript.",
+						links: [
+							["w3schools - JS Best Practices", "https://www.w3schools.com/js/js_best_practices.asp"],
+							["Airbnb - JavaScript Style Guide", "https://github.com/airbnb/javascript"]
+						]
 					}
 				}
 			]
@@ -456,9 +506,6 @@ export const webcomponentsCollection = {
 				{
 					name: "Best practices"
 				},
-				{
-					name: "lit-element"
-				}
 			]
 		}
 	]
@@ -510,7 +557,13 @@ export const pwaCollection = {
 			name: "API's",
 			skills: [
 				{
-					name: "Storage"
+					name: "Storage",
+					description: {
+						text: "",
+						links: [
+							["Mozilla - Storage API", "https://developer.mozilla.org/en-US/docs/Web/API/Storage_API"]
+						]
+					}
 				},
 				{
 					name: "Routing",
@@ -598,13 +651,34 @@ export const pwaCollection = {
 			name: "Rendering Performance",
 			skills: [
 				{
+					name: "Event loop",
+					skills: [
+						{
+							name: "Heap"
+						},
+						{
+							name: "Stack"
+						},
+						{
+							name: "Microtask"
+						}
+					]
+				},
+				{
 					name: "RAIL Model",
 					skills: [
 						{
 							name: "requestAnimationFrame"
 						},
 						{
-							name: "requestIdleCallback"
+							name: "requestIdleCallback",
+							description: {
+								text: "",
+								links: [
+									["Mozilla - Background Tasks API", "https://developer.mozilla.org/en-US/docs/Web/API/Background_Tasks_API"],
+									["Google Dev - requestIdleCallback", "https://developers.google.com/web/updates/2015/08/using-requestidlecallback?hl=en"]
+								]
+							}
 						}
 					]
 				},
@@ -683,9 +757,6 @@ export const architectureCollection = {
 					]
 				},
 				{
-					name: "BEM Pattern"
-				},
-				{
 					name: "Design Patterns",
 					skills: [
 						{
@@ -712,22 +783,8 @@ export const architectureCollection = {
 					]
 				},
 				{
-					name: "IFFE"
+					name: "BEM Pattern"
 				},
-				{
-					name: "Event loop",
-					skills: [
-						{
-							name: "Heap"
-						},
-						{
-							name: "Stack"
-						},
-						{
-							name: "Microtask"
-						}
-					]
-				}
 
 			]
 		}
@@ -784,15 +841,65 @@ export const buildtoolsCollection = {
 					]
 				},
 				{
-					name: "CSS Pre-processors",
+					name: "Transpilers",
+					description: {
+						text: "",
+						links: [
+							["Scotch - Javascript Transpilers", "https://scotch.io/tutorials/javascript-transpilers-what-they-are-why-we-need-them"]
+						]
+					},
 					skills: [
 						{
-							name: "SASS"
+							name: "Babel",
+							description: {
+								text: "",
+								links: [
+									["Babel", "https://babeljs.io/"]
+								]
+							}
+						}
+					]
+				},
+				{
+					name: "CSS Pre-processors",
+					description: {
+						text: "",
+
+					},
+					skills: [
+						{
+							name: "SASS",
+							description: {
+								text: "",
+								links: [
+									["SASS", "https://sass-lang.com/"]
+								]
+							}
+						},
+						{
+							name: "PostCSS",
+							description: {
+								text: "",
+								links: [
+									["PostCSS", "https://postcss.org/"]
+								]
+							}
 						}
 					]
 				},
 				{
 					name: "Typescript"
+				},
+				{
+					name: "Node.js",
+					description: {
+						text: "",
+						links: [
+							["Node.js", "https://nodejs.org"],
+							["Introduction to Node.js", "https://nodejs.dev/"],
+							["w3schools - Node.js tutorial", "https://www.w3schools.com/nodejs/"]
+						]
+					}
 				}
 			]
 		}
@@ -805,13 +912,120 @@ export const testingCollection = {
 		{
 			skills: [
 				{
-					name: "Mocha"
+					name: "Testing Methodologies",
+					skills: [
+						{
+							name: "Unit Testing"
+						},
+						{
+							name: "Integration Testing"
+						},
+						{
+							name: "Performance Testing"
+						},
+						{
+							name: "Usability Testing"
+						},
+						{
+							name: "White Box Testing"
+						},
+						{
+							name: "Black Box Testing"
+						},
+						{
+							name: "Automated Testing"
+						},
+						{
+							name: "Manual Testing"
+						},
+					]
 				},
 				{
-					name: "Karma"
+					name: "Continuous integration"
 				},
 				{
-					name: "Cypress"
+					name: "A/B Testing"
+				},
+				{
+					name: "Test Runners",
+					description: {
+						text: "",
+						links: [
+							["Udacity - Javascript Testing", "https://www.udacity.com/course/javascript-testing--ud549"]
+						]
+					},
+					skills: [
+						{
+							name: "Mocha",
+							description: {
+								text: "",
+								links: [
+									["Mocha", "https://mochajs.org/"]
+								]
+							}
+						},
+						{
+							name: "Karma",
+							description: {
+								text: "",
+								links: [
+									["Karma", "https://karma-runner.github.io/latest/index.html"]
+								]
+							}
+						},
+						{
+							name: "Jasmine",
+							description: {
+								text: "",
+								links: [
+									["Jasmine", "https://jasmine.github.io/"]
+								]
+							}
+						},
+						{
+							name: "Cypress",
+							description: {
+								text: "",
+								links: [
+									["Cypress", "https://www.cypress.io/"]
+								]
+							}
+						}
+					]
+				},
+				{
+					name: "Best Practices",
+					description: {
+						text: "",
+						links: [
+							["Javascript Testing Best Practices", "https://github.com/goldbergyoni/javascript-testing-best-practices"]
+						]
+					}
+				}
+			]
+		}
+	]
+}
+
+export const frameworksAndLibrariesCollection = {
+	name: "Frameworks & Libraries",
+	areas: [
+		{
+			skills: [
+				{
+					name: "lit-element"
+				},
+				{
+					name: "Vue"
+				},
+				{
+					name: "React"
+				},
+				{
+					name: "Angular"
+				},
+				{
+					name: "Stencil"
 				}
 			]
 		}
@@ -824,21 +1038,21 @@ export const advancedCollection = {
 		{
 			skills: [
 				{
-					name: "Media",
+					name: "Streams",
 					skills: [
 						{
-							name: "Capture images",
-						},
-						{
-							name: "Capture video"
-						},
-						{
-							name: "Record audio"
+							name: "Media Devices",
 						},
 						{
 							name: "Media Recorder"
+						},
+						{
+							name: "Web RTC"
 						}
 					]
+				},
+				{
+					name: "Speech Synthesis"
 				},
 				{
 					name: "Web Sockets"
@@ -859,30 +1073,116 @@ export const advancedCollection = {
 					name: "HTTPS 2"
 				},
 				{
-					name: "Web USB"
-				},
-				{
 					name: "Payment Request API"
 				},
 				{
 					name: "Web Bluetooth"
 				},
 				{
+					name: "Web USB"
+				},
+				{
 					name: "Credentials Manager API"
 				},
 				{
-					name: "Mutation Observer"
-				},
-				{
-					name: "Intersection Observer"
+					name: "Observers",
+					skills: [
+						{
+							name: "Mutation Observer"
+						},
+						{
+							name: "Intersection Observer"
+						},
+						{
+							name: "Resize Observer"
+						},
+					]
 				},
 				{
 					name: "Scrollsnapping"
+				},
+				{
+					name: "Web Assembly"
+				},
+				{
+					name: "Beacon",
+					description: {
+						text: "",
+						links: [
+							["Mozilla - sendBeacon", "https://developer.mozilla.org/en-US/docs/Web/API/Navigator/sendBeacon"]
+						]
+					}
+				},
+				{
+					name: "Clipboard",
+					description: {
+						text: "",
+						links: [
+							["Mozilla - Clipboard", "https://developer.mozilla.org/en-US/docs/Web/API/Navigator/clipboard"]
+						]
+					}
+				},
+				{
+					name: "Share",
+					description: {
+						text: "",
+						links: [
+							["Mozilla - Share", "https://developer.mozilla.org/en-US/docs/Web/API/Navigator/share"]
+						]
+					}
 				}
 			]
 		}
 	]
 }
+
+export const teamCollaborationCollection = {
+	name: "Team Collaboration",
+	areas: [
+		{
+			name: "Version Control",
+			skills: [
+				{
+					name: "Git",
+					description: {
+						text: "",
+						links: [
+							["Learn Git Branching", "https://learngitbranching.js.org/"]
+						]
+					},
+					skills: [
+						{
+							name: "Github"
+						},
+						{
+							name: "Bitbucket"
+						}
+					]
+				}
+			]
+		},
+		{
+			name: "Management",
+			skills: [
+				{
+					name: "Agile Development",
+					skills: [
+						{
+							name: "Scrum"
+						},
+						{
+							name: "Kanban"
+						},
+					]
+				},
+				{
+					name: "Waterfall Development"
+				}
+			]
+		},
+	]
+}
+
 
 export const collections = [
 	basicCollection,
@@ -892,5 +1192,7 @@ export const collections = [
 	architectureCollection,
 	buildtoolsCollection,
 	testingCollection,
-	advancedCollection
+	frameworksAndLibrariesCollection,
+	advancedCollection,
+	teamCollaborationCollection
 ]

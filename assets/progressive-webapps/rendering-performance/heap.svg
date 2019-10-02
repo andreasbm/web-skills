@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="74px" height="73px" viewBox="0 0 74 73" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>progressive-webapps/rendering-performance/heap</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
+    </defs>
+    <g id="progressive-webapps/rendering-performance/heap" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="container" transform="translate(2.000000, 2.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <rect stroke="#371C93" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        </g>
+        <g id="layers-(1)" transform="translate(14.000000, 14.000000)" fill-rule="nonzero">
+            <polygon id="Shape" fill="#CABBFF" points="44.9611765 12.7552941 22.5 25.5882353 0.0388235294 12.7552941 22.5 0"></polygon>
+            <polygon id="Shape" fill="#9178EB" points="22.5 25.5882353 8.55882353 17.6232353 0.0388235294 22.4611765 22.5 35.2941176 44.9611765 22.4611765 36.4411765 17.6232353"></polygon>
+            <polygon id="Shape" fill="#6C48EA" points="22.5 35.2941176 8.55882353 27.3291176 0.0388235294 32.1670588 22.5 45 44.9611765 32.1670588 36.4411765 27.3291176"></polygon>
+        </g>
+    </g>
+</svg>

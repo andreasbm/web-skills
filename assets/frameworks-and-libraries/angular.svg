@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="74px" height="73px" viewBox="0 0 74 73" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>frameworks-and-libraries/angular</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
+    </defs>
+    <g id="frameworks-and-libraries/angular" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="container" transform="translate(2.000000, 2.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <rect stroke="#78011E" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        </g>
+        <g id="Angular_full_color_logo" transform="translate(13.000000, 11.000000)" fill-rule="nonzero">
+            <polygon id="Shape" fill="#DD0031" points="23.81 0 23.81 0 23.81 0 0.227968085 8.40948936 3.82479787 39.5904574 23.81 50.6595745 23.81 50.6595745 23.81 50.6595745 43.7952021 39.5904574 47.3920319 8.40948936"></polygon>
+            <polygon id="Shape" fill="#C3002F" points="23.81 0 23.81 5.62321277 23.81 5.59788298 23.81 31.2569574 23.81 31.2569574 23.81 50.6595745 23.81 50.6595745 43.7952021 39.5904574 47.3920319 8.40948936"></polygon>
+            <path d="M23.81,5.59788298 L9.06806383,38.6532553 L14.5646277,38.6532553 L17.5282128,31.2569574 L30.0411277,31.2569574 L33.0047128,38.6532553 L38.5012766,38.6532553 L23.81,5.59788298 Z M28.1160638,26.6975957 L19.5039362,26.6975957 L23.81,16.3377128 L28.1160638,26.6975957 Z" id="Shape" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>
