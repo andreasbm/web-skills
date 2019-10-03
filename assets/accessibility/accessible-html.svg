@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="73px" height="73px" viewBox="0 0 73 73" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>accessibility/accessible-html</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
+    </defs>
+    <g id="accessibility/accessible-html" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="container" transform="translate(2.000000, 2.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <rect stroke="#7F3208" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        </g>
+        <g id="html" transform="translate(17.000000, 14.000000)" fill-rule="nonzero">
+            <rect id="Rectangle-path" fill="#D8D7DA" x="3.12" y="3.12" width="32.76" height="42.12" rx="2"></rect>
+            <rect id="Rectangle-path" fill="#E6E7E8" x="0" y="0" width="32.76" height="42.12" rx="2"></rect>
+            <path d="M3.12,43.68 L32.76,43.68 C33.6204975,43.6774301 34.3174301,42.9804975 34.32,42.12 L34.32,3.12 L32.76,3.12 L32.76,40.56 C32.7574301,41.4204975 32.0604975,42.1174301 31.2,42.12 L3.12,42.12 L3.12,43.68 Z" id="Shape" fill="#C6C5CA"></path>
+            <polygon id="Shape" fill="#F36518" points="7.8 0 7.8 5.46 6.24 3.12 4.68 5.46 4.68 0"></polygon>
+            <polygon id="Shape" fill="#ACABB1" points="32.76 28.86 34.32 28.86 34.32 30.42 32.76 30.42"></polygon>
+            <polygon id="Shape" fill="#C6C5CA" points="34.32 28.86 35.88 28.86 35.88 30.42 34.32 30.42"></polygon>
+            <path d="M32.76,15.3738 L32.76,40.56 C32.7574301,41.4204975 32.0604975,42.1174301 31.2,42.12 L4.2978,42.12 C9.97915399,38.7793864 15.2986253,34.8584002 20.1708,30.42 C20.7246,29.9208 21.2784,29.3982 21.8244,28.86 C26.024727,24.8446619 29.6992055,20.3131546 32.76,15.3738 Z" id="Shape" fill="#E0E0E2"></path>
+            <path d="M32.76,28.86 L32.76,30.42 L9.36,30.42 C8.49950254,30.4174301 7.80256994,29.7204975 7.8,28.86 L32.76,28.86 Z" id="Shape" fill="#D1D3D4"></path>
+            <path d="M32.76,28.86 L32.76,30.42 L20.1708,30.42 C20.7246,29.9208 21.2784,29.3982 21.8244,28.86 L32.76,28.86 Z" id="Shape" fill="#BCBEC0"></path>
+            <rect id="Rectangle-path" fill="#F36518" x="6.24" y="10.14" width="32.76" height="18.72" rx="2"></rect>
+            <g id="Group" transform="translate(8.580000, 14.820000)" fill="#FFFFFF">
+                <polygon id="Shape" points="4.68 3.9 1.56 3.9 1.56 0 0 0 0 9.36 1.56 9.36 1.56 5.46 4.68 5.46 4.68 9.36 6.24 9.36 6.24 0 4.68 0"></polygon>
+                <polygon id="Shape" points="7.8 1.56 10.14 1.56 10.14 9.36 11.7 9.36 11.7 1.56 14.04 1.56 14.04 0 7.8 0"></polygon>
+                <path d="M24.96,7.8 L24.96,0 L23.4,0 L23.4,8.58 C23.4,9.0107821 23.7492179,9.36 24.18,9.36 L28.08,9.36 L28.08,7.8 L24.96,7.8 Z" id="Shape"></path>
+                <path d="M21.35874,0.05928 C21.0671935,-0.0614779842 20.7316087,0.00533108647 20.50854,0.22854 L18.72,2.01708 L16.93146,0.22854 C16.7083845,0.00553182585 16.3729514,-0.0611690867 16.0815294,0.0595311771 C15.7901075,0.180231441 15.6000674,0.4645712 15.6,0.78 L15.6,9.36 L17.16,9.36 L17.16,2.66292 L18.16854,3.67146 C18.4731299,3.97595791 18.9668701,3.97595791 19.27146,3.67146 L20.28,2.66292 L20.28,9.36 L21.84,9.36 L21.84,0.78 C21.8400794,0.464545295 21.6501408,0.180099146 21.35874,0.05928 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

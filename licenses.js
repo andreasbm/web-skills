@@ -18,5 +18,6 @@ export const licenses = [
 	"https://www.flaticon.com/authors/mynamepong",
 	"https://www.flaticon.com/authors/ultimatearm",
 	"https://www.flaticon.com/authors/itim2101",
-	"https://www.flaticon.com/authors/dave-gandy"
+	"https://www.flaticon.com/authors/dave-gandy",
+	"https://www.flaticon.com/authors/itim2101"
 ]

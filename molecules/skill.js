@@ -30,6 +30,7 @@ export class Skill extends LitElement {
 					display: flex;
    				flex-direction: column;
     			align-items: center;
+					outline: none;
 				}
 
 				#skill {
@@ -41,7 +42,7 @@ export class Skill extends LitElement {
 					margin: 0 0 30px;
 				}
 
-				#skill:hover #img {
+				#skill:hover #img, :host(:focus-within) #img, :host(:focus) #img {
 					transform: scale(1.03);
 				}
 
@@ -179,6 +180,19 @@ export class Skill extends LitElement {
 		];
 	}
 
+	constructor () {
+		super();
+		this.tabIndex = 0;
+	}
+
+	onKeyDown (e) {
+		switch (e.code) {
+			case "Escape":
+				this.focus();
+				break;
+		}
+	}
+
 	render () {
 		const {skill, collection, area} = this;
 		const {description, name, skills} = skill;
@@ -187,7 +201,7 @@ export class Skill extends LitElement {
 				<img id="img" loading="lazy" src="${constructImagePathPrefix(collection, area, skill)}" />
 				<h6 id="title">${name}</h6>
 				${description != null && (description.text != null || description.links != null) ? html`
-					<div id="description">
+					<div id="description" @keydown="${this.onKeyDown}">
 						<p class="text">${description.text}</p>
 						${description.links != null && description.links.length > 0 ? html`
 							<ul class="links">
