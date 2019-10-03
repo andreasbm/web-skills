@@ -60,6 +60,15 @@ export const advancedCollection = {
 					name: "Credentials Manager API"
 				},
 				{
+					name: "Houdini",
+					description: {
+						text: "",
+						links: [
+							["web.dev - Smarter custom properties", "https://web.dev/css-props-and-vals/"]
+						]
+					}
+				},
+				{
 					name: "Observers",
 					skills: [
 						{

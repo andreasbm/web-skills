@@ -4,7 +4,13 @@ export const frameworksAndLibrariesCollection = {
 		{
 			skills: [
 				{
-					name: "lit-element"
+					name: "lit-element",
+					description: {
+						text: "",
+						links: [
+							["lit-element", "https://lit-element.polymer-project.org/"]
+						]
+					}
 				},
 				{
 					name: "Vue"

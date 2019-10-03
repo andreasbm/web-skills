@@ -317,7 +317,10 @@ export const basicCollection = {
 				{
 					name: "Promises",
 					description: {
-						text: "Learn how to use promises and what asynchronous code means."
+						text: "Learn how to use promises and what asynchronous code means.",
+						links: [
+							["Chrome Devs - JavaScript Promises: an Introduction", "https://developers.google.com/web/fundamentals/primers/promises"]
+						]
 					},
 					skills: [
 						{
@@ -329,7 +332,10 @@ export const basicCollection = {
 						{
 							name: "Async/await",
 							description: {
-								text: "Learn how to use the async and await keywords to make it easier to write asynchronous code."
+								text: "Learn how to use the async and await keywords to make it easier to write asynchronous code.",
+								links: [
+									["Chrome Devs - Async functions", "https://developers.google.com/web/fundamentals/primers/async-functions"]
+								]
 							}
 						},
 						{
@@ -365,7 +371,8 @@ export const basicCollection = {
 						text: "Learn how to modularize your code into ES6 modules using the export and import keywords.",
 						links: [
 							["Mozilla - Export", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export"],
-							["Mozilla - Import", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import"]
+							["Mozilla - Import", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import"],
+							["V8 - Modules", "https://v8.dev/features/modules"]
 						]
 					}
 				},

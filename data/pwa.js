@@ -10,7 +10,11 @@ export const pwaCollection = {
 					description: {
 						text: "",
 						links: [
-							["Mozilla - Storage API", "https://developer.mozilla.org/en-US/docs/Web/API/Storage_API"]
+							["Mozilla - Storage", "https://developer.mozilla.org/en-US/docs/Web/API/Storage_API"],
+							["Mozilla - Web Storage API", "https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API"],
+							["Mozilla - Cookies", "https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies"],
+							["Mozilla - IndexedDB API", "https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API"],
+							["Chrome Devs - View And Edit Local Storage", "https://developers.google.com/web/tools/chrome-devtools/storage/localstorage"],
 						]
 					}
 				},
@@ -24,20 +28,59 @@ export const pwaCollection = {
 				},
 				{
 					name: "Service Workers",
+					description: {
+						text: "",
+						links: [
+							["Mozilla - Service Worker API", "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers"],
+							["Chrome Devs - Service Workers: an Introduction", "https://developers.google.com/web/fundamentals/primers/service-workers"]
+							["Chrome Devs - The Service Worker Lifecycle", "https://developers.google.com/web/fundamentals/primers/service-workers/lifecycle"],
+							["Chrome Devs - Service Worker Registration", "https://developers.google.com/web/fundamentals/primers/service-workers/registration"]
+							["Chrome Devs - High-performance service worker loading", "https://developers.google.com/web/fundamentals/primers/service-workers/high-performance-loading"],
+							["Codelabs - Scripting the service worker", "https://codelabs.developers.google.com/codelabs/pwa-scripting-the-service-worker/index.html?index=..%2F..dev-pwa-training#0"],
+							["Codelabs - Caching files with the service worker", "https://codelabs.developers.google.com/codelabs/pwa-caching-service-worker/index.html?index=..%2F..dev-pwa-training#0"],
+						]
+					},
 					skills: [
 						{
-							name: "Offline first"
+							name: "Offline first",
+							description: {
+								text: "",
+								links: [
+									["Codelabs - Offline quickstart", "https://codelabs.developers.google.com/codelabs/pwa-offline-quickstart/index.html?index=..%2F..dev-pwa-training#0"],
+									["Codelabs - Adding a Service Worker and Offline into your Web App", "https://codelabs.developers.google.com/codelabs/offline/index.html?index=..%2F..%2Findex#0"],
+									["Supercharged - Offline Links", "https://www.youtube.com/watch?v=7fnpsF9tMXc"]
+								]
+							}
 						},
 						{
-							name: "Push notifications"
+							name: "Push notifications",
+							description: {
+								text: "",
+								links: [
+									["Chrome Devs - Adding Push Notifications to a Web App", "https://developers.google.com/web/fundamentals/codelabs/push-notifications/"]
+								]
+							}
 						},
-						{
-							name: "Add to homescreen"
-						}
 					]
 				},
 				{
-					name: "Web App manifest"
+					name: "Web App manifest",
+					description: {
+						text: "",
+						links: [
+							["Chrome Devs - Web App Manifest", "https://developers.google.com/web/fundamentals/web-app-manifest/"],
+							["W3C - Web App Manifest", "https://www.w3.org/TR/appmanifest/"]
+						]
+					}
+				},
+				{
+					name: "Add to homescreen",
+					description: {
+						text: "",
+						links: [
+							["Chrome Devs - App Install Banners", "https://developers.google.com/web/fundamentals/app-install-banners/"]
+						]
+					}
 				}
 			]
 		},
@@ -45,7 +88,13 @@ export const pwaCollection = {
 			name: "Loading Performance",
 			skills: [
 				{
-					name: "App shell"
+					name: "App shell",
+					description: {
+						text: "",
+						links: [
+							["Chrome Devs - The App Shell Model", "https://developers.google.com/web/fundamentals/architecture/app-shell"]
+						]
+					}
 				},
 				{
 					name: "Render-Blocking Resources"
