@@ -8,7 +8,7 @@ export const webcomponentsCollection = {
 					description: {
 						text: "Learn how to create new HTML tags with custom elements.",
 						links: [
-							["Chrome Devs - Custom Elements", "https://developers.google.com/web/fundamentals/web-components/customelements"],
+							["Google Devs - Custom Elements", "https://developers.google.com/web/fundamentals/web-components/customelements"],
 							["Mozilla - Using Custom Elements", "https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_custom_elements"],
 							["CSS Tricks - Creating a Custom Element from Scratch", "https://css-tricks.com/creating-a-custom-element-from-scratch/"],
 							["Javascript.info - Custom Elements", "https://javascript.info/custom-elements"],
@@ -22,7 +22,7 @@ export const webcomponentsCollection = {
 					description: {
 						text: "Learn how to encapsulate your CSS using shadow dom.",
 						links: [
-							["Chrome Devs - Shadow DOM", "https://developers.google.com/web/fundamentals/web-components/shadowdom"],
+							["Google Devs - Shadow DOM", "https://developers.google.com/web/fundamentals/web-components/shadowdom"],
 							["Mozilla - Using Shadow DOM", "https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_shadow_DOM"],
 							["Mozilla - Shadow Tree", "https://developer.mozilla.org/en-US/docs/Glossary/Shadow_tree"],
 							["CSS Tricks - Encapsulating Style and Structure", "https://css-tricks.com/encapsulating-style-and-structure-with-shadow-dom/"],
@@ -78,7 +78,7 @@ export const webcomponentsCollection = {
 					description: {
 						text: "Learn how to use constructible stylesheets to create reusable styles when using shadow dom.",
 						links: [
-							["Chrome Devs - Constructable Stylesheets", "https://developers.google.com/web/updates/2019/02/constructable-stylesheets"],
+							["Google Devs - Constructable Stylesheets", "https://developers.google.com/web/updates/2019/02/constructable-stylesheets"],
 							["W3C - Constructable Stylesheet Objects", "https://wicg.github.io/construct-stylesheets/"],
 							["dev.to - Why Would Anyone Use Constructible Stylesheets", "https://dev.to/westbrook/why-would-anyone-use-constructible-stylesheets-anyways-19ng"],
 							["Benjamin Farrel - Adopt a Design System", "https://medium.com/swlh/adopt-a-design-system-inside-your-web-components-with-constructable-stylesheets-dd24649261e"],
@@ -92,7 +92,7 @@ export const webcomponentsCollection = {
 					description: {
 						text: "Get familiar with best practices when it comes to building web components.",
 						links: [
-							["Chrome Devs - Custom Element Best Practices", "https://developers.google.com/web/fundamentals/web-components/best-practices"],
+							["Google Devs - Custom Element Best Practices", "https://developers.google.com/web/fundamentals/web-components/best-practices"],
 							["Webcomponents.org - Web Components Best Practices", "https://www.webcomponents.org/community/articles/web-components-best-practices"],
 							["mateusortiz - Web Components the Right Way", "https://github.com/mateusortiz/webcomponents-the-right-way"]
 						]
@@ -106,7 +106,7 @@ export const webcomponentsCollection = {
 							["Form Participation API Explained", "https://docs.google.com/document/d/1JO8puctCSpW-ZYGU8lF-h4FWRIDQNDVexzHoOQ2iQmY/edit"],
 							["Chrome Status - Form-associated custom elements", "https://www.chromestatus.com/features/4708990554472448"],
 							["web-platform-tests - Form Participation", "https://github.com/web-platform-tests/wpt/tree/master/custom-elements/form-associated"],
-							["Chrome Devs - Form-associated custom elements", "https://developers.google.com/web/updates/2019/09/nic77#form-associated_custom_elements"]
+							["Google Devs - Form-associated custom elements", "https://developers.google.com/web/updates/2019/09/nic77#form-associated_custom_elements"]
 						]
 					}
 				}

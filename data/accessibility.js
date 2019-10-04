@@ -8,7 +8,7 @@ export const accessibilityCollection = {
 					description: {
 						text: "Learn what accessibility is and why it is important.",
 						links: [
-							["Chrome Devs - Accessibility Fundamentals", "https://developers.google.com/web/fundamentals/accessibility/"],
+							["Google Devs - Accessibility Fundamentals", "https://developers.google.com/web/fundamentals/accessibility/"],
 							["A11ycasts with Rob Dodson", "https://www.youtube.com/playlist?list=PLNYkxOF6rcICWx0C9LVWWVqvHlYJyqw7g"],
 							["Udacity - Chromevox Lite", "http://udacity.github.io/ud891/lesson3-semantics-built-in/02-chromevox-lite/"],
 							["Dev.to - Why Accessibility Matters", "https://dev.to/lhoffmanwg1/why-accessibility-matters-39nl"],
@@ -43,8 +43,8 @@ export const accessibilityCollection = {
 							description: {
 								text: "Learn how to use ARIA descriptions an labels to help assstive technology understanding your website.",
 								links: [
-									["Chrome Devs - ARIA Labels", "https://developers.google.com/web/fundamentals/accessibility/semantics-aria/aria-labels-and-relationships"],
-									["Chrome Devs - Hiding and updating content", "https://developers.google.com/web/fundamentals/accessibility/semantics-aria/hiding-and-updating-content"],
+									["Google Devs - ARIA Labels", "https://developers.google.com/web/fundamentals/accessibility/semantics-aria/aria-labels-and-relationships"],
+									["Google Devs - Hiding and updating content", "https://developers.google.com/web/fundamentals/accessibility/semantics-aria/hiding-and-updating-content"],
 									["The A11Y Project - ARIA States", "https://a11yproject.com/posts/ARIA-states/"],
 									["The A11Y Project - ARIA Properties", "https://a11yproject.com/posts/ARIA-properties/"],
 								]
@@ -55,7 +55,7 @@ export const accessibilityCollection = {
 							description: {
 								text: "Learn how to write HTML in such as way that assistive technology better understands it.",
 								links: [
-									["Chrome Devs - Introduction to Semantics", "https://developers.google.com/web/fundamentals/accessibility/semantics-builtin/"],
+									["Google Devs - Introduction to Semantics", "https://developers.google.com/web/fundamentals/accessibility/semantics-builtin/"],
 									["Mozilla - Accessibility HTML", "https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML"],
 									["Webaim - Skip navigation", "https://webaim.org/techniques/skipnav/"],
 									["w3c - Headings", "https://www.w3.org/WAI/tutorials/page-structure/headings/"],
@@ -68,7 +68,7 @@ export const accessibilityCollection = {
 									description: {
 										text: "Learn how to use the alt attribute to provide a useful text alternative to this image.",
 										links: [
-											["Chrome Devs - Text Alternatives for Images", "https://developers.google.com/web/fundamentals/accessibility/semantics-builtin/text-alternatives-for-images"],
+											["Google Devs - Text Alternatives for Images", "https://developers.google.com/web/fundamentals/accessibility/semantics-builtin/text-alternatives-for-images"],
 											["Webaim - Accessible Images", "https://webaim.org/techniques/images/"],
 											["Webaim - Alternative text", "https://webaim.org/techniques/alttext/"],
 										]
@@ -102,7 +102,7 @@ export const accessibilityCollection = {
 					description: {
 						text: "Learn how to make the state of each UI element clear.",
 						links: [
-							["Chrome Devs - Accessible Styles", "https://developers.google.com/web/fundamentals/accessibility/accessible-styles"]
+							["Google Devs - Accessible Styles", "https://developers.google.com/web/fundamentals/accessibility/accessible-styles"]
 						]
 					}
 				},
@@ -121,10 +121,10 @@ export const accessibilityCollection = {
 							description: {
 								text: "Learn how to create a sensible tab order and how to make it easy for the users to locate the currently focused element.",
 								links: [
-									["Chrome Devs - Focus", "https://developers.google.com/web/fundamentals/accessibility/focus/"],
-									["Chrome Devs - Dom Order Matters", "https://developers.google.com/web/fundamentals/accessibility/focus/dom-order-matters"],
-									["Chrome Devs - Using Tabindex", "https://developers.google.com/web/fundamentals/accessibility/focus/using-tabindex"],
-									["Chrome Devs - Track Focus", "https://developers.google.com/web/tools/chrome-devtools/accessibility/focus"],
+									["Google Devs - Focus", "https://developers.google.com/web/fundamentals/accessibility/focus/"],
+									["Google Devs - Dom Order Matters", "https://developers.google.com/web/fundamentals/accessibility/focus/dom-order-matters"],
+									["Google Devs - Using Tabindex", "https://developers.google.com/web/fundamentals/accessibility/focus/using-tabindex"],
+									["Google Devs - Track Focus", "https://developers.google.com/web/tools/chrome-devtools/accessibility/focus"],
 									["W3C - :focus-visible", "https://drafts.csswg.org/selectors-4/#the-focus-visible-pseudo"],
 								]
 							}
@@ -161,12 +161,13 @@ export const accessibilityCollection = {
 							description: {
 								text: "Learn how to conduct an accessibility review to improve the overall experience of using your site. Remember, good accessibility equals good UX!",
 								links: [
-									["Chrome Devs - How to review", "https://developers.google.com/web/fundamentals/accessibility/how-to-review"],
+									["Google Devs - How to review", "https://developers.google.com/web/fundamentals/accessibility/how-to-review"],
 									["Webaim - Accessibility Tools", "https://webaim.org/articles/tools/"],
-									["Chrome Devs - Accessibility Reference", "https://developers.google.com/web/tools/chrome-devtools/accessibility/reference"],
+									["Google Devs - Accessibility Reference", "https://developers.google.com/web/tools/chrome-devtools/accessibility/reference"],
 									["Webaim - Wave", "http://wave.webaim.org/"],
 									["Google Chrome - NoCoffee Extension", "https://chrome.google.com/webstore/detail/nocoffee/jjeeggmbnhckmgdhmgdckeigabjfbddl"],
-									["Digital A11Y - Accessibility Plugins", "https://www.digitala11y.com/accessibility-plug-ins-ie-chrome-firefox-browsers/"]
+									["Digital A11Y - Accessibility Plugins", "https://www.digitala11y.com/accessibility-plug-ins-ie-chrome-firefox-browsers/"],
+									["Google Devs - Accessibility for teams", "https://developers.google.com/web/fundamentals/accessibility/a11y-for-teams"]
 								]
 							}
 						}

@@ -5,15 +5,34 @@ export const advancedCollection = {
 			skills: [
 				{
 					name: "Streams",
+					description: {
+						text: "",
+						links: [
+							["Mozilla - Streams", "https://developer.mozilla.org/en-US/docs/Web/API/Streams_API"]
+						]
+					},
 					skills: [
 						{
-							name: "Media Devices",
+							name: "Media Streams",
+							description: {
+								text: "",
+								links: [
+									["Mozilla - Media Streams API", "https://developer.mozilla.org/en-US/docs/Web/API/Media_Streams_API"]
+									["Mozilla - Image Capture API", "https://developer.mozilla.org/en-US/docs/Web/API/MediaStream_Image_Capture_API"]
+								]
+							}
 						},
 						{
 							name: "Media Recorder"
 						},
 						{
-							name: "Web RTC"
+							name: "Web RTC",
+							description: {
+								text: "",
+								links: [
+									["Mozilla - WebRTC API", "https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API"]
+								]
+							}
 						}
 					]
 				},
@@ -21,7 +40,13 @@ export const advancedCollection = {
 					name: "Speech Synthesis"
 				},
 				{
-					name: "Web Sockets"
+					name: "Web Sockets",
+					description: {
+						text: "",
+						links: [
+							["Mozilla - Websockets API", "https://developer.mozilla.org/en-US/docs/Web/API/Websockets_API"]
+						]
+					}
 				},
 				{
 					name: "User location"
@@ -45,10 +70,31 @@ export const advancedCollection = {
 					name: "Web VR"
 				},
 				{
-					name: "HTTPS 2"
+					name: "HTTP/2",
+					description: {
+						text: "",
+						links: [
+							["Google Devs - Introduction to HTTP/2", "https://developers.google.com/web/fundamentals/performance/http2/"],
+						]
+					},
 				},
 				{
-					name: "Payment Request API"
+					name: "Payment Request API",
+					description: {
+						text: "",
+						links: [
+							["Codelabs - Payment Request API", "https://developers.google.com/web/fundamentals/codelabs/payment-request-api"],
+						]
+					},
+				},
+				{
+					name: "Web Audio",
+					description: {
+						text: "",
+						links: [
+							["Mozilla - Web Audio API", "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API"]
+						]
+					}
 				},
 				{
 					name: "Web Bluetooth"
@@ -78,8 +124,23 @@ export const advancedCollection = {
 							name: "Intersection Observer"
 						},
 						{
-							name: "Resize Observer"
+							name: "Resize Observer",
+							description: {
+								text: "",
+								links: [
+									["Mozilla - Resize Observer API", "https://developer.mozilla.org/en-US/docs/Web/API/Resize_Observer_API"]
+								]
+							}
 						},
+						{
+							name: "Performance Observer",
+							description: {
+								text: "",
+								links: [
+									["Mozilla - Long Tasks API", "https://developer.mozilla.org/en-US/docs/Web/API/Long_Tasks_API"]
+								]
+							}
+						}
 					]
 				},
 				{
@@ -114,6 +175,36 @@ export const advancedCollection = {
 							["Mozilla - Share", "https://developer.mozilla.org/en-US/docs/Web/API/Navigator/share"]
 						]
 					}
+				},
+				{
+					name: "Performance API",
+					description: {
+						text: "",
+						links: [
+							["Mozilla - Performance", "https://developer.mozilla.org/en-US/docs/Web/API/Performance"],
+							["Google Devs - Assessing Loading Performance", "https://developers.google.com/web/fundamentals/performance/navigation-and-resource-timing/"],
+							["Mozilla - Performance Specifications", "https://developer.mozilla.org/en-US/docs/Web/API/Performance_API#Specifications"]
+						]
+					}
+				},
+				{
+					name: "Gamepad API",
+					description: {
+						text: "",
+						links: [
+							["Mozilla - Gamepad API", "https://developer.mozilla.org/en-US/docs/Web/API/Gamepad_API"],
+							["luser - Gamepad Test", "http://luser.github.io/gamepadtest/"]
+						]
+					}
+				},
+				{
+					name: "Network Information API",
+					description: {
+						text: "",
+						links: [
+							["Mozilla - Network Information API", "https://developer.mozilla.org/en-US/docs/Web/API/Network_Information_API"],
+						]
+					},
 				}
 			]
 		}

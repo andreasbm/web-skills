@@ -14,7 +14,7 @@ export const pwaCollection = {
 							["Mozilla - Web Storage API", "https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API"],
 							["Mozilla - Cookies", "https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies"],
 							["Mozilla - IndexedDB API", "https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API"],
-							["Chrome Devs - View And Edit Local Storage", "https://developers.google.com/web/tools/chrome-devtools/storage/localstorage"],
+							["Google Devs - View And Edit Local Storage", "https://developers.google.com/web/tools/chrome-devtools/storage/localstorage"],
 						]
 					}
 				},
@@ -32,12 +32,14 @@ export const pwaCollection = {
 						text: "",
 						links: [
 							["Mozilla - Service Worker API", "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers"],
-							["Chrome Devs - Service Workers: an Introduction", "https://developers.google.com/web/fundamentals/primers/service-workers"]
-							["Chrome Devs - The Service Worker Lifecycle", "https://developers.google.com/web/fundamentals/primers/service-workers/lifecycle"],
-							["Chrome Devs - Service Worker Registration", "https://developers.google.com/web/fundamentals/primers/service-workers/registration"]
-							["Chrome Devs - High-performance service worker loading", "https://developers.google.com/web/fundamentals/primers/service-workers/high-performance-loading"],
+							["Google Devs - Service Workers: an Introduction", "https://developers.google.com/web/fundamentals/primers/service-workers"]
+							["Google Devs - The Service Worker Lifecycle", "https://developers.google.com/web/fundamentals/primers/service-workers/lifecycle"],
+							["Google Devs - Service Worker Registration", "https://developers.google.com/web/fundamentals/primers/service-workers/registration"]
+							["Google Devs - High-performance service worker loading", "https://developers.google.com/web/fundamentals/primers/service-workers/high-performance-loading"],
 							["Codelabs - Scripting the service worker", "https://codelabs.developers.google.com/codelabs/pwa-scripting-the-service-worker/index.html?index=..%2F..dev-pwa-training#0"],
 							["Codelabs - Caching files with the service worker", "https://codelabs.developers.google.com/codelabs/pwa-caching-service-worker/index.html?index=..%2F..dev-pwa-training#0"],
+							["Codelabs - Adding a Service Worker", "https://developers.google.com/web/fundamentals/codelabs/offline"],
+							["Google Devs - Debugging Service Workers", "https://developers.google.com/web/fundamentals/codelabs/debugging-service-workers"]
 						]
 					},
 					skills: [
@@ -46,9 +48,13 @@ export const pwaCollection = {
 							description: {
 								text: "",
 								links: [
+									["Google Devs - The Offline Cookbook", "https://developers.google.com/web/fundamentals/instant-and-offline/offline-cookbook"],
+									["Google Devs - Offline UX Considerations", "https://developers.google.com/web/fundamentals/instant-and-offline/offline-ux"],
+									["Google Devs - Offline Storage for Progressive Web Apps", "https://developers.google.com/web/fundamentals/instant-and-offline/web-storage/offline-for-pwa"],
 									["Codelabs - Offline quickstart", "https://codelabs.developers.google.com/codelabs/pwa-offline-quickstart/index.html?index=..%2F..dev-pwa-training#0"],
 									["Codelabs - Adding a Service Worker and Offline into your Web App", "https://codelabs.developers.google.com/codelabs/offline/index.html?index=..%2F..%2Findex#0"],
-									["Supercharged - Offline Links", "https://www.youtube.com/watch?v=7fnpsF9tMXc"]
+									["Supercharged - Offline Links", "https://www.youtube.com/watch?v=7fnpsF9tMXc"],
+									["Mozilla - Online and offline events", "https://developer.mozilla.org/en-US/docs/Web/API/NavigatorOnLine/Online_and_offline_events"],
 								]
 							}
 						},
@@ -57,7 +63,8 @@ export const pwaCollection = {
 							description: {
 								text: "",
 								links: [
-									["Chrome Devs - Adding Push Notifications to a Web App", "https://developers.google.com/web/fundamentals/codelabs/push-notifications/"]
+									["Google Devs - Adding Push Notifications to a Web App", "https://developers.google.com/web/fundamentals/codelabs/push-notifications/"],
+									["Mozilla - Notifications API", "https://developer.mozilla.org/en-US/docs/Web/API/Notifications_API"]
 								]
 							}
 						},
@@ -68,7 +75,7 @@ export const pwaCollection = {
 					description: {
 						text: "",
 						links: [
-							["Chrome Devs - Web App Manifest", "https://developers.google.com/web/fundamentals/web-app-manifest/"],
+							["Google Devs - Web App Manifest", "https://developers.google.com/web/fundamentals/web-app-manifest/"],
 							["W3C - Web App Manifest", "https://www.w3.org/TR/appmanifest/"]
 						]
 					}
@@ -78,7 +85,17 @@ export const pwaCollection = {
 					description: {
 						text: "",
 						links: [
-							["Chrome Devs - App Install Banners", "https://developers.google.com/web/fundamentals/app-install-banners/"]
+							["Google Devs - App Install Banners", "https://developers.google.com/web/fundamentals/app-install-banners/"]
+						]
+					}
+				},
+				{
+					name: "Touch Events",
+					description: {
+						text: "",
+						links: [
+							["Mozilla - Touch Events", "https://developer.mozilla.org/en-US/docs/Web/API/Touch_events"],
+							["Mozilla - Pointer Events", "https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events"]
 						]
 					}
 				}
@@ -92,12 +109,23 @@ export const pwaCollection = {
 					description: {
 						text: "",
 						links: [
-							["Chrome Devs - The App Shell Model", "https://developers.google.com/web/fundamentals/architecture/app-shell"]
+							["Google Devs - The App Shell Model", "https://developers.google.com/web/fundamentals/architecture/app-shell"]
 						]
 					}
 				},
 				{
 					name: "Render-Blocking Resources"
+				},
+				{
+					name: "Compression",
+					description: {
+						text: "",
+						links: [
+							["Google Devs - Optimizing Encoding and Transfer Size", "https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/optimize-encoding-and-transfer"],
+							["Google Devs - Replace Animated GIFs with Video", "https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/replace-animated-gifs-with-video/"],
+							["Squoosh", "https://squoosh.app/"]
+						]
+					},
 				},
 				{
 					name: "Performance metrics",
@@ -118,6 +146,7 @@ export const pwaCollection = {
 					description: {
 						text: "",
 						links: [
+							["Google Devs - Lazy Loading Images and Video", "https://developers.google.com/web/fundamentals/performance/lazy-loading-guidance/images-and-video"],
 							["Addy Osmani - Lazy Loading Images", "https://addyosmani.com/blog/lazy-loading/"]
 						]
 					}
@@ -126,22 +155,56 @@ export const pwaCollection = {
 					name: "Offscreen images"
 				},
 				{
-					name: "Critical Request Chains"
+					name: "Critical Request Chains",
+					description: {
+						text: "",
+						links: [
+							["Google Devs - Critical Request Chains", "https://developers.google.com/web/tools/lighthouse/audits/critical-request-chains"],
+						]
+					},
 				},
 				{
-					name: "Tree shaking"
+					name: "Tree shaking",
+					description: {
+						text: "",
+						links: [
+							["Google Devs - Reduce JavaScript Payloads", "https://developers.google.com/web/fundamentals/performance/optimizing-javascript/tree-shaking"],
+						]
+					},
 				},
 				{
-					name: "Codesplitting"
+					name: "Codesplitting",
+					description: {
+						text: "",
+						links: [
+							["Google Devs - Reduce JavaScript Payloads", "https://developers.google.com/web/fundamentals/performance/optimizing-javascript/code-splitting"],
+						]
+					},
 				},
 				{
-					name: "PRPL Pattern"
+					name: "PRPL Pattern",
+					description: {
+						text: "",
+						links: [
+							["Google Devs - The PRPL Pattern", "https://developers.google.com/web/fundamentals/performance/prpl-pattern/"],
+							["Google Devs - JavaScript Start-up Optimization", "https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/javascript-startup-optimization"]
+							["Ben Schwarz - Real world performance", "https://building.calibreapp.com/beyond-the-bubble-real-world-performance-9c991dcd5342?gi=76804aa8f46e"],
+						]
+					},
 				},
 				{
-					name: "Resource Prioritization"
+					name: "Resource Prioritization",
+					description: {
+						text: "",
+						links: [
+							["Google Devs - Resource Prioritization", "https://developers.google.com/web/fundamentals/performance/resource-prioritization"],
+							["Eliminating Roundtrips with Preconnect", "https://www.igvita.com/2015/08/17/eliminating-roundtrips-with-preconnect/"],
+							["Addy Osmani - Preload, Prefetch And Priorities in Chrome", "https://medium.com/reloading/preload-prefetch-and-priorities-in-chrome-776165961bbf"],
+						]
+					},
 				},
 				{
-					name: "Caching"
+					name: "Caching",
 				},
 			]
 		},
@@ -152,7 +215,13 @@ export const pwaCollection = {
 					name: "Event loop",
 					skills: [
 						{
-							name: "Heap"
+							name: "Heap",
+							description: {
+								text: "",
+								links: [
+									["Google Devs - Memory Problems", "https://developers.google.com/web/tools/chrome-devtools/memory-problems/"],
+								]
+							},
 						},
 						{
 							name: "Stack"
@@ -164,9 +233,27 @@ export const pwaCollection = {
 				},
 				{
 					name: "RAIL Model",
+					description: {
+						text: "",
+						links: [
+							["Google Devs - RAIL", "https://developers.google.com/web/fundamentals/performance/rail"],
+							["Google Devs - Why Performance Matters", "https://developers.google.com/web/fundamentals/performance/why-performance-matters/"],
+							["Google Devs - Get Started With Analyzing", "https://developers.google.com/web/tools/chrome-devtools/evaluate-performance/"],
+							["Google Devs - Animations and Performance", "https://developers.google.com/web/fundamentals/design-and-ux/animations/animations-and-performance"],
+							["Google Devs - CSS Versus JavaScript Animations", "https://developers.google.com/web/fundamentals/design-and-ux/animations/css-vs-javascript"],
+							["Google Devs - Choosing the Right Easing", "https://developers.google.com/web/fundamentals/design-and-ux/animations/choosing-the-right-easing"],
+							["Google Devs - Animating Modal Views", "https://developers.google.com/web/fundamentals/design-and-ux/animations/animating-modal-views"]
+						]
+					},
 					skills: [
 						{
-							name: "requestAnimationFrame"
+							name: "requestAnimationFrame",
+							description: {
+								text: "",
+								links: [
+									["Google Devs - Optimize JavaScript Execution", "https://developers.google.com/web/fundamentals/performance/rendering/optimize-javascript-execution"],
+								]
+							},
 						},
 						{
 							name: "requestIdleCallback",
@@ -181,44 +268,122 @@ export const pwaCollection = {
 					]
 				},
 				{
+					name: "Critical Rendering Path",
+					description: {
+						text: "",
+						links: [
+							["Google Devs - Critical Rendering Path", "https://developers.google.com/web/fundamentals/performance/critical-rendering-path/"],
+						]
+					},
+				},
+				{
 					name: "The Pixel Pipeline",
+					description: {
+						text: "",
+						links: [
+							["Google Devs - Rendering Performance", "https://developers.google.com/web/fundamentals/performance/rendering"],,
+							["Pixels are expensive", "https://aerotwist.com/blog/pixels-are-expensive/"],
+							["Google Devs - The Applied Science of Runtime Performance", "https://www.youtube.com/watch?v=RCFQu0hK6bU"],
+							["CSS Triggers", "https://csstriggers.com/"]
+						]
+					},
 					skills: [
 						{
 							name: "Layout Trashing",
+							description: {
+								text: "",
+								links: [
+									["Google Devs - Layout Thrashing", "https://developers.google.com/web/fundamentals/performance/rendering/avoid-large-complex-layouts-and-layout-thrashing"],
+								]
+							},
 						},
 						{
-							name: "Paint areas"
+							name: "Paint areas",
+							description: {
+								text: "",
+								links: [
+									["Google Devs - Paint Areas", "https://developers.google.com/web/fundamentals/performance/rendering/simplify-paint-complexity-and-reduce-paint-areas"],
+								]
+							},
 						},
 						{
-							name: "Style calculations"
+							name: "Style calculations",
+							description: {
+								text: "",
+								links: [
+									["Google Devs - Style Calculations", "https://developers.google.com/web/fundamentals/performance/rendering/reduce-the-scope-and-complexity-of-style-calculations"],
+								]
+							},
 						},
 						{
-							name: "Layers"
+							name: "Layers",
+							description: {
+								text: "",
+								links: [
+									["Google Devs - Manage Layer Count", "https://developers.google.com/web/fundamentals/performance/rendering/stick-to-compositor-only-properties-and-manage-layer-count"],
+								]
+							},
 						},
 						{
 							name: "Transforms"
 						},
 						{
-							name: "Debounce"
+							name: "Debounce",
+							description: {
+								text: "",
+								links: [
+									["Google Devs - Debounce Your Input Handlers", "https://developers.google.com/web/fundamentals/performance/rendering/debounce-your-input-handlers"],
+								]
+							},
 						}
 					],
 				},
 				{
-					name: "Web Workers"
+					name: "Web Workers",
+					description: {
+						text: "",
+						links: [
+							["Mozilla - Web Workers API", "https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API"],
+						]
+					}
 				}
 			],
 		},
 		{
 			name: "Audits",
+			description: {
+				text: "",
+				links: [
+					["Google Devs - Auditing Performance", "https://developers.google.com/web/fundamentals/performance/audit"],
+					["Google Devs - Prework", "https://developers.google.com/web/fundamentals/performance/audit/prework"],
+					["Google Devs - Check site security", "https://developers.google.com/web/fundamentals/performance/audit/security"],
+					["Google Devs - Use tools to measure performance", "https://developers.google.com/web/fundamentals/performance/audit/tools"],
+					["Google Devs - Find and Fix Web App Performance Issues", "https://developers.google.com/web/fundamentals/codelabs/web-perf/"],
+					["web.dev - Measure", "https://web.dev/measure/"],
+					["Google Devs - How To Think About Speed Tools", "https://developers.google.com/web/fundamentals/performance/speed-tools/"]
+				]
+			},
 			skills: [
 				{
 					name: "Performance budgets"
 				},
 				{
-					name: "Lighthouse"
+					name: "Lighthouse",
+					description: {
+						text: "",
+						links: [
+							["Google Devs - Lighthouse", "https://developers.google.com/web/tools/lighthouse/"],
+						]
+					},
 				},
 				{
-					name: "Chrome DevTools"
+					name: "Chrome DevTools",
+					description: {
+						text: "",
+						links: [
+							["Google Devs - Inspect animations", "https://developers.google.com/web/tools/chrome-devtools/inspect-styles/animations"],
+						]
+					},
 				}
 			]
 		},
@@ -230,9 +395,9 @@ export const pwaCollection = {
 					description: {
 						text: "",
 						links: [
-							["Chrome Devs - Why HTTPS Matters", "https://developers.google.com/web/fundamentals/security/encrypt-in-transit/why-https"],
-							["Chrome Devs - Enabling HTTPS on Your Servers", "https://developers.google.com/web/fundamentals/security/encrypt-in-transit/enable-https"],
-							["Chrome Devs - Mixed Content", "https://developers.google.com/web/fundamentals/security/prevent-mixed-content/what-is-mixed-content"],
+							["Google Devs - Why HTTPS Matters", "https://developers.google.com/web/fundamentals/security/encrypt-in-transit/why-https"],
+							["Google Devs - Enabling HTTPS on Your Servers", "https://developers.google.com/web/fundamentals/security/encrypt-in-transit/enable-https"],
+							["Google Devs - Mixed Content", "https://developers.google.com/web/fundamentals/security/prevent-mixed-content/what-is-mixed-content"],
 							["Youtube - Stories from the field", "https://www.youtube.com/watch?v=GoXgl9r0Kjk"]
 						]
 					}
@@ -242,7 +407,7 @@ export const pwaCollection = {
 					description: {
 						text: "",
 						links: [
-							["Chrome Devs - CSP", "https://developers.google.com/web/fundamentals/security/csp"]
+							["Google Devs - CSP", "https://developers.google.com/web/fundamentals/security/csp"]
 						]
 					}
 				}

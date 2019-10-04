@@ -226,7 +226,7 @@ export const basicCollection = {
 							description: {
 								text: "Learn how to make images responsive, always showing the best possible version for the screen size.",
 								links: [
-									["Chrome Devs - Responsive Images", "https://developers.google.com/web/fundamentals/design-and-ux/responsive/images"],
+									["Google Devs - Responsive Images", "https://developers.google.com/web/fundamentals/design-and-ux/responsive/images"],
 									["Mozilla - Responsive Images", "https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images"],
 								]
 							}
@@ -319,7 +319,7 @@ export const basicCollection = {
 					description: {
 						text: "Learn how to use promises and what asynchronous code means.",
 						links: [
-							["Chrome Devs - JavaScript Promises: an Introduction", "https://developers.google.com/web/fundamentals/primers/promises"]
+							["Google Devs - JavaScript Promises: an Introduction", "https://developers.google.com/web/fundamentals/primers/promises"]
 						]
 					},
 					skills: [
@@ -334,7 +334,7 @@ export const basicCollection = {
 							description: {
 								text: "Learn how to use the async and await keywords to make it easier to write asynchronous code.",
 								links: [
-									["Chrome Devs - Async functions", "https://developers.google.com/web/fundamentals/primers/async-functions"]
+									["Google Devs - Async functions", "https://developers.google.com/web/fundamentals/primers/async-functions"]
 								]
 							}
 						},
@@ -343,8 +343,8 @@ export const basicCollection = {
 							description: {
 								text: "Learn how to use the fetch API to fetch data.",
 								links: [
-									["Chrome Devs - Introduction to fetch", "https://developers.google.com/web/updates/2015/03/introduction-to-fetch"],
-									["Chrome Devs - Networking", "https://developers.google.com/training/certification/mobile-web-specialist/study-guide/networking"],
+									["Google Devs - Introduction to fetch", "https://developers.google.com/web/updates/2015/03/introduction-to-fetch"],
+									["Google Devs - Networking", "https://developers.google.com/training/certification/mobile-web-specialist/study-guide/networking"],
 									["Freecodecamp - Fetch practical guide", "https://www.freecodecamp.org/news/a-practical-es6-guide-on-how-to-perform-http-requests-using-the-fetch-api-594c3d91a547/"],
 									["Mozilla - CORS", "https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS"],
 									["Alligator - Fetch API", "https://alligator.io/js/fetch-api/"],
@@ -360,7 +360,7 @@ export const basicCollection = {
 					description: {
 						text: "Learn how to use web animations to animate elements in the DOM.",
 						links: [
-							["Chrome Devs - Animations", "https://developers.google.com/web/fundamentals/design-and-ux/animations"],
+							["Google Devs - Animations", "https://developers.google.com/web/fundamentals/design-and-ux/animations"],
 							["Mozilla - Using The Web Animations API", "https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API/Using_the_Web_Animations_API"],
 						]
 					}
@@ -484,14 +484,28 @@ export const basicCollection = {
 				{
 					name: "Debugging",
 					description: {
-						text: "Learn about the basics concepts of debugging."
+						text: "Learn about the basics concepts of debugging.",
+						links: [
+							["Google Devs - Inspect and Edit Pages and Styles", "https://developers.google.com/web/tools/chrome-devtools/inspect-styles/"]
+						]
 					},
 					skills: [
 						{
 							name: "Developer console",
 							description: {
 								text: "Learn how to use the developer console of your favorite browser."
-							}
+							},
+							skills: [
+								{
+									name: "Console API",
+									description: {
+										text: "Learn how to use the console API.",
+										links: [
+											["Mozilla - Console", "https://developer.mozilla.org/en-US/docs/Web/API/Console"]
+										]
+									}
+								}
+							]
 						},
 						{
 							name: "Breakpoints",

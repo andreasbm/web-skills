@@ -19,5 +19,12 @@ export const licenses = [
 	"https://www.flaticon.com/authors/ultimatearm",
 	"https://www.flaticon.com/authors/itim2101",
 	"https://www.flaticon.com/authors/dave-gandy",
-	"https://www.flaticon.com/authors/photo3idea-studio"
+	"https://www.flaticon.com/authors/photo3idea-studio",
+	"https://www.flaticon.com/authors/turkkub",
+	"https://www.flaticon.com/authors/surang",
+	"https://www.flaticon.com/authors/ultimatearm",
+	"https://www.flaticon.com/authors/pongsakornred",
+	"https://www.flaticon.com/authors/nikita-golubev",
+	"https://www.flaticon.com/authors/iconixar",
+	"https://www.flaticon.com/authors/payungkead"
 ]
