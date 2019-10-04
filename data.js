@@ -18,7 +18,7 @@ export const collections = [
 	buildtoolsCollection,
 	testingCollection,
 	frameworksAndLibrariesCollection,
-	advancedCollection,
 	architectureCollection,
-	teamCollaborationCollection
+	teamCollaborationCollection,
+	advancedCollection,
 ]
