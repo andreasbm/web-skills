@@ -28,12 +28,14 @@ export class Skill extends LitElement {
 					--skill-img-size: 70px;
 
 					display: flex;
+					word-break: break-word;
    				flex-direction: column;
     			align-items: center;
 					outline: none;
 				}
 
 				#skill {
+					max-width: 100px;
 					display: flex;
 					flex-direction: column;
 					align-items: center;

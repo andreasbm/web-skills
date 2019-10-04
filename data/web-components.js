@@ -13,7 +13,8 @@ export const webcomponentsCollection = {
 							["CSS Tricks - Creating a Custom Element from Scratch", "https://css-tricks.com/creating-a-custom-element-from-scratch/"],
 							["Javascript.info - Custom Elements", "https://javascript.info/custom-elements"],
 							["dev.to - An introduction to Custom Elements", "https://dev.to/jamesrweb/an-introduction-to-custom-elements-5327"],
-							["itnext - Introduction to Web Components", "https://itnext.io/introduction-to-web-components-part-i-custom-elements-4de6713cef9d"]
+							["itnext - Introduction to Web Components", "https://itnext.io/introduction-to-web-components-part-i-custom-elements-4de6713cef9d"],
+							["web.dev - Web Components", "https://web.dev/web-components-io-2019/"]
 						]
 					}
 				},

@@ -22,6 +22,7 @@ export class Collection extends LitElement {
 					border-radius: 40px;
 					background: var(--foreground);
 					color: var(--background);
+					scroll-snap-align: center;
 				}
 
 				#title {

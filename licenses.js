@@ -26,5 +26,6 @@ export const licenses = [
 	"https://www.flaticon.com/authors/pongsakornred",
 	"https://www.flaticon.com/authors/nikita-golubev",
 	"https://www.flaticon.com/authors/iconixar",
-	"https://www.flaticon.com/authors/payungkead"
+	"https://www.flaticon.com/authors/payungkead",
+	"https://www.flaticon.com/authors/roundicon"
 ]

@@ -182,8 +182,9 @@ export const advancedCollection = {
 						text: "",
 						links: [
 							["Mozilla - Performance", "https://developer.mozilla.org/en-US/docs/Web/API/Performance"],
+							["Mozilla - performance.measure()", "https://developer.mozilla.org/en-US/docs/Web/API/Performance/measure"],
 							["Google Devs - Assessing Loading Performance", "https://developers.google.com/web/fundamentals/performance/navigation-and-resource-timing/"],
-							["Mozilla - Performance Specifications", "https://developer.mozilla.org/en-US/docs/Web/API/Performance_API#Specifications"]
+							["Mozilla - Performance Specifications", "https://developer.mozilla.org/en-US/docs/Web/API/Performance_API#Specifications"],
 						]
 					}
 				},

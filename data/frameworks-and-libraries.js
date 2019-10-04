@@ -16,10 +16,22 @@ export const frameworksAndLibrariesCollection = {
 					name: "Vue"
 				},
 				{
-					name: "React"
+					name: "React",
+					description: {
+						text: "",
+						links: [
+							["web.dev - React", "https://web.dev/react"],
+						]
+					},
 				},
 				{
-					name: "Angular"
+					name: "Angular",
+					description: {
+						text: "",
+						links: [
+							["web.dev - Angular", "https://web.dev/angular"],
+						]
+					},
 				},
 				{
 					name: "Stencil"

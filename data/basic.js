@@ -47,6 +47,7 @@ export const basicCollection = {
 							["web.dev - Discoverable", "https://web.dev/discoverable"],
 							["Google Search - Get Started", "https://developers.google.com/search/docs/guides/get-started"],
 							["Google Search - SEO basics", "https://developers.google.com/search/docs/guides/javascript-seo-basics"],
+							["web.dev - SEO audits", "https://web.dev/lighthouse-seo"]
 						]
 					},
 					skills: [
@@ -57,7 +58,8 @@ export const basicCollection = {
 								links: [
 									["Google Web - Social Discovery", "https://developers.google.com/web/fundamentals/discovery/social-discovery"],
 									["Google Search - Search Features", "https://developers.google.com/search/docs/guides/search-features"],
-									["Google Search - Structured Data", "https://developers.google.com/search/docs/guides/intro-structured-data"]
+									["Google Search - Structured Data", "https://developers.google.com/search/docs/guides/intro-structured-data"],
+									["web.dev - Easily discoverable", "https://web.dev/discoverable"]
 								]
 							}
 						}
@@ -119,7 +121,10 @@ export const basicCollection = {
 						{
 							name: "Specificity",
 							description: {
-								text: "Learn what specificity means and how to use it when writing CSS."
+								text: "Learn what specificity means and how to use it when writing CSS.",
+								links: [
+									["Specificity Calculator", "https://specificity.keegan.st/"]
+								]
 							},
 						},
 						{
@@ -145,7 +150,10 @@ export const basicCollection = {
 				{
 					name: "Calc",
 					description: {
-						text: "Learn how to use the CSS calc function."
+						text: "Learn how to use the CSS calc function.",
+						links: [
+							["Mozilla - Calc", "https://developer.mozilla.org/en-US/docs/Web/CSS/calc"]
+						]
 					},
 				},
 				{
@@ -404,16 +412,41 @@ export const basicCollection = {
 			name: "The Browser",
 			skills: [
 				{
-					name: "W3C",
+					name: "Standardization",
 					description: {
-						text: "Learn what W3C are doing, why web standards are important and how new specifications are standardised through a process.",
+						text: "Learn why web standards are important and how new specifications are standardised.",
 						links: [
-							["W3C - About", "https://www.w3.org/standards/about.html"],
-							["W3C - Standards", "https://www.w3.org/standards/"],
-							["W3C - Process", "http://webdiy.org/w3c/"],
-							["Web Standards Guide", "https://www.smashingmagazine.com/2019/01/web-standards-guide/"]
+							["Wikipedia - Web Standards", "https://en.wikipedia.org/wiki/Web_standards"],
+							["Designing to Web Standards", "https://www.soswebdesign.com/gallery/webstandards.cfm"],
+							["What Are Web Standards?", "https://robertnyman.com/2007/05/21/what-are-web-standards-a-comprehensive-explanation-of-what-is-comprised-in-the-term/"],
 						]
-					}
+					},
+					skills: [
+						{
+							name: "W3C",
+							description: {
+								text: "Learn what W3C are doing and how they are moving the web forward.",
+								links: [
+									["W3C - About", "https://www.w3.org/standards/about.html"],
+									["W3C - Standards", "https://www.w3.org/standards/"],
+									["W3C - Process", "http://webdiy.org/w3c/"],
+									["Web Standards Guide", "https://www.smashingmagazine.com/2019/01/web-standards-guide/"]
+								]
+							}
+						},
+						{
+							name: "TC39",
+							description: {
+								text: "Learn what TC39 are doing and how they are moving the web forward.",
+								links: [
+									["The TC39 process for ECMAScript features", "https://2ality.com/2015/11/tc39-process.html"],
+									["Github - TC39", "https://github.com/tc39"],
+									["Ecma International - Programme of work", "https://www.ecma-international.org/memento/tc39.htm"],
+									["Wikipedia - Ecma International", "https://en.wikipedia.org/wiki/Ecma_International"],
+								]
+							},
+						},
+					]
 				},
 				{
 					name: "Browser Engines",

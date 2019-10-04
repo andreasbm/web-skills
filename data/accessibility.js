@@ -161,6 +161,7 @@ export const accessibilityCollection = {
 							description: {
 								text: "Learn how to conduct an accessibility review to improve the overall experience of using your site. Remember, good accessibility equals good UX!",
 								links: [
+									["web.dev - Accessibility audits", "https://web.dev/lighthouse-accessibility"],
 									["Google Devs - How to review", "https://developers.google.com/web/fundamentals/accessibility/how-to-review"],
 									["Webaim - Accessibility Tools", "https://webaim.org/articles/tools/"],
 									["Google Devs - Accessibility Reference", "https://developers.google.com/web/tools/chrome-devtools/accessibility/reference"],
