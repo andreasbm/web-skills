@@ -12,13 +12,13 @@ import {teamCollaborationCollection} from "./data/team-collaboration.js";
 
 export const collections = [
 	basicCollection,
-	webcomponentsCollection,
 	accessibilityCollection,
+	webcomponentsCollection,
 	pwaCollection,
-	architectureCollection,
 	buildtoolsCollection,
 	testingCollection,
 	frameworksAndLibrariesCollection,
 	advancedCollection,
+	architectureCollection,
 	teamCollaborationCollection
 ]

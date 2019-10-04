@@ -7,22 +7,11 @@ export const basicCollection = {
 				{
 					name: "Syntax",
 					description: {
-						text: "Learn the basic HTML syntax and get a feeling for how to structure a HTML document.",
+						text: "Learn the basics of HTML and get comfortable with it's syntax and main concepts.",
 						links: [
-							["Mozilla - Introduction to HTML", "https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML"],
 							["Mozilla - HTML Basics", "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics"],
+							["Mozilla - Introduction to HTML", "https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML"],
 							["Codecademy - Learn HTML", "https://www.codecademy.com/learn/learn-html"],
-						]
-					}
-				},
-				{
-					name: "DOM",
-					description: {
-						text: "Learn how to work with the DOM. This means learning the basic tags, and learning how to work with attributes. You need to get an understanding of how the HTML structures are represented by the browser.",
-						links: [
-							["Freecodecamp - What's the DOM", "https://www.freecodecamp.org/news/whats-the-document-object-model-and-why-you-should-know-how-to-use-it-1a2d0bc5429d/"],
-							["Introduction to the DOM", "https://learn.co/lessons/introduction-to-the-dom"],
-							["Mozilla - DOM Introduction", "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction"],
 							["w3schools - HTML Elements", "https://www.w3schools.com/tags/ref_byfunc.asp"]
 						]
 					},
@@ -36,9 +25,20 @@ export const basicCollection = {
 									["Elated - First 10 HTML tags", "https://www.elated.com/first-10-html-tags/"],
 									["w3schools - HTML tags", "https://www.w3schools.com/tags/ref_byfunc.asp"]
 								]
-							}
-						}
+							},
+						},
 					]
+				},
+				{
+					name: "Forms",
+					description: {
+						text: "Learn how to design efficient forms, validating them effectively and keeping the user informed along the way.",
+						links: [
+							["Mozilla - HTML forms", "https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms"],
+							["Google Web - Forms", "https://developers.google.com/web/fundamentals/design-and-ux/input/forms/"],
+							["w3schools - Forms", "https://www.w3schools.com/html/html_forms.asp"],
+						]
+					}
 				},
 				{
 					name: "SEO",
@@ -67,17 +67,6 @@ export const basicCollection = {
 					]
 				},
 				{
-					name: "Forms",
-					description: {
-						text: "Learn how to design efficient forms, validating them effectively and keeping the user informed along the way.",
-						links: [
-							["Mozilla - HTML forms", "https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms"],
-							["Google Web - Forms", "https://developers.google.com/web/fundamentals/design-and-ux/input/forms/"],
-							["w3schools - Forms", "https://www.w3schools.com/html/html_forms.asp"],
-						]
-					}
-				},
-				{
 					name: "Svg",
 					description: {
 						text: "Learn how to work with SVG files to make graphics look crisp across all screen resolutions.",
@@ -104,7 +93,7 @@ export const basicCollection = {
 				{
 					name: "Syntax",
 					description: {
-						text: "Learn the basic CSS syntax and get comfortable with CSS classes and basic concepts.",
+						text: "Learn the basics of CSS and get comfortable with it's syntax and main concepts.",
 						links: [
 							["Mozilla - CSS Basics", "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics"],
 							["w3schools - CSS Tutorial", "https://www.w3schools.com/css/default.asp"],
@@ -124,6 +113,7 @@ export const basicCollection = {
 							["Mozilla - All selectors", "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors"],
 							["CSS Tricks - Child and Sibling Selectors", "https://css-tricks.com/child-and-sibling-selectors/"],
 							["CSS Tricks - All Selectors", "https://css-tricks.com/almanac/selectors/"],
+							["w3schools - CSS Combinators", "https://www.w3schools.com/css/css_combinators.asp"]
 						]
 					},
 					skills: [
@@ -136,32 +126,33 @@ export const basicCollection = {
 									["Mozilla - Cascade and inheritance", "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance"],
 									["dev.to - CSS Specificity", "https://dev.to/emmawedekind/css-specificity-1kca"],
 									["Specificity Calculator", "https://specificity.keegan.st/"],
+									["w3schools - CSS Specificity", "https://www.w3schools.com/css/css_specificity.asp"]
 								]
 							},
 						},
 						{
 							name: "Pseudo Selectors",
 							description: {
-								text: "Learn how to use pseudo class selectors.",
-								skills: [
+								text: "Learn how to use pseudo selectors.",
+								links: [
 									["Mozilla - Pseudo-classes", "https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes"],
 									["CSS Tricks - Meet the Pseudo Class Selectors", "https://css-tricks.com/pseudo-class-selectors/"],
 									["When do the :hover, :focus, and :active pseudo-classes apply?", "https://bitsofco.de/when-do-the-hover-focus-and-active-pseudo-classes-apply/"],
+									["w3schools - CSS Pseudo-elements", "https://www.w3schools.com/css/css_pseudo_elements.asp"],
+									["w3schools - CSS Pseudo-classes", "https://www.w3schools.com/css/css_pseudo_classes.asp"],
 								]
 							},
-						}
+						},
 					]
 				},
 				{
 					name: "Box Model",
 					description: {
 						text: "Learn what the CSS box model means.",
-						skills: [
+						links: [
 							["Mozilla - Introduction to the CSS basic box model", "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model"],
 							["Mozilla - The box model", "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model"],
-							["", ""],
-							["", ""],
-							["", ""],
+							["w3schools - CSS Box Model", "https://www.w3schools.com/css/css_boxmodel.asp"]
 						]
 					},
 				},
@@ -171,6 +162,7 @@ export const basicCollection = {
 						text: "Learn about what happens when there is too much content to be contained comfortably inside a box and how to manage it.",
 						links: [
 							["Mozilla - Overflowing content", "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Overflowing_content"],
+							["w3schools - CSS Layout: Overflow", "https://www.w3schools.com/css/css_overflow.asp"],
 						]
 					},
 				},
@@ -178,12 +170,10 @@ export const basicCollection = {
 					name: "Colors",
 					description: {
 						text: "Learn the different ways you can define colors in CSS.",
-						skills: [
-							["", ""],
-							["", ""],
-							["", ""],
-							["", ""],
-							["", ""],
+						links: [
+							["Mozilla - Color", "https://developer.mozilla.org/en-US/docs/Web/CSS/color"],
+							["Mozilla - <color>", "https://developer.mozilla.org/en-US/docs/Web/CSS/color_value"],
+							["w3schools - CSS Colors", "https://www.w3schools.com/css/css_colors.asp"],
 						]
 					},
 				},
@@ -192,7 +182,8 @@ export const basicCollection = {
 					description: {
 						text: "Learn how to use the CSS calc function.",
 						links: [
-							["Mozilla - Calc", "https://developer.mozilla.org/en-US/docs/Web/CSS/calc"]
+							["Mozilla - Calc", "https://developer.mozilla.org/en-US/docs/Web/CSS/calc"],
+							["CSS Tricks - A Couple of Use Cases for Calc()", "https://css-tricks.com/a-couple-of-use-cases-for-calc/"],
 						]
 					},
 				},
@@ -201,7 +192,8 @@ export const basicCollection = {
 					description: {
 						text: "Learn the different layout types for web.",
 						links: [
-							["Chrome Dev - Basic Layout", "https://developers.google.com/training/certification/mobile-web-specialist/study-guide/basic-layout"]
+							["Chrome Dev - Basic Layout", "https://developers.google.com/training/certification/mobile-web-specialist/study-guide/basic-layout"],
+							["w3schools - CSS Website Layout", "https://www.w3schools.com/css/css_website_layout.asp"],
 						]
 					},
 					skills: [
@@ -236,12 +228,9 @@ export const basicCollection = {
 					name: "Transforms",
 					description: {
 						text: "Learn the different ways to transform elements through CSS.",
-						skills: [
-							["", ""],
-							["", ""],
-							["", ""],
-							["", ""],
-							["", ""],
+						links: [
+							["Mozilla - transform", "https://developer.mozilla.org/en-US/docs/Web/CSS/transform"],
+							["CSS Tricks - Transform", "https://css-tricks.com/almanac/properties/t/transform/"],
 						]
 					},
 					skills: [
@@ -249,12 +238,9 @@ export const basicCollection = {
 							name: "Animations",
 							description: {
 								text: "Learn how to animate elements through CSS using keyframes.",
-								skills: [
-									["", ""],
-									["", ""],
-									["", ""],
-									["", ""],
-									["", ""],
+								links: [
+									["Mozilla - Using CSS animations", "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations"],
+									["CSS Tricks - Animation", "https://css-tricks.com/almanac/properties/a/animation/"],
 								]
 							},
 						}
@@ -278,25 +264,23 @@ export const basicCollection = {
 							name: "Media Queries",
 							description: {
 								text: "Learn how use media queries to build responsive layout.",
-								skills: [
-									["", ""],
-									["", ""],
-									["", ""],
-									["", ""],
-									["", ""],
+								links: [
+									["CSS Tricks - CSS Media Queries & Using Available Space", "https://css-tricks.com/css-media-queries/"],
+									["Mozilla - Using media queries", "https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries"],
+									["Mozilla - Using Media Queries for Accessibility", "https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_Media_Queries_for_Accessibility"],
 								]
 							},
 						},
 						{
-							name: "Relative Sizes",
+							name: "Relative Units",
 							description: {
-								text: "Learn how to use relative sizes for values such as font sizes and spacing.",
-								skills: [
+								text: "Learn how to use relative units for properties such as font sizes and spacing.",
+								links: [
 									["Mozilla - Sizing items in CSS", "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Sizing_items_in_CSS"],
 									["Mozilla - CSS values and units", "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units"],
-									["", ""],
-									["", ""],
-									["", ""],
+									["The CSS Workshop - Relative Units", "https://thecssworkshop.com/lessons/relative-units"],
+									["CSS Tricks - Fun with Viewport Units", "https://css-tricks.com/fun-viewport-units/"],
+									["dev.to - 15 CSS Relative units", "https://dev.to/bytegasm/15-css-relative-units-how-many-do-you-know-em-rem-ex-cap-ch-ic-6m"],
 								]
 							},
 						},
@@ -316,12 +300,11 @@ export const basicCollection = {
 					name: "CSS Variables",
 					description: {
 						text: "Learn how to define and use CSS variables.",
-						skills: [
-							["", ""],
-							["", ""],
-							["", ""],
-							["", ""],
-							["", ""],
+						links: [
+							["Mozilla - Using CSS custom properties", "https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties"],
+							["Google Devs - CSS Variables: Why Should You Care?", "https://developers.google.com/web/updates/2016/02/css-variables-why-should-you-care"],
+							["dev.to - CSS Quickies: CSS Variables", "https://dev.to/lampewebdev/css-quickies-css-variables-or-how-you-create-a-white-dark-theme-easily-1i0i"],
+							["CSS Variables explained with 5 examples", "https://codeburst.io/css-variables-explained-with-5-examples-84adaffaa5bd"],
 						]
 					}
 				},
@@ -343,30 +326,48 @@ export const basicCollection = {
 				{
 					name: "Syntax",
 					description: {
-						text: "Learn the basic Javascript syntax and get comfortable with the basic API's, data types and how to create variables.",
+						text: "Learn the basics of Javascript and get comfortable with it's syntax and main concepts.",
 						links: [
 							["Mozilla - Javascript First Steps", "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps"],
-							["Mozilla - Javascript Building Blocks", "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks"],
 							["Mozilla - Javascript Basics", "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics"],
+							["Mozilla - Javascript Building Blocks", "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks"],
 						]
 					}
 				},
 				{
-					name: "DOM Manipulation",
+					name: "DOM",
 					description: {
-						text: "Learn how to query HTML elements through Javascript and manipulate them.",
+						text: "Learn how the HTML is represented as objects that comprise the structure and content of a document.",
 						links: [
-							["Mozilla - Locating DOM elements using selectors", "https://developer.mozilla.org/en-US/docs/Web/API/Document_object_model/Locating_DOM_elements_using_selectors"],
-							["Supercharged - querySelector", "https://www.youtube.com/watch?v=s0vg_H9hBuU"],
+							["Mozilla - DOM Introduction", "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction"],
+							["Freecodecamp - What's the DOM", "https://www.freecodecamp.org/news/whats-the-document-object-model-and-why-you-should-know-how-to-use-it-1a2d0bc5429d/"],
+							["Introduction to the DOM", "https://learn.co/lessons/introduction-to-the-dom"],
 						]
-					}
+					},
+					skills: [
+						{
+							name: "DOM Manipulation",
+							description: {
+								text: "Learn how to query HTML elements through Javascript and manipulate them.",
+								links: [
+									["Mozilla - Locating DOM elements using selectors", "https://developer.mozilla.org/en-US/docs/Web/API/Document_object_model/Locating_DOM_elements_using_selectors"],
+									["Supercharged - querySelector", "https://www.youtube.com/watch?v=s0vg_H9hBuU"],
+								]
+							}
+						},
+					]
 				},
 				{
 					name: "Objects",
 					description: {
 						text: "Learn how to create and use objects.",
 						links: [
-							["Mozilla - Introducing JavaScript objects", "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects"]
+							["Mozilla - Introducing JavaScript objects", "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects"],
+							["Mozilla - Working with objects", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects"],
+							["javascript.info - Objects", "https://javascript.info/object"],
+							["Mozilla - this", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this"],
+							["w3schools - The JavaScript this Keyword", "https://www.w3schools.com/js/js_this.asp"],
+							["Mozilla - bind()", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind"],
 						]
 					},
 					skills: [
@@ -375,7 +376,8 @@ export const basicCollection = {
 							description: {
 								text: "Learn how to extend objects and functions through its prototype.",
 								links: [
-									["The prototype chain", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain"]
+									["The prototype chain", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain"],
+									["Prototypes in JavaScript", "https://medium.com/better-programming/prototypes-in-javascript-5bba2990e04b"],
 								]
 							},
 							skills: [
@@ -399,12 +401,11 @@ export const basicCollection = {
 					name: "Events",
 					description: {
 						text: "Learn how to dispatch and listen for events.",
-						skills: [
+						links: [
 							["Mozilla - Introduction to events", "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events"],
-							["", ""],
-							["", ""],
-							["", ""],
-							["", ""],
+							["Mozilla - Creating and triggering events", "https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Creating_and_triggering_events"],
+							["Event Bubbling and Event Capturing in JavaScript", "https://medium.com/@vsvaibhav2016/event-bubbling-and-event-capturing-in-javascript-6ff38bec30e"],
+							["Mozilla - Event bubbling and capture", "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events#Event_bubbling_and_capture"],
 						]
 					}
 				},
@@ -412,12 +413,10 @@ export const basicCollection = {
 					name: "Regex",
 					description: {
 						text: "Learn how to use regex to extract information from strings.",
-						skills: [
-							["", ""],
-							["", ""],
-							["", ""],
-							["", ""],
-							["", ""],
+						links: [
+							["Mozilla - Regular Expressions", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions"],
+							["javascript.info - Regular expressions", "https://javascript.info/regular-expressions"],
+							["Mozilla - RegExp", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp"],
 						]
 					}
 				},
@@ -426,7 +425,9 @@ export const basicCollection = {
 					description: {
 						text: "Learn how to use promises and what asynchronous code means.",
 						links: [
-							["Google Devs - JavaScript Promises: an Introduction", "https://developers.google.com/web/fundamentals/primers/promises"]
+							["Google Devs - JavaScript Promises: an Introduction", "https://developers.google.com/web/fundamentals/primers/promises"],
+							["Mozilla - Promise", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise"],
+							["Master the JavaScript Interview: What is a Promise?", "https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-promise-27fc71e77261"],
 						]
 					},
 					skills: [
@@ -434,12 +435,10 @@ export const basicCollection = {
 							name: "Callbacks",
 							description: {
 								text: "Learn how to use callbacks and why they are not always a good idea.",
-								skills: [
-									["", ""],
-									["", ""],
-									["", ""],
-									["", ""],
-									["", ""],
+								links: [
+									["Mozilla - Callback function", "https://developer.mozilla.org/en-US/docs/Glossary/Callback_function"],
+									["JavaScript: What the heck is a Callback?", "https://codeburst.io/javascript-what-the-heck-is-a-callback-aba4da2deced"],
+									["javascript.info - Callbacks", "https://javascript.info/callbacks"],
 								]
 							}
 						},
@@ -448,7 +447,9 @@ export const basicCollection = {
 							description: {
 								text: "Learn how to use the async and await keywords to make it easier to write asynchronous code.",
 								links: [
-									["Google Devs - Async functions", "https://developers.google.com/web/fundamentals/primers/async-functions"]
+									["Mozilla - async function", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function"],
+									["Google Devs - Async functions", "https://developers.google.com/web/fundamentals/primers/async-functions"],
+									["javascript.info - Async/await", "https://javascript.info/async-await"],
 								]
 							}
 						},
@@ -476,6 +477,7 @@ export const basicCollection = {
 						links: [
 							["Google Devs - Animations", "https://developers.google.com/web/fundamentals/design-and-ux/animations"],
 							["Mozilla - Using The Web Animations API", "https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API/Using_the_Web_Animations_API"],
+							["CSS Tricks - CSS Animations vs Web Animations API", "https://css-tricks.com/css-animations-vs-web-animations-api/"],
 						]
 					}
 				},
@@ -486,7 +488,8 @@ export const basicCollection = {
 						links: [
 							["Mozilla - Export", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export"],
 							["Mozilla - Import", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import"],
-							["V8 - Modules", "https://v8.dev/features/modules"]
+							["V8 - Modules", "https://v8.dev/features/modules"],
+							["Freecodecamp - A Practical guide to ES6 modules", "https://www.freecodecamp.org/news/how-to-use-es6-modules-and-why-theyre-important-a9b20b480773/"],
 						]
 					}
 				},
@@ -494,12 +497,10 @@ export const basicCollection = {
 					name: "Intl",
 					description: {
 						text: "Learn how to localize your website using the Intl API.",
-						skills: [
-							["", ""],
-							["", ""],
-							["", ""],
-							["", ""],
-							["", ""],
+						links: [
+							["Mozilla - Intl", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl"],
+							["Mozilla - Date Time Format", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DateTimeFormat"],
+							["New Intl APIs in JavaScript", "https://blog.bitsrc.io/new-intl-apis-in-javascript-c50dc89d2cf3"],
 						]
 					}
 				},
@@ -507,12 +508,10 @@ export const basicCollection = {
 					name: "Canvas",
 					description: {
 						text: "Learn how to paint graphics onto a canvas.",
-						skills: [
-							["", ""],
-							["", ""],
-							["", ""],
-							["", ""],
-							["", ""],
+						links: [
+							["Mozilla - Canvas tutorial", "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial"],
+							["Mozilla - Canvas API", "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API"],
+							["w3schools - HTML Canvas Tutorial", "https://www.w3schools.com/graphics/canvas_intro.asp"],
 						]
 					}
 				},
@@ -620,12 +619,11 @@ export const basicCollection = {
 					name: "HTTP",
 					description: {
 						text: "Learn how data is distributed through the HTTP protocol.",
-						skills: [
-							["", ""],
-							["", ""],
-							["", ""],
-							["", ""],
-							["", ""],
+						links: [
+							["Mozilla - HTTP", "https://developer.mozilla.org/en-US/docs/Web/HTTP"],
+							["Mozilla - HTTP Glossary", "https://developer.mozilla.org/en-US/docs/Glossary/HTTP"],
+							["Mozilla - An overview of HTTP", "https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview"],
+							["Wikipedia - Hypertext Transfer Protocol", "https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol"],
 						]
 					}
 				},
@@ -633,12 +631,12 @@ export const basicCollection = {
 					name: "The Internet",
 					description: {
 						text: "Learn the basics of how the internet works.",
-						skills: [
+						links: [
 							["Mozilla - How does the Internet work?", "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/How_does_the_Internet_work"],
 							["Youtube - How the Internet Works in 5 Minutes", "https://www.youtube.com/watch?v=7_LPdttKXPc"],
-							["", ""],
-							["", ""],
-							["", ""],
+							["Explain That Stuff - Internet", "https://www.explainthatstuff.com/internet.html"],
+							["Stanford - How Does the Internet Work?", "https://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm"],
+							["How the Internet Works", "https://blog.hubspot.com/marketing/how-the-internet-works"],
 						]
 					}
 				},
@@ -646,12 +644,10 @@ export const basicCollection = {
 					name: "Polyfills",
 					description: {
 						text: "Learn how it is possible to use polyfills to increase the browser support for your website.",
-						skills: [
-							["", ""],
-							["", ""],
-							["", ""],
-							["", ""],
-							["", ""],
+						links: [
+							["Mozilla - Polyfill", "https://developer.mozilla.org/en-US/docs/Glossary/Polyfill"],
+							["Introduction To Polyfills & Their Usage", "https://medium.com/beginners-guide-to-mobile-web-development/introduction-to-polyfills-their-usage-9cd6db4b1923"],
+							["W3C - Polyfills and the evolution of the Web", "https://www.w3.org/2001/tag/doc/polyfills/"],
 						]
 					}
 				},
@@ -662,6 +658,7 @@ export const basicCollection = {
 						links: [
 							["Google Devs - Inspect and Edit Pages and Styles", "https://developers.google.com/web/tools/chrome-devtools/inspect-styles/"],
 							["Mozilla - Cross browser testing", "https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing"],
+							["5 things to remember for better debugging of your code", "https://medium.com/dev-bits/5-things-to-remember-for-better-debugging-of-your-code-94b9bc3fb3df"],
 						]
 					},
 					skills: [
@@ -669,14 +666,15 @@ export const basicCollection = {
 							name: "Developer console",
 							description: {
 								text: "Learn how to use the developer console of your favorite browser.",
-								skills: [
+								links: [
+									["Google Devs - Get Started with Chrome DevTools", "https://developers.google.com/web/tools/chrome-devtools/javascript"],
 									["Mozilla - Debugging CSS", "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Debugging_CSS"],
 									["Mozilla - Debugging HTML", "https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Debugging_HTML"],
-									["", ""],
-									["", ""],
-									["", ""],
-									["", ""],
-									["", ""],
+									["javascript.info - Debugging in Chrome", "https://javascript.info/debugging-chrome"],
+									["14 JavaScript debugging tips", "https://raygun.com/javascript-debugging-tips"],
+									["The definitive guide to debugging JavaScript", "https://flaviocopes.com/javascript-debugging/"],
+									["Youtube - Chrome DevTools 101", "https://www.youtube.com/watch?v=H0XScE08hy8"],
+									["Chrome Devs - Quickly monitor events", "https://developers.google.com/web/updates/2015/05/quickly-monitor-events-from-the-console-panel"],
 								]
 							},
 							skills: [
@@ -685,7 +683,8 @@ export const basicCollection = {
 									description: {
 										text: "Learn how to use the console API.",
 										links: [
-											["Mozilla - Console", "https://developer.mozilla.org/en-US/docs/Web/API/Console"]
+											["Mozilla - Console", "https://developer.mozilla.org/en-US/docs/Web/API/Console"],
+											["Google Devs - Console API Reference", "https://developers.google.com/web/tools/chrome-devtools/console/api"],
 										]
 									}
 								}
@@ -695,12 +694,8 @@ export const basicCollection = {
 							name: "Breakpoints",
 							description: {
 								text: "Learn how to add breakpoints to your code.",
-								skills: [
-									["", ""],
-									["", ""],
-									["", ""],
-									["", ""],
-									["", ""],
+								links: [
+									["Google Devs - How To Pause Your Code", "https://developers.google.com/web/tools/chrome-devtools/javascript/breakpoints"],
 								]
 							}
 						}
