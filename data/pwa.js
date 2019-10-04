@@ -15,6 +15,7 @@ export const pwaCollection = {
 							["Mozilla - Cookies", "https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies"],
 							["Mozilla - IndexedDB API", "https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API"],
 							["Google Devs - View And Edit Local Storage", "https://developers.google.com/web/tools/chrome-devtools/storage/localstorage"],
+							["Mozilla - Client-side storage", "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Client-side_storage"],
 						]
 					}
 				},
