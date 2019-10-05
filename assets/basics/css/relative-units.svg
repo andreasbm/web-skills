@@ -11,7 +11,7 @@
             <mask id="mask-2" fill="white">
                 <use xlink:href="#path-1"></use>
             </mask>
-            <rect stroke="#6B4125" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+            <rect stroke="#00371A" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="mathematics" transform="translate(14.000000, 30.000000)">
             <g id="Group" transform="translate(0.320792, 0.996040)" fill="#FFFFFF" fill-rule="nonzero">

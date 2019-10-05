@@ -11,7 +11,7 @@
             <mask id="mask-2" fill="white">
                 <use xlink:href="#path-1"></use>
             </mask>
-            <rect stroke="#E57E25" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+            <rect stroke="#6A3608" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
             <g id="svg" mask="url(#mask-2)">
                 <g transform="translate(18.000000, 13.000000)">
                     <path d="M23.3954651,0 L1.12276744,0 C0.502674419,0 0,0.502946429 0,1.47889286 L0,42.2321429 C0,42.4970536 0.502674419,43 1.12276744,43 L31.8772326,43 C32.4973256,43 33,42.4970536 33,42.2321429 L33,9.96525 C33,9.43082143 32.9286279,9.25882143 32.8027674,9.132125 L23.872814,0.197339286 C23.746186,0.0714107143 23.5742791,0 23.3954651,0 Z" id="Shape" fill="#DEDEDE" fill-rule="nonzero"></path>

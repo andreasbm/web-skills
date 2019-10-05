@@ -11,7 +11,7 @@
             <mask id="mask-2" fill="white">
                 <use xlink:href="#path-1"></use>
             </mask>
-            <rect stroke="#A98258" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+            <rect stroke="#72512E" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="box" transform="translate(16.000000, 16.000000)" fill-rule="nonzero">
             <polygon id="Shape" fill="#A98258" points="34.7586207 0 7.24137931 0 0 11.5862069 0 42 42 42 42 11.5862069"></polygon>

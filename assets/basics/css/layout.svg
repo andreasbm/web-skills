@@ -11,7 +11,7 @@
             <mask id="mask-2" fill="white">
                 <use xlink:href="#path-1"></use>
             </mask>
-            <rect stroke="#445EA0" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+            <rect stroke="#293F77" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="seo" transform="translate(16.000000, 15.000000)" fill-rule="nonzero">
             <path d="M1,0 L41,0 C41.5522847,-1.01453063e-16 42,0.44771525 42,1 L42,6 L0,6 L0,1 C-6.76353751e-17,0.44771525 0.44771525,1.01453063e-16 1,0 Z" id="Rectangle-3" fill="#445EA0"></path>

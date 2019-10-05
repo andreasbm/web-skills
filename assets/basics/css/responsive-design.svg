@@ -11,7 +11,7 @@
             <mask id="mask-2" fill="white">
                 <use xlink:href="#path-1"></use>
             </mask>
-            <rect stroke="#293D7C" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+            <rect stroke="#172550" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
             <g id="responsive" mask="url(#mask-2)">
                 <g transform="translate(10.000000, 15.000000)">
                     <rect id="Rectangle-path" fill="#445EA0" fill-rule="nonzero" x="19" y="31" width="8" height="4"></rect>

@@ -11,7 +11,7 @@
             <mask id="mask-2" fill="white">
                 <use xlink:href="#path-1"></use>
             </mask>
-            <rect stroke="#226BAC" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+            <rect stroke="#104677" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="blueprint-(1)" transform="translate(13.000000, 13.000000)">
             <path d="M4.94736842,0 C2.21477193,0 0,2.21477193 0,4.94736842 L0,42.0526316 C0,39.3200351 2.21477193,37.1052632 4.94736842,37.1052632 C7.67996491,37.1052632 9.89473684,39.3200351 9.89473684,42.0526316 L9.89473684,4.94736842 C9.89473684,2.21477193 7.67996491,0 4.94736842,0 Z" id="Shape" fill="#226BAC" fill-rule="nonzero"></path>
