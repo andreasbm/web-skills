@@ -2,6 +2,7 @@ import { css, html, LitElement } from "https://unpkg.com/lit-element/lit-element
 import {repeat} from "https://unpkg.com/lit-html/directives/repeat.js?module";
 import {constructImagePathPrefix, getSkillId} from "./../util/util.js";
 import {auth, AuthEvents} from "./../firebase/auth.js";
+import "./../atoms/button.js";
 
 export class Skill extends LitElement {
 	static get properties () {
@@ -189,24 +190,9 @@ export class Skill extends LitElement {
 				}
 
 				#complete-button {
-					width: 100%;
-					padding: 12px;
-					background: none;
-					color: inherit;
-					border-radius: inherit;
-					font-size: inherit;
-					border: 1px solid currentColor;
 					margin: 24px 0 0 0;
-					cursor: pointer;
-					transition: opacity 120ms ease;
-					outline: none;
-					opacity: 0.8;
+					width: 100%;
 				}
-
-				#complete-button:hover {
-					opacity: 1;
-				}
-
 			`
 		];
 	}
@@ -258,7 +244,7 @@ export class Skill extends LitElement {
 							</ul>
 						` : undefined}
 						${isAuthenticated ? html`
-							<button id="complete-button" @click="${() => auth.toggleCompleteSkill(skillId)}">${isCompleted ? `Uncomplete Skill` : `Complete Skill`}</button>
+							<st-button id="complete-button" @click="${() => auth.toggleCompleteSkill(skillId)}">${isCompleted ? `Uncomplete Skill` : `Complete Skill`}</st-button>
 						` : undefined}
 					</div>
 				` : undefined}

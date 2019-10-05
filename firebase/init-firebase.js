@@ -30,7 +30,8 @@ async function setup () {
 		// Subscribe to new collection
 		if (user != null) {
 			usersCollectionUnsubscriber = db.collection(CollectionNames.users).doc(user.uid).onSnapshot(doc => {
-				auth.setCompletedSkills(doc.data().completedSkills);
+				const data = doc.data() || {};
+				auth.setCompletedSkills("completedSkills" in data ? data.completedSkills : []);
 			});
 
 		} else {

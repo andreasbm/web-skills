@@ -8,16 +8,27 @@ export const CollectionNames = {
 }
 
 export const StorageNames = {
-	sessionUser: "sessionUser"
+	sessionUser: "sessionUser",
+	completedSkills: "completedSkills"
 }
 
 export class Auth extends EventTarget {
 
 	constructor () {
 		super();
-		this.completedSkills = [];
 		this.db = null;
 
+		// Grab the skills from localstorage before firebase has loaded.
+		this.completedSkills = (() => {
+			try {
+				return JSON.parse(localStorage.getItem(StorageNames.completedSkills));
+
+			} catch (err) {
+				return [];
+			}
+		})();
+
+		// Grab the session user from localstorage before firebase has loaded.
 		this.user = (() => {
 			try {
 				return JSON.parse(localStorage.getItem(StorageNames.sessionUser));
@@ -38,6 +49,7 @@ export class Auth extends EventTarget {
 			
 		} else {
 			localStorage.removeItem(StorageNames.sessionUser);
+			localStorage.removeItem(StorageNames.completedSkills);
 		}
 
 		this.user = user;
@@ -46,6 +58,8 @@ export class Auth extends EventTarget {
 
 	setCompletedSkills (skills) {
 		skills = skills || [];
+		localStorage.setItem(StorageNames.completedSkills, JSON.stringify(skills));
+
 		this.completedSkills = skills;
 		auth.dispatchEvent(new CustomEvent(AuthEvents.completedSkillsChanged, {detail: skills}));
 	}

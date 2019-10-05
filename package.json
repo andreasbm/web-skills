@@ -1,7 +1,7 @@
 {
 	"name": "skill-tree",
 	"scripts": {
-		"serve": "http-server --push-state -o -c-1 -p 3011",
+		"serve": "http-server --push-state -o -c-1 -p 3011 -a localhost",
 		"s": "npm run serve",
 		"deploy": "firebase deploy",
 		"lit-check": "npx lit-analyzer . --strict"
