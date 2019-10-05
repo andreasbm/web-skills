@@ -5,7 +5,20 @@
 		<link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700&display=swap" rel="stylesheet">
 	</head>
 	<body>
+
+		<!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+		<script defer src="https://www.gstatic.com/firebasejs/7.1.0/firebase-app.js"></script>
+	
+		<!-- Add Firebase products that you want to use -->
+		<script defer src="https://www.gstatic.com/firebasejs/7.1.0/firebase-auth.js"></script>
+		<script defer src="https://www.gstatic.com/firebasejs/7.1.0/firebase-firestore.js"></script>
+
+		<script defer type="module" src="firebase/init-firebase.js"></script>
+
+
+		<!-- Initialize app -->
 		<st-app></st-app>
 		<script type="module" src="app.js"></script>	
+
 	</body>
 </html>

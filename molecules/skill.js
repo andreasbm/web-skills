@@ -1,6 +1,7 @@
 import { css, html, LitElement } from "https://unpkg.com/lit-element/lit-element.js?module";
 import {repeat} from "https://unpkg.com/lit-html/directives/repeat.js?module";
-import {constructImagePathPrefix} from "./../util/util.js";
+import {constructImagePathPrefix, getSkillId} from "./../util/util.js";
+import {auth, AuthEvents} from "./../firebase/auth.js";
 
 export class Skill extends LitElement {
 	static get properties () {
@@ -81,6 +82,10 @@ export class Skill extends LitElement {
 					margin: 0;
 				}
 
+				#description .title {
+					margin: 0 0 6px 0;
+				}
+
 				#description .links {
 					margin: 12px 0 0 0;
     			padding: 0 0 0 19px;
@@ -95,7 +100,7 @@ export class Skill extends LitElement {
 					word-break: break-word;
 				}
 
-				#skill:hover #description, #skill:focus-within #description {
+				#skill:hover #description/*, #skill:focus-within #description*/ {
 					opacity: 1;
 					pointer-events: all;
 					transform: translate(-7%, 0);
@@ -112,6 +117,11 @@ export class Skill extends LitElement {
 					margin: 0 0 6px;
 					transition: 90ms ease-in transform;
 					user-select: none;
+				}
+
+				#skill:not(.completed) #img {
+					filter: grayscale(1);
+					opacity: 0.5;
 				}
 
 				#subskills {
@@ -178,6 +188,25 @@ export class Skill extends LitElement {
 					transform: translate(-50%, -100%);
 				}
 
+				#complete-button {
+					width: 100%;
+					padding: 12px;
+					background: none;
+					color: inherit;
+					border-radius: inherit;
+					font-size: inherit;
+					border: 1px solid currentColor;
+					margin: 24px 0 0 0;
+					cursor: pointer;
+					transition: opacity 120ms ease;
+					outline: none;
+					opacity: 0.8;
+				}
+
+				#complete-button:hover {
+					opacity: 1;
+				}
+
 			`
 		];
 	}
@@ -185,6 +214,14 @@ export class Skill extends LitElement {
 	constructor () {
 		super();
 		this.tabIndex = 0;
+
+		auth.addEventListener(AuthEvents.authStateChanged, () => {
+			this.requestUpdate();
+		});
+
+		auth.addEventListener(AuthEvents.completedSkillsChanged, () => {
+			this.requestUpdate();
+		});
 	}
 
 	onKeyDown (e) {
@@ -198,14 +235,20 @@ export class Skill extends LitElement {
 	render () {
 		const {skill, collection, area} = this;
 		const {description, name, skills} = skill;
+		const skillId = getSkillId(collection, area, skill);
+
+		const isAuthenticated = auth.isAuthenticated;
+		const isCompleted = !isAuthenticated ? true : auth.hasCompletedSkill(skillId);
+
 		return html`
-			<div id="skill">
+			<div id="skill" class="${isCompleted ? `completed` : ``}">
 				<img id="img" loading="lazy" src="${constructImagePathPrefix(collection, area, skill)}" />
 				<h6 id="title">${name}</h6>
-				${description != null && (description.text != null || description.links != null) ? html`
+				${(description != null && (description.text != null || description.links != null)) || isAuthenticated ? html`
 					<div id="description" @keydown="${this.onKeyDown}">
-						<p class="text">${description.text}</p>
-						${description.links != null && description.links.length > 0 ? html`
+						<h4 class="title">${name}</h4>
+						${description != null && description.text != null ? html`<p class="text">${description.text}</p>` : undefined}
+						${description != null && description.links != null && description.links.length > 0 ? html`
 							<ul class="links">
 								${repeat(description.links, link => html`
 									<li class="link">
@@ -213,6 +256,9 @@ export class Skill extends LitElement {
 									</li>
 								`)}
 							</ul>
+						` : undefined}
+						${isAuthenticated ? html`
+							<button id="complete-button" @click="${() => auth.toggleCompleteSkill(skillId)}">${isCompleted ? `Uncomplete Skill` : `Complete Skill`}</button>
 						` : undefined}
 					</div>
 				` : undefined}
