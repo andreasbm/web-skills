@@ -83,7 +83,7 @@ export const buildtoolsCollection = {
 				{
 					name: "Linters and formatters",
 					description: {
-						text: "Learn how you can improve your Javascript code quality with linters and formatters.",
+						text: "Learn how you can improve your code quality with linters and formatters.",
 						links: [
 							["Improve Your JavaScript Code Quality With Linters", "https://www.gistia.com/javascript-linters-formatter-prettier-eslint/"],
 							["Why you should always use a Linter", "https://medium.com/dailyjs/why-you-should-always-use-a-linter-and-or-pretty-formatter-bb5471115a76"],
