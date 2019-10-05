@@ -7,13 +7,25 @@ export const CollectionNames = {
 	users: "users"
 }
 
+export const StorageNames = {
+	sessionUser: "sessionUser"
+}
+
 export class Auth extends EventTarget {
 
 	constructor () {
 		super();
-		this.user = null;
 		this.completedSkills = [];
 		this.db = null;
+
+		this.user = (() => {
+			try {
+				return JSON.parse(localStorage.getItem(StorageNames.sessionUser));
+
+			} catch (err) {
+				return null;
+			}
+		})();
 	}
 
 	get isAuthenticated () {
@@ -21,13 +33,18 @@ export class Auth extends EventTarget {
 	}
 
 	setUser (user) {
-		console.log("SET USER", user);
+		if (user != null) {
+			localStorage.setItem(StorageNames.sessionUser, JSON.stringify(user));
+			
+		} else {
+			localStorage.removeItem(StorageNames.sessionUser);
+		}
+
 		this.user = user;
 		auth.dispatchEvent(new CustomEvent(AuthEvents.authStateChanged, {detail: user}));
 	}
 
 	setCompletedSkills (skills) {
-		console.log("SET SKILLS", skills);
 		skills = skills || [];
 		this.completedSkills = skills;
 		auth.dispatchEvent(new CustomEvent(AuthEvents.completedSkillsChanged, {detail: skills}));
