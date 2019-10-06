@@ -77,6 +77,17 @@ export const buildtoolsCollection = {
 									["Parcel, a simpler webpack", "https://flaviocopes.com/parcel/"]
 								]
 							},
+						},
+						{
+							name: "Pika",
+							description: {
+								text: "Learn how you can use Pika instead of a bundler.",
+								links: [
+									["Pika - About", "https://www.pika.dev/about/"],
+									["Introducing: @pika/pack", "https://www.pika.dev/blog/introducing-pika-pack/"],
+									["A Future Without Webpack", "https://www.pika.dev/blog/pika-web-a-future-without-webpack/"],
+								]
+							},
 						}
 					]
 				},

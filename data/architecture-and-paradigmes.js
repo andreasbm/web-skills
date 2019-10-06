@@ -86,6 +86,7 @@ export const architectureCollection = {
 								links: [
 									["Singleton Pattern", "https://refactoring.guru/design-patterns/singleton"],
 									["Singleton Example", "https://www.dofactory.com/javascript/singleton-design-pattern"],
+									["Wikipedia - Singleton Pattern", "https://en.wikipedia.org/wiki/Singleton_pattern"],
 								]
 							},
 						},
@@ -96,6 +97,7 @@ export const architectureCollection = {
 								links: [
 									["Observer Pattern", "https://refactoring.guru/design-patterns/observer"],
 									["Observer Example", "https://www.dofactory.com/javascript/observer-design-pattern"],
+									["Wikipedia - Observer Pattern", "https://en.wikipedia.org/wiki/Observer_pattern"],
 								]
 							},
 						},
@@ -106,6 +108,7 @@ export const architectureCollection = {
 								links: [
 									["Prototype Pattern", "https://refactoring.guru/design-patterns/prototype"],
 									["Prototype Example", "https://www.dofactory.com/javascript/prototype-design-pattern"],
+									["Wikipedia - Prototype pattern", "https://en.wikipedia.org/wiki/Prototype_pattern"],
 								]
 							},
 						},
@@ -116,6 +119,7 @@ export const architectureCollection = {
 								links: [
 									["Bridge Pattern", "https://refactoring.guru/design-patterns/bridge"],
 									["Bridge Example", "https://www.dofactory.com/javascript/bridge-design-pattern"],
+									["Wikipedia - Bridge pattern", "https://en.wikipedia.org/wiki/Bridge_pattern"],
 								]
 							},
 						},
@@ -126,6 +130,7 @@ export const architectureCollection = {
 								links: [
 									["Proxy Pattern", "https://refactoring.guru/design-patterns/proxy"],
 									["Proxy Example", "https://www.dofactory.com/javascript/proxy-design-pattern"],
+									["Wikipedia - Proxy pattern", "https://en.wikipedia.org/wiki/Proxy_pattern"],
 								]
 							},
 						},
@@ -136,6 +141,7 @@ export const architectureCollection = {
 								links: [
 									["Chain of Responsibility Pattern", "https://refactoring.guru/design-patterns/chain-of-responsibility"],
 									["Chain of Responsibility Example", "https://www.dofactory.com/javascript/chain-of-responsibility-design-pattern"],
+									["Wikipedia - Chain of responsibility", "https://en.wikipedia.org/wiki/Chain-of-responsibility_pattern"],
 								]
 							},
 						},

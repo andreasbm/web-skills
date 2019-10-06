@@ -17,9 +17,12 @@ async function setup () {
 	const db = firebase.firestore();
 	auth.setDb(db);
 
+	// Get auth from firebase
+	const firebaseAuth = firebase.auth();
+
 	// Listen for auth changes
 	let usersCollectionUnsubscriber = null;
-	firebase.auth().onAuthStateChanged(user => {
+	firebaseAuth.onAuthStateChanged(user => {
 
 		// Unsubscribe from previous collection
 		if (usersCollectionUnsubscriber != null) {

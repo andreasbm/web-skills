@@ -390,7 +390,8 @@ export const pwaCollection = {
 							["Google Devs - Choosing the Right Easing", "https://developers.google.com/web/fundamentals/design-and-ux/animations/choosing-the-right-easing"],
 							["Google Devs - Animating Modal Views", "https://developers.google.com/web/fundamentals/design-and-ux/animations/animating-modal-views"],
 							["Mozilla - CSS and JavaScript animation performance", "https://developer.mozilla.org/en-US/docs/Web/Performance/CSS_JavaScript_animation_performance"],
-							["Mozilla - Performance fundamentals", "https://developer.mozilla.org/en-US/docs/Web/Performance/Fundamentals"]
+							["Mozilla - Performance fundamentals", "https://developer.mozilla.org/en-US/docs/Web/Performance/Fundamentals"],
+							["Youtube - Fast By Default", "https://www.youtube.com/watch?v=_srJ7eHS3IM"],
 						]
 					},
 					skills: [

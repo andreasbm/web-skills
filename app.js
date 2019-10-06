@@ -9,9 +9,6 @@ export class App extends LitElement {
 
 	static get properties () {
 		return {
-			"user": {
-				type: Object
-			}
 		}
 	}
 
@@ -60,7 +57,7 @@ export class App extends LitElement {
 		super.connectedCallback();
 
 		auth.addEventListener(AuthEvents.authStateChanged, () => {
-			this.user = auth.user;
+			this.requestUpdate().then();
 		});
 	}
 
@@ -73,7 +70,8 @@ export class App extends LitElement {
 	}
 
 	render () {
-		const {user, signIn, signOut} = this;
+		const {signIn, signOut} = this;
+		const user = auth.user;
 
 		return html`
 			<div id="collections">

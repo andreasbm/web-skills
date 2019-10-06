@@ -194,6 +194,7 @@ export const basicCollection = {
 						links: [
 							["Chrome Dev - Basic Layout", "https://developers.google.com/training/certification/mobile-web-specialist/study-guide/basic-layout"],
 							["w3schools - CSS Website Layout", "https://www.w3schools.com/css/css_website_layout.asp"],
+							["Mozilla - Document and website structure", "https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure"],
 						]
 					},
 					skills: [
@@ -331,6 +332,7 @@ export const basicCollection = {
 							["Mozilla - Javascript First Steps", "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps"],
 							["Mozilla - Javascript Basics", "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics"],
 							["Mozilla - Javascript Building Blocks", "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks"],
+							/* ["You might not need jQuery", "http://youmightnotneedjquery.com/"],*/
 						]
 					}
 				},
@@ -549,7 +551,8 @@ export const basicCollection = {
 									["W3C - About", "https://www.w3.org/standards/about.html"],
 									["W3C - Standards", "https://www.w3.org/standards/"],
 									["W3C - Process", "http://webdiy.org/w3c/"],
-									["Web Standards Guide", "https://www.smashingmagazine.com/2019/01/web-standards-guide/"]
+									["Web Standards Guide", "https://www.smashingmagazine.com/2019/01/web-standards-guide/"],
+									["W3C - Groups", "https://www.w3.org/community/groups/"],
 								]
 							}
 						},
@@ -565,6 +568,32 @@ export const basicCollection = {
 								]
 							},
 						},
+						{
+							name: "WHATWG",
+							description: {
+								text: "Learn what WHATWG are doing and how they are moving the web forward.",
+								links: [
+									["WHATWG - FAQ", "https://whatwg.org/faq"],
+									["WHATWG - Standards", "https://spec.whatwg.org/"],
+									["Mozilla - WHATWG", "https://developer.mozilla.org/en-US/docs/Glossary/WHATWG"],
+									["W3C vs. WHATWG HTML5 Specs", "https://dzone.com/articles/w3c-vs-whatwg-html5-specs"],
+									["WHATWG - HTML", "https://html.spec.whatwg.org/"],
+									["Wikipedia - WHATWG", "https://en.wikipedia.org/wiki/WHATWG"],
+								]
+							}
+						},
+						{
+							name: "Specifications",
+							description: {
+								text: "Learn how to read specifications developed by the standards committees.",
+								links: [
+									["How to Read the ECMAScript Specification", "https://timothygu.me/es-howto/"],
+									["How to Read W3C Specs", "https://alistapart.com/article/readspec/"],
+									["Learning CSS by reading specs", "https://www.chenhuijing.com/blog/learning-css-by-reading-specifications/"],
+									["Understanding the CSS Specifications", "https://www.w3.org/Style/CSS/read.en.html"],
+								]
+							},
+						}
 					]
 				},
 				{
@@ -675,6 +704,7 @@ export const basicCollection = {
 									["The definitive guide to debugging JavaScript", "https://flaviocopes.com/javascript-debugging/"],
 									["Youtube - Chrome DevTools 101", "https://www.youtube.com/watch?v=H0XScE08hy8"],
 									["Chrome Devs - Quickly monitor events", "https://developers.google.com/web/updates/2015/05/quickly-monitor-events-from-the-console-panel"],
+									["Youtube - 14 Must Know Chrome Dev Tools Tricks", "https://www.youtube.com/watch?v=xkzDaKwinA8"]
 								]
 							},
 							skills: [
@@ -696,6 +726,7 @@ export const basicCollection = {
 								text: "Learn how to add breakpoints to your code.",
 								links: [
 									["Google Devs - How To Pause Your Code", "https://developers.google.com/web/tools/chrome-devtools/javascript/breakpoints"],
+									["Debugging Javascript Like a Pro", "https://blog.bitsrc.io/debugging-javascript-like-a-pro-a2e0f6c53c2e"],
 								]
 							}
 						}

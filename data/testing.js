@@ -207,6 +207,17 @@ export const testingCollection = {
 									["End-to-End Testing with Cypress", "https://webdevstudios.com/2018/11/13/end-to-end-testing-with-cypress-io/"],
 								]
 							}
+						},
+						{
+							name: "Ava",
+							description: {
+								text: "Learn about the Ava test runner.",
+								links: [
+									["Github - Ava", "https://github.com/avajs/ava"],
+									["A Fresh Take On JavaScript Testing", "https://pusher.com/sessions/meetup/the-js-roundabout/ava-test-runner-a-fresh-take-on-javascript-testing-and-growing-an-open-source-project"],
+									["Freecodecamp - How you can test your Node.js applications", "https://www.freecodecamp.org/news/testing-your-nodejs-applications-with-ava-js-99e806a226a7/"],
+								]
+							},
 						}
 					]
 				},
