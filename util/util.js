@@ -1,3 +1,4 @@
+import { Confetti } from "../atoms/confetti.js";
 
 export function pathify (name) {
 	return name
@@ -23,4 +24,29 @@ export function getSkillId (collection, area, skill) {
 		area.name,
 		skill.name
 	].filter(name => name != null).map(pathify).join("-");
+}
+
+/**
+ * Returns a random integer between min (include) and max (include)
+ * https://stackoverflow.com/a/29246176
+ * @param {*} from 
+ * @param {*} to 
+ */
+export function randomNumberInRange(from, to) {
+	return Math.floor(Math.random() * (to - from + 1)) + from;
+}
+
+export function sprayConfettiOnce () {
+	const $confetti = new Confetti();
+	$confetti.once = true;
+	$confetti.overlay = true;
+
+	$confetti.addEventListener("stopped", () => {
+		$confetti.remove();
+	});
+
+	document.body.appendChild($confetti);
+	requestAnimationFrame(() => {
+		$confetti.start();
+	});
 }

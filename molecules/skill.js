@@ -1,6 +1,6 @@
 import { css, html, LitElement } from "https://unpkg.com/lit-element/lit-element.js?module";
 import {repeat} from "https://unpkg.com/lit-html/directives/repeat.js?module";
-import {constructImagePathPrefix, getSkillId} from "./../util/util.js";
+import {constructImagePathPrefix, getSkillId, sprayConfettiOnce} from "./../util/util.js";
 import {auth, AuthEvents} from "./../firebase/auth.js";
 import "./../atoms/button.js";
 
@@ -244,7 +244,13 @@ export class Skill extends LitElement {
 							</ul>
 						` : undefined}
 						${isAuthenticated ? html`
-							<st-button id="complete-button" @click="${() => auth.toggleCompleteSkill(skillId)}">${isCompleted ? `Uncomplete Skill` : `Complete Skill`}</st-button>
+							<st-button id="complete-button" @click="${() => {
+								if (!isCompleted) {
+									sprayConfettiOnce();
+								}
+
+								auth.toggleCompleteSkill(skillId);
+							}}">${isCompleted ? `Uncomplete Skill` : `Complete Skill`}</st-button>
 						` : undefined}
 					</div>
 				` : undefined}
