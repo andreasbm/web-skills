@@ -37,7 +37,7 @@ export class Skill extends LitElement {
 				}
 
 				#skill {
-					max-width: 100px;
+					max-width: 120px;
 					display: flex;
 					flex-direction: column;
 					align-items: center;

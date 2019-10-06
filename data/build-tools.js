@@ -160,6 +160,17 @@ export const buildtoolsCollection = {
 									["Moving to ES6 — Babel and Transpilers", "https://hackernoon.com/moving-to-es6-babel-and-transpilers-337921c025b1"],
 								]
 							}
+						},
+						{
+							name: "Typescript",
+							description: {
+								text: "Learn how to use Typescript and how it can help making your code typesafe.",
+								links: [
+									["Typescript - Documentation", "http://www.typescriptlang.org/docs/home.html"],
+									["Typescript: Why should one use i?", "https://medium.com/tech-tajawal/typescript-why-should-one-use-it-a539faa92010"],
+									["Why TypeScript is the best way to write Front-end in 2019", "https://medium.com/@jtomaszewski/why-typescript-is-the-best-way-to-write-front-end-in-2019-feb855f9b164"]
+								]
+							},
 						}
 					]
 				},
@@ -197,17 +208,6 @@ export const buildtoolsCollection = {
 							}
 						}
 					]
-				},
-				{
-					name: "Typescript",
-					description: {
-						text: "Learn how to use Typescript and how it can help making your code typesafe.",
-						links: [
-							["Typescript - Documentation", "http://www.typescriptlang.org/docs/home.html"],
-							["Typescript: Why should one use i?", "https://medium.com/tech-tajawal/typescript-why-should-one-use-it-a539faa92010"],
-							["Why TypeScript is the best way to write Front-end in 2019", "https://medium.com/@jtomaszewski/why-typescript-is-the-best-way-to-write-front-end-in-2019-feb855f9b164"]
-						]
-					},
 				},
 				{
 					name: "Node.js",
