@@ -72,6 +72,7 @@ export const advancedCollection = {
 									["Understanding Generators with Examples", "https://codeburst.io/understanding-generators-in-es6-javascript-with-examples-6728834016d5"],
 									["Mozilla - function*", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function*"],
 									["Mozilla - Iterators and generators", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Iterators_and_Generators"],
+									["Mozilla - yield*", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/yield*"],
 								]
 							},
 						}

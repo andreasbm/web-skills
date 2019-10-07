@@ -334,7 +334,31 @@ export const basicCollection = {
 							["Mozilla - Javascript Building Blocks", "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks"],
 							/* ["You might not need jQuery", "http://youmightnotneedjquery.com/"],*/
 						]
-					}
+					},
+					skills: [
+						{
+							name: "Spread",
+							description: {
+								text: "Learn how the spread syntax can help you when working with arrays.",
+								links: [
+									["Mozilla - Spread syntax", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax"],
+									["Freecodecamp - An introduction to Spread syntax", "https://www.freecodecamp.org/news/an-introduction-to-spread-syntax-in-javascript-fba39595922c/"],
+									["Object rest and spread properties", "https://v8.dev/features/object-rest-spread"],
+								]
+							},
+						},
+						{
+							name: "Destructuring",
+							description: {
+								text: "Learn how destructuring can help you when working with objects.",
+								links: [
+									["Mozilla - Destructuring assignment", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment"],
+									["Mozilla - ES6 In Depth: Destructuring", "https://hacks.mozilla.org/2015/05/es6-in-depth-destructuring/"],
+									["javascript.info - Destructuring assignment", "https://javascript.info/destructuring-assignment"],
+								]
+							},
+						}
+					]
 				},
 				{
 					name: "DOM",
@@ -360,6 +384,18 @@ export const basicCollection = {
 					]
 				},
 				{
+					name: "Events",
+					description: {
+						text: "Learn how to dispatch and listen for events.",
+						links: [
+							["Mozilla - Introduction to events", "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events"],
+							["Mozilla - Creating and triggering events", "https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Creating_and_triggering_events"],
+							["Event Bubbling and Event Capturing in JavaScript", "https://medium.com/@vsvaibhav2016/event-bubbling-and-event-capturing-in-javascript-6ff38bec30e"],
+							["Mozilla - Event bubbling and capture", "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events#Event_bubbling_and_capture"],
+						]
+					}
+				},
+				{
 					name: "Objects",
 					description: {
 						text: "Learn how to create and use objects.",
@@ -370,6 +406,8 @@ export const basicCollection = {
 							["Mozilla - this", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this"],
 							["w3schools - The JavaScript this Keyword", "https://www.w3schools.com/js/js_this.asp"],
 							["Mozilla - bind()", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind"],
+							["Mozilla - new operator", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new"],
+							["Mozilla - new.target", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new.target"],
 						]
 					},
 					skills: [
@@ -391,25 +429,14 @@ export const basicCollection = {
 											["Mozilla - Classes", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes"],
 											["Medium - ES6 Classes", "https://medium.com/@luke_smaki/javascript-es6-classes-8a34b0a6720a"],
 											["Mozilla - Inheritance", "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Inheritance"],
-											["Mozilla - Object Oriented Programming", "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS"]
+											["Mozilla - Object Oriented Programming", "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS"],
+											["Mozilla - super", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/super"],
 										]
 									}
 								}
 							]
 						}
 					]
-				},
-				{
-					name: "Events",
-					description: {
-						text: "Learn how to dispatch and listen for events.",
-						links: [
-							["Mozilla - Introduction to events", "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events"],
-							["Mozilla - Creating and triggering events", "https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Creating_and_triggering_events"],
-							["Event Bubbling and Event Capturing in JavaScript", "https://medium.com/@vsvaibhav2016/event-bubbling-and-event-capturing-in-javascript-6ff38bec30e"],
-							["Mozilla - Event bubbling and capture", "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events#Event_bubbling_and_capture"],
-						]
-					}
 				},
 				{
 					name: "Regex",
@@ -419,6 +446,17 @@ export const basicCollection = {
 							["Mozilla - Regular Expressions", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions"],
 							["javascript.info - Regular expressions", "https://javascript.info/regular-expressions"],
 							["Mozilla - RegExp", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp"],
+						]
+					}
+				},
+				{
+					name: "Template Literals",
+					description: {
+						text: "Learn how template literals and tagged templates and help you manipulate strings.",
+						links: [
+							["Mozilla - Template literals", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals"],
+							["Mozilla - ES6 In Depth: Template strings", "https://hacks.mozilla.org/2015/05/es6-in-depth-template-strings-2/"],
+							["Google Devs - Getting Literal With ES6 Template Strings", "https://developers.google.com/web/updates/2015/01/ES6-Template-Strings"],
 						]
 					}
 				},

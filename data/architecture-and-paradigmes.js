@@ -3,7 +3,7 @@ export const architectureCollection = {
 	areas: [
 		{
 			skills: [
-				{
+				/*{
 					name: "Programming Paradigmes",
 					description: {
 						text: "Learn how programming languages can be categoried into different paraigmes based on their features.",
@@ -12,60 +12,84 @@ export const architectureCollection = {
 							["What Are JavaScript Programming Paradigms?", "https://medium.com/javascript-in-plain-english/what-are-javascript-programming-paradigms-3ef0f576dfdb"],
 						]
 					},
-					skills: [
-						{
-							name: "Functional programming",
-							description: {
-								text: "Learn about functional programming and how it can make your code easier to read and debug.",
-								links: [
-									["An introduction to functional programming in JavaScript", "https://opensource.com/article/17/6/functional-javascript"],
-									["Functional Programming in JavaScript", "https://codeburst.io/functional-programming-in-javascript-e57e7e28c0e5"],
-									["The power of functional programming in Javascript", "https://itnext.io/the-power-of-functional-programming-in-javascript-cc9797a42b60"],
-									["An introduction to Functional Programming", "https://flaviocopes.com/javascript-functional-programming/"],
-									["dev.to - Basic Functional Programming Patterns in JavaScript", "https://dev.to/nestedsoftware/basic-functional-programming-patterns-in-javascript-49p2"],
-								]
-							},
-							skills: [
-								{
-									name: "Recursion",
-									description: {
-										text: "Learn about recursion and when it should be used to make your code more readable.",
-										links: [
-											["Learn and Understand Recursion in JavaScript", "https://codeburst.io/learn-and-understand-recursion-in-javascript-b588218e87ea"],
-											["Understanding Recursion in JavaScript", "https://medium.com/@zfrisch/understanding-recursion-in-javascript-992e96449e03"],
-											["Freecodecamp - Recursion in JavaScript", "https://www.freecodecamp.org/news/recursion-in-javascript-1608032c7a1f/"],
-											["javascript.info - Recursion and stack", "https://javascript.info/recursion"],
-										]
-									},
-								}
-							]
-						},
-						{
-							name: "Object Oriented Programming",
-							description: {
-								text: "Learn about object oriented programming and how objects can make your code easier to read and debug.",
-								links: [
-									["Mozilla - Object-oriented JavaScript", "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS"],
-									["Freecodecamp - An introduction to Object-Oriented Programming", "https://www.freecodecamp.org/news/an-introduction-to-object-oriented-programming-in-javascript-8900124e316a/"],
-									["Introduction to Object Oriented Programming in JavaScript", "https://www.geeksforgeeks.org/introduction-object-oriented-programming-javascript/"],
-								]
-							},
-							skills: [
-								{
-									name: "S.O.L.I.D",
-									description: {
-										text: "Learn about the SOLID design pricinples that can make your code more understandable, flexible and maintainable.",
-										links: [
-											["Wikipedia - SOLID", "https://en.wikipedia.org/wiki/SOLID"],
-											["S.O.L.I.D: The First 5 Principles of Object Oriented Design", "https://scotch.io/bar-talk/s-o-l-i-d-the-first-five-principles-of-object-oriented-design"],
-											["S.O.L.I.D The first 5 principles of Object Oriented Design with JavaScript", "https://medium.com/@cramirez92/s-o-l-i-d-the-first-5-priciples-of-object-oriented-design-with-javascript-790f6ac9b9fa"],
-										]
-									},
-								}
-							]
-						},
-					]
 				},
+					*/
+					{
+						name: "Functional programming",
+						description: {
+							text: "Learn about functional programming and how it can make your code easier to read and debug.",
+							links: [
+								["An introduction to functional programming in JavaScript", "https://opensource.com/article/17/6/functional-javascript"],
+								["Functional Programming in JavaScript", "https://codeburst.io/functional-programming-in-javascript-e57e7e28c0e5"],
+								["The power of functional programming in Javascript", "https://itnext.io/the-power-of-functional-programming-in-javascript-cc9797a42b60"],
+								["An introduction to Functional Programming", "https://flaviocopes.com/javascript-functional-programming/"],
+								["dev.to - Basic Functional Programming Patterns in JavaScript", "https://dev.to/nestedsoftware/basic-functional-programming-patterns-in-javascript-49p2"],
+							]
+						},
+						skills: [
+							{
+								name: "Recursion",
+								description: {
+									text: "Learn about recursion and when it can be used to make your code more readable.",
+									links: [
+										["Learn and Understand Recursion in JavaScript", "https://codeburst.io/learn-and-understand-recursion-in-javascript-b588218e87ea"],
+										["Understanding Recursion in JavaScript", "https://medium.com/@zfrisch/understanding-recursion-in-javascript-992e96449e03"],
+										["Freecodecamp - Recursion in JavaScript", "https://www.freecodecamp.org/news/recursion-in-javascript-1608032c7a1f/"],
+										["javascript.info - Recursion and stack", "https://javascript.info/recursion"],
+									]
+								},
+							},
+							{
+								name: "Currying",
+								description: {
+									text: "Learn about currying and when it can be used to make your code more readable.",
+									links: [
+										["dev.to - All you need to know about currying", "https://dev.to/bettercodingacademy/functional-programming-all-you-need-to-know-about-currying-5k7"],
+										["JavaScript: Currying and Partial Application", "https://gideonpyzer.dev/blog/2017/01/14/javascript-currying-and-partial-application/"],
+										["Curry and Function Composition", "https://medium.com/javascript-scene/curry-and-function-composition-2c208d774983"],
+										["Wikipedia - Currying", "https://en.wikipedia.org/wiki/Currying"],
+									]
+								},
+							},
+							{
+								name: "Monads",
+								description: {
+									text: "Learn about monads and when it can be used to make your code more readable.",
+									links: [
+										["Youtube - If you know map, I will teach you monads", "https://www.youtube.com/watch?v=2jp8N6Ha7tY"],
+										["Functional JavaScript - Functors, Monads, and Promises", "https://dev.to/joelnet/functional-javascript---functors-monads-and-promises-1pol"],
+										["Wikipedia - Monad", "https://en.wikipedia.org/wiki/Monad_(functional_programming)"],
+										["JavaScript Monads Made Simple", "https://medium.com/javascript-scene/javascript-monads-made-simple-7856be57bfe8"],
+										["Implementing JavaScript Functors and Monads", "https://medium.com/front-end-weekly/implementing-javascript-functors-and-monads-a87b6a4b4d9a"],
+									]
+								},
+							}
+						]
+					},
+					{
+						name: "Object Oriented Programming",
+						description: {
+							text: "Learn about object oriented programming and how objects can make your code easier to read and debug.",
+							links: [
+								["Mozilla - Object-oriented JavaScript", "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS"],
+								["Freecodecamp - An introduction to Object-Oriented Programming", "https://www.freecodecamp.org/news/an-introduction-to-object-oriented-programming-in-javascript-8900124e316a/"],
+								["Introduction to Object Oriented Programming in JavaScript", "https://www.geeksforgeeks.org/introduction-object-oriented-programming-javascript/"],
+							]
+						},
+						skills: [
+							{
+								name: "S.O.L.I.D",
+								description: {
+									text: "Learn about the SOLID design pricinples that can make your code more understandable, flexible and maintainable.",
+									links: [
+										["Wikipedia - SOLID", "https://en.wikipedia.org/wiki/SOLID"],
+										["S.O.L.I.D: The First 5 Principles of Object Oriented Design", "https://scotch.io/bar-talk/s-o-l-i-d-the-first-five-principles-of-object-oriented-design"],
+										["S.O.L.I.D The first 5 principles of Object Oriented Design with JavaScript", "https://medium.com/@cramirez92/s-o-l-i-d-the-first-5-priciples-of-object-oriented-design-with-javascript-790f6ac9b9fa"],
+									]
+								},
+							}
+						]
+					},
 				{
 					name: "Design Patterns",
 					description: {
