@@ -49,6 +49,19 @@ export const frameworksAndLibrariesCollection = {
 					},
 				},
 				{
+					name: "Svelte",
+					description: {
+						text: "Learn about Svelte and how it can convert your component into highly efficient imperative code.".,
+						links: [
+							["Svelte", "https://svelte.dev/"],
+							["Github - Svelte FAQ", "https://github.com/sveltejs/svelte/wiki/FAQ"],
+							["Svelte - Rethinking reactivity", "https://svelte.dev/blog/svelte-3-rethinking-reactivity"],
+							["", ""],
+							["", ""],
+						]
+					},
+				},
+				{
 					name: "Stencil",
 					description: {
 						text: "Learn how Stencil can be used for generating small, fast web components.",
@@ -58,7 +71,7 @@ export const frameworksAndLibrariesCollection = {
 							["How to Build Reusable Web Components Using Stenciljs", "https://codeburst.io/how-to-build-web-components-using-stenciljs-afacc5451c2d"],
 						]
 					},
-				}
+				},
 			]
 		}
 	]
