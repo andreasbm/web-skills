@@ -51,13 +51,11 @@ export const frameworksAndLibrariesCollection = {
 				{
 					name: "Svelte",
 					description: {
-						text: "Learn about Svelte and how it can convert your component into highly efficient imperative code.".,
+						text: "Learn about Svelte and how it can convert your component into highly efficient imperative code.",
 						links: [
 							["Svelte", "https://svelte.dev/"],
 							["Github - Svelte FAQ", "https://github.com/sveltejs/svelte/wiki/FAQ"],
 							["Svelte - Rethinking reactivity", "https://svelte.dev/blog/svelte-3-rethinking-reactivity"],
-							["", ""],
-							["", ""],
 						]
 					},
 				},
