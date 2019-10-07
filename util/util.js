@@ -40,6 +40,7 @@ export function sprayConfettiOnce () {
 	const $confetti = new Confetti();
 	$confetti.once = true;
 	$confetti.overlay = true;
+	$confetti.maxamount = randomNumberInRange(50, 150);
 
 	$confetti.addEventListener("stopped", () => {
 		$confetti.remove();
@@ -49,4 +50,11 @@ export function sprayConfettiOnce () {
 	requestAnimationFrame(() => {
 		$confetti.start();
 	});
+}
+
+export function playAudio (src, volume = 1) {
+	const $audio =document.createElement("audio");
+	$audio.src = src;
+	$audio.volume = volume;
+	$audio.play();
 }

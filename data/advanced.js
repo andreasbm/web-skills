@@ -196,6 +196,7 @@ export const advancedCollection = {
 					description: {
 						text: "Learn how to use the Web Audio API to add audio to your web app.",
 						links: [
+							["Mozilla - Using the Web Audio API", "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Using_Web_Audio_API"],
 							["Mozilla - Web Audio API", "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API"],
 							["W3C - Web Audio API", "https://www.w3.org/TR/webaudio/"],
 							["HTML5 Rocks - Getting Started with Web Audio API", "https://www.html5rocks.com/en/tutorials/webaudio/intro/"],

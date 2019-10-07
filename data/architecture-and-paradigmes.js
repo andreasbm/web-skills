@@ -56,11 +56,13 @@ export const architectureCollection = {
 								description: {
 									text: "Learn about monads and when it can be used to make your code more readable.",
 									links: [
-										["Youtube - If you know map, I will teach you monads", "https://www.youtube.com/watch?v=2jp8N6Ha7tY"],
+										["Youtube - Monad, FunFunFunction", "https://www.youtube.com/watch?v=9QveBbn7t_c"],
+										["Youtube - Functors, FunFunFunction ", "https://www.youtube.com/watch?v=YLIH8TKbAh4"],
 										["Functional JavaScript - Functors, Monads, and Promises", "https://dev.to/joelnet/functional-javascript---functors-monads-and-promises-1pol"],
 										["Wikipedia - Monad", "https://en.wikipedia.org/wiki/Monad_(functional_programming)"],
 										["JavaScript Monads Made Simple", "https://medium.com/javascript-scene/javascript-monads-made-simple-7856be57bfe8"],
 										["Implementing JavaScript Functors and Monads", "https://medium.com/front-end-weekly/implementing-javascript-functors-and-monads-a87b6a4b4d9a"],
+										["Mozilla - Array.prototype.flatMap()", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flatMap"],
 									]
 								},
 							}

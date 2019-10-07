@@ -1,6 +1,6 @@
 import { css, html, LitElement } from "https://unpkg.com/lit-element/lit-element.js?module";
 import {repeat} from "https://unpkg.com/lit-html/directives/repeat.js?module";
-import {constructImagePathPrefix, getSkillId, sprayConfettiOnce} from "./../util/util.js";
+import {constructImagePathPrefix, getSkillId, sprayConfettiOnce, playAudio} from "./../util/util.js";
 import {auth, AuthEvents} from "./../firebase/auth.js";
 import "./../atoms/button.js";
 
@@ -247,6 +247,13 @@ export class Skill extends LitElement {
 							<st-button id="complete-button" @click="${() => {
 								if (!isCompleted) {
 									sprayConfettiOnce();
+
+									// Add audio for lols
+									playAudio(`/assets/audio/party.mp3`, 0.2);
+									playAudio(`/assets/audio/shot.mp3`, 0.7);
+									setTimeout(() => {
+										playAudio(`/assets/audio/paper.mp3`, 0.3);
+									}, 150);
 								}
 
 								auth.toggleCompleteSkill(skillId);
