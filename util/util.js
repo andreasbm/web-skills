@@ -36,6 +36,10 @@ export function randomNumberInRange(from, to) {
 	return Math.floor(Math.random() * (to - from + 1)) + from;
 }
 
+export function currentConfettiCount () {
+	return Array.from(document.querySelectorAll("st-confetti")).length;
+}
+
 export function sprayConfettiOnce () {
 	const $confetti = new Confetti();
 	$confetti.once = true;
@@ -52,9 +56,17 @@ export function sprayConfettiOnce () {
 	});
 }
 
+const AUDIO_CACHE = new Map();
 export function playAudio (src, volume = 1) {
-	const $audio =document.createElement("audio");
+	const $audio = AUDIO_CACHE.get(src) || document.createElement("audio");
 	$audio.src = src;
 	$audio.volume = volume;
+
+	// Reset
+	$audio.pause()
+ 	$audio.currentTime = 0
+
 	$audio.play();
+
+	AUDIO_CACHE.set(src, $audio);
 }

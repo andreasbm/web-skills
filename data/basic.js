@@ -101,6 +101,7 @@ export const basicCollection = {
 							["Mozilla - CSS first steps", "https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps"],
 							["Mozilla - CSS building blocks", "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks"],
 							["Mozilla - CSS values and units", "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units"],
+							["Mozilla - CSS Syntax", "https://developer.mozilla.org/en-US/docs/Web/CSS/Syntax"],
 						]
 					}
 				},
@@ -152,11 +153,13 @@ export const basicCollection = {
 						links: [
 							["Mozilla - Introduction to the CSS basic box model", "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model"],
 							["Mozilla - The box model", "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model"],
-							["w3schools - CSS Box Model", "https://www.w3schools.com/css/css_boxmodel.asp"]
+							["Mozilla - Mastering margin collapsing", "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Mastering_margin_collapsing"],
+							["CSS Tricks - Inheriting box-sizing", "https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/"],
+							["CSS Tricks - What You Should Know About Collapsing Margins", "https://css-tricks.com/what-you-should-know-about-collapsing-margins/"],
 						]
 					},
 				},
-				{
+				/*{
 					name: "Overflow",
 					description: {
 						text: "Learn about what happens when there is too much content to be contained comfortably inside a box and how to manage it.",
@@ -165,7 +168,7 @@ export const basicCollection = {
 							["w3schools - CSS Layout: Overflow", "https://www.w3schools.com/css/css_overflow.asp"],
 						]
 					},
-				},
+				},*/
 				{
 					name: "Colors",
 					description: {
@@ -195,6 +198,7 @@ export const basicCollection = {
 							["Chrome Dev - Basic Layout", "https://developers.google.com/training/certification/mobile-web-specialist/study-guide/basic-layout"],
 							["w3schools - CSS Website Layout", "https://www.w3schools.com/css/css_website_layout.asp"],
 							["Mozilla - Document and website structure", "https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure"],
+							["Mozilla - CSS layout", "https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout"],
 						]
 					},
 					skills: [
@@ -391,7 +395,11 @@ export const basicCollection = {
 							["Mozilla - Introduction to events", "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events"],
 							["Mozilla - Creating and triggering events", "https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Creating_and_triggering_events"],
 							["Event Bubbling and Event Capturing in JavaScript", "https://medium.com/@vsvaibhav2016/event-bubbling-and-event-capturing-in-javascript-6ff38bec30e"],
-							["Mozilla - Event bubbling and capture", "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events#Event_bubbling_and_capture"],
+							["Freecodecamp - A simplified explanation of event propagation", "https://www.freecodecamp.org/news/a-simplified-explanation-of-event-propagation-in-javascript-f9de7961a06e/"],
+							["JavaScript Events Explained", "https://flaviocopes.com/javascript-events/"],
+							["Mozilla - addEventListener()", "https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener"],
+							["Mozilla - removeEventListener(", "https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/removeEventListener"],
+							["Event order", "https://www.quirksmode.org/js/events_order.html"],
 						]
 					}
 				},
@@ -551,7 +559,7 @@ export const basicCollection = {
 						links: [
 							["Mozilla - Canvas tutorial", "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial"],
 							["Mozilla - Canvas API", "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API"],
-							["w3schools - HTML Canvas Tutorial", "https://www.w3schools.com/graphics/canvas_intro.asp"],
+							["CSS Tricks - Manipulating Pixels Using Canvas", "https://css-tricks.com/manipulating-pixels-using-canvas/"],
 						]
 					}
 				},
@@ -576,8 +584,8 @@ export const basicCollection = {
 						text: "Learn why web standards are important and how new specifications are standardised.",
 						links: [
 							["Wikipedia - Web Standards", "https://en.wikipedia.org/wiki/Web_standards"],
-							["Designing to Web Standards", "https://www.soswebdesign.com/gallery/webstandards.cfm"],
-							["What Are Web Standards?", "https://robertnyman.com/2007/05/21/what-are-web-standards-a-comprehensive-explanation-of-what-is-comprised-in-the-term/"],
+							["What Are Web Standards?", "https://www.elcom.com.au/resources/blog/web-standards"],
+							["A Comprehensive Explanation of Web Standards", "https://robertnyman.com/2007/05/21/what-are-web-standards-a-comprehensive-explanation-of-what-is-comprised-in-the-term/"],
 						]
 					},
 					skills: [
@@ -640,7 +648,7 @@ export const basicCollection = {
 						text: "Learn what a browser engine is and get an overview of the browser landscape and market share.",
 						links: [
 								["Medium - Browser Engines", "https://medium.com/@jonbiro/browser-engines-chromium-v8-blink-gecko-webkit-98d6b0490968"],
-								["Wikipedia - Comparison", "https://en.wikipedia.org/wiki/Comparison_of_browser_engines"]
+								["Wikipedia - Comparison", "https://en.wikipedia.org/wiki/Comparison_of_browser_engines"],
 						]
 					},
 					skills: [

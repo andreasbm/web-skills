@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="73px" height="73px" viewBox="0 0 73 73" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>advanced/native-file-system</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
+    </defs>
+    <g id="advanced/native-file-system" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="container" transform="translate(2.000000, 2.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <rect stroke="#343B4E" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+            <g id="folder" mask="url(#mask-2)">
+                <g transform="translate(13.000000, 13.000000)">
+                    <polygon id="Shape" fill="#7383BF" fill-rule="nonzero" points="18.5847458 10.9322034 14.940678 5.83050847 0.36440678 5.83050847 0.36440678 10.9322034 0.36440678 43 42.6355932 43 42.6355932 16.0338983 22.2288136 16.0338983"></polygon>
+                    <polygon id="Shape" fill="#EBBA16" fill-rule="nonzero" points="22.2288136 16.0338983 42.6355932 16.0338983 42.6355932 10.9322034 18.5847458 10.9322034"></polygon>
+                    <polygon id="Shape" fill="#556080" fill-rule="nonzero" points="42.6355932 8.01694915 20.7711864 8.01694915 17.1271186 2.91525424 2.55084746 2.91525424 2.55084746 5.83050847 14.940678 5.83050847 18.5847458 10.9322034 42.6355932 10.9322034"></polygon>
+                    <polygon id="Shape" fill="#424A60" fill-rule="nonzero" points="42.6355932 5.10169492 22.9576271 5.10169492 19.3135593 0 4.73728814 0 4.73728814 2.91525424 17.1271186 2.91525424 20.7711864 8.01694915 42.6355932 8.01694915"></polygon>
+                    <rect id="Rectangle-path" fill="#EDEADA" fill-rule="nonzero" x="20.0423729" y="26.2372881" width="18.9491525" height="13.1186441"></rect>
+                    <g id="Group" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(23.322034, 29.152542)">
+                        <rect id="Rectangle-path" fill="#CEC9AE" fill-rule="nonzero" x="0.36440678" y="0" width="7.28813559" height="1.45762712"></rect>
+                        <rect id="Rectangle-path" fill="#CEC9AE" fill-rule="nonzero" x="0.36440678" y="2.91525424" width="11.6610169" height="1.45762712"></rect>
+                        <rect id="Rectangle-path" fill="#CEC9AE" fill-rule="nonzero" x="0.36440678" y="5.83050847" width="11.6610169" height="1.45762712"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -450,7 +450,7 @@ export const advancedCollection = {
 				{
 					name: "Interaction Media Queries",
 					description: {
-						text: "Learn how to use the Pointer Adaptation API to optimize the user experience for the specific type of device.",
+						text: "Learn how to use Interaction Media Queries to optimize the user experience for the specific type of device.",
 						links: [
 							["Introducing CSS Interaction Media Queries", "https://medium.com/@rossbulat/introducing-css-interaction-media-queries-38eea48f4221"],
 							["Mozilla - Media features", "https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries#Media_features"],
@@ -470,6 +470,32 @@ export const advancedCollection = {
 							["What Web Can Do Today - Presentation Features", "https://whatwebcando.today/presentation.html"],
 							["Google Devs - Present web pages to secondary attached displays", "https://developers.google.com/web/updates/2018/04/present-web-pages-to-secondary-attached-displays"],
 							["W3C - Presentation API", "https://w3c.github.io/presentation-api"],
+						]
+					},
+				},
+				{
+					name: "Native File System",
+					description: {
+						text: "Learn how to use the Native File System API to interact with files on the user's local device.",
+						links: [
+							["Google Devs - The Native File System API", "https://developers.google.com/web/updates/2019/08/native-file-system"],
+							["Github - Native File System", "https://github.com/WICG/native-file-system/blob/master/EXPLAINER.md"],
+							["W3C - Native File System", "https://wicg.github.io/native-file-system/"],
+							["Native File System Web API - Chromium Security Model", "https://docs.google.com/document/d/1NJFd-EWdUlQ7wVzjqcgXewqC5nzv_qII4OvlDtK6SE8/edit#heading=h.7nki9mck5t64"],
+							["Chromestatus - Native File System", "https://www.chromestatus.com/feature/6284708426022912"],
+							["W3C - File API", "https://w3c.github.io/FileAPI/"],
+						]
+					},
+				},
+				{
+					name: "Browser Extensions",
+					description: {
+						text: "Learn how to build browser extensions to enhance the functionality of your browser.",
+						links: [
+							["Mozilla - Browser Extensions", "https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions"],
+							["Chrome - What are extensions?", "https://developer.chrome.com/extensions"],
+							["Chrome - Getting Started with Extensions", "https://developer.chrome.com/extensions/getstarted"],
+							["Youtube - Google Chrome Extensions", "https://www.youtube.com/view_play_list?p=CA101D6A85FE9D4B"],
 						]
 					},
 				}
