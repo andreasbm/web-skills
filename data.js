@@ -8,6 +8,7 @@ import {testingCollection} from "./data/testing.js";
 import {frameworksAndLibrariesCollection} from "./data/frameworks-and-libraries.js";
 import {advancedCollection} from "./data/advanced.js";
 import {teamCollaborationCollection} from "./data/team-collaboration.js";
+import {algorithmsCollection} from "./data/algorithms.js";
 
 
 export const collections = [
@@ -19,6 +20,7 @@ export const collections = [
 	testingCollection,
 	frameworksAndLibrariesCollection,
 	architectureCollection,
+	algorithmsCollection,
 	teamCollaborationCollection,
 	advancedCollection,
 ]

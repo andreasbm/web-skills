@@ -253,6 +253,7 @@ export const advancedCollection = {
 							["CSS Houdini Experiments", "https://css-houdini.rocks/"],
 							["Interactive Introduction to CSS Houdini", "http://houdini.glitch.me/"],
 							["W3C - CSS Houdini Wiki", "https://github.com/w3c/css-houdini-drafts/wiki"],
+							["Google Devs - Houdini's Animation Worklet", "https://developers.google.com/web/updates/2018/10/animation-worklet"],
 						]
 					}
 				},
@@ -305,6 +306,7 @@ export const advancedCollection = {
 									["CSS Tricks - An Explanation of Intersection Observers", "https://css-tricks.com/an-explanation-of-how-the-intersection-observer-watches/"],
 									["Understanding the Intersection Observer API in JavaScript", "https://medium.com/better-programming/understanding-intersection-observer-api-in-javascript-bb1bf04b8081"],
 									["CSS Tricks - A Few Functional Uses for Intersection Observer", "https://css-tricks.com/a-few-functional-uses-for-intersection-observer-to-know-when-an-element-is-in-view/"],
+									["google Devs - An event for CSS position:sticky", "https://developers.google.com/web/updates/2017/09/sticky-headers"],
 								]
 							},
 						},
@@ -389,8 +391,10 @@ export const advancedCollection = {
 						text: "Learn how the Web Share API can help users sharing your web app.",
 						links: [
 							["Mozilla - Share", "https://developer.mozilla.org/en-US/docs/Web/API/Navigator/share"],
+							["Google Devs - Introducing the Web Share API", "https://developers.google.com/web/updates/2016/09/navigator-share"],
 							["Google Devs - Registering as a Share Target", "https://developers.google.com/web/updates/2018/12/web-share-target"],
 							["CSS Tricks - How to Use the Web Share API", "https://css-tricks.com/how-to-use-the-web-share-api/"],
+							["The Web Share API", "https://blog.arnellebalane.com/the-web-share-api-2cbb3e6cf007"],
 						]
 					}
 				},
@@ -496,6 +500,19 @@ export const advancedCollection = {
 							["Chrome - What are extensions?", "https://developer.chrome.com/extensions"],
 							["Chrome - Getting Started with Extensions", "https://developer.chrome.com/extensions/getstarted"],
 							["Youtube - Google Chrome Extensions", "https://www.youtube.com/view_play_list?p=CA101D6A85FE9D4B"],
+						]
+					},
+				},
+				{
+					name: "Shape Detection",
+					description: {
+						text: "Learn how to use the Shape Detection API to detect shapes such as faces or barcodes in pictures.",
+						links: [
+							["W3C - Accelerated Shape Detection in Images", "https://wicg.github.io/shape-detection-api/"],
+							["Google Devs - A Picture is Worth a Thousand Words", "https://developers.google.com/web/updates/2019/01/shape-detection"],
+							["Github - Shape Detection API Specification", "https://github.com/WICG/shape-detection-api"],
+							["Introduction to the Shape Detection API", "https://blog.arnellebalane.com/introduction-to-the-shape-detection-api-e07425396861"],
+							["Face detection using Shape Detection API", "https://paul.kinlan.me/face-detection/"],
 						]
 					},
 				}

@@ -416,6 +416,7 @@ export const basicCollection = {
 							["Mozilla - bind()", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind"],
 							["Mozilla - new operator", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new"],
 							["Mozilla - new.target", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new.target"],
+							["Data Structures: Objects and Arrays", "https://scotch.io/courses/10-need-to-know-javascript-concepts/data-structures-objects-and-arrays"],
 						]
 					},
 					skills: [
@@ -599,6 +600,7 @@ export const basicCollection = {
 									["W3C - Process", "http://webdiy.org/w3c/"],
 									["Web Standards Guide", "https://www.smashingmagazine.com/2019/01/web-standards-guide/"],
 									["W3C - Groups", "https://www.w3.org/community/groups/"],
+									["The W3C At Twenty-Five", "https://www.smashingmagazine.com/2019/10/happy-birthday-w3c/"],
 								]
 							}
 						},
@@ -649,6 +651,7 @@ export const basicCollection = {
 						links: [
 								["Medium - Browser Engines", "https://medium.com/@jonbiro/browser-engines-chromium-v8-blink-gecko-webkit-98d6b0490968"],
 								["Wikipedia - Comparison", "https://en.wikipedia.org/wiki/Comparison_of_browser_engines"],
+								["HTML5 Rocks - How Browsers Work", "https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/"],
 						]
 					},
 					skills: [

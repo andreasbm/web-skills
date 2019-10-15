@@ -107,7 +107,9 @@ export const webcomponentsCollection = {
 							["Form Participation API Explained", "https://docs.google.com/document/d/1JO8puctCSpW-ZYGU8lF-h4FWRIDQNDVexzHoOQ2iQmY/edit"],
 							["Chrome Status - Form-associated custom elements", "https://www.chromestatus.com/features/4708990554472448"],
 							["web-platform-tests - Form Participation", "https://github.com/web-platform-tests/wpt/tree/master/custom-elements/form-associated"],
-							["Google Devs - Form-associated custom elements", "https://developers.google.com/web/updates/2019/09/nic77#form-associated_custom_elements"]
+							["Google Devs - Form-associated custom elements", "https://developers.google.com/web/updates/2019/09/nic77#form-associated_custom_elements"],
+							["web.dev - More capable form controls", "https://web.dev/more-capable-form-controls/"],
+							["W3C - Creating a form-associated custom element", "https://html.spec.whatwg.org/multipage/custom-elements.html#custom-elements-face-example"],
 						]
 					}
 				}

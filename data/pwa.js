@@ -315,16 +315,19 @@ export const pwaCollection = {
 		},
 		{
 			name: "Rendering Performance",
-			description: {
-				text: "Learn about rendering performance and why it is important to keep your web app interactive and smooth running.",
-				links: [
-					["Google Devs - Rendering Performance", "https://developers.google.com/web/fundamentals/performance/rendering"],
-					["Google Devs - Constructing the Object Model", "https://developers.google.com/web/fundamentals/performance/critical-rendering-path/constructing-the-object-model"],
-					["Google Devs - Render-tree Construction", "https://developers.google.com/web/fundamentals/performance/critical-rendering-path/render-tree-construction"],
-					["Google Devs - Render Blocking CSS", "https://developers.google.com/web/fundamentals/performance/critical-rendering-path/render-blocking-css"]
-				]
-			},
 			skills: [
+				{
+					name: "Rendering",
+					description: {
+						text: "Learn about rendering, how a page is rendered and why it is important to keep your web app interactive and smooth running.",
+						links: [
+							["Google Devs - Constructing the Object Model", "https://developers.google.com/web/fundamentals/performance/critical-rendering-path/constructing-the-object-model"],
+							["Google Devs - Rendering Performance", "https://developers.google.com/web/fundamentals/performance/rendering"],
+							["Google Devs - Render-tree Construction", "https://developers.google.com/web/fundamentals/performance/critical-rendering-path/render-tree-construction"],
+							["Google Devs - Render Blocking CSS", "https://developers.google.com/web/fundamentals/performance/critical-rendering-path/render-blocking-css"]
+						]
+					},
+				},
 				{
 					name: "Event loop",
 					description: {
@@ -506,6 +509,19 @@ export const pwaCollection = {
 							},
 						}
 					],
+				},
+				{
+					name: "CSS Containment",
+					description: {
+						text: "Learn how to use CSS containment to improve the performance of your web app.",
+						links: [
+							["Google Devs - CSS Containment", "https://developers.google.com/web/updates/2016/06/css-containment"],
+							["W3C - CSS Containment Module", "https://www.w3.org/TR/css-contain-1/"],
+							["An introduction to CSS Containment", "https://blogs.igalia.com/mrego/2019/01/11/an-introduction-to-css-containment/"],
+							["Mozilla - Contain", "https://developer.mozilla.org/en-US/docs/Web/CSS/contain"],
+							["CSS Tricks - CSS containment", "https://css-tricks.com/css-containment/"],
+						]
+					},
 				},
 				{
 					name: "Web Workers",
