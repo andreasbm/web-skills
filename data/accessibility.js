@@ -139,7 +139,8 @@ export const accessibilityCollection = {
 						links: [
 							["Webaim - Contrast and Color", "https://webaim.org/articles/contrast/"],
 							["The A11Y Project - Check contrast", "https://a11yproject.com/posts/check-contrast-with-mobile-device/"],
-							["The A11Y Project - What is color contrast?", "https://a11yproject.com/posts/what-is-color-contrast/"]
+							["The A11Y Project - What is color contrast?", "https://a11yproject.com/posts/what-is-color-contrast/"],
+							["Designing accessible color systems", "https://stripe.com/en-dk/blog/accessible-color-systems"],
 						]
 					}
 				},

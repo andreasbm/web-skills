@@ -22,6 +22,7 @@ export const testingCollection = {
 									["Unit Testing Tutorial", "https://www.guru99.com/unit-testing-guide.html"],
 									["Wikipedia - Unit testing", "https://en.wikipedia.org/wiki/Unit_testing"],
 									["What is Unit Testing?", "https://www.tutorialspoint.com/software_testing_dictionary/unit_testing.htm"],
+									["The Arrange, Act and Assert (AAA) Pattern", "https://medium.com/@pjbgf/title-testing-code-ocd-and-the-aaa-pattern-df453975ab80"],
 								]
 							},
 						},

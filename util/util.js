@@ -26,6 +26,14 @@ export function getSkillId (collection, area, skill) {
 	].filter(name => name != null).map(pathify).join("-");
 }
 
+export function getSkillSearchQuery (collection, area, skill) {
+	return [
+		collection.name,
+		area.name,
+		skill.name
+	].filter(name => name != null).join(" ");
+}
+
 /**
  * Returns a random integer between min (include) and max (include)
  * https://stackoverflow.com/a/29246176

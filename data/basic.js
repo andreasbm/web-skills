@@ -565,6 +565,19 @@ export const basicCollection = {
 					}
 				},
 				{
+					name: "Documentation",
+					description: {
+						text: "Learn how to create good documentation and why it is important.",
+						links: [
+							["Getting Started with JSDoc", "https://jsdoc.app/about-getting-started.html"],
+							["A beginner’s guide to writing documentation", "https://www.writethedocs.org/guide/writing/beginners-guide-to-docs/"],
+							["Write Good Documentation", "https://hackernoon.com/write-good-documentation-6caffb9082b4"],
+							["The power of jsDoc", "https://dev.to/gmartigny/the-power-of-jsdoc-272d"],
+							["Document your Javascript code with JSDoc", "https://dev.to/paulasantamaria/document-your-javascript-code-with-jsdoc-2fbf"],
+						]
+					},
+				},
+				{
 					name: "Best Practices",
 					description: {
 						text: "Learn the best practices of writing Javascript.",
@@ -745,6 +758,8 @@ export const basicCollection = {
 							description: {
 								text: "Learn how to use the developer console of your favorite browser.",
 								links: [
+									["Mozilla - Console", "https://developer.mozilla.org/en-US/docs/Web/API/Console"],
+									["Google Devs - Console API Reference", "https://developers.google.com/web/tools/chrome-devtools/console/api"],
 									["Google Devs - Get Started with Chrome DevTools", "https://developers.google.com/web/tools/chrome-devtools/javascript"],
 									["Mozilla - Debugging CSS", "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Debugging_CSS"],
 									["Mozilla - Debugging HTML", "https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Debugging_HTML"],
@@ -756,7 +771,7 @@ export const basicCollection = {
 									["Youtube - 14 Must Know Chrome Dev Tools Tricks", "https://www.youtube.com/watch?v=xkzDaKwinA8"]
 								]
 							},
-							skills: [
+							/*skills: [
 								{
 									name: "Console API",
 									description: {
@@ -767,9 +782,9 @@ export const basicCollection = {
 										]
 									}
 								}
-							]
+							]*/
 						},
-						{
+						/*{
 							name: "Breakpoints",
 							description: {
 								text: "Learn how to add breakpoints to your code.",
@@ -778,7 +793,7 @@ export const basicCollection = {
 									["Debugging Javascript Like a Pro", "https://blog.bitsrc.io/debugging-javascript-like-a-pro-a2e0f6c53c2e"],
 								]
 							}
-						}
+						}*/
 					]
 				}
 			]
