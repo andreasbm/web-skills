@@ -37,7 +37,7 @@ export class Skill extends LitElement {
 				}
 
 				#skill {
-					max-width: 120px;
+					max-width: 100px;
 					display: flex;
 					flex-direction: column;
 					align-items: center;
@@ -194,14 +194,24 @@ export class Skill extends LitElement {
 					width: 100%;
 				}
 
-				#search-google {
+				#smart-search {
 					position: absolute;
     			top: var(--spacing-m);
 			    right: var(--spacing-m);
+					display: flex;
+					align-items: center;
 				}
 
-				.google-logo {
-					width: 15px;
+				#smart-search > :not(:last-child) {
+					margin: 0 var(--spacing-s) 0 0;
+				}
+
+				#search-google:hover, #search-youtube:hover {
+					opacity: 0.8;
+				}
+
+				.google-logo, .youtube-logo {
+					height: 15px;
 				}
 			`
 		];
@@ -232,6 +242,7 @@ export class Skill extends LitElement {
 		const {skill, collection, area} = this;
 		const {description, name, skills} = skill;
 		const skillId = getSkillId(collection, area, skill);
+		const skillSearchQuery = getSkillSearchQuery(collection, area, skill);
 
 		const isAuthenticated = auth.isAuthenticated;
 		const isCompleted = !isAuthenticated ? true : auth.hasCompletedSkill(skillId);
@@ -240,44 +251,47 @@ export class Skill extends LitElement {
 			<div id="skill" class="${isCompleted ? `completed` : ``}">
 				<img id="img" loading="lazy" src="${constructImagePathPrefix(collection, area, skill)}" />
 				<h6 id="title">${name}</h6>
-				${(description != null && (description.text != null || description.links != null)) || isAuthenticated ? html`
-					<div id="description" @keydown="${this.onKeyDown}">
-						<h4 class="title">${name}</h4>
-						${description != null && description.text != null ? html`<p class="text">${description.text}</p>` : undefined}
-						${description != null && description.links != null && description.links.length > 0 ? html`
-							<ul class="links">
-									${repeat(description.links, link => html`
-										<li class="link">
-											<a href="${Array.isArray(link) ? link[1] : link}" target="_blank">${Array.isArray(link) ? link[0] : link}</a>
-										</li>
-									`)}
-							</ul>
-						` : undefined}
-						<a id="search-google" href="https://www.google.com/search?q=${encodeURIComponent(getSkillSearchQuery(collection, area, skill))}" target="_blank">
+				<div id="description" @keydown="${this.onKeyDown}">
+					<h4 class="title">${name}</h4>
+					${description != null && description.text != null ? html`<p class="text">${description.text}</p>` : undefined}
+					${description != null && description.links != null && description.links.length > 0 ? html`
+						<ul class="links">
+								${repeat(description.links, link => html`
+									<li class="link">
+										<a href="${Array.isArray(link) ? link[1] : link}" target="_blank">${Array.isArray(link) ? link[0] : link}</a>
+									</li>
+								`)}
+						</ul>
+					` : undefined}
+					<div id="smart-search">
+						<a id="search-google" href="https://www.google.com/search?q=${encodeURIComponent(skillSearchQuery)}" target="_blank">
 							<svg class="google-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 533.5 544.3"><path d="M533.5 278.4c0-18.5-1.5-37.1-4.7-55.3H272.1v104.8h147c-6.1 33.8-25.7 63.7-54.4 82.7v68h87.7c51.5-47.4 81.1-117.4 81.1-200.2z" fill="#4285f4"/><path d="M272.1 544.3c73.4 0 135.3-24.1 180.4-65.7l-87.7-68c-24.4 16.6-55.9 26-92.6 26-71 0-131.2-47.9-152.8-112.3H28.9v70.1c46.2 91.9 140.3 149.9 243.2 149.9z" fill="#34a853"/><path d="M119.3 324.3c-11.4-33.8-11.4-70.4 0-104.2V150H28.9c-38.6 76.9-38.6 167.5 0 244.4l90.4-70.1z" fill="#fbbc04"/><path d="M272.1 107.7c38.8-.6 76.3 14 104.4 40.8l77.7-77.7C405 24.6 339.7-.8 272.1 0 169.2 0 75.1 58 28.9 150l90.4 70.1c21.5-64.5 81.8-112.4 152.8-112.4z" fill="#ea4335"/></svg>
 						</a>
-						${isAuthenticated ? html`
-							<st-button id="complete-button" @click="${() => {
-								if (!isCompleted) {
-									if (currentConfettiCount() <= 2) {
-										sprayConfettiOnce();
-									}
-
-									// Add audio for lols
-									requestAnimationFrame(() => {
-										playAudio(`/assets/audio/party.mp3`, 0.2);
-										playAudio(`/assets/audio/shot.mp3`, 0.7);
-										setTimeout(() => {
-											playAudio(`/assets/audio/paper.mp3`, 0.3);
-										}, 150);
-									});
+						<a id="search-youtube" href="https://www.youtube.com/results?search_query=${encodeURIComponent(skillSearchQuery)}" target="_blank">
+							<svg class="youtube-logo" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="nonzero"><circle fill="#FFF" cx="40" cy="40" r="40"/><path d="M64.815 27.76a6.444 6.444 0 00-4.574-4.542C56.192 22.165 40 22.165 40 22.165s-15.896-.066-19.944.987c-2.238.592-4.378 2.402-4.97 4.607C14 31.775 14.1 40.101 14.1 40.101s-.099 8.327.987 12.342c.592 2.205 2.765 4.015 4.97 4.608 4.048 1.086 19.944.987 19.944.987s15.896.066 19.944-.987c2.238-.593 4.312-2.403 4.904-4.608 1.086-3.982 1.086-12.342 1.086-12.342s-.033-8.326-1.119-12.342z" fill="red"/><path fill="#FFF" d="M35.03 48.066L47.965 40.1 35.03 32.137z"/></g></svg>
+						</a>
+					</div>
+					${isAuthenticated ? html`
+						<st-button id="complete-button" @click="${() => {
+							if (!isCompleted) {
+								if (currentConfettiCount() <= 2) {
+									sprayConfettiOnce();
 								}
 
-								auth.toggleCompleteSkill(skillId);
-							}}">${isCompleted ? `Uncomplete Skill` : `Complete Skill`}</st-button>
-						` : undefined}
-					</div>
-				` : undefined}
+								// Add audio for lols
+								requestAnimationFrame(() => {
+									playAudio(`/assets/audio/party.mp3`, 0.2);
+									playAudio(`/assets/audio/shot.mp3`, 0.7);
+									setTimeout(() => {
+										playAudio(`/assets/audio/paper.mp3`, 0.3);
+									}, 150);
+								});
+							}
+
+							auth.toggleCompleteSkill(skillId);
+						}}">${isCompleted ? `Uncomplete Skill` : `Complete Skill`}</st-button>
+					` : undefined}
+				</div>
 			</div>
 			${skills != null ? html`
 				<div id="subskills" class="${skills.length > 1 ? 'wide' : ''}">

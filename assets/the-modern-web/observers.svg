@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="73px" height="73px" viewBox="0 0 73 73" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>the-modern-web/observers</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
+    </defs>
+    <g id="the-modern-web/observers" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="container" transform="translate(2.000000, 2.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <rect stroke="#181F29" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+            <g id="observatory" mask="url(#mask-2)">
+                <g transform="translate(-3.000000, 7.000000)">
+                    <polyline id="Shape" fill="#3D98F7" fill-rule="nonzero" points="41.75 34.8 46.85 29.7 44.3 27.15 38.792 32.658"></polyline>
+                    <polyline id="Shape" fill="#2B74CA" fill-rule="nonzero" points="45.15 23.75 42.6 26.3 47.7 31.4 50.25 28.85"></polyline>
+                    <polygon id="Shape" fill="#3D98F7" fill-rule="nonzero" transform="translate(48.969350, 25.027250) rotate(-45.000000) translate(-48.969350, -25.027250) " points="47.1663478 19.0178072 50.7723532 19.0178072 50.7723532 31.0366919 47.1663478 31.0366919"></polygon>
+                    <path d="M46,45 C46,36.55015 39.14985,29.7 30.7,29.7 C22.25015,29.7 15.4,36.55015 15.4,45" id="Shape" fill="#B8B9B3" fill-rule="nonzero"></path>
+                    <path d="M30.7,29.7 C23.46565,29.7 17.4179,34.72775 15.82415,41.47505 C17.9143,42.10235 20.21185,42.45 22.625,42.45 C31.0315,42.45 38.04655,38.23825 39.6862,32.6359 C37.16085,30.79735 34.0626,29.7 30.7,29.7 Z" id="Shape" fill="#C1C8D1" fill-rule="nonzero"></path>
+                    <polygon id="Shape" fill="#8892A0" fill-rule="nonzero" points="13.7 45 47.7 45 47.7 48.4 13.7 48.4"></polygon>
+                    <polygon id="Shape" fill="#B8B9B3" fill-rule="nonzero" points="15.4 48.4 46 48.4 46 62 15.4 62"></polygon>
+                    <polygon id="Shape" fill="#C7E2FC" fill-rule="nonzero" points="18.8 51.8 22.2 51.8 22.2 55.2 18.8 55.2"></polygon>
+                    <polygon id="Shape" fill="#C7E2FC" fill-rule="nonzero" points="25.6 51.8 29 51.8 29 55.2 25.6 55.2"></polygon>
+                    <polygon id="Shape" fill="#C7E2FC" fill-rule="nonzero" points="32.4 51.8 35.8 51.8 35.8 55.2 32.4 55.2"></polygon>
+                    <polygon id="Shape" fill="#C7E2FC" fill-rule="nonzero" points="39.2 51.8 42.6 51.8 42.6 55.2 39.2 55.2"></polygon>
+                    <polygon id="Shape" fill="#A1CDFB" fill-rule="nonzero" points="61.05 8.5 56.8 11.05 57.65 6.8 55.1 4.25 58.5 4.25 61.05 0 63.6 4.25 67 4.25 64.45 6.8 65.3 11.05"></polygon>
+                    <path d="M57.65,7.65 C60.24165,7.65 62.4406,5.98995 63.2566,3.6771 L61.05,0 L58.5,4.25 L55.1,4.25 L57.65,6.8 L57.4817,7.6415 C57.5378,7.6432 57.59305,7.65 57.65,7.65 Z" id="Shape" fill="#C7E2FC" fill-rule="nonzero"></path>
+                    <circle id="Oval" fill="#976947" fill-rule="nonzero" cx="18.8" cy="5.25" r="4.25"></circle>
+                    <circle id="Oval" fill="#F5B953" fill-rule="nonzero" cx="17.95" cy="4.4" r="1.7"></circle>
+                    <polygon id="Shape" fill="#8892A0" fill-rule="nonzero" points="0 60.3 71 60.3 71 62 0 62"></polygon>
+                    <path d="M19.65,45 L17.95,45 C17.95,39.39935 21.6951,34.37415 27.05775,32.7787 L27.54225,34.4073 C22.8953,35.79025 19.65,40.14565 19.65,45 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path d="M29.11985,34.0622 L28.881,32.3792 C29.48195,32.29335 30.0948,32.25 30.7,32.25 L30.7,33.95 C30.17385,33.95 29.6426,33.9874 29.11985,34.0622 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <polygon id="Shape" fill="#C18E59" fill-rule="nonzero" points="12 4.4 25.6 4.4 25.6 6.1 12 6.1"></polygon>
+                    <g id="Group" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(16.250000, 10.350000)">
+                        <polygon id="Shape" fill="#B8B9B3" fill-rule="nonzero" points="0 5.95 1.7 5.95 1.7 7.65 0 7.65"></polygon>
+                        <polygon id="Shape" fill="#B8B9B3" fill-rule="nonzero" points="3.4 5.95 5.1 5.95 5.1 7.65 3.4 7.65"></polygon>
+                        <polygon id="Shape" fill="#B8B9B3" fill-rule="nonzero" points="1.7 4.25 3.4 4.25 3.4 5.95 1.7 5.95"></polygon>
+                        <polygon id="Shape" fill="#B8B9B3" fill-rule="nonzero" points="1.7 7.65 3.4 7.65 3.4 9.35 1.7 9.35"></polygon>
+                        <polygon id="Shape" fill="#B8B9B3" fill-rule="nonzero" points="17 1.7 15.3 1.7 15.3 0 13.6 0 13.6 1.7 11.9 1.7 11.9 3.4 13.6 3.4 13.6 5.1 15.3 5.1 15.3 3.4 17 3.4"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

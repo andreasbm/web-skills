@@ -1,20 +1,44 @@
 export const architectureCollection = {
-	name: "Architecture & paradigmes",
+	name: "Architecture & paradigms",
 	areas: [
 		{
-			name: "Paradigmes",
+			name: "Paradigms",
 			skills: [
-				/*{
-					name: "Programming Paradigmes",
+				{
+					name: "Programming Paradigms",
 					description: {
 						text: "Learn how programming languages can be categoried into different paraigmes based on their features.",
 						links: [
 							["Wikipedia - Programming paradigm", "https://en.wikipedia.org/wiki/Programming_paradigm"],
+							["Introduction of Programming Paradigms", "https://www.geeksforgeeks.org/introduction-of-programming-paradigms/"],
 							["What Are JavaScript Programming Paradigms?", "https://medium.com/javascript-in-plain-english/what-are-javascript-programming-paradigms-3ef0f576dfdb"],
 						]
 					},
 				},
-					*/
+				{
+					name: "Object Oriented Programming",
+					description: {
+						text: "Learn about object oriented programming and how objects can make your code easier to read and debug.",
+						links: [
+							["Mozilla - Object-oriented JavaScript", "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS"],
+							["Freecodecamp - An introduction to Object-Oriented Programming", "https://www.freecodecamp.org/news/an-introduction-to-object-oriented-programming-in-javascript-8900124e316a/"],
+							["Introduction to Object Oriented Programming in JavaScript", "https://www.geeksforgeeks.org/introduction-object-oriented-programming-javascript/"],
+						]
+					},
+					skills: [
+						{
+							name: "S.O.L.I.D",
+							description: {
+								text: "Learn about the SOLID design pricinples that can make your code more understandable, flexible and maintainable.",
+								links: [
+									["Wikipedia - SOLID", "https://en.wikipedia.org/wiki/SOLID"],
+									["S.O.L.I.D: The First 5 Principles of Object Oriented Design", "https://scotch.io/bar-talk/s-o-l-i-d-the-first-five-principles-of-object-oriented-design"],
+									["S.O.L.I.D The first 5 principles of Object Oriented Design with JavaScript", "https://medium.com/@cramirez92/s-o-l-i-d-the-first-5-priciples-of-object-oriented-design-with-javascript-790f6ac9b9fa"],
+								]
+							},
+						}
+					]
+				},
 				{
 					name: "Functional programming",
 					description: {
@@ -76,30 +100,6 @@ export const architectureCollection = {
 									["JavaScript Monads Made Simple", "https://medium.com/javascript-scene/javascript-monads-made-simple-7856be57bfe8"],
 									["Implementing JavaScript Functors and Monads", "https://medium.com/front-end-weekly/implementing-javascript-functors-and-monads-a87b6a4b4d9a"],
 									["Mozilla - Array.prototype.flatMap()", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flatMap"],
-								]
-							},
-						}
-					]
-				},
-				{
-					name: "Object Oriented Programming",
-					description: {
-						text: "Learn about object oriented programming and how objects can make your code easier to read and debug.",
-						links: [
-							["Mozilla - Object-oriented JavaScript", "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS"],
-							["Freecodecamp - An introduction to Object-Oriented Programming", "https://www.freecodecamp.org/news/an-introduction-to-object-oriented-programming-in-javascript-8900124e316a/"],
-							["Introduction to Object Oriented Programming in JavaScript", "https://www.geeksforgeeks.org/introduction-object-oriented-programming-javascript/"],
-						]
-					},
-					skills: [
-						{
-							name: "S.O.L.I.D",
-							description: {
-								text: "Learn about the SOLID design pricinples that can make your code more understandable, flexible and maintainable.",
-								links: [
-									["Wikipedia - SOLID", "https://en.wikipedia.org/wiki/SOLID"],
-									["S.O.L.I.D: The First 5 Principles of Object Oriented Design", "https://scotch.io/bar-talk/s-o-l-i-d-the-first-five-principles-of-object-oriented-design"],
-									["S.O.L.I.D The first 5 principles of Object Oriented Design with JavaScript", "https://medium.com/@cramirez92/s-o-l-i-d-the-first-5-priciples-of-object-oriented-design-with-javascript-790f6ac9b9fa"],
 								]
 							},
 						}

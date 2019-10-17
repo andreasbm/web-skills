@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="73px" height="73px" viewBox="0 0 73 73" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>architecture-and-paradigms/architecture/design-patterns</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
+    </defs>
+    <g id="architecture-and-paradigms/architecture/design-patterns" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="container" transform="translate(2.000000, 2.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <rect stroke="#512504" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+            <g id="parquet" mask="url(#mask-2)">
+                <g transform="translate(-2.000000, -4.000000)">
+                    <polygon id="Shape" fill="#9E5A23" fill-rule="nonzero" points="30.2068867 12.5862266 41.5344336 0 17.8724531 0 29.2 12.5862266"></polygon>
+                    <polygon id="Shape" fill="#844414" fill-rule="nonzero" points="29.7034434 40.2758965 6.54476367 17.1172168 13.7188672 10.0690098 36.8775469 33.2276895"></polygon>
+                    <g id="Group" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(6.416016, 2.851562)">
+                        <polygon id="Shape" fill="#9E5A23" fill-rule="nonzero" points="23.2874277 23.2018809 46.4461074 0.0432011719 53.4943145 7.21730469 30.3357773 30.3759844"></polygon>
+                        <polygon id="Shape" fill="#9E5A23" fill-rule="nonzero" points="23.2874277 51.6466445 0.128748047 28.4881074 7.30285156 21.3140039 30.4615313 44.4726836"></polygon>
+                    </g>
+                    <g id="Group" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(6.416016, 17.109375)">
+                        <polygon id="Shape" fill="#CE8D5B" fill-rule="nonzero" points="23.2874277 23.1665215 46.4461074 0.00784179688 53.6202109 7.18194531 30.3357773 30.340625"></polygon>
+                        <polygon id="Shape" fill="#CE8D5B" fill-rule="nonzero" points="23.2874277 51.6112852 0.128748047 28.452748 7.30285156 21.2786445 30.3356348 44.5630781"></polygon>
+                    </g>
+                    <polygon id="Shape" fill="#9E5A23" fill-rule="nonzero" points="29.7034434 54.498207 52.862123 31.3395273 60.0362266 38.5136309 36.751793 61.6723105"></polygon>
+                    <polygon id="Shape" fill="#CE8D5B" fill-rule="nonzero" points="13.7190098 66.9586797 7.67754688 73 19.6344336 73"></polygon>
+                    <polygon id="Shape" fill="#844414" fill-rule="nonzero" points="13.7190098 52.7362266 6.54490625 59.9103301 19.6344336 73 33.8568867 73"></polygon>
+                    <polygon id="Shape" fill="#CE8D5B" fill-rule="nonzero" points="39.6465566 73 53.8690098 73 59.9103301 66.9586797 52.862123 59.9103301"></polygon>
+                    <g id="Group" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(29.656250, 0.000000)">
+                        <polygon id="Shape" fill="#844414" fill-rule="nonzero" points="36.295543 73 30.2542227 66.9586797 24.2127598 73"></polygon>
+                        <polygon id="Shape" fill="#844414" fill-rule="nonzero" points="0.0471933594 11.8309902 7.22129687 19.0050938 26.2265332 0 11.8781836 0"></polygon>
+                    </g>
+                    <polygon id="Shape" fill="#CE8D5B" fill-rule="nonzero" points="6.54476367 2.89476367 29.7034434 26.0534434 36.8775469 18.8793398 17.998207 0 9.43966992 0"></polygon>
+                    <g id="Group" stroke-width="1" fill="none" fill-rule="evenodd">
+                        <polygon id="Shape" fill="#844414" fill-rule="nonzero" points="29.7034434 68.7206602 33.8568867 73 39.7724531 73 60.0362266 52.7362266 52.862123 45.687877"></polygon>
+                        <polygon id="Shape" fill="#844414" fill-rule="nonzero" points="6.54476367 2.89476367 9.43966992 0 0 0 0 9.43966992"></polygon>
+                    </g>
+                    <polygon id="Shape" fill="#9E5A23" fill-rule="nonzero" points="0 23.662123 13.7190098 10.0690098 6.54476367 2.89476367 0 9.43966992"></polygon>
+                    <polygon id="Shape" fill="#CE8D5B" fill-rule="nonzero" points="0 37.8844336 13.7190098 24.1654238 6.54490625 16.9913203 0 23.662123"></polygon>
+                    <polygon id="Shape" fill="#844414" fill-rule="nonzero" points="0 52.1068867 13.7190098 38.387877 6.54490625 31.2137734 0 37.8844336"></polygon>
+                    <polygon id="Shape" fill="#9E5A23" fill-rule="nonzero" points="0 66.4552363 13.7190098 52.7362266 6.54490625 45.562123 0 52.1068867"></polygon>
+                    <polygon id="Shape" fill="#844414" fill-rule="nonzero" points="6.54476367 59.9103301 0 66.4552363 0 73 7.67754688 73 13.7188672 66.9586797"></polygon>
+                    <polygon id="Shape" fill="#CE8D5B" fill-rule="nonzero" points="73 8.81033008 64.1896699 0 55.7568867 0 52.862123 3.02066016 73 23.1586797"></polygon>
+                    <polygon id="Shape" fill="#844414" fill-rule="nonzero" points="73 23.1586797 59.9103301 10.0690098 52.862123 17.1172168 73 37.2552363"></polygon>
+                    <polygon id="Shape" fill="#9E5A23" fill-rule="nonzero" points="73 37.2552363 60.0362266 24.1655664 52.862123 31.3396699 73 51.4775469"></polygon>
+                    <polygon id="Shape" fill="#CE8D5B" fill-rule="nonzero" points="73 51.4775469 60.0362266 38.5137734 52.862123 45.687877 73 65.8258965"></polygon>
+                    <g id="Group" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(52.753906, 0.000000)">
+                        <polygon id="Shape" fill="#9E5A23" fill-rule="nonzero" points="7.15642383 52.7362266 0.108216797 59.9103301 13.1978867 73 20.2460938 73 20.2460938 65.8258965"></polygon>
+                        <polygon id="Shape" fill="#9E5A23" fill-rule="nonzero" points="11.4357637 0 20.2460938 8.81033008 20.2460938 0"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

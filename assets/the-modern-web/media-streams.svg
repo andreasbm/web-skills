@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="73px" height="73px" viewBox="0 0 73 73" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>the-modern-web/media-streams</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
+    </defs>
+    <g id="the-modern-web/media-streams" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="container" transform="translate(2.000000, 2.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <rect stroke="#40494D" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+            <g id="tap-(1)" mask="url(#mask-2)">
+                <g transform="translate(23.000000, 8.000000)">
+                    <path d="M9.51724138,12.6896552 C4.26099477,12.6896552 0,16.9506499 0,22.2068966 L0,28.5517241 L9.51724138,28.5517241 L9.51724138,25.3793103 C9.51724138,23.6273572 10.937702,22.2068966 12.6896552,22.2068966 L46,22.2068966 L46,12.6896552 L9.51724138,12.6896552 Z" id="Shape" fill="#ABB1BA" fill-rule="nonzero"></path>
+                    <path d="M23.9693057,28.5517241 L22.0306943,28.5517241 C17.7480132,28.5517241 14.2758621,25.4745758 14.2758621,21.6779027 L18.1534718,7.93103448 L27.8465282,7.93103448 L31.7241379,21.6779027 C31.7241379,25.4745758 28.2519868,28.5517241 23.9693057,28.5517241 Z" id="Shape" fill="#688CBA" fill-rule="nonzero"></path>
+                    <path d="M7.93103448,38.2413793 C7.93103448,39.9933324 6.51057381,41.4137931 4.75862069,41.4137931 C3.00666756,41.4137931 1.5862069,39.9933324 1.5862069,38.2413793 C1.5862069,35.862069 4.75862069,30.3103448 4.75862069,30.3103448 C4.75862069,30.3103448 7.93103448,35.862069 7.93103448,38.2413793 Z" id="Shape" fill="#A3D4F7" fill-rule="nonzero"></path>
+                    <path d="M7.93103448,53.2413793 C7.93103448,54.9933324 6.51057381,56.4137931 4.75862069,56.4137931 C3.00666756,56.4137931 1.5862069,54.9933324 1.5862069,53.2413793 C1.5862069,50.862069 4.75862069,45.3103448 4.75862069,45.3103448 C4.75862069,45.3103448 7.93103448,50.862069 7.93103448,53.2413793 Z" id="Shape" fill="#A3D4F7" fill-rule="nonzero"></path>
+                    <g id="Group" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(13.482759, 0.000000)">
+                        <path d="M1.5862069,0 L17.4482759,0 C18.3242525,0 19.0344828,0.710230284 19.0344828,1.5862069 C19.0344828,2.46218351 18.3242525,3.17241379 17.4482759,3.17241379 L1.5862069,3.17241379 C0.710230284,3.17241379 0,2.46218351 0,1.5862069 C0,0.710230284 0.710230284,0 1.5862069,0 Z" id="Shape" fill="#7E8589" fill-rule="nonzero"></path>
+                        <polygon id="Shape" fill="#7E8589" fill-rule="nonzero" points="7.93103448 0 11.1034483 0 11.1034483 7.93103448 7.93103448 7.93103448"></polygon>
+                        <polygon id="Shape" fill="#7E8589" fill-rule="nonzero" points="27.7586207 9.51724138 32.5172414 9.51724138 32.5172414 25.3793103 27.7586207 25.3793103"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
