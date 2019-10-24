@@ -267,6 +267,7 @@ export const modernCollection = {
 							["Chromium Bugs - Fugu", "https://bugs.chromium.org/p/chromium/issues/list?q=proj-fugu"],
 							["Google Devs - Unlocking new capabilities for the web", "https://developers.google.com/web/updates/capabilities"],
 							["Youtube - Unlocking New Capabilities for the Web", "https://www.youtube.com/watch?v=GSiUzuB-PoI"],
+							["Controlling Access to Powerful Web Platform Features", "https://chromium.googlesource.com/chromium/src/+/f384207e04ad27f58287e972907f17ad66acc115/docs/security/permissions-for-powerful-web-platform-features.md"],
 						]
 					},
 				},

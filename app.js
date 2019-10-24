@@ -20,7 +20,7 @@ export class App extends LitElement {
 				}
 				
 				#collections {
-					padding: 80px;
+					padding: 80px 80px 20px;
 				}
 
 				.collection:not(:last-child) {
@@ -33,17 +33,18 @@ export class App extends LitElement {
 				}
 
 				#sign-out {
-					
+					display: flex;
+    			align-items: center;
 				}
 
 				#avatar {
 					display: flex;
 					align-items: center;
-					margin: 0 0 24px;
+					margin: 0 0 0 24px;
 				}
 
 				#avatar .img {
-					width: 50px;
+					width: 30px;
 					border-radius: 100%;
 					border: 1px solid currentColor;
 					margin: 0 12px 0 0;
@@ -61,8 +62,15 @@ export class App extends LitElement {
 		});
 	}
 
-	signIn () {
-		auth.signInWithGoogle();
+	async signIn () {
+		try {
+			await auth.signInWithGoogle();
+		} catch (err) {
+			const {openDialog} = await import("https://unpkg.com/web-dialog?module");
+			openDialog({
+				$content: document.createTextNode(err.message)
+			});
+		}
 	}
 
 	signOut () {
@@ -82,11 +90,11 @@ export class App extends LitElement {
 			<div id="toolbar">
 				${user != null ? html`
 					<div id="sign-out">
+						<st-button @click="${signOut}">Sign out</st-button>
 						<div id="avatar">
 							<img class="img" src="${user.photoURL}" />
 							<span class="text">${user.displayName || user.email}</span>
 						</div>
-						<st-button @click="${signOut}">Sign out</st-button>
 					</div>
 				` : html`
 					<div id="sign-in">

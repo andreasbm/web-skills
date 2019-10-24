@@ -773,6 +773,7 @@ export const basicCollection = {
 									["Mozilla - Console", "https://developer.mozilla.org/en-US/docs/Web/API/Console"],
 									["Google Devs - Console API Reference", "https://developers.google.com/web/tools/chrome-devtools/console/api"],
 									["Google Devs - Get Started with Chrome DevTools", "https://developers.google.com/web/tools/chrome-devtools/javascript"],
+									["Google Devs - Console Utilities API Reference", "https://developers.google.com/web/tools/chrome-devtools/console/utilities"],
 									["Mozilla - Debugging CSS", "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Debugging_CSS"],
 									["Mozilla - Debugging HTML", "https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Debugging_HTML"],
 									["javascript.info - Debugging in Chrome", "https://javascript.info/debugging-chrome"],
