@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="73px" height="73px" viewBox="0 0 73 73" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>fundamentals/html/seo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
+    </defs>
+    <g id="fundamentals/html/seo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Bitmap" transform="translate(2.000000, 2.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <rect stroke="#313B5E" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+            <g id="file" mask="url(#mask-2)">
+                <g transform="translate(16.000000, 11.000000)">
+                    <polygon id="Shape" stroke="none" fill="#EDEADA" fill-rule="nonzero" points="35.5217391 16.5217391 23.1304348 4.13043478 4.13043478 4.13043478 4.13043478 45.4347826 35.5217391 45.4347826"></polygon>
+                    <circle id="Oval" stroke="#7383BF" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" stroke-linecap="round" cx="21.0263913" cy="30.9394348" r="8.94486957"></circle>
+                    <path d="M27.4624348,37.3754783 L38,47.9130435" id="Shape" stroke="#7383BF" stroke-width="2" fill="none" stroke-linecap="round"></path>
+                    <path d="M21.1684783,28.9130435 L16.2119565,28.9130435 C15.7551304,28.9130435 15.3858696,28.5437826 15.3858696,28.0869565 C15.3858696,27.6301304 15.7551304,27.2608696 16.2119565,27.2608696 L21.1684783,27.2608696 C21.6253043,27.2608696 21.9945652,27.6301304 21.9945652,28.0869565 C21.9945652,28.5437826 21.6253043,28.9130435 21.1684783,28.9130435 Z" id="Shape" stroke="none" fill="#CEC9AE" fill-rule="nonzero"></path>
+                    <path d="M26.125,33.8695652 L16.2119565,33.8695652 C15.7551304,33.8695652 15.3858696,33.5003043 15.3858696,33.0434783 C15.3858696,32.5866522 15.7551304,32.2173913 16.2119565,32.2173913 L26.125,32.2173913 C26.5818261,32.2173913 26.951087,32.5866522 26.951087,33.0434783 C26.951087,33.5003043 26.5818261,33.8695652 26.125,33.8695652 Z" id="Shape" stroke="none" fill="#CEC9AE" fill-rule="nonzero"></path>
+                    <polygon id="Shape" stroke="none" fill="#E2DBBF" fill-rule="nonzero" points="4.13043478 4.13043478 23.1304348 4.13043478 31.3913043 12.3913043 31.3913043 0 0 0 0 41.3043478 4.13043478 41.3043478"></polygon>
+                    <path d="M35.2838261,16.5217391 L23.1304348,16.5217391 L23.1304348,4.36834783 C23.1304348,4.28078261 23.237,4.23617391 23.2989565,4.29895652 L35.3532174,16.3532174 C35.4151739,16.4151739 35.3713913,16.5217391 35.2838261,16.5217391 Z" id="Shape" stroke="none" fill="#CEC9AE" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="73px" height="73px" viewBox="0 0 73 73" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>fundamentals/css/margin-collapsing</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
+    </defs>
+    <g id="fundamentals/css/margin-collapsing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="container" transform="translate(2.000000, 2.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <rect stroke="#53565C" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+            <g id="rocks" mask="url(#mask-2)">
+                <g transform="translate(-7.000000, -1.000000)">
+                    <polygon id="Shape" fill="#C8AD92" fill-rule="nonzero" points="58.890625 65.9595759 58.890625 73.5714286 2.03794036 73.5714286 0.452105863 0.275190845 21.7608713 12.9845131 28.5312019 19.115772 31.7987667 28 33.1952818 36.0328544 33.3359124 36.8419252 34.8383454 38.2010575 38.9940681 41.9607003 39.7248131 44.1280134 40.640692 46.8453878 41.2014342 48.5080329 42.2810854 49.0580943 53.9845759 55.0153125 54.7028599 60.6601172 54.903125 62.2355357 55.8243443 63.0953404"></polygon>
+                    <g id="Group" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(21.570871, 7.146763)">
+                        <polygon id="Shape" fill="#A17852" fill-rule="nonzero" points="25.2872952 31.0014241 21.2590301 35.7876702 26.4717073 40.490161 31.8544763 35.0733915"></polygon>
+                        <polygon id="Shape" fill="#A17852" fill-rule="nonzero" transform="translate(4.797723, 5.042616) rotate(-60.000000) translate(-4.797723, -5.042616) " points="3.88769999 2 1 5.06947235 4.73675704 8.0852315 8.595446 4.61139752"></polygon>
+                        <rect id="Rectangle-path" fill="#A17852" fill-rule="nonzero" transform="translate(31.352375, 41.834346) rotate(139.928850) translate(-31.352375, -41.834346) " x="30.0750712" y="40.5501001" width="2.55460685" height="2.56849107"></rect>
+                        <rect id="Rectangle-path" fill="#A17852" fill-rule="nonzero" transform="translate(9.352375, 9.834346) rotate(102.928848) translate(-9.352375, -9.834346) " x="8.07507119" y="8.55010011" width="2.55460685" height="2.56849107"></rect>
+                        <rect id="Rectangle-path" fill="#A17852" fill-rule="nonzero" transform="translate(10.352375, 2.834346) rotate(115.928848) translate(-10.352375, -2.834346) " x="9.07507119" y="1.55010011" width="2.55460685" height="2.56849107"></rect>
+                        <polygon id="Shape" fill="#A17852" fill-rule="nonzero" points="18.1539425 45.0390262 16.8428739 46.643817 17.3448717 49.87476 14.7067132 50.2850809 14.0213616 45.8774693 18.1539425 40.8192187 19.0698214 39.6986244 19.6305636 41.3612695 20.7102148 41.9113309"></polygon>
+                    </g>
+                    <polygon id="Shape" fill="#715539" fill-rule="nonzero" points="55.8243443 63.0953404 51.7985714 65.429986 50.423418 68.6840709 47.9641629 67.6453627 49.0233426 65.137154 45.9267997 63.6026786 47.1123689 61.2101786 50.6931083 62.9849721 54.7028599 60.6601172 54.903125 62.2355357"></polygon>
+                    <polygon id="Shape" fill="#A17852" fill-rule="nonzero" points="31.9046847 41.4845145 32.1441127 44.2855552 29.4837026 44.5125223 29.1463672 40.5641853 33.1952818 36.0328544 33.3359124 36.8419252 34.8383454 38.2010575"></polygon>
+                    <polygon id="Shape" fill="#A17852" fill-rule="nonzero" points="24.7583175 21.6425893 24.9977455 24.44363 22.3373354 24.6705971 22 20.72226 26.1895452 17 27.6919782 18.3591323"></polygon>
+                    <polygon id="Shape" fill="#B38A65" fill-rule="nonzero" points="58.890625 65.9595759 58.890625 73.5714286 39.7248131 73.5714286 39.7248131 44.1280134 40.640692 46.8453878 41.2014342 48.5080329 42.2810854 49.0580943 53.9845759 55.0153125 54.7028599 60.6601172 54.903125 62.2355357 55.8243443 63.0953404"></polygon>
+                    <g id="Group" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(39.665179, 46.780413)">
+                        <polygon id="Shape" fill="#715539" fill-rule="nonzero" points="1.53625558 1.72761998 2.61590681 2.27768136 0.0596344866 5.40537667 0.0596344866 1.1855692 0.975513393 0.0649748884"></polygon>
+                        <polygon id="Shape" fill="#715539" fill-rule="nonzero" points="16.1591657 16.3149275 12.1333929 18.6495731 10.7582394 21.9036579 8.29898438 20.8649498 9.35816406 18.3567411 6.26162109 16.8222656 7.44719029 14.4297656 11.0279297 16.2045592 15.0376814 13.8797042 15.2379464 15.4551228"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

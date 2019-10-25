@@ -29,4 +29,5 @@ export const licenses = [
 	"https://www.flaticon.com/authors/roundicon",
 	"https://www.flaticon.com/authors/smalllikeart",
 	"https://www.flaticon.com/authors/prettycons",
+	"https://www.flaticon.com/authors/pixelmeetup",
 ]

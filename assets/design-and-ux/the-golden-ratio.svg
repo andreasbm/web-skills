@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="73px" height="73px" viewBox="0 0 73 73" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>design-and-ux/the-golden-ratio</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
+    </defs>
+    <g id="design-and-ux/the-golden-ratio" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="container" transform="translate(2.000000, 2.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <rect stroke="#442929" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        </g>
+        <g id="golden-ratio" transform="translate(13.000000, 13.000000)" fill-rule="nonzero">
+            <path d="M15.3561562,48 L0.9375,48 C0.41971875,48 0,47.5802812 0,47.0625 L0,0.9375 C0,0.41971875 0.41971875,0 0.9375,0 L15.3561562,0 L15.3561562,48 Z" id="Shape" fill="#67D3FB"></path>
+            <path d="M48,15.3561562 L0,15.3561562 L0,0.9375 C0,0.41971875 0.41971875,0 0.9375,0 L47.0625,0 C47.5802812,0 48,0.41971875 48,0.9375 L48,15.3561562 Z" id="Shape" fill="#734A4A"></path>
+            <path d="M47.0625,48 L15.3561562,48 L15.3561562,0 L47.0625,0 C47.5802812,0 48,0.41971875 48,0.9375 L48,47.0625 C48,47.5802812 47.5802812,48 47.0625,48 Z" id="Shape" fill="#FBD560"></path>
+            <path d="M45.1026562,0 L45.1026562,48 L47.0625,48 C47.5802812,48 48,47.5802812 48,47.0625 L48,0.9375 C48,0.41971875 47.5802812,0 47.0625,0 L45.1026562,0 Z" id="Shape" fill="#FFBD00"></path>
+            <circle id="Oval" fill="#67D3FB" cx="31.678125" cy="16.321875" r="16.321875"></circle>
+            <path d="M48,16.3219687 C48,19.7727187 46.9289063,22.9724062 45.1026563,25.6090312 C42.156,29.8605 37.2420938,32.6438437 31.678125,32.6438437 C22.6634063,32.6438437 15.3561562,25.3365937 15.3561562,16.321875 C15.3561562,7.30715625 22.6633125,0 31.6780313,0 C37.242,0 42.1559063,2.7834375 45.1025625,7.0348125 C46.9289063,9.6714375 48,12.871125 48,16.3219687 Z" id="Shape" fill="#6576D3"></path>
+            <path d="M48,16.3219687 C48,19.7727187 46.9289062,22.9724062 45.1026562,25.6090312 L45.1026562,7.0348125 C46.9289062,9.6714375 48,12.871125 48,16.3219687 Z" id="Shape" fill="#5361AC"></path>
+            <circle id="Oval" fill="#FF6242" cx="31.678125" cy="40.321875" r="7.67803125"></circle>
+            <circle id="Oval" fill="#FF7E91" cx="7.67803125" cy="7.67803125" r="7.67803125"></circle>
+            <path d="M0,15.3561562 L15.3561562,48 L0.9375,48 C0.41971875,48 0,47.5802812 0,47.0625 L0,15.3561562 Z" id="Shape" fill="#6E6E6E"></path>
+        </g>
+    </g>
+</svg>

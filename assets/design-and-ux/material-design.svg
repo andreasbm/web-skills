@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="73px" height="73px" viewBox="0 0 73 73" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>design-and-ux/material-design</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
+    </defs>
+    <g id="design-and-ux/material-design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="container" transform="translate(2.000000, 2.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <rect stroke="#403C3C" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        </g>
+        <g id="Google_Material_Design_Logo" transform="translate(12.000000, 12.000000)">
+            <circle id="Oval" fill="#757575" fill-rule="nonzero" cx="25" cy="25" r="25"></circle>
+            <polygon id="Shape" fill="#BDBDBD" fill-rule="nonzero" points="7.5 7.5 42.5 7.5 42.5 42.5 7.5 42.5"></polygon>
+            <polygon id="Shape" fill="#FFFFFF" fill-rule="nonzero" points="42.5 7.5 25 42.5 7.5 7.5"></polygon>
+            <polygon id="Shape" points="0 0 50 0 50 50 0 50"></polygon>
+        </g>
+    </g>
+</svg>

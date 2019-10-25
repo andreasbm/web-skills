@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="73px" height="73px" viewBox="0 0 73 73" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>fundamentals/html/syntax</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="2" y="2" width="69" height="69" rx="14"></rect>
+    </defs>
+    <g id="fundamentals/html/syntax" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <rect stroke="#DB2334" stroke-width="2" x="1" y="1" width="71" height="71" rx="14"></rect>
+        <rect id="Rectangle" fill="#E64C17" fill-rule="nonzero" mask="url(#mask-2)" transform="translate(4.000000, 46.000000) rotate(-11.000000) translate(-4.000000, -46.000000) " x="-29" y="-15" width="66" height="122"></rect>
+        <path d="M15,38.0498047 L15,35.375 L27.9012206,28.6396484 L27.9012206,31.5722656 L17.5265399,36.7285156 L27.9012206,41.8364258 L27.9012206,44.7851562 L15,38.0498047 Z M39.8260006,23 L42.1450468,23 L32.5515186,50.1186523 L30.2202668,50.1186523 L39.8260006,23 Z M45.0987794,41.8364258 L55.4734601,36.7285156 L45.0987794,31.5722656 L45.0987794,28.6396484 L58,35.375 L58,38.0498047 L45.0987794,44.7851562 L45.0987794,41.8364258 Z" id="&lt;/&gt;" fill="#FFFFFF" mask="url(#mask-2)"></path>
+    </g>
+</svg>

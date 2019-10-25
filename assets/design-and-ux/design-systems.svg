@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="73px" height="73px" viewBox="0 0 73 73" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>design-and-ux/design-systems</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
+    </defs>
+    <g id="design-and-ux/design-systems" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="container" transform="translate(2.000000, 2.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <rect stroke="#03232E" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        </g>
+        <g id="window" transform="translate(14.000000, 17.000000)" fill-rule="nonzero">
+            <polygon id="Shape" fill="#B4D2D7" points="22.5 0 20.7408142 12.9714203 45 11.2122345 45 0"></polygon>
+            <polygon id="Shape" fill="#E1EBF0" points="22.5 0 0 0 0 11.2122345 22.5 12.9714203"></polygon>
+            <polygon id="Shape" fill="#FF3939" points="4.20467379 4.28775785 7.00756075 4.28775785 7.00756075 6.9244766 4.20467379 6.9244766"></polygon>
+            <polygon id="Shape" fill="#FF9F22" points="9.81079102 4.28775785 12.6140213 4.28775785 12.6140213 6.9244766 9.81079102 6.9244766"></polygon>
+            <polygon id="Shape" fill="#15CCC2" points="15.4169082 4.28775785 18.2201386 4.28775785 18.2201386 6.9244766 15.4169082 6.9244766"></polygon>
+            <polygon id="Shape" fill="#03232E" points="22.5 39.2428208 45 39.2428208 45 11.2122345 22.5 11.2122345 20.7408142 25.2276993"></polygon>
+            <polygon id="Shape" fill="#07485E" points="0 11.2122345 22.5 11.2122345 22.5 39.2428208 0 39.2428208"></polygon>
+            <g id="Group" transform="translate(31.376953, 21.093750)" fill="#EFE2DD">
+                <polygon id="Shape" points="0.0748443164 0.0123596191 9.41837309 0.0123596191 9.41837309 2.64907837 0.0748443164 2.64907837"></polygon>
+                <polygon id="Shape" points="0.0748443164 5.61847685 9.41837309 5.61847685 9.41837309 8.2551956 0.0748443164 8.2551956"></polygon>
+                <polygon id="Shape" points="0.0748443164 11.2245942 9.41837309 11.2245942 9.41837309 13.8613129 0.0748443164 13.8613129"></polygon>
+            </g>
+            <polygon id="Shape" fill="#15CCC2" points="40.7953262 15.4999924 22.5 15.4999924 21.6204071 16.8183518 22.5 18.1367111 40.7953262 18.1367111"></polygon>
+            <polygon id="Shape" fill="#7ED8F6" points="28.8130188 34.9550629 28.8130188 21.1061096 22.5 21.1061096 20.7408142 28.0305862 22.5 34.9550629"></polygon>
+            <polygon id="Shape" fill="#6FE8D5" points="4.20467379 15.4999924 22.5 15.4999924 22.5 18.1367111 4.20467379 18.1367111"></polygon>
+            <polygon id="Shape" fill="#BEEBFA" points="4.20467379 21.1061096 22.5 21.1061096 22.5 34.9554062 4.20467379 34.9554062"></polygon>
+        </g>
+    </g>
+</svg>

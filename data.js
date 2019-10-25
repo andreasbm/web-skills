@@ -1,4 +1,4 @@
-import {basicCollection} from "./data/basic.js";
+import {fundamentasCollection} from "./data/fundamentals.js";
 import {webcomponentsCollection} from "./data/web-components.js";
 import {accessibilityCollection} from "./data/accessibility.js";
 import {pwaCollection} from "./data/pwa.js";
@@ -9,18 +9,20 @@ import {frameworksAndLibrariesCollection} from "./data/frameworks-and-libraries
 import {modernCollection} from "./data/modern.js";
 import {teamCollaborationCollection} from "./data/team-collaboration.js";
 import {algorithmsCollection} from "./data/algorithms.js";
+import {designAndUXCollection} from "./data/design-and-ux.js";
 
 
 export const collections = [
-	basicCollection,
+	fundamentasCollection,
 	accessibilityCollection,
 	webcomponentsCollection,
 	pwaCollection,
 	buildtoolsCollection,
-	testingCollection,
 	frameworksAndLibrariesCollection,
+	testingCollection,
 	architectureCollection,
 	teamCollaborationCollection,
+	designAndUXCollection,
 	modernCollection,
 	algorithmsCollection,
 ]

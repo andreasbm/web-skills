@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="73px" height="73px" viewBox="0 0 73 73" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>fundamentals/css/box-model</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
+    </defs>
+    <g id="fundamentals/css/box-model" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="container" transform="translate(2.000000, 2.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <rect stroke="#72512E" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        </g>
+        <g id="box" transform="translate(16.000000, 16.000000)" fill-rule="nonzero">
+            <polygon id="Shape" fill="#A98258" points="34.7586207 0 7.24137931 0 0 11.5862069 0 42 42 42 42 11.5862069"></polygon>
+            <polygon id="Shape" fill="#DAAE86" points="7.24137931 0 0 12 42 12 34.7586207 0"></polygon>
+            <polygon id="Shape" fill="#D8B18B" points="23.5 39.5 20.5 37 17.5 39.5 16 38.25 16 42 25 42 25 38.25"></polygon>
+            <rect id="Rectangle-path" fill="#E8D5B2" x="14" y="23" width="13" height="12"></rect>
+            <g id="Group" transform="translate(16.000000, 25.000000)" fill="#D4C3A5">
+                <path d="M5.25,6.4 L0.75,6.4 C0.336,6.4 0,6.7576 0,7.2 C0,7.6424 0.336,8 0.75,8 L5.25,8 C5.664,8 6,7.6424 6,7.2 C6,6.7576 5.664,6.4 5.25,6.4 Z" id="Shape"></path>
+                <path d="M8.25,6.4 L7.5,6.4 C7.086,6.4 6.75,6.7576 6.75,7.2 C6.75,7.6424 7.086,8 7.5,8 L8.25,8 C8.664,8 9,7.6424 9,7.2 C9,6.7576 8.664,6.4 8.25,6.4 Z" id="Shape"></path>
+                <path d="M3.75,1.6 L8.25,1.6 C8.664,1.6 9,1.2424 9,0.8 C9,0.3576 8.664,0 8.25,0 L3.75,0 C3.336,0 3,0.3576 3,0.8 C3,1.2424 3.336,1.6 3.75,1.6 Z" id="Shape"></path>
+                <path d="M8.25,3.2 L6.75,3.2 C6.336,3.2 6,3.5576 6,4 C6,4.4424 6.336,4.8 6.75,4.8 L8.25,4.8 C8.664,4.8 9,4.4424 9,4 C9,3.5576 8.664,3.2 8.25,3.2 Z" id="Shape"></path>
+                <path d="M0.75,4.8 L2.25,4.8 C2.664,4.8 3,4.4424 3,4 C3,3.5576 2.664,3.2 2.25,3.2 L0.75,3.2 C0.336,3.2 0,3.5576 0,4 C0,4.4424 0.336,4.8 0.75,4.8 Z" id="Shape"></path>
+                <path d="M0.75,1.6 L1.5,1.6 C1.914,1.6 2.25,1.2424 2.25,0.8 C2.25,0.3576 1.914,0 1.5,0 L0.75,0 C0.336,0 0,0.3576 0,0.8 C0,1.2424 0.336,1.6 0.75,1.6 Z" id="Shape"></path>
+                <path d="M3.9675,3.432 C3.8325,3.5832 3.75,3.7832 3.75,4 C3.75,4.216 3.8325,4.416 3.9675,4.568 C4.11,4.712 4.305,4.8 4.5,4.8 C4.695,4.8 4.89,4.712 5.0325,4.568 C5.1675,4.416 5.25,4.208 5.25,4 C5.25,3.792 5.1675,3.5832 5.0325,3.432 C4.7475,3.136 4.245,3.136 3.9675,3.432 Z" id="Shape"></path>
+            </g>
+            <rect id="Rectangle-path" fill="#F4D5BD" x="16" y="0" width="9" height="12"></rect>
+            <polygon id="Shape" fill="#D8B18B" points="17.5 16.4444444 20.5 20 23.5 16.4444444 25 18.2222222 25 12 16 12 16 18.2222222"></polygon>
+        </g>
+    </g>
+</svg>

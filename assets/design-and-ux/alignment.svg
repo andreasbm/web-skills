@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="73px" height="73px" viewBox="0 0 73 73" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>design-and-ux/alignment</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
+    </defs>
+    <g id="design-and-ux/alignment" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="container" transform="translate(2.000000, 2.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <rect stroke="#1A1E2B" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        </g>
+        <g id="vertical-alignment" transform="translate(10.000000, 17.000000)" fill-rule="nonzero">
+            <path d="M53.1,20.7 L48.6,20.7 C48.1023,20.7 47.7,20.2968 47.7,19.8 C47.7,19.3032 48.1023,18.9 48.6,18.9 L53.1,18.9 C53.5977,18.9 54,19.3032 54,19.8 C54,20.2968 53.5977,20.7 53.1,20.7 Z" id="Shape" fill="#556080"></path>
+            <path d="M30.6,20.7 L23.4,20.7 C22.9032,20.7 22.5,20.2968 22.5,19.8 C22.5,19.3032 22.9032,18.9 23.4,18.9 L30.6,18.9 C31.0968,18.9 31.5,19.3032 31.5,19.8 C31.5,20.2968 31.0968,20.7 30.6,20.7 Z" id="Shape" fill="#556080"></path>
+            <path d="M5.4,20.7 L0.9,20.7 C0.4032,20.7 0,20.2968 0,19.8 C0,19.3032 0.4032,18.9 0.9,18.9 L5.4,18.9 C5.8968,18.9 6.3,19.3032 6.3,19.8 C6.3,20.2968 5.8968,20.7 5.4,20.7 Z" id="Shape" fill="#556080"></path>
+            <path d="M5.4,37.3878 L5.4,2.2122 C5.4,0.9909 6.3909,0 7.6122,0 L21.1869,0 C22.4091,0 23.4,0.9909 23.4,2.2122 L23.4,37.3869 C23.4,38.6091 22.4091,39.6 21.1878,39.6 L7.6122,39.6 C6.3909,39.6 5.4,38.6091 5.4,37.3878 Z" id="Shape" fill="#7383BF"></path>
+            <path d="M30.6,32.8878 L30.6,6.7122 C30.6,5.4909 31.5909,4.5 32.8122,4.5 L46.3869,4.5 C47.6091,4.5 48.6,5.4909 48.6,6.7122 L48.6,32.8869 C48.6,34.1091 47.6091,35.1 46.3878,35.1 L32.8122,35.1 C31.5909,35.1 30.6,34.1091 30.6,32.8878 Z" id="Shape" fill="#26B99A"></path>
+        </g>
+    </g>
+</svg>
