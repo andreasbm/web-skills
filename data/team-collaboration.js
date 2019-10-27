@@ -22,6 +22,7 @@ export const teamCollaborationCollection = {
 							["Github Cheatsheet", "https://github.github.com/training-kit/downloads/github-git-cheat-sheet/"],
 							["Visualizing Git", "http://git-school.github.io/visualizing-git/"],
 							["Codecademy - Learn Gitthis", "https://www.codecademy.com/learn/learn-git"],
+							["Git Hint", "https://git-hint.netlify.com/"],
 						]
 					},
 					skills: [

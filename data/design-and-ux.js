@@ -86,6 +86,7 @@ export const designAndUXCollection = {
 							["The Non-Designer's Design Book", "https://www.amazon.com/Non-Designers-Design-Book-4th/dp/0133966151"],
 							["Youtube - The Non-Designers Design Book", "https://www.youtube.com/watch?v=NZ3ryLUR8CI"],
 							["How CRAP Will Make You a Better Designer", "https://creativemarket.com/blog/how-crap-will-make-you-a-better-designer"],
+							["The Big Four: Contrast, Repetition, Alignment, Proximity", "https://www.presentationzen.com/chapter6_spread.pdf"],
 						]
 					},
 					skills: [
@@ -94,11 +95,10 @@ export const designAndUXCollection = {
 							description: {
 								text: "Learn how the principles of contrast can help you when designing.",
 								links: [
-									["", ""],
-									["", ""],
-									["", ""],
-									["", ""],
-									["", ""],
+									["Designing with contrast: 20 tips from a designer", "https://www.canva.com/learn/contrasting-colors/"],
+									["Contrast Design principle of Graphic Design", "https://www.youtube.com/watch?v=r0SAPEw0ru4"],
+									["Contrast In Design", "https://www.designcontest.com/blog/contrast-in-design/"],
+									["Fully understanding contrast in design", "https://www.webdesignerdepot.com/2010/09/fully-understanding-contrast-in-design/"],
 								]
 							},
 						},
@@ -107,11 +107,11 @@ export const designAndUXCollection = {
 							description: {
 								text: "Learn how the principles of repetition can help you when designing.",
 								links: [
-									["", ""],
-									["", ""],
-									["", ""],
-									["", ""],
-									["", ""],
+									["Repetition Design principle of Graphic Design", "https://www.youtube.com/watch?v=u55BW6WBqVU"],
+									["Repetition Principle of Design", "https://254-online.com/repetition-principle-of-design/"],
+									["Repetition, Pattern, and Rhythm", "https://www.interaction-design.org/literature/article/repetition-pattern-and-rhythm"],
+									["Repetition, principles of design", "https://www.johnlovett.com/repetition"],
+									["How to Use Repetition Effectively", "https://www.edgee.net/the-principles-of-graphic-design-how-to-use-repetition-effectively/"],
 								]
 							},
 						},
@@ -120,11 +120,10 @@ export const designAndUXCollection = {
 							description: {
 								text: "Learn how the principles of alignment can help you when designing.",
 								links: [
-									["", ""],
-									["", ""],
-									["", ""],
-									["", ""],
-									["", ""],
+									["Alignment Design principle of Graphic Design", "https://www.youtube.com/watch?v=2kokQi9vb6E"],
+									["Alignment Principle Of Design", "https://254-online.com/alignment-principle-design/"],
+									["The Art Of Alignment In Graphic Design", "https://www.designmantic.com/blog/art-of-alignment-graphic-design/"],
+									["Introduction to Alignment", "https://uxengineer.com/principles-of-design/alignment/"],
 								]
 							},
 						},
@@ -133,11 +132,11 @@ export const designAndUXCollection = {
 							description: {
 								text: "Learn how the principles of proximity can help you when designing.",
 								links: [
-									["", ""],
-									["", ""],
-									["", ""],
-									["", ""],
-									["", ""],
+									["Proximity Design principle of Graphic Design", "https://www.youtube.com/watch?v=xUdqSiI_G8Y"],
+									["How to Use Proximity Effectively", "https://www.edgee.net/the-principles-of-graphic-design-how-to-use-proximity-effectively/"],
+									["Proximity Principle Of Design", "https://254-online.com/proximity-principle-design/"],
+									["Gestalt Theory for UX Design: Principle of Proximity", "https://uxplanet.org/gestalt-theory-for-ux-design-principle-of-proximity-e56b136d52d1"],
+									["Principles of Design: Proximity", "https://www.sitepoint.com/principles-of-design-proximity/"],
 								]
 							},
 						}
@@ -162,10 +161,11 @@ export const designAndUXCollection = {
 						text: "Learn how to use space in your design.",
 						links: [
 							["Space in Design Systems", "https://medium.com/eightshapes-llc/space-in-design-systems-188bcbae0d62"],
-							["", ""],
-							["", ""],
-							["", ""],
-							["", ""],
+							["How to use spacing margin and spacing in design", "https://visme.co/blog/how-to-properly-use-margins-and-spacing-in-design/"],
+							["How To Use Space In Design", "https://vanseodesign.com/web-design/design-space/"],
+							["Importance of White Space in Design", "https://blog.prototypr.io/importance-of-white-space-in-design-5a40c0e65bfd"],
+							["Negative Space in Design", "https://tubikstudio.com/negative-space-in-design-tips-and-best-practices-2/"],
+							["How to Change Line Spacing in InDesign", "https://www.shutterstock.com/support/article/how-to-change-line-spacing-in-indesign"],
 						]
 					},
 				},
@@ -174,11 +174,9 @@ export const designAndUXCollection = {
 					description: {
 						text: "Learn how to improve the user experience by handling errors in an intuitive way.",
 						links: [
-							["", ""],
-							["", ""],
-							["", ""],
-							["", ""],
-							["", ""],
+							["Design an Error Handling System before you structure your App", "https://medium.com/lattice-product-development/design-an-error-handling-system-before-you-structure-your-app-or-software-project-part-i-efe6a1674628"],
+							["UI Error Handling", "https://uimovement.com/tag/error-handling/"],
+							["Creating Error Messages", "https://uxdesign.cc/creating-error-messages-best-practice-in-ux-design-cda3be0f5e16"],
 						]
 					},
 				},
@@ -187,11 +185,15 @@ export const designAndUXCollection = {
 					description: {
 						text: "Learn how a loading state can improve the user experience.",
 						links: [
-							["", ""],
-							["", ""],
-							["", ""],
-							["", ""],
-							["", ""],
+							["Everything you need to know about skeleton screens", "https://uxdesign.cc/what-you-should-know-about-skeleton-screens-a820c45a571a"],
+							["Engaging users with progressive loading in skeleton screen", "https://uxdesign.cc/engaging-users-with-progressive-loading-in-skeleton-screen-335a4e287a55"],
+							["Design and code responsive Skeleton Screens", "https://marinaaisa.com/blog/design-and-code-skeletons-screens/"],
+							["How to Speed Up Your UX with Skeleton Screens", "https://www.sitepoint.com/how-to-speed-up-your-ux-with-skeleton-screens/"],
+							["A Bone to Pick with Skeleton Screens", "https://www.viget.com/articles/a-bone-to-pick-with-skeleton-screens/"],
+							["When to use loaders & empty states", "https://uxdesign.cc/when-to-use-loaders-empty-states-ebd23cecc7d6"],
+							["Empty/Loading State", "https://www.uisources.com/pattern/empty-loading-state"],
+							["When You Need to Show a Button’s Loading State", "https://uxmovement.com/buttons/when-you-need-to-show-a-buttons-loading-state/"],
+							["Stop Using Loading Spinner", "https://blog.iamsuleiman.com/stop-using-loading-spinner-theres-something-better/"],
 						]
 					},
 				},
@@ -200,25 +202,15 @@ export const designAndUXCollection = {
 					description: {
 						text: "Learn how the golden ratio can help you when choose measurements for your design.",
 						links: [
+							["The Golden Ratio in Design", "https://designshack.net/articles/layouts/golden-ratio-in-design/"],
+							["A guide to the Golden Ratio for designers", "https://www.invisionapp.com/inside-design/golden-ratio-designers/"],
+							["What is the golden ratio", "https://www.canva.com/learn/what-is-the-golden-ratio/"],
+							["The Golden Ratio: A designer's guide", "https://www.creativebloq.com/design/designers-guide-golden-ratio-12121546"],
+							["Golden Ratio: What It Is And Why Should You Use It In Design", "https://blog.prototypr.io/golden-ratio-what-it-is-and-why-should-you-use-it-in-design-7c3f43bcf98"],
 							["Golden Ratio Typography (GRT) Calculator", "https://grtcalculator.com/"],
-							["", ""],
-							["", ""],
-							["", ""],
-							["", ""],
-						]
-					},
-				},
-				
-				{
-					name: "Hit Targets",
-					description: {
-						text: "Learn about hit targets can why they should not be neglected.",
-						links: [
-							["", ""],
-							["", ""],
-							["", ""],
-							["", ""],
-							["", ""],
+							["How to Use the Golden Ratio", "https://www.companyfolders.com/blog/golden-ratio-design-examples"],
+							["Golden Ratio in Design", "https://wpamelia.com/golden-ratio/"],
+							["How To Use The Golden Ratio In Design", "https://www.format.com/magazine/resources/design/golden-ratio-in-design"],
 						]
 					},
 				},
@@ -227,24 +219,37 @@ export const designAndUXCollection = {
 					description: {
 						text: "Learn about designing for mobile first and why it is important.",
 						links: [
-							["", ""],
-							["", ""],
-							["", ""],
-							["", ""],
-							["", ""],
+							["Complete guide to mobile first design", "https://www.justinmind.com/blog/complete-guide-to-mobile-first-design/"],
+							["What is Mobile First Design?", "https://medium.com/@Vincentxia77/what-is-mobile-first-design-why-its-important-how-to-make-it-7d3cf2e29d00"],
+							["A Hands-On Guide to Mobile-First Responsive Design", "https://www.uxpin.com/studio/blog/a-hands-on-guide-to-mobile-first-design/"],
+							["Mobile First Design", "https://designshack.net/articles/mobile/mobilefirst/"],
 						]
 					},
+					skills: [
+						{
+							name: "Hit Targets",
+							description: {
+								text: "Learn about hit targets can why they should not be neglected.",
+								links: [
+									["Finger-Friendly Design", "https://www.smashingmagazine.com/2012/02/finger-friendly-design-ideal-mobile-touchscreen-target-sizes/"],
+									["Size matters! Accessibility and Touch Targets", "https://medium.com/@zacdicko/size-matters-accessibility-and-touch-targets-56e942adc0cc"],
+									["Optimal Size and Spacing for Mobile Buttons", "https://uxmovement.com/mobile/optimal-size-and-spacing-for-mobile-buttons/"],
+								]
+							},
+						},
+						
+					]
 				},
 				{
 					name: "Design Systems",
 					description: {
 						text: "Learn what design systems are and get familiar with some.",
 						links: [
-							["", ""],
-							["", ""],
-							["", ""],
-							["", ""],
-							["", ""],
+							["A comprehensive guide to design systems", "https://www.invisionapp.com/inside-design/guide-to-design-systems/"],
+							["What the heck is a design system?", "https://uxdesign.cc/what-the-heck-is-a-design-system-c89a8ea73b0d"],
+							["Everything you need to know about Design Systems", "https://uxdesign.cc/everything-you-need-to-know-about-design-systems-54b109851969"],
+							["What is a Design System?", "https://medium.muz.li/what-is-a-design-system-1e43d19e7696"],
+							["What's a Design System", "https://dev.to/graphqleditor/what-s-design-system-and-why-you-need-one-31fh"],
 						]
 					},
 					skills: [
@@ -257,6 +262,7 @@ export const designAndUXCollection = {
 									["Google - Material Components", "https://material.io/components/"],
 									["Google - Material Develop", "https://material.io/develop/web/"],
 									["Google - Material Tutorial", "https://material.io/collections/developer-tutorials/#web"],
+									["Wikipedia - Material Design", "https://en.wikipedia.org/wiki/Material_Design"],
 								]
 							},
 						},
@@ -266,9 +272,9 @@ export const designAndUXCollection = {
 								text: "Learn about fluent design and get familiar with the core principles.",
 								links: [
 									["Microsoft - Fluent Design System", "https://www.microsoft.com/design/fluent/#/web"],
-									["", ""],
-									["", ""],
-									["", ""],
+									["Microsoft - Fluent UI Toolkit", "https://www.microsoft.com/design/fluent/toolkits/"],
+									["Wikipedia - Fluent Design System", "https://en.wikipedia.org/wiki/Fluent_Design_System"],
+									["Fluent: Design Behind the Design", "https://medium.com/microsoft-design/fluent-design-behind-the-design-973028062fcc"],
 								]
 							},
 						}
@@ -296,8 +302,8 @@ export const designAndUXCollection = {
 						links: [
 							["13 Website Design Best Practices For 2019", "https://www.quicksprout.com/website-design-best-practices/"],
 							["Design Best Practices", "https://medium.com/thinking-design/design-best-practices/home"],
-							["", ""],
-							["", ""],
+							["Refactoring UI", "https://refactoringui.com/"],
+							["Refactoring UI | CSS Day 2019", "https://www.youtube.com/watch?v=7Z9rrryIOC4"],
 						]
 					},
 				}
