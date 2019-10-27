@@ -249,7 +249,7 @@ export const modernCollection = {
 						text: "Learn about the Houdini project and get excited about the future of CSS.",
 						links: [
 							["Google Devs - Houdini, Demystifying CSS", "https://developers.google.com/web/updates/2016/05/houdini"],
-							["web.dev - Smarter custom properties", "https://web.dev/css-props-and-vals/"]
+							["web.dev - Smarter custom properties", "https://web.dev/css-props-and-vals/"],
 							["CSS Houdini Experiments", "https://css-houdini.rocks/"],
 							["Interactive Introduction to CSS Houdini", "http://houdini.glitch.me/"],
 							["W3C - CSS Houdini Wiki", "https://github.com/w3c/css-houdini-drafts/wiki"],

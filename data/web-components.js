@@ -19,6 +19,17 @@ export const webcomponentsCollection = {
 					}
 				},
 				{
+					name: "HTML Templates",
+					description: {
+						text: "Learn how to use HTML templates to create a flexible template that can then be used to populate the shadow DOM.",
+						links: [
+							["Mozilla - Using Templates & Slots", "https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_templates_and_slots"],
+							["Javascript.info - Template Element", "https://javascript.info/template-element"],
+							["Mozilla - The Content Template element", "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template"]
+						]
+					},
+				},
+				{
 					name: "Shadow DOM",
 					description: {
 						text: "Learn how to encapsulate your CSS using shadow dom.",
@@ -46,20 +57,7 @@ export const webcomponentsCollection = {
 									["Chrome Status - ::part and ::theme", "https://www.chromestatus.com/features/5763933658939392"]
 								]
 							}
-						}
-					]
-				},
-				{
-					name: "HTML Templates",
-					description: {
-						text: "Learn how to use HTML templates to create a flexible template that can then be used to populate the shadow DOM.",
-						links: [
-							["Mozilla - Using Templates & Slots", "https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_templates_and_slots"],
-							["Javascript.info - Template Element", "https://javascript.info/template-element"],
-							["Mozilla - The Content Template element", "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template"]
-						]
-					},
-					skills: [
+						},
 						{
 							name: "Slots",
 							description: {
