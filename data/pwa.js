@@ -286,6 +286,7 @@ export const pwaCollection = {
 							["Google Devs - The PRPL Pattern", "https://developers.google.com/web/fundamentals/performance/prpl-pattern/"],
 							["Google Devs - JavaScript Start-up Optimization", "https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/javascript-startup-optimization"]
 							["Ben Schwarz - Real world performance", "https://building.calibreapp.com/beyond-the-bubble-real-world-performance-9c991dcd5342?gi=76804aa8f46e"],
+							["The Cost of Javascript", "https://medium.com/@addyosmani/the-cost-of-javascript-in-2018-7d8950fbb5d4"],
 						]
 					},
 				},
@@ -662,6 +663,7 @@ export const pwaCollection = {
 						links: [
 							["Google Devs - Chrome DevTools", "https://developers.google.com/web/tools/chrome-devtools"],
 							["Google Devs - Inspect animations", "https://developers.google.com/web/tools/chrome-devtools/inspect-styles/animations"],
+							["Investigate animation performance with DevTools", "https://calibreapp.com/blog/investigate-animation-performance-with-devtools/"],
 						]
 					},
 				}

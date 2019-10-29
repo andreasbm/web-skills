@@ -249,7 +249,7 @@ export class Skill extends LitElement {
 
 		return html`
 			<div id="skill" class="${isCompleted ? `completed` : ``}">
-				<img id="img" loading="lazy" src="${constructImagePathPrefix(collection, area, skill)}" />
+				<img id="img" loading="lazy" width="70px" height="70px" intrinsicsize="70x70" src="${constructImagePathPrefix(collection, area, skill)}" />
 				<h6 id="title">${name}</h6>
 				<div id="description" @keydown="${this.onKeyDown}">
 					<h4 class="title">${name}</h4>

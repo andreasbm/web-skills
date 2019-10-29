@@ -10,6 +10,7 @@ import {modernCollection} from "./data/modern.js";
 import {teamCollaborationCollection} from "./data/team-collaboration.js";
 import {algorithmsCollection} from "./data/algorithms.js";
 import {designAndUXCollection} from "./data/design-and-ux.js";
+import {databasesCollection} from "./data/databases.js";
 
 
 export const collections = [
@@ -25,4 +26,5 @@ export const collections = [
 	designAndUXCollection,
 	modernCollection,
 	algorithmsCollection,
+	databasesCollection,
 ]

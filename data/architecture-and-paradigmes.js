@@ -49,6 +49,7 @@ export const architectureCollection = {
 							["The power of functional programming in Javascript", "https://itnext.io/the-power-of-functional-programming-in-javascript-cc9797a42b60"],
 							["An introduction to Functional Programming", "https://flaviocopes.com/javascript-functional-programming/"],
 							["dev.to - Basic Functional Programming Patterns in JavaScript", "https://dev.to/nestedsoftware/basic-functional-programming-patterns-in-javascript-49p2"],
+							["Functional-ish JavaScript", "https://medium.com/@bluepnume/functional-ish-javascript-205c05d0ed08"],
 						]
 					},
 					skills: [
