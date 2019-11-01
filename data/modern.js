@@ -20,7 +20,7 @@ export const modernCollection = {
 							description: {
 								text: "Learn about media streams and how it is possible to get a stream to device specific hardware such as the camera or microphone.",
 								links: [
-									["Mozilla - Media Streams API", "https://developer.mozilla.org/en-US/docs/Web/API/Media_Streams_API"]
+									["Mozilla - Media Streams API", "https://developer.mozilla.org/en-US/docs/Web/API/Media_Streams_API"],
 									["Mozilla - Image Capture API", "https://developer.mozilla.org/en-US/docs/Web/API/MediaStream_Image_Capture_API"],
 									["Mozilla - mediaDevices.getUserMedia()", "https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia"],
 									["W3C - Media Capture and Streams", "https://w3c.github.io/mediacapture-main/#dom-mediastream"],
@@ -328,7 +328,7 @@ export const modernCollection = {
 							description: {
 								text: "Learn how the Performance Observer API can help you get information about the performance of your web app.",
 								links: [
-									["Mozilla - Long Tasks API", "https://developer.mozilla.org/en-US/docs/Web/API/Long_Tasks_API"]
+									["Mozilla - Long Tasks API", "https://developer.mozilla.org/en-US/docs/Web/API/Long_Tasks_API"],
 									["Mozilla - PerformanceObserver", "https://developer.mozilla.org/en-US/docs/Web/API/PerformanceObserver"],
 									["Google Devs - Efficient Access to Performance Data", "https://developers.google.com/web/updates/2016/06/performance-observer"],
 								]

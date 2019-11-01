@@ -93,8 +93,8 @@ export const webcomponentsCollection = {
 						links: [
 							["Google Devs - Custom Element Best Practices", "https://developers.google.com/web/fundamentals/web-components/best-practices"],
 							["Webcomponents.org - Web Components Best Practices", "https://www.webcomponents.org/community/articles/web-components-best-practices"],
-							["mateusortiz - Web Components the Right Way", "https://github.com/mateusortiz/webcomponents-the-right-way"]
-							["dev.to - Making Web Components for Different Contexts", "https://dev.to/equinusocio/making-web-components-for-different-contexts-25ed"],
+							["mateusortiz - Web Components the Right Way", "https://github.com/mateusortiz/webcomponents-the-right-way"],
+							["dev.to - Making Web Components for Different Contexts", "https://dev.to/equinusocio/making-web-components-for-different-contexts-25ed"]
 						]
 					}
 				},

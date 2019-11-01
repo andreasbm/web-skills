@@ -6,7 +6,7 @@
 		"s": "npm run serve",
 		"deploy": "firebase deploy",
 		"lit-check": "npx lit-analyzer . --strict",
-		"generate-blueprint": "node generate-blueprint.js --experimental-modules"
+		"generate-blueprint": "node --experimental-modules generate-blueprint.mjs"
 	},
 	"dependencies": {
 	}
