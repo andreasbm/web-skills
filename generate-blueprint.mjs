@@ -45,7 +45,6 @@ function generateMarkdown (collections) {
 }
 
 const markdown = generateMarkdown(collections);
-//writeFileSync	
-console.log(markdown);
+writeFileSync(`README.md`, markdown);
 
 // TODO: https://thecodebarbarian.com/nodejs-12-imports
