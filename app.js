@@ -65,11 +65,16 @@ export class App extends LitElement {
 	async signIn () {
 		try {
 			await auth.signInWithGoogle();
+
 		} catch (err) {
 			const {openDialog} = await import("https://unpkg.com/web-dialog?module");
-			openDialog({
+			const {$dialog} = openDialog({
+				center: true,
 				$content: document.createTextNode(err.message)
 			});
+
+			$dialog.style.setProperty("--dialog-color", "black");
+			$dialog.style.setProperty("--dialog-max-width", "450px");
 		}
 	}
 

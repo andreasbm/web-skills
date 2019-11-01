@@ -1,37 +1,40 @@
 
 export const databasesCollection = {
-	name: "Databases",
+	name: "Databases & Servers",
 	areas: [
 		{
+			name: "Databases",
 			skills: [
 				{
 					name: "Relational Databases",
 					skills: [
 						{
-							name: "DDL"
-						},
-						{
-							name: "Tables"
-						},
-						{
-							name: "Relationships"
-						},
-						{
-							name: "Ordinality"
-						},
-						{
-							name: "Cardinality"
+							name: "SQL",
 						},
 						{
 							name: "Relational Algebra"
+						},
+						{
+							name: "MySQL"
+						},
+						{
+							name: "PostgreSQL"
 						}
 					]
 				},
 				{
-					name: "Non-relational Databases"
+					name: "Non-relational Databases",
+					skills: [
+						{
+							name: "Redis"
+						},
+						{
+							name: "MongoDB"
+						}
+					]
 				},
 				{
-					name: "Data Modeling",
+					name: "Data Modelling",
 					skills: [
 						{
 							name: "ER Diagram"
@@ -62,14 +65,6 @@ export const databasesCollection = {
 					]
 				},
 				{
-					name: "Relational Databases",
-					skills: [
-						{
-							name: "Relational Algebra"
-						}
-					]
-				},
-				{
 					name: "Transactions",
 					skills: [
 						{
@@ -85,11 +80,50 @@ export const databasesCollection = {
 						},
 						{
 							name: "Precedence graph"
+						},
+						{
+							name: "ACID"
 						}
 					]
 				},
+			]
+		},
+		{
+			name: "Servers",
+			skills: [
 				{
-					name: "REST",
+					name: "Architectural Models",
+					skills: [
+						{
+							name: "Client-Server"
+						},
+						{
+							name: "Client-Many-Servers"
+						},
+						{
+							name: "Proxy-Server"
+						},
+						{
+							name: "Peer-To-Peer"
+						},
+						{
+							name: "Middleware"
+						},
+					]
+				},
+				{
+					name: "Request-Reply Protocol",
+					skills: [
+						{
+							name: "UDP"
+						},
+						{
+							name: "TCP"
+						},
+					]
+				},
+				{
+					name: "REST API",
 					skills: [
 						{
 							name: "CRUD",
@@ -101,6 +135,12 @@ export const databasesCollection = {
 				},
 				{
 					name: "GraphQL"
+				},
+				{
+					name: "GNU/Linux"
+				},
+				{
+					name: "Docker"
 				},
 			]
 		}

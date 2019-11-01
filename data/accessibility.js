@@ -13,7 +13,8 @@ export const accessibilityCollection = {
 							["Udacity - Chromevox Lite", "http://udacity.github.io/ud891/lesson3-semantics-built-in/02-chromevox-lite/"],
 							["Dev.to - Why Accessibility Matters", "https://dev.to/lhoffmanwg1/why-accessibility-matters-39nl"],
 							["Abilitynet - Why Accessibility Matters", "https://www.abilitynet.org.uk/why-accessibility-matters"],
-							["Udacity - Web Accessibility", "https://www.udacity.com/course/web-accessibility--ud891"]
+							["Udacity - Web Accessibility", "https://www.udacity.com/course/web-accessibility--ud891"],
+							["Youtube - Headings, Landmarks, and Tabs", "https://www.youtube.com/watch?v=HE2R86EZPMA"],
 						]
 					}
 				},
@@ -131,7 +132,6 @@ export const accessibilityCollection = {
 						}
 					]
 				},
-
 				{
 					name: "Accessible Colors",
 					description: {

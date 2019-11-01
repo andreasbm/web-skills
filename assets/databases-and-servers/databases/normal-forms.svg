@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="73px" height="73px" viewBox="0 0 73 73" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>databases-and-servers/databases/normal-forms</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
+    </defs>
+    <g id="databases-and-servers/databases/normal-forms" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="container" transform="translate(2.000000, 2.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <rect stroke="#233643" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        </g>
+        <g id="share" transform="translate(11.000000, 11.000000)" fill-rule="nonzero">
+            <ellipse id="Oval" fill="#FFD15C" cx="14.0707649" cy="25.7603028" rx="14.0707649" ry="14.179012"></ellipse>
+            <ellipse id="Oval" fill="#FFFFFF" cx="14.0707649" cy="25.7603028" rx="8.98367331" ry="9.09181673"></ellipse>
+            <ellipse id="Oval" fill="#84DBFF" cx="41.8875538" cy="10.1741833" rx="10.0659363" ry="10.1741833"></ellipse>
+            <circle id="Oval" fill="#FFFFFF" cx="41.8875538" cy="10.1741833" r="6.06121116"></circle>
+            <ellipse id="Oval" fill="#FF7058" cx="41.8875538" cy="41.7793068" rx="10.0659363" ry="10.1741833"></ellipse>
+            <g id="Group" transform="translate(24.549801, 12.430279)" fill="#40596B">
+                <path d="M10.1940717,4.77933865 L8.67871713,5.64521116 L2.72575299,9.00055777 C2.18462151,7.26881275 1.21039841,5.64521116 0.128031873,4.23810359 L6.08099602,0.882756972 L7.5963506,0.0168844622 C8.02933865,1.85698008 9.00345817,3.48047809 10.1940717,4.77933865 Z" id="Shape"></path>
+                <path d="M10.3023187,22.2053466 C9.00345817,23.5042072 8.02933865,25.1277052 7.59645418,26.9678008 L6.0810996,26.1019283 L0.0198884462,22.5300876 C1.21050199,21.1229801 2.0763745,19.4994821 2.72575299,17.7676335 L8.78696414,21.3394741 L10.3023187,22.2053466 Z" id="Shape"></path>
+            </g>
+            <g id="Group" transform="translate(30.557769, 12.430279)" fill="#334A5E">
+                <path d="M4.18610359,4.77933865 L2.670749,5.64521116 C1.48013546,4.3463506 0.506015936,2.72285259 0.0730278884,0.882860558 L1.58838247,0.0169880478 C2.02137052,1.85698008 2.99549004,3.48047809 4.18610359,4.77933865 Z" id="Shape"></path>
+                <path d="M4.2943506,22.2053466 C2.99549004,23.5042072 2.02137052,25.1277052 1.58848606,26.9678008 L0.0731314741,26.1019283 C0.614262948,24.2619363 1.58848606,22.6383347 2.77899602,21.3394741 L4.2943506,22.2053466 Z" id="Shape"></path>
+            </g>
+            <circle id="Oval" fill="#FFFFFF" cx="41.8875538" cy="41.7793068" r="6.06121116"></circle>
+        </g>
+    </g>
+</svg>

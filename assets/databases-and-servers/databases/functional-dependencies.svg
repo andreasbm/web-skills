@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="73px" height="73px" viewBox="0 0 73 73" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>databases-and-servers/databases/functional-dependencies</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
+    </defs>
+    <g id="databases-and-servers/databases/functional-dependencies" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="container" transform="translate(2.000000, 2.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <rect stroke="#03465C" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        </g>
+        <g id="blockchain" transform="translate(10.000000, 9.000000)" fill-rule="nonzero">
+            <polygon id="Shape" fill="#FFC119" points="31.6551724 47.4827586 42.8275862 54 54 47.4827586 54 33.5172414 42.8275862 27 31.6551724 33.5172414"></polygon>
+            <polygon id="Shape" fill="#EA732D" points="54 47.4827586 42.8275862 54 42.8275862 40.0344828 54 33.5172414"></polygon>
+            <polygon id="Shape" fill="#FAAC2B" points="31.6551724 47.4827586 42.8275862 54 42.8275862 40.0344828 31.6551724 33.5172414"></polygon>
+            <polygon id="Shape" fill="#FFC119" points="0 47.4827586 11.1724138 54 22.3448276 47.4827586 22.3448276 33.5172414 11.1724138 27 0 33.5172414"></polygon>
+            <polygon id="Shape" fill="#EA732D" points="22.3448276 47.4827586 11.1724138 54 11.1724138 40.0344828 22.3448276 33.5172414"></polygon>
+            <polygon id="Shape" fill="#FAAC2B" points="0 47.4827586 11.1724138 54 11.1724138 40.0344828 0 33.5172414"></polygon>
+            <polygon id="Shape" fill="#FFC119" points="15.8275862 20.4827586 27 27 38.1724138 20.4827586 38.1724138 6.51724138 27 0 15.8275862 6.51724138"></polygon>
+            <polygon id="Shape" fill="#047FA7" points="3.72413793 45.3433796 3.72413793 40.0008419 7.44827586 42.1738617 7.44827586 47.5163995"></polygon>
+            <polygon id="Shape" fill="#06687F" points="50.2758621 45.3433796 50.2758621 40.0008419 46.5517241 42.1738617 46.5517241 47.5163995"></polygon>
+            <polygon id="Shape" fill="#EA732D" points="38.1724138 20.4827586 27 27 27 13.0344828 38.1724138 6.51724138"></polygon>
+            <polygon id="Shape" fill="#FAAC2B" points="15.8275862 20.4827586 27 27 27 13.0344828 15.8275862 6.51724138"></polygon>
+            <g id="Group" transform="translate(10.357759, 4.306034)" fill="#0093BA">
+                <polygon id="Shape" points="12.8603684 2.2112069 16.6422414 0.00545528017 20.4241144 2.2112069 16.6422414 4.41695851"></polygon>
+                <polygon id="Shape" points="21.4347051 12.9381061 23.0235553 11.9670663 23.933678 13.4559032 22.3448276 14.4269431"></polygon>
+                <polygon id="Shape" points="23.1990336 15.8284954 24.7878839 14.8574555 31.5510675 25.9244005 29.9622171 26.8954404"></polygon>
+                <polygon id="Shape" points="30.7173188 28.1774314 32.3057146 27.2073006 33.2358398 28.7306877 31.6478987 29.7008183"></polygon>
+                <polygon id="Shape" points="9.35262322 13.4549939 10.2627459 11.9666117 11.8515962 12.9376516 10.9414736 14.4264885"></polygon>
+                <polygon id="Shape" points="1.73296067 25.923946 8.49523508 14.8556372 10.0840855 15.8266771 3.32181105 26.8945313"></polygon>
+                <polygon id="Shape" points="0.0195481164 28.7247777 0.950582599 27.2009361 2.53943286 28.171976 1.60839838 29.6958176"></polygon>
+                <polygon id="Shape" points="26.8836207 38.5215517 28.7456897 38.5215517 28.7456897 40.3836207 26.8836207 40.3836207"></polygon>
+                <polygon id="Shape" points="8.26293103 38.5215517 25.0215517 38.5215517 25.0215517 40.3836207 8.26293103 40.3836207"></polygon>
+                <polygon id="Shape" points="4.5387931 38.5215517 6.40086207 38.5215517 6.40086207 40.3836207 4.5387931 40.3836207"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
