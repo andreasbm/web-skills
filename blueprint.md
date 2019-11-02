@@ -16,7 +16,7 @@ Learn the basics of HTML and get comfortable with it's syntax and main concepts.
 * [ ] 📜 [Mozilla - HTML Basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics)
 * [ ] 📜 [Mozilla - Introduction to HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML)
 * [ ] 📜 [Codecademy - Learn HTML](https://www.codecademy.com/learn/learn-html)
-* [ ] 📜 [w3schools - HTML Elements](https://www.w3schools.com/tags/ref_byfunc.asp)
+* [ ] ⚙️ [w3schools - HTML Elements](https://www.w3schools.com/tags/ref_byfunc.asp)
 
 #### Basic Tags
 
@@ -24,7 +24,7 @@ Get familiar with the basic HTML tags
 
 * [ ] 📜 [Tutorialspoint - Basic HTML tags](https://www.tutorialspoint.com/html/html_basic_tags.htm)
 * [ ] 📜 [Elated - First 10 HTML tags](https://www.elated.com/first-10-html-tags/)
-* [ ] 📜 [w3schools - HTML tags](https://www.w3schools.com/tags/ref_byfunc.asp)
+* [ ] ⚙️ [w3schools - HTML tags](https://www.w3schools.com/tags/ref_byfunc.asp)
 
 ### Forms
 
@@ -32,7 +32,7 @@ Learn how to design efficient forms, validating them effectively and keeping the
 
 * [ ] 📜 [Mozilla - HTML forms](https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms)
 * [ ] 📜 [Google Web - Forms](https://developers.google.com/web/fundamentals/design-and-ux/input/forms/)
-* [ ] 📜 [w3schools - Forms](https://www.w3schools.com/html/html_forms.asp)
+* [ ] ⚙️ [w3schools - Forms](https://www.w3schools.com/html/html_forms.asp)
 
 ### SEO
 
@@ -63,7 +63,7 @@ Learn how to work with SVG files to make graphics look crisp across all screen r
 
 Learn the best practices of writing HTML.
 
-* [ ] 📜 [w3schools - HTML Coding Conventions](https://www.w3schools.com/html/html5_syntax.asp)
+* [ ] ⚙️ [w3schools - HTML Coding Conventions](https://www.w3schools.com/html/html5_syntax.asp)
 
 
 ### CSS
@@ -73,7 +73,7 @@ Learn the best practices of writing HTML.
 Learn the basics of CSS and get comfortable with it's syntax and main concepts.
 
 * [ ] 📜 [Mozilla - CSS Basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics)
-* [ ] 📜 [w3schools - CSS Tutorial](https://www.w3schools.com/css/default.asp)
+* [ ] ⚙️ [w3schools - CSS Tutorial](https://www.w3schools.com/css/default.asp)
 * [ ] 📹 [Supercharged - CSS Selectors](https://www.youtube.com/watch?v=IKho_xDKaLw)
 * [ ] 📜 [Mozilla - CSS first steps](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps)
 * [ ] 📜 [Mozilla - CSS building blocks](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks)
@@ -88,7 +88,7 @@ Learn about CSS selectors and how to effeciently target DOM elements.
 * [ ] 📜 [Mozilla - All selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors)
 * [ ] 📜 [CSS Tricks - Child and Sibling Selectors](https://css-tricks.com/child-and-sibling-selectors/)
 * [ ] 📜 [CSS Tricks - All Selectors](https://css-tricks.com/almanac/selectors/)
-* [ ] 📜 [w3schools - CSS Combinators](https://www.w3schools.com/css/css_combinators.asp)
+* [ ] ⚙️ [w3schools - CSS Combinators](https://www.w3schools.com/css/css_combinators.asp)
 
 #### Specificity
 
@@ -98,7 +98,7 @@ Learn what specificity means and how to use it when writing CSS.
 * [ ] 📜 [Mozilla - Cascade and inheritance](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance)
 * [ ] 📜 [dev.to - CSS Specificity](https://dev.to/emmawedekind/css-specificity-1kca)
 * [ ] 📜 [Specificity Calculator](https://specificity.keegan.st/)
-* [ ] 📜 [w3schools - CSS Specificity](https://www.w3schools.com/css/css_specificity.asp)
+* [ ] ⚙️ [w3schools - CSS Specificity](https://www.w3schools.com/css/css_specificity.asp)
 
 #### Pseudo Selectors
 
@@ -107,8 +107,8 @@ Learn how to use pseudo selectors.
 * [ ] 📜 [Mozilla - Pseudo-classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes)
 * [ ] 📜 [CSS Tricks - Meet the Pseudo Class Selectors](https://css-tricks.com/pseudo-class-selectors/)
 * [ ] 📜 [When do the :hover, :focus, and :active pseudo-classes apply?](https://bitsofco.de/when-do-the-hover-focus-and-active-pseudo-classes-apply/)
-* [ ] 📜 [w3schools - CSS Pseudo-elements](https://www.w3schools.com/css/css_pseudo_elements.asp)
-* [ ] 📜 [w3schools - CSS Pseudo-classes](https://www.w3schools.com/css/css_pseudo_classes.asp)
+* [ ] ⚙️ [w3schools - CSS Pseudo-elements](https://www.w3schools.com/css/css_pseudo_elements.asp)
+* [ ] ⚙️ [w3schools - CSS Pseudo-classes](https://www.w3schools.com/css/css_pseudo_classes.asp)
 
 ### Box Model
 
@@ -134,7 +134,7 @@ Learn the different ways you can define colors in CSS.
 
 * [ ] 📜 [Mozilla - Color](https://developer.mozilla.org/en-US/docs/Web/CSS/color)
 * [ ] 📜 [Mozilla - <color>](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value)
-* [ ] 📜 [w3schools - CSS Colors](https://www.w3schools.com/css/css_colors.asp)
+* [ ] ⚙️ [w3schools - CSS Colors](https://www.w3schools.com/css/css_colors.asp)
 
 ### Calc
 
@@ -148,7 +148,7 @@ Learn how to use the CSS calc function.
 Learn the different layout types for web.
 
 * [ ] 📜 [Chrome Dev - Basic Layout](https://developers.google.com/training/certification/mobile-web-specialist/study-guide/basic-layout)
-* [ ] 📜 [w3schools - CSS Website Layout](https://www.w3schools.com/css/css_website_layout.asp)
+* [ ] ⚙️ [w3schools - CSS Website Layout](https://www.w3schools.com/css/css_website_layout.asp)
 * [ ] 📜 [Mozilla - Document and website structure](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure)
 * [ ] 📜 [Mozilla - CSS layout](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout)
 
@@ -300,7 +300,7 @@ Learn how to create and use objects.
 * [ ] 📜 [Mozilla - Working with objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects)
 * [ ] 📜 [javascript.info - Objects](https://javascript.info/object)
 * [ ] 📜 [Mozilla - this](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this)
-* [ ] 📜 [w3schools - The JavaScript this Keyword](https://www.w3schools.com/js/js_this.asp)
+* [ ] ⚙️ [w3schools - The JavaScript this Keyword](https://www.w3schools.com/js/js_this.asp)
 * [ ] 📜 [Mozilla - bind()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind)
 * [ ] 📜 [Mozilla - new operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new)
 * [ ] 📜 [Mozilla - new.target](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new.target)
@@ -422,11 +422,11 @@ Learn how to create good documentation and why it is important.
 
 Learn the best practices of writing Javascript.
 
-* [ ] 📜 [w3schools - JS Best Practices](https://www.w3schools.com/js/js_best_practices.asp)
+* [ ] ⚙️ [w3schools - JS Best Practices](https://www.w3schools.com/js/js_best_practices.asp)
 * [ ] 🧪 [Airbnb - JavaScript Style Guide](https://github.com/airbnb/javascript)
 * [ ] 🧪 [Principles of Writing Consistent, Idiomatic JavaScript](https://github.com/rwaldron/idiomatic.js/)
 * [ ] 🧪 [5 JavaScript Style Guides](https://codeburst.io/5-javascript-style-guides-including-airbnb-github-google-88cbc6b2b7aa)
-* [ ] 📜 [JavaScript Style Guide and Coding Conventions](https://www.w3schools.com/js/js_conventions.asp)
+* [ ] ⚙️ [JavaScript Style Guide and Coding Conventions](https://www.w3schools.com/js/js_conventions.asp)
 
 
 ### The Browser
@@ -443,11 +443,11 @@ Learn why web standards are important and how new specifications are standardise
 
 Learn what W3C are doing and how they are moving the web forward.
 
-* [ ] 📜 [W3C - About](https://www.w3.org/standards/about.html)
-* [ ] 📜 [W3C - Standards](https://www.w3.org/standards/)
+* [ ] ⚙️ [W3C - About](https://www.w3.org/standards/about.html)
+* [ ] ⚙️ [W3C - Standards](https://www.w3.org/standards/)
 * [ ] ⚙️ [W3C - Process](http://webdiy.org/w3c/)
 * [ ] 📜 [Web Standards Guide](https://www.smashingmagazine.com/2019/01/web-standards-guide/)
-* [ ] 📜 [W3C - Groups](https://www.w3.org/community/groups/)
+* [ ] ⚙️ [W3C - Groups](https://www.w3.org/community/groups/)
 * [ ] ⚙️ [The W3C At Twenty-Five](https://www.smashingmagazine.com/2019/10/happy-birthday-w3c/)
 
 #### TC39
@@ -477,7 +477,7 @@ Learn how to read specifications developed by the standards committees.
 * [ ] 📜 [How to Read the ECMAScript Specification](https://timothygu.me/es-howto/)
 * [ ] 📜 [How to Read W3C Specs](https://alistapart.com/article/readspec/)
 * [ ] 📜 [Learning CSS by reading specs](https://www.chenhuijing.com/blog/learning-css-by-reading-specifications/)
-* [ ] 📜 [Understanding the CSS Specifications](https://www.w3.org/Style/CSS/read.en.html)
+* [ ] ⚙️ [Understanding the CSS Specifications](https://www.w3.org/Style/CSS/read.en.html)
 
 ### Browser Engines
 
@@ -536,7 +536,7 @@ Learn how it is possible to use polyfills to increase the browser support for yo
 
 * [ ] 📜 [Mozilla - Polyfill](https://developer.mozilla.org/en-US/docs/Glossary/Polyfill)
 * [ ] 📜 [Introduction To Polyfills & Their Usage](https://medium.com/beginners-guide-to-mobile-web-development/introduction-to-polyfills-their-usage-9cd6db4b1923)
-* [ ] 📜 [W3C - Polyfills and the evolution of the Web](https://www.w3.org/2001/tag/doc/polyfills/)
+* [ ] ⚙️ [W3C - Polyfills and the evolution of the Web](https://www.w3.org/2001/tag/doc/polyfills/)
 
 ### Debugging
 
@@ -609,7 +609,7 @@ Learn how to write HTML in such as way that assistive technology better understa
 * [ ] 📜 [Google Devs - Introduction to Semantics](https://developers.google.com/web/fundamentals/accessibility/semantics-builtin/)
 * [ ] 📜 [Mozilla - Accessibility HTML](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML)
 * [ ] ⚙️ [Webaim - Skip navigation](https://webaim.org/techniques/skipnav/)
-* [ ] 📜 [w3c - Headings](https://www.w3.org/WAI/tutorials/page-structure/headings/)
+* [ ] ⚙️ [w3c - Headings](https://www.w3.org/WAI/tutorials/page-structure/headings/)
 * [ ] 📜 [Freecodecamp - Semantic Elements](https://guide.freecodecamp.org/html/html5-semantic-elements/)
 
 ##### Alt text
@@ -669,7 +669,7 @@ Learn how to select colors in such a way that users, including those with visual
 
 Learn about the governmental policies related to web accessibility.
 
-* [ ] 📜 [W3C - Laws & Policies](https://www.w3.org/WAI/policies/)
+* [ ] ⚙️ [W3C - Laws & Policies](https://www.w3.org/WAI/policies/)
 * [ ] ⚙️ [Webaim - Laws around the world](https://webaim.org/articles/laws/world/)
 * [ ] ⚙️ [Webaim - Section 508](https://webaim.org/standards/508/checklist)
 * [ ] ⚙️ [Webaim - WCAG 2 Checklist](https://webaim.org/standards/wcag/checklist)
@@ -728,7 +728,7 @@ Learn how to style the inside of a shadow tree from outside of that shadow tree 
 
 * [ ] 🧪 [Fergald - CSS Shadow ::part and ::theme](https://github.com/fergald/docs/blob/master/explainers/css-shadow-parts-1.md)
 * [ ] 📜 [Mozilla - ::part](https://developer.mozilla.org/en-US/docs/Web/CSS/::part)
-* [ ] 📜 [W3C - CSS Shadow Parts](https://www.w3.org/TR/css-shadow-parts-1/)
+* [ ] ⚙️ [W3C - CSS Shadow Parts](https://www.w3.org/TR/css-shadow-parts-1/)
 * [ ] 📜 [Monica - ::part and ::theme, an explainer](https://meowni.ca/posts/part-theme-explainer/)
 * [ ] 📹 [Youtube - CSS Shadow Parts](https://www.youtube.com/watch?v=yVrvOueeb3s)
 * [ ] 📜 [Chrome Status - ::part and ::theme](https://www.chromestatus.com/features/5763933658939392)
@@ -850,7 +850,7 @@ Learn how to add push notifications to your web app.
 Learn how to tell the browser about your web app and how it should behave when 'installed' by creating a web app manifest.
 
 * [ ] 📜 [Google Devs - Web App Manifest](https://developers.google.com/web/fundamentals/web-app-manifest/)
-* [ ] 📜 [W3C - Web App Manifest](https://www.w3.org/TR/appmanifest/)
+* [ ] ⚙️ [W3C - Web App Manifest](https://www.w3.org/TR/appmanifest/)
 * [ ] 📜 [Mozilla - How to make PWAs installable](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Installable_PWAs)
 
 ### Add to homescreen
@@ -1148,7 +1148,7 @@ Learn how to debounce computationally expensive code to avoid blocking the UI.
 Learn how to use CSS containment to improve the performance of your web app.
 
 * [ ] 📜 [Google Devs - CSS Containment](https://developers.google.com/web/updates/2016/06/css-containment)
-* [ ] 📜 [W3C - CSS Containment Module](https://www.w3.org/TR/css-contain-1/)
+* [ ] ⚙️ [W3C - CSS Containment Module](https://www.w3.org/TR/css-contain-1/)
 * [ ] 📜 [An introduction to CSS Containment](https://blogs.igalia.com/mrego/2019/01/11/an-introduction-to-css-containment/)
 * [ ] 📜 [Mozilla - Contain](https://developer.mozilla.org/en-US/docs/Web/CSS/contain)
 * [ ] 📜 [CSS Tricks - CSS containment](https://css-tricks.com/css-containment/)
@@ -1403,7 +1403,7 @@ Learn how to use Node.js.
 * [ ] 📜 [Node.js](https://nodejs.org)
 * [ ] 📜 [Introduction to Node.js](https://nodejs.dev/)
 * [ ] 📜 [Node.js - Guides](https://nodejs.org/en/docs/guides/)
-* [ ] 📜 [w3schools - Node.js tutorial](https://www.w3schools.com/nodejs/)
+* [ ] ⚙️ [w3schools - Node.js tutorial](https://www.w3schools.com/nodejs/)
 
 
 ## Frameworks & Libraries
@@ -1620,7 +1620,7 @@ Learn about the Ava test runner.
 Learn about the best practices when it comes to testing.
 
 * [ ] 🧪 [Javascript Testing Best Practices](https://github.com/goldbergyoni/javascript-testing-best-practices)
-* [ ] 📜 [What are the best practices in software Testing?](https://www.quora.com/What-are-the-best-practices-in-software-Testing)
+* [ ] ❓ [What are the best practices in software Testing?](https://www.quora.com/What-are-the-best-practices-in-software-Testing)
 * [ ] 📜 [7 Software Testing Best Practices](https://www.qasymphony.com/blog/7-software-testing-best-practices/)
 
 
@@ -1769,7 +1769,7 @@ Learn about the constructor design pattern and when it should be used.
 
 * [ ] 📜 [The Constructor Pattern](https://www.oreilly.com/library/view/learning-javascript-design/9781449334840/ch09s01.html)
 * [ ] 📜 [Fundamental Object Design Patterns in JavaScript](https://medium.com/@severinperez/javascript-weekly-fundamental-object-design-patterns-31453f68427f)
-* [ ] 📜 [Difference between Constructor pattern and Prototype pattern](https://stackoverflow.com/questions/35057827/difference-between-constructor-pattern-and-prototype-pattern)
+* [ ] ❓ [Difference between Constructor pattern and Prototype pattern](https://stackoverflow.com/questions/35057827/difference-between-constructor-pattern-and-prototype-pattern)
 
 ### CSS Methodologies
 
@@ -2095,9 +2095,9 @@ Learn how and why it is important to design for accessibility.
 * [ ] 📜 [Designing for accessibility is not that hard](https://uxdesign.cc/designing-for-accessibility-is-not-that-hard-c04cc4779d94)
 * [ ] 📜 [Designing Accessible Experiences at Scale](https://theblog.adobe.com/accessibility-design-at-scale/)
 * [ ] 📜 [Material Design - Accessibility](https://material.io/design/usability/accessibility.html#)
-* [ ] 📜 [W3C - Designing for Web Accessibility](https://www.w3.org/WAI/tips/designing/)
+* [ ] ⚙️ [W3C - Designing for Web Accessibility](https://www.w3.org/WAI/tips/designing/)
 * [ ] 📜 [Accessibility in government](https://accessibility.blog.gov.uk/2016/09/02/dos-and-donts-on-designing-for-accessibility/)
-* [ ] 📜 [W3C - Visual Presentation](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-visual-presentation.html)
+* [ ] ⚙️ [W3C - Visual Presentation](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-visual-presentation.html)
 
 ### Best Practices
 
@@ -2135,7 +2135,7 @@ Learn how to use the media recorder API to record media streams.
 
 * [ ] 📜 [Mozilla - MediaStream Recording API](https://developer.mozilla.org/en-US/docs/Web/API/MediaStream_Recording_API)
 * [ ] 📜 [Media Recorder API Demo](https://addpipe.com/media-recorder-api-demo/)
-* [ ] 📜 [WTC - MediaStream Recording](https://www.w3.org/TR/mediastream-recording/)
+* [ ] ⚙️ [WTC - MediaStream Recording](https://www.w3.org/TR/mediastream-recording/)
 * [ ] 📜 [What Web Can Do Today - Recording Media](https://whatwebcando.today/recording.html)
 
 #### Web RTC
@@ -2154,7 +2154,7 @@ Learn how to use the Screen Capture API for recording the screen.
 
 * [ ] 📜 [Mozilla - Screen Capture API](https://developer.mozilla.org/en-US/docs/Web/API/Screen_Capture_API)
 * [ ] 📜 [dev.to - Intro to Screen Capture API](https://dev.to/al_khovansky/intro-to-screen-capture-api-scanning-qr-codes-bgi)
-* [ ] 📜 [W3C - Screen Capture](https://www.w3.org/TR/screen-capture/)
+* [ ] ⚙️ [W3C - Screen Capture](https://www.w3.org/TR/screen-capture/)
 
 #### Generators
 
@@ -2199,10 +2199,10 @@ Learn how to ask the user for permission to the location.
 Learn how to measure the orientation and motion of the device.
 
 * [ ] 📜 [Mozilla - Detecting device orientation](https://developer.mozilla.org/en-US/docs/Web/API/Detecting_device_orientation)
-* [ ] 📜 [W3C - DeviceOrientation Event Specification](https://www.w3.org/TR/orientation-event/)
+* [ ] ⚙️ [W3C - DeviceOrientation Event Specification](https://www.w3.org/TR/orientation-event/)
 * [ ] 📜 [HTML5 Rocks - Introduction](https://www.html5rocks.com/en/tutorials/device/orientation/index.html)
 * [ ] 📜 [What Web Can Do Today - Device Position](https://whatwebcando.today/device-position.html)
-* [ ] 📜 [W3C - Generic Sensor API](https://www.w3.org/TR/generic-sensor/)
+* [ ] ⚙️ [W3C - Generic Sensor API](https://www.w3.org/TR/generic-sensor/)
 * [ ] 📜 [Mozilla - Sensor APIs](https://developer.mozilla.org/en-US/docs/Web/API/Sensor_APIs)
 * [ ] 📜 [Google Devs - Sensors For The Web](https://developers.google.com/web/updates/2017/09/sensors-for-the-web)
 
@@ -2249,7 +2249,7 @@ Learn about the payment request API and how it can help monetize your web app.
 * [ ] 📜 [Mozilla - Payment Request API](https://developer.mozilla.org/en-US/docs/Web/API/Payment_Request_API)
 * [ ] 🧪 [Codelabs - Payment Request API](https://developers.google.com/web/fundamentals/codelabs/payment-request-api)
 * [ ] 📜 [What Web Can Do Today - Payments](https://whatwebcando.today/payments.html)
-* [ ] 📜 [W3C - Payment Request API](https://www.w3.org/TR/payment-request/)
+* [ ] ⚙️ [W3C - Payment Request API](https://www.w3.org/TR/payment-request/)
 * [ ] 📜 [Google Devs - Introduction to the Payment Request API](https://developers.google.com/web/ilt/pwa/introduction-to-the-payment-request-api)
 
 ### Web Audio
@@ -2258,7 +2258,7 @@ Learn how to use the Web Audio API to add audio to your web app.
 
 * [ ] 📜 [Mozilla - Using the Web Audio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Using_Web_Audio_API)
 * [ ] 📜 [Mozilla - Web Audio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API)
-* [ ] 📜 [W3C - Web Audio API](https://www.w3.org/TR/webaudio/)
+* [ ] ⚙️ [W3C - Web Audio API](https://www.w3.org/TR/webaudio/)
 * [ ] 📜 [HTML5 Rocks - Getting Started with Web Audio API](https://www.html5rocks.com/en/tutorials/webaudio/intro/)
 * [ ] 📜 [All You Need to Know About the Web Audio API](https://medium.com/better-programming/all-you-need-to-know-about-the-web-audio-api-3df170559378)
 * [ ] 📜 [Alligator - Your First Steps with the Web Audio API](https://alligator.io/js/first-steps-web-audio-api/)
@@ -2338,7 +2338,7 @@ Learn how to use the Mutation Observer API to get informed about changes to the 
 Learn how to use the Intersection Observer API can help you detect when an element is visible on the screen.
 
 * [ ] 📜 [Mozilla - Intersection Observer API](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API)
-* [ ] 📜 [W3C - Intersection Observer](https://www.w3.org/TR/intersection-observer/)
+* [ ] ⚙️ [W3C - Intersection Observer](https://www.w3.org/TR/intersection-observer/)
 * [ ] 📜 [Google Devs - Trust is Good, Observation is Better](https://developers.google.com/web/updates/2019/02/intersectionobserver-v2)
 * [ ] 📜 [CSS Tricks - An Explanation of Intersection Observers](https://css-tricks.com/an-explanation-of-how-the-intersection-observer-watches/)
 * [ ] 📜 [Understanding the Intersection Observer API in JavaScript](https://medium.com/better-programming/understanding-intersection-observer-api-in-javascript-bb1bf04b8081)
@@ -2459,7 +2459,7 @@ Learn how to use Interaction Media Queries to optimize the user experience for t
 * [ ] 📜 [Mozilla - Media features](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries#Media_features)
 * [ ] 📜 [Touch Devices Should Not Be Judged By Their Size](https://css-tricks.com/touch-devices-not-judged-size/)
 * [ ] 📜 [Interaction Media Features and their potential](https://dev.opera.com/articles/media-features/)
-* [ ] 📜 [W3C - Interaction Media Features](https://www.w3.org/TR/mediaqueries-4/#mf-interaction)
+* [ ] ⚙️ [W3C - Interaction Media Features](https://www.w3.org/TR/mediaqueries-4/#mf-interaction)
 * [ ] 📜 [What Web Can Do Today - Pointing Device Adaptation](https://whatwebcando.today/pointer-adaptation.html)
 
 ### Presentation
@@ -2638,7 +2638,7 @@ Learn how to setup a cost model for an algorithm.
 
 Learn how to make an order-of-growth classification to classify the cost model.
 
-* [ ] 📜 [Quora - What is the meaning of 'order of growth'](https://www.quora.com/What-is-the-meaning-of-order-of-growth-in-algorithm-analysis-and-how-can-we-find-the-order-of-growth-of-given-algorithm)
+* [ ] ❓ [Quora - What is the meaning of 'order of growth'](https://www.quora.com/What-is-the-meaning-of-order-of-growth-in-algorithm-analysis-and-how-can-we-find-the-order-of-growth-of-given-algorithm)
 * [ ] 📜 [Orders of Growth](http://www.ccs.neu.edu/home/jaa/CS7800.12F/Information/Handouts/order.html)
 * [ ] 🎓 [Coursera - Order-of-Growth Classifications](https://www.coursera.org/lecture/algorithms-part1/order-of-growth-classifications-Xk03a)
 
@@ -2793,158 +2793,378 @@ Learn about hashing algorithms.
 
 ### Relational Databases
 
+Learn about relational databases and how to use them.
 
+* [ ] 📜 [Wikipedia - Relational database](https://en.wikipedia.org/wiki/Relational_database)
+* [ ] 📜 [Relational database](https://searchdatamanagement.techtarget.com/definition/relational-database)
+* [ ] 📜 [Everything you need to know about (Relational) Databases](https://dev.to/lmolivera/everything-you-need-to-know-about-relational-databases-3ejl)
+* [ ] 📜 [What are relational databases?](https://computer.howstuffworks.com/question599.htm)
+* [ ] 📜 [What is a Relational Database Management System?](https://www.codecademy.com/articles/what-is-rdbms-sql)
 
 #### SQL
 
+Learn how to write SQL statements to communicate with a database.
 
+* [ ] 📜 [Learn SQL](https://www.codecademy.com/learn/learn-sql)
+* [ ] 📜 [Wikipedia - SQL](https://en.wikipedia.org/wiki/SQL)
+* [ ] 📜 [A beginners guide to SQL](https://learntocodewith.me/posts/sql-guide/)
+* [ ] 📜 [The Last SQL Guide for Data Analysis You’ll Ever Need](https://medium.com/better-programming/the-last-sql-guide-for-data-analysis-youll-ever-need-17ae10fa4a6f)
+* [ ] 📜 [SQL Tutorial](https://www.tutorialrepublic.com/sql-tutorial/)
 
 #### Relational Algebra
 
+Learn how relational algebra can describe the language used for querying a relational database..
 
+* [ ] 📜 [Wikipedia - Relational algebra](https://en.wikipedia.org/wiki/Relational_algebra)
+* [ ] 📜 [Tutorialspoint - Relational Algebra](https://www.tutorialspoint.com/dbms/relational_algebra.htm)
+* [ ] 📜 [Relational Algebra in DBMS with Examples](https://www.guru99.com/relational-algebra-dbms.html)
+* [ ] 📜 [Practical reasons behind learning relational algebra](https://dba.stackexchange.com/questions/111487/what-are-the-practical-reasons-behind-learning-relational-algebra)
+* [ ] 🧪 [Relational algebra calculator?](https://dbis-uibk.github.io/relax/)
+* [ ] 🎓 [Coursera - Relational Algebra Overview](https://www.coursera.org/lecture/data-manipulation/relational-algebra-overview-tv5TJ)
+* [ ] 📜 [Relational Algebra Learning Tool](https://www.doc.ic.ac.uk/~pjm/teaching/student_projects/pm105_report.pdf)
 
 #### MySQL
 
+Learn about the open-source relational database management system called MySQL.
 
+* [ ] 📜 [MySQL](https://www.mysql.com/)
+* [ ] 📜 [Wikipedia - MySQL](https://en.wikipedia.org/wiki/MySQL)
+* [ ] 📜 [Tutorialspoint - MySQL Tutorial](https://www.tutorialspoint.com/mysql/index.htm)
+* [ ] 📜 [MySQL Definition](https://searchoracle.techtarget.com/definition/MySQL)
+* [ ] 📜 [Getting Started with MySQL](http://www.mysqltutorial.org/getting-started-with-mysql/)
 
 #### PostgreSQL
 
+Learn about the open-source relational database management system called PostgreSQL.
 
+* [ ] 📜 [PostgreSQL](https://www.postgresql.org/)
+* [ ] 📜 [Wikipedia - PostgreSQL](https://en.wikipedia.org/wiki/PostgreSQL)
+* [ ] 📜 [PostgreSQL Tutorial](http://www.postgresqltutorial.com/)
+* [ ] 📜 [Postgres Guide](http://postgresguide.com/)
 
 ### Non-relational Databases
 
+Learn about non-relational databases and how to use them.
 
+* [ ] 📜 [What Is A Non Relational Database](https://www.mongodb.com/scale/what-is-a-non-relational-database)
+* [ ] 📜 [Wikipedia - NoSQL](https://en.wikipedia.org/wiki/NoSQL)
+* [ ] 📜 [dev.to - Relational SQL vs. Non-Relational NoSQL Databases](https://dev.to/trevoirwilliams/relational-sql-vs-non-relational-nosql-databases-hi5)
+* [ ] 📜 [Non-relational data and NoSQL](https://docs.microsoft.com/en-us/azure/architecture/data-guide/big-data/non-relational-data)
+* [ ] 📜 [Non-Relational Database](https://www.techopedia.com/definition/25218/non-relational-database)
 
 #### Redis
 
+Learn about the open-source non-relational database management system called Redis.
 
+* [ ] 📜 [Redis](https://redis.io/)
+* [ ] 📜 [Try Redis](http://try.redis.io/)
+* [ ] 📜 [Wikipedia - Redis](https://en.wikipedia.org/wiki/Redis)
+* [ ] 📜 [An introduction to Redis data types and abstractions](https://redis.io/topics/data-types-intro)
+* [ ] 📜 [Redis - Documentation](https://redis.io/documentation)
+* [ ] 📜 [Redis: What and Why?](https://codeburst.io/redis-what-and-why-d52b6829813)
+* [ ] 📜 [Tutorialspoint - Redis Tutorial](https://www.tutorialspoint.com/redis/index.htm)
 
 #### MongoDB
 
+Learn about the open-source non-relational database management system called MongoDB.
 
+* [ ] 📜 [MongoDB](https://www.mongodb.com/)
+* [ ] 📜 [MongoDB - Documentation](https://docs.mongodb.com/)
+* [ ] 📜 [MongoDB - University](https://university.mongodb.com/)
+* [ ] 📜 [Tutorialspoint - MongoDB Tutorial](https://www.tutorialspoint.com/mongodb/index.htm)
+* [ ] 📹 [Youtube - MongoDB In 30 Minutes](https://www.youtube.com/watch?v=pWbMrx5rVBE)
 
 ### Data Modelling
 
+Learn how data modelling can help your database design.
 
+* [ ] 📜 [Chapter 5 Data Modelling](https://opentextbc.ca/dbdesign01/chapter/chapter-5-data-modelling/)
+* [ ] 📜 [Wikipedia - Database Model](https://en.wikipedia.org/wiki/Database_model)
+* [ ] 📜 [Wikipedia - Database Modelling](https://en.wikipedia.org/wiki/Data_modeling)
+* [ ] 📜 [What is Data Modelling?](https://www.guru99.com/data-modelling-conceptual-logical.html)
+* [ ] 📜 [Data Modeling Definition](https://searchdatamanagement.techtarget.com/definition/data-modeling)
 
 #### ER Diagram
 
+Learn how to model your data using ER diagrams.
 
+* [ ] 📜 [Tutorialspoint - DBMS, Data Models](https://www.tutorialspoint.com/dbms/dbms_data_models.htm)
+* [ ] 📜 [Entity Relationship Diagram](https://www.smartdraw.com/entity-relationship-diagram/)
+* [ ] 📹 [Youtube - Entity Relationship Diagram Tutorial](https://www.youtube.com/watch?v=QpdhBUYk7Kk)
+* [ ] 📜 [Wikipedia - Entity–relationship model](https://en.wikipedia.org/wiki/Entity%E2%80%93relationship_model)
+* [ ] 📖 [Entity Relationship Diagram](https://beginnersbook.com/2015/04/e-r-model-in-dbms/)
 
 #### Keys
 
+Learn how to figure out what types of keys to use and where to use them.
 
+* [ ] 📜 [Introduction to Database Keys](https://www.studytonight.com/dbms/database-key.php)
+* [ ] 📜 [7 Different Types of Database Keys](https://www.csestack.org/different-types-database-keys-example/)
+* [ ] 📜 [Database Management: Keys](https://databasemanagement.fandom.com/wiki/Relational_Database:_Keys)
+* [ ] 📜 [Database Keys](https://www.tutorialcup.com/dbms/keys.htm)
+* [ ] 📹 [Youtube - Database Keys](https://www.youtube.com/watch?v=yMYH0zP1m8U)
 
 ### Indexing
 
+Learn how to use indexing to speed up your database.
 
+* [ ] 📜 [Indexing in Databases](https://www.geeksforgeeks.org/indexing-in-databases-set-1/)
+* [ ] 📜 [Wikipedia - Database index](https://en.wikipedia.org/wiki/Database_index)
+* [ ] 📜 [Database Indexes Explained](https://www.essentialsql.com/what-is-a-database-index/)
+* [ ] 📜 [Indexing in Databases with EXAMPLES](https://www.guru99.com/indexing-in-database.html)
+* [ ] 📜 [What Does Indexing Do?](https://chartio.com/learn/databases/how-does-indexing-work/)
+* [ ] 📜 [An in-depth look at Database Indexing](https://www.freecodecamp.org/news/database-indexing-at-a-glance-bb50809d48bd/)
+* [ ] 📜 [Indexing your database data — the easy way](https://medium.com/faun/explained-indexing-your-database-data-the-easy-way-3c7127ed36a)
 
 ### Data Integrity
 
+Learn how to assure the accuracy and consistency of data.
 
+* [ ] 📜 [Wikipedia - Data Integrity](https://en.wikipedia.org/wiki/Data_integrity)
+* [ ] 📐 [What is Data Integrity and Why Is It Important?](https://www.talend.com/resources/what-is-data-integrity/)
+* [ ] 📜 [hat is Data Integrity?](https://digitalguardian.com/blog/what-data-integrity-data-protection-101)
+* [ ] 📜 [What is Data Integrity?](https://database.guide/what-is-data-integrity/)
+* [ ] 📜 [Data Integrity](https://www.tutorialcup.com/dbms/integrity.htm)
+* [ ] 📹 [Youtube - Database Design, Data Integrity](https://www.youtube.com/watch?v=1D_h-yFtQVo)
 
 ### Normalization
 
+Learn how data normalization can help you decrease data redundancy and improve data integrity in your database.
 
+* [ ] 📜 [Wikipedia - Database normalization](https://en.wikipedia.org/wiki/Database_normalization)
+* [ ] 📜 [Database Normalization (Explained in Simple English)](https://www.essentialsql.com/get-ready-to-learn-sql-database-normalization-explained-in-simple-english/)
+* [ ] 📜 [What is Normalization?](https://www.guru99.com/database-normalization.html)
+* [ ] 📜 [Normal Forms in DBMS](https://www.geeksforgeeks.org/normal-forms-in-dbms/)
+* [ ] 📜 [Database normalization](https://searchsqlserver.techtarget.com/definition/normalization)
+* [ ] 📜 [Database Normalization Explained](https://towardsdatascience.com/database-normalization-explained-53e60a494495)
 
 #### Functional Dependencies
 
+Learn how to find functional dependencies to improve your database design.
 
-
-#### Armstrongs Axioms
-
-
+* [ ] 📜 [Full Functional Dependency in Database Normalization](https://www.lifewire.com/full-functional-dependency-1019753)
+* [ ] ❓ [Stackoverflow - Functional dependency and normalization](https://stackoverflow.com/questions/4199444/functional-dependency-and-normalization)
+* [ ] 📜 [Tutorialspoint - DBMS, Normalization](https://www.tutorialspoint.com/dbms/database_normalization.htm)
+* [ ] 📜 [Functional Dependencies and Normalization](http://www.ict.griffith.edu.au/~jw/normalization/assets/Functional%20Dependencies%20and%20Normalization.pdf)
+* [ ] 📜 [DBMS Functional Dependency](https://www.guru99.com/dbms-functional-dependency.html)
+* [ ] 📜 [Wikipedia - Armstrong's axioms](https://en.wikipedia.org/wiki/Armstrong%27s_axioms)
+* [ ] 📜 [Armstrong's Axioms in Functional Dependency](https://www.includehelp.com/dbms/armstrongs-axioms-in-functional-dependency.aspx)
 
 #### Normal Forms
 
+Learn how normal forms can help you normalize your database.
 
+* [ ] 📜 [Wikipedia - Normal forms](https://en.wikipedia.org/wiki/Database_normalization#Normal_forms)
+* [ ] 📖 [1NF, 2NF, 3NF and BCNF in Database](https://beginnersbook.com/2015/05/normalization-in-dbms/)
+* [ ] 📜 [Chapter 12 Normalization](https://opentextbc.ca/dbdesign01/chapter/chapter-12-normalization/)
+* [ ] 📜 [Wikipedia - Boyce–Codd normal form](https://en.wikipedia.org/wiki/Boyce%E2%80%93Codd_normal_form)
+* [ ] 📜 [Boyce-Codd Normal Form (BCNF)](https://www.geeksforgeeks.org/boyce-codd-normal-form-bcnf/)
+* [ ] 📜 [Wikipedia - Third normal form](https://en.wikipedia.org/wiki/Third_normal_form)
 
 ### Transactions
 
+Learn how transactions can group a set of database tasks into a single execution unit.
 
-
-#### Serializability
-
-
-
-#### Locks
-
-
-
-##### Deadlocks
-
-
-
-#### Precedence graph
-
-
+* [ ] 📜 [Wikipedia - Database transaction](https://en.wikipedia.org/wiki/Database_transaction)
+* [ ] ❓ [Stackoverflow - What is a database transaction?](https://stackoverflow.com/questions/974596/what-is-a-database-transaction)
+* [ ] 📜 [Tutorialspoint - DBMS, Transaction](https://www.tutorialspoint.com/dbms/dbms_transaction.htm)
+* [ ] 📜 [Why do you need to know transactions?](http://db4beginners.com/blog/relationaldb-transaction/)
+* [ ] 📜 [SQL Transactions](https://www.geeksforgeeks.org/sql-transactions/)
 
 #### ACID
 
+Learn about the ACID properties of transactions.
 
+* [ ] 📜 [A beginner’s guide to ACID](https://vladmihalcea.com/a-beginners-guide-to-acid-and-database-transactions/)
+* [ ] 📜 [DBMS Transaction Management: ACID Properties](https://www.guru99.com/dbms-transaction-management.html)
+* [ ] 📜 [ACID Properties in DBMS](https://www.geeksforgeeks.org/acid-properties-in-dbms/)
+* [ ] 📜 [Wikipedia - ACID](https://en.wikipedia.org/wiki/ACID)
+* [ ] 📜 [ACID properties of transactions](https://www.ibm.com/support/knowledgecenter/en/SSGMCP_5.4.0/product-overview/acid.html)
+* [ ] 📜 [A Primer on ACID Transactions](https://blog.yugabyte.com/a-primer-on-acid-transactions/)
+* [ ] ❓ [Stackoverflow - How do ACID and database transactions work?](https://stackoverflow.com/questions/3740280/how-do-acid-and-database-transactions-work)
+
+#### Serializability
+
+Learn how to determine whether a schedule is serializable and leaves the database in a consistent state.
+
+* [ ] 📜 [Wikipedia - Serializability](https://en.wikipedia.org/wiki/Serializability)
+* [ ] 📜 [Transaction Serializability in DBMS](https://www.tutorialcup.com/dbms/transaction-serializability.htm)
+* [ ] 📖 [DBMS Serializability](https://beginnersbook.com/2018/12/dbms-serializability/)
+* [ ] 📜 [View Serializability in DBMS Transactions](https://www.geeksforgeeks.org/view-serializability-in-dbms-transactions/)
+* [ ] 📜 [Conflict Serializability in DBMS](https://www.geeksforgeeks.org/conflict-serializability-in-dbms/)
+
+#### Locks
+
+Learn about locks and when they should be used.
+
+* [ ] 📜 [Wikipedia - Record locking](https://en.wikipedia.org/wiki/Record_locking)
+* [ ] 📜 [Database Locking: What, why and how?](http://www.methodsandtools.com/archive/archive.php?id=83)
+* [ ] 📜 [A beginner’s guide to locking and lost updates](https://vladmihalcea.com/a-beginners-guide-to-database-locking-and-the-lost-update-phenomena/)
+* [ ] 📜 [Monitoring SQL Database Locks](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/administration/monitor-database-locks)
+* [ ] 📜 [Implementation of Locking in DBMS](https://www.geeksforgeeks.org/implementation-of-locking-in-dbms/)
+
+##### Deadlocks
+
+Learn about deadlocks and why they should be avoided.
+
+* [ ] 📜 [Deadlock in DBMS](https://www.geeksforgeeks.org/deadlock-in-dbms/)
+* [ ] 📜 [Wikipedia - Deadlock](https://en.wikipedia.org/wiki/Deadlock)
+* [ ] 📜 [What is a Deadlock?](https://www.studytonight.com/operating-system/deadlocks)
+* [ ] 📜 [Oracle - Deadlocks](https://docs.oracle.com/javadb/10.8.3.0/devguide/cdevconcepts28436.html)
+* [ ] 📜 [Deadlock Definition](https://whatis.techtarget.com/definition/deadlock)
+* [ ] 📜 [Introduction to Deadlock](https://www.javatpoint.com/os-deadlocks-introduction)
+* [ ] 📜 [dev.to - Understanding SQL Server Deadlocks](https://dev.to/integerman/understanding-sql-server-deadlocks-2ej6)
+
+#### Precedence graph
+
+Learn how to create a precedence graph to test for conflict serializability of a schedule.
+
+* [ ] 📜 [Wikipedia - Precedence graph](https://en.wikipedia.org/wiki/Precedence_graph)
+* [ ] 📹 [Youtube - How to draw a precedence graph](https://www.youtube.com/watch?v=U3SHusK80q0)
+* [ ] 📜 [Precedence Graph to check Conflict Serializable Schedule](https://ashutoshtripathi.com/2017/04/15/how-to-check-conflict-serializability-using-precedence-graph-algorithm/)
+* [ ] 📜 [Testing for conflict serializablity](http://www.exploredatabase.com/2017/11/testing-for-conflict-serializablity-using-precedence-graph.html)
+* [ ] 📜 [Precedence Graph, DBMS](https://www.includehelp.com/dbms/precedence-graph.aspx)
 
 
 ### Servers
 
 ### Architectural Models
 
+Learn about the fundamental architectural server models.
 
+* [ ] 📜 [Server Architecture](https://www.techopedia.com/definition/30262/server-architecture)
+* [ ] 📹 [Youtube - Architectural model](https://www.youtube.com/watch?v=SKtR7NVxYFA)
+* [ ] 📜 [Architectural Model](https://www.sciencedirect.com/topics/computer-science/architectural-model)
+* [ ] 🎓 [Distributed Systems: Models and Design](http://www2.imm.dtu.dk/courses/02220/2018/L3/Models.pdf)
 
 #### Client-Server
 
+Learn about the client-server model.
 
+* [ ] 📜 [Wikipedia - Client-server model](https://en.wikipedia.org/wiki/Client%E2%80%93server_model)
+* [ ] 📜 [Client Server Architecture](https://cio-wiki.org/wiki/Client_Server_Architecture)
+* [ ] 📜 [Understanding What Client Server Architecture Is All About](https://freefeast.info/general-it-articles/client-server-architecture/)
+* [ ] 📜 [Wikipedia - Client-server](https://simple.wikipedia.org/wiki/Client-server)
+* [ ] 📜 [Client-server model (client-server architecture)](https://searchnetworking.techtarget.com/definition/client-server)
+* [ ] 📜 [Client-Server Model](https://www.techopedia.com/definition/18321/client-server-model)
+* [ ] 📜 [Learn more about Client-Server Model](https://www.sciencedirect.com/topics/computer-science/client-server-model)
 
-#### Client-Many-Servers
+#### Proxy Server
 
+Learn about the proxy-server model.
 
-
-#### Proxy-Server
-
-
+* [ ] 📜 [Wikipedia - Proxy Server](https://en.wikipedia.org/wiki/Proxy_server)
+* [ ] 📹 [Youtube - What is a Proxy Server?](https://www.youtube.com/watch?v=5cPIukqXe5w)
+* [ ] 📜 [What is a Proxy Server and How Does it Work?](https://www.varonis.com/blog/what-is-a-proxy-server/)
+* [ ] 📜 [Proxy Server Definition](https://whatis.techtarget.com/definition/proxy-server)
+* [ ] 📜 [What is a proxy server?](https://www.itpro.co.uk/server-storage/30246/what-is-a-proxy-server)
 
 #### Peer-To-Peer
 
+Learn about the peer-to-peer model.
 
+* [ ] 📜 [Wikipedia - Peer-to-peer](https://en.wikipedia.org/wiki/Peer-to-peer)
+* [ ] 📹 [Youtube - What is a Peer to Peer Network? ](https://www.youtube.com/watch?v=ie-qRQIQT4I)
+* [ ] 📜 [What's a Peer-to-Peer (P2P) Network?](https://www.computerworld.com/article/2588287/networking-peer-to-peer-network.html)
+* [ ] 📜 [Peer-to-peer (P2P)](https://searchnetworking.techtarget.com/definition/peer-to-peer)
+* [ ] 📜 [Make a P2P connection in 10 minutes](https://dev.to/carloslfu/make-a-p2p-connection-in-10-minutes-4b32)
 
-#### Middleware
+### Middleware
 
+Learn about middleware.
 
+* [ ] 📜 [Wikipedia - Middleware](https://en.wikipedia.org/wiki/Middleware)
+* [ ] 📜 [Middleware Definition](https://searchapparchitecture.techtarget.com/definition/middleware)
+* [ ] ❓ [Quora - Why is Middleware important?](https://www.quora.com/Why-is-Middleware-important)
+* [ ] 📜 [What is middleware?](https://www.redhat.com/en/topics/middleware/what-is-middleware)
+* [ ] 📐 [What is Middleware? Technology’s Go-to Middleman](https://www.talend.com/resources/what-is-middleware/)
 
 ### Request-Reply Protocol
 
+Learn how computers communicate with eachother using the request-reply protocol.
 
+* [ ] 📜 [Wikipedia - Request Response](https://en.wikipedia.org/wiki/Request%E2%80%93response)
+* [ ] 📹 [Youtube - Event-Driven Architecture](https://www.youtube.com/watch?v=3bxAm3XIFmk)
+* [ ] 📜 [Request/Reply](https://solace.com/samples/solace-samples-jms/request-reply/)
+* [ ] 📜 [Enterprise Integration - Request-Reply](http://www.informit.com/articles/article.aspx?p=1398616&seqNum=4)
 
 #### UDP
 
+Learn about the UDP transport layer protocol.
 
+* [ ] 📜 [UDP (User Datagram Protocol)](https://searchnetworking.techtarget.com/definition/UDP-User-Datagram-Protocol)
+* [ ] 📜 [Wikipedia - User Datagram Protocol](https://en.wikipedia.org/wiki/User_Datagram_Protocol)
+* [ ] 📜 [User Datagram Protocol (UDP)](https://www.techopedia.com/definition/13460/user-datagram-protocol-udp)
+* [ ] 📹 [Youtube - Explained! UDP and TCP](https://www.youtube.com/watch?v=1LYqtkgtSPU)
+* [ ] 📜 [User Datagram Protocol](https://www.geeksforgeeks.org/user-datagram-protocol-udp/)
 
 #### TCP
 
+Learn about the TCP transport layer protocol.
 
+* [ ] 📜 [TCP (Transmission Control Protocol)](https://searchnetworking.techtarget.com/definition/TCP)
+* [ ] 📜 [Wikipedia - Transmission Control Protocol](https://en.wikipedia.org/wiki/Transmission_Control_Protocol)
+* [ ] 📜 [TCP/IP (Transmission Control Protocol/Internet Protocol)](https://searchnetworking.techtarget.com/definition/TCP-IP)
+* [ ] 📜 [Services and Segment structure in TCP](https://www.geeksforgeeks.org/services-and-segment-structure-in-tcp/)
+* [ ] 📜 [TCP and UDP in Transport Layer](https://www.geeksforgeeks.org/tcp-and-udp-in-transport-layer/)
 
 ### REST API
 
+Learn how an API can be designed to be RESTful.
 
+* [ ] 📜 [Wikipeia - Representational state transfer](https://en.wikipedia.org/wiki/Representational_state_transfer)
+* [ ] 📜 [Learn REST: A RESTful Tutorial](https://www.restapitutorial.com/)
+* [ ] 📹 [Youtube - REST API concepts and examples](https://www.youtube.com/watch?v=7YcW25PHnAA)
+* [ ] 📜 [REST API Tutorial](https://restfulapi.net/)
+* [ ] 📐 [What is a REST API?](https://www.mulesoft.com/resources/api/what-is-rest-api-design)
 
 #### CRUD
 
+Learn about the CRUD operations.
 
+* [ ] 📜 [Wikipedia - Create, read, update and delete](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete)
+* [ ] 📜 [Codecademy - What is CRUD?](https://www.codecademy.com/articles/what-is-crud)
+* [ ] 📜 [What is the Difference between REST and CRUD?](https://www.bmc.com/blogs/rest-vs-crud-whats-the-difference/)
+* [ ] 📹 [Youtube - Introduction to CRUD Operations](https://www.youtube.com/watch?v=Lyi8SoVdkhM)
+* [ ] 📜 [REST was NEVER about CRUD](https://tyk.io/rest-never-crud/)
 
 ### Express
 
+Learn about the Node.js web application framework called Express.
 
+* [ ] 📜 [Express](https://expressjs.com/)
+* [ ] 📜 [Tutorialspoint - Express Framework](https://www.tutorialspoint.com/nodejs/nodejs_express_framework.htm)
+* [ ] 📹 [Youtube - Express.js & Node.js Course for Beginners](https://www.youtube.com/watch?v=G8uL0lFFoN0)
+* [ ] 📜 [Understanding Node.js & Express.js fundamentals](https://medium.com/@LindaVivah/the-beginners-guide-understanding-node-js-express-js-fundamentals-e15493462be1)
+* [ ] 📜 [Wikipedia - Express.js](https://en.wikipedia.org/wiki/Express.js)
 
 ### GraphQL
 
+Learn how to use the GraphQL query language.
 
+* [ ] 📜 [GraphQL](https://graphql.org/)
+* [ ] 📹 [Youtube - Introduction to GraphQL](https://www.youtube.com/watch?v=Y0lDGjwRYKw)
+* [ ] 🧪 [Github - GraphQL Specification](https://github.com/graphql/graphql-spec)
+* [ ] 📜 [The Fullstack Tutorial for GraphQL](https://www.howtographql.com/)
 
 ### GNU/Linux
 
+Learn about the GNU/Linux operating system
 
+* [ ] 📜 [Linux and the GNU System](https://www.gnu.org/gnu/linux-and-gnu.en.html)
+* [ ] 📜 [Wikipedia - GNU/Linux naming controversy](https://en.wikipedia.org/wiki/GNU/Linux_naming_controversy)
+* [ ] 📜 [What is GNU/Linux?](https://www.debian.org/releases/stable/amd64/ch01s02.en.html)
+* [ ] 📜 [GNU Linux](https://searchdatacenter.techtarget.com/definition/GNU-Linux)
 
 ### Docker
 
+Learn how to use Docker.
 
+* [ ] 📜 [Docker](https://www.docker.com/)
+* [ ] 📜 [Wikipedia - Docker (software)](https://en.wikipedia.org/wiki/Docker_(software))
+* [ ] 📜 [Docker for beginners](https://docker-curriculum.com/)
+* [ ] 📐 [What is Docker?](https://opensource.com/resources/what-docker)
+* [ ] 📜 [Get Started, Part 1: Orientation and setup](https://docs.docker.com/get-started/)
 
 {{ template:contributors }}
 {{ template:license }}

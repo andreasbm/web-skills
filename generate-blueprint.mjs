@@ -8,11 +8,13 @@ const FILE_NAME = `blueprint.md`;
 const DEFAULT_URL_ICON = "📜";
 const URL_ICON_MAPPER = [
 	["📹", ["youtube"]],
+	["🔖", ["wikipeia"]],
 	["🧪", ["codelab", "github"]],
-	["⚙️", ["toolbox", "webaim", "w3c", "thinkwithgoogle"]],
+	["⚙️", ["toolbox", "webaim", "w3c", "thinkwithgoogle", "w3"]],
 	["🎓", ["course", "udacity"]],
 	["📖", ["book", "amazon", "refactoringui.com"]],
-	["📐", ["resource", "glitch.me"]],
+	["📐", ["resource", "glitch.me", "codepen"]],
+	["❓", ["quora", "stackoverflow"]],
 ]
 
 function iconForUrl (url) {
