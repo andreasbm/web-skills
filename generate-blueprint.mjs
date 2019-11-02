@@ -5,13 +5,32 @@ const LINE_BREAK = `\r\n`;
 const PARAGRAPH_BREAK = `${LINE_BREAK}${LINE_BREAK}`;
 const INITIAL_TITLE_LEVEL = 2;
 const FILE_NAME = `blueprint.md`;
+const DEFAULT_URL_ICON = "📜";
+const URL_ICON_MAPPER = [
+	["📹", ["youtube"]],
+	["🧪", ["codelab", "github"]],
+	["⚙️", ["toolbox", "webaim", "w3c", "thinkwithgoogle"]],
+	["🎓", ["course", "udacity"]],
+	["📖", ["book", "amazon", "refactoringui.com"]],
+	["📐", ["resource", "glitch.me"]],
+]
+
+function iconForUrl (url) {
+	for (const [icon, keywords] of URL_ICON_MAPPER) {
+		if (keywords.find(k => url.includes(k)) != null) {
+			return icon;
+		}
+	}
+
+	return DEFAULT_URL_ICON;
+}
 
 function generateMarkdownHeading (text, level) {
 	return `${Array(Math.min(level, 6)).fill("#").join("")} ${text}`;
 }
 
 function generateLinksMarkdown (links) {
-	const parts = links.map(([name, url]) => `* [${name}](${url})`);
+	const parts = links.map(([name, url]) => `* [ ] ${iconForUrl(url)} [${name}](${url})`);
 	return parts.join(LINE_BREAK);
 }
 
@@ -46,7 +65,12 @@ function generateMarkdown (collections) {
 
 const markdown = generateMarkdown(collections);
 writeFileSync(FILE_NAME, `{{ template:title }}
-{{ template:toc }}
+<details>
+<summary>📖 Table of Contents</summary>
+<br />
+{{ template:toc }}
+</details>
+
 ${markdown}
 {{ template:contributors }}
 {{ template:license }}`);
