@@ -45,7 +45,8 @@ function generateSkillMarkdown (skill, area, collection, level) {
 }
 
 function generateSkillsMarkdown (skills, area, collection, level) {
-	const parts = skills.map(skill => `<details><summary>${skill.name}</summary><br />${generateSkillMarkdown(skill, area, collection, level)}</details>`);
+	const parts = skills.map(skill => `<details><summary>${skill.name}</summary><br />
+${generateSkillMarkdown(skill, area, collection, level)}</details>`);
 	return parts.join(LINE_BREAK);
 }
 
