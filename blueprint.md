@@ -1908,6 +1908,7 @@ Learn about typography and how to describe fonts.
 * [ ] 📜 [Google - Understanding typography](https://material.io/design/typography/understanding-typography.html#type-classification)
 * [ ] 📜 [How to Understand Typography](https://www.howtogeek.com/howto/30065/how-to-understand-typography-like-a-professional-designer/)
 * [ ] 📜 [Typography Elements Everyone Needs to Understand](https://medium.com/gravitdesigner/typography-elements-everyone-needs-to-understand-5fdea82f470d)
+* [ ] 📹 [Youtube - 10 rules to help you rule type](https://www.youtube.com/watch?v=QrNi9FmdlxY)
 * [ ] 📜 [Font Design](https://www.canva.com/learn/font-design/)
 * [ ] 📜 [Typography Tutorial for Beginners](https://blog.hubspot.com/marketing/typography-terms-introduction)
 * [ ] 🎓 [A Crash Course in Typography](https://www.jotform.com/blog/a-crash-course-in-typography-the-basics-of-type/)
