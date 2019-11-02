@@ -6,8 +6,8 @@ const PARAGRAPH_BREAK = `${LINE_BREAK}${LINE_BREAK}`;
 const INITIAL_TITLE_LEVEL = 2;
 const FILE_NAME = `blueprint.md`;
 
-function generateMarkdownHeading (text, level = 1) {
-	return `${Array(level).fill("#").join("")} ${text}`;
+function generateMarkdownHeading (text, level) {
+	return `${Array(Math.min(level, 6)).fill("#").join("")} ${text}`;
 }
 
 function generateLinksMarkdown (links) {
@@ -31,16 +31,16 @@ function generateSkillsMarkdown (skills, area, collection, level) {
 }
 
 function generateAreaMarkdown (area, collection, level) {
-	return `${area.name != null ? `${generateMarkdownHeading(area.name, 2)}${PARAGRAPH_BREAK}`: ""}${generateSkillsMarkdown(area.skills, area, collection, 2)}`
+	return `${area.name != null ? `${generateMarkdownHeading(area.name, level)}${PARAGRAPH_BREAK}`: ""}${generateSkillsMarkdown(area.skills, area, collection, level)}`
 }
 
-function generateCollectionMarkdown (collection, level = INITIAL_TITLE_LEVEL) {
+function generateCollectionMarkdown (collection, level) {
 	const parts = collection.areas.map(area => generateAreaMarkdown(area, collection, level + 1));
 	return `${generateMarkdownHeading(collection.name, level)}${PARAGRAPH_BREAK}${parts.join(PARAGRAPH_BREAK)}`;
 }
 
 function generateMarkdown (collections) {
-	const parts = collections.map(generateCollectionMarkdown);
+	const parts = collections.map(collection => generateCollectionMarkdown(collection, INITIAL_TITLE_LEVEL));
 	return parts.join(PARAGRAPH_BREAK);
 }
 
