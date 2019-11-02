@@ -1,13 +1,30 @@
 {
 	"name": "skill-tree",
 	"type": "module",
+	"license": "MIT",
 	"scripts": {
 		"serve": "http-server --push-state -o -c-1 -p 3011 -a localhost",
 		"s": "npm run serve",
 		"deploy": "firebase deploy",
 		"lit-check": "npx lit-analyzer . --strict",
-		"generate-blueprint": "node --experimental-modules generate-blueprint.mjs"
+		"generate-blueprint": "node --experimental-modules generate-blueprint.mjs",
+		"readme": "npm run generate-blueprint &&  npx @appnest/readme generate"
 	},
+	"contributors": [
+    {
+      "name": "Andreas Mehlsen",
+      "url": "https://twitter.com/andreasmehlsen",
+      "img": "https://avatars1.githubusercontent.com/u/6267397?s=460&v=4",
+      "info": [
+        "🔥"
+      ]
+    },
+    {
+      "name": "You?",
+      "img": "https://joeschmoe.io/api/v1/random",
+      "url": "https://github.com/andreasbm/readme/blob/master/CONTRIBUTING.md"
+    }
+  ],
 	"dependencies": {
 	}
 }

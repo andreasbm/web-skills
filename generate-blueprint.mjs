@@ -1,16 +1,16 @@
 import {collections} from "./data.js";
 import {writeFileSync} from "fs";
-console.log(collections);
 
 const LINE_BREAK = `\r\n`;
 const PARAGRAPH_BREAK = `${LINE_BREAK}${LINE_BREAK}`;
+const INITIAL_TITLE_LEVEL = 2;
+const FILE_NAME = `blueprint.md`;
 
 function generateMarkdownHeading (text, level = 1) {
 	return `${Array(level).fill("#").join("")} ${text}`;
 }
 
 function generateLinksMarkdown (links) {
-	console.log(links);
 	const parts = links.map(([name, url]) => `* [${name}](${url})`);
 	return parts.join(LINE_BREAK);
 }
@@ -30,13 +30,13 @@ function generateSkillsMarkdown (skills, area, collection, level) {
 	return parts.join(LINE_BREAK);
 }
 
-function generateAreaMarkdown (area, collection) {
+function generateAreaMarkdown (area, collection, level) {
 	return `${area.name != null ? `${generateMarkdownHeading(area.name, 2)}${PARAGRAPH_BREAK}`: ""}${generateSkillsMarkdown(area.skills, area, collection, 2)}`
 }
 
-function generateCollectionMarkdown (collection) {
-	const parts = collection.areas.map(area => generateAreaMarkdown(area, collection));
-	return `${generateMarkdownHeading(collection.name, 1)}${PARAGRAPH_BREAK}${parts.join(PARAGRAPH_BREAK)}`;
+function generateCollectionMarkdown (collection, level = INITIAL_TITLE_LEVEL) {
+	const parts = collection.areas.map(area => generateAreaMarkdown(area, collection, level + 1));
+	return `${generateMarkdownHeading(collection.name, level)}${PARAGRAPH_BREAK}${parts.join(PARAGRAPH_BREAK)}`;
 }
 
 function generateMarkdown (collections) {
@@ -45,6 +45,10 @@ function generateMarkdown (collections) {
 }
 
 const markdown = generateMarkdown(collections);
-writeFileSync(`README.md`, markdown);
+writeFileSync(FILE_NAME, `{{ template:title }}
+{{ template:toc }}
+${markdown}
+{{ template:contributors }}
+{{ template:license }}`);
 
 // TODO: https://thecodebarbarian.com/nodejs-12-imports

@@ -1,385 +1,10 @@
-<h1 align="center">skill-tree</h1>
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
-
-## ➤ Table of Contents
-
-	* [➤ HTML](#-html)
-	* [➤ Syntax](#-syntax)
-		* [Basic Tags](#basic-tags)
-	* [➤ Forms](#-forms)
-	* [➤ SEO](#-seo)
-		* [Discoverable Content](#discoverable-content)
-	* [➤ Svg](#-svg)
-	* [➤ Best Practices](#-best-practices)
-	* [➤ CSS](#-css)
-	* [➤ Syntax](#-syntax-1)
-	* [➤ Selectors](#-selectors)
-		* [Specificity](#specificity)
-		* [Pseudo Selectors](#pseudo-selectors)
-	* [➤ Box Model](#-box-model)
-		* [Margin Collapsing](#margin-collapsing)
-	* [➤ Colors](#-colors)
-	* [➤ Calc](#-calc)
-	* [➤ Layout](#-layout)
-		* [Flex](#flex)
-		* [Grid](#grid)
-	* [➤ Transforms](#-transforms)
-		* [Animations](#animations)
-	* [➤ Responsive Design](#-responsive-design)
-		* [Media Queries](#media-queries)
-		* [Relative Units](#relative-units)
-		* [Images](#images)
-	* [➤ CSS Variables](#-css-variables)
-	* [➤ Best Practices](#-best-practices-1)
-	* [➤ Javascript](#-javascript)
-	* [➤ Syntax](#-syntax-2)
-		* [Spread](#spread)
-		* [Destructuring](#destructuring)
-	* [➤ DOM](#-dom)
-		* [DOM Manipulation](#dom-manipulation)
-	* [➤ Events](#-events)
-	* [➤ Objects](#-objects)
-		* [Prototype](#prototype)
-			* [Classes](#classes)
-	* [➤ Regex](#-regex)
-	* [➤ Template Literals](#-template-literals)
-	* [➤ Promises](#-promises)
-		* [Callbacks](#callbacks)
-		* [Async/await](#asyncawait)
-		* [Fetch](#fetch)
-	* [➤ Web Animations](#-web-animations)
-	* [➤ Modules](#-modules)
-	* [➤ Intl](#-intl)
-	* [➤ Canvas](#-canvas)
-	* [➤ Documentation](#-documentation)
-	* [➤ Best Practices](#-best-practices-2)
-	* [➤ The Browser](#-the-browser)
-	* [➤ Standardization](#-standardization)
-		* [W3C](#w3c)
-		* [TC39](#tc39)
-		* [WHATWG](#whatwg)
-		* [Specifications](#specifications)
-	* [➤ Browser Engines](#-browser-engines)
-		* [Webkit](#webkit)
-		* [Blink](#blink)
-		* [Gecko](#gecko)
-		* [Servo](#servo)
-	* [➤ HTTP](#-http)
-	* [➤ The Internet](#-the-internet)
-	* [➤ Polyfills](#-polyfills)
-	* [➤ Debugging](#-debugging)
-		* [Developer console](#developer-console)
-* [➤ Accessibility](#-accessibility)
-	* [➤ The why](#-the-why)
-	* [➤ Screen Readers](#-screen-readers)
-	* [➤ Accessibility tree](#-accessibility-tree)
-		* [ARIA](#aria)
-		* [Accessible HTML](#accessible-html)
-			* [Alt text](#alt-text)
-		* [Accessible CSS](#accessible-css)
-	* [➤ Accessible forms](#-accessible-forms)
-	* [➤ UI States](#-ui-states)
-	* [➤ Keyboard Accessibility](#-keyboard-accessibility)
-		* [Focus](#focus)
-	* [➤ Accessible Colors](#-accessible-colors)
-	* [➤ Laws & Policies](#-laws--policies)
-		* [Audits](#audits)
-	* [➤ Web Components](#-web-components)
-	* [➤ Custom Elements](#-custom-elements)
-	* [➤ HTML Templates](#-html-templates)
-	* [➤ Shadow DOM](#-shadow-dom)
-		* [Shadow Parts](#shadow-parts)
-		* [Slots](#slots)
-	* [➤ Constructible Stylesheets](#-constructible-stylesheets)
-	* [➤ Best practices](#-best-practices)
-	* [➤ Form Participation](#-form-participation)
-		* [Progressive Webapps](#progressive-webapps)
-	* [➤ API's](#-apis)
-	* [➤ Storage](#-storage)
-	* [➤ Routing](#-routing)
-		* [History API](#history-api)
-	* [➤ Service Workers](#-service-workers)
-		* [Offline first](#offline-first)
-		* [Push notifications](#push-notifications)
-	* [➤ Web App manifest](#-web-app-manifest)
-	* [➤ Add to homescreen](#-add-to-homescreen)
-	* [➤ Touch Events](#-touch-events)
-	* [➤ Loading Performance](#-loading-performance)
-	* [➤ App shell](#-app-shell)
-	* [➤ Render-Blocking Resources](#-render-blocking-resources)
-	* [➤ Compression](#-compression)
-	* [➤ Performance metrics](#-performance-metrics)
-		* [First meaningful paint](#first-meaningful-paint)
-		* [First CPU idle](#first-cpu-idle)
-		* [Time to interactive](#time-to-interactive)
-	* [➤ Lazy Loading](#-lazy-loading)
-		* [Dynamic Import](#dynamic-import)
-		* [Offscreen images](#offscreen-images)
-	* [➤ Critical Request Chains](#-critical-request-chains)
-	* [➤ Tree shaking](#-tree-shaking)
-	* [➤ Codesplitting](#-codesplitting)
-	* [➤ PRPL Pattern](#-prpl-pattern)
-	* [➤ Resource Prioritization](#-resource-prioritization)
-	* [➤ Caching](#-caching)
-	* [➤ Rendering Performance](#-rendering-performance)
-	* [➤ Rendering](#-rendering)
-	* [➤ Event loop](#-event-loop)
-		* [Microtask](#microtask)
-		* [Stack](#stack)
-		* [Heap](#heap)
-	* [➤ RAIL Model](#-rail-model)
-		* [requestAnimationFrame](#requestanimationframe)
-		* [requestIdleCallback](#requestidlecallback)
-	* [➤ Critical Rendering Path](#-critical-rendering-path)
-	* [➤ The Pixel Pipeline](#-the-pixel-pipeline)
-		* [Style calculations](#style-calculations)
-		* [Transforms](#transforms)
-		* [Paint areas](#paint-areas)
-		* [Layout Trashing](#layout-trashing)
-		* [Layers](#layers)
-		* [Debounce](#debounce)
-	* [➤ CSS Containment](#-css-containment)
-	* [➤ Web Workers](#-web-workers)
-	* [➤ Security](#-security)
-	* [➤ HTTPS](#-https)
-	* [➤ Browser Sandbox](#-browser-sandbox)
-	* [➤ OWASP](#-owasp)
-		* [Cross-Site Scripting](#cross-site-scripting)
-		* [Clickjacking](#clickjacking)
-	* [➤ Content Security Policy](#-content-security-policy)
-	* [➤ Audits](#-audits)
-	* [➤ Performance budgets](#-performance-budgets)
-	* [➤ Lighthouse](#-lighthouse)
-	* [➤ Chrome DevTools](#-chrome-devtools)
-			* [Build tools](#build-tools)
-	* [➤ Package Managers](#-package-managers)
-		* [NPM](#npm)
-		* [Yarn](#yarn)
-	* [➤ Module Bundlers](#-module-bundlers)
-		* [Rollup](#rollup)
-		* [Webpack](#webpack)
-		* [Parcel](#parcel)
-		* [Pika](#pika)
-	* [➤ Linters and formatters](#-linters-and-formatters)
-		* [Prettier](#prettier)
-		* [ESLint](#eslint)
-	* [➤ Task Runners](#-task-runners)
-		* [NPM Scripts](#npm-scripts)
-	* [➤ Transpilers](#-transpilers)
-		* [Babel](#babel)
-		* [Typescript](#typescript)
-	* [➤ CSS Pre-processors](#-css-pre-processors)
-		* [SASS](#sass)
-		* [PostCSS](#postcss)
-	* [➤ Node.js](#-nodejs)
-				* [Frameworks & Libraries](#frameworks--libraries)
-	* [➤ lit-element](#-lit-element)
-	* [➤ Vue](#-vue)
-	* [➤ React](#-react)
-	* [➤ Angular](#-angular)
-	* [➤ Svelte](#-svelte)
-	* [➤ Stencil](#-stencil)
-					* [Testing](#testing)
-	* [➤ Testing Methodologies](#-testing-methodologies)
-		* [Unit Testing](#unit-testing)
-		* [Integration Testing](#integration-testing)
-		* [System Testing](#system-testing)
-		* [Acceptance Testing](#acceptance-testing)
-		* [Smoke Testing](#smoke-testing)
-		* [Performance Testing](#performance-testing)
-		* [Usability Testing](#usability-testing)
-		* [White Box Testing](#white-box-testing)
-		* [Black Box Testing](#black-box-testing)
-		* [Automated Testing](#automated-testing)
-		* [Manual Testing](#manual-testing)
-	* [➤ Continuous integration](#-continuous-integration)
-	* [➤ A/B Testing](#-ab-testing)
-	* [➤ Test Runners](#-test-runners)
-		* [Karma](#karma)
-		* [Mocha](#mocha)
-		* [Jasmine](#jasmine)
-		* [Cypress](#cypress)
-		* [Ava](#ava)
-	* [➤ Best Practices](#-best-practices-3)
-	* [➤ Paradigms](#-paradigms)
-	* [➤ Programming Paradigms](#-programming-paradigms)
-	* [➤ Object Oriented Programming](#-object-oriented-programming)
-		* [S.O.L.I.D](#solid)
-	* [➤ Functional programming](#-functional-programming)
-		* [Recursion](#recursion)
-		* [Higher-Order Functions](#higher-order-functions)
-		* [Currying](#currying)
-		* [Monads](#monads)
-	* [➤ Architecture](#-architecture)
-	* [➤ Design Patterns](#-design-patterns)
-		* [Singleton](#singleton)
-		* [Observer](#observer)
-		* [Prototype](#prototype-1)
-		* [Bridge](#bridge)
-		* [Proxy](#proxy)
-		* [Chain of responsibility](#chain-of-responsibility)
-		* [Constructor](#constructor)
-	* [➤ CSS Methodologies](#-css-methodologies)
-		* [BEM](#bem)
-		* [SMACSS](#smacss)
-		* [OOCSS](#oocss)
-	* [➤ Version Control](#-version-control)
-	* [➤ Git](#-git)
-		* [Github](#github)
-		* [Bitbucket](#bitbucket)
-	* [➤ Management](#-management)
-	* [➤ Agile Development](#-agile-development)
-		* [Scrum](#scrum)
-		* [Kanban](#kanban)
-	* [➤ Waterfall Development](#-waterfall-development)
-	* [➤ Test Driven Development](#-test-driven-development)
-	* [➤ Color Theory](#-color-theory)
-		* [Color Wheel](#color-wheel)
-	* [➤ Typography](#-typography)
-		* [Font Size](#font-size)
-		* [Line Spacing](#line-spacing)
-	* [➤ C.R.A.P](#-crap)
-		* [Contrast](#contrast)
-		* [Repetition](#repetition)
-		* [Alignment](#alignment)
-		* [Proximity](#proximity)
-	* [➤ Consistency](#-consistency)
-	* [➤ Spacing](#-spacing)
-	* [➤ Error Handling](#-error-handling)
-	* [➤ Loading](#-loading)
-	* [➤ The Golden Ratio](#-the-golden-ratio)
-	* [➤ Mobile First](#-mobile-first)
-		* [Hit Targets](#hit-targets)
-	* [➤ Design Systems](#-design-systems)
-		* [Material Design](#material-design)
-		* [Fluent Design](#fluent-design)
-	* [➤ Accessibility](#-accessibility-1)
-	* [➤ Best Practices](#-best-practices-4)
-	* [➤ Streams](#-streams)
-		* [Media Streams](#media-streams)
-		* [Media Recorder](#media-recorder)
-		* [Web RTC](#web-rtc)
-		* [Screen Capture](#screen-capture)
-		* [Generators](#generators)
-	* [➤ Speech Synthesis](#-speech-synthesis)
-	* [➤ Web Sockets](#-web-sockets)
-	* [➤ Geolocation](#-geolocation)
-	* [➤ Device orientation & motion](#-device-orientation--motion)
-	* [➤ Fullscreen](#-fullscreen)
-	* [➤ Variable Fonts](#-variable-fonts)
-	* [➤ Web XR](#-web-xr)
-	* [➤ HTTP/2](#-http2)
-	* [➤ Payment Request API](#-payment-request-api)
-	* [➤ Web Audio](#-web-audio)
-	* [➤ Web Bluetooth](#-web-bluetooth)
-	* [➤ Web USB](#-web-usb)
-	* [➤ Credentials Manager API](#-credentials-manager-api)
-	* [➤ Houdini](#-houdini)
-	* [➤ Project Fugu](#-project-fugu)
-	* [➤ Observers](#-observers)
-		* [Mutation Observer](#mutation-observer)
-		* [Intersection Observer](#intersection-observer)
-		* [Resize Observer](#resize-observer)
-		* [Performance Observer](#performance-observer)
-	* [➤ Scrollsnapping](#-scrollsnapping)
-	* [➤ Web Assembly](#-web-assembly)
-	* [➤ Beacon](#-beacon)
-	* [➤ Clipboard](#-clipboard)
-	* [➤ Share](#-share)
-	* [➤ Performance API](#-performance-api)
-	* [➤ Gamepad API](#-gamepad-api)
-	* [➤ Network Information API](#-network-information-api)
-	* [➤ Speech Recognition](#-speech-recognition)
-	* [➤ Interaction Media Queries](#-interaction-media-queries)
-	* [➤ Presentation](#-presentation)
-	* [➤ Native File System](#-native-file-system)
-	* [➤ Browser Extensions](#-browser-extensions)
-	* [➤ Shape Detection](#-shape-detection)
-	* [➤ Data structures](#-data-structures)
-	* [➤ Arrays](#-arrays)
-	* [➤ Queues & Stacks](#-queues--stacks)
-	* [➤ Trees](#-trees)
-		* [Binary Indexed Tree](#binary-indexed-tree)
-		* [Heap](#heap-1)
-		* [Red-black Tree](#red-black-tree)
-		* [Trie](#trie)
-		* [K-D Tree](#k-d-tree)
-	* [➤ Hash Tables](#-hash-tables)
-	* [➤ Linked Lists](#-linked-lists)
-	* [➤ Graphs](#-graphs)
-	* [➤ Analysis](#-analysis)
-	* [➤ Time complexity](#-time-complexity)
-		* [Cost model](#cost-model)
-		* [Order of Growth](#order-of-growth)
-		* [Big O notation](#big-o-notation)
-	* [➤ Space Complexity](#-space-complexity)
-	* [➤ Algorithms](#-algorithms)
-	* [➤ Sorting](#-sorting)
-		* [Insertion Sort](#insertion-sort)
-		* [Quicksort](#quicksort)
-		* [Mergesort](#mergesort)
-		* [Heapsort](#heapsort)
-	* [➤ Searching](#-searching)
-		* [Binary Search](#binary-search)
-		* [Breadth First Search](#breadth-first-search)
-		* [Depth First Search](#depth-first-search)
-		* [Dijkstra's Algorithm](#dijkstras-algorithm)
-		* [String Search](#string-search)
-	* [➤ Hashing](#-hashing)
-	* [➤ Databases](#-databases)
-	* [➤ Relational Databases](#-relational-databases)
-		* [SQL](#sql)
-		* [Relational Algebra](#relational-algebra)
-		* [MySQL](#mysql)
-		* [PostgreSQL](#postgresql)
-	* [➤ Non-relational Databases](#-non-relational-databases)
-		* [Redis](#redis)
-		* [MongoDB](#mongodb)
-	* [➤ Data Modelling](#-data-modelling)
-		* [ER Diagram](#er-diagram)
-		* [Keys](#keys)
-	* [➤ Indexing](#-indexing)
-	* [➤ Data Integrity](#-data-integrity)
-	* [➤ Normalization](#-normalization)
-		* [Functional Dependencies](#functional-dependencies)
-		* [Armstrongs Axioms](#armstrongs-axioms)
-		* [Normal Forms](#normal-forms)
-	* [➤ Transactions](#-transactions)
-		* [Serializability](#serializability)
-		* [Locks](#locks)
-			* [Deadlocks](#deadlocks)
-		* [Precedence graph](#precedence-graph)
-		* [ACID](#acid)
-	* [➤ Servers](#-servers)
-	* [➤ Architectural Models](#-architectural-models)
-		* [Client-Server](#client-server)
-		* [Client-Many-Servers](#client-many-servers)
-		* [Proxy-Server](#proxy-server)
-		* [Peer-To-Peer](#peer-to-peer)
-		* [Middleware](#middleware)
-	* [➤ Request-Reply Protocol](#-request-reply-protocol)
-		* [UDP](#udp)
-		* [TCP](#tcp)
-	* [➤ REST API](#-rest-api)
-		* [CRUD](#crud)
-	* [➤ Express](#-express)
-	* [➤ GraphQL](#-graphql)
-	* [➤ GNU/Linux](#-gnulinux)
-	* [➤ Docker](#-docker)
-	* [➤ Contributors](#-contributors)
-	* [➤ License](#-license)
+{{ template:title }}
+{{ template:toc }}
  Fundamentals
 
+## HTML
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#html)
-
-## ➤ HTML
-
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#syntax)
-
-## ➤ Syntax
+## Syntax
 
 Learn the basics of HTML and get comfortable with it's syntax and main concepts.
 
@@ -396,10 +21,7 @@ Get familiar with the basic HTML tags
 * [Elated - First 10 HTML tags](https://www.elated.com/first-10-html-tags/)
 * [w3schools - HTML tags](https://www.w3schools.com/tags/ref_byfunc.asp)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#forms)
-
-## ➤ Forms
+## Forms
 
 Learn how to design efficient forms, validating them effectively and keeping the user informed along the way.
 
@@ -407,10 +29,7 @@ Learn how to design efficient forms, validating them effectively and keeping the
 * [Google Web - Forms](https://developers.google.com/web/fundamentals/design-and-ux/input/forms/)
 * [w3schools - Forms](https://www.w3schools.com/html/html_forms.asp)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#seo)
-
-## ➤ SEO
+## SEO
 
 Learn how to make your content search-friendly.
 
@@ -428,35 +47,23 @@ Learn how to structure your HTML in a way that provides a rich experience when s
 * [Google Search - Structured Data](https://developers.google.com/search/docs/guides/intro-structured-data)
 * [web.dev - Easily discoverable](https://web.dev/discoverable)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#svg)
-
-## ➤ Svg
+## Svg
 
 Learn how to work with SVG files to make graphics look crisp across all screen resolutions.
 
 * [Mozilla - Adding vector graphics to the Web](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Adding_vector_graphics_to_the_Web)
 * [SVG on the web](https://svgontheweb.com/)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#best-practices)
-
-## ➤ Best Practices
+## Best Practices
 
 Learn the best practices of writing HTML.
 
 * [w3schools - HTML Coding Conventions](https://www.w3schools.com/html/html5_syntax.asp)
 
 
+## CSS
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#css)
-
-## ➤ CSS
-
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#syntax)
-
-## ➤ Syntax
+## Syntax
 
 Learn the basics of CSS and get comfortable with it's syntax and main concepts.
 
@@ -468,10 +75,7 @@ Learn the basics of CSS and get comfortable with it's syntax and main concepts.
 * [Mozilla - CSS values and units](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units)
 * [Mozilla - CSS Syntax](https://developer.mozilla.org/en-US/docs/Web/CSS/Syntax)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#selectors)
-
-## ➤ Selectors
+## Selectors
 
 Learn about CSS selectors and how to effeciently target DOM elements.
 
@@ -501,10 +105,7 @@ Learn how to use pseudo selectors.
 * [w3schools - CSS Pseudo-elements](https://www.w3schools.com/css/css_pseudo_elements.asp)
 * [w3schools - CSS Pseudo-classes](https://www.w3schools.com/css/css_pseudo_classes.asp)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#box-model)
-
-## ➤ Box Model
+## Box Model
 
 Learn what the CSS box model means.
 
@@ -522,10 +123,7 @@ Learn about margin collapsing.
 * [What's the Deal with Collapsible Margins?](https://bitsofco.de/collapsible-margins/)
 * [What’s the Deal with Margin Collapse?](https://jonathan-harrell.com/whats-the-deal-with-margin-collapse/)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#colors)
-
-## ➤ Colors
+## Colors
 
 Learn the different ways you can define colors in CSS.
 
@@ -533,20 +131,14 @@ Learn the different ways you can define colors in CSS.
 * [Mozilla - <color>](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value)
 * [w3schools - CSS Colors](https://www.w3schools.com/css/css_colors.asp)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#calc)
-
-## ➤ Calc
+## Calc
 
 Learn how to use the CSS calc function.
 
 * [Mozilla - Calc](https://developer.mozilla.org/en-US/docs/Web/CSS/calc)
 * [CSS Tricks - A Couple of Use Cases for Calc()](https://css-tricks.com/a-couple-of-use-cases-for-calc/)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#layout)
-
-## ➤ Layout
+## Layout
 
 Learn the different layout types for web.
 
@@ -574,10 +166,7 @@ Learn how to create layouts using CSS Grid.
 * [CSS Grid Garden](https://cssgridgarden.com/)
 * [Supercharged - CSS Grids](https://www.youtube.com/watch?v=AqwPrR7hklE)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#transforms)
-
-## ➤ Transforms
+## Transforms
 
 Learn the different ways to transform elements through CSS.
 
@@ -591,10 +180,7 @@ Learn how to animate elements through CSS using keyframes.
 * [Mozilla - Using CSS animations](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations)
 * [CSS Tricks - Animation](https://css-tricks.com/almanac/properties/a/animation/)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#responsive-design)
-
-## ➤ Responsive Design
+## Responsive Design
 
 Learn how to make your website responsive so it works across different screen sizes.
 
@@ -630,10 +216,7 @@ Learn how to make images responsive, always showing the best possible version fo
 * [Google Devs - Responsive Images](https://developers.google.com/web/fundamentals/design-and-ux/responsive/images)
 * [Mozilla - Responsive Images](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#css-variables)
-
-## ➤ CSS Variables
+## CSS Variables
 
 Learn how to define and use CSS variables.
 
@@ -642,10 +225,7 @@ Learn how to define and use CSS variables.
 * [dev.to - CSS Quickies: CSS Variables](https://dev.to/lampewebdev/css-quickies-css-variables-or-how-you-create-a-white-dark-theme-easily-1i0i)
 * [CSS Variables explained with 5 examples](https://codeburst.io/css-variables-explained-with-5-examples-84adaffaa5bd)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#best-practices)
-
-## ➤ Best Practices
+## Best Practices
 
 Learn the best practices of writing CSS.
 
@@ -653,15 +233,9 @@ Learn the best practices of writing CSS.
 * [Mozilla - Organizing your CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Organizing)
 
 
+## Javascript
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#javascript)
-
-## ➤ Javascript
-
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#syntax)
-
-## ➤ Syntax
+## Syntax
 
 Learn the basics of Javascript and get comfortable with it's syntax and main concepts.
 
@@ -685,10 +259,7 @@ Learn how destructuring can help you when working with objects.
 * [Mozilla - ES6 In Depth: Destructuring](https://hacks.mozilla.org/2015/05/es6-in-depth-destructuring/)
 * [javascript.info - Destructuring assignment](https://javascript.info/destructuring-assignment)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#dom)
-
-## ➤ DOM
+## DOM
 
 Learn how the HTML is represented as objects that comprise the structure and content of a document.
 
@@ -703,10 +274,7 @@ Learn how to query HTML elements through Javascript and manipulate them.
 * [Mozilla - Locating DOM elements using selectors](https://developer.mozilla.org/en-US/docs/Web/API/Document_object_model/Locating_DOM_elements_using_selectors)
 * [Supercharged - querySelector](https://www.youtube.com/watch?v=s0vg_H9hBuU)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#events)
-
-## ➤ Events
+## Events
 
 Learn how to dispatch and listen for events.
 
@@ -719,10 +287,7 @@ Learn how to dispatch and listen for events.
 * [Mozilla - removeEventListener(](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/removeEventListener)
 * [Event order](https://www.quirksmode.org/js/events_order.html)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#objects)
-
-## ➤ Objects
+## Objects
 
 Learn how to create and use objects.
 
@@ -753,10 +318,7 @@ Learn how to define and use classes. Get somewhat comfortable with some of the o
 * [Mozilla - Object Oriented Programming](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS)
 * [Mozilla - super](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/super)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#regex)
-
-## ➤ Regex
+## Regex
 
 Learn how to use regex to extract information from strings.
 
@@ -764,10 +326,7 @@ Learn how to use regex to extract information from strings.
 * [javascript.info - Regular expressions](https://javascript.info/regular-expressions)
 * [Mozilla - RegExp](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#template-literals)
-
-## ➤ Template Literals
+## Template Literals
 
 Learn how template literals and tagged templates and help you manipulate strings.
 
@@ -775,10 +334,7 @@ Learn how template literals and tagged templates and help you manipulate strings
 * [Mozilla - ES6 In Depth: Template strings](https://hacks.mozilla.org/2015/05/es6-in-depth-template-strings-2/)
 * [Google Devs - Getting Literal With ES6 Template Strings](https://developers.google.com/web/updates/2015/01/ES6-Template-Strings)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#promises)
-
-## ➤ Promises
+## Promises
 
 Learn how to use promises and what asynchronous code means.
 
@@ -814,10 +370,7 @@ Learn how to use the fetch API to fetch data.
 * [Supercharged - Fetch](https://www.youtube.com/watch?v=GiI77ya60yk)
 * [Codelabs - Fetch ](https://codelabs.developers.google.com/codelabs/pwa-fetch/index.html?index=..%2F..dev-pwa-training#0)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#web-animations)
-
-## ➤ Web Animations
+## Web Animations
 
 Learn how to use web animations to animate elements in the DOM.
 
@@ -825,10 +378,7 @@ Learn how to use web animations to animate elements in the DOM.
 * [Mozilla - Using The Web Animations API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API/Using_the_Web_Animations_API)
 * [CSS Tricks - CSS Animations vs Web Animations API](https://css-tricks.com/css-animations-vs-web-animations-api/)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#modules)
-
-## ➤ Modules
+## Modules
 
 Learn how to modularize your code into ES6 modules using the export and import keywords.
 
@@ -837,10 +387,7 @@ Learn how to modularize your code into ES6 modules using the export and import k
 * [V8 - Modules](https://v8.dev/features/modules)
 * [Freecodecamp - A Practical guide to ES6 modules](https://www.freecodecamp.org/news/how-to-use-es6-modules-and-why-theyre-important-a9b20b480773/)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#intl)
-
-## ➤ Intl
+## Intl
 
 Learn how to localize your website using the Intl API.
 
@@ -848,10 +395,7 @@ Learn how to localize your website using the Intl API.
 * [Mozilla - Date Time Format](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DateTimeFormat)
 * [New Intl APIs in JavaScript](https://blog.bitsrc.io/new-intl-apis-in-javascript-c50dc89d2cf3)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#canvas)
-
-## ➤ Canvas
+## Canvas
 
 Learn how to paint graphics onto a canvas.
 
@@ -859,10 +403,7 @@ Learn how to paint graphics onto a canvas.
 * [Mozilla - Canvas API](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API)
 * [CSS Tricks - Manipulating Pixels Using Canvas](https://css-tricks.com/manipulating-pixels-using-canvas/)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#documentation)
-
-## ➤ Documentation
+## Documentation
 
 Learn how to create good documentation and why it is important.
 
@@ -872,10 +413,7 @@ Learn how to create good documentation and why it is important.
 * [The power of jsDoc](https://dev.to/gmartigny/the-power-of-jsdoc-272d)
 * [Document your Javascript code with JSDoc](https://dev.to/paulasantamaria/document-your-javascript-code-with-jsdoc-2fbf)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#best-practices)
-
-## ➤ Best Practices
+## Best Practices
 
 Learn the best practices of writing Javascript.
 
@@ -886,15 +424,9 @@ Learn the best practices of writing Javascript.
 * [JavaScript Style Guide and Coding Conventions](https://www.w3schools.com/js/js_conventions.asp)
 
 
+## The Browser
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#the-browser)
-
-## ➤ The Browser
-
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#standardization)
-
-## ➤ Standardization
+## Standardization
 
 Learn why web standards are important and how new specifications are standardised.
 
@@ -942,10 +474,7 @@ Learn how to read specifications developed by the standards committees.
 * [Learning CSS by reading specs](https://www.chenhuijing.com/blog/learning-css-by-reading-specifications/)
 * [Understanding the CSS Specifications](https://www.w3.org/Style/CSS/read.en.html)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#browser-engines)
-
-## ➤ Browser Engines
+## Browser Engines
 
 Learn what a browser engine is and get an overview of the browser landscape and market share.
 
@@ -977,10 +506,7 @@ Learn about the Servo browser engine.
 
 * [Servo](https://research.mozilla.org/servo-engines/)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#http)
-
-## ➤ HTTP
+## HTTP
 
 Learn how data is distributed through the HTTP protocol.
 
@@ -989,10 +515,7 @@ Learn how data is distributed through the HTTP protocol.
 * [Mozilla - An overview of HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)
 * [Wikipedia - Hypertext Transfer Protocol](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#the-internet)
-
-## ➤ The Internet
+## The Internet
 
 Learn the basics of how the internet works.
 
@@ -1002,10 +525,7 @@ Learn the basics of how the internet works.
 * [Stanford - How Does the Internet Work?](https://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm)
 * [How the Internet Works](https://blog.hubspot.com/marketing/how-the-internet-works)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#polyfills)
-
-## ➤ Polyfills
+## Polyfills
 
 Learn how it is possible to use polyfills to increase the browser support for your website.
 
@@ -1013,10 +533,7 @@ Learn how it is possible to use polyfills to increase the browser support for yo
 * [Introduction To Polyfills & Their Usage](https://medium.com/beginners-guide-to-mobile-web-development/introduction-to-polyfills-their-usage-9cd6db4b1923)
 * [W3C - Polyfills and the evolution of the Web](https://www.w3.org/2001/tag/doc/polyfills/)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#debugging)
-
-## ➤ Debugging
+## Debugging
 
 Learn about the basics concepts of debugging.
 
@@ -1042,15 +559,9 @@ Learn how to use the developer console of your favorite browser.
 * [Youtube - 14 Must Know Chrome Dev Tools Tricks](https://www.youtube.com/watch?v=xkzDaKwinA8)
 
 
+# Accessibility
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#accessibility)
-
-# ➤ Accessibility
-
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#the-why)
-
-## ➤ The why
+## The why
 
 Learn what accessibility is and why it is important.
 
@@ -1062,10 +573,7 @@ Learn what accessibility is and why it is important.
 * [Udacity - Web Accessibility](https://www.udacity.com/course/web-accessibility--ud891)
 * [Youtube - Headings, Landmarks, and Tabs](https://www.youtube.com/watch?v=HE2R86EZPMA)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#screen-readers)
-
-## ➤ Screen Readers
+## Screen Readers
 
 Learn about assistive technology such as screen readers that reads sections of the page aloud based on the current focus.
 
@@ -1074,10 +582,7 @@ Learn about assistive technology such as screen readers that reads sections of t
 * [The A11Y Project - OS X Voiceover](https://a11yproject.com/posts/getting-started-with-voiceover/)
 * [Webaim - Screen Reader Survey](https://webaim.org/projects/screenreadersurvey7/)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#accessibility-tree)
-
-## ➤ Accessibility tree
+## Accessibility tree
 
 Learn about the accessibility tree and how assistive technology uses it.
 
@@ -1116,29 +621,20 @@ Learn how to write CSS in such as way that assistive technology better understan
 
 * [Webaim - CSS](https://webaim.org/techniques/css/)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#accessible-forms)
-
-## ➤ Accessible forms
+## Accessible forms
 
 Learn how to build accessible forms that makes it usable to as many people as possible.
 
 * [Webaim - Forms](https://webaim.org/techniques/forms/)
 * [Itnext - Form Accessibility Gudie](https://itnext.io/form-accessibility-a-practical-guide-4062b7e2dd14)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#ui-states)
-
-## ➤ UI States
+## UI States
 
 Learn how to make the state of each UI element clear.
 
 * [Google Devs - Accessible Styles](https://developers.google.com/web/fundamentals/accessibility/accessible-styles)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#keyboard-accessibility)
-
-## ➤ Keyboard Accessibility
+## Keyboard Accessibility
 
 Learn how to make it easy for keyboard users to navigate your site.
 
@@ -1155,10 +651,7 @@ Learn how to create a sensible tab order and how to make it easy for the users t
 * [Google Devs - Track Focus](https://developers.google.com/web/tools/chrome-devtools/accessibility/focus)
 * [W3C - :focus-visible](https://drafts.csswg.org/selectors-4/#the-focus-visible-pseudo)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#accessible-colors)
-
-## ➤ Accessible Colors
+## Accessible Colors
 
 Learn how to select colors in such a way that users, including those with visual disabilities, can perceive the content on the page.
 
@@ -1167,10 +660,7 @@ Learn how to select colors in such a way that users, including those with visual
 * [The A11Y Project - What is color contrast?](https://a11yproject.com/posts/what-is-color-contrast/)
 * [Designing accessible color systems](https://stripe.com/en-dk/blog/accessible-color-systems)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#laws--policies)
-
-## ➤ Laws & Policies
+## Laws & Policies
 
 Learn about the governmental policies related to web accessibility.
 
@@ -1194,15 +684,9 @@ Learn how to conduct an accessibility review to improve the overall experience o
 * [Google Devs - Accessibility for teams](https://developers.google.com/web/fundamentals/accessibility/a11y-for-teams)
 
 
+## Web Components
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#web-components)
-
-## ➤ Web Components
-
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#custom-elements)
-
-## ➤ Custom Elements
+## Custom Elements
 
 Learn how to create new HTML tags with custom elements.
 
@@ -1214,10 +698,7 @@ Learn how to create new HTML tags with custom elements.
 * [itnext - Introduction to Web Components](https://itnext.io/introduction-to-web-components-part-i-custom-elements-4de6713cef9d)
 * [web.dev - Web Components](https://web.dev/web-components-io-2019/)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#html-templates)
-
-## ➤ HTML Templates
+## HTML Templates
 
 Learn how to use HTML templates to create a flexible template that can then be used to populate the shadow DOM.
 
@@ -1225,10 +706,7 @@ Learn how to use HTML templates to create a flexible template that can then be u
 * [Javascript.info - Template Element](https://javascript.info/template-element)
 * [Mozilla - The Content Template element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#shadow-dom)
-
-## ➤ Shadow DOM
+## Shadow DOM
 
 Learn how to encapsulate your CSS using shadow dom.
 
@@ -1259,10 +737,7 @@ Learn how to compose custom elements by using slots.
 * [Mozilla - HTML <slot> element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/slot)
 * [Component.kitchen - A history of the HTML slot element](https://component.kitchen/blog/posts/a-history-of-the-html-slot-element)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#constructible-stylesheets)
-
-## ➤ Constructible Stylesheets
+## Constructible Stylesheets
 
 Learn how to use constructible stylesheets to create reusable styles when using shadow dom.
 
@@ -1273,10 +748,7 @@ Learn how to use constructible stylesheets to create reusable styles when using 
 * [WICG - Constructable Stylesheet Objects](https://github.com/WICG/construct-stylesheets/blob/gh-pages/explainer.md)
 * [Chrome Status - Constructible Stylesheets](https://www.chromestatus.com/feature/5394843094220800)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#best-practices)
-
-## ➤ Best practices
+## Best practices
 
 Get familiar with best practices when it comes to building web components.
 
@@ -1285,10 +757,7 @@ Get familiar with best practices when it comes to building web components.
 * [mateusortiz - Web Components the Right Way](https://github.com/mateusortiz/webcomponents-the-right-way)
 * [dev.to - Making Web Components for Different Contexts](https://dev.to/equinusocio/making-web-components-for-different-contexts-25ed)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#form-participation)
-
-## ➤ Form Participation
+## Form Participation
 
 Learn how the form participation API proposal enables elements, other than built-in form control elements, to participate in form submission and validation.
 
@@ -1302,15 +771,9 @@ Learn how the form participation API proposal enables elements, other than built
 
 ### Progressive Webapps
 
+## API's
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#apis)
-
-## ➤ API's
-
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#storage)
-
-## ➤ Storage
+## Storage
 
 Learn how to store data for your web app.
 
@@ -1321,10 +784,7 @@ Learn how to store data for your web app.
 * [Google Devs - View And Edit Local Storage](https://developers.google.com/web/tools/chrome-devtools/storage/localstorage)
 * [Mozilla - Client-side storage](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Client-side_storage)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#routing)
-
-## ➤ Routing
+## Routing
 
 Learn what routing means in single page applications.
 
@@ -1344,10 +804,7 @@ Learn how to use the history API to add single page applicaiton routing to your 
 * [Google Devs - History API: Scroll Restoration](https://developers.google.com/web/updates/2015/09/history-api-scroll-restoration)
 * [Mozilla - The Document Base URL element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#service-workers)
-
-## ➤ Service Workers
+## Service Workers
 
 Learn how to register a service worker to provide a rich native-like experience.
 
@@ -1383,10 +840,7 @@ Learn how to add push notifications to your web app.
 * [Mozilla - How to make PWAs re-engageable](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Re-engageable_Notifications_Push)
 * [Mozilla - Notifications API](https://developer.mozilla.org/en-US/docs/Web/API/Notifications_API)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#web-app-manifest)
-
-## ➤ Web App manifest
+## Web App manifest
 
 Learn how to tell the browser about your web app and how it should behave when 'installed' by creating a web app manifest.
 
@@ -1394,10 +848,7 @@ Learn how to tell the browser about your web app and how it should behave when '
 * [W3C - Web App Manifest](https://www.w3.org/TR/appmanifest/)
 * [Mozilla - How to make PWAs installable](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Installable_PWAs)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#add-to-homescreen)
-
-## ➤ Add to homescreen
+## Add to homescreen
 
 Learn how to make your web app installable.
 
@@ -1405,10 +856,7 @@ Learn how to make your web app installable.
 * [Google Devs - App Install Banners](https://developers.google.com/web/fundamentals/app-install-banners/)
 * [Mozilla - Add to Home screen](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Add_to_home_screen)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#touch-events)
-
-## ➤ Touch Events
+## Touch Events
 
 Learn how to respond to touch gestures in intuitive ways.
 
@@ -1418,35 +866,23 @@ Learn how to respond to touch gestures in intuitive ways.
 * [Google Devs - Touch Action Options](https://developers.google.com/web/updates/2016/10/touch-action)
 
 
+## Loading Performance
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#loading-performance)
-
-## ➤ Loading Performance
-
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#app-shell)
-
-## ➤ App shell
+## App shell
 
 Learn how to use an app shell to provide an instant and reliable experience to users on repeat visits
 
 * [Google Devs - The App Shell Model](https://developers.google.com/web/fundamentals/architecture/app-shell)
 * [Mozilla - Architecture of an app](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/App_structure)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#render-blocking-resources)
-
-## ➤ Render-Blocking Resources
+## Render-Blocking Resources
 
 Learn about render-blocking resources and why they are bad for the user-experience.
 
 * [Mozilla - Render-blocking resources](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Loading#Render-blocking_resources)
 * [Google Devs - Render-Blocking Resources](https://developers.google.com/web/tools/lighthouse/audits/blocking-resources)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#compression)
-
-## ➤ Compression
+## Compression
 
 Learn how to minimize the overall download size by optimizing and compressing resources.
 
@@ -1457,10 +893,7 @@ Learn how to minimize the overall download size by optimizing and compressing re
 * [Google Devs - Optimize Images](https://developers.google.com/web/tools/lighthouse/audits/optimize-images)
 * [web.dev - Reduce JavaScript execution time](https://web.dev/bootup-time/)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#performance-metrics)
-
-## ➤ Performance metrics
+## Performance metrics
 
 Learn why it is important to measure performance and which metrics you should prioritize.
 
@@ -1490,10 +923,7 @@ Learn about time to interactive and how it impacts the overall performance.
 * [web.dev - Time to Interactive](https://web.dev/interactive/)
 * [Google Devs - Time to Interactive](https://developers.google.com/web/tools/lighthouse/audits/time-to-interactive)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#lazy-loading)
-
-## ➤ Lazy Loading
+## Lazy Loading
 
 Learn how to use lazy loading to lower the initial page payload and load time.
 
@@ -1519,40 +949,28 @@ Learn why offscreen images increases the load time and how to avoid them by lazy
 * [web.dev - Native lazy-loading for the web](https://web.dev/native-lazy-loading)
 * [Addy Osmani - Native image lazy-loading for the web!](https://addyosmani.com/blog/lazy-loading/)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#critical-request-chains)
-
-## ➤ Critical Request Chains
+## Critical Request Chains
 
 Learn about the critical request chains and how to find them in your web app.
 
 * [Google Devs - Critical Request Chains](https://developers.google.com/web/tools/lighthouse/audits/critical-request-chains)
 * [web.dev - Minimize critical requests depth](https://web.dev/critical-request-chains)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#tree-shaking)
-
-## ➤ Tree shaking
+## Tree shaking
 
 Learn how to use tree shaking to eliminate dead code.
 
 * [Google Devs - Reduce JavaScript Payloads](https://developers.google.com/web/fundamentals/performance/optimizing-javascript/tree-shaking)
 * [How to Clean Up Your JavaScript](https://www.keycdn.com/blog/tree-shaking)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#codesplitting)
-
-## ➤ Codesplitting
+## Codesplitting
 
 Learn about codesplitting an how dividing your code into multiple chunks makes your web app faster.
 
 * [Google Devs - Reduce JavaScript Payloads](https://developers.google.com/web/fundamentals/performance/optimizing-javascript/code-splitting)
 * [All you need to know about JavaScript code splitting](https://www.creativebloq.com/how-to/all-you-need-to-know-about-javascript-code-splitting)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#prpl-pattern)
-
-## ➤ PRPL Pattern
+## PRPL Pattern
 
 Learn how to use the PRPL pattern to make web apps more performant.
 
@@ -1561,10 +979,7 @@ Learn how to use the PRPL pattern to make web apps more performant.
 * [Ben Schwarz - Real world performance](https://building.calibreapp.com/beyond-the-bubble-real-world-performance-9c991dcd5342?gi=76804aa8f46e)
 * [The Cost of Javascript](https://medium.com/@addyosmani/the-cost-of-javascript-in-2018-7d8950fbb5d4)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#resource-prioritization)
-
-## ➤ Resource Prioritization
+## Resource Prioritization
 
 Learn about resource prioritization and how to inform the browser about the importance of a resource.
 
@@ -1573,10 +988,7 @@ Learn about resource prioritization and how to inform the browser about the impo
 * [Addy Osmani - Preload, Prefetch And Priorities in Chrome](https://medium.com/reloading/preload-prefetch-and-priorities-in-chrome-776165961bbf)
 * [web.dev - Preconnect to required origins](https://web.dev/uses-rel-preconnect/)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#caching)
-
-## ➤ Caching
+## Caching
 
 Learn about caching and how it can be uses to make web apps load faster.
 
@@ -1584,15 +996,9 @@ Learn about caching and how it can be uses to make web apps load faster.
 * [Mozilla - HTTP caching](https://developer.mozilla.org/en-US/docs/Web/HTTP/Caching)
 
 
+## Rendering Performance
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#rendering-performance)
-
-## ➤ Rendering Performance
-
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#rendering)
-
-## ➤ Rendering
+## Rendering
 
 Learn about rendering, how a page is rendered and why it is important to keep your web app interactive and smooth running.
 
@@ -1601,10 +1007,7 @@ Learn about rendering, how a page is rendered and why it is important to keep yo
 * [Google Devs - Render-tree Construction](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/render-tree-construction)
 * [Google Devs - Render Blocking CSS](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/render-blocking-css)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#event-loop)
-
-## ➤ Event loop
+## Event loop
 
 Learn about the event loop and how Javascript simulate like it’s running our commands in a multi-thread environment.
 
@@ -1642,10 +1045,7 @@ Learn about the heap and how to investigate the heap snapshots when debugging.
 * [Confused about Stack and Heap?](https://medium.com/fhinkel/confused-about-stack-and-heap-2cf3e6adb771)
 * [Google Devs - How to Use the Allocation Profiler Tool](https://developers.google.com/web/tools/chrome-devtools/memory-problems/allocation-profiler)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#rail-model)
-
-## ➤ RAIL Model
+## RAIL Model
 
 Learn how to use the RAIL model to ensure a good user experience.
 
@@ -1675,10 +1075,7 @@ Learn how to use the requestIdleCallback to defer heavy tasks.
 * [Google Dev - requestIdleCallback](https://developers.google.com/web/updates/2015/08/using-requestidlecallback?hl=en)
 * [Mozilla - requestIdleCallback()](https://developer.mozilla.org/en-US/docs/Web/API/Window/requestIdleCallback)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#critical-rendering-path)
-
-## ➤ Critical Rendering Path
+## Critical Rendering Path
 
 Learn about the critical rendering path and how to identify it.
 
@@ -1686,10 +1083,7 @@ Learn about the critical rendering path and how to identify it.
 * [Mozilla - Critical Rendering Path](https://developer.mozilla.org/en-US/docs/Web/Performance/Critical_rendering_path)
 * [Understanding the critical rendering path](https://medium.com/@luisvieira_gmr/understanding-the-critical-rendering-path-rendering-pages-in-1-second-735c6e45b47a)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#the-pixel-pipeline)
-
-## ➤ The Pixel Pipeline
+## The Pixel Pipeline
 
 Learn about the five key points in the pixels-to-screen pipeline.
 
@@ -1744,10 +1138,7 @@ Learn how to debounce computationally expensive code to avoid blocking the UI.
 * [What is Debouncing?](https://medium.com/@jamischarles/what-is-debouncing-2505c0648ff1)
 * [Level Up - Debounce in JavaScript](https://levelup.gitconnected.com/debounce-in-javascript-improve-your-applications-performance-5b01855e086)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#css-containment)
-
-## ➤ CSS Containment
+## CSS Containment
 
 Learn how to use CSS containment to improve the performance of your web app.
 
@@ -1757,10 +1148,7 @@ Learn how to use CSS containment to improve the performance of your web app.
 * [Mozilla - Contain](https://developer.mozilla.org/en-US/docs/Web/CSS/contain)
 * [CSS Tricks - CSS containment](https://css-tricks.com/css-containment/)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#web-workers)
-
-## ➤ Web Workers
+## Web Workers
 
 Learn how to use web workers to run a script operation in a background thread separate from the main execution thread.
 
@@ -1769,15 +1157,9 @@ Learn how to use web workers to run a script operation in a background thread se
 * [When should you be using Web Workers?](https://dassur.ma/things/when-workers/)
 
 
+## Security
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#security)
-
-## ➤ Security
-
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#https)
-
-## ➤ HTTPS
+## HTTPS
 
 Learn about HTTPS and why a website should always be protected with HTTPS.
 
@@ -1786,10 +1168,7 @@ Learn about HTTPS and why a website should always be protected with HTTPS.
 * [Google Devs - Mixed Content](https://developers.google.com/web/fundamentals/security/prevent-mixed-content/what-is-mixed-content)
 * [Youtube - Stories from the field](https://www.youtube.com/watch?v=GoXgl9r0Kjk)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#browser-sandbox)
-
-## ➤ Browser Sandbox
+## Browser Sandbox
 
 Learn about the sandbox security mechanism and how it restricts the execution environment.
 
@@ -1797,10 +1176,7 @@ Learn about the sandbox security mechanism and how it restricts the execution en
 * [Wikipedia - Sandbox (computer security)](https://en.wikipedia.org/wiki/Sandbox_(computer_security))
 * [Howtogeek - Sandboxes Explained](https://www.howtogeek.com/169139/sandboxes-explained-how-theyre-already-protecting-you-and-how-to-sandbox-any-program/)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#owasp)
-
-## ➤ OWASP
+## OWASP
 
 Learn about the OWASP organization and how they help with web application security.
 
@@ -1830,10 +1206,7 @@ Learn about clickjacking and how it is possible to mitigate these kind of attack
 * [web.dev - Same-origin policy](https://web.dev/same-origin-policy/#how-to-prevent-clickjacking)
 * [OWASP - Clickjacking Cheatsheet](https://cheatsheetseries.owasp.org/cheatsheets/Clickjacking_Defense_Cheat_Sheet.html)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#content-security-policy)
-
-## ➤ Content Security Policy
+## Content Security Policy
 
 Learn about content security policy and how it can help to detect and mitigate certain types of attacks.
 
@@ -1841,15 +1214,9 @@ Learn about content security policy and how it can help to detect and mitigate c
 * [Google Devs - CSP](https://developers.google.com/web/fundamentals/security/csp)
 
 
+## Audits
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#audits)
-
-## ➤ Audits
-
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#performance-budgets)
-
-## ➤ Performance budgets
+## Performance budgets
 
 Learn about performance budgets and how you can create one for your web app.
 
@@ -1857,10 +1224,7 @@ Learn about performance budgets and how you can create one for your web app.
 * [Google Devs - Performance Budget](https://developers.google.com/web/tools/lighthouse/audits/budgets)
 * [Addy Osmani - Start Performance Budgeting](https://addyosmani.com/blog/performance-budgets/)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#lighthouse)
-
-## ➤ Lighthouse
+## Lighthouse
 
 Learn about lighthouse and how it can be used to audit your web app.
 
@@ -1868,10 +1232,7 @@ Learn about lighthouse and how it can be used to audit your web app.
 * [Youtube - Staying off the Rocks](https://www.youtube.com/watch?v=NoRYn6gOtVo)
 * [web.dev - Measure](https://web.dev/measure)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#chrome-devtools)
-
-## ➤ Chrome DevTools
+## Chrome DevTools
 
 Learn about the Chrome DevTools and how it can be used to audit your web app.
 
@@ -1882,10 +1243,7 @@ Learn about the Chrome DevTools and how it can be used to audit your web app.
 
 #### Build tools
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#package-managers)
-
-## ➤ Package Managers
+## Package Managers
 
 Learn about package managers and how they make managing dependencies easier.
 
@@ -1908,10 +1266,7 @@ Learn about Yarn and how it can be used to manage dependencies.
 * [Yarnpkg - Getting Started](https://yarnpkg.com/en/docs/getting-started)
 * [Facebook Engineering - Yarn](https://engineering.fb.com/web/yarn-a-new-package-manager-for-javascript/)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#module-bundlers)
-
-## ➤ Module Bundlers
+## Module Bundlers
 
 Learn about module bundler and how they can help bundling your code.
 
@@ -1948,10 +1303,7 @@ Learn how you can use Pika instead of a bundler.
 * [Introducing: @pika/pack](https://www.pika.dev/blog/introducing-pika-pack/)
 * [A Future Without Webpack](https://www.pika.dev/blog/pika-web-a-future-without-webpack/)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#linters-and-formatters)
-
-## ➤ Linters and formatters
+## Linters and formatters
 
 Learn how you can improve your code quality with linters and formatters.
 
@@ -1975,10 +1327,7 @@ Learn how you can use ESLint to lint your code.
 * [Streamline Code Reviews with ESLint + Prettier](https://medium.com/javascript-scene/streamline-code-reviews-with-eslint-prettier-6fb817a6b51d)
 * [Prettier vs ESLint: What’s The Difference?](https://www.futurehosting.com/blog/prettier-vs-eslint-whats-the-difference/)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#task-runners)
-
-## ➤ Task Runners
+## Task Runners
 
 Learn about task runners and how you can automate code execution.
 
@@ -1992,10 +1341,7 @@ Learn about NPM scripts and how you can run your own.
 * [CSS Tricks - Why npm Scripts?](https://css-tricks.com/why-npm-scripts/)
 * [Helpers and tips for npm run scripts](https://michael-kuehnel.de/tooling/2018/03/22/helpers-and-tips-for-npm-run-scripts.html)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#transpilers)
-
-## ➤ Transpilers
+## Transpilers
 
 Learn what transpilers are and why we need them.
 
@@ -2021,10 +1367,7 @@ Learn how to use Typescript and how it can help making your code typesafe.
 * [Typescript: Why should one use i?](https://medium.com/tech-tajawal/typescript-why-should-one-use-it-a539faa92010)
 * [Why TypeScript is the best way to write Front-end in 2019](https://medium.com/@jtomaszewski/why-typescript-is-the-best-way-to-write-front-end-in-2019-feb855f9b164)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#css-pre-processors)
-
-## ➤ CSS Pre-processors
+## CSS Pre-processors
 
 Learn about CSS pre-processors and why we need them.
 
@@ -2048,10 +1391,7 @@ Learn about PostCSS and how you can use its ecosystem of plugins to extend your 
 * [Introduction to PostCSS](https://flaviocopes.com/postcss/)
 * [Getting started with PostCSS in 2019](https://blog.logrocket.com/getting-started-with-postcss-in-2019-484262a4d725/)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#nodejs)
-
-## ➤ Node.js
+## Node.js
 
 Learn how to use Node.js.
 
@@ -2063,10 +1403,7 @@ Learn how to use Node.js.
 
 ##### Frameworks & Libraries
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#lit-element)
-
-## ➤ lit-element
+## lit-element
 
 Learn how to use lit-element for creating fast, lightweight web components.
 
@@ -2075,10 +1412,7 @@ Learn how to use lit-element for creating fast, lightweight web components.
 * [Vaadin - Creating a LitElement project](https://vaadin.com/tutorials/lit-element/starting-a-lit-element-project)
 * [dev.to - Web Components: from zero to hero, part three](https://dev.to/thepassle/web-components-from-zero-to-hero-part-three-3c5h)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#vue)
-
-## ➤ Vue
+## Vue
 
 Learn about Vue and how you can use it for building web apps.
 
@@ -2086,10 +1420,7 @@ Learn about Vue and how you can use it for building web apps.
 * [Vue - CLI](https://cli.vuejs.org/)
 * [Getting Started with Vue](https://www.taniarascia.com/getting-started-with-vue/)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#react)
-
-## ➤ React
+## React
 
 Learn about React and how you can use it for building web apps.
 
@@ -2097,10 +1428,7 @@ Learn about React and how you can use it for building web apps.
 * [web.dev - React](https://web.dev/react)
 * [Getting Started with React](https://www.taniarascia.com/getting-started-with-react/)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#angular)
-
-## ➤ Angular
+## Angular
 
 Learn about Angular and how you can use it for building web apps.
 
@@ -2108,10 +1436,7 @@ Learn about Angular and how you can use it for building web apps.
 * [web.dev - Angular](https://web.dev/angular)
 * [Angular - CLI](https://cli.angular.io/)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#svelte)
-
-## ➤ Svelte
+## Svelte
 
 Learn about Svelte and how it can convert your component into highly efficient imperative code.
 
@@ -2119,10 +1444,7 @@ Learn about Svelte and how it can convert your component into highly efficient i
 * [Github - Svelte FAQ](https://github.com/sveltejs/svelte/wiki/FAQ)
 * [Svelte - Rethinking reactivity](https://svelte.dev/blog/svelte-3-rethinking-reactivity)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#stencil)
-
-## ➤ Stencil
+## Stencil
 
 Learn how Stencil can be used for generating small, fast web components.
 
@@ -2133,10 +1455,7 @@ Learn how Stencil can be used for generating small, fast web components.
 
 ###### Testing
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#testing-methodologies)
-
-## ➤ Testing Methodologies
+## Testing Methodologies
 
 Learn about various software testing methodologies and why it is important to test your code.
 
@@ -2229,10 +1548,7 @@ Learn about manual testing and when it should be applied.
 * [Wikipedia - Manual Testing](https://en.wikipedia.org/wiki/Manual_testing)
 * [What is Manual Testing?](https://www.tutorialspoint.com/software_testing_dictionary/manual_testing.htm)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#continuous-integration)
-
-## ➤ Continuous integration
+## Continuous integration
 
 Learn about continuous integration and it can enable iterative software development.
 
@@ -2240,10 +1556,7 @@ Learn about continuous integration and it can enable iterative software developm
 * [Continuous Integration Tutorial](https://www.tutorialspoint.com/continuous_integration/index.htm)
 * [Wikipedia - Continuous integration](https://en.wikipedia.org/wiki/Continuous_integration)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#ab-testing)
-
-## ➤ A/B Testing
+## A/B Testing
 
 Learn about A/B testing and how it can be used to optimize your web app.
 
@@ -2252,10 +1565,7 @@ Learn about A/B testing and how it can be used to optimize your web app.
 * [A/B Testing](https://www.optimizely.com/optimization-glossary/ab-testing/)
 * [Wikipedia - A/B testing](https://en.wikipedia.org/wiki/A/B_testing)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#test-runners)
-
-## ➤ Test Runners
+## Test Runners
 
 Learn about test runners and how they can help running tests.
 
@@ -2300,10 +1610,7 @@ Learn about the Ava test runner.
 * [A Fresh Take On JavaScript Testing](https://pusher.com/sessions/meetup/the-js-roundabout/ava-test-runner-a-fresh-take-on-javascript-testing-and-growing-an-open-source-project)
 * [Freecodecamp - How you can test your Node.js applications](https://www.freecodecamp.org/news/testing-your-nodejs-applications-with-ava-js-99e806a226a7/)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#best-practices)
-
-## ➤ Best Practices
+## Best Practices
 
 Learn about the best practices when it comes to testing.
 
@@ -2314,15 +1621,9 @@ Learn about the best practices when it comes to testing.
 
 ####### Architecture & paradigms
 
+## Paradigms
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#paradigms)
-
-## ➤ Paradigms
-
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#programming-paradigms)
-
-## ➤ Programming Paradigms
+## Programming Paradigms
 
 Learn how programming languages can be categoried into different paraigmes based on their features.
 
@@ -2330,10 +1631,7 @@ Learn how programming languages can be categoried into different paraigmes based
 * [Introduction of Programming Paradigms](https://www.geeksforgeeks.org/introduction-of-programming-paradigms/)
 * [What Are JavaScript Programming Paradigms?](https://medium.com/javascript-in-plain-english/what-are-javascript-programming-paradigms-3ef0f576dfdb)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#object-oriented-programming)
-
-## ➤ Object Oriented Programming
+## Object Oriented Programming
 
 Learn about object oriented programming and how objects can make your code easier to read and debug.
 
@@ -2349,10 +1647,7 @@ Learn about the SOLID design pricinples that can make your code more understanda
 * [S.O.L.I.D: The First 5 Principles of Object Oriented Design](https://scotch.io/bar-talk/s-o-l-i-d-the-first-five-principles-of-object-oriented-design)
 * [S.O.L.I.D The first 5 principles of Object Oriented Design with JavaScript](https://medium.com/@cramirez92/s-o-l-i-d-the-first-5-priciples-of-object-oriented-design-with-javascript-790f6ac9b9fa)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#functional-programming)
-
-## ➤ Functional programming
+## Functional programming
 
 Learn about functional programming and how it can make your code easier to read and debug.
 
@@ -2403,15 +1698,9 @@ Learn about monads and when it can be used to make your code more readable.
 * [Mozilla - Array.prototype.flatMap()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flatMap)
 
 
+## Architecture
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#architecture)
-
-## ➤ Architecture
-
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#design-patterns)
-
-## ➤ Design Patterns
+## Design Patterns
 
 Learn how commonly occurring problems can be solved using design patterns.
 
@@ -2477,10 +1766,7 @@ Learn about the constructor design pattern and when it should be used.
 * [Fundamental Object Design Patterns in JavaScript](https://medium.com/@severinperez/javascript-weekly-fundamental-object-design-patterns-31453f68427f)
 * [Difference between Constructor pattern and Prototype pattern](https://stackoverflow.com/questions/35057827/difference-between-constructor-pattern-and-prototype-pattern)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#css-methodologies)
-
-## ➤ CSS Methodologies
+## CSS Methodologies
 
 Learn how CSS can be structured using CSS methodologies.
 
@@ -2514,15 +1800,9 @@ Learn about the OOCSS methodology and when it should be used.
 
 ######## Team Collaboration
 
+## Version Control
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#version-control)
-
-## ➤ Version Control
-
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#git)
-
-## ➤ Git
+## Git
 
 Learn about git and how it is used for version control.
 
@@ -2550,15 +1830,9 @@ Learn how to use Bitbucket.
 * [Getting Started with Bitbucket for Version Control](https://www.tecmint.com/bitbucket-for-version-control/)
 
 
+## Management
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#management)
-
-## ➤ Management
-
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#agile-development)
-
-## ➤ Agile Development
+## Agile Development
 
 Learn about agile development and when to use it.
 
@@ -2581,10 +1855,7 @@ Learn about kanban and when to use it.
 * [What is kanban?](https://www.atlassian.com/agile/kanban)
 * [Kanban Fundamentals](https://www.scrumhub.com/kanban-fundamentals/)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#waterfall-development)
-
-## ➤ Waterfall Development
+## Waterfall Development
 
 Learn about waterfall development and when to use it.
 
@@ -2592,10 +1863,7 @@ Learn about waterfall development and when to use it.
 * [Waterfall vs. Agile](https://www.seguetech.com/waterfall-vs-agile-methodology/)
 * [Waterfall Model: What and when](https://airbrake.io/blog/sdlc/waterfall-model)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#test-driven-development)
-
-## ➤ Test Driven Development
+## Test Driven Development
 
 Learn about test driven development and when to use it.
 
@@ -2608,10 +1876,7 @@ Learn about test driven development and when to use it.
 
 ######### Design & UX
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#color-theory)
-
-## ➤ Color Theory
+## Color Theory
 
 Learn about color theory and how you can make your own color schemes.
 
@@ -2631,10 +1896,7 @@ Learn how to use the color wheel when making a color scheme.
 * [The fundamentals of understanding color theory](https://99designs.dk/blog/tips/the-7-step-guide-to-understanding-color-theory/)
 * [Adobe - Color wheel](https://color.adobe.com/)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#typography)
-
-## ➤ Typography
+## Typography
 
 Learn about typography and how to describe fonts.
 
@@ -2668,10 +1930,7 @@ Learn about line spacing and how to choose the right one.
 * [Why you should go big with line spacing](https://www.invisionapp.com/inside-design/line-spacing/)
 * [CSS Tricks - line-height](https://css-tricks.com/almanac/properties/l/line-height/)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#crap)
-
-## ➤ C.R.A.P
+## C.R.A.P
 
 Learn how the C.R.A.P. design principles can help you point out the qualities (or flaws) in a design.
 
@@ -2720,10 +1979,7 @@ Learn how the principles of proximity can help you when designing.
 * [Gestalt Theory for UX Design: Principle of Proximity](https://uxplanet.org/gestalt-theory-for-ux-design-principle-of-proximity-e56b136d52d1)
 * [Principles of Design: Proximity](https://www.sitepoint.com/principles-of-design-proximity/)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#consistency)
-
-## ➤ Consistency
+## Consistency
 
 Learn why consistency is one of the most important building-blocks in a design.
 
@@ -2733,10 +1989,7 @@ Learn why consistency is one of the most important building-blocks in a design.
 * [Principle of Consistency in User Interface Design](https://www.interaction-design.org/literature/article/principle-of-consistency-and-standards-in-user-interface-design)
 * [The value of consistent design](https://www.invisionapp.com/inside-design/consistent-design/)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#spacing)
-
-## ➤ Spacing
+## Spacing
 
 Learn how to use space in your design.
 
@@ -2747,10 +2000,7 @@ Learn how to use space in your design.
 * [Negative Space in Design](https://tubikstudio.com/negative-space-in-design-tips-and-best-practices-2/)
 * [How to Change Line Spacing in InDesign](https://www.shutterstock.com/support/article/how-to-change-line-spacing-in-indesign)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#error-handling)
-
-## ➤ Error Handling
+## Error Handling
 
 Learn how to improve the user experience by handling errors in an intuitive way.
 
@@ -2758,10 +2008,7 @@ Learn how to improve the user experience by handling errors in an intuitive way.
 * [UI Error Handling](https://uimovement.com/tag/error-handling/)
 * [Creating Error Messages](https://uxdesign.cc/creating-error-messages-best-practice-in-ux-design-cda3be0f5e16)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#loading)
-
-## ➤ Loading
+## Loading
 
 Learn how a loading state can improve the user experience.
 
@@ -2775,10 +2022,7 @@ Learn how a loading state can improve the user experience.
 * [When You Need to Show a Button’s Loading State](https://uxmovement.com/buttons/when-you-need-to-show-a-buttons-loading-state/)
 * [Stop Using Loading Spinner](https://blog.iamsuleiman.com/stop-using-loading-spinner-theres-something-better/)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#the-golden-ratio)
-
-## ➤ The Golden Ratio
+## The Golden Ratio
 
 Learn how the golden ratio can help you when choose measurements for your design.
 
@@ -2792,10 +2036,7 @@ Learn how the golden ratio can help you when choose measurements for your design
 * [Golden Ratio in Design](https://wpamelia.com/golden-ratio/)
 * [How To Use The Golden Ratio In Design](https://www.format.com/magazine/resources/design/golden-ratio-in-design)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#mobile-first)
-
-## ➤ Mobile First
+## Mobile First
 
 Learn about designing for mobile first and why it is important.
 
@@ -2812,10 +2053,7 @@ Learn about hit targets can why they should not be neglected.
 * [Size matters! Accessibility and Touch Targets](https://medium.com/@zacdicko/size-matters-accessibility-and-touch-targets-56e942adc0cc)
 * [Optimal Size and Spacing for Mobile Buttons](https://uxmovement.com/mobile/optimal-size-and-spacing-for-mobile-buttons/)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#design-systems)
-
-## ➤ Design Systems
+## Design Systems
 
 Learn what design systems are and get familiar with some.
 
@@ -2844,10 +2082,7 @@ Learn about fluent design and get familiar with the core principles.
 * [Wikipedia - Fluent Design System](https://en.wikipedia.org/wiki/Fluent_Design_System)
 * [Fluent: Design Behind the Design](https://medium.com/microsoft-design/fluent-design-behind-the-design-973028062fcc)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#accessibility)
-
-## ➤ Accessibility
+## Accessibility
 
 Learn how and why it is important to design for accessibility.
 
@@ -2859,10 +2094,7 @@ Learn how and why it is important to design for accessibility.
 * [Accessibility in government](https://accessibility.blog.gov.uk/2016/09/02/dos-and-donts-on-designing-for-accessibility/)
 * [W3C - Visual Presentation](https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-visual-presentation.html)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#best-practices)
-
-## ➤ Best Practices
+## Best Practices
 
 Learn about some of the best practices when designing.
 
@@ -2874,10 +2106,7 @@ Learn about some of the best practices when designing.
 
 ########## The Modern Web
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#streams)
-
-## ➤ Streams
+## Streams
 
 Learn about streams and how they can help you effeciently transporting data.
 
@@ -2932,10 +2161,7 @@ Learn how generators can be used creating streams.
 * [Mozilla - Iterators and generators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Iterators_and_Generators)
 * [Mozilla - yield*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/yield*)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#speech-synthesis)
-
-## ➤ Speech Synthesis
+## Speech Synthesis
 
 Learn how the speech synthesis API can help you converting text to speech.
 
@@ -2945,10 +2171,7 @@ Learn how the speech synthesis API can help you converting text to speech.
 * [W3C - Web Speech API](https://w3c.github.io/speech-api)
 * [The Speech Synthesis API](https://flaviocopes.com/speech-synthesis-api/)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#web-sockets)
-
-## ➤ Web Sockets
+## Web Sockets
 
 Learn about web sockets and how you can push data to your web app.
 
@@ -2957,10 +2180,7 @@ Learn about web sockets and how you can push data to your web app.
 * [HTML5 Rocks - Introducing WebSockets](https://www.html5rocks.com/en/tutorials/websockets/basics/)
 * [WHATWG - Web sockets](https://html.spec.whatwg.org/multipage/web-sockets.html)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#geolocation)
-
-## ➤ Geolocation
+## Geolocation
 
 Learn how to ask the user for permission to the location.
 
@@ -2969,10 +2189,7 @@ Learn how to ask the user for permission to the location.
 * [Google Maps Platform - Displaying User Position on Maps](https://developers.google.com/maps/documentation/javascript/geolocation)
 * [What Web Can Do Today - Geolocation](https://whatwebcando.today/geolocation.html)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#device-orientation--motion)
-
-## ➤ Device orientation & motion
+## Device orientation & motion
 
 Learn how to measure the orientation and motion of the device.
 
@@ -2984,10 +2201,7 @@ Learn how to measure the orientation and motion of the device.
 * [Mozilla - Sensor APIs](https://developer.mozilla.org/en-US/docs/Web/API/Sensor_APIs)
 * [Google Devs - Sensors For The Web](https://developers.google.com/web/updates/2017/09/sensors-for-the-web)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#fullscreen)
-
-## ➤ Fullscreen
+## Fullscreen
 
 Learn how to use the fullscreen API to give the user a more immersive experience when needed.
 
@@ -2995,10 +2209,7 @@ Learn how to use the fullscreen API to give the user a more immersive experience
 * [Google Devs - Let Your Content Do the Talking](https://developers.google.com/web/updates/2011/10/Let-Your-Content-Do-the-Talking-Fullscreen-API)
 * [David Walsh - Fullscreen API](https://davidwalsh.name/fullscreen)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#variable-fonts)
-
-## ➤ Variable Fonts
+## Variable Fonts
 
 Learn how to use variable fonts and how it is possible to customize fonts without the need for loading more.
 
@@ -3007,10 +2218,7 @@ Learn how to use variable fonts and how it is possible to customize fonts withou
 * [Google Devs - Introduction to variable fonts](https://developers.google.com/web/fundamentals/design-and-ux/typography/variable-fonts)
 * [Supercharged - Variable Fonts](https://www.youtube.com/watch?v=B42rUMdcB7c)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#web-xr)
-
-## ➤ Web XR
+## Web XR
 
 Learn how to use Web XR for virtual- and augmented reality experiences.
 
@@ -3019,10 +2227,7 @@ Learn how to use Web XR for virtual- and augmented reality experiences.
 * [New API to Bring Augmented Reality to the Web](https://hacks.mozilla.org/2018/09/webxr/)
 * [W3C - WebXR Device API](https://immersive-web.github.io/webxr/)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#http2)
-
-## ➤ HTTP/2
+## HTTP/2
 
 Learn about the faster and more convenient HTTP/2 protocol.
 
@@ -3032,10 +2237,7 @@ Learn about the faster and more convenient HTTP/2 protocol.
 * [HTTP/2 - FAQ](https://http2.github.io/faq/)
 * [Why turning on HTTP/2 was a mistake](https://www.lucidchart.com/techblog/2019/04/10/why-turning-on-http2-was-a-mistake/)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#payment-request-api)
-
-## ➤ Payment Request API
+## Payment Request API
 
 Learn about the payment request API and how it can help monetize your web app.
 
@@ -3045,10 +2247,7 @@ Learn about the payment request API and how it can help monetize your web app.
 * [W3C - Payment Request API](https://www.w3.org/TR/payment-request/)
 * [Google Devs - Introduction to the Payment Request API](https://developers.google.com/web/ilt/pwa/introduction-to-the-payment-request-api)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#web-audio)
-
-## ➤ Web Audio
+## Web Audio
 
 Learn how to use the Web Audio API to add audio to your web app.
 
@@ -3059,10 +2258,7 @@ Learn how to use the Web Audio API to add audio to your web app.
 * [All You Need to Know About the Web Audio API](https://medium.com/better-programming/all-you-need-to-know-about-the-web-audio-api-3df170559378)
 * [Alligator - Your First Steps with the Web Audio API](https://alligator.io/js/first-steps-web-audio-api/)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#web-bluetooth)
-
-## ➤ Web Bluetooth
+## Web Bluetooth
 
 Learn how to use the Web Bluetooth API to connect with nearby devices.
 
@@ -3072,10 +2268,7 @@ Learn how to use the Web Bluetooth API to connect with nearby devices.
 * [W3C - Web Bluetooth](https://webbluetoothcg.github.io/web-bluetooth/)
 * [Web Bluetooth Samples](https://googlechrome.github.io/samples/web-bluetooth/)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#web-usb)
-
-## ➤ Web USB
+## Web USB
 
 Learn how to use the Web USB API to connect with hardware through a cable.
 
@@ -3084,10 +2277,7 @@ Learn how to use the Web USB API to connect with hardware through a cable.
 * [Google Devs - Access USB Devices on the Web](https://developers.google.com/web/updates/2016/03/access-usb-devices-on-the-web)
 * [What Web Can Do Today -	Web USB](https://whatwebcando.today/usb.html)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#credentials-manager-api)
-
-## ➤ Credentials Manager API
+## Credentials Manager API
 
 Learn about the Credentials Manager API and how it can help you authenticating users.
 
@@ -3097,10 +2287,7 @@ Learn about the Credentials Manager API and how it can help you authenticating u
 * [Google Devs - Save Credentials from Forms](https://developers.google.com/web/fundamentals/security/credential-management/save-forms)
 * [What Web Can Do Today - Credentials](https://whatwebcando.today/credentials.html)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#houdini)
-
-## ➤ Houdini
+## Houdini
 
 Learn about the Houdini project and get excited about the future of CSS.
 
@@ -3111,10 +2298,7 @@ Learn about the Houdini project and get excited about the future of CSS.
 * [W3C - CSS Houdini Wiki](https://github.com/w3c/css-houdini-drafts/wiki)
 * [Google Devs - Houdini's Animation Worklet](https://developers.google.com/web/updates/2018/10/animation-worklet)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#project-fugu)
-
-## ➤ Project Fugu
+## Project Fugu
 
 Learn about Project Fugu project and get excited about the future of the web.
 
@@ -3125,10 +2309,7 @@ Learn about Project Fugu project and get excited about the future of the web.
 * [Youtube - Unlocking New Capabilities for the Web](https://www.youtube.com/watch?v=GSiUzuB-PoI)
 * [Controlling Access to Powerful Web Platform Features](https://chromium.googlesource.com/chromium/src/+/f384207e04ad27f58287e972907f17ad66acc115/docs/security/permissions-for-powerful-web-platform-features.md)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#observers)
-
-## ➤ Observers
+## Observers
 
 Learn about the observer pattern and get comfortable concepts such as subjects and observers.
 
@@ -3176,10 +2357,7 @@ Learn how the Performance Observer API can help you get information about the pe
 * [Mozilla - PerformanceObserver](https://developer.mozilla.org/en-US/docs/Web/API/PerformanceObserver)
 * [Google Devs - Efficient Access to Performance Data](https://developers.google.com/web/updates/2016/06/performance-observer)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#scrollsnapping)
-
-## ➤ Scrollsnapping
+## Scrollsnapping
 
 Learn about the Scrollsnapping API and how it can help you provide an intuitive experience when scrolling.
 
@@ -3189,10 +2367,7 @@ Learn about the Scrollsnapping API and how it can help you provide an intuitive 
 * [Mozilla - CSS Scroll Snap](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Scroll_Snap)
 * [The scroll-snap-* Properties](https://webkit.org/demos/scroll-snap/index.html)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#web-assembly)
-
-## ➤ Web Assembly
+## Web Assembly
 
 Learn about Web Assembly and how it opens up the playing field for new types of web apps.
 
@@ -3204,10 +2379,7 @@ Learn about Web Assembly and how it opens up the playing field for new types of 
 * [How We Used WebAssembly To Speed Up Our Web App By 20X](https://www.smashingmagazine.com/2019/04/webassembly-speed-web-app/)
 * [Google Devs - WebAssembly](https://developers.google.com/web/updates/2019/02/hotpath-with-wasm)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#beacon)
-
-## ➤ Beacon
+## Beacon
 
 Learn how the Beacon API can help you send data to endpoints before the user closes the page.
 
@@ -3215,10 +2387,7 @@ Learn how the Beacon API can help you send data to endpoints before the user clo
 * [Mozilla - Using the Beacon API](https://developer.mozilla.org/en-US/docs/Web/API/Beacon_API/Using_the_Beacon_API)
 * [Logging Activity With The Web Beacon API](https://www.smashingmagazine.com/2018/07/logging-activity-web-beacon-api/)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#clipboard)
-
-## ➤ Clipboard
+## Clipboard
 
 Learn about the Clipboard API and how it can help you copy and paste data.
 
@@ -3226,10 +2395,7 @@ Learn about the Clipboard API and how it can help you copy and paste data.
 * [What Web Can Do Today - Clipboard (Copy & Paste)](https://whatwebcando.today/clipboard.html)
 * [Google Devs - Image Support for the Async Clipboard API](https://developers.google.com/web/updates/2019/07/image-support-for-async-clipboard)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#share)
-
-## ➤ Share
+## Share
 
 Learn how the Web Share API can help users sharing your web app.
 
@@ -3239,10 +2405,7 @@ Learn how the Web Share API can help users sharing your web app.
 * [CSS Tricks - How to Use the Web Share API](https://css-tricks.com/how-to-use-the-web-share-api/)
 * [The Web Share API](https://blog.arnellebalane.com/the-web-share-api-2cbb3e6cf007)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#performance-api)
-
-## ➤ Performance API
+## Performance API
 
 Learn about the Performance API and how it can help you monitor the performance of the device.
 
@@ -3253,10 +2416,7 @@ Learn about the Performance API and how it can help you monitor the performance 
 * [Mozilla - Performance Specifications](https://developer.mozilla.org/en-US/docs/Web/API/Performance_API#Specifications)
 * [Mozilla - Performance Timeline](https://developer.mozilla.org/en-US/docs/Web/API/Performance_Timeline)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#gamepad-api)
-
-## ➤ Gamepad API
+## Gamepad API
 
 Learn how the Gamepad API can help you integrate with various controllers such as an x-box or playstation controller
 
@@ -3265,10 +2425,7 @@ Learn how the Gamepad API can help you integrate with various controllers such a
 * [luser - Gamepad Test](http://luser.github.io/gamepadtest/)
 * [Mozilla - Implementing controls using the Gamepad API](https://developer.mozilla.org/en-US/docs/Games/Techniques/Controls_Gamepad_API)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#network-information-api)
-
-## ➤ Network Information API
+## Network Information API
 
 Learn how the Network Information API can give you information about the state of the network of your users.
 
@@ -3278,10 +2435,7 @@ Learn how the Network Information API can give you information about the state o
 * [Network Information API Sample](https://googlechrome.github.io/samples/network-information/)
 * [What Web Can Do Today - Network Type & Speed](https://whatwebcando.today/network-type-speed.html)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#speech-recognition)
-
-## ➤ Speech Recognition
+## Speech Recognition
 
 Learn how to use the Speech Recognition API to analyze speech.
 
@@ -3292,10 +2446,7 @@ Learn how to use the Speech Recognition API to analyze speech.
 * [Github - web-speech-api](https://github.com/mdn/web-speech-api/)
 * [What Web Can Do Today - Speech Recognition](https://whatwebcando.today/speech-recognition.html)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#interaction-media-queries)
-
-## ➤ Interaction Media Queries
+## Interaction Media Queries
 
 Learn how to use Interaction Media Queries to optimize the user experience for the specific type of device.
 
@@ -3306,10 +2457,7 @@ Learn how to use Interaction Media Queries to optimize the user experience for t
 * [W3C - Interaction Media Features](https://www.w3.org/TR/mediaqueries-4/#mf-interaction)
 * [What Web Can Do Today - Pointing Device Adaptation](https://whatwebcando.today/pointer-adaptation.html)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#presentation)
-
-## ➤ Presentation
+## Presentation
 
 Learn how to use the Presentation API to allow your web app to use the presentation display mode in the browser or at an external display device.
 
@@ -3318,10 +2466,7 @@ Learn how to use the Presentation API to allow your web app to use the presentat
 * [Google Devs - Present web pages to secondary attached displays](https://developers.google.com/web/updates/2018/04/present-web-pages-to-secondary-attached-displays)
 * [W3C - Presentation API](https://w3c.github.io/presentation-api)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#native-file-system)
-
-## ➤ Native File System
+## Native File System
 
 Learn how to use the Native File System API to interact with files on the user's local device.
 
@@ -3332,10 +2477,7 @@ Learn how to use the Native File System API to interact with files on the user's
 * [Chromestatus - Native File System](https://www.chromestatus.com/feature/6284708426022912)
 * [W3C - File API](https://w3c.github.io/FileAPI/)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#browser-extensions)
-
-## ➤ Browser Extensions
+## Browser Extensions
 
 Learn how to build browser extensions to enhance the functionality of your browser.
 
@@ -3344,10 +2486,7 @@ Learn how to build browser extensions to enhance the functionality of your brows
 * [Chrome - Getting Started with Extensions](https://developer.chrome.com/extensions/getstarted)
 * [Youtube - Google Chrome Extensions](https://www.youtube.com/view_play_list?p=CA101D6A85FE9D4B)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#shape-detection)
-
-## ➤ Shape Detection
+## Shape Detection
 
 Learn how to use the Shape Detection API to detect shapes such as faces or barcodes in pictures.
 
@@ -3360,15 +2499,9 @@ Learn how to use the Shape Detection API to detect shapes such as faces or barco
 
 ########### Algorithms & Data structures
 
+## Data structures
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#data-structures)
-
-## ➤ Data structures
-
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#arrays)
-
-## ➤ Arrays
+## Arrays
 
 Learn how and when arrays should be used.
 
@@ -3377,10 +2510,7 @@ Learn how and when arrays should be used.
 * [Wikipedia - Array data structure](https://en.wikipedia.org/wiki/Array_data_structure)
 * [Mozilla - Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#queues--stacks)
-
-## ➤ Queues & Stacks
+## Queues & Stacks
 
 Learn how and when queues and stacks should be used.
 
@@ -3389,10 +2519,7 @@ Learn how and when queues and stacks should be used.
 * [Data Structures: Stacks & Queues](https://medium.com/@hitherejoe/data-structures-stacks-queues-a3b3591c8cb0)
 * [Stacks vs. Queues In JavaScript](https://dev.to/emmawedekind/stacks-vs-queues-in-javascript-4d1o)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#trees)
-
-## ➤ Trees
+## Trees
 
 Learn how and when trees should be used.
 
@@ -3452,10 +2579,7 @@ Learn how and when K-D trees should be used.
 * [kd-Trees](https://www.cs.cmu.edu/~ckingsf/bioinfo-lectures/kdtrees.pdf)
 * [Youtube - KD Tree Algorithm](https://www.youtube.com/watch?v=TLxWtXEbtFE)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#hash-tables)
-
-## ➤ Hash Tables
+## Hash Tables
 
 Learn how and when hash tables should be used.
 
@@ -3465,10 +2589,7 @@ Learn how and when hash tables should be used.
 * [Javascript Hash Table](https://medium.com/@yanganif/javascript-hash-table-8878afceecbc)
 * [Objects and Hash Tables in Javascript](https://codeburst.io/objects-and-hash-tables-in-javascript-a472ad1940d9)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#linked-lists)
-
-## ➤ Linked Lists
+## Linked Lists
 
 Learn how and when linked lists should be used.
 
@@ -3477,10 +2598,7 @@ Learn how and when linked lists should be used.
 * [Linked Lists in JavaScript](https://codeburst.io/linked-lists-in-javascript-es6-code-part-1-6dd349c3dcc3)
 * [The Little Guide of Linked List in JavaScript](https://hackernoon.com/the-little-guide-of-linked-list-in-javascript-9daf89b63b54)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#graphs)
-
-## ➤ Graphs
+## Graphs
 
 Learn how and when graphs should be used.
 
@@ -3490,15 +2608,9 @@ Learn how and when graphs should be used.
 * [The Javascript Developer’s Guide to Graphs](https://hackernoon.com/the-javascript-developers-guide-to-graphs-and-detecting-cycles-in-them-96f4f619d563)
 
 
+## Analysis
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#analysis)
-
-## ➤ Analysis
-
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#time-complexity)
-
-## ➤ Time complexity
+## Time complexity
 
 Learn about time complexity and how it can be used to analyze an algorithm.
 
@@ -3537,10 +2649,7 @@ Learn how to use Big O notation to classify the time complexity of an algorithm.
 * [dev.to - What is Big O Notation, and Why is it Useful?](https://dev.to/mattdmccarley/what-is-big-o-notation-and-why-is-it-useful-2b7l)
 * [dev.to - Big-O Notation Useful guide](https://dev.to/yashwanthambati/big-o-notation-complete-guide-226h)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#space-complexity)
-
-## ➤ Space Complexity
+## Space Complexity
 
 Learn about space complexity and how it can be used to analyze an algorithm.
 
@@ -3553,15 +2662,9 @@ Learn about space complexity and how it can be used to analyze an algorithm.
 * [Space Complexity](http://exploreshaifali.github.io/2014/02/13/Space-Complexity/)
 
 
+## Algorithms
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#algorithms)
-
-## ➤ Algorithms
-
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#sorting)
-
-## ➤ Sorting
+## Sorting
 
 Learn about the most important sorting algorithms and figure out what challenges there are involved with implementing one.
 
@@ -3611,10 +2714,7 @@ Learn about the heapsort algorithm.
 * [Heapsort Algorithm](https://www.interviewcake.com/concept/java/heapsort)
 * [Heap Sort](https://brilliant.org/wiki/heap-sort/)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#searching)
-
-## ➤ Searching
+## Searching
 
 Learn about the most important searching algorithms and figure out what challenges there are involved with implementing one.
 
@@ -3672,10 +2772,7 @@ Learn about various algorithms for searching in strings.
 * [Boyer Moore String Search](https://ongspxm.github.io/blog/2017/05/boyer-moore-search/)
 * [Boyer–Moore string-search algorithm](https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_string-search_algorithm)
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#hashing)
-
-## ➤ Hashing
+## Hashing
 
 Learn about hashing algorithms.
 
@@ -3687,15 +2784,9 @@ Learn about hashing algorithms.
 
 ############ Databases & Servers
 
+## Databases
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#databases)
-
-## ➤ Databases
-
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#relational-databases)
-
-## ➤ Relational Databases
+## Relational Databases
 
 
 
@@ -3715,10 +2806,7 @@ Learn about hashing algorithms.
 
 
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#non-relational-databases)
-
-## ➤ Non-relational Databases
+## Non-relational Databases
 
 
 
@@ -3730,10 +2818,7 @@ Learn about hashing algorithms.
 
 
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#data-modelling)
-
-## ➤ Data Modelling
+## Data Modelling
 
 
 
@@ -3745,24 +2830,15 @@ Learn about hashing algorithms.
 
 
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#indexing)
-
-## ➤ Indexing
+## Indexing
 
 
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#data-integrity)
-
-## ➤ Data Integrity
+## Data Integrity
 
 
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#normalization)
-
-## ➤ Normalization
+## Normalization
 
 
 
@@ -3778,10 +2854,7 @@ Learn about hashing algorithms.
 
 
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#transactions)
-
-## ➤ Transactions
+## Transactions
 
 
 
@@ -3806,15 +2879,9 @@ Learn about hashing algorithms.
 
 
 
+## Servers
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#servers)
-
-## ➤ Servers
-
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#architectural-models)
-
-## ➤ Architectural Models
+## Architectural Models
 
 
 
@@ -3838,10 +2905,7 @@ Learn about hashing algorithms.
 
 
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#request-reply-protocol)
-
-## ➤ Request-Reply Protocol
+## Request-Reply Protocol
 
 
 
@@ -3853,10 +2917,7 @@ Learn about hashing algorithms.
 
 
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#rest-api)
-
-## ➤ REST API
+## REST API
 
 
 
@@ -3864,48 +2925,21 @@ Learn about hashing algorithms.
 
 
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#express)
-
-## ➤ Express
+## Express
 
 
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#graphql)
-
-## ➤ GraphQL
+## GraphQL
 
 
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#gnulinux)
-
-## ➤ GNU/Linux
+## GNU/Linux
 
 
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#docker)
-
-## ➤ Docker
+## Docker
 
 
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#contributors)
-
-## ➤ Contributors
-	
-
-| [<img alt="Andreas Mehlsen" src="https://avatars1.githubusercontent.com/u/6267397?s=460&v=4" width="100">](https://twitter.com/andreasmehlsen) | [<img alt="You?" src="https://joeschmoe.io/api/v1/random" width="100">](https://github.com/andreasbm/readme/blob/master/CONTRIBUTING.md) |
-|:--------------------------------------------------:|:--------------------------------------------------:|
-| [Andreas Mehlsen](https://twitter.com/andreasmehlsen) | [You?](https://github.com/andreasbm/readme/blob/master/CONTRIBUTING.md) |
-| 🔥                                               |                                                  |
-
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#license)
-
-## ➤ License
-	
-Licensed under [MIT](https://opensource.org/licenses/MIT).
+{{ template:contributors }}
+{{ template:license }}
