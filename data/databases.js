@@ -31,7 +31,7 @@ export const databasesCollection = {
 								]
 							},
 						},
-						{
+						/*{
 							name: "Relational Algebra",
 							description: {
 								text: "Learn how relational algebra can describe the language used for querying a relational database..",
@@ -45,7 +45,7 @@ export const databasesCollection = {
 									["Relational Algebra Learning Tool", "https://www.doc.ic.ac.uk/~pjm/teaching/student_projects/pm105_report.pdf"],
 								]
 							},
-						},
+						},*/
 						{
 							name: "MySQL",
 							description: {
@@ -508,6 +508,18 @@ export const databasesCollection = {
 						]
 					},
 				},
+				{
+					name: "SSH",
+					description: {
+						text: "Learn how to use SSH and learn how to connect to a device using an SSH client.",
+						links: [
+							["Wikipedia - Secure Shell", "https://en.wikipedia.org/wiki/Secure_Shell"],
+							["Secure Shell (SSH)", "https://searchsecurity.techtarget.com/definition/Secure-Shell"],
+							["SSH command in Linux with Examples", "https://www.geeksforgeeks.org/ssh-command-in-linux-with-examples/"],
+							["How to Establish a Connection Using SSH", "https://help.ubnt.com/hc/en-us/articles/218850057-Intro-to-Networking-How-to-Establish-a-Connection-Using-SSH"],
+						]
+					},
+				}
 			]
 		}
 	]

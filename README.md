@@ -340,7 +340,6 @@
 	* [Databases](#databases)
 	* [Relational Databases](#relational-databases)
 		* [SQL](#sql)
-		* [Relational Algebra](#relational-algebra)
 		* [MySQL](#mysql)
 		* [PostgreSQL](#postgresql)
 	* [Non-relational Databases](#non-relational-databases)
@@ -375,6 +374,7 @@
 	* [GraphQL](#graphql)
 	* [GNU/Linux](#gnulinux)
 	* [Docker](#docker)
+	* [SSH](#ssh)
 * [➤ Contributors](#-contributors)
 * [➤ License](#-license)
 </details>
@@ -3225,18 +3225,6 @@ Learn how to write SQL statements to communicate with a database.
 * [ ] 📜 [The Last SQL Guide for Data Analysis You’ll Ever Need](https://medium.com/better-programming/the-last-sql-guide-for-data-analysis-youll-ever-need-17ae10fa4a6f)
 * [ ] 📜 [SQL Tutorial](https://www.tutorialrepublic.com/sql-tutorial/)
 
-#### Relational Algebra
-
-Learn how relational algebra can describe the language used for querying a relational database..
-
-* [ ] 📜 [Wikipedia - Relational algebra](https://en.wikipedia.org/wiki/Relational_algebra)
-* [ ] 📜 [Tutorialspoint - Relational Algebra](https://www.tutorialspoint.com/dbms/relational_algebra.htm)
-* [ ] 📜 [Relational Algebra in DBMS with Examples](https://www.guru99.com/relational-algebra-dbms.html)
-* [ ] 📜 [Practical reasons behind learning relational algebra](https://dba.stackexchange.com/questions/111487/what-are-the-practical-reasons-behind-learning-relational-algebra)
-* [ ] 🧪 [Relational algebra calculator?](https://dbis-uibk.github.io/relax/)
-* [ ] 🎓 [Coursera - Relational Algebra Overview](https://www.coursera.org/lecture/data-manipulation/relational-algebra-overview-tv5TJ)
-* [ ] 📜 [Relational Algebra Learning Tool](https://www.doc.ic.ac.uk/~pjm/teaching/student_projects/pm105_report.pdf)
-
 #### MySQL
 
 Learn about the open-source relational database management system called MySQL.
@@ -3579,6 +3567,15 @@ Learn how to use Docker.
 * [ ] 📜 [Docker for beginners](https://docker-curriculum.com/)
 * [ ] 📐 [What is Docker?](https://opensource.com/resources/what-docker)
 * [ ] 📜 [Get Started, Part 1: Orientation and setup](https://docs.docker.com/get-started/)
+
+### SSH
+
+Learn how to use SSH and learn how to connect to a device using an SSH client.
+
+* [ ] 📜 [Wikipedia - Secure Shell](https://en.wikipedia.org/wiki/Secure_Shell)
+* [ ] 📜 [Secure Shell (SSH)](https://searchsecurity.techtarget.com/definition/Secure-Shell)
+* [ ] 📜 [SSH command in Linux with Examples](https://www.geeksforgeeks.org/ssh-command-in-linux-with-examples/)
+* [ ] 📜 [How to Establish a Connection Using SSH](https://help.ubnt.com/hc/en-us/articles/218850057-Intro-to-Networking-How-to-Establish-a-Connection-Using-SSH)
 
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#contributors)
