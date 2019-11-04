@@ -27,12 +27,16 @@ function iconForUrl (url) {
 	return DEFAULT_URL_ICON;
 }
 
+function logoForUrl (url) {
+	return `<img src="https://plus.google.com/_/favicon?domain_url=${encodeURIComponent(url)}" alt="Logo" />`;
+}
+
 function generateMarkdownHeading (text, level) {
 	return `${Array(Math.min(level, 6)).fill("#").join("")} ${text}`;
 }
 
 function generateLinksMarkdown (links) {
-	const parts = links.map(([name, url]) => `* [ ] ${iconForUrl(url)} [${name}](${url})`);
+	const parts = links.map(([name, url]) => `* [ ] ${iconForUrl(url)} [${name}](${url}) ${logoForUrl(url)}`);
 	return parts.join(LINE_BREAK);
 }
 
