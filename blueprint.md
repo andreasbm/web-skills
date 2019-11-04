@@ -5,6 +5,12 @@
 {{ template:toc }}
 </details>
 
+<span style="display: flex; align-items: center;">
+	<img src="https://plus.google.com/_/favicon?domain_url=http://www.stackoverflow.com" alt="Logo" />
+	Hello World
+</span>
+
+
 ## Fundamentals
 
 ### HTML

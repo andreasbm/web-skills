@@ -379,6 +379,12 @@
 * [➤ License](#-license)
 </details>
 
+<span style="display: flex; align-items: center;">
+	<img src="https://plus.google.com/_/favicon?domain_url=http://www.stackoverflow.com" alt="Logo" />
+	Hello World
+</span>
+
+
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#fundamentals)
 

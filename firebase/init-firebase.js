@@ -1,13 +1,13 @@
 import {auth, AuthEvents,CollectionNames} from "./auth.js";
 
 const firebaseConfig = {
-	apiKey: "AIzaSyAuD16_ZdTSQvjAkJ2a8ypT7hqmKuRmINU",
-	authDomain: "skill-trees.firebaseapp.com",
-	databaseURL: "https://skill-trees.firebaseio.com",
-	projectId: "skill-trees",
-	storageBucket: "skill-trees.appspot.com",
-	messagingSenderId: "1017943808637",
-	appId: "1:1017943808637:web:90a5f1b6f775d40aecef14"
+	apiKey: "AIzaSyAeptLYIAEF7MtzFjKo0XYtC6i0BXbqdjI",
+	authDomain: "web-skills.firebaseapp.com",
+	databaseURL: "https://web-skills.firebaseio.com",
+	projectId: "web-skills",
+	storageBucket: "web-skills.appspot.com",
+	messagingSenderId: "796050122198",
+	appId: "1:796050122198:web:422fd7fee1037c3a2a3077"
 };
 
 async function setup () {
