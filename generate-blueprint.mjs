@@ -28,7 +28,7 @@ function iconForUrl (url) {
 }
 
 function logoForUrl (url) {
-	return `<img src="https://plus.google.com/_/favicon?domain_url=${encodeURIComponent(url)}" alt="Logo" />`;
+	return `<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=${encodeURIComponent(url)}" alt="Logo" />`;
 }
 
 function generateMarkdownHeading (text, level) {
@@ -37,7 +37,8 @@ function generateMarkdownHeading (text, level) {
 
 function generateLinksMarkdown (links) {
 	//const parts = links.map(([name, url]) => `* [ ] ${iconForUrl(url)} [${name}](${url}) ${logoForUrl(url)}`);
-	const parts = links.map(([name, url]) => `* [ ] <span style="display: flex; align-items: center;">[${logoForUrl(url)} ${name}](${url})</span>`);
+	const parts = links.map(([name, url]) => `* [ ] [${logoForUrl(url)} ${name}](${url})`);
+	//const parts = links.map(([name, url]) => `* [ ] <a href="${url}" target="_blank">${logoForUrl(url)} ${name}</a>`);
 	return parts.join(LINE_BREAK);
 }
 
@@ -77,12 +78,6 @@ writeFileSync(FILE_NAME, `{{ template:title }}
 <br />
 {{ template:toc }}
 </details>
-
-<span style="display: flex; align-items: center;">
-	<img src="https://plus.google.com/_/favicon?domain_url=http://www.stackoverflow.com" alt="Logo" />
-	Hello World
-</span>
-
 
 ${markdown}
 {{ template:contributors }}
