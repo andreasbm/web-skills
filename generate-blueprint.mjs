@@ -36,7 +36,8 @@ function generateMarkdownHeading (text, level) {
 }
 
 function generateLinksMarkdown (links) {
-	const parts = links.map(([name, url]) => `* [ ] ${iconForUrl(url)} [${name}](${url}) ${logoForUrl(url)}`);
+	//const parts = links.map(([name, url]) => `* [ ] ${iconForUrl(url)} [${name}](${url}) ${logoForUrl(url)}`);
+	const parts = links.map(([name, url]) => `* [ ] <span style="display: flex; align-items: center;">[${logoForUrl(url)} ${name}](${url})</span>`);
 	return parts.join(LINE_BREAK);
 }
 
