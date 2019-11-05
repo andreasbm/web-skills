@@ -88,8 +88,17 @@ export class Skill extends LitElement {
 				}
 
 				#description .links {
-					margin: 12px 0 0 0;
-    			padding: 0 0 0 19px;
+					margin: var(--spacing-m) 0 0 0;
+    			padding: 0 0 0 var(--spacing-s);
+				}
+				
+				#description .link {
+					display: flex;
+    			align-items: center;
+				}
+
+				#description .link .img {
+					margin: 0 var(--spacing-s) 0 0;
 				}
 
 				#description .link:not(:last-child) {
@@ -255,13 +264,17 @@ export class Skill extends LitElement {
 					<h4 class="title">${name}</h4>
 					${description != null && description.text != null ? html`<p class="text">${description.text}</p>` : undefined}
 					${description != null && description.links != null && description.links.length > 0 ? html`
-						<ul class="links">
-								${repeat(description.links, link => html`
-									<li class="link">
-										<a href="${Array.isArray(link) ? link[1] : link}" target="_blank">${Array.isArray(link) ? link[0] : link}</a>
-									</li>
-								`)}
-						</ul>
+						<div class="links">
+								${repeat(description.links, link => {
+									const [name, url] = link;
+									return html`
+										<div class="link">
+											<img class="img" src="https://plus.google.com/_/favicon?domain_url=${encodeURIComponent(url)}" alt="Logo for ${name}" />
+											<a class="url" href="${url}" target="_blank">${name}</a>
+										</div>
+									`;
+								})}
+						</div>
 					` : undefined}
 					<div id="smart-search">
 						<a id="search-google" href="https://www.google.com/search?q=${encodeURIComponent(skillSearchQuery)}" target="_blank">
