@@ -110,8 +110,6 @@ export function playAudio (src, volume = 1) {
 	$audio.src = src;
 	$audio.volume = volume;
 
-	console.log({src});
-
 	// Reset
 	$audio.pause()
  	$audio.currentTime = 0

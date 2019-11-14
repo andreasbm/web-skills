@@ -45,6 +45,8 @@ export class Confetti extends LitElement {
 					display: block;
 					position: relative;
 					pointer-events: none;
+					contain: strict;
+					transform: translate3d(0);
 				}
 
 				:host([overlay]) {
