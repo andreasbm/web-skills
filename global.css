@@ -16,6 +16,8 @@ html {
 
 	--shadow: rgba(0, 0, 0, 0.15);
 
+	--border-radius-m: 20px;
+
 
 	/* TODO: Should be in REM */
 	--spacing-xs: 0.25rem; /* 4px; */

@@ -305,6 +305,7 @@ export const designAndUXCollection = {
 							["Design Best Practices", "https://medium.com/thinking-design/design-best-practices/home"],
 							["Refactoring UI", "https://refactoringui.com/"],
 							["Refactoring UI | CSS Day 2019", "https://www.youtube.com/watch?v=7Z9rrryIOC4"],
+							["Dieter Ram' 10 principles for good design", "https://www.3pillarglobal.com/insights/dieter-rams-10-principles-good-design"],
 						]
 					},
 				}

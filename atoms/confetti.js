@@ -118,7 +118,6 @@ export class Confetti extends LitElement {
 	 */
 	stop () {
 		this.reset();
-		console.log("STOP");
 		this.dispatchEvent(new CustomEvent("stopped"));
 	}
 

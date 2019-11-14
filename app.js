@@ -4,6 +4,7 @@ import {repeat} from "https://unpkg.com/lit-html/directives/repeat.js?module";
 import "./molecules/collection.js";
 import {auth, AuthEvents} from "./firebase/auth.js";
 import "./atoms/button.js";
+import {gaMeasurementId} from "./../../config.js";
 
 export class App extends LitElement {
 
@@ -60,11 +61,35 @@ export class App extends LitElement {
 		auth.addEventListener(AuthEvents.authStateChanged, () => {
 			this.requestUpdate().then();
 		});
+
+		// Track page view (we only have this one page)
+		gtag("config", gaMeasurementId, {
+			"page_path": location.pathname,
+			"page_location": location.href
+		});
+
+		// Track all exceptions
+		window.addEventListener("error", e => {
+			const {message, filename, lineno, colno, error} = e;
+			const description = `${error.name} - ${message} (${filename}:[${lineno}, ${colno}])`;  
+			gtag("event", "exception", {
+				description,
+				"fatal": true
+			});
+		});
 	}
 
 	async signIn () {
 		try {
-			await auth.signInWithGoogle();
+			const {user} = await auth.signInWithGoogle();
+
+			// Set user ID
+			gtag("config", gaMeasurementId, {
+				"user_id": user.uid
+			});
+
+			// Track login
+			gtag("event", "login", { "method": "Google" });
 
 		} catch (err) {
 			const {openDialog} = await import("https://unpkg.com/web-dialog?module");

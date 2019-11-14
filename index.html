@@ -1,5 +1,28 @@
 <html>
 	<head>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-96179028-7"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+
+			// Disable GA on localhost
+			const disableGtag = location.hostname === `localhost`;
+			if (disableGtag) {
+				window["ga-disable-UA-96179028-7"] = true;
+			}
+
+			// Setup gtag
+			window.gtag = function () {
+				if (disableGtag) {
+					console.log("Track", arguments);
+				} else {
+					dataLayer.push(arguments);
+				}
+			}
+
+			gtag('js', new Date());
+			gtag('config', 'UA-96179028-7', {"send_page_view": false});
+		</script>
 
 		<title>Web Skills</title>
 
@@ -17,6 +40,8 @@
 
 		<script defer type="module" src="firebase/init-firebase.js"></script>
 
+		<!-- Polyfills -->
+		<script crossorigin src="https://polyfill.app/api/polyfill?features=es,template,shadow-dom,custom-elements,resizeobserver"></script>
 
 		<!-- Initialize app -->
 		<st-app></st-app>

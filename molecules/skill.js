@@ -1,6 +1,6 @@
 import { css, html, LitElement } from "https://unpkg.com/lit-element/lit-element.js?module";
 import {repeat} from "https://unpkg.com/lit-html/directives/repeat.js?module";
-import {constructImagePathPrefix, getSkillId, sprayConfettiOnce, playAudio, currentConfettiCount, getSkillSearchQuery} from "./../util/util.js";
+import {constructImagePathPrefix, getSkillId, sprayConfettiOnce, playAudio, currentConfettiCount, getSkillSearchQuery, attachLazyImgIntersectionObserver} from "./../util/util.js";
 import {auth, AuthEvents} from "./../firebase/auth.js";
 import "./../atoms/button.js";
 
@@ -28,6 +28,7 @@ export class Skill extends LitElement {
 					--arrow-width: 6px;
 					--arrow-head-size: 8px;
 					--skill-img-size: 70px;
+					--link-img-size: 16px;
 
 					display: flex;
 					word-break: break-word;
@@ -48,6 +49,12 @@ export class Skill extends LitElement {
 
 				#skill:hover #img, :host(:focus-within) #img, :host(:focus) #img {
 					transform: scale(1.03);
+				}
+
+				#skill:hover #description, #skill:focus-within #description {
+					opacity: 1;
+					pointer-events: all;
+					transform: translate(-7%, 0);
 				}
 
 				#description {
@@ -97,8 +104,14 @@ export class Skill extends LitElement {
     			align-items: center;
 				}
 
+				#description .link:not(:last-child) {
+					margin: 0 0 var(--spacing-s);
+				}
+
 				#description .link .img {
 					margin: 0 var(--spacing-s) 0 0;
+					width: var(--link-img-size);
+					height: var(--link-img-size);
 				}
 
 				#description .link:not(:last-child) {
@@ -108,12 +121,6 @@ export class Skill extends LitElement {
 				a {
 					color: var(--link);
 					word-break: break-word;
-				}
-
-				#skill:hover #description/*, #skill:focus-within #description*/ {
-					opacity: 1;
-					pointer-events: all;
-					transform: translate(-7%, 0);
 				}
 
 				#title {
@@ -127,6 +134,24 @@ export class Skill extends LitElement {
 					margin: 0 0 6px;
 					transition: 90ms ease-in transform;
 					user-select: none;
+					position: relative;
+				}
+
+				#img:not([loaded]) {
+					border-radius: var(--border-radius-m);
+					background: var(--shade-700);
+					overflow: hidden;
+				}
+
+				#img:not([loaded]):after {
+					background: var(--shade-700);
+					content: "";
+					position: absolute;
+					top: 0;
+					left: 0;
+					width: 100%;
+					height: 100%;
+					border-radius: inherit;
 				}
 
 				#skill:not(.completed) #img {
@@ -239,6 +264,48 @@ export class Skill extends LitElement {
 		});
 	}
 
+	firstUpdated (props) {
+		super.firstUpdated(props);
+
+		// Lazy load the src of the image
+		const $img = this.shadowRoot.querySelector("#img");
+		attachLazyImgIntersectionObserver($img);
+
+		// Lazy load the images of the links
+		const $description = this.shadowRoot.querySelector("#description");
+		$description.addEventListener("transitionend", this.onDescriptionVisible.bind(this));
+	}
+
+	/**
+	 * When the description becomes visible we lazy load the images of the description.
+	 * @param {*} e 
+	 */
+	onDescriptionVisible (e) {
+		const {propertyName, target} = e;
+		if (propertyName === "opacity") {
+			
+			// Lazy load the link images
+			const $imgs = Array.from(this.shadowRoot.querySelectorAll("#description img"));
+		  for (const $img of $imgs) {
+				attachLazyImgIntersectionObserver($img);
+			}
+
+			// If the element is now visible we track it
+			const isVisible = getComputedStyle(target).opacity === `1`;
+			if (isVisible) {
+				const {name} = this.skill;
+				gtag("event", "show_description", {
+					"event_category": "Engagement",
+					"event_label": `The description for "${name}" was shown`,
+				});	
+			}
+		}
+	}
+
+	/**
+	 * Handles the keydown event.
+	 * @param {*} e 
+	 */
 	onKeyDown (e) {
 		switch (e.code) {
 			case "Escape":
@@ -247,6 +314,23 @@ export class Skill extends LitElement {
 		}
 	}
 
+	/**
+	 * Track that a link was clicked.
+	 * @param {*} link 
+	 */
+	trackLinkClicked (link) {
+		const [name, url] = link;
+
+		// Track that the link was clicked
+		gtag("event", "click_link", {
+			"event_category": "Engagement",
+			"event_label": `The link "${name}" was clicked`,
+		});
+	}
+
+	/**
+	 * Render the component.
+	 */
 	render () {
 		const {skill, collection, area} = this;
 		const {description, name, skills} = skill;
@@ -258,7 +342,7 @@ export class Skill extends LitElement {
 
 		return html`
 			<div id="skill" class="${isCompleted ? `completed` : ``}">
-				<img id="img" loading="lazy" width="70px" height="70px" intrinsicsize="70x70" src="${constructImagePathPrefix(collection, area, skill)}" />
+				<img id="img" loading="lazy" width="70px" height="70px" intrinsicsize="70x70" alt="${name}" data-src="${constructImagePathPrefix(collection, area, skill)}" />
 				<h6 id="title">${name}</h6>
 				<div id="description" @keydown="${this.onKeyDown}">
 					<h4 class="title">${name}</h4>
@@ -269,8 +353,8 @@ export class Skill extends LitElement {
 									const [name, url] = link;
 									return html`
 										<div class="link">
-											<img class="img" src="https://plus.google.com/_/favicon?domain_url=${encodeURIComponent(url)}" alt="Logo for ${name}" />
-											<a class="url" href="${url}" target="_blank">${name}</a>
+											<img class="img" loading="lazy" width="16px" height="16px" intrinsicsize="16x16" data-src="https://plus.google.com/_/favicon?domain_url=${encodeURIComponent(url)}" alt="Logo for ${name}" />
+											<a class="url" href="${url}" target="_blank" @click="${() => this.trackLinkClicked(link)}">${name}</a>
 										</div>
 									`;
 								})}
@@ -286,7 +370,8 @@ export class Skill extends LitElement {
 					</div>
 					${isAuthenticated ? html`
 						<st-button id="complete-button" @click="${() => {
-							if (!isCompleted) {
+							const newIsCompleted = !isCompleted;
+							if (newIsCompleted) {
 								if (currentConfettiCount() <= 2) {
 									sprayConfettiOnce();
 								}
@@ -298,6 +383,12 @@ export class Skill extends LitElement {
 									setTimeout(() => {
 										playAudio(`/assets/audio/paper.mp3`, 0.3);
 									}, 150);
+								});
+
+								// Track that the skill was completed
+								gtag("event", "complete_skill", {
+									"event_category": "Engagement",
+									"event_label": `The skill "${name}" was completed`,
 								});
 							}
 
