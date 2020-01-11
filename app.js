@@ -81,15 +81,7 @@ export class App extends LitElement {
 
 	async signIn () {
 		try {
-			const {user} = await auth.signInWithGoogle();
-
-			// Set user ID
-			gtag("config", gaMeasurementId, {
-				"user_id": user.uid
-			});
-
-			// Track login
-			gtag("event", "login", { "method": "Google" });
+			await auth.signInWithGoogle();
 
 		} catch (err) {
 			const {openDialog} = await import("https://unpkg.com/web-dialog?module");

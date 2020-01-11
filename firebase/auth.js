@@ -37,15 +37,30 @@ export class Auth extends EventTarget {
 				return null;
 			}
 		})();
+
+		if (this.user != null) {
+			this.trackUser(this.user);
+		}
 	}
 
 	get isAuthenticated () {
 		return this.user != null;
 	}
 
+	trackUser (user) {
+			// Set user ID
+			gtag("config", gaMeasurementId, {
+				"user_id": user.uid
+			});
+
+			// Track login
+			gtag("event", "login", { "method": "Google" });
+	}
+
 	setUser (user) {
 		if (user != null) {
 			localStorage.setItem(StorageNames.sessionUser, JSON.stringify(user));
+			this.trackUser(user);
 			
 		} else {
 			localStorage.removeItem(StorageNames.sessionUser);

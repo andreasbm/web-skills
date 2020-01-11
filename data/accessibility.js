@@ -169,7 +169,8 @@ export const accessibilityCollection = {
 									["Webaim - Wave", "http://wave.webaim.org/"],
 									["Google Chrome - NoCoffee Extension", "https://chrome.google.com/webstore/detail/nocoffee/jjeeggmbnhckmgdhmgdckeigabjfbddl"],
 									["Digital A11Y - Accessibility Plugins", "https://www.digitala11y.com/accessibility-plug-ins-ie-chrome-firefox-browsers/"],
-									["Google Devs - Accessibility for teams", "https://developers.google.com/web/fundamentals/accessibility/a11y-for-teams"]
+									["Google Devs - Accessibility for teams", "https://developers.google.com/web/fundamentals/accessibility/a11y-for-teams"],
+									["WCAG 2.0 checklists", "https://www.wuhcag.com/wcag-checklist/"],
 								]
 							}
 						}
