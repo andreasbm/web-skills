@@ -687,6 +687,7 @@ Learn how to conduct an accessibility review to improve the overall experience o
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fnocoffee%2Fjjeeggmbnhckmgdhmgdckeigabjfbddl" alt="Logo" /> Google Chrome - NoCoffee Extension](https://chrome.google.com/webstore/detail/nocoffee/jjeeggmbnhckmgdhmgdckeigabjfbddl)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwww.digitala11y.com%2Faccessibility-plug-ins-ie-chrome-firefox-browsers%2F" alt="Logo" /> Digital A11Y - Accessibility Plugins](https://www.digitala11y.com/accessibility-plug-ins-ie-chrome-firefox-browsers/)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdevelopers.google.com%2Fweb%2Ffundamentals%2Faccessibility%2Fa11y-for-teams" alt="Logo" /> Google Devs - Accessibility for teams](https://developers.google.com/web/fundamentals/accessibility/a11y-for-teams)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwww.wuhcag.com%2Fwcag-checklist%2F" alt="Logo" /> WCAG 2.0 checklists](https://www.wuhcag.com/wcag-checklist/)
 
 
 ## Web Components
@@ -2108,6 +2109,7 @@ Learn about some of the best practices when designing.
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fmedium.com%2Fthinking-design%2Fdesign-best-practices%2Fhome" alt="Logo" /> Design Best Practices](https://medium.com/thinking-design/design-best-practices/home)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Frefactoringui.com%2F" alt="Logo" /> Refactoring UI](https://refactoringui.com/)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D7Z9rrryIOC4" alt="Logo" /> Refactoring UI | CSS Day 2019](https://www.youtube.com/watch?v=7Z9rrryIOC4)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwww.3pillarglobal.com%2Finsights%2Fdieter-rams-10-principles-good-design" alt="Logo" /> Dieter Ram' 10 principles for good design](https://www.3pillarglobal.com/insights/dieter-rams-10-principles-good-design)
 
 
 ## The Modern Web
