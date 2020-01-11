@@ -4,7 +4,7 @@ import {repeat} from "https://unpkg.com/lit-html/directives/repeat.js?module";
 import "./molecules/collection.js";
 import {auth, AuthEvents} from "./firebase/auth.js";
 import "./atoms/button.js";
-import {gaMeasurementId} from "./../../config.js";
+import {gaMeasurementId} from "./config.js";
 
 export class App extends LitElement {
 
