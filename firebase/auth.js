@@ -1,3 +1,5 @@
+import {gaMeasurementId} from "./../config.js";
+
 export const AuthEvents = {
 	authStateChanged: "authStateChanged",
 	completedSkillsChanged: "completedSkillsChanged"
