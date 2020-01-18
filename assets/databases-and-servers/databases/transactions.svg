@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>databases-and-servers/databases/transactions</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="databases-and-servers/databases/transactions" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#303033" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#303033" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="cashier" transform="translate(15.000000, 15.000000)" fill-rule="nonzero">
             <path d="M41.5754483,11.3793103 L40.3351034,11.3793103 C39.8450345,11.3793103 39.4482759,10.9825517 39.4482759,10.4932414 L39.4482759,5.4377931 C39.4482759,4.94848276 39.0515172,4.55172414 38.5622069,4.55172414 L22.1274483,4.55172414 C21.6381379,4.55172414 21.2413793,4.94848276 21.2413793,5.4377931 L21.2413793,10.4932414 C21.2413793,10.9825517 20.8446207,11.3793103 20.3553103,11.3793103 L12.137931,11.3793103 L12.137931,9.10344828 L9.10344828,9.10344828 L9.10344828,11.3793103 L2.42455172,11.3793103 C1.92386207,11.3793103 1.51724138,11.785931 1.51724138,12.2866207 L1.51724138,33.9884828 C1.51724138,34.489931 1.92386207,34.8965517 2.42455172,34.8965517 L41.5746897,34.8965517 C42.0761379,34.8965517 42.4827586,34.489931 42.4827586,33.9892414 L42.4827586,12.2866207 C42.4827586,11.785931 42.0761379,11.3793103 41.5754483,11.3793103 Z" id="Shape" fill="#ECF0F1"></path>

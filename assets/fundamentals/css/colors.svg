@@ -3,16 +3,9 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>fundamentals/css/colors</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="fundamentals/css/colors" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
-        </g>
+        <rect id="mask" stroke="#3D670B" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" x="1" y="1" width="71" height="71" rx="14"></rect>
         <g id="color-wheel" transform="translate(37.000000, 37.000000) rotate(-255.000000) translate(-37.000000, -37.000000) translate(11.000000, 11.000000)" fill-rule="nonzero">
             <path d="M26,0 L22.953125,5.05273438 L26,9.2421875 L37.8440156,14.1559844 L43.6623281,11.3845469 L44.3044063,7.69559375 C39.6149609,3.00594531 33.1403516,0 26,0 Z" id="Shape" fill="#FF4B00"></path>
             <path d="M44.3045078,7.69549219 L37.8440156,14.1559844 L42.7578125,26 L47.6138203,29.046875 L52,26 C52,18.8596484 48.9940547,12.3850391 44.3045078,7.69549219 Z" id="Shape" fill="#FF9F00"></path>

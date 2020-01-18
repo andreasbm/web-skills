@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>databases-and-servers/servers/proxy-server</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="databases-and-servers/servers/proxy-server" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#293A4B" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#293A4B" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="server" transform="translate(13.000000, 13.000000)" fill-rule="nonzero">
             <path d="M21.8793103,27.5517241 L21.8793103,33.2241379 L4.05172414,33.2241379 C2.71072643,33.2280543 1.62460604,34.3141747 1.62068966,35.6551724 L1.62068966,42.9482759 L4.86206897,42.9482759 L4.86206897,36.4655172 L21.8793103,36.4655172 L21.8793103,42.9482759 L25.1206897,42.9482759 L25.1206897,36.4655172 L42.137931,36.4655172 L42.137931,42.9482759 L45.3793103,42.9482759 L45.3793103,35.6551724 C45.3753939,34.3141747 44.2892735,33.2280543 42.9482759,33.2241379 L25.1206897,33.2241379 L25.1206897,27.5517241 L21.8793103,27.5517241 Z" id="Shape" fill="#F3D55B"></path>

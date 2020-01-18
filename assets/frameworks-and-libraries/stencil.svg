@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>frameworks-and-libraries/stencil</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="frameworks-and-libraries/stencil" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#16161D" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#16161D" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="101_stencil-icon.4544b30b5e" transform="translate(12.000000, 12.000000)" fill="#16161D" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round">
             <g id="A-link" transform="translate(0.384615, 0.384615)">

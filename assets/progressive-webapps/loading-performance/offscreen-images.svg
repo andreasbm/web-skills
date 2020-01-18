@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>progressive-webapps/loading-performance/offscreen-images</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="progressive-webapps/loading-performance/offscreen-images" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#092339" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#092339" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="invisible-man" transform="translate(12.000000, 12.000000)" fill-rule="nonzero">
             <path d="M36.1647754,7.17773438 L35.8096211,5.59786719 L35.5560078,4.47718359 L35.4559023,4.47718359 C35.0009297,3.36099805 34.265834,2.36367578 33.3207656,1.59785938 C32.0491582,0.567519531 30.4460352,0 28.8066406,0 C27.2420859,0 25.7328477,0.512394531 24.5,1.43746094 L21.6289062,10.0488281 L36.1647754,7.17773438 Z" id="Shape" fill="#FA9647"></path>

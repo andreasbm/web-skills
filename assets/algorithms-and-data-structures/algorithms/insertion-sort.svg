@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>algorithms-and-data-structures/algorithms/insertion-sort</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="algorithms-and-data-structures/algorithms/insertion-sort" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#2E3750" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#2E3750" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="insert-coin" transform="translate(18.000000, 18.000000)" fill-rule="nonzero">
             <path d="M33.1724138,9.93131034 C30.5179828,4.39343103 25.3711552,0.637931034 19.4568966,0.637931034 C10.8250517,0.637931034 3.82758621,8.63503448 3.82758621,18.5 C3.82758621,28.3649655 10.8250517,36.362069 19.4568966,36.362069 C25.3711552,36.362069 30.5179828,32.606569 33.1724138,27.0686897 L33.1724138,9.93131034 Z" id="XMLID_136_" fill="#F5D698"></path>

@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>progressive-webapps/loading-performance/render-blocking-resources</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="progressive-webapps/loading-performance/render-blocking-resources" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#293939" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#293939" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="traffic-light" transform="translate(21.000000, 12.000000)" fill-rule="nonzero">
             <path d="M18.3481888,39.6132691 L12.7025922,39.6132691 C11.9119882,39.6132691 11.2911931,40.2340642 11.2911931,41.0246682 L11.2911931,46.7643581 C11.2911931,47.5545946 11.9119882,48.1757572 12.7025922,48.1757572 L18.3481888,48.1757572 C19.1387928,48.1757572 19.7595879,47.5545946 19.7595879,46.7643581 L19.7595879,41.0246682 C19.7595879,40.2340642 19.1387928,39.6132691 18.3481888,39.6132691 Z" id="Shape" fill="#384949"></path>

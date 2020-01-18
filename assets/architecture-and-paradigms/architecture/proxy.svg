@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>architecture-and-paradigms/architecture/proxy</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="architecture-and-paradigms/architecture/proxy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#1C4666" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#1C4666" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="network" transform="translate(10.000000, 10.000000)" fill-rule="nonzero">
             <path d="M49.665536,4.75767985 L49.2013721,4.75767985 C49.202573,2.46713748 47.5327085,0.518169598 45.2690705,0.168128167 C43.0054326,-0.181913264 40.8248774,1.17163855 40.1341627,3.35555679 C39.4027411,3.58059124 38.8192547,4.13572386 38.5580942,4.85503823 C36.6420109,5.27603226 35.2768441,6.97336719 35.2764555,8.93515484 C35.2764555,11.2423106 37.1467747,13.1126298 39.4539305,13.1126298 L49.665536,13.1126298 C51.9726917,13.1126298 53.843011,11.2423106 53.843011,8.93515484 C53.843011,6.62799911 51.9726917,4.75767985 49.665536,4.75767985 Z" id="Shape" fill="#EBEBEB"></path>

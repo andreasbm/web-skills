@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>progressive-webapps/rendering-performance/rendering</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="progressive-webapps/rendering-performance/rendering" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#2C2F38" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#2C2F38" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="creativity" transform="translate(13.000000, 13.000000)" fill-rule="nonzero">
             <path d="M44.3987931,20.7205172 C44.2907472,20.9474138 44.1854023,21.1905172 44.0827586,21.4498276 L40.2822414,30.622931 L35.882069,24.3103448 L38.0943103,18.962069 C38.1915517,18.7189655 38.2887931,18.4839655 38.3698276,18.2651724 L44.3987931,20.7205172 Z" id="Shape" fill="#E64C3C"></path>

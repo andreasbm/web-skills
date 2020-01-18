@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>databases-and-servers/databases/redis</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="databases-and-servers/databases/redis" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#5C0D06" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#5C0D06" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="Redis_Logo" transform="translate(13.000000, 16.000000)" fill-rule="nonzero">
             <path d="M43.9003925,30.2807507 C41.4769084,31.5440165 28.9222034,36.7060004 26.2493765,38.0992768 C23.5765495,39.4930872 22.091705,39.4794721 19.9802998,38.4700875 C17.8688947,37.4607029 4.50849738,32.0640592 2.10183188,30.9137185 C0.898899575,30.3386816 0.266465791,29.853611 0.266465791,29.3952367 L0.266465791,24.8048192 C0.266465791,24.8048192 17.6598632,21.0182254 20.46804,20.0109765 C23.2759499,19.0034606 24.2500955,18.9671537 26.6396754,19.8425232 C29.0295223,20.7178927 43.3178807,23.2959481 45.6796965,24.160906 C45.6796965,24.160906 45.6786286,28.2606467 45.6786286,28.6861847 C45.6788956,29.1400207 45.1340255,29.6379054 43.9003925,30.2807507 Z" id="Shape" fill="#A41E11"></path>

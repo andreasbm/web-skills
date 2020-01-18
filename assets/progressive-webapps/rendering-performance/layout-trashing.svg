@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>progressive-webapps/rendering-performance/layout-trashing</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="progressive-webapps/rendering-performance/layout-trashing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#333A50" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#333A50" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="garbage" transform="translate(20.000000, 12.000000)" fill-rule="nonzero">
             <path d="M32.2071538,12.7803077 L0.366384615,8.305 L0.771692308,5.41961538 C0.938384615,4.23669231 2.03161538,3.41169231 3.21538462,3.57838462 L30.7712308,7.45123077 C31.9541538,7.61792308 32.7791538,8.71115385 32.6124615,9.89492308 L32.2071538,12.7803077 Z" id="Shape" fill="#556080"></path>

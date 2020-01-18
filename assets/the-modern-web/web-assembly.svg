@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>the-modern-web/web-assembly</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="the-modern-web/web-assembly" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#0D1B25" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#0D1B25" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="machine" transform="translate(15.000000, 12.000000)" fill-rule="nonzero">
             <path d="M42.0926067,1.97865854 L42.0926067,47.9721799 C42.0926067,49.0647865 41.2065549,49.9508384 40.1139482,49.9508384 L3.81326224,49.9508384 C2.72027434,49.9508384 1.83460371,49.0647865 1.83460371,47.9721799 L1.83460371,1.97865854 C1.83460371,0.885670732 2.72027434,0 3.81326224,0 L40.1139482,0 C41.206936,0 42.0926067,0.885670732 42.0926067,1.97865854 Z" id="Shape" fill="#BDDFF4"></path>

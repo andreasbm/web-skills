@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>testing/testing-methodologies</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="testing/testing-methodologies" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#037878" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#037878" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="flask-(1)" transform="translate(16.000000, 12.000000)" fill-rule="nonzero">
             <path d="M40.2158381,42.7861989 L25.1137274,17.267537 L25.1137274,3.11488091 C25.1137274,2.68483267 24.7654447,2.33616069 24.3350071,2.33616069 C23.9045695,2.33616069 23.5562869,2.68483267 23.5562869,3.11488091 L17.3265251,3.11488091 C17.3265251,2.68483267 16.9782425,2.33616069 16.5478049,2.33616069 C16.1173673,2.33616069 15.7690846,2.68483267 15.7690846,3.11488091 L15.7690846,17.267537 L0.666973876,42.7861989 C-0.199157698,44.2489275 -0.212882642,46.0037736 0.628913925,47.4802271 C1.47071049,48.9566807 2.98785218,49.8380946 4.68750642,49.8380946 L36.1952082,49.8380946 C37.8948625,49.8380946 39.4120042,48.9566807 40.2538007,47.4802271 C41.0956946,46.0037736 41.082067,44.2490249 40.2158381,42.7861989 Z" id="Shape" fill="#B3F4FF"></path>

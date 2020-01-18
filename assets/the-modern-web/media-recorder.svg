@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>the-modern-web/media-recorder</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="the-modern-web/media-recorder" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#464655" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#464655" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="polaroid" transform="translate(14.000000, 17.000000)" fill-rule="nonzero">
             <path d="M43.7368359,0.0123984375 C44.5685195,0.0123984375 45.2586992,0.649480469 45.3185352,1.47900781 C45.5372148,4.50692188 46,11.7768984 46,19.046875 C46,20.3461055 46,22.7346914 46,25.3914609 C46,29.5318203 45.5849219,34.3232773 45.3552813,36.6566992 C45.2754102,37.4684375 44.5928672,38.0813516 43.7771758,38.0813516 L2.22273438,38.0813516 C1.40704297,38.0813516 0.7245,37.4684375 0.644628906,36.6566992 C0.415078125,34.3233672 0,29.5319102 0,25.3914609 C0,22.7346914 0,20.3461055 0,19.046875 C0,11.7768984 0.462785156,4.50692188 0.681375,1.47900781 C0.741121094,0.649390625 2.22453125,0.0123984375 3.05621484,0.0123984375 L43.7368359,0.0123984375 Z" id="Shape" fill="#F0EBD2"></path>

@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>fundamentals/the-browser/the-internet</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="fundamentals/the-browser/the-internet" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#5C546A" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#5C546A" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="paper-plane" transform="translate(8.000000, 16.000000)" fill-rule="nonzero">
             <path d="M15.4859375,42.0011543 L23.091127,33.7199043 L21.461998,29.4671719 C21.461998,29.4671719 16.562293,30.1573105 16.4242031,30.571373 C16.2862168,30.9854355 15.8721543,36.5062344 15.8031094,37.4724492 C15.734168,38.438457 15.4859375,42.0011543 15.4859375,42.0011543" id="Shape" fill="#5C546A"></path>

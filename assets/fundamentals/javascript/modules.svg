@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>fundamentals/javascript/modules</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="fundamentals/javascript/modules" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#951818" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFEFC" fill-rule="nonzero" stroke="#951818" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="gift-box" transform="translate(12.000000, 14.000000)" fill-rule="nonzero">
             <path d="M22.3188301,8.10969141 C22.0348789,7.75013477 15.3041738,-0.686669922 9.99073633,0.0465117188 C8.10672461,0.306632813 6.65576953,1.63078125 5.67835352,3.98211133 C4.32989648,7.22596875 4.21782812,9.86278125 5.34530664,11.8191445 C6.74898437,14.2547891 9.53126562,14.6477461 9.64898047,14.6633457 C9.68008398,14.6674609 9.71147461,14.6694707 9.74286523,14.6694707 L21.7554258,14.6694707 C22.1518281,14.6694707 22.4731992,14.3480996 22.4731992,13.9516973 L22.4731992,8.55451953 C22.4732949,8.39316406 22.4188398,8.23640234 22.3188301,8.10969141 Z" id="Shape" fill="#FF3D43"></path>

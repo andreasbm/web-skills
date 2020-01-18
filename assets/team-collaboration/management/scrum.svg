@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>team-collaboration/management/scrum</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="team-collaboration/management/scrum" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#6F2502" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#6F2502" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="time" transform="translate(11.000000, 11.000000)" fill-rule="nonzero">
             <path d="M25.5,8.96484375 C16.4451966,8.96484375 8.96484375,16.4451966 8.96484375,25.5 C8.96484375,34.5544922 16.4451966,42.0351562 25.5,42.0351562 C34.5548034,42.0351562 42.0351562,34.5544922 42.0351562,25.5 C42.0351562,16.4451966 34.5548034,8.96484375 25.5,8.96484375 Z" id="Shape" fill="#7ED8F6"></path>

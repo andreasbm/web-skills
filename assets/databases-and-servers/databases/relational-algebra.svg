@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>databases-and-servers/databases/relational-algebra</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="databases-and-servers/databases/relational-algebra" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#3C3E4C" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#3C3E4C" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="calculating" transform="translate(17.000000, 12.000000)" fill-rule="nonzero">
             <path d="M37.3840821,49.1568627 L1.78779285,49.1568627 C0.851604243,49.1568627 0.0927451746,48.3980037 0.0927451746,47.4618151 L0.0927451746,1.69504768 C0.0927451746,0.758859069 0.851604243,0 1.78779285,0 L37.3841782,0 C38.3203668,0 39.0792258,0.758859069 39.0792258,1.69504768 L39.0792258,47.4618151 C39.0791298,48.3979077 38.3201747,49.1568627 37.3840821,49.1568627 Z" id="Shape" fill="#C7CFE2"></path>

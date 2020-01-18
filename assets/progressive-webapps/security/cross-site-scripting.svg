@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>progressive-webapps/security/cross-site-scripting</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="progressive-webapps/security/cross-site-scripting" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#2F2B2B" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#2F2B2B" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="injection" transform="translate(14.000000, 14.000000)" fill-rule="nonzero">
             <path d="M43.4543609,8.96896362 L35.9778213,1.49242403 C35.6430816,1.15768433 35.6430816,0.614547773 35.9778213,0.279464766 L36.0063171,0.251312256 C36.3410568,-0.083770752 36.8841934,-0.083770752 37.2192764,0.251312256 L44.6954727,7.72750854 C45.0305557,8.06259155 45.0305557,8.60572811 44.6954727,8.94046781 L44.6673203,8.96896362 C44.3322373,9.30370333 43.7891006,9.30370333 43.4543609,8.96896362 Z" id="Shape" fill="#737373"></path>

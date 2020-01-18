@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>architecture-and-paradigms/architecture/observer</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="architecture-and-paradigms/architecture/observer" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#453B56" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#453B56" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="microscope" transform="translate(17.000000, 11.000000)" fill-rule="nonzero">
             <path d="M28.2480264,23.8060516 L26.5409906,22.0990158 C26.226624,21.7846492 25.7172999,21.7846492 25.4030339,22.0990158 L22.18392,25.3181297 C21.8695534,25.6324963 21.8695534,26.1418205 22.18392,26.4561871 L23.8909557,28.1632229 C24.2045175,28.4767847 24.6171677,28.6340183 25.0290131,28.6340183 C25.4416632,28.6340183 25.8542128,28.4767847 26.1677746,28.1632229 L28.2473222,26.0828705 C28.5514279,25.779469 28.7196266,25.3755708 28.7196266,24.9456179 C28.719526,24.5148602 28.5521321,24.1101572 28.2480264,23.8060516 Z" id="Shape" fill="#5C546A"></path>

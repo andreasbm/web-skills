@@ -3,16 +3,9 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>fundamentals/css/box-model</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="fundamentals/css/box-model" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#72512E" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
-        </g>
+        <rect id="mask" stroke="#72512E" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" x="1" y="1" width="71" height="71" rx="14"></rect>
         <g id="box" transform="translate(16.000000, 16.000000)" fill-rule="nonzero">
             <polygon id="Shape" fill="#A98258" points="34.7586207 0 7.24137931 0 0 11.5862069 0 42 42 42 42 11.5862069"></polygon>
             <polygon id="Shape" fill="#DAAE86" points="7.24137931 0 0 12 42 12 34.7586207 0"></polygon>

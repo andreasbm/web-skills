@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>testing/best-practices</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="testing/best-practices" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#810213" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#810213" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="medal" transform="translate(11.000000, 11.000000)" fill-rule="nonzero">
             <path d="M26.9622656,19.5775254 L36.1575059,0.451728516 C36.290584,0.175511719 36.5691914,0 36.8757891,0 L49.7215137,0 C49.9954395,0 50.2499414,0.140847656 50.396168,0.372738281 C50.5416973,0.604628906 50.5580332,0.895289062 50.4397969,1.14202148 L38.2485059,26.4999785 C38.1496934,26.7050742 37.9683047,26.858373 37.7496621,26.9210273 C37.678043,26.9416465 37.6041328,26.9518066 37.5302227,26.9518066 C37.3808086,26.9518066 37.2329883,26.9097715 37.1037949,26.8284902 L27.2541211,20.5963301 C26.9124609,20.3798789 26.787252,19.9416973 26.9622656,19.5775254 Z" id="Shape" fill="#FF4F19"></path>

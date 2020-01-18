@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>fundamentals/the-browser/servo</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="fundamentals/the-browser/servo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#9E342B" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#9E342B" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="opera" transform="translate(13.000000, 11.000000)" fill="#E2574C" fill-rule="nonzero">
             <path d="M37.2693276,3.97629197 C33.5297196,1.4159428 28.9014628,0 23.6827964,0 C18.9092346,0 14.6314089,1.18081931 11.0717849,3.34010606 C4.21956502,7.45546075 0,15.1587028 0,25.0293812 C0,38.3806155 9.46961597,50.5432278 23.6781147,50.5432278 C37.8848795,50.5432278 47.3531083,38.3837366 47.3531083,25.0293812 C47.3515477,15.6449021 43.5377268,8.2194387 37.2693276,3.97629197 Z M23.6812358,4.71512766 C31.3024621,4.71512766 33.1461701,15.3040077 33.1461701,24.9220498 C33.1461701,33.8345479 31.9906665,45.7603027 23.7727883,45.7603027 C15.5549102,45.7603027 14.198962,33.7176797 14.198962,24.8067421 C14.2005226,15.1887001 16.058449,4.71512766 23.6812358,4.71512766 Z" id="Shape"></path>

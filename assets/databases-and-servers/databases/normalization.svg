@@ -3,38 +3,31 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>databases-and-servers/databases/normalization</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="databases-and-servers/databases/normalization" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#394D5C" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
-            <g id="selfie-stick" mask="url(#mask-2)">
-                <g transform="translate(11.000000, 9.000000)">
-                    <rect id="Rectangle-path" fill="#7D8D9C" fill-rule="nonzero" x="0" y="2.61818182" width="41.8909091" height="19.2" rx="2"></rect>
-                    <polygon id="Shape" fill="#87CEE9" fill-rule="nonzero" points="6.98181818 2.61818182 34.9090909 2.61818182 34.9090909 21.8181818 6.98181818 21.8181818"></polygon>
-                    <path d="M45.3818182,28.8 L23.5636364,28.8 L23.5636364,27.0545455 L45.3818182,27.0545455 C45.8638121,27.0545455 46.2545455,26.6638121 46.2545455,26.1818182 L46.2545455,7.85454545 C46.2545455,7.37255149 45.8638121,6.98181818 45.3818182,6.98181818 L41.8909091,6.98181818 L41.8909091,5.23636364 L45.3818182,5.23636364 C46.8278001,5.23636364 48,6.40856356 48,7.85454545 L48,26.1818182 C48,27.6278001 46.8278001,28.8 45.3818182,28.8 Z" id="Shape" fill="#2D75BB" fill-rule="nonzero"></path>
-                    <polygon id="Shape" fill="#394D5C" fill-rule="nonzero" points="13.0909091 19.2 28.8 19.2 28.8 24.4363636 13.0909091 24.4363636"></polygon>
-                    <polygon id="Shape" fill="#7D8D9C" fill-rule="nonzero" points="18.3272727 24.4363636 23.5636364 24.4363636 23.5636364 27.9272727 18.3272727 27.9272727"></polygon>
-                    <polygon id="Shape" fill="#AABECE" fill-rule="nonzero" points="18.3272727 27.9272727 23.5636364 27.9272727 23.5636364 31.4181818 18.3272727 31.4181818"></polygon>
-                    <g id="Group" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(2.618182, 0.000000)">
-                        <polygon id="Shape" fill="#394D5C" fill-rule="nonzero" points="13.9636364 31.4181818 22.6909091 31.4181818 22.6909091 50.6181818 13.9636364 50.6181818"></polygon>
-                        <polygon id="Shape" fill="#394D5C" fill-rule="nonzero" points="10.4727273 0 26.1818182 0 26.1818182 5.23636364 10.4727273 5.23636364"></polygon>
-                        <circle id="Oval" fill="#394D5C" fill-rule="nonzero" cx="35.7818182" cy="12.2181818" r="1.74545455"></circle>
-                        <polygon id="Shape" fill="#394D5C" fill-rule="nonzero" points="0 15.7090909 1.74545455 15.7090909 1.74545455 17.4545455 0 17.4545455"></polygon>
-                        <polygon id="Shape" fill="#394D5C" fill-rule="nonzero" points="0 6.98181818 1.74545455 6.98181818 1.74545455 13.9636364 0 13.9636364"></polygon>
-                    </g>
-                    <polygon id="Shape" fill="#CFDFE8" fill-rule="nonzero" points="15.7090909 21.8181818 17.4545455 21.8181818 17.4545455 24.4363636 15.7090909 24.4363636"></polygon>
-                    <polygon id="Shape" fill="#CFDFE8" fill-rule="nonzero" points="20.0727273 21.8181818 21.8181818 21.8181818 21.8181818 24.4363636 20.0727273 24.4363636"></polygon>
-                    <polygon id="Shape" fill="#CFDFE8" fill-rule="nonzero" points="24.4363636 21.8181818 26.1818182 21.8181818 26.1818182 24.4363636 24.4363636 24.4363636"></polygon>
-                    <polygon id="Shape" fill="#55B56A" fill-rule="nonzero" points="20.0727273 46.2545455 21.8181818 46.2545455 21.8181818 48 20.0727273 48"></polygon>
-                    <polygon id="Shape" fill="#E1462B" fill-rule="nonzero" points="20.0727273 42.7636364 21.8181818 42.7636364 21.8181818 44.5090909 20.0727273 44.5090909"></polygon>
-                    <polygon id="Shape" fill="#F4F4E6" fill-rule="nonzero" transform="translate(17.631269, 12.655858) rotate(-45.000000) translate(-17.631269, -12.655858) " points="13.3123575 11.783263 21.9501801 11.783263 21.9501801 13.528454 13.3123575 13.528454"></polygon>
-                    <polygon id="Shape" fill="#F4F4E6" fill-rule="nonzero" transform="translate(23.995328, 11.783872) rotate(-45.000000) translate(-23.995328, -11.783872) " points="19.6764165 10.9112767 28.3142392 10.9112767 28.3142392 12.6564676 19.6764165 12.6564676"></polygon>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill-rule="nonzero">
+            <rect id="mask" stroke="#394D5C" stroke-width="2" fill="#FFFFFF" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+            <g id="selfie-stick" transform="translate(11.000000, 9.000000)">
+                <rect id="Rectangle-path" fill="#7D8D9C" x="0" y="2.61818182" width="41.8909091" height="19.2" rx="2"></rect>
+                <polygon id="Shape" fill="#87CEE9" points="6.98181818 2.61818182 34.9090909 2.61818182 34.9090909 21.8181818 6.98181818 21.8181818"></polygon>
+                <path d="M45.3818182,28.8 L23.5636364,28.8 L23.5636364,27.0545455 L45.3818182,27.0545455 C45.8638121,27.0545455 46.2545455,26.6638121 46.2545455,26.1818182 L46.2545455,7.85454545 C46.2545455,7.37255149 45.8638121,6.98181818 45.3818182,6.98181818 L41.8909091,6.98181818 L41.8909091,5.23636364 L45.3818182,5.23636364 C46.8278001,5.23636364 48,6.40856356 48,7.85454545 L48,26.1818182 C48,27.6278001 46.8278001,28.8 45.3818182,28.8 Z" id="Shape" fill="#2D75BB"></path>
+                <polygon id="Shape" fill="#394D5C" points="13.0909091 19.2 28.8 19.2 28.8 24.4363636 13.0909091 24.4363636"></polygon>
+                <polygon id="Shape" fill="#7D8D9C" points="18.3272727 24.4363636 23.5636364 24.4363636 23.5636364 27.9272727 18.3272727 27.9272727"></polygon>
+                <polygon id="Shape" fill="#AABECE" points="18.3272727 27.9272727 23.5636364 27.9272727 23.5636364 31.4181818 18.3272727 31.4181818"></polygon>
+                <g id="Group" transform="translate(2.618182, 0.000000)" fill="#394D5C">
+                    <polygon id="Shape" points="13.9636364 31.4181818 22.6909091 31.4181818 22.6909091 50.6181818 13.9636364 50.6181818"></polygon>
+                    <polygon id="Shape" points="10.4727273 0 26.1818182 0 26.1818182 5.23636364 10.4727273 5.23636364"></polygon>
+                    <circle id="Oval" cx="35.7818182" cy="12.2181818" r="1.74545455"></circle>
+                    <polygon id="Shape" points="0 15.7090909 1.74545455 15.7090909 1.74545455 17.4545455 0 17.4545455"></polygon>
+                    <polygon id="Shape" points="0 6.98181818 1.74545455 6.98181818 1.74545455 13.9636364 0 13.9636364"></polygon>
                 </g>
+                <polygon id="Shape" fill="#CFDFE8" points="15.7090909 21.8181818 17.4545455 21.8181818 17.4545455 24.4363636 15.7090909 24.4363636"></polygon>
+                <polygon id="Shape" fill="#CFDFE8" points="20.0727273 21.8181818 21.8181818 21.8181818 21.8181818 24.4363636 20.0727273 24.4363636"></polygon>
+                <polygon id="Shape" fill="#CFDFE8" points="24.4363636 21.8181818 26.1818182 21.8181818 26.1818182 24.4363636 24.4363636 24.4363636"></polygon>
+                <polygon id="Shape" fill="#55B56A" points="20.0727273 46.2545455 21.8181818 46.2545455 21.8181818 48 20.0727273 48"></polygon>
+                <polygon id="Shape" fill="#E1462B" points="20.0727273 42.7636364 21.8181818 42.7636364 21.8181818 44.5090909 20.0727273 44.5090909"></polygon>
+                <polygon id="Shape" fill="#F4F4E6" transform="translate(17.631269, 12.655858) rotate(-45.000000) translate(-17.631269, -12.655858) " points="13.3123575 11.783263 21.9501801 11.783263 21.9501801 13.528454 13.3123575 13.528454"></polygon>
+                <polygon id="Shape" fill="#F4F4E6" transform="translate(23.995328, 11.783872) rotate(-45.000000) translate(-23.995328, -11.783872) " points="19.6764165 10.9112767 28.3142392 10.9112767 28.3142392 12.6564676 19.6764165 12.6564676"></polygon>
             </g>
         </g>
     </g>

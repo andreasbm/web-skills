@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>databases-and-servers/databases/acid</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="databases-and-servers/databases/acid" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#3F2303" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#3F2303" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="lemon" transform="translate(14.000000, 16.000000)" fill-rule="nonzero">
             <path d="M31.2572186,31.2568683 C37.6513615,24.8630757 38.958912,15.434911 34.9676078,8.45757184 C34.4905427,7.62393401 34.6180403,6.57663255 35.29721,5.89781315 L35.3262823,5.86839055 C36.4198191,4.7748538 36.4198191,3.00144674 35.3262823,1.90790999 C34.2323952,0.814022904 32.4593385,0.814022904 31.3654514,1.90790999 L31.3363791,1.93698217 C30.6572094,2.61580166 29.6102583,2.74329922 28.7766204,2.26658445 C21.7989309,-1.72507003 12.3707664,-0.417519493 5.97697368,5.97662344 C-0.417169248,12.370416 -1.72471979,21.7989309 2.26658445,28.7762701 C2.74364947,29.609908 2.6161519,30.6568592 1.93698217,31.3360289 L1.90790999,31.3651011 C0.814022904,32.4589882 0.814022904,34.232045 1.90790999,35.3259321 C3.00179698,36.4194688 4.7748538,36.4194688 5.86874088,35.3259321 L5.89781315,35.2965095 C6.5769828,34.6176901 7.62393401,34.4901925 8.45757184,34.9669073 C15.4352614,38.958912 24.8634259,37.6510112 31.2572186,31.2568683 Z" id="Shape" fill="#FFE671"></path>

@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>the-modern-web/gamepad-api</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="the-modern-web/gamepad-api" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#25394A" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#25394A" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="game-pad" transform="translate(12.000000, 21.000000)" fill-rule="nonzero">
             <path d="M47.8544756,11.0932415 C45.4195341,2.55421463 39.7979195,-1.12783659 34.5825268,0.359134146 C33.2301268,0.7448 32.0431317,1.44621707 31.0636098,2.41641707 C30.502022,2.97274634 29.7603293,3.30881463 28.9698756,3.30881463 L19.9818415,3.30881463 C19.1912683,3.30881463 18.4494561,2.9723878 17.8877488,2.41617805 C16.9083463,1.44621707 15.7215902,0.7448 14.3691902,0.359014634 C9.15403659,-1.12783659 3.53242195,2.55421463 1.0976,11.0932415 C-1.33746098,19.6322683 0.336307317,29.7943902 5.5517,31.2816 C9.48520488,32.403222 14.308,28.2679805 17.4864268,22.5046244 C17.8238098,21.892722 18.4777805,21.5233098 19.1763293,21.5233098 L29.7759854,21.5233098 C30.4745341,21.5233098 31.1285049,21.892722 31.4658878,22.5046244 C34.6441951,28.267861 39.4669902,32.403222 43.4004951,31.2816 C48.6156488,29.7945098 50.2894171,19.6322683 47.8544756,11.0932415 Z" id="Shape" fill="#3A556A"></path>

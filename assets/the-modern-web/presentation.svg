@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>the-modern-web/presentation</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="the-modern-web/presentation" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#1E2D3D" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#1E2D3D" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="projection" transform="translate(12.000000, 12.000000)" fill-rule="nonzero">
             <path d="M23.2758789,35.3448242 L26.7241211,35.3448242 L26.7241211,48.2758789 C26.7241211,49.228125 25.9522461,50 25,50 C24.0477539,50 23.2758789,49.2280273 23.2758789,48.2758789 L23.2758789,35.3448242 Z" id="Shape" fill="#805333"></path>

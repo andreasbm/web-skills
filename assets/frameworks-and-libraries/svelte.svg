@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>frameworks-and-libraries/svelte</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="frameworks-and-libraries/svelte" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#6A1A00" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#6A1A00" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="image-(2)" transform="translate(15.000000, 11.000000)" fill-rule="nonzero">
             <path d="M39.3801439,7.08441667 C34.709803,0.396659091 25.4800152,-1.58663636 18.805053,2.6657197 L7.08441667,10.1382652 C3.88147256,12.1494479 1.6760059,15.4189283 1.01084091,19.142 C0.451383381,22.2438569 0.942166531,25.443703 2.40554545,28.235303 C1.40123929,29.75918 0.717727036,31.4715886 0.396659091,33.2681818 C-0.278619639,37.06241 0.602261853,40.9687274 2.84059091,44.1059318 C7.53225758,50.7936894 16.7449848,52.7769848 23.419947,48.5246288 L35.1405833,41.0520833 C38.3427716,39.0401197 40.5479869,35.7710118 41.2141591,32.0483485 C41.7755716,28.9437408 41.2847383,25.7405654 39.8194545,22.9465152 C40.8237607,21.4226382 41.507273,19.7102296 41.8283409,17.9136364 C42.5043647,14.1187862 41.621762,10.2116549 39.3801439,7.07588636" id="Shape" fill="#FF3E00"></path>

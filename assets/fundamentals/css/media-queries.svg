@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>fundamentals/css/media-queries</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="fundamentals/css/media-queries" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#7F5F43" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#7F5F43" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="set-square" transform="translate(13.000000, 21.000000)" fill-rule="nonzero">
             <path d="M46.2634824,29.1066392 L2.28300196,0.244307843 C1.82940588,-0.053727451 1.25056863,-0.077872549 0.773933333,0.180258824 C0.296652941,0.437929412 0,0.935115686 0,1.47764314 L0,30.3393294 C0,31.1525216 0.661686275,31.8138392 1.4745098,31.8138392 L45.4541608,31.8138392 C46.1107784,31.8138392 46.6788333,31.3908392 46.8667412,30.7615922 C47.0553863,30.1322529 46.8128294,29.4669725 46.2634824,29.1066392 Z M25.7168333,24.441198 L7.37254902,24.441198 L7.37254902,12.4028392 L25.7168333,24.441198 Z" id="Shape" fill="#FFD788"></path>

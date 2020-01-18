@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>algorithms-and-data-structures/analysis/big-o-notation</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="algorithms-and-data-structures/analysis/big-o-notation" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#2E2D2C" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#2E2D2C" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="letter-o-sign" transform="translate(13.000000, 13.000000)" fill="#000000" fill-rule="nonzero">
             <path d="M23.4670507,46.9340192 C36.4266434,46.9340192 46.9340192,36.4266434 46.9340192,23.4670507 C46.9340192,10.5073759 36.4266434,0 23.4670507,0 C10.5073759,0 0,10.5073759 0,23.4671329 C0,36.4266434 10.5073759,46.9340192 23.4670507,46.9340192 Z M17.5628811,11.7708706 C17.5628811,8.5113549 20.2036731,5.86670105 23.4670507,5.86670105 C26.7303462,5.86670105 29.3711381,8.51127273 29.3711381,11.7708706 L29.3711381,35.1630664 C29.3711381,38.4228287 26.7303462,41.0674003 23.4670507,41.0674003 C20.2036731,41.0674003 17.5628811,38.4227465 17.5628811,35.1632308 L17.5628811,11.7708706 Z" id="Shape"></path>

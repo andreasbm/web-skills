@@ -4,16 +4,17 @@
     <title>the-modern-web/browser-extensions</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
+        <rect id="path-1" x="6" y="0" width="69" height="69" rx="14"></rect>
     </defs>
     <g id="the-modern-web/browser-extensions" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
+        <g id="container" transform="translate(-4.000000, 2.000000)">
+            <rect id="mask" stroke="#61130D" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" x="5" y="-1" width="71" height="71" rx="14"></rect>
             <mask id="mask-2" fill="white">
                 <use xlink:href="#path-1"></use>
             </mask>
-            <rect stroke="#61130D" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+            <rect stroke="#61130D" stroke-width="2" x="5" y="-1" width="71" height="71" rx="14"></rect>
             <g id="electric-car" mask="url(#mask-2)" fill-rule="nonzero">
-                <g transform="translate(-6.000000, 11.000000)">
+                <g transform="translate(0.000000, 11.000000)">
                     <polygon id="Shape" fill="#C7463B" points="62.6822134 27.9749646 56.7856616 27.9749646 63.1034483 13.2335853 64.8842069 12.1279818 67.6612371 12.1369495 69 13.2335853"></polygon>
                     <path d="M64.0862069,29.9404818 L64.0862069,36.5741025 L56.2241379,36.6969473 L56.2241379,29.9404818 C56.2241379,27.7694314 57.984122,26.0094473 60.1551724,26.0094473 C62.3262228,26.0094473 64.0862069,27.7694314 64.0862069,29.9404818 Z" id="Shape" fill="#F55648"></path>
                     <path d="M38.5344828,24.0439301 C37.9917202,24.0439301 37.5517241,23.6039341 37.5517241,23.0611715 L37.5517241,19.130137 C37.5517241,18.5873744 37.9917202,18.1473784 38.5344828,18.1473784 C39.0772454,18.1473784 39.5172414,18.5873744 39.5172414,19.130137 L39.5172414,23.0611715 C39.5172414,23.6039341 39.0772454,24.0439301 38.5344828,24.0439301 Z" id="Shape" fill="#C3C3C3"></path>

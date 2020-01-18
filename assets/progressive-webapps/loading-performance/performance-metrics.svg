@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>progressive-webapps/loading-performance/performance-metrics</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="progressive-webapps/loading-performance/performance-metrics" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#5F3932" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#5F3932" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="form" transform="translate(16.000000, 10.000000)" fill-rule="nonzero">
             <path d="M37.8,3.40540541 L22.68,3.40540541 C22.68,4.33179234 21.92778,5.08288288 21,5.08288288 C20.07222,5.08288288 19.32,4.33179234 19.32,3.40540541 L4.2,3.40540541 C1.884225,3.40540541 0,5.28680124 0,7.5990991 L0,49.536036 C0,51.8483339 1.884225,53.7297297 4.2,53.7297297 L37.8,53.7297297 C40.115775,53.7297297 42,51.8483339 42,49.536036 L42,7.5990991 C42,5.28680124 40.11567,3.40540541 37.8,3.40540541 Z M37.8,48.6972973 C37.8,49.1604908 37.42389,49.536036 36.96,49.536036 L5.04,49.536036 C4.57611,49.536036 4.2,49.1604908 4.2,48.6972973 L4.2,8.43783784 C4.2,7.97464437 4.57611,7.5990991 5.04,7.5990991 L36.96,7.5990991 C37.42389,7.5990991 37.8,7.97464437 37.8,8.43783784 L37.8,48.6972973 Z" id="Shape" fill="#9F6459"></path>

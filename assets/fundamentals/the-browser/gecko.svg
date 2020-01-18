@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>fundamentals/the-browser/gecko</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="fundamentals/the-browser/gecko" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#AF5916" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#AF5916" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="firefox" transform="translate(14.000000, 14.000000)" fill-rule="nonzero">
             <path d="M23.0006289,46 C10.2898047,46 0.00314453125,35.7131602 0.00314453125,23 C0.00314453125,10.2878281 10.2889063,0 23.0006289,0 C35.7113633,0 45.9981133,10.2868398 45.9981133,23 C45.9980234,35.7121719 35.7123516,46 23.0006289,46 Z" id="Shape" fill="#3FA0E1"></path>

@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>fundamentals/javascript/promises</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="fundamentals/javascript/promises" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#4C241D" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#4C241D" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="promise-(1)" transform="translate(19.000000, 11.000000)" fill-rule="nonzero">
             <path d="M13.9616722,20.886729 L33.3707951,23.9319125 L33.3707951,40.087303 C33.3707951,45.1801416 29.2422645,49.3084415 24.1496566,49.3084415 L13.4010816,49.3084415 C7.95896962,49.3084415 3.38727256,45.2165916 2.78631021,39.8076997 L1.43812443,27.6749505 C1.24364794,25.9244314 2.61398051,24.3933039 4.37534232,24.3933039 L7.53287463,24.3933039 L13.9616722,20.886729 Z" id="Shape" fill="#EDEBDC"></path>

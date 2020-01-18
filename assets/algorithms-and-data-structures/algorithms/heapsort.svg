@@ -4,16 +4,17 @@
     <title>algorithms-and-data-structures/algorithms/heapsort</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
+        <rect id="path-1" x="7" y="0" width="69" height="69" rx="14"></rect>
     </defs>
     <g id="algorithms-and-data-structures/algorithms/heapsort" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
+        <g id="container" transform="translate(-5.000000, 2.000000)">
+            <rect id="mask" stroke="#051543" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" x="6" y="-1" width="71" height="71" rx="14"></rect>
             <mask id="mask-2" fill="white">
                 <use xlink:href="#path-1"></use>
             </mask>
-            <rect stroke="#051543" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+            <rect stroke="#051543" stroke-width="2" x="6" y="-1" width="71" height="71" rx="14"></rect>
             <g id="drone" mask="url(#mask-2)">
-                <g transform="translate(-7.000000, 13.000000)">
+                <g transform="translate(0.000000, 13.000000)">
                     <path d="M42,37.3371429 C41.6624927,37.3371429 41.3888889,37.0635391 41.3888889,36.7260317 L41.3888889,29.7247937 C41.3888889,29.3872863 41.6624927,29.1136825 42,29.1136825 C42.3375073,29.1136825 42.6111111,29.3872863 42.6111111,29.7247937 L42.6111111,36.7260317 C42.6111111,37.0635391 42.3375073,37.3371429 42,37.3371429 Z" id="Shape" fill="#F29B00" fill-rule="nonzero"></path>
                     <path d="M55.2408571,37.3371429 C54.9033498,37.3371429 54.629746,37.0635391 54.629746,36.7260317 L54.629746,29.7247937 C54.629746,29.3872863 54.9033498,29.1136825 55.2408571,29.1136825 C55.5783645,29.1136825 55.8519683,29.3872863 55.8519683,29.7247937 L55.8519683,36.7260317 C55.8519683,37.0635391 55.5783645,37.3371429 55.2408571,37.3371429 Z" id="Shape" fill="#F29B00" fill-rule="nonzero"></path>
                     <path d="M28.7591429,37.3371429 C28.4216355,37.3371429 28.1480317,37.0635391 28.1480317,36.7260317 L28.1480317,29.7247937 C28.1480317,29.3872863 28.4216355,29.1136825 28.7591429,29.1136825 C29.0966502,29.1136825 29.370254,29.3872863 29.370254,29.7247937 L29.370254,36.7260317 C29.370254,37.0635391 29.0966502,37.3371429 28.7591429,37.3371429 Z" id="Shape" fill="#F29B00" fill-rule="nonzero"></path>

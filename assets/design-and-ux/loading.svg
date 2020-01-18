@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>design-and-ux/loading</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="design-and-ux/loading" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#000000" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#000000" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="spinner-of-dots" transform="translate(12.000000, 11.000000)" fill="#000000" fill-rule="nonzero">
             <path d="M11.0326208,35.554416 C9.78039135,35.554416 8.71627583,35.9925812 7.83983577,36.8689117 C6.96372459,37.7460095 6.52534013,38.8099057 6.52534013,40.0621352 C6.52534013,41.3144743 6.96339572,42.3783706 7.83983577,43.2554684 C8.7166047,44.1317988 9.78072022,44.5699641 11.0326208,44.5699641 C12.2638026,44.5699641 13.3225466,44.1317988 14.2095105,43.2554684 C15.0961455,42.3794669 15.5394631,41.3144743 15.5394631,40.0621352 C15.5394631,38.8099057 15.0962552,37.7467768 14.2095105,36.8689117 C13.322437,35.9933486 12.2638026,35.554416 11.0326208,35.554416 Z" id="Shape"></path>

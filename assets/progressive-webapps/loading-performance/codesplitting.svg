@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>progressive-webapps/loading-performance/codesplitting</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="progressive-webapps/loading-performance/codesplitting" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#77241B" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#77241B" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="bread" transform="translate(10.000000, 13.000000)" fill-rule="nonzero">
             <path d="M34.9530508,27.6677966 C40.459661,28.6738983 49.5055932,32.159322 52.2633898,36.8394915 C53.3437017,38.5930436 53.1155073,40.8529031 51.7064407,42.3550847 C49.5145763,44.8972881 45.4183051,45.2745763 42.3101695,45.5261017 C37.2077966,45.930339 32.0605085,45.8135593 26.9491525,45.8135593 C21.0113559,45.8135593 14.9118644,46.1189831 8.98305085,45.2386441 C5.91983051,44.7805085 0.377288136,43.1186441 0.736610169,39.040339 C1.00610169,35.8783051 4.59033898,33.4888136 7.06966102,32.0335593 L11.6779661,29.7967797 C13.5298626,29.0593512 15.4333962,28.4588674 17.3732203,28.0001695 C27.5330508,26.5 24.6045763,26.6437288 34.9530508,27.6677966 Z" id="Shape" fill="#CB8252"></path>

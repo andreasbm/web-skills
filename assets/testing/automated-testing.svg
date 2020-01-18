@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>testing/automated-testing</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="testing/automated-testing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#534E4E" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#534E4E" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="support" transform="translate(15.000000, 12.000000)" fill-rule="nonzero">
             <path d="M40.0838121,21.7083884 C39.6655488,21.7083884 39.3265078,21.3697229 39.3265078,20.9514596 L39.3265078,19.1372334 C39.3265078,9.41993423 31.4208067,1.5142331 21.7035075,1.5142331 C11.9858329,1.5142331 4.08013178,9.41993423 4.08013178,19.1372334 L4.08013178,20.9514596 C4.08013178,21.3697229 3.74146615,21.7083884 3.32320295,21.7083884 C2.90493964,21.7083884 2.56589858,21.3697229 2.56589858,20.9514596 L2.56589858,19.1372334 C2.56589858,8.58490957 11.1511837,0 21.7035075,0 C32.2558314,0 40.8407409,8.58490957 40.8407409,19.1372334 L40.8407409,20.9514596 C40.8407409,21.3697229 40.5020753,21.7083884 40.0838121,21.7083884 Z" id="Shape" fill="#20A5D3"></path>

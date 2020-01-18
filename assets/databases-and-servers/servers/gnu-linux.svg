@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>databases-and-servers/servers/gnu-linux</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="databases-and-servers/servers/gnu-linux" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#293A4B" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#293A4B" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="linux-icon" transform="translate(16.000000, 11.000000)">
             <path d="M8.35582222,41.1247122 C6.17921111,37.9920567 5.75477778,27.8069011 10.8337444,21.5412011 C13.3504,18.5354011 13.9924556,16.4403789 14.1909444,13.6280122 C14.3259667,10.4217011 11.9232556,0.84889 20.9850667,0.119567778 C30.1635444,-0.61271 29.6706667,8.44762333 29.6177778,13.2421567 C29.5739889,17.29049 32.5902889,19.5850122 34.6535,22.7403011 C38.4723889,28.5377789 38.1493,38.5194678 33.9341333,43.9223789 C28.595,50.6858567 24.0221333,47.7527789 20.9850667,47.9988678 C15.2982667,48.3100567 15.1102,51.3423011 8.35582222,41.1247122 Z" id="path106" fill="#000000" fill-rule="nonzero"></path>

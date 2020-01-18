@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>build-tools/package-managers</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="build-tools/package-managers" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#5B5D6E" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#5B5D6E" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="packing" transform="translate(14.000000, 15.000000)" fill-rule="nonzero">
             <path d="M24.8276074,18.6418652 L7.75863281,18.6418652 C7.33016602,18.6418652 6.98273437,18.9892969 6.98273437,19.4177637 L6.98273437,36.4867383 C6.98273437,36.9152051 7.33016602,37.2626367 7.75863281,37.2626367 L24.8276074,37.2626367 C25.2560742,37.2626367 25.6035059,36.9152051 25.6035059,36.4867383 L25.6035059,19.4177637 C25.603418,18.9892969 25.2560742,18.6418652 24.8276074,18.6418652 Z" id="Shape" fill="#EBD2AF"></path>

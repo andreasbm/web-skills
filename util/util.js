@@ -32,7 +32,7 @@ export function constructImagePathPrefix (collection, area, skill) {
 		area.name,
 		skill.name
 	].filter(name => name != null).map(pathify);
-	return `${paths.join("/")}.png`;
+	return `${paths.join("/")}.svg`;
 }
 
 /**

@@ -8,6 +8,7 @@
     </defs>
     <g id="team-collaboration/management/waterfall-development" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="container" transform="translate(2.000000, 2.000000)">
+            <rect id="mask" stroke="#16161D" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" x="-1" y="-1" width="71" height="71" rx="14"></rect>
             <mask id="mask-2" fill="white">
                 <use xlink:href="#path-1"></use>
             </mask>

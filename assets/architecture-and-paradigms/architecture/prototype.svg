@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>architecture-and-paradigms/architecture/prototype</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="architecture-and-paradigms/architecture/prototype" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#173D60" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#173D60" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="blueprint-(2)" transform="translate(13.000000, 13.000000)" fill-rule="nonzero">
             <path d="M47,7.94150546 L47,8.10358431 C46.9189606,10.3723298 45.0550537,12.1551971 42.7863083,12.1551971 L38.0863801,12.1551971 C37.6001434,12.1551971 37.2759857,12.4793548 37.2759857,12.9655915 L37.2759857,42.9483871 L17.2603226,42.9483871 L28.6051254,37.7622223 L33.0619354,33.3050537 C33.3050537,33.0619354 33.3860931,32.6567383 33.2240143,32.3325806 L33.0619354,31.927742 C32.8998566,31.6035843 32.5756989,31.4415055 32.2518997,31.4415055 L25.9311829,31.8467026 L9.72401433,39.2205734 L5.99655917,40.9224015 C5.26720426,41.3275985 4.86200716,42.1379928 5.1051254,42.9483871 L4.21369173,42.9483871 C1.94494629,42.9483871 0.0810393828,41.1655197 1.13686838e-13,38.8964157 L1.13686838e-13,38.7343368 C0.0810393828,36.5466309 1.86390691,34.8448029 4.05161288,34.8448029 L8.91361995,34.8448029 C9.39985661,34.8448029 9.72401433,34.5206452 9.72401433,34.0344085 L9.72401433,4.05161288 L42.9483871,4.05161288 C45.1360931,4.05161288 46.9189606,5.75344083 47,7.94150546 Z" id="Shape" fill="#285680"></path>

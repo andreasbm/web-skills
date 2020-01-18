@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>testing/ava</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="testing/ava" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#0E1F64" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#0E1F64" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="Group" transform="translate(6.000000, 22.000000)" fill="#0E1F64" fill-rule="nonzero" stroke="#DFE5FF">
             <path d="M3.79167217,24.2559449 C2.22782638,24.0060444 0.669422434,22.67962 0.962329287,21.7412149 C1.25523614,20.8028099 7.41419552,5.09253114 8.1940797,3.64037567 C8.97396388,2.1882202 10.2461266,1.32778045 11.9254217,1.32778045 C13.6047168,1.32778045 14.6341357,2.1259953 15.6029697,3.64037567 C16.5718036,5.15475605 23.0621165,20.8028099 23.4148335,21.7412149 C23.7675505,22.67962 22.7370876,23.6632384 21.2589386,24.2559449 C19.7807896,24.8486514 18.5568065,24.7403726 17.0808593,23.8522576 C15.604912,22.9641427 14.7562596,20.4461048 14.1429266,20.0996853 C13.5295937,19.7532657 10.5956404,19.7532657 9.98721039,20.0996853 C9.37878038,20.4461048 8.67997228,21.7412149 8.1940797,22.67962 C7.70818712,23.6180251 5.35551796,24.5058454 3.79167217,24.2559449 Z" id="Path-11"></path>

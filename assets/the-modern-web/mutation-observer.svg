@@ -4,16 +4,17 @@
     <title>the-modern-web/mutation-observer</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
+        <rect id="path-1" x="0" y="10" width="69" height="69" rx="14"></rect>
     </defs>
     <g id="the-modern-web/mutation-observer" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
+        <g id="container" transform="translate(2.000000, -8.000000)">
+            <rect id="mask" stroke="#000000" stroke-width="2" fill="#2F373B" fill-rule="nonzero" x="-1" y="9" width="71" height="71" rx="14"></rect>
             <mask id="mask-2" fill="white">
                 <use xlink:href="#path-1"></use>
             </mask>
-            <rect stroke="#000000" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+            <rect stroke="#000000" stroke-width="2" x="-1" y="9" width="71" height="71" rx="14"></rect>
             <g id="fertilization-(1)" mask="url(#mask-2)">
-                <g transform="translate(4.000000, -10.000000)">
+                <g transform="translate(4.000000, 0.000000)">
                     <g id="Group" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(33.000000, 0.734094)">
                         <path d="M51,41.9516129 C51,42.1417317 50.9980796,42.333771 50.9967994,42.5232497 C48.5054103,44.8078767 45.6197006,46.6687368 42.4536135,47.9944478 C38.9572191,49.4565065 35.1202749,50.2649918 31.0925718,50.2649918 C14.8255676,50.2649918 1.63759273,37.0782971 1.63759273,20.8112929 C1.63759273,12.6931538 4.9221038,5.34381202 10.2300687,0.0166433192 C12.7643464,0.0870577904 15.2416527,0.381517964 17.6440636,0.883380521 C36.6905159,4.8477106 51,21.7292404 51,41.9516129 Z" id="Shape" fill="#EA2F69" fill-rule="nonzero"></path>
                         <path d="M51,41.9516129 C51,42.1417317 50.9980796,42.333771 50.9967994,42.5232497 C48.5054103,44.8078767 45.6197006,46.6687368 42.4536135,47.9944478 C42.0394488,48.0110911 41.6214434,48.020053 41.2021579,48.020053 C24.9351535,48.020053 11.7471786,34.8333583 11.7471786,18.5663541 C11.7471786,11.9294778 13.9421871,5.80598655 17.6440636,0.883380521 C36.6905159,4.8477106 51,21.7292404 51,41.9516129 Z" id="Shape" fill="#FF648D" fill-rule="nonzero"></path>

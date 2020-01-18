@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>design-and-ux/contrast</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="design-and-ux/contrast" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#050A43" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#050A43" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="contrast-(1)" transform="translate(12.000000, 12.000000)" fill-rule="nonzero">
             <path d="M44.4587602,44.4586647 L44.4587602,7.58965107 L7.58965107,44.4586647 L44.4587602,44.4586647 Z M28.8982515,31.1210175 L31.1212086,31.1210175 L31.1212086,28.8980604 C31.1212086,27.670386 32.1164912,26.6751033 33.3441657,26.6751033 C34.5718402,26.6751033 35.5671228,27.670386 35.5671228,28.8980604 L35.5671228,31.1210175 L37.7900799,31.1210175 C39.0177544,31.1210175 40.013037,32.1163002 40.013037,33.3439747 C40.013037,34.5716491 39.0177544,35.5669318 37.7900799,35.5669318 L35.5671228,35.5669318 L35.5671228,37.7898889 C35.5671228,39.0175634 34.5718402,40.012846 33.3441657,40.012846 C32.1164912,40.012846 31.1212086,39.0175634 31.1212086,37.7898889 L31.1212086,35.5669318 L28.8982515,35.5669318 C27.670577,35.5669318 26.6752943,34.5716491 26.6752943,33.3439747 C26.6752943,32.1163002 27.670577,31.1210175 28.8982515,31.1210175 Z" id="Shape" fill="#FFFFFF"></path>

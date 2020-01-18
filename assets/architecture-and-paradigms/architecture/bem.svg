@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>architecture-and-paradigms/architecture/bem</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="architecture-and-paradigms/architecture/bem" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#313E3F" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#313E3F" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="beam" transform="translate(13.000000, 13.000000)" fill-rule="nonzero">
             <path d="M47,20.2586523 L47,21.8793262 L25.9310566,43.7586523 L12.9654824,43.7586523 L12.9654824,24.3103828 L25.9311484,24.3103828 L36.4654824,13.7758652 L36.060291,15.8017305 C36.0596484,16.9839824 36.5290059,18.1179492 37.3649082,18.9539434 C38.2008105,19.7899375 39.3348691,20.2592949 40.5171211,20.2585605 L47,20.2585605 L47,20.2586523 Z" id="Shape" fill="#7F8C8D"></path>

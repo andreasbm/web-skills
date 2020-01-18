@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>fundamentals/the-browser/standardization</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="fundamentals/the-browser/standardization" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#30303F" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#30303F" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="office-material" transform="translate(16.000000, 15.000000)" fill-rule="nonzero">
             <path d="M25.8572393,43.3768116 L14.6390809,43.3768116 C14.0195211,43.3768116 13.5172989,42.8745047 13.5172989,42.2550296 L13.5172989,1.12178196 C13.5172989,0.502306867 14.0196058,0 14.6390809,0 L25.8572393,0 C26.4767991,0 26.9790213,0.502306867 26.9790213,1.12178196 L26.9790213,42.2549449 C26.9790213,42.8745047 26.4767144,43.3768116 25.8572393,43.3768116 Z" id="Shape" fill="#FFD782"></path>

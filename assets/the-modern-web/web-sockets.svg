@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>the-modern-web/web-sockets</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="the-modern-web/web-sockets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#38454F" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#38454F" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="socket" transform="translate(15.000000, 17.000000)" fill-rule="nonzero">
             <path d="M0,28.0956328 L0,3.81975 C0,1.69563281 1.66899219,0.026640625 3.79310937,0.026640625 L40.2068906,0.026640625 C42.3310078,0.026640625 44,1.69563281 44,3.81975 L44,28.0956328 C44,30.21975 42.3310078,31.8887422 40.2068906,31.8887422 L3.79310937,31.8887422 C1.66899219,31.8887422 0,30.21975 0,28.0956328" id="Shape" fill="#E8EDEE"></path>

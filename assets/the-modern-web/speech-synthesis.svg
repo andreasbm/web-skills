@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>the-modern-web/speech-synthesis</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="the-modern-web/speech-synthesis" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#5B3300" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#5B3300" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="text-lines-(1)" transform="translate(15.000000, 15.000000)" fill-rule="nonzero">
             <path d="M44,16.9362188 C44,7.5989375 34.1497578,0.029390625 21.9999141,0.029390625 C9.84921094,0.029390625 0,7.5989375 0,16.9362188 C0,25.2696641 7.84566406,32.1929609 18.170625,33.5853203 C18.7132344,36.8868672 17.7120625,40.3929453 15.1657344,42.9393594 C20.6294688,42.9393594 25.1398984,38.863 25.8248203,33.5858359 C36.1513281,32.1948516 44,25.2707813 44,16.9362188 Z" id="Shape" fill="#FFB14D"></path>

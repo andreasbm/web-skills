@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>progressive-webapps/loading-performance/resource-prioritization</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="progressive-webapps/loading-performance/resource-prioritization" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#575F64" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#575F64" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="priority" transform="translate(13.000000, 13.000000)" fill-rule="nonzero">
             <path d="M35.9765127,12.4066595 L35.9765127,17.9204113 C35.9765127,18.692193 35.3702153,19.2988492 34.5980747,19.2988492 C33.8259341,19.2988492 33.2196368,18.692193 33.2196368,17.9204113 L33.2196368,12.4066595 C33.2196368,11.6345189 33.8259341,11.0282215 34.5980747,11.0282215 C35.3702153,11.0282215 35.9765127,11.6345189 35.9765127,12.4066595 Z" id="Shape" fill="#7C8388"></path>

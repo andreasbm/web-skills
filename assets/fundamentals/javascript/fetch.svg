@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>fundamentals/javascript/fetch</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="fundamentals/javascript/fetch" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#334A5E" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFAED" fill-rule="nonzero" stroke="#334A5E" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="delivery-truck" transform="translate(14.000000, 24.000000)" fill-rule="nonzero">
             <path d="M39.9854561,8.86861598 L30.2988752,8.86861598 L30.2988752,26.4250858 L46.169575,26.4250858 L46.169575,18.5229474 L44.3186179,12.1258168 C43.7606647,10.1967096 41.9937212,8.86861598 39.9854561,8.86861598" id="Shape" fill="#FF7058"></path>

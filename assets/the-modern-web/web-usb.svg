@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>the-modern-web/web-usb</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="the-modern-web/web-usb" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#252B42" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#252B42" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="usb" transform="translate(16.000000, 16.000000)" fill-rule="nonzero">
             <path d="M9.19223197,40.1724873 L7.24573099,38.9131559 C5.1101345,37.5310643 3.2919883,35.7129181 1.90989669,33.5773216 L0.897444444,32.0124483 C-0.490321637,29.8676608 -0.191173489,27.045614 1.61498441,25.2394561 L20.9681033,5.88633723 L34.9366355,19.8548694 L15.2618304,39.5297544 C13.6434094,41.1482554 11.114117,41.4163138 9.19223197,40.1724873" id="Shape" fill="#434C6D"></path>

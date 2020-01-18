@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>databases-and-servers/servers/request-reply-protocol</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="databases-and-servers/servers/request-reply-protocol" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#481F55" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#481F55" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="email" transform="translate(16.000000, 17.000000)" fill-rule="nonzero">
             <path d="M37.68,1.32 C36.8395329,0.471912638 35.693995,-0.0035936175 34.5,9.99200722e-16 L4.5,9.99200722e-16 C2.01626,0.003717255 0.003717255,2.01625999 0,4.5 L0,28.5 C0.010599555,30.9808776 2.01912237,32.9894005 4.5,33 L32.25,33 L36.1125,30.105 L39,27.9375 L39,4.5 C39.0035936,3.30600492 38.5280873,2.16046713 37.68,1.32 Z" id="Shape" fill="#F3D55B"></path>

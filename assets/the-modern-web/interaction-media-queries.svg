@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>the-modern-web/interaction-media-queries</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="the-modern-web/interaction-media-queries" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#24353E" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#24353E" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="click" transform="translate(15.000000, 11.000000)" fill-rule="nonzero">
             <path d="M41.5731578,35.8453045 L18.5322375,16.9936692 C18.0840203,16.6281242 17.424213,16.6951849 17.058668,17.1434022 C16.9064804,17.330053 16.823219,17.5634402 16.8230226,17.8042895 L16.8230226,49.2236816 C16.8225317,49.6854485 17.1246488,50.0931151 17.5665822,50.2270403 C17.6650623,50.2566923 17.7674699,50.2715184 17.8702702,50.2710274 C18.2205964,50.2708311 18.5475545,50.0955698 18.7416674,49.8039585 L26.8102655,37.7032706 L40.9112887,37.7032706 C41.4897001,37.7025833 41.9580454,37.2331579 41.9573581,36.6547466 C41.9569653,36.3410436 41.8159708,36.0439339 41.5731578,35.8453045 Z" id="Shape" fill="#2196F3"></path>

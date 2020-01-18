@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>databases-and-servers/servers/docker</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="databases-and-servers/servers/docker" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#022A4A" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#022A4A" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="docker" transform="translate(11.000000, 11.000000)" fill-rule="nonzero">
             <path d="M51,25.5 C51,39.5832715 39.5832715,51 25.5,51 C11.4167285,51 0,39.5832715 0,25.5 C0,11.4167285 11.4167285,0 25.5,0 C38.4987246,0 49.2253594,9.72645703 50.8001836,22.2984551 C50.9146348,23.2070918 50.9812734,24.1302715 50.9958164,25.066002 C50.9990039,25.2106348 51,25.3553672 51,25.5 Z" id="Shape" fill="#006BC0"></path>

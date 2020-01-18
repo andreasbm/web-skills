@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>design-and-ux/color-theory</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="design-and-ux/color-theory" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#10422F" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#10422F" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="rgb" transform="translate(11.000000, 11.000000)" fill-rule="nonzero">
             <path d="M41.1835937,15.234375 C41.1835937,23.6200256 34.3856506,30.4179687 26,30.4179687 C17.6143494,30.4179687 10.8164062,23.6200256 10.8164062,15.234375 C10.8164062,6.84872439 17.6143494,0.05078125 26,0.05078125 C34.3856506,0.05078125 41.1835937,6.84872439 41.1835937,15.234375 Z" id="Shape" fill="#42C0E2"></path>
