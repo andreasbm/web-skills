@@ -1,10 +1,11 @@
-import { css, html, LitElement } from "https://unpkg.com/lit-element/lit-element.js?module";
+import { css, html, LitElement } from "/web_modules/lit-element.js";
 import {collections} from "./data.js";
-import {repeat} from "https://unpkg.com/lit-html/directives/repeat.js?module";
+import {repeat} from "/web_modules/lit-html/directives/repeat.js";
 import "./molecules/collection.js";
 import {auth, AuthEvents} from "./firebase/auth.js";
 import "./atoms/button.js";
 import {gaMeasurementId} from "./config.js";
+import "./atoms/blur.js";
 
 export class App extends LitElement {
 
@@ -22,12 +23,14 @@ export class App extends LitElement {
 				
 				#collections {
 					padding: 80px 80px 20px;
+					display: flex;
+    			flex-direction: column;
+    			align-items: flex-start;
 				}
 
 				.collection:not(:last-child) {
 					margin: 0 0 40px;
 				}
-
 
 				#toolbar {
 					padding: 0 80px 80px 80px;
@@ -84,7 +87,7 @@ export class App extends LitElement {
 			await auth.signInWithGoogle();
 
 		} catch (err) {
-			const {openDialog} = await import("https://unpkg.com/web-dialog?module");
+			const {openDialog} = await import("/web_modules/web-dialog.js");
 			const {$dialog} = openDialog({
 				center: true,
 				$content: document.createTextNode(err.message)
@@ -124,6 +127,7 @@ export class App extends LitElement {
 					</div>
 				`}
 			</div>
+			<st-blur></st-blur>
 		`;
 	}
 }

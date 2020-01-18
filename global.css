@@ -3,6 +3,9 @@ html {
 	--foreground: #E8E8EA;
 	--link: #3366FF; 
 
+	--white: #FFFFFF;
+	--black: #000000;
+
 	--shade-400: rgb(62, 62, 62);
 	--shade-500: rgb(124, 124, 124);
 	--shade-600: rgb(135, 138, 140);
@@ -10,14 +13,12 @@ html {
 	--shade-800: rgb(230, 230, 230);
 	--shade-900: rgb(240, 240, 240);
 	
-
 	--accent-500: rgb(0, 121, 211);
 	--primary-500: rgb(254, 68, 1);
 
 	--shadow: rgba(0, 0, 0, 0.15);
 
 	--border-radius-m: 20px;
-
 
 	/* TODO: Should be in REM */
 	--spacing-xs: 0.25rem; /* 4px; */
