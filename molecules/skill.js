@@ -144,7 +144,6 @@ export class Skill extends LitElement {
 					transition: 90ms ease-in transform;
 					user-select: none;
 					position: relative;
-					font-size: 0;
 				}
 
 				#img-container .img {
@@ -195,6 +194,10 @@ export class Skill extends LitElement {
 
 				.subskill {
 					position: relative;
+				}
+
+				.img {
+					font-size: 0;
 				}
 
 				.arrow, .arrow-connection, .arrow-connection:after {
