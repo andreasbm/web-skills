@@ -1,6 +1,6 @@
-import { css, html, LitElement } from "/web_modules/lit-element.js";
+import { css, html, LitElement } from "./web_modules/lit-element.js";
 import {collections} from "./data.js";
-import {repeat} from "/web_modules/lit-html/directives/repeat.js";
+import {repeat} from "./web_modules/lit-html/directives/repeat.js";
 import "./molecules/collection.js";
 import {auth, AuthEvents} from "./firebase/auth.js";
 import "./atoms/button.js";
@@ -90,7 +90,7 @@ export class App extends LitElement {
 			await auth.signInWithGoogle();
 
 		} catch (err) {
-			const {openDialog} = await import("/web_modules/web-dialog.js");
+			const {openDialog} = await import("./web_modules/web-dialog.js");
 			const {$dialog} = openDialog({
 				center: true,
 				$content: document.createTextNode(err.message)
