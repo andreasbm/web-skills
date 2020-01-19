@@ -1,4 +1,6 @@
 html {
+	--base-size: 14;
+
 	--background: #0B0B19;
 	--foreground: #E8E8EA;
 	--link: #3366FF; 
@@ -18,21 +20,23 @@ html {
 
 	--shadow: rgba(0, 0, 0, 0.15);
 
-	--border-radius-m: 20px;
+	--border-radius-s: calc(8 / var(--base-size) * 1rem); /* 8px; */
+	--border-radius-m: calc(20 / var(--base-size) * 1rem); /* 20px; */
+	--border-radius-l: calc(40 / var(--base-size) * 1rem); /* 40px; */
 
-	/* TODO: Should be in REM */
-	--spacing-xs: 0.25rem; /* 4px; */
-	--spacing-s: 0.38rem; /* 6px; */
-	--spacing-sm: 0.57rem; /* 8px; */
-	--spacing-m: 0.86rem; /* 12px; */
-	--spacing-l: 1.23rem; /* 18px; */
-	--spacing-xl: 1.72rem; /* 24px; */
-	--spacing-xxl: 2.14rem; /* 30px; */
+	--spacing-xs: calc(4 / var(--base-size) * 1rem); /* 4px; */
+	--spacing-s: calc(6 / var(--base-size) * 1rem); /* 6px; */
+	--spacing-sm: calc(8 / var(--base-size) * 1rem); /* 8px; */
+	--spacing-m: calc(12 / var(--base-size) * 1rem); /* 12px; */
+	--spacing-l: calc(18 / var(--base-size) * 1rem); /* 18px; */
+	--spacing-xl: calc(30 / var(--base-size) * 1rem); /* 30px; */
+	--spacing-xxl: calc(40 / var(--base-size) * 1rem); /* 40px; */
+	--spacing-xxxl: calc(80 / var(--base-size) * 1rem); /* 80px; */
 
-	--font-size-s: 0.9rem;
-	--font-size-m: 1rem;
-	--font-size-l: 1.2rem;
-	--font-size-xl: 1.4rem;
+	--font-size-s: calc(12 / var(--base-size) * 1rem);
+	--font-size-m: calc(14 / var(--base-size) * 1rem);
+	--font-size-l: calc(16 / var(--base-size) * 1rem);
+	--font-size-xl: calc(20 / var(--base-size) * 1rem);
 
 	--font-family: 'Rubik', sans-serif;
 
@@ -47,3 +51,9 @@ body {
 	scroll-padding: 50%;
 }
 
+
+@media (max-width: 1000px) {
+	html {
+		font-size: 12px;
+	}
+}

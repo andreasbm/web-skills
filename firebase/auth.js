@@ -14,10 +14,19 @@ export const StorageNames = {
 	completedSkills: "completedSkills"
 }
 
-export class Auth extends EventTarget {
+/**
+ * Class controlling the auth state of the app.
+ * Ideally we would like to extend EventTarget, but that doesnt work on Safari.
+ * Instead we extend HTMLElement to extend the EventTarget.
+ */
+export class Auth extends HTMLElement {
 
 	constructor () {
 		super();
+		this.setup();
+	}
+
+	setup () {
 		this.db = null;
 
 		// Grab the skills from localstorage before firebase has loaded.
@@ -132,4 +141,5 @@ export class Auth extends EventTarget {
 	}
 }
 
+customElements.define("st-auth", Auth);
 export const auth = new Auth();

@@ -22,13 +22,14 @@ export class Skill extends LitElement {
 		return [
 			css`
 				:host {
-					--arrow-offset-y: -18px;
-					--arrow-z-index: 123456;
-					--arrow-height: 22px;
-					--arrow-width: 6px;
-					--arrow-head-size: 8px;
 					--skill-img-size: 70px;
 					--link-img-size: 16px;
+
+					--arrow-offset-y: -1.2rem;
+					--arrow-z-index: 123456;
+					--arrow-height: 1.5rem;
+					--arrow-width: 0.5rem;
+					--arrow-head-size: 0.5rem;
 
 					display: flex;
 					word-break: break-word;
@@ -38,13 +39,13 @@ export class Skill extends LitElement {
 				}
 
 				#skill {
-					max-width: 100px;
+					max-width: 7rem;
 					display: flex;
 					flex-direction: column;
 					align-items: center;
 					text-align: center;
 					position: relative;
-					margin: 0 0 30px;
+					margin: 0 0 var(--spacing-xl);
 				}
 
 				#skill:hover #img-container, :host(:focus-within) #img-container, :host(:focus) #img-container {
@@ -60,15 +61,15 @@ export class Skill extends LitElement {
 				#description {
 					background: var(--background);
 					color: var(--foreground);
-					padding: 18px;
-					border-radius: 8px;
+					padding: var(--spacing-l);
+					border-radius: var(--border-radius-s);
 					position: absolute;
 					text-align: left;
 					z-index: 12345678;
 
 					top: 50%;
     			left: 0;
-					width: 300px;
+					width: 21.5rem;
 					transform: translate(-7%, -5px);
 					transition: 90ms ease-in opacity, 90ms ease-in transform;
 
@@ -79,7 +80,7 @@ export class Skill extends LitElement {
 				#description:before {
 					content: "";
 					border-style: solid;
-					border-width: 0 8px 8px 8px;
+					border-width: 0 var(--spacing-sm) var(--spacing-sm) var(--spacing-sm);
 					border-color: transparent transparent var(--background) transparent;
 					position: absolute;
 					bottom: 100%;
@@ -91,7 +92,7 @@ export class Skill extends LitElement {
 				}
 
 				#description .title {
-					margin: 0 0 6px 0;
+					margin: 0 0 var(--spacing-s) 0;
 				}
 
 				#description .links {
@@ -116,7 +117,7 @@ export class Skill extends LitElement {
 				}
 
 				#description .link:not(:last-child) {
-					margin: 0 0 6px;
+					margin: 0 0 var(--spacing-s);
 				}
 
 				a {
@@ -132,7 +133,7 @@ export class Skill extends LitElement {
 				#img-container {
 					width: var(--skill-img-size);
 					height: var(--skill-img-size);
-					margin: 0 0 6px;
+					margin: 0 0 var(--spacing-s);
 					transition: 90ms ease-in transform;
 					user-select: none;
 					position: relative;
@@ -145,11 +146,14 @@ export class Skill extends LitElement {
 					left: 0;
 					width: 100%;
 					height: 100%;
+					transform: scale(1);
+					transition: 120ms ease transform;
 				}
 
 				#img-container .img:not([loaded]) {
 					border-radius: var(--border-radius-m);
 					background: var(--shade-700);
+					transform: scale(0.8);
 					overflow: hidden;
 				}
 
@@ -175,11 +179,11 @@ export class Skill extends LitElement {
 				}
 
 				#subskills.wide {
-					margin: 0 15px;
+					margin: 0 var(--spacing-l);
 				}
 
 				.subskill:not(:last-child) {
-					margin: 0 20px 0 0;
+					margin: 0 var(--spacing-l) 0 0;
 				}
 
 				.subskill {
@@ -193,7 +197,7 @@ export class Skill extends LitElement {
 					box-shadow: 0 -1px 2px var(--shadow);
 					left: 50%;
 					position: absolute;
-					border-radius: 5px 5px 0 0;
+					border-radius: var(--border-radius-s) var(--border-radius-s) 0 0;
 				}
 				
 				.arrow {
@@ -227,14 +231,14 @@ export class Skill extends LitElement {
 				.arrow-connection:after {
 					content: "";
 					width: var(--arrow-width);
-					height: 10px;
+					height: 0.7rem;
 					position: absolute;
 					left: 50%;
 					transform: translate(-50%, -100%);
 				}
 
 				#complete-button {
-					margin: 24px 0 0 0;
+					margin: var(--spacing-l) 0 0 0;
 					width: 100%;
 				}
 
@@ -255,7 +259,7 @@ export class Skill extends LitElement {
 				}
 
 				.google-logo, .youtube-logo {
-					height: 15px;
+					height: 1rem;
 				}
 			`
 		];

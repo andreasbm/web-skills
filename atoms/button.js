@@ -16,10 +16,10 @@ export class Button extends LitElement {
 
 				#button {
 					width: 100%;
-					padding: 12px;
+					padding: var(--spacing-m) var(--spacing-l);
 					background: none;
 					color: inherit;
-					border-radius: 8px;
+					border-radius: var(--border-radius-s);
 					font-size: inherit;
 					border: 1px solid currentColor;
 					cursor: pointer;

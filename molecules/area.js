@@ -21,7 +21,7 @@ export class Area extends LitElement {
 				}
 
 				#title {
-					margin: 0 0 20px;
+					margin: 0 0 var(--spacing-l);
     			font-weight: 700;
 				}
 
