@@ -26,6 +26,9 @@ export class Auth extends HTMLElement {
 		this.setup();
 	}
 
+	/**
+	 * Sets up the authentication.
+	 */
 	setup () {
 		this.db = null;
 
@@ -49,16 +52,25 @@ export class Auth extends HTMLElement {
 			}
 		})();
 
+		// Measure the user if one exists
 		if (this.user != null) {
 			this.trackUser(this.user);
 		}
 	}
 
+	/**
+	 * Determines whether the user is authenticated.
+	 */
 	get isAuthenticated () {
 		return this.user != null;
 	}
 
+	/**
+	 * Tracks a user.
+	 * @param {*} user 
+	 */
 	trackUser (user) {
+
 			// Set user ID
 			gtag("config", gaMeasurementId, {
 				"user_id": user.uid
@@ -68,6 +80,10 @@ export class Auth extends HTMLElement {
 			gtag("event", "login", { "method": "Google" });
 	}
 
+	/**
+	 * Sets the user and saves it to local storage.
+	 * @param {*} user 
+	 */
 	setUser (user) {
 		if (user != null) {
 			localStorage.setItem(StorageNames.sessionUser, JSON.stringify(user));
@@ -82,6 +98,10 @@ export class Auth extends HTMLElement {
 		auth.dispatchEvent(new CustomEvent(AuthEvents.authStateChanged, {detail: user}));
 	}
 
+	/**
+	 * Sets the completed skills and saves it to local storage.
+	 * @param {*} skills 
+	 */
 	setCompletedSkills (skills) {
 		skills = skills || [];
 		localStorage.setItem(StorageNames.completedSkills, JSON.stringify(skills));
@@ -90,23 +110,41 @@ export class Auth extends HTMLElement {
 		auth.dispatchEvent(new CustomEvent(AuthEvents.completedSkillsChanged, {detail: skills}));
 	}
 
+	/**
+	 * Sets the database.
+	 * @param {*} db 
+	 */
 	setDb (db) {
 		this.db = db;
 	}
 
+	/**
+	 * Signs in with Google.
+	 */
 	async signInWithGoogle () {
 		const provider = new firebase.auth.GoogleAuthProvider();
 		return await firebase.auth().signInWithPopup(provider);
 	}
 
+	/**
+	 * Signs out.
+	 */
 	async signOut () {
 		await firebase.auth().signOut();
 	}
 
+	/**
+	 * Returns whether the skill is completed.
+	 * @param {*} skillId 
+	 */
 	hasCompletedSkill (skillId) {
 		return this.completedSkills.includes(skillId);
 	}
 	
+	/**
+	 * Adds a skill to the list of completed skills and saves it.
+	 * @param {*} skillId 
+	 */
 	async addCompletedSkill (skillId) {
 		if (!this.hasCompletedSkill(skillId)) {
 			return await this.updateCompletedSkills([...this.completedSkills, skillId]);
@@ -115,6 +153,10 @@ export class Auth extends HTMLElement {
 		return false;
 	}
 
+	/**
+	 * Removes a skill from the list of completed skills and saves it.
+	 * @param {*} skillId 
+	 */
 	async removeCompletedSkill (skillId) {
 		if (this.hasCompletedSkill(skillId)) {
 			return await this.updateCompletedSkills(this.completedSkills.filter(id => id !== skillId));
@@ -123,6 +165,10 @@ export class Auth extends HTMLElement {
 		return false;
 	}
 
+	/**
+	 * Toggles whether a skill is completed and saves it.
+	 * @param {*} skillId 
+	 */
 	async toggleCompleteSkill (skillId) {
 		if (this.hasCompletedSkill(skillId)) {
 			return this.removeCompletedSkill(skillId);
@@ -132,6 +178,10 @@ export class Auth extends HTMLElement {
 		}
 	}
 
+	/**
+	 * Updates the list of completed skills and saves it.
+	 * @param {*} skills 
+	 */
 	async updateCompletedSkills (skills) {
 		if (this.user == null) {
 			return false;

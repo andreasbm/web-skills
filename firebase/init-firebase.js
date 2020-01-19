@@ -1,6 +1,9 @@
 import {auth, AuthEvents,CollectionNames} from "./auth.js";
 import {firebaseConfig} from "./../config.js";
 
+/**
+ * Initializes firebase and subscribes to relevant collections.
+ */
 export async function initFirebase () {
 	await firebase.initializeApp(firebaseConfig);
 

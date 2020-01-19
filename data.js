@@ -12,7 +12,9 @@ import {algorithmsCollection} from "./data/algorithms.js";
 import {designAndUXCollection} from "./data/design-and-ux.js";
 import {databasesCollection} from "./data/databases.js";
 
-
+/**
+ * All available collections.
+ */
 export const collections = [
 	fundamentasCollection,
 	accessibilityCollection,

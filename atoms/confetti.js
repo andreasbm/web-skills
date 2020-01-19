@@ -28,6 +28,9 @@ export class ConfettiParticle {
 	}
 }
 
+/**
+ * An element that sprays confetti.
+ */
 export class Confetti extends LitElement {
 	static get properties () {
 		return {

@@ -4,6 +4,9 @@ import {constructImagePathPrefix, getSkillId, sprayConfettiOnce, playAudio, curr
 import {auth, AuthEvents} from "./../firebase/auth.js";
 import "./../atoms/button.js";
 
+/**
+ * Element that renders a skill.
+ */
 export class Skill extends LitElement {
 	static get properties () {
 		return {
@@ -265,8 +268,11 @@ export class Skill extends LitElement {
 		];
 	}
 
-	constructor () {
-		super();
+	/**
+	 * Setup the element after it has been connected.
+	 */
+	connectedCallback () {
+		super.connectedCallback();
 		this.tabIndex = 0;
 
 		auth.addEventListener(AuthEvents.authStateChanged, () => {
@@ -278,6 +284,10 @@ export class Skill extends LitElement {
 		});
 	}
 
+	/**
+	 * Attach observers after first update.
+	 * @param {*} props 
+	 */
 	firstUpdated (props) {
 		super.firstUpdated(props);
 

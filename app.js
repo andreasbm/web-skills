@@ -4,12 +4,16 @@ import {repeat} from "./web_modules/lit-html/directives/repeat.js";
 import "./molecules/collection.js";
 import {auth, AuthEvents} from "./firebase/auth.js";
 import "./atoms/button.js";
-import {gaMeasurementId} from "./config.js";
 import "./atoms/blur.js";
 import {initFirebase} from "./firebase/init-firebase.js";
+import {trackView} from "./analytics.js";
 
+// Initialize firebase
 initFirebase();
 
+/**
+ * The main entry for the application.
+ */
 export class App extends LitElement {
 
 	static get properties () {
@@ -76,6 +80,9 @@ export class App extends LitElement {
 		];
 	}
 
+	/**
+	 * Setup the element after it has been connected.
+	 */
 	connectedCallback () {
 		super.connectedCallback();
 
@@ -84,10 +91,7 @@ export class App extends LitElement {
 		});
 
 		// Track page view (we only have this one page)
-		gtag("config", gaMeasurementId, {
-			"page_path": location.pathname,
-			"page_location": location.href
-		});
+		trackView();
 
 		// Track all exceptions
 		window.addEventListener("error", e => {
@@ -100,6 +104,9 @@ export class App extends LitElement {
 		});
 	}
 
+	/**
+	 * Signs in the user using Google.
+	 */
 	async signIn () {
 		try {
 			await auth.signInWithGoogle();
@@ -116,10 +123,16 @@ export class App extends LitElement {
 		}
 	}
 
+	/**
+	 * Signs out the user.
+	 */
 	signOut () {
 		auth.signOut();
 	}
 
+	/**
+	 * Reners the element.
+	 */
 	render () {
 		const {signIn, signOut} = this;
 		const user = auth.user;

@@ -72,7 +72,16 @@ function generateMarkdown (collections) {
 }
 
 const markdown = generateMarkdown(collections);
-writeFileSync(FILE_NAME, `{{ template:title }}
+writeFileSync(FILE_NAME, `<h1 align="center">Web Skills</h1>
+I have tried to create a comprehensive visual overview of useful skills to learn as a web developer. Keep in mind that the list is opinionated. This is not a definitive overview of what you HAVE to learn as a web developer but rather a visual overview of what you could learn and where you could start. Hopefully it can give you some inspiration in your own journey to learn more about web development. If you feel like something is missing you are always welcome to create a pull request.
+
+
+<a href="http://andreasbm.github.io/web-skills" target="_blank"><img src="https://raw.githubusercontent.com/andreasbm/web-skills/master/demo.gif" alt="Demo" width="800" /></a>
+
+
+Go to [http://andreasbm.github.io/web-skills](http://andreasbm.github.io/web-skills) to check out the visual overview or scroll through this readme to get the overview as a list. 
+
+
 <details>
 <summary>📖 Table of Contents</summary>
 <br />
