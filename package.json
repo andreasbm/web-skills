@@ -1,16 +1,19 @@
 {
-	"name": "skill-tree",
-	"type": "module",
-	"license": "MIT",
-	"scripts": {
-		"serve": "http-server --push-state -o -c-1 -p 3011 -a localhost",
-		"s": "npm run serve",
-		"deploy": "firebase deploy",
-		"lit-check": "npx lit-analyzer . --strict",
-		"generate-blueprint": "node --experimental-modules generate-blueprint.mjs",
-		"readme": "npm run generate-blueprint &&  npx @appnest/readme generate"
-	},
-	"contributors": [
+  "name": "web-skills",
+  "description": "A comprehensive visual overview of skills you can learn as a web developer",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "serve": "http-server --push-state -o -c-1 -p 3011 -a localhost",
+    "s": "npm run serve",
+    "deploy": "firebase deploy",
+    "lit-check": "npx lit-analyzer . --strict",
+    "generate-blueprint": "node --experimental-modules generate-blueprint.mjs",
+    "readme": "npm run generate-blueprint &&  npx @appnest/readme generate",
+    "snowpack": "npx snowpack --optimize",
+    "postinstall": "npm run snowpack"
+  },
+  "contributors": [
     {
       "name": "Andreas Mehlsen",
       "url": "https://twitter.com/andreasmehlsen",
@@ -25,6 +28,23 @@
       "url": "https://github.com/andreasbm/readme/blob/master/CONTRIBUTING.md"
     }
   ],
-	"dependencies": {
-	}
+  "dependencies": {
+    "lit-element": "^2.2.1",
+    "lit-html": "^1.1.2",
+    "web-dialog": "0.0.8"
+  },
+  "devDependencies": {
+    "snowpack": "^1.0.5"
+  },
+  "snowpack": {
+    "dedupe": [
+      "lit-html"
+    ],
+    "webDependencies": [
+      "lit-html",
+      "lit-element",
+      "web-dialog",
+      "lit-html/directives/repeat.js"
+    ]
+  }
 }

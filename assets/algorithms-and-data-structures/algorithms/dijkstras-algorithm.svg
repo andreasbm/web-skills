@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>algorithms-and-data-structures/algorithms/dijkstras-algorithm</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="algorithms-and-data-structures/algorithms/dijkstras-algorithm" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#292B31" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#292B31" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="route-(1)" transform="translate(16.000000, 17.000000)" fill-rule="nonzero">
             <path d="M29.5488281,33.3125 L6.32617187,33.3125 C4.16254102,33.3125 2.40234375,31.5523027 2.40234375,29.3886719 C2.40234375,27.225041 4.16254102,25.4648437 6.32617187,25.4648437 L14.0136719,25.4648437 C17.5019551,25.4648437 20.3398437,22.6269551 20.3398437,19.1386719 C20.3398437,15.6503887 17.5019551,12.8125 14.0136719,12.8125 L6.32617187,12.8125 C5.66280469,12.8125 5.125,13.3503047 5.125,14.0136719 C5.125,14.6770391 5.66280469,15.2148437 6.32617187,15.2148437 L14.0136719,15.2148437 C16.1773027,15.2148437 17.9375,16.975041 17.9375,19.1386719 C17.9375,21.3023027 16.1773027,23.0625 14.0136719,23.0625 L6.32617187,23.0625 C2.83788867,23.0625 0,25.9003887 0,29.3886719 C0,32.8769551 2.83788867,35.7148438 6.32617187,35.7148438 L29.5488281,35.7148438 C30.2121953,35.7148438 30.75,35.1770391 30.75,34.5136719 C30.75,33.8503047 30.2121953,33.3125 29.5488281,33.3125 Z" id="Shape" fill="#5C5F66"></path>

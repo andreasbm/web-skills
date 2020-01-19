@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>databases-and-servers/databases/indexing</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="databases-and-servers/databases/indexing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#314149" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#314149" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="post-it" transform="translate(11.000000, 13.000000)" fill-rule="nonzero">
             <path d="M39.4463626,42.3064386 L26.445538,9.43311111 C26.3017836,9.07114035 25.9712281,8.8171345 25.5845029,8.77140351 L5.43632164,6.40035088 C4.86448538,6.32002339 4.33579532,6.71847953 4.25546784,7.29031579 C4.25367836,7.30323977 4.25208772,7.31626316 4.25069591,7.32928655 L0.00904678363,41.2629766 C-0.0668070175,41.8436608 0.342385965,42.3760292 0.923070175,42.451883 C0.931520468,42.4529766 0.940070175,42.4539708 0.948520468,42.4548655 L38.0634971,46.696614 L38.184386,46.696614 C38.7332573,46.699 39.1932515,46.2822515 39.244848,45.7358655 L39.5205263,42.794269 C39.5346433,42.6280468 39.509193,42.4609298 39.4463626,42.3064386 Z" id="Shape" fill="#FFA000"></path>

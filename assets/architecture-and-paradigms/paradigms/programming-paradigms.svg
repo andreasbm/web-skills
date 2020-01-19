@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>architecture-and-paradigms/paradigms/programming-paradigms</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="architecture-and-paradigms/paradigms/programming-paradigms" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#47361F" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#47361F" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="periodic-table" transform="translate(11.000000, 20.000000)" fill-rule="nonzero">
             <path d="M32.9446897,0.860689655 L50.6964138,0.860689655 C51.1866141,0.860689655 51.584,1.25807554 51.584,1.74827586 L51.584,33.7013793 C51.584,34.1915796 51.1866141,34.5889655 50.6964138,34.5889655 L0.991586207,34.5889655 C0.501385881,34.5889655 0.104,34.1915796 0.104,33.7013793 L0.104,1.74827586 C0.104,1.25807554 0.501385881,0.860689655 0.991586207,0.860689655 L32.9446897,0.860689655 Z" id="Shape" fill="#CBB292"></path>

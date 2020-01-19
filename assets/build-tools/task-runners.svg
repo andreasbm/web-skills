@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>build-tools/task-runners</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="build-tools/task-runners" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#383856" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#383856" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="running-man" transform="translate(14.000000, 16.000000)" fill-rule="nonzero">
             <path d="M35.0666667,0.0151754386 L38.5348246,0.0151754386 L38.5348246,2.3272807 C36.077807,2.32807018 33.7210526,3.29991228 31.9785088,5.03166667 C31.7319298,4.5522807 31.6016667,4.02201754 31.5985965,3.48333333 C31.5985088,1.56815789 33.1514912,0.0151754386 35.0666667,0.0151754386 Z" id="Shape" fill="#383856"></path>

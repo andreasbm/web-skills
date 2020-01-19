@@ -1,16 +1,7 @@
 import {auth, AuthEvents,CollectionNames} from "./auth.js";
+import {firebaseConfig} from "./../config.js";
 
-const firebaseConfig = {
-	apiKey: "AIzaSyAeptLYIAEF7MtzFjKo0XYtC6i0BXbqdjI",
-	authDomain: "web-skills.firebaseapp.com",
-	databaseURL: "https://web-skills.firebaseio.com",
-	projectId: "web-skills",
-	storageBucket: "web-skills.appspot.com",
-	messagingSenderId: "796050122198",
-	appId: "1:796050122198:web:422fd7fee1037c3a2a3077"
-};
-
-async function setup () {
+export async function initFirebase () {
 	await firebase.initializeApp(firebaseConfig);
 
 	// Get database
@@ -44,6 +35,3 @@ async function setup () {
 		auth.setUser(user);
 	});
 }
-
-setup();
-

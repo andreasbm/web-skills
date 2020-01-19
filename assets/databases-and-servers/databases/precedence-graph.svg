@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>databases-and-servers/databases/precedence-graph</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="databases-and-servers/databases/precedence-graph" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#28272C" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#28272C" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="data-(2)" transform="translate(13.000000, 13.000000)" fill-rule="nonzero">
             <path d="M3.24137931,0 L43.7586207,0 C45.5486598,0 47,1.45134025 47,3.24137931 L47,32.4137931 C47,34.2038322 45.5486598,35.6551724 43.7586207,35.6551724 L3.24137931,35.6551724 C1.45134025,35.6551724 0,34.2038322 0,32.4137931 L0,3.24137931 C0,1.45134025 1.45134025,0 3.24137931,0 Z" id="Shape" fill="#A7A9AC"></path>

@@ -4,25 +4,21 @@
     <title>build-tools/pika</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-        <polygon id="path-3" points="0 47.5 47.5 47.5 47.5 0 0 0"></polygon>
+        <polygon id="path-1" points="0 47.5 47.5 47.5 47.5 0 0 0"></polygon>
     </defs>
     <g id="build-tools/pika" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#0D2D4E" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#0D2D4E" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="logo5" transform="translate(13.000000, 13.000000)">
             <g id="g10" transform="translate(23.750000, 23.750000) scale(-1, 1) rotate(-180.000000) translate(-23.750000, -23.750000) ">
                 <g id="g12">
                     <g id="g14-Clipped">
-                        <mask id="mask-4" fill="white">
-                            <use xlink:href="#path-3"></use>
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
                         </mask>
                         <g id="path18"></g>
-                        <g id="g14" mask="url(#mask-4)" fill-rule="nonzero">
+                        <g id="g14" mask="url(#mask-2)" fill-rule="nonzero">
                             <g id="g20" transform="translate(1.250000, 23.125000)" fill="#4DA7FF">
                                 <path d="M21.25,11.25 C21.25,5.38125 16.49375,0.625 10.625,0.625 C4.75625,0.625 0,5.38125 0,11.25 C0,17.11875 4.75625,21.875 10.625,21.875 C16.49375,21.875 21.25,17.11875 21.25,11.25" id="path22"></path>
                             </g>

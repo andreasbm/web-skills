@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>databases-and-servers/databases/sql</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="databases-and-servers/databases/sql" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#413E3E" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#413E3E" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="algorithm" transform="translate(15.000000, 10.000000)" fill-rule="nonzero">
             <path d="M15.5823124,11.7982806 C15.1468547,11.7982806 14.7940387,11.4450672 14.7940387,11.0100069 L14.7940387,5.3347538 C14.7940387,4.89969342 15.1468547,4.54648006 15.5823124,4.54648006 C16.0177701,4.54648006 16.3705861,4.89969342 16.3705861,5.3347538 L16.3705861,11.0100069 C16.3705861,11.4450672 16.0177701,11.7982806 15.5823124,11.7982806 Z" id="Shape" fill="#838383"></path>

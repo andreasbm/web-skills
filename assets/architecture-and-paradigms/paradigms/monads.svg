@@ -4,16 +4,17 @@
     <title>architecture-and-paradigms/paradigms/monads</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
+        <rect id="path-1" x="0" y="2" width="69" height="69" rx="14"></rect>
     </defs>
     <g id="architecture-and-paradigms/paradigms/monads" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
+        <g id="container" transform="translate(2.000000, 0.000000)">
+            <rect id="mask" stroke="#092D44" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" x="-1" y="1" width="71" height="71" rx="14"></rect>
             <mask id="mask-2" fill="white">
                 <use xlink:href="#path-1"></use>
             </mask>
-            <rect stroke="#092D44" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+            <rect stroke="#092D44" stroke-width="2" x="-1" y="1" width="71" height="71" rx="14"></rect>
             <g id="gauge" mask="url(#mask-2)">
-                <g transform="translate(8.000000, -2.000000)">
+                <g transform="translate(8.000000, 0.000000)">
                     <polygon id="Shape" fill="#87CEE9" fill-rule="nonzero" points="14.8645161 0 27.8709677 0 27.8709677 23.0064516 14.8645161 23.0064516"></polygon>
                     <polygon id="Shape" fill="#195C85" fill-rule="nonzero" points="40.8774194 36.9419355 44.5935484 36.9419355 44.5935484 42.516129 40.8774194 42.516129"></polygon>
                     <polygon id="Shape" fill="#50B3C9" fill-rule="nonzero" points="39.0193548 42.516129 46.4516129 42.516129 46.4516129 49.9483871 39.0193548 49.9483871"></polygon>

@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>databases-and-servers/servers/peer-to-peer</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="databases-and-servers/servers/peer-to-peer" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#080D4B" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#080D4B" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="phone-(1)" transform="translate(15.000000, 15.000000)" fill-rule="nonzero">
             <path d="M21.5531463,41.1060868 C20.8261566,41.1060868 20.2369538,40.5165558 20.2369538,39.7898941 L20.2369538,29.7570419 C20.2369538,29.0300522 20.8261566,28.4408493 21.5531463,28.4408493 C22.279808,28.4408493 22.869339,29.0303802 22.869339,29.7570419 L22.869339,39.7895661 C22.869339,40.5165558 22.279808,41.1060868 21.5531463,41.1060868 Z" id="Shape" fill="#DAE3E5"></path>

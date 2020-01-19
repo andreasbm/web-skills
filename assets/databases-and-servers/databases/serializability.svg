@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>databases-and-servers/databases/serializability</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="databases-and-servers/databases/serializability" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#273D49" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#273D49" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="server-(2)" transform="translate(10.000000, 10.000000)" fill-rule="nonzero">
             <path d="M36.3103448,22.3448276 C37.337485,22.3478443 38.1693971,23.1797564 38.1724138,24.2068966 L38.1724138,29.7931034 C38.1693971,30.8202436 37.337485,31.6521557 36.3103448,31.6551724 C37.337485,31.6581892 38.1693971,32.4901012 38.1724138,33.5172414 L38.1724138,39.1034483 C38.1693971,40.1305884 37.337485,40.9625005 36.3103448,40.9655172 L17.6896552,40.9655172 C16.662515,40.9625005 15.8306029,40.1305884 15.8275862,39.1034483 L15.8275862,33.5172414 C15.8306029,32.4901012 16.662515,31.6581892 17.6896552,31.6551724 C16.662515,31.6521557 15.8306029,30.8202436 15.8275862,29.7931034 L15.8275862,24.2068966 C15.8306029,23.1797564 16.662515,22.3478443 17.6896552,22.3448276 C16.662515,22.3418108 15.8306029,21.5098988 15.8275862,20.4827586 L15.8275862,14.8965517 C15.8306029,13.8694116 16.662515,13.0374995 17.6896552,13.0344828 L36.3103448,13.0344828 C37.337485,13.0374995 38.1693971,13.8694116 38.1724138,14.8965517 L38.1724138,20.4827586 C38.1693971,21.5098988 37.337485,22.3418108 36.3103448,22.3448276 Z" id="Shape" fill="#3F5C6C"></path>

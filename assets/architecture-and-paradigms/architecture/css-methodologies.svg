@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>architecture-and-paradigms/architecture/css-methodologies</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="architecture-and-paradigms/architecture/css-methodologies" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#00415E" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#00415E" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="fabric" transform="translate(11.000000, 11.000000)" fill-rule="nonzero">
             <path d="M25.9467343,51.1596747 L0,33.7302777 L25.9467343,16.3004831 L35.8362585,22.9451749 C39.6248777,25.4915912 44.1870413,26.4392429 48.6792442,25.6168053 L51.9356043,25.0193554 L50.421508,27.9632767 C46.9453278,34.7184748 41.7773667,40.5260213 35.4765166,44.7562683 L25.9467343,51.1596747 Z" id="Shape" fill="#40C4FF"></path>

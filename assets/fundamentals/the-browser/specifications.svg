@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>fundamentals/the-browser/specifications</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="fundamentals/the-browser/specifications" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#1F2D5F" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#1F2D5F" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="specification" transform="translate(17.000000, 11.000000)" fill-rule="nonzero">
             <path d="M39.605469,7.61643635 L39.605469,50.4715849 C39.605469,51.3245242 38.9353242,51.9948721 38.0821817,51.9948721 L1.52328727,51.9948721 C0.670144846,51.9948721 0,51.3245242 0,50.4715849 L0,7.61643635 C0,6.76329392 0.670144846,6.09314908 1.52328727,6.09314908 L38.0821817,6.09314908 C38.9353242,6.09314908 39.605469,6.76329392 39.605469,7.61643635 Z" id="Shape" fill="#47568C"></path>

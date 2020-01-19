@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>the-modern-web/web-audio</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="the-modern-web/web-audio" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#3C3449" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#3C3449" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="karaoke" transform="translate(11.000000, 11.000000)" fill-rule="nonzero">
             <path d="M2.81433469,3.16980148 C2.72804517,2.77424438 2.33706991,2.52339406 1.94189478,2.60968357 C1.54633768,2.69597298 1.29586915,3.08656646 1.38215866,3.48212347 L3.74557355,14.3179419 C3.82040876,14.6611907 4.12394906,14.8952413 4.46108889,14.8952413 C4.51301529,14.8952413 4.56532348,14.8895141 4.61801355,14.8780598 C5.01357056,14.7917703 5.26442088,14.4011769 5.17813137,14.0056198 L2.81433469,3.16980148 Z" id="Shape" fill="#594F69"></path>

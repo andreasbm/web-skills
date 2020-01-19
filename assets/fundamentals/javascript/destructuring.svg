@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>fundamentals/javascript/destructuring</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="fundamentals/javascript/destructuring" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Bitmap" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#2A3B4D" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="Bitmap" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#2A3B4D" stroke-width="2">
+            <rect id="Mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="apocalypse" transform="translate(20.000000, 9.000000)" fill-rule="nonzero">
             <circle id="Oval" fill="#3B97D3" cx="16.5" cy="36.6666667" r="16.5"></circle>

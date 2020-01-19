@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>design-and-ux/best-practices</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="design-and-ux/best-practices" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#47211C" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#47211C" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="flag" transform="translate(19.000000, 10.000000)" fill-rule="nonzero">
             <path d="M27.5198718,5.38461538 C23.7820513,5.38461538 23.7820513,7.17948718 20.0397436,7.17948718 C16.2974359,7.17948718 16.3019231,5.38461538 12.5641026,5.38461538 L12.5641026,16.1538462 C16.3019231,16.1538462 16.3019231,17.9487179 20.0397436,17.9487179 C23.7775641,17.9487179 23.779359,16.1538462 27.5198718,16.1538462 C31.2603846,16.1538462 31.2594872,17.9487179 35,17.9487179 L35,7.17948718 C31.2594872,7.17948718 31.2594872,5.38461538 27.5198718,5.38461538 Z" id="Shape" fill="#E1462B"></path>

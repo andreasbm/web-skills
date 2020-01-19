@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>algorithms-and-data-structures/data-structures/hash-tables</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="algorithms-and-data-structures/data-structures/hash-tables" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#232737" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#232737" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="stats" transform="translate(12.000000, 17.000000)" fill-rule="nonzero">
             <path d="M47.3103613,38.9544258 L1.68963867,38.9544258 C0.7564375,38.9544258 0,38.1979883 0,37.2647871 L0,1.78208789 C0,0.848886719 0.7564375,0.0924492188 1.68963867,0.0924492188 L47.3103613,0.0924492188 C48.2435625,0.0924492188 49,0.848886719 49,1.78208789 L49,37.2648828 C49,38.1978926 48.2434668,38.9544258 47.3103613,38.9544258 Z" id="Shape" fill="#EFF2FA"></path>

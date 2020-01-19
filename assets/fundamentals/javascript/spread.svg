@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>fundamentals/javascript/spread</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="fundamentals/javascript/spread" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Bitmap" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#4D221D" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="Bitmap" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#4D221D" stroke-width="2">
+            <rect id="Mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="saw" transform="translate(13.000000, 16.000000)" fill-rule="nonzero">
             <path d="M46.3448276,4.96551724 L38.8965517,4.96551724 L37.2413793,3.31034483 L33.9310345,3.31034483 L32.2758621,4.96551724 L21.5172414,4.96551724 L21.5172414,0 L46.3448276,0 C47.2589541,0 48,0.741045931 48,1.65517241 L48,3.31034483 C48,4.22447131 47.2589541,4.96551724 46.3448276,4.96551724 Z" id="Shape" fill="#AD6327"></path>

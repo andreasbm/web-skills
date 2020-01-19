@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>build-tools/eslint</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="build-tools/eslint" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#4B32C3" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#4B32C3" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="logo" transform="translate(13.000000, 16.000000)" fill-rule="nonzero">
             <path d="M14.324168,15.057625 L23.2159805,9.92397656 C23.4384961,9.79546094 23.7127852,9.79546094 23.9353008,9.92397656 L32.8272969,15.057625 C33.0496289,15.1861406 33.186957,15.4235273 33.186957,15.6805586 L33.186957,25.9478555 C33.186957,26.2047031 33.0496289,26.4422734 32.8272969,26.5709727 L23.9353008,31.7046211 C23.7127852,31.8331367 23.4384961,31.8331367 23.2159805,31.7046211 L14.324168,26.5709727 C14.1016523,26.442457 13.9645078,26.2048867 13.9645078,25.9478555 L13.9645078,15.6805586 C13.9646914,15.4235273 14.1018359,15.1861406 14.324168,15.057625" id="Shape" fill="#8080F2"></path>

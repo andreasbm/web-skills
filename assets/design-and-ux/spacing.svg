@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>design-and-ux/spacing</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="design-and-ux/spacing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#293A4B" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#293A4B" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="astronaut" transform="translate(13.000000, 14.000000)" fill-rule="nonzero">
             <path d="M13.7758621,7.29311049 L5.84258621,7.29310345 C5.67901456,7.2940643 5.53090924,7.19657484 5.46711628,7.04595258 C5.40332332,6.89533032 5.43635712,6.72112312 5.55086207,6.60431034 L7.81982759,4.33534483 C7.97425617,4.17779616 7.97425617,3.92565212 7.81982759,3.76810345 L5.55086207,1.49913793 C5.43635712,1.38232516 5.40332332,1.20811796 5.46711628,1.0574957 C5.53090924,0.906873436 5.67901456,0.809383977 5.84258621,0.810344828 L13.7758621,0.810337786 L13.7758621,7.29311049 Z" id="Shape" fill="#26B99A"></path>

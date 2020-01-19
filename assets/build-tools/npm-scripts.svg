@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>build-tools/npm-scripts</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="build-tools/npm-scripts" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#38454F" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#38454F" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="coding-(1)" transform="translate(14.000000, 16.000000)" fill-rule="nonzero">
             <path d="M31.7483333,41.8723684 L13.1639474,41.8723684 C13.1639474,40.1618421 14.5507895,38.775 16.2613158,38.775 L28.6508772,38.775 C30.3614912,38.7749123 31.7483333,40.1618421 31.7483333,41.8723684" id="Shape" fill="#E8EDEE"></path>

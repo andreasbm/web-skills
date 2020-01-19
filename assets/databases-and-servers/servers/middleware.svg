@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>databases-and-servers/servers/middleware</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="databases-and-servers/servers/middleware" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#3A4049" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#3A4049" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="file-(1)" transform="translate(16.000000, 13.000000)" fill-rule="nonzero">
             <path d="M21.00075,27.38625 C20.586,27.38625 20.25075,27.051 20.25075,26.63625 L20.25075,22.8975 C20.25075,22.48275 20.586,22.1475 21.00075,22.1475 C21.4155,22.1475 21.75075,22.48275 21.75075,22.8975 L21.75075,26.63625 C21.75075,27.05025 21.4155,27.38625 21.00075,27.38625 Z" id="Shape" fill="#656D78"></path>

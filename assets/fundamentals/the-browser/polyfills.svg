@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>fundamentals/the-browser/polyfills</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="fundamentals/the-browser/polyfills" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#802F34" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#802F34" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="brickwall" transform="translate(10.000000, 10.000000)" fill-rule="nonzero">
             <path d="M0.912874686,25.5378899 L13.6810124,25.5378899 C14.1846674,25.5378899 14.5930799,25.9463024 14.5930799,26.4499574 L14.5930799,33.7460938 C14.5930799,34.2497487 14.1846674,34.6581613 13.6810124,34.6581613 L0.912874686,34.6581613 C0.409219715,34.6581613 0.000807139376,34.2497487 0.000807139376,33.7460938 L0.000807139376,26.4499574 C0.000807139376,25.9463024 0.409219715,25.5378899 0.912874686,25.5378899 Z" id="Shape" fill="#C2615F"></path>

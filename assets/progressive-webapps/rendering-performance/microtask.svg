@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>progressive-webapps/rendering-performance/microtask</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="progressive-webapps/rendering-performance/microtask" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#9A7939" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#9A7939" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="completed-task" transform="translate(15.000000, 15.000000)" fill-rule="nonzero">
             <path d="M2.6875,1.34375 L32.25,1.34375 C33.7341614,1.34375 34.9375,2.54708862 34.9375,4.03125 L34.9375,40.3125 C34.9375,41.7966614 33.7341614,43 32.25,43 L2.6875,43 C1.20333862,43 0,41.7966614 0,40.3125 L0,4.03125 C0,2.54708862 1.20333862,1.34375 2.6875,1.34375 Z" id="Shape" fill="#ECCE93"></path>

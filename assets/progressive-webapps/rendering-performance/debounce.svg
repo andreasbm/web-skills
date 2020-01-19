@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>progressive-webapps/rendering-performance/debounce</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="progressive-webapps/rendering-performance/debounce" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#355C7F" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#355C7F" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="trampoline" transform="translate(15.000000, 12.000000)" fill-rule="nonzero">
             <path d="M43.7259223,35.0466181 C43.7259223,32.2153953 33.9376206,29.9199595 21.8631464,29.9199595 C9.78830162,29.9199595 -2.84217094e-14,32.2153953 -2.84217094e-14,35.0466181 C-2.84217094e-14,37.8778409 9.78830162,40.1732768 21.8631464,40.1732768 C33.9376206,40.1732768 43.7259223,37.8778409 43.7259223,35.0466181 Z" id="Shape" fill="#ABE0DA"></path>

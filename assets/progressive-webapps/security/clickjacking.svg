@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>progressive-webapps/security/clickjacking</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="progressive-webapps/security/clickjacking" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#353E89" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#353E89" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="id-card" transform="translate(15.000000, 15.000000)" fill-rule="nonzero">
             <path d="M31.109375,3.8671875 C31.109375,1.73482031 29.3745547,0 27.2421875,0 C25.1098203,0 23.375,1.73482031 23.375,3.8671875 C23.375,5.51538281 24.4118359,6.92527344 25.8671875,7.48085937 L25.8671875,13.4921875 L28.4453125,13.4921875 L28.4453125,7.54178906 C29.9902109,7.03467187 31.109375,5.57957813 31.109375,3.8671875 Z M27.2421875,5.15625 C26.5313984,5.15625 25.953125,4.57797656 25.953125,3.8671875 C25.953125,3.15639844 26.5313984,2.578125 27.2421875,2.578125 C27.9529766,2.578125 28.53125,3.15639844 28.53125,3.8671875 C28.53125,4.57797656 27.9529766,5.15625 27.2421875,5.15625 Z" id="Shape" fill="#EA3D2C"></path>

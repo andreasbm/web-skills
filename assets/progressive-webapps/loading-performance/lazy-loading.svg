@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>progressive-webapps/loading-performance/lazy-loading</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="progressive-webapps/loading-performance/lazy-loading" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#111632" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#111632" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="lazy" transform="translate(8.000000, 14.000000)" fill-rule="nonzero">
             <path d="M53.723037,23.9291267 L45.5003782,23.9291267 C44.906924,23.9291267 44.4257388,23.4479415 44.4257388,22.8544873 C44.4257388,22.2609201 44.906924,21.779848 45.5003782,21.779848 L53.723037,21.779848 C54.3164912,21.779848 54.7976764,22.2610331 54.7976764,22.8544873 C54.7977895,23.4479415 54.3164912,23.9291267 53.723037,23.9291267 Z" id="Shape" fill="#A5C8CD"></path>

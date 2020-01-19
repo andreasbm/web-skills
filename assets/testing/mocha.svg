@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>testing/mocha</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="testing/mocha" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#5B3D25" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#5B3D25" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="68747470733a2f2f636c6475702e636f6d2f78465646784f696f41552e737667" transform="translate(11.000000, 7.000000)">
             <path d="M49.9860971,44.8808286 L27.4629851,57.8941879 C26.4932377,58.4572622 25.3045176,58.4572622 24.3347725,57.8941879 L1.81165592,44.8808286 C0.841910842,44.317751 0.247550641,43.2854414 0.247550641,42.190568 L0.247550641,16.1638563 C0.247550641,15.0377004 0.841910842,14.0366731 1.81165592,13.4735951 L24.3347725,0.460238771 C25.3045176,-0.102839193 26.4932377,-0.102839193 27.4629818,0.460238771 L49.9860938,13.4735951 C50.9558395,14.0366731 51.5502024,15.0689826 51.5502024,16.1638563 L51.5502024,42.190568 C51.518927,43.2854414 50.9245576,44.317751 49.9860938,44.8808286 L49.9860971,44.8808286 Z" id="XMLID_229_" fill="#8D6748"></path>

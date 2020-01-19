@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>architecture-and-paradigms/architecture/constructor</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="architecture-and-paradigms/architecture/constructor" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#23363A" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#23363A" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="sketch" transform="translate(12.000000, 12.000000)" fill-rule="nonzero">
             <path d="M44.9418934,10.006406 L0.00333954579,10.006406 C0.00333954579,10.006406 0.0419579906,36.7732091 0.00354439646,38.2542879 C0.00325701297,38.2670285 0.00325701297,38.2797692 0.00364019096,38.2924141 C0.0422453741,39.7175488 0.626112846,41.0511041 1.64756959,42.0475584 C2.67142119,43.0461203 4.02288999,43.5961723 5.45338924,43.5961723 L29.1895418,43.5961723 C29.3804602,43.5961723 29.5636193,43.5203031 29.6985938,43.3854244 L45.4510412,27.632977 C45.5860156,27.4979067 45.6617891,27.3149392 45.6617891,27.123925 L45.6617891,10.7262059 C45.6617891,10.3285629 45.3394406,10.006406 44.9418934,10.006406 Z" id="Shape" fill="#E0E0E2"></path>

@@ -1,0 +1,8 @@
+{
+  "imports": {
+    "lit-html": "./lit-html.js",
+    "lit-element": "./lit-element.js",
+    "web-dialog": "./web-dialog.js",
+    "lit-html/directives/repeat": "./lit-html/directives/repeat.js"
+  }
+}

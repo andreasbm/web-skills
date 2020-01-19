@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>fundamentals/javascript/dom-manipulation</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="fundamentals/javascript/dom-manipulation" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#036A42" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#036A42" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="electric-mixer" transform="translate(16.000000, 15.000000)" fill-rule="nonzero">
             <path d="M30.2762797,17.3156696 L30.2762797,14.4638397 C30.2762797,13.7817586 29.7233033,13.2287823 29.0412223,13.2287823 C28.3591412,13.2287823 27.8061649,13.7817586 27.8061649,14.4638397 L27.8061649,17.3156696 C24.7924601,17.8931824 22.5146026,20.5418865 22.5146026,23.7239708 C22.5146026,27.328527 25.436666,30.2505905 29.0412223,30.2505905 C32.6457785,30.2505905 35.567842,27.328527 35.567842,23.7239708 C35.567842,20.5419689 33.2899844,17.8931824 30.2762797,17.3156696 Z M24.9847174,23.7240531 C24.9847174,21.914447 26.1698785,20.3822348 27.8061649,19.8597231 L27.8061649,27.5884654 C26.1698785,27.0658714 24.9847174,25.5335769 24.9847174,23.7240531 Z M30.2762797,27.5883831 L30.2762797,19.8596408 C31.9125661,20.3821524 33.0977272,21.914447 33.0977272,23.7239708 C33.0977272,25.5334945 31.9124837,27.0658714 30.2762797,27.5883831 Z" id="Shape" fill="#A8EBFA"></path>

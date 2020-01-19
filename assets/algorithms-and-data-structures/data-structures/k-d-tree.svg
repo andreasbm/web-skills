@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>algorithms-and-data-structures/data-structures/k-d-tree</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="algorithms-and-data-structures/data-structures/k-d-tree" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#1D2B35" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#1D2B35" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="wormhole" transform="translate(11.000000, 12.000000)" fill-rule="nonzero">
             <path d="M29.5433106,20.6066894 L38.25,11.9 L12.75,11.9 L21.4566894,20.6066894 C22.4129394,21.5629394 22.95,22.8599365 22.95,24.2121338 L22.95,25.0878662 C22.95,26.4400634 22.4129394,27.7370606 21.4566894,28.6933106 L12.75,37.4 L38.25,37.4 L29.5433106,28.6933106 C28.5870606,27.7370606 28.05,26.4400634 28.05,25.0878662 L28.05,24.2121338 C28.05,22.8599365 28.5870606,21.5629394 29.5433106,20.6066894 Z" id="Shape" fill="#AABECE"></path>

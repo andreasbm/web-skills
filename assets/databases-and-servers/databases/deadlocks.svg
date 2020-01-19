@@ -4,16 +4,17 @@
     <title>databases-and-servers/databases/deadlocks</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
+        <rect id="path-1" x="4" y="0" width="69" height="69" rx="14"></rect>
     </defs>
     <g id="databases-and-servers/databases/deadlocks" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
+        <g id="container" transform="translate(-2.000000, 2.000000)">
+            <rect id="mask" stroke="#19232E" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" x="3" y="-1" width="71" height="71" rx="14"></rect>
             <mask id="mask-2" fill="white">
                 <use xlink:href="#path-1"></use>
             </mask>
-            <rect stroke="#19232E" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+            <rect stroke="#19232E" stroke-width="2" x="3" y="-1" width="71" height="71" rx="14"></rect>
             <g id="gravestone" mask="url(#mask-2)">
-                <g transform="translate(-4.000000, 10.000000)">
+                <g transform="translate(0.000000, 10.000000)">
                     <polygon id="Shape" fill="#71C285" fill-rule="nonzero" points="4 44.6273804 74 44.6273804 74 64.6274566 4 64.6274566"></polygon>
                     <path d="M48.9998475,25 L48.9998606,45.0000763 L22.3332062,45.0000763 L22.3332062,25 C24.1741791,25 25.6664887,23.5076904 25.6664887,21.6667176 C25.6664887,19.8257446 24.1741791,18.3334351 22.3332062,18.3334351 L22.3332062,13.6749268 C22.2687378,6.27059941 28.1559601,0.183105469 35.5583801,7.52285536e-16 L35.6667176,7.52285536e-16 C39.2044678,-0.00457763672 42.5984039,1.39846797 45.1000824,3.90014648 C47.6013794,6.40144346 49.0048065,9.79576113 48.9998475,13.3335113 L48.9998475,18.3334351 C47.1588745,18.3334351 45.6665649,19.8257446 45.6665649,21.6667176 C45.6665649,23.5076904 47.1588745,25 48.9998475,25 Z" id="Shape" fill="#95A5A5" fill-rule="nonzero"></path>
                     <path d="M56.4999237,13.3335113 L56.4999349,18.3334351 L48.9998475,18.3334351 L48.9998475,13.3335113 C49.0048065,9.79576113 47.6013794,6.40144346 45.1000824,3.90014648 C42.5984039,1.39846797 39.2044678,-0.00457763672 35.6667176,-1.11662967e-05 L43.1667938,1.41667954e-16 C46.7041626,-0.00457763672 50.0984803,1.39846797 52.5997772,3.90014648 C55.1014557,6.40144346 56.5045014,9.79576113 56.4999237,13.3335113 Z" id="Shape" fill="#7F8C8D" fill-rule="nonzero"></path>

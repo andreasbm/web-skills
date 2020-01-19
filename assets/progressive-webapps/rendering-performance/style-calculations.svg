@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>progressive-webapps/rendering-performance/style-calculations</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="progressive-webapps/rendering-performance/style-calculations" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#3A4863" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#3A4863" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="tuxedo" transform="translate(10.000000, 16.000000)" fill-rule="nonzero">
             <polygon id="Shape" fill="#C7E2FC" points="20.3243607 0.896754098 19.4391148 0.89852459 7.93622951 3.5755082 14.1657049 21.268918 14.1966885 38.0885902 38.9835738 38.0425574 38.9525902 21.2228852 45.1165574 3.50645902 33.6030492 0.871967213 32.7178033 0.873737705 26.5263934 3.54098361"></polygon>

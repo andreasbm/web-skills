@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>progressive-webapps/apis/offline-first</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="progressive-webapps/apis/offline-first" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#8F222F" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#8F222F" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="offline" transform="translate(11.000000, 11.000000)" fill-rule="nonzero">
             <path d="M49.8821182,25.5498047 C49.8821182,39.0278092 38.9558259,49.9541016 25.4778214,49.9541016 C11.9994278,49.9541016 1.0735245,39.0278092 1.0735245,25.5498047 C1.0735245,12.0718002 11.9994278,1.14550781 25.4778214,1.14550781 C38.9558259,1.14550781 49.8821182,12.0718002 49.8821182,25.5498047 Z" id="Shape" fill="#EF3A50"></path>

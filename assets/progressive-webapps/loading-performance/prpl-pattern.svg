@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>progressive-webapps/loading-performance/prpl-pattern</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="progressive-webapps/loading-performance/prpl-pattern" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#8B3CBA" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#8B3CBA" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="purple-ribbon" transform="translate(17.000000, 11.000000)" fill-rule="nonzero">
             <path d="M32.7249082,11.8719416 C32.7249082,14.6915278 31.5970737,17.2143154 29.7569228,19.2622253 C29.7272429,13.5340135 25.0971857,8.90395622 19.3689738,8.90395622 C13.640762,8.90395622 9.01070477,13.5340135 8.98102491,19.2622253 C7.14087396,17.2143154 6.0130395,14.6916267 6.0130395,11.8719416 C6.0130395,5.31259495 11.9786902,-1.42108547e-14 19.3689738,-1.42108547e-14 C26.7592575,-1.42108547e-14 32.7249082,5.31259495 32.7249082,11.8719416 Z" id="Shape" fill="#8B3CBA"></path>

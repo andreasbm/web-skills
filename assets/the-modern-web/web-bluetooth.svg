@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>the-modern-web/web-bluetooth</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="the-modern-web/web-bluetooth" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#00345A" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#00345A" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="bluetooth" transform="translate(23.000000, 16.000000)" fill-rule="nonzero">
             <path d="M14,0 C6.29385965,0 0.0468304094,6.24702924 0.0468304094,13.9531696 L0.0468304094,27.9650409 C0.0468304094,35.6710994 6.29385965,41.9181287 14,41.9181287 C21.7061404,41.9181287 27.9531696,35.6710994 27.9531696,27.9649591 L27.9531696,13.9531696 C27.9531696,6.24702924 21.7061404,0 14,0 Z" id="Shape" fill="#1F84CE"></path>

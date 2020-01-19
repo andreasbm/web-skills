@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>progressive-webapps/rendering-performance/web-workers</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="progressive-webapps/rendering-performance/web-workers" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#00345C" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#00345C" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="performance" transform="translate(13.000000, 13.000000)" fill-rule="nonzero">
             <path d="M40.1170273,6.88297274 C35.6781463,2.44445036 29.7769699,0 23.5,0 C17.2226716,0 11.321495,2.44445036 6.88297274,6.88297274 C2.44445036,11.321495 0,17.2230301 0,23.5 C0,29.7769699 2.44445036,35.678505 6.88297274,40.1170273 C11.321495,44.5555496 17.2226716,47 23.5,47 C29.7769699,47 35.6781463,44.5555496 40.1170273,40.1170273 C44.5555496,35.678505 47,29.7769699 47,23.5 C47,17.2230301 44.5555496,11.321495 40.1170273,6.88297274 Z" id="Shape" fill="#EBF6FF"></path>

@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>progressive-webapps/rendering-performance/requestidlecallback</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="progressive-webapps/rendering-performance/requestidlecallback" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#896B0F" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#896B0F" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="moon" transform="translate(9.000000, 9.000000)" fill-rule="nonzero">
             <path d="M16.45056,42.059136 C30.593024,42.059136 42.056448,30.59392 42.056448,16.451456 C42.056448,10.184832 39.798528,4.452224 36.062208,0.000896 C47.606272,3.706752 55.965952,14.51968 55.965952,27.294848 C55.965952,43.130752 43.129856,55.966848 27.293952,55.966848 C14.518784,55.966848 3.705856,47.607168 2.84217094e-14,36.063104 C4.451328,39.801216 10.185728,42.059136 16.45056,42.059136 Z" id="Shape" fill="#FFD93B"></path>

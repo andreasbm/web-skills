@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>algorithms-and-data-structures/algorithms/searching</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="algorithms-and-data-structures/algorithms/searching" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#2E2839" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#2E2839" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="binoculars" transform="translate(15.000000, 22.000000)" fill-rule="nonzero">
             <path d="M16.5,0 C15.3371797,0 14.2945,0.736828125 13.9070938,1.83321875 C13.7801641,2.1910625 13.9675078,2.58414062 14.3260391,2.71072656 C14.5609063,2.79511719 14.8067734,2.7314375 14.9873281,2.58173437 L17.875,6.04939844 L17.875,6.875 C17.875,7.25467187 18.1824844,7.5625 18.5625,7.5625 C18.9425156,7.5625 19.25,7.25467187 19.25,6.875 L19.25,2.75 C19.25,1.23363281 18.016625,0 16.5,0 Z" id="Shape" fill="#B9BBC1"></path>

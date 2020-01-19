@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>the-modern-web/network-information-api</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="the-modern-web/network-information-api" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#1B4145" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#1B4145" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="wifi-signal" transform="translate(12.000000, 15.000000)" fill-rule="nonzero">
             <path d="M13.1151367,13.1925781 C12.1947266,13.1925781 11.4485352,13.9386719 11.4485352,14.8591797 L11.4485352,29.0762695 L14.7817383,29.0762695 L14.7817383,14.859082 C14.7816406,13.9386719 14.0355469,13.1925781 13.1151367,13.1925781 Z" id="Shape" fill="#609399"></path>

@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>design-and-ux/proximity</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="design-and-ux/proximity" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#12250E" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#12250E" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="radar-(2)" transform="translate(11.000000, 11.000000)" fill-rule="nonzero">
             <path d="M25.4900463,0.0664949698 C11.4305674,0.0664949698 0.0329396378,11.462994 0.0329396378,25.5236016 C0.0329396378,39.5820543 11.4304648,50.9794769 25.4900463,50.9794769 C39.5490121,50.9794769 50.9465372,39.5820543 50.9465372,25.5236016 C50.9466398,11.4628913 39.5491147,0.0664949698 25.4900463,0.0664949698 Z" id="Shape" fill="#294C22"></path>

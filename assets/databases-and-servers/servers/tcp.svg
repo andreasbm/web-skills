@@ -4,16 +4,17 @@
     <title>databases-and-servers/servers/tcp</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
+        <rect id="path-1" x="5" y="0" width="69" height="69" rx="14"></rect>
     </defs>
     <g id="databases-and-servers/servers/tcp" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
+        <g id="container" transform="translate(-3.000000, 2.000000)">
+            <rect id="mask" stroke="#06203B" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" x="4" y="-1" width="71" height="71" rx="14"></rect>
             <mask id="mask-2" fill="white">
                 <use xlink:href="#path-1"></use>
             </mask>
-            <rect stroke="#06203B" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+            <rect stroke="#06203B" stroke-width="2" x="4" y="-1" width="71" height="71" rx="14"></rect>
             <g id="pipeline" mask="url(#mask-2)">
-                <g transform="translate(-5.000000, 6.000000)">
+                <g transform="translate(0.000000, 6.000000)">
                     <polygon id="Shape" fill="#2D75BB" fill-rule="nonzero" points="23.4482759 16.0689655 27.862069 16.0689655 27.862069 35.9310345 23.4482759 35.9310345"></polygon>
                     <polygon id="Shape" fill="#2D75BB" fill-rule="nonzero" points="45.5172414 16.0689655 49.9310345 16.0689655 49.9310345 35.9310345 45.5172414 35.9310345"></polygon>
                     <polygon id="Shape" fill="#92CDDE" fill-rule="nonzero" points="27.862069 18.2758621 45.5172414 18.2758621 45.5172414 33.7241379 27.862069 33.7241379"></polygon>

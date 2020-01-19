@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>the-modern-web/share</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="the-modern-web/share" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#48000A" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#48000A" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="collaboration" transform="translate(15.000000, 15.000000)" fill-rule="nonzero">
             <path d="M15.9310078,17.4482344 L15.9310078,12.8964687 C15.9310078,11.2206875 17.2896797,9.86201562 18.9654609,9.86201562 C20.8756797,10.817125 23.1242344,10.817125 25.0344531,9.86201562 C26.7102344,9.86201562 28.0689062,11.2206875 28.0689062,12.8964687 L28.0689062,17.4482344 C28.0689062,18.2864687 27.3899141,18.9654609 26.5516797,18.9654609 L17.4482344,18.9654609 C16.61,18.9655469 15.9310078,18.2865547 15.9310078,17.4482344 Z" id="Shape" fill="#EF2648"></path>

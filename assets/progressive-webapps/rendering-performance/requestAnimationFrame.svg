@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>progressive-webapps/rendering-performance/requestanimationframe</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="progressive-webapps/rendering-performance/requestanimationframe" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#2B4747" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#2B4747" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="art" transform="translate(11.000000, 15.000000)" fill-rule="nonzero">
             <path d="M35.7410625,5.44070312 L35.7410625,37.0124219 C35.7410625,40.0125781 33.3001094,42.453125 30.2994453,42.453125 L5.44161719,42.453125 C2.44095312,42.453125 -2.84217094e-14,40.0125781 -2.84217094e-14,37.0124219 L-2.84217094e-14,5.44070312 C-2.84217094e-14,2.44054688 2.44095312,0 5.44161719,0 L30.2993437,0 C33.3001094,0 35.7410625,2.44054688 35.7410625,5.44070312 Z" id="Shape" fill="#FF5C5C"></path>

@@ -4,16 +4,17 @@
     <title>architecture-and-paradigms/architecture/bridge</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
+        <rect id="path-1" x="3" y="0" width="69" height="69" rx="14"></rect>
     </defs>
     <g id="architecture-and-paradigms/architecture/bridge" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
+        <g id="container" transform="translate(-1.000000, 2.000000)">
+            <rect id="mask" stroke="#252D35" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" x="2" y="-1" width="71" height="71" rx="14"></rect>
             <mask id="mask-2" fill="white">
                 <use xlink:href="#path-1"></use>
             </mask>
-            <rect stroke="#252D35" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+            <rect stroke="#252D35" stroke-width="2" x="2" y="-1" width="71" height="71" rx="14"></rect>
             <g id="bridge" mask="url(#mask-2)" fill-rule="nonzero">
-                <g transform="translate(-3.000000, 6.000000)" id="Shape">
+                <g transform="translate(0.000000, 6.000000)" id="Shape">
                     <polygon fill="#414952" points="8.82568359 16.8049805 13.2202148 16.8049805 13.2202148 28.6743164 8.82568359 28.6743164"></polygon>
                     <polygon fill="#414952" points="26.4770508 16.8049805 30.871582 16.8049805 30.871582 28.6743164 26.4770508 28.6743164"></polygon>
                     <polygon fill="#23272B" points="44.128418 16.8049805 48.5229492 16.8049805 48.5229492 28.6743164 44.128418 28.6743164"></polygon>

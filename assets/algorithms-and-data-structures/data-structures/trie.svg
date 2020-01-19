@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>algorithms-and-data-structures/data-structures/trie</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="algorithms-and-data-structures/data-structures/trie" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#0A3047" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#0A3047" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="index" transform="translate(18.000000, 14.000000)" fill-rule="nonzero">
             <path d="M2.05077217,14.1385711 L2.05077217,3.007792 C2.05077217,1.34665363 3.39742579,0 5.05856417,0 L12.5539814,0 C13.7902801,0 14.9011509,0.756981264 15.3537677,1.90844117 L15.9459164,3.41745118 C16.3986409,4.56751147 17.509404,5.32460039 18.7457027,5.32460039 L32.1362286,5.32460039 C33.7986589,5.32460039 35.1453126,6.67254598 35.1453126,8.33368436 L35.1453126,14.1385711" id="Shape" fill="#3679A3"></path>

@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>databases-and-servers/servers/architectural-models</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="databases-and-servers/servers/architectural-models" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#2C3C40" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#2C3C40" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="sketch-(1)" transform="translate(14.000000, 14.000000)" fill-rule="nonzero">
             <path d="M41.1534211,9.16289474 L0.00305803169,9.16289474 C0.00305803169,9.16289474 0.0384210526,33.6733333 0.00324561404,35.0295614 C0.00298245614,35.0412281 0.00298245614,35.0528947 0.00333333333,35.0644737 C0.0386842105,36.3694737 0.573333333,37.590614 1.50868421,38.5030702 C2.44622807,39.4174561 3.68377193,39.9211404 4.99368421,39.9211404 L26.7289474,39.9211404 C26.9037719,39.9211404 27.0714912,39.8516667 27.1950877,39.7281579 L41.6196491,25.3035965 C41.7432456,25.1799123 41.8126316,25.0123684 41.8126316,24.8374561 L41.8126316,9.82201754 C41.8126316,9.45789474 41.5174561,9.16289474 41.1534211,9.16289474 Z" id="Shape" fill="#E0E0E2"></path>

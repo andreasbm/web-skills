@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>design-and-ux/font-size</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="design-and-ux/font-size" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#023A5F" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#023A5F" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="text" transform="translate(10.000000, 10.000000)" fill-rule="nonzero">
             <path d="M42.5740686,5.85930588 L42.5740686,41.0138941 C42.5740686,41.8743647 41.8757157,42.5727176 41.0152451,42.5727176 L5.86065686,42.5727176 C5.00018627,42.5727176 4.30183333,41.8743647 4.30183333,41.0138941 L4.30183333,5.85930588 C4.30183333,4.99883529 5.00018627,4.30048235 5.86065686,4.30048235 L41.0152451,4.30048235 C41.8757157,4.30048235 42.5740686,4.99883529 42.5740686,5.85930588 Z" id="Shape" fill="#3EC3FF"></path>

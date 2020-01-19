@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>databases-and-servers/databases/relational-databases</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="databases-and-servers/databases/relational-databases" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#392C1F" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#392C1F" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="relationship" transform="translate(13.000000, 13.000000)" fill-rule="nonzero">
             <path d="M12.3420937,34.86075 C5.5366875,34.86075 0,40.3974375 0,47.2028437 L0,47.2305937 C0,47.6189062 0.31471875,47.9337187 0.703125,47.9337187 L23.9811562,47.9337187 C24.3695625,47.9337187 24.6842812,47.6189062 24.6842812,47.2305937 L24.6842812,47.2028437 C24.6842812,40.3974375 19.1475937,34.86075 12.3420937,34.86075 Z" id="Shape" fill="#8CC7EC"></path>

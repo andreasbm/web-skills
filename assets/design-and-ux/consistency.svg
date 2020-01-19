@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>design-and-ux/consistency</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="design-and-ux/consistency" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#31201B" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#31201B" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="twins" transform="translate(8.000000, 14.000000)" fill-rule="nonzero">
             <path d="M0.279777778,7.39411111 L5.41666667,10.0137778 C5.68677778,10.1515556 6.01711111,10.0263333 6.12566667,9.74322222 C6.63555556,8.41377778 8.31388889,5.02644444 12.3993333,4.20933333 L15.9577778,1.418 C15.9577778,1.418 5.687,-3.02244444 0.0681111111,6.68355556 C-0.0781111111,6.93644444 0.0194444444,7.26133333 0.279777778,7.39411111 Z" id="Shape" fill="#64463C"></path>

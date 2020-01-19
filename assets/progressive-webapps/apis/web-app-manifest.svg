@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>progressive-webapps/apis/web-app-manifest</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="progressive-webapps/apis/web-app-manifest" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#55585E" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#55585E" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="document-(1)" transform="translate(16.000000, 14.000000)" fill-rule="nonzero">
             <path d="M35.1155992,1.52676518 C35.1129899,0.684733286 34.4308659,0.00260922261 33.588834,0 L9.92397368,0 L9.92397368,7.6338259 C9.92397368,8.47697606 9.24035865,9.16059109 8.3972085,9.16059109 L0,9.16059109 L0,42.7494251 C0.00260922261,43.591457 0.684733286,44.273581 1.52676518,44.2761902 L33.588834,44.2761902 C34.4308659,44.273581 35.1129899,43.591457 35.1155992,42.7494251 L35.1155992,1.52676518 Z" id="Shape" fill="#FFE9CC"></path>

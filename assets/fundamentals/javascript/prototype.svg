@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>fundamentals/javascript/prototype</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="fundamentals/javascript/prototype" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#155293" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#42C3FF" fill-rule="nonzero" stroke="#155293" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="flip" transform="translate(14.000000, 14.000000)" fill-rule="nonzero">
             <path d="M20.125,4.3125 L0,4.3125 L0,41.6875 L20.125,41.6875 L20.125,46 L23,46 L23,0 L20.125,0 L20.125,4.3125 Z M20.125,38.8125 L2.875,38.8125 L2.875,7.1875 L20.125,7.1875 L20.125,38.8125 Z" id="Shape" fill="#FFFFFF"></path>

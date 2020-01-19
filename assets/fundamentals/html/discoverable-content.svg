@@ -3,16 +3,9 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>fundamentals/html/discoverable-content</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="fundamentals/html/discoverable-content" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Bitmap" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#472B17" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
-        </g>
+        <rect id="Mask" stroke="#472B17" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" x="1" y="1" width="71" height="71" rx="14"></rect>
         <g id="exploration" transform="translate(10.000000, 10.000000)" fill-rule="nonzero">
             <path d="M25.2,18.0891 C16.1037,18.9918 9,26.6661 9,36 C9,45.9414 17.0586,54 27,54 C36.9414,54 45,45.9414 45,36 C45,26.6661 37.8963,18.9918 28.8,18.0891" id="Shape" fill="#674025"></path>
             <path d="M38.7,31.95 C38.7,26.235 35.6463,21.2463 31.0905,18.486 C30.3417,18.3114 29.5812,18.1665 28.8,18.0891 L25.2,18.0891 C16.1037,18.9918 9,26.6661 9,36 C9,37.4085 9.1782,38.7729 9.4842,40.0878 C12.2436,44.6445 17.2341,47.7 22.95,47.7 C31.6485,47.7 38.7,40.6485 38.7,31.95 Z" id="Shape" fill="#976947"></path>

@@ -1,5 +1,5 @@
-import { css, html, LitElement } from "https://unpkg.com/lit-element/lit-element.js?module";
-import {repeat} from "https://unpkg.com/lit-html/directives/repeat.js?module";
+import { css, html, LitElement } from "/web_modules/lit-element.js";
+import {repeat} from "/web_modules/lit-html/directives/repeat.js";
 import {constructImagePathPrefix, getSkillId, sprayConfettiOnce, playAudio, currentConfettiCount, getSkillSearchQuery, attachLazyImgIntersectionObserver} from "./../util/util.js";
 import {auth, AuthEvents} from "./../firebase/auth.js";
 import "./../atoms/button.js";
@@ -47,7 +47,7 @@ export class Skill extends LitElement {
 					margin: 0 0 30px;
 				}
 
-				#skill:hover #img, :host(:focus-within) #img, :host(:focus) #img {
+				#skill:hover #img-container, :host(:focus-within) #img-container, :host(:focus) #img-container {
 					transform: scale(1.03);
 				}
 
@@ -112,6 +112,7 @@ export class Skill extends LitElement {
 					margin: 0 var(--spacing-s) 0 0;
 					width: var(--link-img-size);
 					height: var(--link-img-size);
+					flex-shrink: 0;
 				}
 
 				#description .link:not(:last-child) {
@@ -128,22 +129,31 @@ export class Skill extends LitElement {
     			font-weight: 300;
 				}
 
-				#img {
+				#img-container {
 					width: var(--skill-img-size);
 					height: var(--skill-img-size);
 					margin: 0 0 6px;
 					transition: 90ms ease-in transform;
 					user-select: none;
 					position: relative;
+					font-size: 0;
 				}
 
-				#img:not([loaded]) {
+				#img-container .img {
+					position: absolute;
+					top: 0;
+					left: 0;
+					width: 100%;
+					height: 100%;
+				}
+
+				#img-container .img:not([loaded]) {
 					border-radius: var(--border-radius-m);
 					background: var(--shade-700);
 					overflow: hidden;
 				}
 
-				#img:not([loaded]):after {
+				#img-container .img:not([loaded]):after {
 					background: var(--shade-700);
 					content: "";
 					position: absolute;
@@ -154,7 +164,7 @@ export class Skill extends LitElement {
 					border-radius: inherit;
 				}
 
-				#skill:not(.completed) #img {
+				#skill:not(.completed) #img-container {
 					filter: grayscale(1);
 					opacity: 0.5;
 				}
@@ -268,8 +278,10 @@ export class Skill extends LitElement {
 		super.firstUpdated(props);
 
 		// Lazy load the src of the image
-		const $img = this.shadowRoot.querySelector("#img");
-		attachLazyImgIntersectionObserver($img);
+		const $imgs = this.shadowRoot.querySelectorAll("#img-container .img");
+		for (const $img of $imgs) {
+			attachLazyImgIntersectionObserver($img);
+		}
 
 		// Lazy load the images of the links
 		const $description = this.shadowRoot.querySelector("#description");
@@ -285,7 +297,7 @@ export class Skill extends LitElement {
 		if (propertyName === "opacity") {
 			
 			// Lazy load the link images
-			const $imgs = Array.from(this.shadowRoot.querySelectorAll("#description img"));
+			const $imgs = Array.from(this.shadowRoot.querySelectorAll("#description .img"));
 		  for (const $img of $imgs) {
 				attachLazyImgIntersectionObserver($img);
 			}
@@ -342,7 +354,9 @@ export class Skill extends LitElement {
 
 		return html`
 			<div id="skill" class="${isCompleted ? `completed` : ``}">
-				<img id="img" loading="lazy" width="70px" height="70px" intrinsicsize="70x70" alt="${name}" data-src="${constructImagePathPrefix(collection, area, skill)}" />
+				<div id="img-container">
+					<img class="img" loading="lazy" width="70px" height="70px" intrinsicsize="70x70" alt="${name}" data-src="${constructImagePathPrefix(collection, area, skill)}" />
+				</div>
 				<h6 id="title">${name}</h6>
 				<div id="description" @keydown="${this.onKeyDown}">
 					<h4 class="title">${name}</h4>

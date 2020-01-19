@@ -1,4 +1,4 @@
-import { css, html, LitElement } from "https://unpkg.com/lit-element/lit-element.js?module";
+import { css, html, LitElement } from "/web_modules/lit-element.js";
 
 export class Button extends LitElement {
 

@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>progressive-webapps/loading-performance/app-shell</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="progressive-webapps/loading-performance/app-shell" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#715132" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#715132" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="chick" transform="translate(19.000000, 13.000000)" fill-rule="nonzero">
             <path d="M29.3530638,20.4687086 L25.5024963,17.5004546 L21.6534129,20.4687086 L17.8050716,17.5004546 L13.9571013,20.4687086 L10.108018,17.5004546 L6.25930562,20.4687086 L2.40985122,17.5004546 L0.983605169,18.6005637 C0.463477007,20.9922319 0.195979941,23.4319146 0.185515875,25.8794646 C0.185515875,37.2523298 6.4366588,46.4717267 17.809524,46.4717267 C29.1823892,46.4717267 35.4335321,37.2523298 35.4335321,25.8794646 C35.4229747,23.4341867 35.1558534,20.9967664 34.6365559,18.6072423 L33.2025182,17.5019387 L29.3530638,20.4687086 Z" id="Shape" fill="#EAEAEA"></path>

@@ -3,15 +3,10 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>databases-and-servers/databases/data-modelling</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
-    </defs>
+    <defs></defs>
     <g id="databases-and-servers/databases/data-modelling" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="container" transform="translate(2.000000, 2.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <rect stroke="#323E44" stroke-width="2" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#323E44" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
         </g>
         <g id="clay" transform="translate(11.000000, 11.000000)" fill-rule="nonzero">
             <path d="M35.1566619,51 L11.4134445,51 C10.822403,51 10.5605392,50.2564316 11.0208435,49.8863983 L20.7740021,42.0409928 L25.7961044,42.0409928 L35.549263,49.8863983 C36.0095672,50.2564316 35.7477035,51 35.1566619,51 Z" id="Shape" fill="#DD9666"></path>
