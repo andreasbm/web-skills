@@ -6,7 +6,7 @@ import {auth, AuthEvents} from "./firebase/auth.js";
 import "./atoms/button.js";
 import "./atoms/blur.js";
 import {initFirebase} from "./firebase/init-firebase.js";
-import {trackView} from "./analytics.js";
+import {gaMeasurementId} from "./config.js";
 
 // Initialize firebase
 initFirebase();
@@ -112,7 +112,10 @@ export class App extends LitElement {
 		});
 
 		// Track page view (we only have this one page)
-		trackView();
+		gtag("config", gaMeasurementId, {
+			"page_path": location.pathname,
+			"page_location": location.href
+		});
 
 		// Track all exceptions
 		window.addEventListener("error", e => {
