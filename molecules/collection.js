@@ -2,6 +2,9 @@ import { css, html, LitElement } from "./../web_modules/lit-element.js";
 import {repeat} from "./../web_modules/lit-html/directives/repeat.js";
 import "./area.js";
 
+/**
+ * Element that renders a collection.
+ */
 export class Collection extends LitElement {
 	static get properties () {
 		return {
@@ -55,6 +58,9 @@ export class Collection extends LitElement {
 		];
 	}
 
+	/**
+	 * Renders the element.
+	 */
 	render () {
 		return html`
 			${this.collection.name != null ? html`<h1 id="title">${this.index != null ? `${this.index}. ` : undefined}${this.collection.name}</h1>` : undefined}

@@ -1,5 +1,8 @@
 import { css, html, LitElement } from "./../web_modules/lit-element.js";
 
+/**
+ * An element that serves as a button.
+ */
 export class Button extends LitElement {
 
 	static get properties () {

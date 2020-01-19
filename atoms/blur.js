@@ -1,5 +1,8 @@
 import { css, html, LitElement } from "./../web_modules/lit-element.js";
 
+/**
+ * Elements that gives blur to the right and left of the screen.
+ */
 export class Blur extends LitElement {
 
 	static get properties () {

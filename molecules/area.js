@@ -2,6 +2,9 @@ import { css, html, LitElement } from "./../web_modules/lit-element.js";
 import {repeat} from "./../web_modules/lit-html/directives/repeat.js";
 import "./skill.js";
 
+/**
+ * Element that renders an area.
+ */
 export class Area extends LitElement {
 	static get properties () {
 		return {
@@ -36,6 +39,9 @@ export class Area extends LitElement {
 		];
 	}
 
+	/**
+	 * Renders the element.
+	 */
 	render () {
 		return html`
 			${this.area.name != null ? html`<h4 id="title">${this.area.name}</h4>` : undefined}
