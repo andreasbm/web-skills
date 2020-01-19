@@ -3,6 +3,7 @@ import {repeat} from "./../web_modules/lit-html/directives/repeat.js";
 import {constructImagePathPrefix, getSkillId, sprayConfettiOnce, playAudio, currentConfettiCount, getSkillSearchQuery, attachLazyImgIntersectionObserver} from "./../util/util.js";
 import {auth, AuthEvents} from "./../firebase/auth.js";
 import "./../atoms/button.js";
+import {lazyImgIntersectionObserverOptions} from "./../config.js";
 
 /**
  * Element that renders a skill.
@@ -18,6 +19,9 @@ export class Skill extends LitElement {
 			},
 			collection: {
 				type: Object
+			},
+			intersecting: {
+				type: Boolean,
 			}
 		}
 	}
@@ -268,6 +272,27 @@ export class Skill extends LitElement {
 		];
 	}
 
+	get skillId () {
+		return getSkillId(this.collection, this.area, this.skill);
+	}
+
+	get isAuthenticated () {
+		return auth.isAuthenticated;
+	}
+
+	get isCompleted () {
+		return !this.isAuthenticated ? true : auth.hasCompletedSkill(this.skillId);
+	}
+
+	get skillSearchQuery () {
+		return getSkillSearchQuery(this.collection, this.area, this.skill);
+	}
+
+	constructor () {
+		super();
+		this.intersecting = false;
+	}
+
 	/**
 	 * Setup the element after it has been connected.
 	 */
@@ -282,6 +307,19 @@ export class Skill extends LitElement {
 		auth.addEventListener(AuthEvents.completedSkillsChanged, () => {
 			this.requestUpdate();
 		});
+
+		const callback = (entries, observer) => { 
+			entries.forEach(entry => {
+				const {isIntersecting, target} = entry;
+				if (isIntersecting) {
+					this.intersecting = true;
+					observer.unobserve(target);
+				}
+			});
+		};
+
+		const observer = new IntersectionObserver(callback, lazyImgIntersectionObserverOptions);
+		observer.observe(this);
 	}
 
 	/**
@@ -296,10 +334,6 @@ export class Skill extends LitElement {
 		for (const $img of $imgs) {
 			attachLazyImgIntersectionObserver($img);
 		}
-
-		// Lazy load the images of the links
-		const $description = this.shadowRoot.querySelector("#description");
-		$description.addEventListener("transitionend", this.onDescriptionVisible.bind(this));
 	}
 
 	/**
@@ -355,16 +389,76 @@ export class Skill extends LitElement {
 	}
 
 	/**
+	 * Renders the description.
+	 */
+	renderDescription () {
+		const {skill, isCompleted, isAuthenticated, skillSearchQuery} = this;
+		const {description, name} = skill;
+
+		console.log("RENDER DESCRIPTION");
+
+		return html`
+			<div id="description" @keydown="${this.onKeyDown}" @transitionend=${this.onDescriptionVisible}>
+				<h4 class="title">${name}</h4>
+				${description != null && description.text != null ? html`<p class="text">${description.text}</p>` : undefined}
+				${description != null && description.links != null && description.links.length > 0 ? html`
+					<div class="links">
+							${repeat(description.links, link => {
+								const [name, url] = link;
+								return html`
+									<div class="link">
+										<img class="img" loading="lazy" width="16px" height="16px" intrinsicsize="16x16" data-src="https://plus.google.com/_/favicon?domain_url=${encodeURIComponent(url)}" alt="Logo for ${name}" />
+										<a class="url" href="${url}" target="_blank" rel="noopener" @click="${() => this.trackLinkClicked(link)}">${name}</a>
+									</div>
+								`;
+							})}
+					</div>
+				` : undefined}
+				<div id="smart-search">
+					<a id="search-google" href="https://www.google.com/search?q=${encodeURIComponent(skillSearchQuery)}" target="_blank" aria-label="Search on Google" rel="noopener">
+						<svg class="google-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 533.5 544.3"><path d="M533.5 278.4c0-18.5-1.5-37.1-4.7-55.3H272.1v104.8h147c-6.1 33.8-25.7 63.7-54.4 82.7v68h87.7c51.5-47.4 81.1-117.4 81.1-200.2z" fill="#4285f4"/><path d="M272.1 544.3c73.4 0 135.3-24.1 180.4-65.7l-87.7-68c-24.4 16.6-55.9 26-92.6 26-71 0-131.2-47.9-152.8-112.3H28.9v70.1c46.2 91.9 140.3 149.9 243.2 149.9z" fill="#34a853"/><path d="M119.3 324.3c-11.4-33.8-11.4-70.4 0-104.2V150H28.9c-38.6 76.9-38.6 167.5 0 244.4l90.4-70.1z" fill="#fbbc04"/><path d="M272.1 107.7c38.8-.6 76.3 14 104.4 40.8l77.7-77.7C405 24.6 339.7-.8 272.1 0 169.2 0 75.1 58 28.9 150l90.4 70.1c21.5-64.5 81.8-112.4 152.8-112.4z" fill="#ea4335"/></svg>
+					</a>
+					<a id="search-youtube" href="https://www.youtube.com/results?search_query=${encodeURIComponent(skillSearchQuery)}" target="_blank" aria-label="Search on Youtube" rel="noopener">
+						<svg class="youtube-logo" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="nonzero"><circle fill="#FFF" cx="40" cy="40" r="40"/><path d="M64.815 27.76a6.444 6.444 0 00-4.574-4.542C56.192 22.165 40 22.165 40 22.165s-15.896-.066-19.944.987c-2.238.592-4.378 2.402-4.97 4.607C14 31.775 14.1 40.101 14.1 40.101s-.099 8.327.987 12.342c.592 2.205 2.765 4.015 4.97 4.608 4.048 1.086 19.944.987 19.944.987s15.896.066 19.944-.987c2.238-.593 4.312-2.403 4.904-4.608 1.086-3.982 1.086-12.342 1.086-12.342s-.033-8.326-1.119-12.342z" fill="red"/><path fill="#FFF" d="M35.03 48.066L47.965 40.1 35.03 32.137z"/></g></svg>
+					</a>
+				</div>
+				${isAuthenticated ? html`
+					<st-button id="complete-button" @click="${() => {
+						const newIsCompleted = !isCompleted;
+						if (newIsCompleted) {
+							if (currentConfettiCount() <= 2) {
+								sprayConfettiOnce();
+							}
+
+							// Add audio for lols
+							requestAnimationFrame(() => {
+								playAudio(`/audio/party.mp3`, 0.2);
+								playAudio(`/audio/shot.mp3`, 0.7);
+								setTimeout(() => {
+									playAudio(`/audio/paper.mp3`, 0.3);
+								}, 150);
+							});
+
+							// Track that the skill was completed
+							gtag("event", "complete_skill", {
+								"event_category": "Engagement",
+								"event_label": `The skill "${name}" was completed`,
+							});
+						}
+
+						auth.toggleCompleteSkill(skillId);
+					}}">${isCompleted ? `Uncomplete Skill` : `Complete Skill`}</st-button>
+				` : undefined}
+			</div>
+		`;
+	}
+
+	/**
 	 * Render the component.
 	 */
 	render () {
-		const {skill, collection, area} = this;
-		const {description, name, skills} = skill;
-		const skillId = getSkillId(collection, area, skill);
-		const skillSearchQuery = getSkillSearchQuery(collection, area, skill);
-
-		const isAuthenticated = auth.isAuthenticated;
-		const isCompleted = !isAuthenticated ? true : auth.hasCompletedSkill(skillId);
+		const {skill, collection, area, isCompleted} = this;
+		const {name, skills} = skill;
 
 		return html`
 			<div id="skill" class="${isCompleted ? `completed` : ``}">
@@ -372,58 +466,7 @@ export class Skill extends LitElement {
 					<img class="img" loading="lazy" width="70px" height="70px" intrinsicsize="70x70" alt="${name}" data-src="${constructImagePathPrefix(collection, area, skill)}" />
 				</div>
 				<h6 id="title">${name}</h6>
-				<div id="description" @keydown="${this.onKeyDown}">
-					<h4 class="title">${name}</h4>
-					${description != null && description.text != null ? html`<p class="text">${description.text}</p>` : undefined}
-					${description != null && description.links != null && description.links.length > 0 ? html`
-						<div class="links">
-								${repeat(description.links, link => {
-									const [name, url] = link;
-									return html`
-										<div class="link">
-											<img class="img" loading="lazy" width="16px" height="16px" intrinsicsize="16x16" data-src="https://plus.google.com/_/favicon?domain_url=${encodeURIComponent(url)}" alt="Logo for ${name}" />
-											<a class="url" href="${url}" target="_blank" @click="${() => this.trackLinkClicked(link)}">${name}</a>
-										</div>
-									`;
-								})}
-						</div>
-					` : undefined}
-					<div id="smart-search">
-						<a id="search-google" href="https://www.google.com/search?q=${encodeURIComponent(skillSearchQuery)}" target="_blank">
-							<svg class="google-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 533.5 544.3"><path d="M533.5 278.4c0-18.5-1.5-37.1-4.7-55.3H272.1v104.8h147c-6.1 33.8-25.7 63.7-54.4 82.7v68h87.7c51.5-47.4 81.1-117.4 81.1-200.2z" fill="#4285f4"/><path d="M272.1 544.3c73.4 0 135.3-24.1 180.4-65.7l-87.7-68c-24.4 16.6-55.9 26-92.6 26-71 0-131.2-47.9-152.8-112.3H28.9v70.1c46.2 91.9 140.3 149.9 243.2 149.9z" fill="#34a853"/><path d="M119.3 324.3c-11.4-33.8-11.4-70.4 0-104.2V150H28.9c-38.6 76.9-38.6 167.5 0 244.4l90.4-70.1z" fill="#fbbc04"/><path d="M272.1 107.7c38.8-.6 76.3 14 104.4 40.8l77.7-77.7C405 24.6 339.7-.8 272.1 0 169.2 0 75.1 58 28.9 150l90.4 70.1c21.5-64.5 81.8-112.4 152.8-112.4z" fill="#ea4335"/></svg>
-						</a>
-						<a id="search-youtube" href="https://www.youtube.com/results?search_query=${encodeURIComponent(skillSearchQuery)}" target="_blank">
-							<svg class="youtube-logo" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="nonzero"><circle fill="#FFF" cx="40" cy="40" r="40"/><path d="M64.815 27.76a6.444 6.444 0 00-4.574-4.542C56.192 22.165 40 22.165 40 22.165s-15.896-.066-19.944.987c-2.238.592-4.378 2.402-4.97 4.607C14 31.775 14.1 40.101 14.1 40.101s-.099 8.327.987 12.342c.592 2.205 2.765 4.015 4.97 4.608 4.048 1.086 19.944.987 19.944.987s15.896.066 19.944-.987c2.238-.593 4.312-2.403 4.904-4.608 1.086-3.982 1.086-12.342 1.086-12.342s-.033-8.326-1.119-12.342z" fill="red"/><path fill="#FFF" d="M35.03 48.066L47.965 40.1 35.03 32.137z"/></g></svg>
-						</a>
-					</div>
-					${isAuthenticated ? html`
-						<st-button id="complete-button" @click="${() => {
-							const newIsCompleted = !isCompleted;
-							if (newIsCompleted) {
-								if (currentConfettiCount() <= 2) {
-									sprayConfettiOnce();
-								}
-
-								// Add audio for lols
-								requestAnimationFrame(() => {
-									playAudio(`/audio/party.mp3`, 0.2);
-									playAudio(`/audio/shot.mp3`, 0.7);
-									setTimeout(() => {
-										playAudio(`/audio/paper.mp3`, 0.3);
-									}, 150);
-								});
-
-								// Track that the skill was completed
-								gtag("event", "complete_skill", {
-									"event_category": "Engagement",
-									"event_label": `The skill "${name}" was completed`,
-								});
-							}
-
-							auth.toggleCompleteSkill(skillId);
-						}}">${isCompleted ? `Uncomplete Skill` : `Complete Skill`}</st-button>
-					` : undefined}
-				</div>
+				${this.intersecting ? this.renderDescription() : ""}
 			</div>
 			${skills != null ? html`
 				<div id="subskills" class="${skills.length > 1 ? 'wide' : ''}">
