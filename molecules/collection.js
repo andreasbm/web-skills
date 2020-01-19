@@ -18,8 +18,8 @@ export class Collection extends LitElement {
 			css`
 				:host {
 					display: inline-block;
-					padding: 80px;
-					border-radius: 40px;
+					padding: var(--spacing-xxxl);
+					border-radius: var(--border-radius-l);
 					background: var(--foreground);
 					color: var(--background);
 				}

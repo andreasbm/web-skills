@@ -25,18 +25,18 @@ export class App extends LitElement {
 				}
 				
 				#collections {
-					padding: 80px 80px 20px;
+					padding: var(--spacing-xxxl) var(--spacing-xxxl) var(--spacing-l);
 					display: flex;
     			flex-direction: column;
     			align-items: flex-start;
 				}
 
 				.collection:not(:last-child) {
-					margin: 0 0 40px;
+					margin: 0 0 var(--spacing-xxl);
 				}
 
 				#toolbar {
-					padding: 0 80px 80px 80px;
+					padding: 0 var(--spacing-xxxl) var(--spacing-xxxl) var(--spacing-xxxl);
 				}
 
 				#sign-out {
@@ -47,16 +47,31 @@ export class App extends LitElement {
 				#avatar {
 					display: flex;
 					align-items: center;
-					margin: 0 0 0 24px;
+					margin: 0 0 0 var(--spacing-l);
 				}
 
 				#avatar .img {
-					width: 30px;
+					width: 2.14rem;
+					height: 2.14rem;
 					border-radius: 100%;
 					border: 1px solid currentColor;
-					margin: 0 12px 0 0;
+					margin: 0 var(--spacing-m) 0 0;
 				}
 
+				@media (max-width: 1000px) {
+					#collections, #toolbar {
+						padding: var(--spacing-l) var(--spacing-l) var(--spacing-s);
+					}
+
+					.collection {
+						padding: var(--spacing-xl);
+						border-radius: var(--border-radius-s);
+					}
+
+					.collection:not(:last-child) {
+						margin: 0 0 var(--spacing-l);
+					}
+				}
 			`
 		];
 	}
