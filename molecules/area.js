@@ -1,5 +1,5 @@
-import { css, html, LitElement } from "/web_modules/lit-element.js";
-import {repeat} from "/web_modules/lit-html/directives/repeat.js";
+import { css, html, LitElement } from "./../web_modules/lit-element.js";
+import {repeat} from "./../web_modules/lit-html/directives/repeat.js";
 import "./skill.js";
 
 export class Area extends LitElement {

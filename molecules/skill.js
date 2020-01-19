@@ -1,5 +1,5 @@
-import { css, html, LitElement } from "/web_modules/lit-element.js";
-import {repeat} from "/web_modules/lit-html/directives/repeat.js";
+import { css, html, LitElement } from "./../web_modules/lit-element.js";
+import {repeat} from "./../web_modules/lit-html/directives/repeat.js";
 import {constructImagePathPrefix, getSkillId, sprayConfettiOnce, playAudio, currentConfettiCount, getSkillSearchQuery, attachLazyImgIntersectionObserver} from "./../util/util.js";
 import {auth, AuthEvents} from "./../firebase/auth.js";
 import "./../atoms/button.js";

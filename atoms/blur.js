@@ -1,4 +1,4 @@
-import { css, html, LitElement } from "/web_modules/lit-element.js";
+import { css, html, LitElement } from "./../web_modules/lit-element.js";
 
 export class Blur extends LitElement {
 
