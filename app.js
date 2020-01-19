@@ -6,6 +6,9 @@ import {auth, AuthEvents} from "./firebase/auth.js";
 import "./atoms/button.js";
 import {gaMeasurementId} from "./config.js";
 import "./atoms/blur.js";
+import {initFirebase} from "./firebase/init-firebase.js";
+
+initFirebase();
 
 export class App extends LitElement {
 

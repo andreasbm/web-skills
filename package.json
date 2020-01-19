@@ -1,5 +1,6 @@
 {
-  "name": "skill-tree",
+  "name": "web-skills",
+  "description": "A comprehensive visual overview of skills you can learn as a web developer",
   "type": "module",
   "license": "MIT",
   "scripts": {

@@ -112,6 +112,7 @@ export class Skill extends LitElement {
 					margin: 0 var(--spacing-s) 0 0;
 					width: var(--link-img-size);
 					height: var(--link-img-size);
+					flex-shrink: 0;
 				}
 
 				#description .link:not(:last-child) {

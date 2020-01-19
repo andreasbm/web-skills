@@ -26,8 +26,78 @@
 
 		<title>Web Skills</title>
 
+		<!-- Charset -->
+		<meta charset="UTF-8">
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+
+		<!-- The theme color for the app -->
+		<meta name="theme-color" content="#0B0B19">
+
+		<!-- The viewport meta tag -->
+		<meta name="viewport" content="initial-scale=1, minimum-scale = 1, maximum-scale=5, user-scalable=yes, width=device-width"/>
+
+		<!-- Mobile-friendly iOS meta tags -->
+		<meta name="apple-mobile-web-app-capable" content="yes"/>
+		<meta name="mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="white">
+		<meta name="mobile-web-app-status-bar-style" content="white">
+
+		<!-- Mobile-friendly MS meta tags -->
+		<meta name="msapplication-tap-highlight" content="no">
+
+		<!-- SEO -->
+		<meta name="title" content="Web Skills">
+		<meta name="description" content="A comprehensive visual overview of skills you can learn as a web developer">
+		<meta name="keywords" content="web, skills, learn, overview, links, html, css, javascript, accessibility, web components, pwa, build tools, frameworks, testing, architecture, design, ux, algorithms, backend">
+		<link href="https://andreasbm.github.io/web-skills" rel="author"/>
+		<link href="https://andreasbm.github.io/web-skills" rel="canonical"/>
+
+		<!-- Facebook -->
+		<meta property="og:url" content="https://andreasbm.github.io/web-skills">
+		<meta property="og:title" content="Web Skills">
+		<meta property="og:description" content="A comprehensive visual overview of skills you can learn as a web developer">
+		<meta property="og:see_also" content="https://andreasbm.github.io/web-skills">
+		<!--<meta property="og:image" content="TODO">-->
+		<meta property="og:locale" content="en">
+
+		<!-- Twitter -->
+		<meta name="twitter:url" content="https://andreasbm.github.io/web-skills">
+		<meta name="twitter:description" content="A comprehensive visual overview of skills you can learn as a web developer">
+		<meta name="twitter:card" content="A comprehensive visual overview of skills you can learn as a web developer">
+		<meta name="twitter:title" content="Web Skills">
+		<meta name="twitter:site" content="@andreasmehlsen">
+		<!--<meta name="twitter:image" content="TODO">-->
+
+		<!-- Google + -->
+		<meta itemprop="name" content="Web Skills">
+		<meta itemprop="description" content="A comprehensive visual overview of skills you can learn as a web developer">
+		<!--<meta itemprop="image" content="TODO">-->
+
+		<!-- Icons -->
+		<link rel="icon" sizes="16x16" href="/www/icon16x16.png">
+		<link rel="apple-touch-icon" sizes="16x16" href="/www/icon16x16.png">
+		<link rel="icon" sizes="32x32" href="/www/icon32x32.png">
+		<link rel="apple-touch-icon" sizes="32x32" href="/www/icon32x32.png">
+		<link rel="icon" sizes="48x48" href="/www/icon48x48.png">
+		<link rel="apple-touch-icon" sizes="48x48" href="/www/icon48x48.png">
+		<link rel="icon" sizes="96x96" href="/www/icon96x96.png">
+		<link rel="apple-touch-icon" sizes="96x96" href="/www/icon96x96.png">
+		<link rel="icon" sizes="120x120" href="/www/icon120x120.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="/www/icon120x120.png">
+		<link rel="icon" sizes="128x128" href="/www/icon128x128.png">
+		<link rel="apple-touch-icon" sizes="128x128" href="/www/icon128x128.png">
+		<link rel="icon" sizes="192x192" href="/www/icon192x192.png">
+		<link rel="apple-touch-icon" sizes="192x192" href="/www/icon192x192.png">
+		<link rel="icon" sizes="256x256" href="/www/icon256x256.png">
+		<link rel="apple-touch-icon" sizes="256x256" href="/www/icon256x256.png">
+		<link rel="icon" sizes="512x512" href="/www/icon512x512.png">
+		<link rel="apple-touch-icon" sizes="512x512" href="/www/icon512x512.png">
+
 		<link rel="stylesheet" type="text/css" href="global.css"></link>
 		<link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700&display=swap" rel="stylesheet">
+		<link rel="modulepreload" href="app.js" crossorigin="anonymous">
+
 	</head>
 	<body>
 
@@ -37,8 +107,6 @@
 		<!-- Add Firebase products that you want to use -->
 		<script defer src="https://www.gstatic.com/firebasejs/7.1.0/firebase-auth.js"></script>
 		<script defer src="https://www.gstatic.com/firebasejs/7.1.0/firebase-firestore.js"></script>
-
-		<script defer type="module" src="firebase/init-firebase.js"></script>
 
 		<!-- Polyfills -->
 		<script crossorigin src="https://polyfill.app/api/polyfill?features=es,template,shadow-dom,custom-elements,resizeobserver"></script>
