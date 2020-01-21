@@ -398,8 +398,6 @@ export class Skill extends LitElement {
 		const {skill, isCompleted, isAuthenticated, skillSearchQuery} = this;
 		const {description, name} = skill;
 
-		console.log("RENDER DESCRIPTION");
-
 		return html`
 			<div id="description" @keydown="${this.onKeyDown}" @transitionend=${this.onDescriptionVisible}>
 				<h4 class="title">${name}</h4>
