@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="73px" height="73px" viewBox="0 0 73 73" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>progressive-webapps/rendering-performance/requestidlecallback</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="progressive-webapps/rendering-performance/requestidlecallback" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#896B0F" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        </g>
+        <g id="moon" transform="translate(9.000000, 9.000000)" fill-rule="nonzero">
+            <path d="M16.45056,42.059136 C30.593024,42.059136 42.056448,30.59392 42.056448,16.451456 C42.056448,10.184832 39.798528,4.452224 36.062208,0.000896 C47.606272,3.706752 55.965952,14.51968 55.965952,27.294848 C55.965952,43.130752 43.129856,55.966848 27.293952,55.966848 C14.518784,55.966848 3.705856,47.607168 2.84217094e-14,36.063104 C4.451328,39.801216 10.185728,42.059136 16.45056,42.059136 Z" id="Shape" fill="#FFD93B"></path>
+            <path d="M45.01504,4.790912 C48.84992,9.66336 51.154432,15.797376 51.154432,22.481536 C51.154432,38.31744 38.318336,51.153536 22.482432,51.153536 C15.798272,51.153536 9.664256,48.849024 4.791808,45.014144 C10.038784,51.675008 18.158336,55.966848 27.295744,55.966848 C43.131648,55.966848 55.967744,43.130752 55.967744,27.294848 C55.967744,18.15744 51.675904,10.03968 45.01504,4.790912 Z" id="Shape" fill="#F4C534"></path>
+            <g id="Group" transform="translate(4.704000, 9.184000)" fill="#FFD83B">
+                <polygon id="Shape" points="9.646336 2.009728 12.599552 7.9968 19.204864 8.95552 14.4256 13.61472 15.552768 20.193152 9.646336 17.087616 3.738112 20.193152 4.86528 13.61472 0.086016 8.95552 6.691328 7.9968"></polygon>
+                <polygon id="Shape" points="26.304768 0.09408 27.835136 3.197824 31.259648 3.694208 28.781312 6.109824 29.367296 9.518208 26.304768 7.908992 23.24224 9.518208 23.828224 6.109824 21.349888 3.694208 24.7744 3.197824"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
