@@ -34,7 +34,7 @@
     "backend"
   ],
   "scripts": {
-    "serve": "http-server --push-state -o -c-1 -p 3011 -a localhost",
+    "serve": "http-server --push-state -o -c-1 -p 1337 -a localhost",
     "s": "npm run serve",
     "deploy": "firebase deploy",
     "lit-check": "npx lit-analyzer . --strict",

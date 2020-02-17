@@ -681,6 +681,7 @@ export const fundamentasCollection = {
 								["Medium - Browser Engines", "https://medium.com/@jonbiro/browser-engines-chromium-v8-blink-gecko-webkit-98d6b0490968"],
 								["Wikipedia - Comparison", "https://en.wikipedia.org/wiki/Comparison_of_browser_engines"],
 								["HTML5 Rocks - How Browsers Work", "https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/"],
+								["Demystifying Browsers", "https://textslashplain.com/2020/02/09/demystifying-browsers/"],
 						]
 					},
 					skills: [

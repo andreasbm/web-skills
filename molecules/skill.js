@@ -135,6 +135,10 @@ export class Skill extends LitElement {
 				#title {
 					margin: 0;
     			font-weight: 300;
+					-webkit-hyphens: auto;
+  				-moz-hyphens: auto;
+  				-ms-hyphens: auto;
+  				hyphens: auto;
 				}
 
 				#img-container {

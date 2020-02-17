@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="73px" height="73px" viewBox="0 0 73 73" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>the-modern-web/picture-in-picture</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="the-modern-web/picture-in-picture" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#3E3D3D" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        </g>
+        <g id="Group-2" transform="translate(15.000000, 15.000000)" fill-rule="nonzero">
+            <g id="music-and-multimedia">
+                <polygon id="Shape" fill="#FF493B" points="0 0 0 36 36 36 36 0"></polygon>
+                <rect id="Rectangle-path" fill="#DEECF1" x="4.2890625" y="4.2890625" width="27.421875" height="13.2679687"></rect>
+                <g id="Group" transform="translate(4.289063, 27.492187)" fill="#5A5A5A">
+                    <rect id="Rectangle-path" x="0" y="0" width="3.1640625" height="2.109375"></rect>
+                    <rect id="Rectangle-path" x="7.3828125" y="0" width="20.0390625" height="2.109375"></rect>
+                </g>
+                <circle id="Oval" fill="#DEECF1" cx="9.5625" cy="28.546875" r="3.1640625"></circle>
+                <polygon id="Shape" fill="#5A5A5A" points="31.7109375 17.5569609 31.7109375 23.2734375 4.2890625 23.2734375 4.2890625 17.5569609 13.78125 8.06477344 20.109375 14.3928984 24.328125 10.1741484"></polygon>
+            </g>
+            <g id="music-and-multimedia" transform="translate(21.000000, 26.000000)">
+                <polygon id="Shape" fill="#5A5A5A" points="0 0 0 17.7727273 23 17.7727273 23 0"></polygon>
+                <rect id="Rectangle-path" fill="#DEECF1" x="2.74023438" y="2.74023438" width="17.5195312" height="8.47675781"></rect>
+                <polygon id="Shape" fill="#FF493B" points="20.2597656 11.2169473 20.2597656 14.8691406 2.74023438 14.8691406 2.74023438 11.2169473 8.8046875 5.15249414 12.8476562 9.19546289 15.5429687 6.50015039"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

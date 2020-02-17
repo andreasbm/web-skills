@@ -242,6 +242,22 @@ export const modernCollection = {
 							["What Web Can Do Today - Credentials", "https://whatwebcando.today/credentials.html"],
 						]
 					},
+					skills: [
+						{
+							name: "Web Authentication API",
+							description: {
+								text: "Learn how to use the Web Authentication API to provide a strong authentication with public key cryptography.",
+								links: [
+									["Mozilla - Web Authentication API", "https://developer.mozilla.org/en-US/docs/Web/API/Web_Authentication_API"],
+									["W3C - Web Authentication: An API for accessing Public Key Credentials", "https://www.w3.org/TR/webauthn-2/"],
+									["Google Devs - Enabling Strong Authentication with WebAuthn", "https://developers.google.com/web/updates/2018/05/webauthn"],
+									["Introduction to Web Authentication: The New W3C Spec", "https://auth0.com/blog/introduction-to-web-authentication/"],
+									["Microsoft - Web Authentication and Windows Hello", "https://docs.microsoft.com/en-us/microsoft-edge/dev-guide/windows-integration/web-authentication"],
+									["Web Authentication: What It Is and What It Means for Passwords", "https://duo.com/blog/web-authentication-what-it-is-and-what-it-means-for-passwords"],
+								]
+							},
+						}
+					]
 				},
 				{
 					name: "Houdini",
@@ -516,7 +532,34 @@ export const modernCollection = {
 							["Face detection using Shape Detection API", "https://paul.kinlan.me/face-detection/"],
 						]
 					},
-				}
+				},
+				{
+					name: "Pointer Lock API",
+					description: {
+						text: "Learn how to use the Pointer Lock API to get the raw mouse movement and lock the target of mouse events to a single element.",
+						links: [
+							["Mozilla - Pointer Lock API", "https://developer.mozilla.org/en-US/docs/Web/API/Pointer_Lock_API"],
+							["W3C - Pointer Lock", "https://www.w3.org/TR/pointerlock/"],
+							["Use the Pointer Lock API to Restrict Mouse Movement", "https://dzone.com/articles/html5-use-pointer-lock-api"],
+						]
+					},
+				},
+				{
+					name: "Picture In Picture",
+					description: {
+						text: "Learn how to use the Picture-In-Picture API to watch videos in a floating window (always on top of other windows).",
+						links: [
+							["Google Devs - Watch video using Picture-in-Picture", "https://developers.google.com/web/updates/2018/10/watch-video-using-picture-in-picture"],
+							["Picture-in-Picture Sample", "https://googlechrome.github.io/samples/picture-in-picture/"],
+							["CSS Tricks - An Introduction to Picture-in-Picture", "https://css-tricks.com/an-introduction-to-the-picture-in-picture-web-api/"],
+							["dev.to - Implement Picture-in-Picture on the Web", "https://dev.to/ananyaneogi/implement-picture-in-picture-on-the-web-17g8"],
+							["Medium - How to use “picture in picture 📺” in JavaScript.", "https://medium.com/@ashifa454/how-to-use-picture-in-picture-in-javascript-d315296c5800"],
+						]
+					},
+				},
+				// SMS Receiver API - https://web.dev/sms-receiver-api-announcement/
+				// Badging API - https://web.dev/badging-api/
+				// Contacts API - https://web.dev/contact-picker/
 			]
 		}
 	]
