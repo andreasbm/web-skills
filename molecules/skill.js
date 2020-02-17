@@ -451,7 +451,7 @@ export class Skill extends LitElement {
 							});
 						}
 
-						auth.toggleCompleteSkill(skillId);
+						auth.toggleCompleteSkill(this.skillId);
 					}}">${isCompleted ? `Uncomplete Skill` : `Complete Skill`}</st-button>
 				` : undefined}
 			</div>

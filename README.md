@@ -294,6 +294,7 @@ Go to [http://andreasbm.github.io/web-skills](http://andreasbm.github.io/web-ski
 	* [Web Bluetooth](#web-bluetooth)
 	* [Web USB](#web-usb)
 	* [Credentials Manager API](#credentials-manager-api)
+		* [Web Authentication API](#web-authentication-api)
 	* [Houdini](#houdini)
 	* [Project Fugu](#project-fugu)
 	* [Observers](#observers)
@@ -315,6 +316,8 @@ Go to [http://andreasbm.github.io/web-skills](http://andreasbm.github.io/web-ski
 	* [Native File System](#native-file-system)
 	* [Browser Extensions](#browser-extensions)
 	* [Shape Detection](#shape-detection)
+	* [Pointer Lock API](#pointer-lock-api)
+	* [Picture In Picture](#picture-in-picture)
 * [➤ Algorithms & Data structures](#-algorithms--data-structures)
 	* [Data structures](#data-structures)
 	* [Arrays](#arrays)
@@ -874,6 +877,7 @@ Learn what a browser engine is and get an overview of the browser landscape and 
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fmedium.com%2F%40jonbiro%2Fbrowser-engines-chromium-v8-blink-gecko-webkit-98d6b0490968" alt="Logo" /> Medium - Browser Engines](https://medium.com/@jonbiro/browser-engines-chromium-v8-blink-gecko-webkit-98d6b0490968)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FComparison_of_browser_engines" alt="Logo" /> Wikipedia - Comparison](https://en.wikipedia.org/wiki/Comparison_of_browser_engines)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwww.html5rocks.com%2Fen%2Ftutorials%2Finternals%2Fhowbrowserswork%2F" alt="Logo" /> HTML5 Rocks - How Browsers Work](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Ftextslashplain.com%2F2020%2F02%2F09%2Fdemystifying-browsers%2F" alt="Logo" /> Demystifying Browsers](https://textslashplain.com/2020/02/09/demystifying-browsers/)
 
 #### Webkit
 
@@ -2713,6 +2717,17 @@ Learn about the Credentials Manager API and how it can help you authenticating u
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdevelopers.google.com%2Fweb%2Ffundamentals%2Fsecurity%2Fcredential-management%2Fsave-forms" alt="Logo" /> Google Devs - Save Credentials from Forms](https://developers.google.com/web/fundamentals/security/credential-management/save-forms)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwhatwebcando.today%2Fcredentials.html" alt="Logo" /> What Web Can Do Today - Credentials](https://whatwebcando.today/credentials.html)
 
+#### Web Authentication API
+
+Learn how to use the Web Authentication API to provide a strong authentication with public key cryptography.
+
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FWeb%2FAPI%2FWeb_Authentication_API" alt="Logo" /> Mozilla - Web Authentication API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Authentication_API)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwww.w3.org%2FTR%2Fwebauthn-2%2F" alt="Logo" /> W3C - Web Authentication: An API for accessing Public Key Credentials](https://www.w3.org/TR/webauthn-2/)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdevelopers.google.com%2Fweb%2Fupdates%2F2018%2F05%2Fwebauthn" alt="Logo" /> Google Devs - Enabling Strong Authentication with WebAuthn](https://developers.google.com/web/updates/2018/05/webauthn)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fauth0.com%2Fblog%2Fintroduction-to-web-authentication%2F" alt="Logo" /> Introduction to Web Authentication: The New W3C Spec](https://auth0.com/blog/introduction-to-web-authentication/)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fmicrosoft-edge%2Fdev-guide%2Fwindows-integration%2Fweb-authentication" alt="Logo" /> Microsoft - Web Authentication and Windows Hello](https://docs.microsoft.com/en-us/microsoft-edge/dev-guide/windows-integration/web-authentication)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fduo.com%2Fblog%2Fweb-authentication-what-it-is-and-what-it-means-for-passwords" alt="Logo" /> Web Authentication: What It Is and What It Means for Passwords](https://duo.com/blog/web-authentication-what-it-is-and-what-it-means-for-passwords)
+
 ### Houdini
 
 Learn about the Houdini project and get excited about the future of CSS.
@@ -2921,6 +2936,24 @@ Learn how to use the Shape Detection API to detect shapes such as faces or barco
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fgithub.com%2FWICG%2Fshape-detection-api" alt="Logo" /> Github - Shape Detection API Specification](https://github.com/WICG/shape-detection-api)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fblog.arnellebalane.com%2Fintroduction-to-the-shape-detection-api-e07425396861" alt="Logo" /> Introduction to the Shape Detection API](https://blog.arnellebalane.com/introduction-to-the-shape-detection-api-e07425396861)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fpaul.kinlan.me%2Fface-detection%2F" alt="Logo" /> Face detection using Shape Detection API](https://paul.kinlan.me/face-detection/)
+
+### Pointer Lock API
+
+Learn how to use the Pointer Lock API to get the raw mouse movement and lock the target of mouse events to a single element.
+
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FWeb%2FAPI%2FPointer_Lock_API" alt="Logo" /> Mozilla - Pointer Lock API](https://developer.mozilla.org/en-US/docs/Web/API/Pointer_Lock_API)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwww.w3.org%2FTR%2Fpointerlock%2F" alt="Logo" /> W3C - Pointer Lock](https://www.w3.org/TR/pointerlock/)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdzone.com%2Farticles%2Fhtml5-use-pointer-lock-api" alt="Logo" /> Use the Pointer Lock API to Restrict Mouse Movement](https://dzone.com/articles/html5-use-pointer-lock-api)
+
+### Picture In Picture
+
+Learn how to use the Picture-In-Picture API to watch videos in a floating window (always on top of other windows).
+
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdevelopers.google.com%2Fweb%2Fupdates%2F2018%2F10%2Fwatch-video-using-picture-in-picture" alt="Logo" /> Google Devs - Watch video using Picture-in-Picture](https://developers.google.com/web/updates/2018/10/watch-video-using-picture-in-picture)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fgooglechrome.github.io%2Fsamples%2Fpicture-in-picture%2F" alt="Logo" /> Picture-in-Picture Sample](https://googlechrome.github.io/samples/picture-in-picture/)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fcss-tricks.com%2Fan-introduction-to-the-picture-in-picture-web-api%2F" alt="Logo" /> CSS Tricks - An Introduction to Picture-in-Picture](https://css-tricks.com/an-introduction-to-the-picture-in-picture-web-api/)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdev.to%2Fananyaneogi%2Fimplement-picture-in-picture-on-the-web-17g8" alt="Logo" /> dev.to - Implement Picture-in-Picture on the Web](https://dev.to/ananyaneogi/implement-picture-in-picture-on-the-web-17g8)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fmedium.com%2F%40ashifa454%2Fhow-to-use-picture-in-picture-in-javascript-d315296c5800" alt="Logo" /> Medium - How to use “picture in picture 📺” in JavaScript.](https://medium.com/@ashifa454/how-to-use-picture-in-picture-in-javascript-d315296c5800)
 
 
 
