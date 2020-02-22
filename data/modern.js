@@ -557,6 +557,32 @@ export const modernCollection = {
 						]
 					},
 				},
+				{
+					name: "Generators",
+					description: {
+						text: "Learn how to use generator functions to define iterative algorithms by writing functions whose execution is not continuous.",
+						links: [
+							["Mozilla - Iterators and generators", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Iterators_and_Generators"],
+							["dev.to - JavaScript Visualized: Generators and Iterators", "https://dev.to/lydiahallie/javascript-visualized-generators-and-iterators-e36"],
+							["Understanding Generators in ES6 JavaScript with Examples", "https://codeburst.io/understanding-generators-in-es6-javascript-with-examples-6728834016d5"],
+							["javascript.info - Generators", "https://javascript.info/generators"],
+							["Medium - A Simple Guide to Understanding Javascript Generators", "https://medium.com/dailyjs/a-simple-guide-to-understanding-javascript-es6-generators-d1c350551950"],
+						]
+					},
+				}
+				{
+					name: "Proxies",
+					description: {
+						text: "Learn how to use proxies to intercept certain operations and implement custom behaviors.",
+						links: [
+							["Mozilla - Meta programming", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Meta_programming"],
+							["Mozilla - Proxy", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy"],
+							["A practical guide to Javascript Proxy", "https://blog.bitsrc.io/a-practical-guide-to-es6-proxy-229079c3c2f0?gi=92cd1f951006"],
+							["Introducing Javascript ES6 Proxies", "https://hackernoon.com/introducing-javascript-es6-proxies-1327419ab413"],
+							["Medium - How to use JavaScript Proxies for Fun and Profit", "https://medium.com/dailyjs/how-to-use-javascript-proxies-for-fun-and-profit-365579d4a9f8"],
+						]
+					},
+				}
 				// SMS Receiver API - https://web.dev/sms-receiver-api-announcement/
 				// Badging API - https://web.dev/badging-api/
 				// Contacts API - https://web.dev/contact-picker/

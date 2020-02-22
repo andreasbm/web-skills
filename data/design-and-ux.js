@@ -276,6 +276,8 @@ export const designAndUXCollection = {
 									["Microsoft - Fluent UI Toolkit", "https://www.microsoft.com/design/fluent/toolkits/"],
 									["Wikipedia - Fluent Design System", "https://en.wikipedia.org/wiki/Fluent_Design_System"],
 									["Fluent: Design Behind the Design", "https://medium.com/microsoft-design/fluent-design-behind-the-design-973028062fcc"],
+									["Iconic Icons: Designing the World of Windows", "https://medium.com/microsoft-design/iconic-icons-designing-the-world-of-windows-5e70e25e5416"],
+									["Evolving the Microsoft Fluent Design System", "https://medium.com/microsoft-design/evolving-the-microsoft-fluent-design-system-9b37fb890c82"],
 								]
 							},
 						}

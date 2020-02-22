@@ -121,6 +121,7 @@ export const architectureCollection = {
 							["Software Design Patterns", "https://www.geeksforgeeks.org/software-design-patterns/"],
 							["Design Patterns", "https://refactoring.guru/design-patterns"],
 							["JavaScript Design Patterns", "https://www.dofactory.com/javascript/design-patterns"],
+							["Design Patterns in TypeScript", "https://github.com/torokmark/design_patterns_in_typescript"],
 						]
 					},
 					skills: [

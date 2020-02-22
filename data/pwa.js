@@ -338,7 +338,8 @@ export const pwaCollection = {
 							["Understanding JavaScript", "https://medium.com/@muratcatal/understanding-javascript-heap-stack-event-loops-and-callback-queue-6fdec3cfe32e"],
 							["JavaScript Event Loop Explained", "https://medium.com/front-end-weekly/javascript-event-loop-explained-4cd26af121d4"],
 							["Youtube - What the heck is the event loop anyway?", "https://www.youtube.com/watch?v=8aGhZQkoFbQ"],
-							["The JavaScript Event Loop", "https://flaviocopes.com/javascript-event-loop/"]
+							["The JavaScript Event Loop", "https://flaviocopes.com/javascript-event-loop/"],
+							["dev.to - JavaScript Visualized: Event Loop", "https://dev.to/lydiahallie/javascript-visualized-event-loop-3dif"],
 						]
 					},
 					skills: [
