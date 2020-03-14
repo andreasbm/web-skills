@@ -175,7 +175,7 @@ Go to [http://andreasbm.github.io/web-skills](http://andreasbm.github.io/web-ski
 		* [Rollup](#rollup)
 		* [Webpack](#webpack)
 		* [Parcel](#parcel)
-		* [Pika](#pika)
+		* [Snowpack](#snowpack)
 	* [Linters and formatters](#linters-and-formatters)
 		* [Prettier](#prettier)
 		* [ESLint](#eslint)
@@ -318,6 +318,7 @@ Go to [http://andreasbm.github.io/web-skills](http://andreasbm.github.io/web-ski
 	* [Shape Detection](#shape-detection)
 	* [Pointer Lock API](#pointer-lock-api)
 	* [Picture In Picture](#picture-in-picture)
+	* [Proxies](#proxies)
 * [➤ Algorithms & Data structures](#-algorithms--data-structures)
 	* [Data structures](#data-structures)
 	* [Arrays](#arrays)
@@ -703,6 +704,7 @@ Learn how to extend objects and functions through its prototype.
 
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FWeb%2FJavaScript%2FInheritance_and_the_prototype_chain" alt="Logo" /> The prototype chain](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fmedium.com%2Fbetter-programming%2Fprototypes-in-javascript-5bba2990e04b" alt="Logo" /> Prototypes in JavaScript](https://medium.com/better-programming/prototypes-in-javascript-5bba2990e04b)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdev.to%2Flydiahallie%2Fjavascript-visualized-prototypal-inheritance-47co" alt="Logo" /> dev.to - JavaScript Visualized: Prototypal Inheritance](https://dev.to/lydiahallie/javascript-visualized-prototypal-inheritance-47co)
 
 ##### Classes
 
@@ -1083,6 +1085,7 @@ Learn how to conduct an accessibility review to improve the overall experience o
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwww.digitala11y.com%2Faccessibility-plug-ins-ie-chrome-firefox-browsers%2F" alt="Logo" /> Digital A11Y - Accessibility Plugins](https://www.digitala11y.com/accessibility-plug-ins-ie-chrome-firefox-browsers/)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdevelopers.google.com%2Fweb%2Ffundamentals%2Faccessibility%2Fa11y-for-teams" alt="Logo" /> Google Devs - Accessibility for teams](https://developers.google.com/web/fundamentals/accessibility/a11y-for-teams)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwww.wuhcag.com%2Fwcag-checklist%2F" alt="Logo" /> WCAG 2.0 checklists](https://www.wuhcag.com/wcag-checklist/)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwww.w3.org%2FWAI%2FWCAG21%2Fquickref%2F" alt="Logo" /> How to Meet WCAG (Quick Reference)](https://www.w3.org/WAI/WCAG21/quickref/)
 
 
 
@@ -1423,6 +1426,7 @@ Learn about the event loop and how Javascript simulate like it’s running our c
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fmedium.com%2Ffront-end-weekly%2Fjavascript-event-loop-explained-4cd26af121d4" alt="Logo" /> JavaScript Event Loop Explained](https://medium.com/front-end-weekly/javascript-event-loop-explained-4cd26af121d4)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D8aGhZQkoFbQ" alt="Logo" /> Youtube - What the heck is the event loop anyway?](https://www.youtube.com/watch?v=8aGhZQkoFbQ)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fflaviocopes.com%2Fjavascript-event-loop%2F" alt="Logo" /> The JavaScript Event Loop](https://flaviocopes.com/javascript-event-loop/)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdev.to%2Flydiahallie%2Fjavascript-visualized-event-loop-3dif" alt="Logo" /> dev.to - JavaScript Visualized: Event Loop](https://dev.to/lydiahallie/javascript-visualized-event-loop-3dif)
 
 #### Microtask
 
@@ -1705,12 +1709,14 @@ Learn how you can use Parcel to bundle your code.
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fparceljs.org%2Fgetting_started.html" alt="Logo" /> Parcel - Getting Started](https://parceljs.org/getting_started.html)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fflaviocopes.com%2Fparcel%2F" alt="Logo" /> Parcel, a simpler webpack](https://flaviocopes.com/parcel/)
 
-#### Pika
+#### Snowpack
 
-Learn how you can use Pika instead of a bundler.
+Learn how you can use Snowpack instead of a bundler.
 
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwww.snowpack.dev%2F" alt="Logo" /> Snowpack](https://www.snowpack.dev/)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwww.snowpack.dev%2F%23quickstart" alt="Logo" /> Snowpack - Quickstart](https://www.snowpack.dev/#quickstart)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fgithub.com%2Fpikapkg%2Fsnowpack" alt="Logo" /> Github - Snowpack](https://github.com/pikapkg/snowpack)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwww.pika.dev%2Fabout%2F" alt="Logo" /> Pika - About](https://www.pika.dev/about/)
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwww.pika.dev%2Fblog%2Fintroducing-pika-pack%2F" alt="Logo" /> Introducing: @pika/pack](https://www.pika.dev/blog/introducing-pika-pack/)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwww.pika.dev%2Fblog%2Fpika-web-a-future-without-webpack%2F" alt="Logo" /> A Future Without Webpack](https://www.pika.dev/blog/pika-web-a-future-without-webpack/)
 
 ### Linters and formatters
@@ -2128,6 +2134,7 @@ Learn how commonly occurring problems can be solved using design patterns.
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwww.geeksforgeeks.org%2Fsoftware-design-patterns%2F" alt="Logo" /> Software Design Patterns](https://www.geeksforgeeks.org/software-design-patterns/)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Frefactoring.guru%2Fdesign-patterns" alt="Logo" /> Design Patterns](https://refactoring.guru/design-patterns)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwww.dofactory.com%2Fjavascript%2Fdesign-patterns" alt="Logo" /> JavaScript Design Patterns](https://www.dofactory.com/javascript/design-patterns)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fgithub.com%2Ftorokmark%2Fdesign_patterns_in_typescript" alt="Logo" /> Design Patterns in TypeScript](https://github.com/torokmark/design_patterns_in_typescript)
 
 #### Singleton
 
@@ -2507,6 +2514,8 @@ Learn about fluent design and get familiar with the core principles.
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwww.microsoft.com%2Fdesign%2Ffluent%2Ftoolkits%2F" alt="Logo" /> Microsoft - Fluent UI Toolkit](https://www.microsoft.com/design/fluent/toolkits/)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FFluent_Design_System" alt="Logo" /> Wikipedia - Fluent Design System](https://en.wikipedia.org/wiki/Fluent_Design_System)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fmedium.com%2Fmicrosoft-design%2Ffluent-design-behind-the-design-973028062fcc" alt="Logo" /> Fluent: Design Behind the Design](https://medium.com/microsoft-design/fluent-design-behind-the-design-973028062fcc)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fmedium.com%2Fmicrosoft-design%2Ficonic-icons-designing-the-world-of-windows-5e70e25e5416" alt="Logo" /> Iconic Icons: Designing the World of Windows](https://medium.com/microsoft-design/iconic-icons-designing-the-world-of-windows-5e70e25e5416)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fmedium.com%2Fmicrosoft-design%2Fevolving-the-microsoft-fluent-design-system-9b37fb890c82" alt="Logo" /> Evolving the Microsoft Fluent Design System](https://medium.com/microsoft-design/evolving-the-microsoft-fluent-design-system-9b37fb890c82)
 
 ### Accessibility
 
@@ -2583,13 +2592,16 @@ Learn how to use the Screen Capture API for recording the screen.
 
 #### Generators
 
-Learn how generators can be used creating streams.
+Learn how to use generator functions to define iterative algorithms by writing functions whose execution is not continuous.
 
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FWeb%2FJavaScript%2FGuide%2FIterators_and_Generators" alt="Logo" /> Mozilla - Iterators and generators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Iterators_and_Generators)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fblog.jeremyfairbank.com%2Fjavascript%2Ffunctional-javascript-streams-2%2F" alt="Logo" /> Functional JavaScript - Streams](https://blog.jeremyfairbank.com/javascript/functional-javascript-streams-2/)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fcodeburst.io%2Funderstanding-generators-in-es6-javascript-with-examples-6728834016d5" alt="Logo" /> Understanding Generators with Examples](https://codeburst.io/understanding-generators-in-es6-javascript-with-examples-6728834016d5)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FWeb%2FJavaScript%2FReference%2FStatements%2Ffunction*" alt="Logo" /> Mozilla - function*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function*)
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FWeb%2FJavaScript%2FGuide%2FIterators_and_Generators" alt="Logo" /> Mozilla - Iterators and generators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Iterators_and_Generators)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FWeb%2FJavaScript%2FReference%2FOperators%2Fyield*" alt="Logo" /> Mozilla - yield*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/yield*)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdev.to%2Flydiahallie%2Fjavascript-visualized-generators-and-iterators-e36" alt="Logo" /> dev.to - JavaScript Visualized: Generators and Iterators](https://dev.to/lydiahallie/javascript-visualized-generators-and-iterators-e36)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fjavascript.info%2Fgenerators" alt="Logo" /> javascript.info - Generators](https://javascript.info/generators)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fmedium.com%2Fdailyjs%2Fa-simple-guide-to-understanding-javascript-es6-generators-d1c350551950" alt="Logo" /> Medium - A Simple Guide to Understanding Javascript Generators](https://medium.com/dailyjs/a-simple-guide-to-understanding-javascript-es6-generators-d1c350551950)
 
 ### Speech Synthesis
 
@@ -2954,6 +2966,16 @@ Learn how to use the Picture-In-Picture API to watch videos in a floating window
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fcss-tricks.com%2Fan-introduction-to-the-picture-in-picture-web-api%2F" alt="Logo" /> CSS Tricks - An Introduction to Picture-in-Picture](https://css-tricks.com/an-introduction-to-the-picture-in-picture-web-api/)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdev.to%2Fananyaneogi%2Fimplement-picture-in-picture-on-the-web-17g8" alt="Logo" /> dev.to - Implement Picture-in-Picture on the Web](https://dev.to/ananyaneogi/implement-picture-in-picture-on-the-web-17g8)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fmedium.com%2F%40ashifa454%2Fhow-to-use-picture-in-picture-in-javascript-d315296c5800" alt="Logo" /> Medium - How to use “picture in picture 📺” in JavaScript.](https://medium.com/@ashifa454/how-to-use-picture-in-picture-in-javascript-d315296c5800)
+
+### Proxies
+
+Learn how to use proxies to intercept certain operations and implement custom behaviors.
+
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FWeb%2FJavaScript%2FGuide%2FMeta_programming" alt="Logo" /> Mozilla - Meta programming](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Meta_programming)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FWeb%2FJavaScript%2FReference%2FGlobal_Objects%2FProxy" alt="Logo" /> Mozilla - Proxy](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fblog.bitsrc.io%2Fa-practical-guide-to-es6-proxy-229079c3c2f0%3Fgi%3D92cd1f951006" alt="Logo" /> A practical guide to Javascript Proxy](https://blog.bitsrc.io/a-practical-guide-to-es6-proxy-229079c3c2f0?gi=92cd1f951006)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fhackernoon.com%2Fintroducing-javascript-es6-proxies-1327419ab413" alt="Logo" /> Introducing Javascript ES6 Proxies](https://hackernoon.com/introducing-javascript-es6-proxies-1327419ab413)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fmedium.com%2Fdailyjs%2Fhow-to-use-javascript-proxies-for-fun-and-profit-365579d4a9f8" alt="Logo" /> Medium - How to use JavaScript Proxies for Fun and Profit](https://medium.com/dailyjs/how-to-use-javascript-proxies-for-fun-and-profit-365579d4a9f8)
 
 
 
