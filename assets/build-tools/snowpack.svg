@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="73px" height="73px" viewBox="0 0 73 73" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>build-tools/snowpack</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#585FFF" offset="0%"></stop>
+            <stop stop-color="#62CAFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="build-tools/snowpack" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#3E4184" stroke-width="2">
+            <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
+        </g>
+        <g id="Group" transform="translate(10.000000, 12.000000)" fill-rule="nonzero">
+            <path d="M28.3579303,1.07633205 L51.9096939,37.1890361 C52.81478,38.5768348 52.4234641,40.4355852 51.0356654,41.3406713 C50.5482124,41.6585755 49.9788188,41.8278395 49.3968621,41.8278395 L2.1225101,41.8278395 C1.0179406,41.8278395 0.122510103,40.932409 0.122510103,39.8278395 C0.122510103,39.4398684 0.235352788,39.0602726 0.447288909,38.7353039 L25.007488,1.07633205 C25.6108787,0.151132936 26.8500456,-0.109744308 27.7752447,0.493646421 C28.0078145,0.645322346 28.2062544,0.843762302 28.3579303,1.07633205 Z" id="Rectangle-8" fill="url(#linearGradient-1)"></path>
+            <polygon id="Path-23" fill="#FFFFFF" points="21.4361224 24.1031948 26.7249297 18.9140618 33.6213645 18.9140618 26.7249297 8.31403798 18.3 21.1101695"></polygon>
+        </g>
+    </g>
+</svg>

@@ -171,6 +171,7 @@ export const accessibilityCollection = {
 									["Digital A11Y - Accessibility Plugins", "https://www.digitala11y.com/accessibility-plug-ins-ie-chrome-firefox-browsers/"],
 									["Google Devs - Accessibility for teams", "https://developers.google.com/web/fundamentals/accessibility/a11y-for-teams"],
 									["WCAG 2.0 checklists", "https://www.wuhcag.com/wcag-checklist/"],
+									["How to Meet WCAG (Quick Reference)", "https://www.w3.org/WAI/WCAG21/quickref/"],
 								]
 							}
 						}

@@ -246,7 +246,7 @@ export const designAndUXCollection = {
 					description: {
 						text: "Learn what design systems are and get familiar with some.",
 						links: [
-							["A comprehensive guide to design systems", "https://www.invisionapp.com/inside-design/guide-to-design-systems/"],
+							["A guide to design systems", "https://www.invisionapp.com/inside-design/guide-to-design-systems/"],
 							["What the heck is a design system?", "https://uxdesign.cc/what-the-heck-is-a-design-system-c89a8ea73b0d"],
 							["Everything you need to know about Design Systems", "https://uxdesign.cc/everything-you-need-to-know-about-design-systems-54b109851969"],
 							["What is a Design System?", "https://medium.muz.li/what-is-a-design-system-1e43d19e7696"],

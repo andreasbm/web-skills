@@ -79,12 +79,14 @@ export const buildtoolsCollection = {
 							},
 						},
 						{
-							name: "Pika",
+							name: "Snowpack",
 							description: {
-								text: "Learn how you can use Pika instead of a bundler.",
+								text: "Learn how you can use Snowpack instead of a bundler.",
 								links: [
+									["Snowpack", "https://www.snowpack.dev/"],
+									["Snowpack - Quickstart", "https://www.snowpack.dev/#quickstart"],
+									["Github - Snowpack", "https://github.com/pikapkg/snowpack"],
 									["Pika - About", "https://www.pika.dev/about/"],
-									["Introducing: @pika/pack", "https://www.pika.dev/blog/introducing-pika-pack/"],
 									["A Future Without Webpack", "https://www.pika.dev/blog/pika-web-a-future-without-webpack/"],
 								]
 							},

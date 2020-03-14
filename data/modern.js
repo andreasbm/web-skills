@@ -66,16 +66,19 @@ export const modernCollection = {
 						{
 							name: "Generators",
 							description: {
-								text: "Learn how generators can be used creating streams.",
+								text: "Learn how to use generator functions to define iterative algorithms by writing functions whose execution is not continuous.",
 								links: [
+									["Mozilla - Iterators and generators", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Iterators_and_Generators"],
 									["Functional JavaScript - Streams", "https://blog.jeremyfairbank.com/javascript/functional-javascript-streams-2/"],
 									["Understanding Generators with Examples", "https://codeburst.io/understanding-generators-in-es6-javascript-with-examples-6728834016d5"],
 									["Mozilla - function*", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function*"],
-									["Mozilla - Iterators and generators", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Iterators_and_Generators"],
 									["Mozilla - yield*", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/yield*"],
+									["dev.to - JavaScript Visualized: Generators and Iterators", "https://dev.to/lydiahallie/javascript-visualized-generators-and-iterators-e36"],
+									["javascript.info - Generators", "https://javascript.info/generators"],
+									["Medium - A Simple Guide to Understanding Javascript Generators", "https://medium.com/dailyjs/a-simple-guide-to-understanding-javascript-es6-generators-d1c350551950"],
 								]
 							},
-						}
+						},
 					]
 				},
 				{
@@ -554,19 +557,6 @@ export const modernCollection = {
 							["CSS Tricks - An Introduction to Picture-in-Picture", "https://css-tricks.com/an-introduction-to-the-picture-in-picture-web-api/"],
 							["dev.to - Implement Picture-in-Picture on the Web", "https://dev.to/ananyaneogi/implement-picture-in-picture-on-the-web-17g8"],
 							["Medium - How to use “picture in picture 📺” in JavaScript.", "https://medium.com/@ashifa454/how-to-use-picture-in-picture-in-javascript-d315296c5800"],
-						]
-					},
-				},
-				{
-					name: "Generators",
-					description: {
-						text: "Learn how to use generator functions to define iterative algorithms by writing functions whose execution is not continuous.",
-						links: [
-							["Mozilla - Iterators and generators", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Iterators_and_Generators"],
-							["dev.to - JavaScript Visualized: Generators and Iterators", "https://dev.to/lydiahallie/javascript-visualized-generators-and-iterators-e36"],
-							["Understanding Generators in ES6 JavaScript with Examples", "https://codeburst.io/understanding-generators-in-es6-javascript-with-examples-6728834016d5"],
-							["javascript.info - Generators", "https://javascript.info/generators"],
-							["Medium - A Simple Guide to Understanding Javascript Generators", "https://medium.com/dailyjs/a-simple-guide-to-understanding-javascript-es6-generators-d1c350551950"],
 						]
 					},
 				},

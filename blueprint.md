@@ -1,5 +1,5 @@
 <h1 align="center">Web Skills</h1>
-I have tried to create a comprehensive visual overview of useful skills to learn as a web developer. Keep in mind that the list is opinionated. This is not a definitive overview of what you HAVE to learn as a web developer but rather a visual overview of what you could learn and where you could start. Hopefully it can give you some inspiration for your own journey to learn more about web development. If you feel like something is missing you are always welcome to create a pull request.
+I have tried to create a visual overview of useful skills to learn as a web developer. Keep in mind that the list is opinionated. This is not a definitive overview of what you HAVE to learn as a web developer but rather a visual overview of what you could learn and where you could start. Hopefully it can give you some inspiration for your own journey to learn more about web development. If you feel like something is missing you are always welcome to create a pull request.
 
 <br />
 <br />
@@ -2076,7 +2076,7 @@ Learn about hit targets can why they should not be neglected.
 
 Learn what design systems are and get familiar with some.
 
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwww.invisionapp.com%2Finside-design%2Fguide-to-design-systems%2F" alt="Logo" /> A comprehensive guide to design systems](https://www.invisionapp.com/inside-design/guide-to-design-systems/)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwww.invisionapp.com%2Finside-design%2Fguide-to-design-systems%2F" alt="Logo" /> A guide to design systems](https://www.invisionapp.com/inside-design/guide-to-design-systems/)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fuxdesign.cc%2Fwhat-the-heck-is-a-design-system-c89a8ea73b0d" alt="Logo" /> What the heck is a design system?](https://uxdesign.cc/what-the-heck-is-a-design-system-c89a8ea73b0d)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fuxdesign.cc%2Feverything-you-need-to-know-about-design-systems-54b109851969" alt="Logo" /> Everything you need to know about Design Systems](https://uxdesign.cc/everything-you-need-to-know-about-design-systems-54b109851969)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fmedium.muz.li%2Fwhat-is-a-design-system-1e43d19e7696" alt="Logo" /> What is a Design System?](https://medium.muz.li/what-is-a-design-system-1e43d19e7696)
