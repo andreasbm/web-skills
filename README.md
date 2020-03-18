@@ -1,9 +1,9 @@
 <h1 align="center">Web Skills</h1>
 
-<a href="http://andreasbm.github.io/web-skills" target="_blank"><img src="https://raw.githubusercontent.com/andreasbm/web-skills/master/demo.gif" alt="Demo" width="800" /></a>
-
-
 Go to [http://andreasbm.github.io/web-skills](http://andreasbm.github.io/web-skills) to check out the visual overview or scroll through this readme to get the overview as a list. 
+
+<br />
+<a href="http://andreasbm.github.io/web-skills" target="_blank"><img src="https://raw.githubusercontent.com/andreasbm/web-skills/master/demo.gif" alt="Demo" width="800" /></a>
 
 
 <details>
