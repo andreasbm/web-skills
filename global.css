@@ -1,8 +1,10 @@
 html {
 	--base-size: 14;
 
-	--background: #0B0B19;
-	--foreground: #E8E8EA;
+	--background: rgb(11, 11, 25);
+	--foreground: rgb(232, 232, 234);
+
+	--background-opaque: rgba(11, 11, 25, 0.9);
 	--link: #3366FF; 
 
 	--white: #FFFFFF;
@@ -49,10 +51,11 @@ body {
 	margin: 0;
 	scroll-snap-type: both proximity;
 	scroll-padding: 50%;
+	overscroll-behavior: contain;
+	-webkit-overflow-scrolling: touch;
 }
 
-
-@media (max-width: 1000px) {
+@media (max-width: 800px) {
 	html {
 		font-size: 12px;
 	}

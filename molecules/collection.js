@@ -13,12 +13,20 @@ export class Collection extends LitElement {
 			},
 			index: {
 				type: Number
+			},
+			compact: {
+				type: Boolean,
+				reflect: true
 			}
 		}
 	}
 	static get styles () {
 		return [
 			css`
+				:host, * {
+				    box-sizing: border-box;
+				}
+				
 				:host {
 					display: inline-block;
 					padding: var(--spacing-xxxl);
@@ -29,7 +37,7 @@ export class Collection extends LitElement {
 
 				#title {
 					font-weight: 100;
-    			letter-spacing: 2px;
+    			    letter-spacing: 2px;
 					text-transform: uppercase;
 					margin: 0 0 40px;
 				}
@@ -49,10 +57,32 @@ export class Collection extends LitElement {
 
 				.line {
 					height: 100%;
-    			border: 1px dashed currentColor;
+    			    border: 1px dashed currentColor;
 					position: absolute;
 					top: 0;
 					left: calc(100% + 40px);
+				}
+				
+				:host([compact]) {
+					width: 100%;
+				}
+				
+				:host([compact]) #areas {
+					flex-direction: column;
+				}
+				
+				:host([compact]) .area:not(:last-child) {
+					margin: 0; 
+				}
+				
+				:host([compact]) .line {
+					display: none;
+				}
+				
+				@media (max-width: 800px) {
+					:host([compact]) #title {
+						text-align: center;
+					}
 				}
 			`
 		];
@@ -67,9 +97,9 @@ export class Collection extends LitElement {
 			<div id="areas">
 				${repeat(this.collection.areas || [], (area, i) => html`
 					<div class="area">
-						<st-area .area="${area}" .collection="${this.collection}"></st-area>
+						<st-area .area="${area}" .collection="${this.collection}" ?compact="${this.compact}"></st-area>
 						${i < this.collection.areas.length - 1 ? html`
-							<hr class="line"></hr>
+							<hr class="line" />
 						` : undefined}
 					</div>
 				`)}

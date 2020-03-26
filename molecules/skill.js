@@ -1,9 +1,19 @@
-import { css, html, LitElement } from "./../web_modules/lit-element.js";
-import {repeat} from "./../web_modules/lit-html/directives/repeat.js";
-import {constructImagePathPrefix, getSkillId, sprayConfettiOnce, playAudio, currentConfettiCount, getSkillSearchQuery, attachLazyImgIntersectionObserver} from "./../util/util.js";
-import {auth, AuthEvents} from "./../firebase/auth.js";
 import "./../atoms/button.js";
 import {lazyImgIntersectionObserverOptions} from "./../config.js";
+import {auth, AuthEvents} from "./../firebase/auth.js";
+import {
+	attachLazyImgIntersectionObserver,
+	constructImagePathPrefix,
+	currentConfettiCount,
+	dispatchCloseAllDescriptionsEvent,
+	getSkillId,
+	getSkillSearchQuery,
+	listenForCloseAllDescriptionsEvent,
+	playAudio,
+	sprayConfettiOnce
+} from "./../util/util.js";
+import {css, html, LitElement} from "./../web_modules/lit-element.js";
+import {repeat} from "./../web_modules/lit-html/directives/repeat.js";
 
 /**
  * Element that renders a skill.
@@ -22,12 +32,33 @@ export class Skill extends LitElement {
 			},
 			intersecting: {
 				type: Boolean,
-			}
+			},
+			compact: {
+				type: Boolean,
+				reflect: true
+			},
+			forceShowDescription: {
+				type: Boolean,
+				reflect: true
+			},
+			hasFocus: {
+				type: Boolean,
+				reflect: true
+			},
+			hasMouseOver: {
+				type: Boolean,
+				reflect: true
+			},
 		}
 	}
+
 	static get styles () {
 		return [
 			css`
+				:host, * {
+				    box-sizing: border-box;
+				}
+				
 				:host {
 					--skill-img-size: 70px;
 					--link-img-size: 16px;
@@ -40,8 +71,8 @@ export class Skill extends LitElement {
 
 					display: flex;
 					word-break: break-word;
-   				flex-direction: column;
-    			align-items: center;
+					flex-direction: column;
+					align-items: center;
 					outline: none;
 				}
 
@@ -55,11 +86,11 @@ export class Skill extends LitElement {
 					margin: 0 0 var(--spacing-xl);
 				}
 
-				#skill:hover #img-container, :host(:focus-within) #img-container, :host(:focus) #img-container {
+				:host([hasMouseOver]) #img-container, :host([hasFocus]) #img-container, :host(:focus) #img-container, :host([forceShowDescription]) #img-container {
 					transform: scale(1.03);
 				}
 
-				#skill:hover #description, #skill:focus-within #description {
+				:host([hasMouseOver]) #description, :host([hasFocus]) #description, :host([forceShowDescription]) #description {
 					opacity: 1;
 					pointer-events: all;
 					transform: translate(-7%, 0);
@@ -73,9 +104,9 @@ export class Skill extends LitElement {
 					position: absolute;
 					text-align: left;
 					z-index: 12345678;
-
+					
 					top: 50%;
-    			left: 0;
+    			    left: 0;
 					width: 21.5rem;
 					transform: translate(-7%, -5px);
 					transition: 90ms ease-in opacity, 90ms ease-in transform;
@@ -104,12 +135,12 @@ export class Skill extends LitElement {
 
 				#description .links {
 					margin: var(--spacing-m) 0 0 0;
-    			padding: 0 0 0 var(--spacing-s);
+    			    padding: 0 0 0 var(--spacing-s);
 				}
 				
 				#description .link {
 					display: flex;
-    			align-items: center;
+    			    align-items: center;
 				}
 
 				#description .link:not(:last-child) {
@@ -134,11 +165,11 @@ export class Skill extends LitElement {
 
 				#title {
 					margin: 0;
-    			font-weight: 300;
+    			    font-weight: 300;
 					-webkit-hyphens: auto;
-  				-moz-hyphens: auto;
-  				-ms-hyphens: auto;
-  				hyphens: auto;
+					-moz-hyphens: auto;
+					-ms-hyphens: auto;
+					hyphens: auto;
 				}
 
 				#img-container {
@@ -235,7 +266,6 @@ export class Skill extends LitElement {
 					transform: translate(-50%, 0);
 				}
 
-
 				.arrow-connection {
 					z-index: calc(var(--arrow-z-index) + 1);
 					height: var(--arrow-width);
@@ -258,8 +288,8 @@ export class Skill extends LitElement {
 
 				#smart-search {
 					position: absolute;
-    			top: var(--spacing-m);
-			    right: var(--spacing-m);
+					top: var(--spacing-m);
+					right: var(--spacing-m);
 					display: flex;
 					align-items: center;
 				}
@@ -275,12 +305,45 @@ export class Skill extends LitElement {
 				.google-logo, .youtube-logo {
 					height: 1rem;
 				}
+				
+				:host([compact]) #skill {
+					margin: 0;
+				}
+				
+				@media (any-pointer: coarse) {
+					#description {
+						position: fixed;
+						bottom: 0;
+						left: 0;
+						top: unset;
+						width: 100%;
+						transform: none !important;
+						max-height: 60vh;
+						overflow-y: auto;
+						overscroll-behavior: contain;
+						-webkit-overflow-scrolling: touch;
+					}
+					
+					.link {
+					    padding: var(--spacing-m);
+						border: 1px solid currentColor;
+						border-radius: var(--border-radius-s);
+					}
+					
+					.link:not(:last-child) {
+						margin: 0 0 var(--spacing-m);
+					}
+				}
 			`
 		];
 	}
 
 	get skillId () {
 		return getSkillId(this.collection, this.area, this.skill);
+	}
+
+	get isShowingDescription () {
+		return this.hasMouseOver || this.hasFocus || this.forceShowDescription;
 	}
 
 	get isAuthenticated () {
@@ -306,6 +369,8 @@ export class Skill extends LitElement {
 	connectedCallback () {
 		super.connectedCallback();
 		this.tabIndex = 0;
+		this.hasFocus = false;
+		this.hasMouseOver = false;
 
 		auth.addEventListener(AuthEvents.authStateChanged, () => {
 			this.requestUpdate();
@@ -315,7 +380,7 @@ export class Skill extends LitElement {
 			this.requestUpdate();
 		});
 
-		const callback = (entries, observer) => { 
+		const callback = (entries, observer) => {
 			entries.forEach(entry => {
 				const {isIntersecting, target} = entry;
 				if (isIntersecting) {
@@ -325,13 +390,19 @@ export class Skill extends LitElement {
 			});
 		};
 
+		listenForCloseAllDescriptionsEvent(() => {
+			if (this.isShowingDescription) {
+				this.closeDescription()
+			}
+		});
+
 		const observer = new IntersectionObserver(callback, lazyImgIntersectionObserverOptions);
 		observer.observe(this);
 	}
 
 	/**
 	 * Attach observers after first update.
-	 * @param {*} props 
+	 * @param {*} props
 	 */
 	firstUpdated (props) {
 		super.firstUpdated(props);
@@ -345,15 +416,15 @@ export class Skill extends LitElement {
 
 	/**
 	 * When the description becomes visible we lazy load the images of the description.
-	 * @param {*} e 
+	 * @param {*} e
 	 */
 	onDescriptionVisible (e) {
 		const {propertyName, target} = e;
 		if (propertyName === "opacity") {
-			
+
 			// Lazy load the link images
 			const $imgs = Array.from(this.shadowRoot.querySelectorAll("#description .img"));
-		  for (const $img of $imgs) {
+			for (const $img of $imgs) {
 				attachLazyImgIntersectionObserver($img);
 			}
 
@@ -364,26 +435,14 @@ export class Skill extends LitElement {
 				gtag("event", "show_description", {
 					"event_category": "Engagement",
 					"event_label": `The description for "${name}" was shown`,
-				});	
+				});
 			}
 		}
 	}
 
 	/**
-	 * Handles the keydown event.
-	 * @param {*} e 
-	 */
-	onKeyDown (e) {
-		switch (e.code) {
-			case "Escape":
-				this.focus();
-				break;
-		}
-	}
-
-	/**
 	 * Track that a link was clicked.
-	 * @param {*} link 
+	 * @param {*} link
 	 */
 	trackLinkClicked (link) {
 		const [name, url] = link;
@@ -395,6 +454,35 @@ export class Skill extends LitElement {
 		});
 	}
 
+	closeDescription () {
+		this.forceShowDescription = false;
+		this.onMouseLeave();
+		this.onFocusOut();
+	}
+
+	toggleForceShowDescription () {
+		dispatchCloseAllDescriptionsEvent();
+		this.forceShowDescription = !this.forceShowDescription;
+	}
+
+	onFocusIn () {
+		this.hasFocus = true;
+	}
+
+	onFocusOut () {
+		this.hasFocus = false;
+		this.forceShowDescription = false;
+	}
+
+	onMouseEnter () {
+		this.hasMouseOver = true;
+	}
+
+	onMouseLeave () {
+		this.hasMouseOver = false;
+		this.forceShowDescription = false;
+	}
+
 	/**
 	 * Renders the description.
 	 */
@@ -403,20 +491,20 @@ export class Skill extends LitElement {
 		const {description, name} = skill;
 
 		return html`
-			<div id="description" @keydown="${this.onKeyDown}" @transitionend=${this.onDescriptionVisible}>
+			<div id="description" @transitionend=${this.onDescriptionVisible}>
 				<h4 class="title">${name}</h4>
 				${description != null && description.text != null ? html`<p class="text">${description.text}</p>` : undefined}
 				${description != null && description.links != null && description.links.length > 0 ? html`
 					<div class="links">
 							${repeat(description.links, link => {
-								const [name, url] = link;
-								return html`
+			const [name, url] = link;
+			return html`
 									<div class="link">
 										<img class="img" loading="lazy" width="16px" height="16px" intrinsicsize="16x16" data-src="https://plus.google.com/_/favicon?domain_url=${encodeURIComponent(url)}" alt="Logo for ${name}" />
 										<a class="url" href="${url}" target="_blank" rel="noopener" @click="${() => this.trackLinkClicked(link)}">${name}</a>
 									</div>
 								`;
-							})}
+		})}
 					</div>
 				` : undefined}
 				<div id="smart-search">
@@ -429,30 +517,30 @@ export class Skill extends LitElement {
 				</div>
 				${isAuthenticated ? html`
 					<st-button id="complete-button" @click="${() => {
-						const newIsCompleted = !isCompleted;
-						if (newIsCompleted) {
-							if (currentConfettiCount() <= 2) {
-								sprayConfettiOnce();
-							}
+			const newIsCompleted = !isCompleted;
+			if (newIsCompleted) {
+				if (currentConfettiCount() <= 2) {
+					sprayConfettiOnce();
+				}
 
-							// Add audio for lols
-							requestAnimationFrame(() => {
-								playAudio(`/audio/party.mp3`, 0.2);
-								playAudio(`/audio/shot.mp3`, 0.7);
-								setTimeout(() => {
-									playAudio(`/audio/paper.mp3`, 0.3);
-								}, 150);
-							});
+				// Add audio for lols
+				requestAnimationFrame(() => {
+					playAudio(`/audio/party.mp3`, 0.2);
+					playAudio(`/audio/shot.mp3`, 0.7);
+					setTimeout(() => {
+						playAudio(`/audio/paper.mp3`, 0.3);
+					}, 150);
+				});
 
-							// Track that the skill was completed
-							gtag("event", "complete_skill", {
-								"event_category": "Engagement",
-								"event_label": `The skill "${name}" was completed`,
-							});
-						}
+				// Track that the skill was completed
+				gtag("event", "complete_skill", {
+					"event_category": "Engagement",
+					"event_label": `The skill "${name}" was completed`,
+				});
+			}
 
-						auth.toggleCompleteSkill(this.skillId);
-					}}">${isCompleted ? `Uncomplete Skill` : `Complete Skill`}</st-button>
+			auth.toggleCompleteSkill(this.skillId);
+		}}">${isCompleted ? `Uncomplete Skill` : `Complete Skill`}</st-button>
 				` : undefined}
 			</div>
 		`;
@@ -466,14 +554,14 @@ export class Skill extends LitElement {
 		const {name, skills} = skill;
 
 		return html`
-			<div id="skill" class="${isCompleted ? `completed` : ``}">
+			<div id="skill" class="${isCompleted ? `completed` : ``}" @click="${this.toggleForceShowDescription}" @mouseenter="${this.onMouseEnter}" @mouseleave="${this.onMouseLeave}" @focusin="${this.onFocusIn}" @focusout="${this.onFocusOut}">
 				<div id="img-container">
 					<img class="img" loading="lazy" width="70px" height="70px" intrinsicsize="70x70" alt="${name}" data-src="${constructImagePathPrefix(collection, area, skill)}" />
 				</div>
 				<h6 id="title">${name}</h6>
 				${this.intersecting ? this.renderDescription() : ""}
 			</div>
-			${skills != null ? html`
+			${skills != null && !this.compact ? html`
 				<div id="subskills" class="${skills.length > 1 ? 'wide' : ''}">
 					${skills.length > 1 ? html`
 						<div class="arrow-connection"></div>
@@ -481,7 +569,7 @@ export class Skill extends LitElement {
 					${repeat(skills, skill => html`
 						<div class="subskill">
 							<div class="arrow"></div>
-							<st-skill .skill="${skill}" .collection="${collection}" .area="${area}"></st-skill>
+							<st-skill .skill="${skill}" .collection="${collection}" .area="${area}" ?compact="${this.compact}"></st-skill>
 						</div>
 					`)}
 				</div>

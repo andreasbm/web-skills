@@ -136,3 +136,32 @@ export function attachLazyImgIntersectionObserver ($elem) {
 	const observer = new IntersectionObserver(callback, lazyImgIntersectionObserverOptions);
 	observer.observe($elem);
 }
+
+/**
+ * Determines whether is compact has been stored in localstorage.
+ * @returns {boolean}
+ */
+export function loadIsCompact () {
+	return localStorage.getItem("compact") != null;
+}
+
+/**
+ * Set is compact in local storage.
+ * @param compact
+ */
+export function setIsCompact (compact) {
+	if (compact) {
+		localStorage.setItem("compact", "");
+
+	} else {
+		localStorage.removeItem("compact");
+	}
+}
+
+export function dispatchCloseAllDescriptionsEvent () {
+	window.dispatchEvent(new CustomEvent("closeAllDescriptions"));
+}
+
+export function listenForCloseAllDescriptionsEvent (cb) {
+	window.addEventListener("closeAllDescriptions", cb);
+}
