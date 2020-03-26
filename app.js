@@ -142,7 +142,6 @@ export class App extends LitElement {
 	connectedCallback () {
 		super.connectedCallback();
 
-
 		auth.addEventListener(AuthEvents.authStateChanged, () => {
 			this.requestUpdate().then();
 		});

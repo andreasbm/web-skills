@@ -380,7 +380,13 @@ export class Skill extends LitElement {
 			this.requestUpdate();
 		});
 
-		const callback = (entries, observer) => {
+		listenForCloseAllDescriptionsEvent(() => {
+			if (this.isShowingDescription) {
+				this.closeDescription()
+			}
+		});
+
+		const observer = new IntersectionObserver((entries, observer) => {
 			entries.forEach(entry => {
 				const {isIntersecting, target} = entry;
 				if (isIntersecting) {
@@ -388,15 +394,7 @@ export class Skill extends LitElement {
 					observer.unobserve(target);
 				}
 			});
-		};
-
-		listenForCloseAllDescriptionsEvent(() => {
-			if (this.isShowingDescription) {
-				this.closeDescription()
-			}
-		});
-
-		const observer = new IntersectionObserver(callback, lazyImgIntersectionObserverOptions);
+		}, lazyImgIntersectionObserverOptions);
 		observer.observe(this);
 	}
 
@@ -456,13 +454,17 @@ export class Skill extends LitElement {
 
 	closeDescription () {
 		this.forceShowDescription = false;
-		this.onMouseLeave();
-		this.onFocusOut();
+		this.hasFocus = false;
+		this.hasMouseOver = false;
 	}
 
 	toggleForceShowDescription () {
+		const forceShowDescription = !this.forceShowDescription;
 		dispatchCloseAllDescriptionsEvent();
-		this.forceShowDescription = !this.forceShowDescription;
+		this.forceShowDescription = forceShowDescription;
+		if (!this.forceShowDescription) {
+			this.closeDescription();
+		}
 	}
 
 	onFocusIn () {

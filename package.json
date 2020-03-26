@@ -4,14 +4,14 @@
   "type": "module",
   "license": "MIT",
   "author": "Andreas Mehlsen",
-	"bugs": {
-		"url": "https://github.com/andreasbm/web-skills/issues"
-	},
-	"homepage": "https://github.com/andreasbm/web-skills#readme",
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/andreasbm/web-skills.git"
-	},
+  "bugs": {
+    "url": "https://github.com/andreasbm/web-skills/issues"
+  },
+  "homepage": "https://github.com/andreasbm/web-skills#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreasbm/web-skills.git"
+  },
   "keywords": [
     "web",
     "skills",
@@ -34,7 +34,7 @@
     "backend"
   ],
   "scripts": {
-    "serve": "http-server --push-state -o -c-1 -p 1337 -a localhost",
+    "serve": "npx servor . index.html 8080 --reload --browse",
     "s": "npm run serve",
     "deploy": "firebase deploy",
     "lit-check": "npx lit-analyzer . --strict",
@@ -64,6 +64,7 @@
     "web-dialog": "0.0.8"
   },
   "devDependencies": {
+    "servor": "^3.2.0",
     "snowpack": "^1.0.5"
   },
   "snowpack": {
