@@ -9,10 +9,9 @@ export const fundamentasCollection = {
 					description: {
 						text: "Learn the basics of HTML and get comfortable with it's syntax and main concepts.",
 						links: [
-							["Mozilla - HTML Basics", "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics"],
-							["Mozilla - Introduction to HTML", "https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML"],
+							["MDN - HTML Basics", "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics"],
+							["MDN - Introduction to HTML", "https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML"],
 							["Codecademy - Learn HTML", "https://www.codecademy.com/learn/learn-html"],
-							["w3schools - HTML Elements", "https://www.w3schools.com/tags/ref_byfunc.asp"]
 						]
 					},
 					skills: [
@@ -21,9 +20,10 @@ export const fundamentasCollection = {
 							description: {
 								text: "Get familiar with the basic HTML tags",
 								links: [
+									["MDN - HTML elements reference", "https://developer.mozilla.org/en-US/docs/Web/HTML/Element"],
 									["Tutorialspoint - Basic HTML tags", "https://www.tutorialspoint.com/html/html_basic_tags.htm"],
 									["Elated - First 10 HTML tags", "https://www.elated.com/first-10-html-tags/"],
-									["w3schools - HTML tags", "https://www.w3schools.com/tags/ref_byfunc.asp"]
+									["W3Schools - HTML tags", "https://www.w3schools.com/tags/ref_byfunc.asp"]
 								]
 							},
 						},
@@ -34,9 +34,9 @@ export const fundamentasCollection = {
 					description: {
 						text: "Learn how to design efficient forms, validating them effectively and keeping the user informed along the way.",
 						links: [
-							["Mozilla - HTML forms", "https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms"],
+							["MDN - HTML forms", "https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms"],
 							["Google Web - Forms", "https://developers.google.com/web/fundamentals/design-and-ux/input/forms/"],
-							["w3schools - Forms", "https://www.w3schools.com/html/html_forms.asp"],
+							["W3Schools - Forms", "https://www.w3schools.com/html/html_forms.asp"],
 						]
 					}
 				},
@@ -71,7 +71,7 @@ export const fundamentasCollection = {
 					description: {
 						text: "Learn how to work with SVG files to make graphics look crisp across all screen resolutions.",
 						links: [
-							["Mozilla - Adding vector graphics to the Web", "https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Adding_vector_graphics_to_the_Web"],
+							["MDN - Adding vector graphics to the Web", "https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Adding_vector_graphics_to_the_Web"],
 							["SVG on the web", "https://svgontheweb.com/"],
 						]
 					}
@@ -81,7 +81,7 @@ export const fundamentasCollection = {
 					description: {
 						text: "Learn the best practices of writing HTML.",
 						links: [
-							["w3schools - HTML Coding Conventions", "https://www.w3schools.com/html/html5_syntax.asp"]
+							["W3Schools - HTML Coding Conventions", "https://www.w3schools.com/html/html5_syntax.asp"]
 						]
 					}
 				}
@@ -95,13 +95,13 @@ export const fundamentasCollection = {
 					description: {
 						text: "Learn the basics of CSS and get comfortable with it's syntax and main concepts.",
 						links: [
-							["Mozilla - CSS Basics", "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics"],
-							["w3schools - CSS Tutorial", "https://www.w3schools.com/css/default.asp"],
+							["MDN - CSS Basics", "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics"],
+							["W3Schools - CSS Tutorial", "https://www.w3schools.com/css/default.asp"],
 							["Supercharged - CSS Selectors", "https://www.youtube.com/watch?v=IKho_xDKaLw"],
-							["Mozilla - CSS first steps", "https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps"],
-							["Mozilla - CSS building blocks", "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks"],
-							["Mozilla - CSS values and units", "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units"],
-							["Mozilla - CSS Syntax", "https://developer.mozilla.org/en-US/docs/Web/CSS/Syntax"],
+							["MDN - CSS first steps", "https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps"],
+							["MDN - CSS building blocks", "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks"],
+							["MDN - CSS values and units", "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units"],
+							["MDN - CSS Syntax", "https://developer.mozilla.org/en-US/docs/Web/CSS/Syntax"],
 						]
 					}
 				},
@@ -110,11 +110,11 @@ export const fundamentasCollection = {
 					description: {
 						text: "Learn about CSS selectors and how to effeciently target DOM elements.",
 						links: [
-							["Mozilla - CSS selectors", "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors"],
-							["Mozilla - All selectors", "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors"],
+							["MDN - CSS selectors", "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors"],
+							["MDN - All selectors", "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors"],
 							["CSS Tricks - Child and Sibling Selectors", "https://css-tricks.com/child-and-sibling-selectors/"],
 							["CSS Tricks - All Selectors", "https://css-tricks.com/almanac/selectors/"],
-							["w3schools - CSS Combinators", "https://www.w3schools.com/css/css_combinators.asp"]
+							["W3Schools - CSS Combinators", "https://www.w3schools.com/css/css_combinators.asp"]
 						]
 					},
 					skills: [
@@ -123,11 +123,11 @@ export const fundamentasCollection = {
 							description: {
 								text: "Learn what specificity means and how to use it when writing CSS.",
 								links: [
-									["Mozilla - Specificity", "https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity"],
-									["Mozilla - Cascade and inheritance", "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance"],
+									["MDN - Specificity", "https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity"],
+									["MDN - Cascade and inheritance", "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance"],
 									["dev.to - CSS Specificity", "https://dev.to/emmawedekind/css-specificity-1kca"],
 									["Specificity Calculator", "https://specificity.keegan.st/"],
-									["w3schools - CSS Specificity", "https://www.w3schools.com/css/css_specificity.asp"]
+									["W3Schools - CSS Specificity", "https://www.w3schools.com/css/css_specificity.asp"]
 								]
 							},
 						},
@@ -136,11 +136,11 @@ export const fundamentasCollection = {
 							description: {
 								text: "Learn how to use pseudo selectors.",
 								links: [
-									["Mozilla - Pseudo-classes", "https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes"],
+									["MDN - Pseudo-classes", "https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes"],
 									["CSS Tricks - Meet the Pseudo Class Selectors", "https://css-tricks.com/pseudo-class-selectors/"],
 									["When do the :hover, :focus, and :active pseudo-classes apply?", "https://bitsofco.de/when-do-the-hover-focus-and-active-pseudo-classes-apply/"],
-									["w3schools - CSS Pseudo-elements", "https://www.w3schools.com/css/css_pseudo_elements.asp"],
-									["w3schools - CSS Pseudo-classes", "https://www.w3schools.com/css/css_pseudo_classes.asp"],
+									["W3Schools - CSS Pseudo-elements", "https://www.w3schools.com/css/css_pseudo_elements.asp"],
+									["W3Schools - CSS Pseudo-classes", "https://www.w3schools.com/css/css_pseudo_classes.asp"],
 								]
 							},
 						},
@@ -151,8 +151,8 @@ export const fundamentasCollection = {
 					description: {
 						text: "Learn what the CSS box model means.",
 						links: [
-							["Mozilla - Introduction to the CSS basic box model", "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model"],
-							["Mozilla - The box model", "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model"],
+							["MDN - Introduction to the CSS basic box model", "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model"],
+							["MDN - The box model", "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model"],
 							["CSS Tricks - Inheriting box-sizing", "https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/"],
 						]
 					},
@@ -162,7 +162,7 @@ export const fundamentasCollection = {
 							description: {
 								text: "Learn about margin collapsing.",
 								links: [
-									["Mozilla - Mastering margin collapsing", "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Mastering_margin_collapsing"],
+									["MDN - Mastering margin collapsing", "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Mastering_margin_collapsing"],
 									["Margin Collapse in CSS: What, Why, and How", "https://medium.com/@joseph0crick/margin-collapse-in-css-what-why-and-how-328c10e37ca0"],
 									["CSS Tricks - What You Should Know About Collapsing Margins", "https://css-tricks.com/what-you-should-know-about-collapsing-margins/"],
 									["What's the Deal with Collapsible Margins?", "https://bitsofco.de/collapsible-margins/"],
@@ -177,8 +177,8 @@ export const fundamentasCollection = {
 					description: {
 						text: "Learn about what happens when there is too much content to be contained comfortably inside a box and how to manage it.",
 						links: [
-							["Mozilla - Overflowing content", "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Overflowing_content"],
-							["w3schools - CSS Layout: Overflow", "https://www.w3schools.com/css/css_overflow.asp"],
+							["MDN - Overflowing content", "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Overflowing_content"],
+							["W3Schools - CSS Layout: Overflow", "https://www.w3schools.com/css/css_overflow.asp"],
 						]
 					},
 				},*/
@@ -187,9 +187,9 @@ export const fundamentasCollection = {
 					description: {
 						text: "Learn the different ways you can define colors in CSS.",
 						links: [
-							["Mozilla - Color", "https://developer.mozilla.org/en-US/docs/Web/CSS/color"],
-							["Mozilla - <color>", "https://developer.mozilla.org/en-US/docs/Web/CSS/color_value"],
-							["w3schools - CSS Colors", "https://www.w3schools.com/css/css_colors.asp"],
+							["MDN - Color", "https://developer.mozilla.org/en-US/docs/Web/CSS/color"],
+							["MDN - <color>", "https://developer.mozilla.org/en-US/docs/Web/CSS/color_value"],
+							["W3Schools - CSS Colors", "https://www.w3schools.com/css/css_colors.asp"],
 						]
 					},
 				},
@@ -198,7 +198,7 @@ export const fundamentasCollection = {
 					description: {
 						text: "Learn how to use the CSS calc function.",
 						links: [
-							["Mozilla - Calc", "https://developer.mozilla.org/en-US/docs/Web/CSS/calc"],
+							["MDN - Calc", "https://developer.mozilla.org/en-US/docs/Web/CSS/calc"],
 							["CSS Tricks - A Couple of Use Cases for Calc()", "https://css-tricks.com/a-couple-of-use-cases-for-calc/"],
 						]
 					},
@@ -209,9 +209,9 @@ export const fundamentasCollection = {
 						text: "Learn the different layout types for web.",
 						links: [
 							["Chrome Dev - Basic Layout", "https://developers.google.com/training/certification/mobile-web-specialist/study-guide/basic-layout"],
-							["w3schools - CSS Website Layout", "https://www.w3schools.com/css/css_website_layout.asp"],
-							["Mozilla - Document and website structure", "https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure"],
-							["Mozilla - CSS layout", "https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout"],
+							["W3Schools - CSS Website Layout", "https://www.w3schools.com/css/css_website_layout.asp"],
+							["MDN - Document and website structure", "https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure"],
+							["MDN - CSS layout", "https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout"],
 						]
 					},
 					skills: [
@@ -220,9 +220,9 @@ export const fundamentasCollection = {
 							description: {
 								text: "Learn how to create layouts using flexbox.",
 								links: [
-									["Mozilla - Flexbox", "https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox"],
+									["MDN - Flexbox", "https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox"],
 									["A Complete Guide to Flexbox", "https://css-tricks.com/snippets/css/a-guide-to-flexbox/"],
-									["Mozilla - Flexbox", "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox"],
+									["MDN - Flexbox", "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox"],
 									["Flexbox Froggy", "https://flexboxfroggy.com/"],
 								]
 							},
@@ -232,9 +232,9 @@ export const fundamentasCollection = {
 							description: {
 								text: "Learn how to create layouts using CSS Grid.",
 								links: [
-									["Mozilla - Grids", "https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grids"],
+									["MDN - Grids", "https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grids"],
 									["A Complete Guide to CSS Grid", "https://css-tricks.com/snippets/css/complete-guide-grid/"],
-									["Mozilla - CSS Grid", "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout"],
+									["MDN - CSS Grid", "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout"],
 									["CSS Grid Garden", "https://cssgridgarden.com/"],
 									["Supercharged - CSS Grids", "https://www.youtube.com/watch?v=AqwPrR7hklE"]
 								]
@@ -247,7 +247,7 @@ export const fundamentasCollection = {
 					description: {
 						text: "Learn the different ways to transform elements through CSS.",
 						links: [
-							["Mozilla - transform", "https://developer.mozilla.org/en-US/docs/Web/CSS/transform"],
+							["MDN - transform", "https://developer.mozilla.org/en-US/docs/Web/CSS/transform"],
 							["CSS Tricks - Transform", "https://css-tricks.com/almanac/properties/t/transform/"],
 						]
 					},
@@ -257,7 +257,7 @@ export const fundamentasCollection = {
 							description: {
 								text: "Learn how to animate elements through CSS using keyframes.",
 								links: [
-									["Mozilla - Using CSS animations", "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations"],
+									["MDN - Using CSS animations", "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations"],
 									["CSS Tricks - Animation", "https://css-tricks.com/almanac/properties/a/animation/"],
 								]
 							},
@@ -269,7 +269,7 @@ export const fundamentasCollection = {
 					description: {
 						text: "Learn how to make your website responsive so it works across different screen sizes.",
 						links: [
-							["Mozilla - Responsive design", "https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design"],
+							["MDN - Responsive design", "https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design"],
 							["Responsive Web Design Fundamentals by Google", "https://www.udacity.com/course/responsive-web-design-fundamentals--ud893"],
 							["Google Dev - Responsive Design", "https://developers.google.com/web/fundamentals/design-and-ux/responsive"],
 							["Google Dev - UX Patterns", "https://developers.google.com/web/fundamentals/design-and-ux/responsive/patterns"],
@@ -284,8 +284,8 @@ export const fundamentasCollection = {
 								text: "Learn how use media queries to build responsive layout.",
 								links: [
 									["CSS Tricks - CSS Media Queries & Using Available Space", "https://css-tricks.com/css-media-queries/"],
-									["Mozilla - Using media queries", "https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries"],
-									["Mozilla - Using Media Queries for Accessibility", "https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_Media_Queries_for_Accessibility"],
+									["MDN - Using media queries", "https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries"],
+									["MDN - Using Media Queries for Accessibility", "https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_Media_Queries_for_Accessibility"],
 								]
 							},
 						},
@@ -294,8 +294,8 @@ export const fundamentasCollection = {
 							description: {
 								text: "Learn how to use relative units for properties such as font sizes and spacing.",
 								links: [
-									["Mozilla - Sizing items in CSS", "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Sizing_items_in_CSS"],
-									["Mozilla - CSS values and units", "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units"],
+									["MDN - Sizing items in CSS", "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Sizing_items_in_CSS"],
+									["MDN - CSS values and units", "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units"],
 									["The CSS Workshop - Relative Units", "https://thecssworkshop.com/lessons/relative-units"],
 									["CSS Tricks - Fun with Viewport Units", "https://css-tricks.com/fun-viewport-units/"],
 									["dev.to - 15 CSS Relative units", "https://dev.to/bytegasm/15-css-relative-units-how-many-do-you-know-em-rem-ex-cap-ch-ic-6m"],
@@ -308,7 +308,7 @@ export const fundamentasCollection = {
 								text: "Learn how to make images responsive, always showing the best possible version for the screen size.",
 								links: [
 									["Google Devs - Responsive Images", "https://developers.google.com/web/fundamentals/design-and-ux/responsive/images"],
-									["Mozilla - Responsive Images", "https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images"],
+									["MDN - Responsive Images", "https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images"],
 								]
 							}
 						}
@@ -319,7 +319,7 @@ export const fundamentasCollection = {
 					description: {
 						text: "Learn how to define and use CSS variables.",
 						links: [
-							["Mozilla - Using CSS custom properties", "https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties"],
+							["MDN - Using CSS custom properties", "https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties"],
 							["Google Devs - CSS Variables: Why Should You Care?", "https://developers.google.com/web/updates/2016/02/css-variables-why-should-you-care"],
 							["dev.to - CSS Quickies: CSS Variables", "https://dev.to/lampewebdev/css-quickies-css-variables-or-how-you-create-a-white-dark-theme-easily-1i0i"],
 							["CSS Variables explained with 5 examples", "https://codeburst.io/css-variables-explained-with-5-examples-84adaffaa5bd"],
@@ -332,7 +332,7 @@ export const fundamentasCollection = {
 						text: "Learn the best practices of writing CSS.",
 						links: [
 							["Speckyboy - Good and bad CSS practices", "https://speckyboy.com/good-bad-css-practices/"],
-							["Mozilla - Organizing your CSS", "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Organizing"],
+							["MDN - Organizing your CSS", "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Organizing"],
 						]
 					}
 				}
@@ -346,9 +346,9 @@ export const fundamentasCollection = {
 					description: {
 						text: "Learn the basics of Javascript and get comfortable with it's syntax and main concepts.",
 						links: [
-							["Mozilla - Javascript First Steps", "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps"],
-							["Mozilla - Javascript Basics", "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics"],
-							["Mozilla - Javascript Building Blocks", "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks"],
+							["MDN - Javascript First Steps", "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps"],
+							["MDN - Javascript Basics", "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics"],
+							["MDN - Javascript Building Blocks", "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks"],
 							/* ["You might not need jQuery", "http://youmightnotneedjquery.com/"],*/
 						]
 					},
@@ -358,7 +358,7 @@ export const fundamentasCollection = {
 							description: {
 								text: "Learn how the spread syntax can help you when working with arrays.",
 								links: [
-									["Mozilla - Spread syntax", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax"],
+									["MDN - Spread syntax", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax"],
 									["Freecodecamp - An introduction to Spread syntax", "https://www.freecodecamp.org/news/an-introduction-to-spread-syntax-in-javascript-fba39595922c/"],
 									["Object rest and spread properties", "https://v8.dev/features/object-rest-spread"],
 								]
@@ -369,8 +369,8 @@ export const fundamentasCollection = {
 							description: {
 								text: "Learn how destructuring can help you when working with objects.",
 								links: [
-									["Mozilla - Destructuring assignment", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment"],
-									["Mozilla - ES6 In Depth: Destructuring", "https://hacks.mozilla.org/2015/05/es6-in-depth-destructuring/"],
+									["MDN - Destructuring assignment", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment"],
+									["MDN - ES6 In Depth: Destructuring", "https://hacks.mozilla.org/2015/05/es6-in-depth-destructuring/"],
 									["javascript.info - Destructuring assignment", "https://javascript.info/destructuring-assignment"],
 								]
 							},
@@ -382,7 +382,7 @@ export const fundamentasCollection = {
 					description: {
 						text: "Learn how the HTML is represented as objects that comprise the structure and content of a document.",
 						links: [
-							["Mozilla - DOM Introduction", "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction"],
+							["MDN - DOM Introduction", "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction"],
 							["Freecodecamp - What's the DOM", "https://www.freecodecamp.org/news/whats-the-document-object-model-and-why-you-should-know-how-to-use-it-1a2d0bc5429d/"],
 							["Introduction to the DOM", "https://learn.co/lessons/introduction-to-the-dom"],
 						]
@@ -393,7 +393,7 @@ export const fundamentasCollection = {
 							description: {
 								text: "Learn how to query HTML elements through Javascript and manipulate them.",
 								links: [
-									["Mozilla - Locating DOM elements using selectors", "https://developer.mozilla.org/en-US/docs/Web/API/Document_object_model/Locating_DOM_elements_using_selectors"],
+									["MDN - Locating DOM elements using selectors", "https://developer.mozilla.org/en-US/docs/Web/API/Document_object_model/Locating_DOM_elements_using_selectors"],
 									["Supercharged - querySelector", "https://www.youtube.com/watch?v=s0vg_H9hBuU"],
 								]
 							}
@@ -405,13 +405,13 @@ export const fundamentasCollection = {
 					description: {
 						text: "Learn how to dispatch and listen for events.",
 						links: [
-							["Mozilla - Introduction to events", "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events"],
-							["Mozilla - Creating and triggering events", "https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Creating_and_triggering_events"],
+							["MDN - Introduction to events", "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events"],
+							["MDN - Creating and triggering events", "https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Creating_and_triggering_events"],
 							["Event Bubbling and Event Capturing in JavaScript", "https://medium.com/@vsvaibhav2016/event-bubbling-and-event-capturing-in-javascript-6ff38bec30e"],
 							["Freecodecamp - A simplified explanation of event propagation", "https://www.freecodecamp.org/news/a-simplified-explanation-of-event-propagation-in-javascript-f9de7961a06e/"],
 							["JavaScript Events Explained", "https://flaviocopes.com/javascript-events/"],
-							["Mozilla - addEventListener()", "https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener"],
-							["Mozilla - removeEventListener(", "https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/removeEventListener"],
+							["MDN - addEventListener()", "https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener"],
+							["MDN - removeEventListener(", "https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/removeEventListener"],
 							["Event order", "https://www.quirksmode.org/js/events_order.html"],
 						]
 					}
@@ -421,14 +421,14 @@ export const fundamentasCollection = {
 					description: {
 						text: "Learn how to create and use objects.",
 						links: [
-							["Mozilla - Introducing JavaScript objects", "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects"],
-							["Mozilla - Working with objects", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects"],
+							["MDN - Introducing JavaScript objects", "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects"],
+							["MDN - Working with objects", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects"],
 							["javascript.info - Objects", "https://javascript.info/object"],
-							["Mozilla - this", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this"],
-							["w3schools - The JavaScript this Keyword", "https://www.w3schools.com/js/js_this.asp"],
-							["Mozilla - bind()", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind"],
-							["Mozilla - new operator", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new"],
-							["Mozilla - new.target", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new.target"],
+							["MDN - this", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this"],
+							["W3Schools - The JavaScript this Keyword", "https://www.w3schools.com/js/js_this.asp"],
+							["MDN - bind()", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind"],
+							["MDN - new operator", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new"],
+							["MDN - new.target", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new.target"],
 							["Data Structures: Objects and Arrays", "https://scotch.io/courses/10-need-to-know-javascript-concepts/data-structures-objects-and-arrays"],
 						]
 					},
@@ -449,11 +449,11 @@ export const fundamentasCollection = {
 									description: {
 										text: "Learn how to define and use classes. Get somewhat comfortable with some of the object oriented concepts such as inheritence and encapsulation.",
 										links: [
-											["Mozilla - Classes", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes"],
+											["MDN - Classes", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes"],
 											["Medium - ES6 Classes", "https://medium.com/@luke_smaki/javascript-es6-classes-8a34b0a6720a"],
-											["Mozilla - Inheritance", "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Inheritance"],
-											["Mozilla - Object Oriented Programming", "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS"],
-											["Mozilla - super", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/super"],
+											["MDN - Inheritance", "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Inheritance"],
+											["MDN - Object Oriented Programming", "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS"],
+											["MDN - super", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/super"],
 										]
 									}
 								}
@@ -466,9 +466,9 @@ export const fundamentasCollection = {
 					description: {
 						text: "Learn how to use regex to extract information from strings.",
 						links: [
-							["Mozilla - Regular Expressions", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions"],
+							["MDN - Regular Expressions", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions"],
 							["javascript.info - Regular expressions", "https://javascript.info/regular-expressions"],
-							["Mozilla - RegExp", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp"],
+							["MDN - RegExp", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp"],
 						]
 					}
 				},
@@ -477,8 +477,8 @@ export const fundamentasCollection = {
 					description: {
 						text: "Learn how template literals and tagged templates and help you manipulate strings.",
 						links: [
-							["Mozilla - Template literals", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals"],
-							["Mozilla - ES6 In Depth: Template strings", "https://hacks.mozilla.org/2015/05/es6-in-depth-template-strings-2/"],
+							["MDN - Template literals", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals"],
+							["MDN - ES6 In Depth: Template strings", "https://hacks.mozilla.org/2015/05/es6-in-depth-template-strings-2/"],
 							["Google Devs - Getting Literal With ES6 Template Strings", "https://developers.google.com/web/updates/2015/01/ES6-Template-Strings"],
 						]
 					}
@@ -489,7 +489,7 @@ export const fundamentasCollection = {
 						text: "Learn how to use promises and what asynchronous code means.",
 						links: [
 							["Google Devs - JavaScript Promises: an Introduction", "https://developers.google.com/web/fundamentals/primers/promises"],
-							["Mozilla - Promise", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise"],
+							["MDN - Promise", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise"],
 							["Master the JavaScript Interview: What is a Promise?", "https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-promise-27fc71e77261"],
 						]
 					},
@@ -499,7 +499,7 @@ export const fundamentasCollection = {
 							description: {
 								text: "Learn how to use callbacks and why they are not always a good idea.",
 								links: [
-									["Mozilla - Callback function", "https://developer.mozilla.org/en-US/docs/Glossary/Callback_function"],
+									["MDN - Callback function", "https://developer.mozilla.org/en-US/docs/Glossary/Callback_function"],
 									["JavaScript: What the heck is a Callback?", "https://codeburst.io/javascript-what-the-heck-is-a-callback-aba4da2deced"],
 									["javascript.info - Callbacks", "https://javascript.info/callbacks"],
 								]
@@ -510,7 +510,7 @@ export const fundamentasCollection = {
 							description: {
 								text: "Learn how to use the async and await keywords to make it easier to write asynchronous code.",
 								links: [
-									["Mozilla - async function", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function"],
+									["MDN - async function", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function"],
 									["Google Devs - Async functions", "https://developers.google.com/web/fundamentals/primers/async-functions"],
 									["javascript.info - Async/await", "https://javascript.info/async-await"],
 								]
@@ -524,7 +524,7 @@ export const fundamentasCollection = {
 									["Google Devs - Introduction to fetch", "https://developers.google.com/web/updates/2015/03/introduction-to-fetch"],
 									["Google Devs - Networking", "https://developers.google.com/training/certification/mobile-web-specialist/study-guide/networking"],
 									["Freecodecamp - Fetch practical guide", "https://www.freecodecamp.org/news/a-practical-es6-guide-on-how-to-perform-http-requests-using-the-fetch-api-594c3d91a547/"],
-									["Mozilla - CORS", "https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS"],
+									["MDN - CORS", "https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS"],
 									["Alligator - Fetch API", "https://alligator.io/js/fetch-api/"],
 									["Supercharged - Fetch", "https://www.youtube.com/watch?v=GiI77ya60yk"],
 									["Codelabs - Fetch ", "https://codelabs.developers.google.com/codelabs/pwa-fetch/index.html?index=..%2F..dev-pwa-training#0"]
@@ -539,7 +539,7 @@ export const fundamentasCollection = {
 						text: "Learn how to use web animations to animate elements in the DOM.",
 						links: [
 							["Google Devs - Animations", "https://developers.google.com/web/fundamentals/design-and-ux/animations"],
-							["Mozilla - Using The Web Animations API", "https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API/Using_the_Web_Animations_API"],
+							["MDN - Using The Web Animations API", "https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API/Using_the_Web_Animations_API"],
 							["CSS Tricks - CSS Animations vs Web Animations API", "https://css-tricks.com/css-animations-vs-web-animations-api/"],
 						]
 					}
@@ -549,8 +549,8 @@ export const fundamentasCollection = {
 					description: {
 						text: "Learn how to modularize your code into ES6 modules using the export and import keywords.",
 						links: [
-							["Mozilla - Export", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export"],
-							["Mozilla - Import", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import"],
+							["MDN - Export", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export"],
+							["MDN - Import", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import"],
 							["V8 - Modules", "https://v8.dev/features/modules"],
 							["Freecodecamp - A Practical guide to ES6 modules", "https://www.freecodecamp.org/news/how-to-use-es6-modules-and-why-theyre-important-a9b20b480773/"],
 						]
@@ -561,8 +561,8 @@ export const fundamentasCollection = {
 					description: {
 						text: "Learn how to localize your website using the Intl API.",
 						links: [
-							["Mozilla - Intl", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl"],
-							["Mozilla - Date Time Format", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DateTimeFormat"],
+							["MDN - Intl", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl"],
+							["MDN - Date Time Format", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DateTimeFormat"],
 							["New Intl APIs in JavaScript", "https://blog.bitsrc.io/new-intl-apis-in-javascript-c50dc89d2cf3"],
 						]
 					}
@@ -572,8 +572,8 @@ export const fundamentasCollection = {
 					description: {
 						text: "Learn how to paint graphics onto a canvas.",
 						links: [
-							["Mozilla - Canvas tutorial", "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial"],
-							["Mozilla - Canvas API", "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API"],
+							["MDN - Canvas tutorial", "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial"],
+							["MDN - Canvas API", "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API"],
 							["CSS Tricks - Manipulating Pixels Using Canvas", "https://css-tricks.com/manipulating-pixels-using-canvas/"],
 						]
 					}
@@ -596,7 +596,7 @@ export const fundamentasCollection = {
 					description: {
 						text: "Learn the best practices of writing Javascript.",
 						links: [
-							["w3schools - JS Best Practices", "https://www.w3schools.com/js/js_best_practices.asp"],
+							["MDN - JavaScript guidelines", "https://developer.mozilla.org/en-US/docs/MDN/Contribute/Guidelines/Code_guidelines/JavaScript"],
 							["Airbnb - JavaScript Style Guide", "https://github.com/airbnb/javascript"],
 							["Principles of Writing Consistent, Idiomatic JavaScript", "https://github.com/rwaldron/idiomatic.js/"],
 							["5 JavaScript Style Guides", "https://codeburst.io/5-javascript-style-guides-including-airbnb-github-google-88cbc6b2b7aa"],
@@ -653,7 +653,7 @@ export const fundamentasCollection = {
 								links: [
 									["WHATWG - FAQ", "https://whatwg.org/faq"],
 									["WHATWG - Standards", "https://spec.whatwg.org/"],
-									["Mozilla - WHATWG", "https://developer.mozilla.org/en-US/docs/Glossary/WHATWG"],
+									["MDN - WHATWG", "https://developer.mozilla.org/en-US/docs/Glossary/WHATWG"],
 									["W3C vs. WHATWG HTML5 Specs", "https://dzone.com/articles/w3c-vs-whatwg-html5-specs"],
 									["WHATWG - HTML", "https://html.spec.whatwg.org/"],
 									["Wikipedia - WHATWG", "https://en.wikipedia.org/wiki/WHATWG"],
@@ -729,9 +729,9 @@ export const fundamentasCollection = {
 					description: {
 						text: "Learn how data is distributed through the HTTP protocol.",
 						links: [
-							["Mozilla - HTTP", "https://developer.mozilla.org/en-US/docs/Web/HTTP"],
-							["Mozilla - HTTP Glossary", "https://developer.mozilla.org/en-US/docs/Glossary/HTTP"],
-							["Mozilla - An overview of HTTP", "https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview"],
+							["MDN - HTTP", "https://developer.mozilla.org/en-US/docs/Web/HTTP"],
+							["MDN - HTTP Glossary", "https://developer.mozilla.org/en-US/docs/Glossary/HTTP"],
+							["MDN - An overview of HTTP", "https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview"],
 							["Wikipedia - Hypertext Transfer Protocol", "https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol"],
 						]
 					}
@@ -741,7 +741,7 @@ export const fundamentasCollection = {
 					description: {
 						text: "Learn the basics of how the internet works.",
 						links: [
-							["Mozilla - How does the Internet work?", "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/How_does_the_Internet_work"],
+							["MDN - How does the Internet work?", "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/How_does_the_Internet_work"],
 							["Youtube - How the Internet Works in 5 Minutes", "https://www.youtube.com/watch?v=7_LPdttKXPc"],
 							["Explain That Stuff - Internet", "https://www.explainthatstuff.com/internet.html"],
 							["Stanford - How Does the Internet Work?", "https://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm"],
@@ -754,7 +754,7 @@ export const fundamentasCollection = {
 					description: {
 						text: "Learn how it is possible to use polyfills to increase the browser support for your website.",
 						links: [
-							["Mozilla - Polyfill", "https://developer.mozilla.org/en-US/docs/Glossary/Polyfill"],
+							["MDN - Polyfill", "https://developer.mozilla.org/en-US/docs/Glossary/Polyfill"],
 							["Introduction To Polyfills & Their Usage", "https://medium.com/beginners-guide-to-mobile-web-development/introduction-to-polyfills-their-usage-9cd6db4b1923"],
 							["W3C - Polyfills and the evolution of the Web", "https://www.w3.org/2001/tag/doc/polyfills/"],
 						]
@@ -766,7 +766,7 @@ export const fundamentasCollection = {
 						text: "Learn about the basics concepts of debugging.",
 						links: [
 							["Google Devs - Inspect and Edit Pages and Styles", "https://developers.google.com/web/tools/chrome-devtools/inspect-styles/"],
-							["Mozilla - Cross browser testing", "https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing"],
+							["MDN - Cross browser testing", "https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing"],
 							["5 things to remember for better debugging of your code", "https://medium.com/dev-bits/5-things-to-remember-for-better-debugging-of-your-code-94b9bc3fb3df"],
 						]
 					},
@@ -776,12 +776,12 @@ export const fundamentasCollection = {
 							description: {
 								text: "Learn how to use the developer console of your favorite browser.",
 								links: [
-									["Mozilla - Console", "https://developer.mozilla.org/en-US/docs/Web/API/Console"],
+									["MDN - Console", "https://developer.mozilla.org/en-US/docs/Web/API/Console"],
 									["Google Devs - Console API Reference", "https://developers.google.com/web/tools/chrome-devtools/console/api"],
 									["Google Devs - Get Started with Chrome DevTools", "https://developers.google.com/web/tools/chrome-devtools/javascript"],
 									["Google Devs - Console Utilities API Reference", "https://developers.google.com/web/tools/chrome-devtools/console/utilities"],
-									["Mozilla - Debugging CSS", "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Debugging_CSS"],
-									["Mozilla - Debugging HTML", "https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Debugging_HTML"],
+									["MDN - Debugging CSS", "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Debugging_CSS"],
+									["MDN - Debugging HTML", "https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Debugging_HTML"],
 									["javascript.info - Debugging in Chrome", "https://javascript.info/debugging-chrome"],
 									["14 JavaScript debugging tips", "https://raygun.com/javascript-debugging-tips"],
 									["The definitive guide to debugging JavaScript", "https://flaviocopes.com/javascript-debugging/"],
@@ -796,7 +796,7 @@ export const fundamentasCollection = {
 									description: {
 										text: "Learn how to use the console API.",
 										links: [
-											["Mozilla - Console", "https://developer.mozilla.org/en-US/docs/Web/API/Console"],
+											["MDN - Console", "https://developer.mozilla.org/en-US/docs/Web/API/Console"],
 											["Google Devs - Console API Reference", "https://developers.google.com/web/tools/chrome-devtools/console/api"],
 										]
 									}

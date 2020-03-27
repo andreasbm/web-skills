@@ -192,7 +192,7 @@ export const buildtoolsCollection = {
 					description: {
 						text: "Learn about CSS pre-processors and why we need them.",
 						links: [
-							["Mozilla - CSS preprocessor", "https://developer.mozilla.org/en-US/docs/Glossary/CSS_preprocessor"],
+							["MDN - CSS preprocessor", "https://developer.mozilla.org/en-US/docs/Glossary/CSS_preprocessor"],
 							["Advantages of Using a Preprocessor", "https://medium.com/swlh/advantages-of-using-a-preprocessor-sass-in-css-eb7310179944"],
 							["Deconfusing Pre- and Post-processing", "https://medium.com/@ddprrt/deconfusing-pre-and-post-processing-d68e3bd078a3"],
 						]
@@ -230,7 +230,7 @@ export const buildtoolsCollection = {
 							["Node.js", "https://nodejs.org"],
 							["Introduction to Node.js", "https://nodejs.dev/"],
 							["Node.js - Guides", "https://nodejs.org/en/docs/guides/"],
-							["w3schools - Node.js tutorial", "https://www.w3schools.com/nodejs/"]
+							["W3Schools - Node.js tutorial", "https://www.w3schools.com/nodejs/"]
 						]
 					}
 				}

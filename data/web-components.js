@@ -9,7 +9,7 @@ export const webcomponentsCollection = {
 						text: "Learn how to create new HTML tags with custom elements.",
 						links: [
 							["Google Devs - Custom Elements", "https://developers.google.com/web/fundamentals/web-components/customelements"],
-							["Mozilla - Using Custom Elements", "https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_custom_elements"],
+							["MDN - Using Custom Elements", "https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_custom_elements"],
 							["CSS Tricks - Creating a Custom Element from Scratch", "https://css-tricks.com/creating-a-custom-element-from-scratch/"],
 							["Javascript.info - Custom Elements", "https://javascript.info/custom-elements"],
 							["dev.to - An introduction to Custom Elements", "https://dev.to/jamesrweb/an-introduction-to-custom-elements-5327"],
@@ -23,9 +23,9 @@ export const webcomponentsCollection = {
 					description: {
 						text: "Learn how to use HTML templates to create a flexible template that can then be used to populate the shadow DOM.",
 						links: [
-							["Mozilla - Using Templates & Slots", "https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_templates_and_slots"],
+							["MDN - Using Templates & Slots", "https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_templates_and_slots"],
 							["Javascript.info - Template Element", "https://javascript.info/template-element"],
-							["Mozilla - The Content Template element", "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template"]
+							["MDN - The Content Template element", "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template"]
 						]
 					},
 				},
@@ -35,8 +35,8 @@ export const webcomponentsCollection = {
 						text: "Learn how to encapsulate your CSS using shadow dom.",
 						links: [
 							["Google Devs - Shadow DOM", "https://developers.google.com/web/fundamentals/web-components/shadowdom"],
-							["Mozilla - Using Shadow DOM", "https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_shadow_DOM"],
-							["Mozilla - Shadow Tree", "https://developer.mozilla.org/en-US/docs/Glossary/Shadow_tree"],
+							["MDN - Using Shadow DOM", "https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_shadow_DOM"],
+							["MDN - Shadow Tree", "https://developer.mozilla.org/en-US/docs/Glossary/Shadow_tree"],
 							["CSS Tricks - Encapsulating Style and Structure", "https://css-tricks.com/encapsulating-style-and-structure-with-shadow-dom/"],
 							["itnext - Introduction to Web Components", "https://itnext.io/introduction-to-web-components-part-ii-shadow-dom-8d1d8e126332"],
 							["Monica - Shadow DOM: fast and encapsulated styles", "https://meowni.ca/posts/shadow-dom/"]
@@ -50,7 +50,7 @@ export const webcomponentsCollection = {
 								text: "Learn how to style the inside of a shadow tree from outside of that shadow tree by using shadow parts.",
 								links: [
 									["Fergald - CSS Shadow ::part and ::theme", "https://github.com/fergald/docs/blob/master/explainers/css-shadow-parts-1.md"],
-									["Mozilla - ::part", "https://developer.mozilla.org/en-US/docs/Web/CSS/::part"],
+									["MDN - ::part", "https://developer.mozilla.org/en-US/docs/Web/CSS/::part"],
 									["W3C - CSS Shadow Parts", "https://www.w3.org/TR/css-shadow-parts-1/"],
 									["Monica - ::part and ::theme, an explainer", "https://meowni.ca/posts/part-theme-explainer/"],
 									["Youtube - CSS Shadow Parts", "https://www.youtube.com/watch?v=yVrvOueeb3s"],
@@ -65,7 +65,7 @@ export const webcomponentsCollection = {
 								links: [
 									["Alligator.io - Composing Custom Elements", "https://alligator.io/web-components/composing-slots-named-slots/"],
 									["Javascript.info - Slots Composition", "https://javascript.info/slots-composition"],
-									["Mozilla - HTML <slot> element", "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/slot"],
+									["MDN - HTML <slot> element", "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/slot"],
 									["Component.kitchen - A history of the HTML slot element", "https://component.kitchen/blog/posts/a-history-of-the-html-slot-element"],
 								]
 							}

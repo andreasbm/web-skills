@@ -142,20 +142,30 @@ export class App extends LitElement {
 	connectedCallback () {
 		super.connectedCallback();
 
-		auth.addEventListener(AuthEvents.authStateChanged, () => {
-			this.requestUpdate().then();
-		});
+		this.setupListeners();
+		this.setupCompact();
 
 		// Track page view (we only have this one page)
 		gtag("config", gaMeasurementId, {
 			"page_path": location.pathname,
 			"page_location": location.href
 		});
+	}
+
+	/**
+	 * Sets up listeners.
+	 */
+	setupListeners () {
+
+		// Each time the auth changes we want to re-render
+		auth.addEventListener(AuthEvents.authStateChanged, () => {
+			this.requestUpdate().then();
+		});
 
 		// Track all exceptions
 		window.addEventListener("error", e => {
 			const {message, filename, lineno, colno, error} = e;
-			const description = `${error.name} - ${message} (${filename}:[${lineno}, ${colno}])`;  
+			const description = `${error.name} - ${message} (${filename}:[${lineno}, ${colno}])`;
 			gtag("event", "exception", {
 				description,
 				"fatal": true
@@ -170,6 +180,18 @@ export class App extends LitElement {
 					break;
 			}
 		});
+	}
+
+	/**
+	 * Sets up the compact property.
+	 */
+	setupCompact () {
+
+		// Check whether the compact param should be as default
+		const params = new URLSearchParams(location.search);
+		if (params.get("compact") != null) {
+			setIsCompact(true);
+		}
 
 		// Set initial compact
 		this.compact = window.innerWidth <= DEFAULT_COMPACT_PR || loadIsCompact();

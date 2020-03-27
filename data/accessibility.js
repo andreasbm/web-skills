@@ -57,7 +57,7 @@ export const accessibilityCollection = {
 								text: "Learn how to write HTML in such as way that assistive technology better understands it.",
 								links: [
 									["Google Devs - Introduction to Semantics", "https://developers.google.com/web/fundamentals/accessibility/semantics-builtin/"],
-									["Mozilla - Accessibility HTML", "https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML"],
+									["MDN - Accessibility HTML", "https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML"],
 									["Webaim - Skip navigation", "https://webaim.org/techniques/skipnav/"],
 									["w3c - Headings", "https://www.w3.org/WAI/tutorials/page-structure/headings/"],
 									["Freecodecamp - Semantic Elements", "https://guide.freecodecamp.org/html/html5-semantic-elements/"]

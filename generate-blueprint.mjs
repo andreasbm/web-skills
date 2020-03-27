@@ -15,7 +15,7 @@ const URL_ICON_MAPPER = [
 	["📖", ["book", "amazon", "refactoringui.com"]],
 	["📐", ["resource", "glitch.me", "codepen"]],
 	["❓", ["quora", "stackoverflow"]],
-]
+];
 
 function iconForUrl (url) {
 	for (const [icon, keywords] of URL_ICON_MAPPER) {

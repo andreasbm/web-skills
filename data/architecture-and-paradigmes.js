@@ -20,7 +20,7 @@ export const architectureCollection = {
 					description: {
 						text: "Learn about object oriented programming and how objects can make your code easier to read and debug.",
 						links: [
-							["Mozilla - Object-oriented JavaScript", "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS"],
+							["MDN - Object-oriented JavaScript", "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS"],
 							["Freecodecamp - An introduction to Object-Oriented Programming", "https://www.freecodecamp.org/news/an-introduction-to-object-oriented-programming-in-javascript-8900124e316a/"],
 							["Introduction to Object Oriented Programming in JavaScript", "https://www.geeksforgeeks.org/introduction-object-oriented-programming-javascript/"],
 						]
@@ -100,7 +100,7 @@ export const architectureCollection = {
 									["Wikipedia - Monad", "https://en.wikipedia.org/wiki/Monad_(functional_programming)"],
 									["JavaScript Monads Made Simple", "https://medium.com/javascript-scene/javascript-monads-made-simple-7856be57bfe8"],
 									["Implementing JavaScript Functors and Monads", "https://medium.com/front-end-weekly/implementing-javascript-functors-and-monads-a87b6a4b4d9a"],
-									["Mozilla - Array.prototype.flatMap()", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flatMap"],
+									["MDN - Array.prototype.flatMap()", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flatMap"],
 								]
 							},
 						}

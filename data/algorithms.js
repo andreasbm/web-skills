@@ -13,7 +13,7 @@ export const algorithmsCollection = {
 							["javascript.info - Arrays", "https://javascript.info/array"],
 							["Freecodecamp - Arrays, A Visual Introduction for Beginners", "https://www.freecodecamp.org/news/data-structures-101-arrays-a-visual-introduction-for-beginners-7f013bcc355a/"],
 							["Wikipedia - Array data structure", "https://en.wikipedia.org/wiki/Array_data_structure"],
-							["Mozilla - Array", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array"],
+							["MDN - Array", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array"],
 						]
 					},
 				},

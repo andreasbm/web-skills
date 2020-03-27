@@ -10,12 +10,12 @@ export const pwaCollection = {
 					description: {
 						text: "Learn how to store data for your web app.",
 						links: [
-							["Mozilla - Storage", "https://developer.mozilla.org/en-US/docs/Web/API/Storage_API"],
-							["Mozilla - Web Storage API", "https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API"],
-							["Mozilla - Cookies", "https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies"],
-							["Mozilla - IndexedDB API", "https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API"],
+							["MDN - Storage", "https://developer.mozilla.org/en-US/docs/Web/API/Storage_API"],
+							["MDN - Web Storage API", "https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API"],
+							["MDN - Cookies", "https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies"],
+							["MDN - IndexedDB API", "https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API"],
 							["Google Devs - View And Edit Local Storage", "https://developers.google.com/web/tools/chrome-devtools/storage/localstorage"],
-							["Mozilla - Client-side storage", "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Client-side_storage"],
+							["MDN - Client-side storage", "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Client-side_storage"],
 						]
 					}
 				},
@@ -35,13 +35,13 @@ export const pwaCollection = {
 							description: {
 								text: "Learn how to use the history API to add single page applicaiton routing to your web app.",
 								links: [
-									["Mozilla - Working with the History API", "https://developer.mozilla.org/en-US/docs/Web/API/History_API/Working_with_the_History_API"],
-									["Mozilla - History API", "https://developer.mozilla.org/en-US/docs/Web/API/History_API"],
+									["MDN - Working with the History API", "https://developer.mozilla.org/en-US/docs/Web/API/History_API/Working_with_the_History_API"],
+									["MDN - History API", "https://developer.mozilla.org/en-US/docs/Web/API/History_API"],
 									["Single-page application routing in vanilla JavaScript", "https://medium.com/@george.norberg/history-api-getting-started-36bfc82ddefc"],
 									["CSS Tricks - Using the HTML5 History API", "https://css-tricks.com/using-the-html5-history-api/"],
 									["The History API", "https://flaviocopes.com/history-api/"],
 									["Google Devs - History API: Scroll Restoration", "https://developers.google.com/web/updates/2015/09/history-api-scroll-restoration"],
-									["Mozilla - The Document Base URL element", "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base"]
+									["MDN - The Document Base URL element", "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base"]
 								]
 							},
 						}
@@ -55,7 +55,7 @@ export const pwaCollection = {
 							["Google Devs - Service Workers: an Introduction", "https://developers.google.com/web/fundamentals/primers/service-workers"],
 							["Google Devs - The Service Worker Lifecycle", "https://developers.google.com/web/fundamentals/primers/service-workers/lifecycle"],
 							["Google Devs - Service Worker Registration", "https://developers.google.com/web/fundamentals/primers/service-workers/registration"],
-							["Mozilla - Service Worker API", "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers"],
+							["MDN - Service Worker API", "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers"],
 							["Google Devs - High-performance service worker loading", "https://developers.google.com/web/fundamentals/primers/service-workers/high-performance-loading"],
 							["Codelabs - Scripting the service worker", "https://codelabs.developers.google.com/codelabs/pwa-scripting-the-service-worker/index.html?index=..%2F..dev-pwa-training#0"],
 							["Codelabs - Caching files with the service worker", "https://codelabs.developers.google.com/codelabs/pwa-caching-service-worker/index.html?index=..%2F..dev-pwa-training#0"],
@@ -76,8 +76,8 @@ export const pwaCollection = {
 									["Codelabs - Offline quickstart", "https://codelabs.developers.google.com/codelabs/pwa-offline-quickstart/index.html?index=..%2F..dev-pwa-training#0"],
 									["Codelabs - Adding a Service Worker and Offline into your Web App", "https://codelabs.developers.google.com/codelabs/offline/index.html?index=..%2F..%2Findex#0"],
 									["Supercharged - Offline Links", "https://www.youtube.com/watch?v=7fnpsF9tMXc"],
-									["Mozilla - Online and offline events", "https://developer.mozilla.org/en-US/docs/Web/API/NavigatorOnLine/Online_and_offline_events"],
-									["Mozilla - Making PWAs work offline", "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Offline_Service_workers"]
+									["MDN - Online and offline events", "https://developer.mozilla.org/en-US/docs/Web/API/NavigatorOnLine/Online_and_offline_events"],
+									["MDN - Making PWAs work offline", "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Offline_Service_workers"]
 								]
 							}
 						},
@@ -87,8 +87,8 @@ export const pwaCollection = {
 								text: "Learn how to add push notifications to your web app.",
 								links: [
 									["Google Devs - Adding Push Notifications to a Web App", "https://developers.google.com/web/fundamentals/codelabs/push-notifications/"],
-									["Mozilla - How to make PWAs re-engageable", "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Re-engageable_Notifications_Push"],
-									["Mozilla - Notifications API", "https://developer.mozilla.org/en-US/docs/Web/API/Notifications_API"],
+									["MDN - How to make PWAs re-engageable", "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Re-engageable_Notifications_Push"],
+									["MDN - Notifications API", "https://developer.mozilla.org/en-US/docs/Web/API/Notifications_API"],
 								]
 							}
 						},
@@ -101,7 +101,7 @@ export const pwaCollection = {
 						links: [
 							["Google Devs - Web App Manifest", "https://developers.google.com/web/fundamentals/web-app-manifest/"],
 							["W3C - Web App Manifest", "https://www.w3.org/TR/appmanifest/"],
-							["Mozilla - How to make PWAs installable", "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Installable_PWAs"]
+							["MDN - How to make PWAs installable", "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Installable_PWAs"]
 						]
 					}
 				},
@@ -112,7 +112,7 @@ export const pwaCollection = {
 						links: [
 							["web.dev - Installable", "https://web.dev/installable"],
 							["Google Devs - App Install Banners", "https://developers.google.com/web/fundamentals/app-install-banners/"],
-							["Mozilla - Add to Home screen", "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Add_to_home_screen"],
+							["MDN - Add to Home screen", "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Add_to_home_screen"],
 						]
 					}
 				},
@@ -122,8 +122,8 @@ export const pwaCollection = {
 						text: "Learn how to respond to touch gestures in intuitive ways.",
 						links: [
 							["Google Devs - Add Touch to Your Site", "https://developers.google.com/web/fundamentals/design-and-ux/input/touch"],
-							["Mozilla - Touch Events", "https://developer.mozilla.org/en-US/docs/Web/API/Touch_events"],
-							["Mozilla - Pointer Events", "https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events"],
+							["MDN - Touch Events", "https://developer.mozilla.org/en-US/docs/Web/API/Touch_events"],
+							["MDN - Pointer Events", "https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events"],
 							["Google Devs - Touch Action Options", "https://developers.google.com/web/updates/2016/10/touch-action"]
 						]
 					}
@@ -139,7 +139,7 @@ export const pwaCollection = {
 						text: "Learn how to use an app shell to provide an instant and reliable experience to users on repeat visits",
 						links: [
 							["Google Devs - The App Shell Model", "https://developers.google.com/web/fundamentals/architecture/app-shell"],
-							["Mozilla - Architecture of an app", "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/App_structure"]
+							["MDN - Architecture of an app", "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/App_structure"]
 						]
 					}
 				},
@@ -148,7 +148,7 @@ export const pwaCollection = {
 					description: {
 						text: "Learn about render-blocking resources and why they are bad for the user-experience.",
 						links: [
-							["Mozilla - Render-blocking resources", "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Loading#Render-blocking_resources"],
+							["MDN - Render-blocking resources", "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Loading#Render-blocking_resources"],
 							["Google Devs - Render-Blocking Resources", "https://developers.google.com/web/tools/lighthouse/audits/blocking-resources"]
 						]
 					},
@@ -184,7 +184,7 @@ export const pwaCollection = {
 								text: "Learn about the first meaningful paint and how it impacts the overall performance.",
 								links: [
 									["web.dev - First Meaningful Paint", "https://web.dev/first-meaningful-paint/"],
-									["Mozilla - First meaningful paint", "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Loading#First_meaningful_paint"],
+									["MDN - First meaningful paint", "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Loading#First_meaningful_paint"],
 									["Google Devs - First Meaningful Paint", "https://developers.google.com/web/tools/lighthouse/audits/first-meaningful-paint"]
 								]
 							},
@@ -229,7 +229,7 @@ export const pwaCollection = {
 								links: [
 									["V8 - Dynamic import()", "https://v8.dev/features/dynamic-import"],
 									["JavaScript dynamic import() & export", "https://medium.com/@WebReflection/javascript-dynamic-import-export-b0e8775a59d4"],
-									["Mozilla - Dynamic Import", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import#Dynamic_Imports"],
+									["MDN - Dynamic Import", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import#Dynamic_Imports"],
 									["TC39 - proposal-dynamic-import", "https://github.com/tc39/proposal-dynamic-import"]
 								]
 							},
@@ -308,7 +308,7 @@ export const pwaCollection = {
 						text: "Learn about caching and how it can be uses to make web apps load faster.",
 						links: [
 							["Google Devs - HTTP Caching", "https://developers.google.com/web/fundamentals/performance/get-started/httpcaching-6"],
-							["Mozilla - HTTP caching", "https://developer.mozilla.org/en-US/docs/Web/HTTP/Caching"]
+							["MDN - HTTP caching", "https://developer.mozilla.org/en-US/docs/Web/HTTP/Caching"]
 						]
 					},
 				},
@@ -349,7 +349,7 @@ export const pwaCollection = {
 								text: "Learn about microtasks and the microtask queue.",
 								links: [
 									["Tasks, microtasks, queues and schedules", "https://jakearchibald.com/2015/tasks-microtasks-queues-and-schedules/"],
-									["Mozilla - Using microtasks in JavaScript", "https://developer.mozilla.org/en-US/docs/Web/API/HTML_DOM_API/Microtask_guide"],
+									["MDN - Using microtasks in JavaScript", "https://developer.mozilla.org/en-US/docs/Web/API/HTML_DOM_API/Microtask_guide"],
 									["javascript.info - Microtasks and macrotasks", "https://javascript.info/event-loop"],
 									["javascript.info - Microtasks", "https://javascript.info/microtask-queue"],
 								]
@@ -361,7 +361,7 @@ export const pwaCollection = {
 								text: "Learn about the stack and how to investigate the staack trace when debugging.",
 								links: [
 									["Javascript Stack Trade - Using it to debug", "https://www.scalyr.com/blog/javascript-stack-trace-understanding-it-and-using-it-to-debug/"],
-									["Mozilla - console.trace()", "https://developer.mozilla.org/en-US/docs/Web/API/Console/trace"],
+									["MDN - console.trace()", "https://developer.mozilla.org/en-US/docs/Web/API/Console/trace"],
 									["V8 - Stack trace API", "https://v8.dev/docs/stack-trace-api"],
 									["Confused about Stack and Heap?", "https://medium.com/fhinkel/confused-about-stack-and-heap-2cf3e6adb771"],
 								]
@@ -394,8 +394,8 @@ export const pwaCollection = {
 							["Google Devs - CSS Versus JavaScript Animations", "https://developers.google.com/web/fundamentals/design-and-ux/animations/css-vs-javascript"],
 							["Google Devs - Choosing the Right Easing", "https://developers.google.com/web/fundamentals/design-and-ux/animations/choosing-the-right-easing"],
 							["Google Devs - Animating Modal Views", "https://developers.google.com/web/fundamentals/design-and-ux/animations/animating-modal-views"],
-							["Mozilla - CSS and JavaScript animation performance", "https://developer.mozilla.org/en-US/docs/Web/Performance/CSS_JavaScript_animation_performance"],
-							["Mozilla - Performance fundamentals", "https://developer.mozilla.org/en-US/docs/Web/Performance/Fundamentals"],
+							["MDN - CSS and JavaScript animation performance", "https://developer.mozilla.org/en-US/docs/Web/Performance/CSS_JavaScript_animation_performance"],
+							["MDN - Performance fundamentals", "https://developer.mozilla.org/en-US/docs/Web/Performance/Fundamentals"],
 							["Youtube - Fast By Default", "https://www.youtube.com/watch?v=_srJ7eHS3IM"],
 						]
 					},
@@ -406,7 +406,7 @@ export const pwaCollection = {
 								text: "Learn how to use the requestAnimationFrame API to create butter-smooth animations.",
 								links: [
 									["Google Devs - Optimize JavaScript Execution", "https://developers.google.com/web/fundamentals/performance/rendering/optimize-javascript-execution"],
-									["Mozilla - requestAnimationFrame()", "https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame"]
+									["MDN - requestAnimationFrame()", "https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame"]
 								]
 							},
 						},
@@ -415,9 +415,9 @@ export const pwaCollection = {
 							description: {
 								text: "Learn how to use the requestIdleCallback to defer heavy tasks.",
 								links: [
-									["Mozilla - Background Tasks API", "https://developer.mozilla.org/en-US/docs/Web/API/Background_Tasks_API"],
+									["MDN - Background Tasks API", "https://developer.mozilla.org/en-US/docs/Web/API/Background_Tasks_API"],
 									["Google Dev - requestIdleCallback", "https://developers.google.com/web/updates/2015/08/using-requestidlecallback?hl=en"],
-									["Mozilla - requestIdleCallback()", "https://developer.mozilla.org/en-US/docs/Web/API/Window/requestIdleCallback"]
+									["MDN - requestIdleCallback()", "https://developer.mozilla.org/en-US/docs/Web/API/Window/requestIdleCallback"]
 								]
 							}
 						}
@@ -429,7 +429,7 @@ export const pwaCollection = {
 						text: "Learn about the critical rendering path and how to identify it.",
 						links: [
 							["Google Devs - Critical Rendering Path", "https://developers.google.com/web/fundamentals/performance/critical-rendering-path/"],
-							["Mozilla - Critical Rendering Path", "https://developer.mozilla.org/en-US/docs/Web/Performance/Critical_rendering_path"],
+							["MDN - Critical Rendering Path", "https://developer.mozilla.org/en-US/docs/Web/Performance/Critical_rendering_path"],
 							["Understanding the critical rendering path", "https://medium.com/@luisvieira_gmr/understanding-the-critical-rendering-path-rendering-pages-in-1-second-735c6e45b47a"]
 						]
 					},
@@ -520,7 +520,7 @@ export const pwaCollection = {
 							["Google Devs - CSS Containment", "https://developers.google.com/web/updates/2016/06/css-containment"],
 							["W3C - CSS Containment Module", "https://www.w3.org/TR/css-contain-1/"],
 							["An introduction to CSS Containment", "https://blogs.igalia.com/mrego/2019/01/11/an-introduction-to-css-containment/"],
-							["Mozilla - Contain", "https://developer.mozilla.org/en-US/docs/Web/CSS/contain"],
+							["MDN - Contain", "https://developer.mozilla.org/en-US/docs/Web/CSS/contain"],
 							["CSS Tricks - CSS containment", "https://css-tricks.com/css-containment/"],
 						]
 					},
@@ -530,7 +530,7 @@ export const pwaCollection = {
 					description: {
 						text: "Learn how to use web workers to run a script operation in a background thread separate from the main execution thread.",
 						links: [
-							["Mozilla - Web Workers API", "https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API"],
+							["MDN - Web Workers API", "https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API"],
 							["HTML5 Rocks - The Basics of Web Workers", "https://www.html5rocks.com/en/tutorials/workers/basics/"],
 							["When should you be using Web Workers?", "https://dassur.ma/things/when-workers/"]
 						]
@@ -584,7 +584,7 @@ export const pwaCollection = {
 							description: {
 								text: "Learn about cross-site scripting and how it is possible mitigate these kind of attacks.",
 								links: [
-									["Mozilla - Cross-site scripting", "https://developer.mozilla.org/en-US/docs/Glossary/Cross-site_scripting"],
+									["MDN - Cross-site scripting", "https://developer.mozilla.org/en-US/docs/Glossary/Cross-site_scripting"],
 									["OWASP - Cross-site Scripting (XSS)", "https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)"],
 									["OWASP - XSS Cheatsheet", "https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html"],
 									["Excess XSS", "https://excess-xss.com/"]
@@ -610,7 +610,7 @@ export const pwaCollection = {
 					description: {
 						text: "Learn about content security policy and how it can help to detect and mitigate certain types of attacks.",
 						links: [
-							["Mozilla - Content Security Policy (CSP)", "https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP"],
+							["MDN - Content Security Policy (CSP)", "https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP"],
 							["Google Devs - CSP", "https://developers.google.com/web/fundamentals/security/csp"]
 						]
 					}
