@@ -1,7 +1,7 @@
 import "./atoms/blur.js";
 import "./atoms/button.js";
 import "./atoms/icon-button.js";
-import "./atoms/switch.js";
+import "./atoms/compact-switch.js";
 import {gaMeasurementId, defaultCompactPx} from "./config.js";
 import {collections} from "./data.js";
 import {auth, AuthEvents} from "./firebase/auth.js";
@@ -256,7 +256,7 @@ export class App extends LitElement {
 				</div>
 				<div>
 					<div id="toggle-compact">
-						<ws-switch @toggle="${this.toggleCompact}" ?checked="${this.compact}" aria-label="Toggle compact mode"></ws-switch>
+						<ws-compact-switch @toggle="${this.toggleCompact}" ?checked="${this.compact}"></ws-compact-switch>
 					</div>
 				</div>
 			</div>

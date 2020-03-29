@@ -30,11 +30,6 @@ class IconButton extends LitElement {
 		];
 	}
 
-	constructor () {
-		super();
-		this.role = "button";
-	}
-
 	render () {
 		return html`${this.template}`;
 	}

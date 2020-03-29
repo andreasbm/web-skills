@@ -70,11 +70,11 @@ export class Button extends LitElement {
 					fill: currentColor;
 				}
 				
-				:host(:not([checked])) #icon-unchecked {
+				:host(:not([checked])) #icon-wide {
 					display: none;
 				}
 				
-				:host([checked]) #icon-checked {
+				:host([checked]) #icon-compact {
 					display: none;
 				}
 				
@@ -108,15 +108,15 @@ export class Button extends LitElement {
 	 */
 	render () {
 		return html`
-			<input tabindex="0" id="input" type="checkbox" @input="${e => this.toggleSwitch(e.target.checked)}" ?checked="${this.checked}" />
+			<input tabindex="0" id="input" type="checkbox" @input="${e => this.toggleSwitch(e.target.checked)}" ?checked="${this.checked}" aria-label="Toggle compact mode" />
 			<div id="knob">
-				<svg id="icon-checked" class="icon" preserveAspectRatio="none" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+				<svg id="icon-compact" class="icon" preserveAspectRatio="none" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
 				  <g fill="currentColor" fill-rule="nonzero">
 					<path d="M5 0h6v6H5zM0 10h6v6H0zM10 10h6v6h-6zM8 6h1v2H8zM3 8h11v1H3z"/>
 					<path d="M13 8h1v2h-1zM3 8h1v2H3z"/>
 				  </g>
 				</svg>
-				<svg id="icon-unchecked" class="icon" preserveAspectRatio="none" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+				<svg id="icon-wide" class="icon" preserveAspectRatio="none" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
 				  <g fill="currentColor" fill-rule="nonzero">
                     <path d="M0 0h4v4H0zM6 0h4v4H6zM12 0h4v4h-4zM0 6h4v4H0zM6 6h4v4H6zM12 6h4v4h-4zM0 12h4v4H0zM6 12h4v4H6zM12 12h4v4h-4z"/>
 				  </g>
@@ -126,4 +126,4 @@ export class Button extends LitElement {
 	}
 }
 
-customElements.define("ws-switch", Button);
+customElements.define("ws-compact-switch", Button);

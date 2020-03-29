@@ -283,8 +283,10 @@ export class Skill extends LitElement {
 			switch (e.code) {
 				case "Space":
 				case "Enter":
-					this.toggleForceShowDescription();
-					e.preventDefault();
+					if (!this.isShowingDescription) {
+						this.toggleForceShowDescription();
+						e.preventDefault();
+					}
 					break;
 			}
 		});
