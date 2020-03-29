@@ -143,7 +143,7 @@ export class Description extends LitElement {
 						overflow-y: auto;
 						overscroll-behavior: contain;
 						-webkit-overflow-scrolling: touch;
-						transform: translate(0);
+						transform: translate(0) !important;
 					}
 					
 					.link {
