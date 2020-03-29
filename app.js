@@ -237,7 +237,7 @@ export class App extends LitElement {
 		}
 
 		const search = params.toString().replace(/=(true|false)$/gm, "");
-		history.replaceState(null, "", search.length === 0 ? "/" : `/?${search}`);
+		history.replaceState(null, "", search.length === 0 ? location.pathname : `${location.pathname}?${search}`);
 	}
 
 	/**
