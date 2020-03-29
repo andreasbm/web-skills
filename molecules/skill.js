@@ -1,21 +1,16 @@
 import "./../atoms/button.js";
 import "./../atoms/description.js";
-import {lazyImgIntersectionObserverOptions} from "./../config.js";
 import {auth, AuthEvents} from "./../firebase/auth.js";
+import {sharedStyles} from "./../styles/shared.js";
 import {
 	attachLazyImgIntersectionObserver,
 	constructImagePathPrefix,
-	currentConfettiCount,
 	dispatchCloseAllDescriptionsEvent,
 	getSkillId,
-	getSkillSearchQuery,
 	listenForCloseAllDescriptionsEvent,
-	playAudio,
-	sprayConfettiOnce,
 } from "./../util/util.js";
 import {css, html, LitElement} from "./../web_modules/lit-element.js";
 import {repeat} from "./../web_modules/lit-html/directives/repeat.js";
-import {sharedStyles} from "./../styles/shared.js";
 
 /**
  * Element that renders a skill.
@@ -333,7 +328,7 @@ export class Skill extends LitElement {
 		const {name, skills} = skill;
 
 		return html`
-			<div id="skill" tabindex="0" class="${completed ? `completed` : ``}" @click="${this.toggleForceShowDescription}" @mouseenter="${this.onMouseEnter}" @mouseleave="${this.onMouseLeave}">
+			<div id="skill" aria-label="${name}" tabindex="0" class="${completed ? `completed` : ``}" @click="${this.toggleForceShowDescription}" @mouseenter="${this.onMouseEnter}" @mouseleave="${this.onMouseLeave}">
 				<div id="img-container">
 					<img id="img" loading="lazy" width="70px" height="70px" intrinsicsize="70x70" alt="${name}" data-src="${constructImagePathPrefix(collection, area, skill)}" />
 				</div>

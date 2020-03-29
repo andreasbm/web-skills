@@ -167,3 +167,24 @@ export function listenForCloseAllDescriptionsEvent (cb) {
 	window.addEventListener("closeAllDescriptions", cb);
 }
 
+/**
+ * Tracks a link click.
+ * @param e
+ */
+export function trackLinkClicked (e) {
+
+	// Find the target by using the composed path to get the element through the shadow boundaries.
+	const $anchor = ("composedPath" in e) ? e.composedPath().find($elem => $elem instanceof HTMLAnchorElement) : e.target;
+
+	// Make sure the click is an anchor
+	if (!($anchor instanceof HTMLAnchorElement)) {
+		return;
+	}
+
+	const name = $anchor.ariaLabel || $anchor.innerText || $anchor.href;
+	gtag("event", "click_link", {
+		"event_category": "Engagement",
+		"event_label": `The link "${name}" was clicked`,
+	});
+}
+
