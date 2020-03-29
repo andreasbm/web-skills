@@ -9,6 +9,7 @@ import "./atoms/switch.js";
 import {initFirebase} from "./firebase/init-firebase.js";
 import {gaMeasurementId} from "./config.js";
 import {loadIsCompact, setIsCompact, dispatchCloseAllDescriptionsEvent} from "./util/util.js";
+import {sharedStyles} from "./styles/shared.js";
 
 const DEFAULT_COMPACT_PR = 800;
 
@@ -31,11 +32,8 @@ export class App extends LitElement {
 
 	static get styles () {
 		return [
+			sharedStyles,
 			css`
-				:host, * {
-				    box-sizing: border-box;
-				}
-				
 				:host {
 					display: block;
 				}
@@ -85,12 +83,12 @@ export class App extends LitElement {
 				}
 
 				#github {
-					opacity: 0.4;
+					opacity: 1;
 					transition: 120ms ease opacity;
 				}
 
-				#github:hover, #github:focus {
-					opacity: 1;
+				#github:hover, #github:focus-visible {
+					opacity: 0.6;
 				}
 				
 				#github svg {
@@ -254,19 +252,19 @@ export class App extends LitElement {
 				</div>
 				<div>
 					<div id="toggle-compact">
-						<st-switch @toggle="${this.toggleCompact}" ?checked="${this.compact}"></st-switch>
+						<ws-switch @toggle="${this.toggleCompact}" ?checked="${this.compact}"></ws-switch>
 					</div>
 				</div>
 			</div>
 			<div id="collections">
 				${repeat(collections, (collection, i) => html`
-					<st-collection class="collection" index="${i + 1}" .collection="${collection}" ?compact="${this.compact}"></st-collection>
+					<ws-collection class="collection" index="${i + 1}" .collection="${collection}" ?compact="${this.compact}"></ws-collection>
 				`)}
 			</div>
 			<div id="toolbar-bottom">
 				${user != null ? html`
 					<div id="sign-out">
-						<st-button @click="${signOut}">Sign out</st-button>
+						<ws-button @click="${signOut}">Sign out</ws-button>
 						<div id="avatar">
 							<img class="img" src="${user.photoURL}" />
 							<span class="text">${user.displayName || user.email}</span>
@@ -274,13 +272,13 @@ export class App extends LitElement {
 					</div>
 				` : html`
 					<div id="sign-in">
-						<st-button @click="${signIn}">Sign in with Google</st-button>
+						<ws-button @click="${signIn}">Sign in with Google</ws-button>
 					</div>
 				`}
 			</div>
-			<st-blur id="blur"></st-blur>
+			<ws-blur id="blur"></ws-blur>
 		`;
 	}
 }
 
-customElements.define("st-app", App);
+customElements.define("ws-app", App);

@@ -14,6 +14,7 @@ import {
 } from "./../util/util.js";
 import {css, html, LitElement} from "./../web_modules/lit-element.js";
 import {repeat} from "./../web_modules/lit-html/directives/repeat.js";
+import {sharedStyles} from "./../styles/shared.js";
 
 /**
  * Element that renders a skill.
@@ -54,11 +55,8 @@ export class Skill extends LitElement {
 
 	static get styles () {
 		return [
+			sharedStyles,
 			css`
-				:host, * {
-				    box-sizing: border-box;
-				}
-				
 				:host {
 					--skill-img-size: 70px;
 					--link-img-size: 16px;
@@ -382,7 +380,7 @@ export class Skill extends LitElement {
 
 		listenForCloseAllDescriptionsEvent(() => {
 			if (this.isShowingDescription) {
-				this.closeDescription()
+				this.closeDescription();
 			}
 		});
 
@@ -518,7 +516,7 @@ export class Skill extends LitElement {
 					</a>
 				</div>
 				${isAuthenticated ? html`
-					<st-button id="complete-button" @click="${() => {
+					<ws-button id="complete-button" @click="${() => {
 			const newIsCompleted = !isCompleted;
 			if (newIsCompleted) {
 				if (currentConfettiCount() <= 2) {
@@ -542,7 +540,7 @@ export class Skill extends LitElement {
 			}
 
 			auth.toggleCompleteSkill(this.skillId);
-		}}">${isCompleted ? `Uncomplete Skill` : `Complete Skill`}</st-button>
+		}}">${isCompleted ? `Uncomplete Skill` : `Complete Skill`}</ws-button>
 				` : undefined}
 			</div>
 		`;
@@ -571,7 +569,7 @@ export class Skill extends LitElement {
 					${repeat(skills, skill => html`
 						<div class="subskill">
 							<div class="arrow"></div>
-							<st-skill .skill="${skill}" .collection="${collection}" .area="${area}" ?compact="${this.compact}"></st-skill>
+							<ws-skill .skill="${skill}" .collection="${collection}" .area="${area}" ?compact="${this.compact}"></ws-skill>
 						</div>
 					`)}
 				</div>
@@ -581,4 +579,4 @@ export class Skill extends LitElement {
 	}
 }
 
-customElements.define("st-skill", Skill);
+customElements.define("ws-skill", Skill);

@@ -72,7 +72,7 @@ export function randomNumberInRange(from, to) {
  * Returns the current confetti count.
  */
 export function currentConfettiCount () {
-	return Array.from(document.querySelectorAll("st-confetti")).length;
+	return Array.from(document.querySelectorAll("ws-confetti")).length;
 }
 
 /**

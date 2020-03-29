@@ -1,4 +1,5 @@
 import {css, html, LitElement} from "./../web_modules/lit-element.js";
+import {sharedStyles} from "./../styles/shared.js";
 
 /**
  * An element that serves as a button.
@@ -16,11 +17,8 @@ export class Button extends LitElement {
 
 	static get styles () {
 		return [
+			sharedStyles,
 			css`
-				:host, * {
-					box-sizing: border-box;
-				}
-				
 				:host {
 					--switch-knob-size: 25px;
 					--switch-knob-bg: var(--shade-800);
@@ -34,6 +32,10 @@ export class Button extends LitElement {
 					background: var(--switch-bg);
 					border-radius: 100px;
 					cursor: pointer;
+				}
+				
+				:host(:focus-within) {
+                    outline: 5px auto -webkit-focus-ring-color;
 				}
 				
 				:host([checked]) {
@@ -117,4 +119,4 @@ export class Button extends LitElement {
 	}
 }
 
-customElements.define("st-switch", Button);
+customElements.define("ws-switch", Button);

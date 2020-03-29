@@ -1,5 +1,6 @@
 import { css, html, LitElement } from "./../web_modules/lit-element.js";
 import {repeat} from "./../web_modules/lit-html/directives/repeat.js";
+import {sharedStyles} from "./../styles/shared.js";
 import "./skill.js";
 
 /**
@@ -22,11 +23,8 @@ export class Area extends LitElement {
 	}
 	static get styles () {
 		return [
+			sharedStyles,
 			css`
-				:host, * {
-				    box-sizing: border-box;
-				}
-				
 				:host {
 					display: block;
 				}
@@ -77,7 +75,7 @@ export class Area extends LitElement {
 	renderSkills (skills) {
 		return html`
 			${repeat(skills, skill => html`
-				<st-skill class="skill" .skill="${skill}" .collection="${this.collection}" .area="${this.area}" ?compact="${this.compact}"></st-skill>
+				<ws-skill class="skill" .skill="${skill}" .collection="${this.collection}" .area="${this.area}" ?compact="${this.compact}"></ws-skill>
 				${skill.skills != null && this.compact ? html`
 					${this.renderSkills(skill.skills)}
 				` : ""}
@@ -98,4 +96,4 @@ export class Area extends LitElement {
 	}
 }
 
-customElements.define("st-area", Area);
+customElements.define("ws-area", Area);

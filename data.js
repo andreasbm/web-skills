@@ -29,4 +29,4 @@ export const collections = [
 	modernCollection,
 	algorithmsCollection,
 	databasesCollection,
-]
+];

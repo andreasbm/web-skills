@@ -1,4 +1,5 @@
 import { css, html, LitElement } from "./../web_modules/lit-element.js";
+import {sharedStyles} from "./../styles/shared.js";
 
 /**
  * An element that serves as a button.
@@ -12,6 +13,7 @@ export class Button extends LitElement {
 
 	static get styles () {
 		return [
+			sharedStyles,
 			css`
 				:host {
 					display: inline-block;
@@ -47,4 +49,4 @@ export class Button extends LitElement {
 	}
 }
 
-customElements.define("st-button", Button);
+customElements.define("ws-button", Button);

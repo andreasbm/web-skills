@@ -1,5 +1,6 @@
 import { css, html, LitElement } from "./../web_modules/lit-element.js";
 import {randomNumberInRange} from "./../util/util.js";
+import {sharedStyles} from "./../styles/shared.js";
 
 /**
  * A ConfettiParticle is something that looks like confetti
@@ -43,6 +44,7 @@ export class Confetti extends LitElement {
 
 	static get styles () {
 		return [
+			sharedStyles,
 			css`
 				:host {
 					display: block;
@@ -225,4 +227,4 @@ export class Confetti extends LitElement {
 	}
 }
 
-customElements.define("st-confetti", Confetti);
+customElements.define("ws-confetti", Confetti);

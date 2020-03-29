@@ -1,4 +1,5 @@
 import { css, html, LitElement } from "./../web_modules/lit-element.js";
+import {sharedStyles} from "./../styles/shared.js";
 
 /**
  * Elements that gives blur to the right and left of the screen.
@@ -12,6 +13,7 @@ export class Blur extends LitElement {
 
 	static get styles () {
 		return [
+			sharedStyles,
 			css`
 				:host {
 					display: block;
@@ -33,4 +35,4 @@ export class Blur extends LitElement {
 	}
 }
 
-customElements.define("st-blur", Blur);
+customElements.define("ws-blur", Blur);

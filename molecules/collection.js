@@ -1,5 +1,6 @@
 import { css, html, LitElement } from "./../web_modules/lit-element.js";
 import {repeat} from "./../web_modules/lit-html/directives/repeat.js";
+import {sharedStyles} from "./../styles/shared.js";
 import "./area.js";
 
 /**
@@ -22,11 +23,8 @@ export class Collection extends LitElement {
 	}
 	static get styles () {
 		return [
+			sharedStyles,
 			css`
-				:host, * {
-				    box-sizing: border-box;
-				}
-				
 				:host {
 					display: inline-block;
 					padding: var(--spacing-xxxl);
@@ -97,7 +95,7 @@ export class Collection extends LitElement {
 			<div id="areas">
 				${repeat(this.collection.areas || [], (area, i) => html`
 					<div class="area">
-						<st-area .area="${area}" .collection="${this.collection}" ?compact="${this.compact}"></st-area>
+						<ws-area .area="${area}" .collection="${this.collection}" ?compact="${this.compact}"></ws-area>
 						${i < this.collection.areas.length - 1 ? html`
 							<hr class="line" />
 						` : undefined}
@@ -108,4 +106,4 @@ export class Collection extends LitElement {
 	}
 }
 
-customElements.define("st-collection", Collection);
+customElements.define("ws-collection", Collection);
