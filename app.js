@@ -2,7 +2,7 @@ import "./atoms/blur.js";
 import "./atoms/button.js";
 import "./atoms/icon-button.js";
 import "./atoms/switch.js";
-import {gaMeasurementId} from "./config.js";
+import {gaMeasurementId, defaultCompactPx} from "./config.js";
 import {collections} from "./data.js";
 import {auth, AuthEvents} from "./firebase/auth.js";
 import {initFirebase} from "./firebase/init-firebase.js";
@@ -12,8 +12,6 @@ import {githubIconTemplate} from "./util/icons.js";
 import {dispatchCloseAllDescriptionsEvent, loadIsCompact, setIsCompact, trackLinkClicked} from "./util/util.js";
 import {css, html, LitElement} from "./web_modules/lit-element.js";
 import {repeat} from "./web_modules/lit-html/directives/repeat.js";
-
-const DEFAULT_COMPACT_PX = 800;
 
 // Initialize firebase
 initFirebase().then();
@@ -187,7 +185,7 @@ export class App extends LitElement {
 		}
 
 		// Set initial compact
-		this.compact = window.innerWidth <= DEFAULT_COMPACT_PX || loadIsCompact();
+		this.compact = window.innerWidth <= defaultCompactPx || loadIsCompact();
 	}
 
 	/**

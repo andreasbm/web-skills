@@ -1,5 +1,5 @@
-import { css, html, LitElement } from "./../web_modules/lit-element.js";
 import {sharedStyles} from "./../styles/shared.js";
+import {css, html, LitElement} from "./../web_modules/lit-element.js";
 
 /**
  * An element that serves as a button.
@@ -7,8 +7,7 @@ import {sharedStyles} from "./../styles/shared.js";
 export class Button extends LitElement {
 
 	static get properties () {
-		return {
-		}
+		return {}
 	}
 
 	static get styles () {

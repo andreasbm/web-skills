@@ -1,5 +1,5 @@
-import {css, html, LitElement} from "./../web_modules/lit-element.js";
 import {sharedStyles} from "./../styles/shared.js";
+import {css, html, LitElement} from "./../web_modules/lit-element.js";
 
 /**
  * An element that serves as a switch.
@@ -53,15 +53,17 @@ export class Button extends LitElement {
 					height: var(--switch-knob-size);
 					transform: scale(1.08);
 					box-shadow: 0 2px 5px var(--shadow);
-					display: flex;
-					align-items: center;
-					justify-content: center;
+					position: relative;
                     color: var(--shade-400);
 				}
 				
 				.icon {
-				    width: 18px;
-                    height: 18px;
+				    width: 12px;
+                    height: 12px;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-55%, -55%);
 				}
 				
 				.icon path {
@@ -108,11 +110,16 @@ export class Button extends LitElement {
 		return html`
 			<input tabindex="0" id="input" type="checkbox" @input="${e => this.toggleSwitch(e.target.checked)}" ?checked="${this.checked}" />
 			<div id="knob">
-				<svg id="icon-unchecked" class="icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-				  <path d="M4 14h4v-4H4v4zm0 5h4v-4H4v4zM4 9h4V5H4v4zm5 5h12v-4H9v4zm0 5h12v-4H9v4zM9 5v4h12V5H9z" fill="#000" fill-rule="nonzero"/>
+				<svg id="icon-checked" class="icon" preserveAspectRatio="none" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+				  <g fill="currentColor" fill-rule="nonzero">
+					<path d="M5 0h6v6H5zM0 10h6v6H0zM10 10h6v6h-6zM8 6h1v2H8zM3 8h11v1H3z"/>
+					<path d="M13 8h1v2h-1zM3 8h1v2H3z"/>
+				  </g>
 				</svg>
-				<svg id="icon-checked" class="icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-				  <path d="M4 11h5V5H4v6zm0 7h5v-6H4v6zm6 0h5v-6h-5v6zm6 0h5v-6h-5v6zm-6-7h5V5h-5v6zm6-6v6h5V5h-5z" fill="#000" fill-rule="nonzero"/>
+				<svg id="icon-unchecked" class="icon" preserveAspectRatio="none" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+				  <g fill="currentColor" fill-rule="nonzero">
+                    <path d="M0 0h4v4H0zM6 0h4v4H6zM12 0h4v4h-4zM0 6h4v4H0zM6 6h4v4H6zM12 6h4v4h-4zM0 12h4v4H0zM6 12h4v4H6zM12 12h4v4h-4z"/>
+				  </g>
 				</svg>
 			</div>
 		`;

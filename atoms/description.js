@@ -1,10 +1,17 @@
 import {googleIconTemplate, youtubeIconTemplate} from "../util/icons.js";
+import "./../atoms/icon-button.js";
 import {auth, AuthEvents} from "./../firebase/auth.js";
 import {sharedStyles} from "./../styles/shared.js";
-import {currentConfettiCount, getSkillId, getSkillSearchQuery, playAudio, sprayConfettiOnce, trackLinkClicked} from "./../util/util.js";
+import {
+	currentConfettiCount,
+	getSkillId,
+	getSkillSearchQuery,
+	playAudio,
+	sprayConfettiOnce,
+	trackLinkClicked
+} from "./../util/util.js";
 import {css, html, LitElement} from "./../web_modules/lit-element.js";
 import {repeat} from "./../web_modules/lit-html/directives/repeat.js";
-import "./../atoms/icon-button.js";
 
 /**
  * Elements that presents the description of a skill.
@@ -191,7 +198,7 @@ export class Description extends LitElement {
 	connectedCallback () {
 		super.connectedCallback();
 		this.trackVisible();
-		this.addEventListener("focusout", this.requestClose, {passive: true});
+
 		this.addEventListener("click", this.onClick);
 		auth.addEventListener(AuthEvents.authStateChanged, this.requestUpdate.bind(this));
 		auth.addEventListener(AuthEvents.completedSkillsChanged, this.requestUpdate.bind(this));
@@ -199,6 +206,8 @@ export class Description extends LitElement {
 		if (this.compact) {
 			window.addEventListener("touchstart", this.checkOutsideClick);
 			window.addEventListener("scroll", this.requestClose, {passive: true});
+		} else {
+			this.addEventListener("focusout", this.requestClose, {passive: true});
 		}
 	}
 

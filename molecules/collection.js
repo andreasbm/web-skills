@@ -1,6 +1,6 @@
-import { css, html, LitElement } from "./../web_modules/lit-element.js";
-import {repeat} from "./../web_modules/lit-html/directives/repeat.js";
 import {sharedStyles} from "./../styles/shared.js";
+import {css, html, LitElement} from "./../web_modules/lit-element.js";
+import {repeat} from "./../web_modules/lit-html/directives/repeat.js";
 import "./area.js";
 
 /**
@@ -21,6 +21,7 @@ export class Collection extends LitElement {
 			}
 		}
 	}
+
 	static get styles () {
 		return [
 			sharedStyles,

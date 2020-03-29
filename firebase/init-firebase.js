@@ -1,5 +1,5 @@
-import {auth, AuthEvents,CollectionNames} from "./auth.js";
-import {firebaseConfig} from "./../config.js";
+import {firebaseConfig} from "./../config.js";
+import {auth, CollectionNames} from "./auth.js";
 
 /**
  * Initializes firebase and subscribes to relevant collections.

@@ -29,15 +29,17 @@ export class Skill extends LitElement {
 			},
 			compact: {
 				type: Boolean,
-				reflect: true
+				reflect: true,
 			},
 			forceShowDescription: {
 				type: Boolean,
-				reflect: true
+				reflect: true,
+				attribute: "force-show-description"
 			},
 			hasMouseOver: {
 				type: Boolean,
-				reflect: true
+				reflect: true,
+				attribute: "has-mouse-over"
 			},
 		}
 	}
@@ -78,7 +80,10 @@ export class Skill extends LitElement {
 					outline: var(--focus-outline);
 				}
 
-				:host([hasMouseOver]) #img-container, :host(:focus) #img-container, :host([forceShowDescription]) #img-container {
+				:host([has-mouse-over]) #img-container,
+				:host([force-show-description]) #img-container,
+				:host:focus #img-container,
+				#skill:focus #img-container {
 					transform: scale(1.05);
 				}
 

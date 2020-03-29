@@ -1,12 +1,12 @@
-import { css, html, LitElement } from "./../web_modules/lit-element.js";
-import {randomNumberInRange} from "./../util/util.js";
 import {sharedStyles} from "./../styles/shared.js";
+import {randomNumberInRange} from "./../util/util.js";
+import {css, html, LitElement} from "./../web_modules/lit-element.js";
 
 /**
  * A ConfettiParticle is something that looks like confetti
  */
 export class ConfettiParticle {
-	constructor({ innerHeight, innerWidth, maxAmount, colors, context }) {
+	constructor ({innerHeight, innerWidth, maxAmount, colors, context}) {
 		this.x = Math.random() * innerWidth;
 		this.y = Math.random() * innerHeight - innerHeight;
 		this.radius = randomNumberInRange(11, 33);
@@ -16,10 +16,10 @@ export class ConfettiParticle {
 		this.tiltAngleIncremental = Math.random() * 0.07 + 0.05;
 		this.context = context;
 		this.tiltAngle = 0;
-		this.tiltAngleDecremental = randomNumberInRange(0, maxAmount); 
+		this.tiltAngleDecremental = randomNumberInRange(0, maxAmount);
 	}
 
-	draw() {
+	draw () {
 		this.context.beginPath();
 		this.context.lineWidth = this.radius / 2;
 		this.context.strokeStyle = this.color;
@@ -199,7 +199,7 @@ export class Confetti extends LitElement {
 				// Remove the particle if we only spray confetti once
 				if (this.once) {
 					this.particles.splice(i, 1);
-				} 
+				}
 			}
 		}
 	}
