@@ -1,10 +1,11 @@
-import { Confetti } from "../atoms/confetti.js";
+import {Confetti} from "../atoms/confetti.js";
 import {lazyImgIntersectionObserverOptions} from "./../config.js";
 
 const AUDIO_CACHE = new Map();
+
 /**
  * Turns a skill name into a path.
- * @param {*} name 
+ * @param {*} name
  */
 export function pathify (name) {
 	return name
@@ -16,9 +17,9 @@ export function pathify (name) {
 
 /**
  * Constructs the image path prefix for a skill.
- * @param {*} collection 
- * @param {*} area 
- * @param {*} skill 
+ * @param {*} collection
+ * @param {*} area
+ * @param {*} skill
  */
 export function constructImagePathPrefix (collection, area, skill) {
 	const paths = [
@@ -32,9 +33,9 @@ export function constructImagePathPrefix (collection, area, skill) {
 
 /**
  * Returns the skill id for a skill.
- * @param {*} collection 
- * @param {*} area 
- * @param {*} skill 
+ * @param {*} collection
+ * @param {*} area
+ * @param {*} skill
  */
 export function getSkillId (collection, area, skill) {
 	return [
@@ -46,9 +47,9 @@ export function getSkillId (collection, area, skill) {
 
 /**
  * Returns the search query for a skill.
- * @param {*} collection 
- * @param {*} area 
- * @param {*} skill 
+ * @param {*} collection
+ * @param {*} area
+ * @param {*} skill
  */
 export function getSkillSearchQuery (collection, area, skill) {
 	return [
@@ -61,10 +62,10 @@ export function getSkillSearchQuery (collection, area, skill) {
 /**
  * Returns a random integer between min (include) and max (include)
  * https://stackoverflow.com/a/29246176
- * @param {*} from 
- * @param {*} to 
+ * @param {*} from
+ * @param {*} to
  */
-export function randomNumberInRange(from, to) {
+export function randomNumberInRange (from, to) {
 	return Math.floor(Math.random() * (to - from + 1)) + from;
 }
 
@@ -96,8 +97,8 @@ export function sprayConfettiOnce () {
 
 /**
  * Play audio with a cache.
- * @param {*} src 
- * @param {*} volume 
+ * @param {*} src
+ * @param {*} volume
  */
 export function playAudio (src, volume = 1) {
 	const $audio = AUDIO_CACHE.get(src) || document.createElement("audio");
@@ -105,8 +106,8 @@ export function playAudio (src, volume = 1) {
 	$audio.volume = volume;
 
 	// Reset
-	$audio.pause()
- 	$audio.currentTime = 0
+	$audio.pause();
+	$audio.currentTime = 0;
 
 	$audio.play();
 
@@ -115,10 +116,10 @@ export function playAudio (src, volume = 1) {
 
 /**
  * Attach an intersection observer that changes the data-src attribute to src on img element.
- * @param {*} $elem 
+ * @param {*} $elem
  */
 export function attachLazyImgIntersectionObserver ($elem) {
-	const callback = (entries, observer) => { 
+	const callback = (entries, observer) => {
 		entries.forEach(entry => {
 			const {isIntersecting, target} = entry;
 			if (isIntersecting) {
@@ -165,3 +166,4 @@ export function dispatchCloseAllDescriptionsEvent () {
 export function listenForCloseAllDescriptionsEvent (cb) {
 	window.addEventListener("closeAllDescriptions", cb);
 }
+

@@ -2,7 +2,7 @@ import {css, html, LitElement} from "./../web_modules/lit-element.js";
 import {sharedStyles} from "./../styles/shared.js";
 
 /**
- * An element that serves as a button.
+ * An element that serves as a switch.
  */
 export class Button extends LitElement {
 
@@ -35,7 +35,7 @@ export class Button extends LitElement {
 				}
 				
 				:host(:focus-within) {
-                    outline: 5px auto -webkit-focus-ring-color;
+					outline: var(--focus-outline);
 				}
 				
 				:host([checked]) {
