@@ -415,6 +415,7 @@ export const modernCollection = {
 							["Google Devs - Registering as a Share Target", "https://developers.google.com/web/updates/2018/12/web-share-target"],
 							["CSS Tricks - How to Use the Web Share API", "https://css-tricks.com/how-to-use-the-web-share-api/"],
 							["The Web Share API", "https://blog.arnellebalane.com/the-web-share-api-2cbb3e6cf007"],
+							["dev.to - How to implement the Web Share API with a fallback", "https://dev.to/daviddalbusco/how-to-implement-the-web-share-api-with-a-fallback-b3"]
 						]
 					}
 				},

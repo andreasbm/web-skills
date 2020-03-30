@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>social/facebook</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="social/facebook" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="facebook" fill-rule="nonzero">
+            <circle id="Oval" fill="#3B5998" cx="11.9146195" cy="11.9146195" r="11.9146195"></circle>
+            <path d="M14.9099469,12.3810265 L12.7839292,12.3810265 L12.7839292,20.1697699 L9.56283186,20.1697699 L9.56283186,12.3810265 L8.03086726,12.3810265 L8.03086726,9.64375221 L9.56283186,9.64375221 L9.56283186,7.87242478 C9.56283186,6.60573451 10.164531,4.62223009 12.8126018,4.62223009 L15.1985841,4.63221239 L15.1985841,7.28920354 L13.4673982,7.28920354 C13.1834336,7.28920354 12.7841416,7.43107965 12.7841416,8.03532743 L12.7841416,9.64630088 L15.1913628,9.64630088 L14.9099469,12.3810265 Z" id="Shape" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

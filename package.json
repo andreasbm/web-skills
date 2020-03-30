@@ -1,81 +1,81 @@
 {
-  "name": "web-skills",
-  "description": "A visual overview of useful skills to learn as a web developer",
-  "type": "module",
-  "license": "MIT",
-  "author": "Andreas Mehlsen",
-  "bugs": {
-    "url": "https://github.com/andreasbm/web-skills/issues"
-  },
-  "homepage": "https://github.com/andreasbm/web-skills#readme",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/andreasbm/web-skills.git"
-  },
-  "keywords": [
-    "web",
-    "skills",
-    "learn",
-    "overview",
-    "links",
-    "html",
-    "css",
-    "javascript",
-    "accessibility",
-    "web components",
-    "pwa",
-    "build tools",
-    "frameworks",
-    "testing",
-    "architecture",
-    "design",
-    "ux",
-    "algorithms",
-    "backend"
-  ],
-  "scripts": {
-    "serve": "npx servor . index.html 8080 --reload --browse",
-    "s": "npm run serve",
-    "deploy": "firebase deploy",
-    "lit-check": "npx lit-analyzer . --strict",
-    "generate-blueprint": "node --experimental-modules generate-blueprint.mjs",
-    "readme": "npm run generate-blueprint && npx @appnest/readme generate",
-    "snowpack": "npx snowpack --optimize",
-    "postinstall": "npm run snowpack"
-  },
-  "contributors": [
-    {
-      "name": "Andreas Mehlsen",
-      "url": "https://twitter.com/andreasmehlsen",
-      "img": "https://avatars1.githubusercontent.com/u/6267397?s=460&v=4",
-      "info": [
-        "🔥"
-      ]
-    },
-    {
-      "name": "You?",
-      "img": "https://joeschmoe.io/api/v1/random",
-      "url": "https://github.com/andreasbm/readme/blob/master/CONTRIBUTING.md"
-    }
-  ],
-  "dependencies": {
-    "lit-element": "^2.2.1",
-    "lit-html": "^1.1.2",
-    "web-dialog": "0.0.8"
-  },
-  "devDependencies": {
-    "servor": "^3.2.0",
-    "snowpack": "^1.0.5"
-  },
-  "snowpack": {
-    "dedupe": [
-      "lit-html"
-    ],
-    "webDependencies": [
-      "lit-html",
-      "lit-element",
-      "web-dialog",
-      "lit-html/directives/repeat.js"
-    ]
-  }
+	"name": "web-skills",
+	"description": "A visual overview of useful skills to learn as a web developer",
+	"type": "module",
+	"license": "MIT",
+	"author": "Andreas Mehlsen",
+	"bugs": {
+		"url": "https://github.com/andreasbm/web-skills/issues"
+	},
+	"homepage": "https://github.com/andreasbm/web-skills#readme",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/andreasbm/web-skills.git"
+	},
+	"keywords": [
+		"web",
+		"skills",
+		"learn",
+		"overview",
+		"links",
+		"html",
+		"css",
+		"javascript",
+		"accessibility",
+		"web components",
+		"pwa",
+		"build tools",
+		"frameworks",
+		"testing",
+		"architecture",
+		"design",
+		"ux",
+		"algorithms",
+		"backend"
+	],
+	"scripts": {
+		"serve": "npx servor . index.html 8080 --reload --browse",
+		"s": "npm run serve",
+		"deploy": "firebase deploy",
+		"lit-check": "npx lit-analyzer . --strict",
+		"generate-blueprint": "node --experimental-modules generate-blueprint.mjs",
+		"readme": "npm run generate-blueprint && npx @appnest/readme generate",
+		"snowpack": "npx snowpack --optimize",
+		"postinstall": "npm run snowpack"
+	},
+	"contributors": [
+		{
+			"name": "Andreas Mehlsen",
+			"url": "https://twitter.com/andreasmehlsen",
+			"img": "https://avatars1.githubusercontent.com/u/6267397?s=460&v=4",
+			"info": [
+				"🔥"
+			]
+		},
+		{
+			"name": "You?",
+			"img": "https://joeschmoe.io/api/v1/random",
+			"url": "https://github.com/andreasbm/readme/blob/master/CONTRIBUTING.md"
+		}
+	],
+	"dependencies": {
+		"lit-element": "^2.2.1",
+		"lit-html": "^1.1.2",
+		"web-dialog": "0.0.8"
+	},
+	"devDependencies": {
+		"servor": "^3.2.0",
+		"snowpack": "^1.0.5"
+	},
+	"snowpack": {
+		"dedupe": [
+			"lit-html"
+		],
+		"webDependencies": [
+			"lit-html",
+			"lit-element",
+			"web-dialog",
+			"lit-html/directives/repeat.js"
+		]
+	}
 }

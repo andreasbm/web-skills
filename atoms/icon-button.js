@@ -21,10 +21,11 @@ class IconButton extends LitElement {
 					height: var(--icon-size, 2rem);
 					opacity: 1;
 					transition: 120ms ease opacity;
+					cursor: pointer;
 				}
 				
 				:host(:hover), :host(:focus-visible) {
-					opacity: 0.6;
+					opacity: 0.8;
 				}
 			`
 		];

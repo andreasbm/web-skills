@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>social/hackernews</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="social/hackernews" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval" fill="#F68423" fill-rule="nonzero" cx="12" cy="12" r="12"></circle>
+        <polygon id="Hacker_News-path" fill="#FFFFFF" fill-rule="nonzero" points="12.7913586 14.5557031 12.7913586 19.9739086 10.8274564 19.9739086 10.8274564 14.5557031 6 5 8.27506004 5 11.8060254 12.1949619 15.4767863 5 17.609796 5"></polygon>
+    </g>
+</svg>

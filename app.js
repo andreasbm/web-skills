@@ -1,15 +1,15 @@
 import "./atoms/blur.js";
 import "./atoms/button.js";
-import "./atoms/icon-button.js";
 import "./atoms/compact-switch.js";
-import {gaMeasurementId, defaultCompactPx} from "./config.js";
+import "./atoms/icon-button.js";
+import {defaultCompactPx, gaMeasurementId, getShareConfig} from "./config.js";
 import {collections} from "./data.js";
 import {auth, AuthEvents} from "./firebase/auth.js";
 import {initFirebase} from "./firebase/init-firebase.js";
 import "./molecules/collection.js";
 import {sharedStyles} from "./styles/shared.js";
-import {githubIconTemplate} from "./util/icons.js";
-import {dispatchCloseAllDescriptionsEvent, loadIsCompact, setIsCompact, trackLinkClicked} from "./util/util.js";
+import {githubIconTemplate, helpIconTeplate, shareIconTeplate} from "./util/icons.js";
+import {dispatchCloseAllDescriptionsEvent, loadIsCompact, setIsCompact, trackLinkClicked, copyToClipboard} from "./util/util.js";
 import {css, html, LitElement} from "./web_modules/lit-element.js";
 import {repeat} from "./web_modules/lit-html/directives/repeat.js";
 
@@ -63,6 +63,18 @@ export class App extends LitElement {
 					align-items: center;
 				}
 				
+				#toolbar-top > div > :not(:last-child) {
+					margin: 0 var(--spacing-l) 0 0;
+				}
+				
+				#share-button, #help-button {
+					padding: 0;
+					border: none;
+					margin: 0;
+					background: transparent;
+					color: inherit;
+				}
+				
 				#sign-out {
 					display: flex;
     			    align-items: center;
@@ -113,6 +125,11 @@ export class App extends LitElement {
 				
 				:host(:not([compact])) #collections {
 				    padding-top: var(--spacing-xxxl);
+				}
+				
+				#toggle-compact {
+					display: flex;
+					align-content: center;
 				}
 				
 				@media (max-width: 800px) {
@@ -241,7 +258,49 @@ export class App extends LitElement {
 	}
 
 	/**
-	 * Reners the element.
+	 * Shares the website.
+	 * @returns {Promise<void>}
+	 */
+	async share () {
+
+		gtag("event", "open_share", {
+			"event_category": "Engagement",
+			"event_label": "Open share dialog"
+		});
+
+		const config = getShareConfig();
+		try {
+			await navigator.share(config);
+
+		} catch (err) {
+			if (err instanceof DOMException || err instanceof TypeError) {
+				const {openShare} = await import("./util/open-share.js");
+				await openShare(config);
+
+			} else {
+				copyToClipboard(config.url);
+				alert(`Link copied to clipboard.`);
+			}
+		}
+	}
+
+	/**
+	 * Opens the help dialog.
+	 * @returns {Promise<void>}
+	 */
+	async openHelp () {
+
+		gtag("event", "open_help", {
+			"event_category": "Engagement",
+			"event_label": "Open help dialog"
+		});
+
+		const {openHelp} = await import("./util/open-help.js");
+		await openHelp();
+	}
+
+	/**
+	 * Renders the element.
 	 */
 	render () {
 		const {signIn, signOut} = this;
@@ -258,6 +317,12 @@ export class App extends LitElement {
 					<div id="toggle-compact">
 						<ws-compact-switch @toggle="${this.toggleCompact}" ?checked="${this.compact}"></ws-compact-switch>
 					</div>
+					<button id="help-button" aria-label="Open help" tabindex="0" @click="${this.openHelp}">
+						<ws-icon-button .template="${helpIconTeplate}" ></ws-icon-button>
+					</button>
+					<button id="share-button" aria-label="Share website" tabindex="0" @click="${this.share}">
+						<ws-icon-button .template="${shareIconTeplate}"></ws-icon-button>
+					</button>
 				</div>
 			</div>
 			<div id="collections">
