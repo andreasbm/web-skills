@@ -1,6 +1,6 @@
 <!-- ⚠️ This README has been generated from the file(s) "blueprint.md" ⚠️--><h1 align="center">Web Skills</h1>
 <p align="center">
-	Web Skills is a visual overview of useful skills to learn as a web developer. Go to <a href="https://andreasbm.github.io/web-skills" target="_blank" aria-label="Link to Web Skills">https://andreasbm.github.io/web-skills</a> to check out the visual overview or scroll through this readme to get the overview <a href="#-fundamentals" target="_blank" aria-label="Link to list of skills">as a list</a>.
+	Web Skills is a visual overview of useful skills to learn as a web developer. Go to <a href="https://andreasbm.github.io/web-skills" target="_blank" aria-label="Link to Web Skills">https://andreasbm.github.io/web-skills</a> to check out the visual overview or scroll through this readme to get the overview <a href="#-fundamentals" target="_blank" aria-label="Link to list of skills">as a list</a>. If you like the project you are very welcome to <a href="https://github.com/andreasbm/web-skills/stargazers" aria-label="Become stargazer link">become a stargazer 🤩</a>
 </p> 
 <p align="center">
 	<a href="http://andreasbm.github.io/web-skills" target="_blank">
@@ -438,7 +438,7 @@ The skills are based on what I personally find to be the most useful on a day-to
 
 ### How can I get in contact with you?
 
-Reach out to me on Twitter at [https://twitter.com/AndreasMehlsen"](@AndreasMehlsen) or take a look at [my website](https://andreasbm.github.io) if you want to learn more about who I am.
+Reach out to me on Twitter at [https://twitter.com/AndreasMehlsen](@AndreasMehlsen) or take a look at [my website](https://andreasbm.github.io) if you want to learn more about who I am.
 
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#fundamentals)
