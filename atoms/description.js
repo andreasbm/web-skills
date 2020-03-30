@@ -1,4 +1,5 @@
 import {googleIconTemplate, youtubeIconTemplate} from "../util/icons.js";
+import {measureCompleteSkill, measureShowDescription} from "../util/measure.js";
 import "./../atoms/icon-button.js";
 import {auth, AuthEvents} from "./../firebase/auth.js";
 import {sharedStyles} from "./../styles/shared.js";
@@ -6,9 +7,9 @@ import {
 	currentConfettiCount,
 	getSkillId,
 	getSkillSearchQuery,
+	measureLinkClick,
 	playAudio,
-	sprayConfettiOnce,
-	trackLinkClicked
+	sprayConfettiOnce
 } from "./../util/util.js";
 import {css, html, LitElement} from "./../web_modules/lit-element.js";
 import {repeat} from "./../web_modules/lit-html/directives/repeat.js";
@@ -197,7 +198,7 @@ export class Description extends LitElement {
 	 */
 	connectedCallback () {
 		super.connectedCallback();
-		this.trackVisible();
+		this.measureDidShow();
 
 		this.addEventListener("click", this.onClick);
 		auth.addEventListener(AuthEvents.authStateChanged, this.requestUpdate.bind(this));
@@ -233,14 +234,11 @@ export class Description extends LitElement {
 	}
 
 	/**
-	 * Tracks that the description was shown.
+	 * Measure that the description was shown.
 	 */
-	trackVisible () {
+	measureDidShow () {
 		const {name} = this.skill;
-		gtag("event", "show_description", {
-			"event_category": "Engagement",
-			"event_label": `The description for "${name}" was shown`,
-		});
+		measureShowDescription(name);
 	}
 
 	/**
@@ -293,11 +291,8 @@ export class Description extends LitElement {
 				}, 150);
 			});
 
-			// Track that the skill was completed
-			gtag("event", "complete_skill", {
-				"event_category": "Engagement",
-				"event_label": `The skill "${name}" was completed`,
-			});
+			// Measure that the skill was completed
+			measureCompleteSkill(name);
 		}
 
 	}
@@ -312,7 +307,7 @@ export class Description extends LitElement {
 		return html`
 			<div class="link">
 				<img class="img" loading="lazy" width="16" height="16" intrinsicsize="16x16" src="https://plus.google.com/_/favicon?domain_url=${encodeURIComponent(url)}" alt="Logo for ${name}" />
-				<a class="url" href="${url}" target="_blank" rel="noopener" @click="${e => trackLinkClicked(e)}">${name}</a>
+				<a class="url" href="${url}" target="_blank" rel="noopener" @click="${e => measureLinkClick(e)}">${name}</a>
 			</div>
 		`;
 	}
@@ -333,10 +328,10 @@ export class Description extends LitElement {
 			` : undefined}
 			
 			<div id="smart-search">
-				<a id="search-google" href="https://www.google.com/search?q=${encodeURIComponent(skillSearchQuery)}" target="_blank" aria-label="Search on Google" rel="noopener" @click="${e => trackLinkClicked(e)}">
+				<a id="search-google" href="https://www.google.com/search?q=${encodeURIComponent(skillSearchQuery)}" target="_blank" aria-label="Search on Google" rel="noopener" @click="${e => measureLinkClick(e)}">
 					<ws-icon-button .template="${googleIconTemplate}"></ws-icon-button>
 				</a>
-				<a id="search-youtube" href="https://www.youtube.com/results?search_query=${encodeURIComponent(skillSearchQuery)}" target="_blank" aria-label="Search on Youtube" rel="noopener" @click="${e => trackLinkClicked(e)}">
+				<a id="search-youtube" href="https://www.youtube.com/results?search_query=${encodeURIComponent(skillSearchQuery)}" target="_blank" aria-label="Search on Youtube" rel="noopener" @click="${e => measureLinkClick(e)}">
 					<ws-icon-button .template="${youtubeIconTemplate}"></ws-icon-button>
 				</a>
 			</div>

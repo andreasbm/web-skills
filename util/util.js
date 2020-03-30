@@ -1,5 +1,6 @@
 import {Confetti} from "../atoms/confetti.js";
 import {lazyImgIntersectionObserverOptions} from "./../config.js";
+import {measureCopyLink, measureLinkClicked} from "./measure.js";
 
 const AUDIO_CACHE = new Map();
 
@@ -168,10 +169,10 @@ export function listenForCloseAllDescriptionsEvent (cb) {
 }
 
 /**
- * Tracks a link click.
+ * Measures a link click.
  * @param e
  */
-export function trackLinkClicked (e) {
+export function measureLinkClick (e) {
 
 	// Find the target by using the composed path to get the element through the shadow boundaries.
 	const $anchor = ("composedPath" in e) ? e.composedPath().find($elem => $elem instanceof HTMLAnchorElement) : e.target;
@@ -182,10 +183,7 @@ export function trackLinkClicked (e) {
 	}
 
 	const name = $anchor.ariaLabel || $anchor.innerText || $anchor.href;
-	gtag("event", "click_link", {
-		"event_category": "Engagement",
-		"event_label": `The link "${name}" was clicked`,
-	});
+	measureLinkClicked(name);
 }
 
 /**
@@ -193,10 +191,18 @@ export function trackLinkClicked (e) {
  * @param text
  */
 export function copyToClipboard (text) {
+
+	// Measure the event
+	measureCopyLink(text);
+
+	// Copy link
 	const $textarea = document.createElement("textarea");
 	$textarea.value = text;
 	document.body.appendChild($textarea);
 	$textarea.select();
 	document.execCommand("copy");
 	document.body.removeChild($textarea);
+
+	// Tell the user that the link was copied
+	alert(`Link copied to clipboard.`);
 }

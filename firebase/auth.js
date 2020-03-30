@@ -1,4 +1,4 @@
-import {gaMeasurementId} from "./../config.js";
+import {measureLogin} from "../util/measure.js";
 
 export const AuthEvents = {
 	authStateChanged: "authStateChanged",
@@ -54,7 +54,7 @@ export class Auth extends HTMLElement {
 
 		// Measure the user if one exists
 		if (this.user != null) {
-			this.trackUser(this.user);
+			measureLogin(this.user);
 		}
 	}
 
@@ -66,28 +66,13 @@ export class Auth extends HTMLElement {
 	}
 
 	/**
-	 * Tracks a user.
-	 * @param {*} user
-	 */
-	trackUser (user) {
-
-		// Set user ID
-		gtag("config", gaMeasurementId, {
-			"user_id": user.uid
-		});
-
-		// Track login
-		gtag("event", "login", {"method": "Google"});
-	}
-
-	/**
 	 * Sets the user and saves it to local storage.
 	 * @param {*} user
 	 */
 	setUser (user) {
 		if (user != null) {
 			localStorage.setItem(StorageNames.sessionUser, JSON.stringify(user));
-			this.trackUser(user);
+			measureLogin(user);
 
 		} else {
 			localStorage.removeItem(StorageNames.sessionUser);

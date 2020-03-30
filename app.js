@@ -2,14 +2,29 @@ import "./atoms/blur.js";
 import "./atoms/button.js";
 import "./atoms/compact-switch.js";
 import "./atoms/icon-button.js";
-import {defaultCompactPx, gaMeasurementId, getShareConfig} from "./config.js";
+import {defaultCompactPx, getShareConfig} from "./config.js";
 import {collections} from "./data.js";
 import {auth, AuthEvents} from "./firebase/auth.js";
 import {initFirebase} from "./firebase/init-firebase.js";
 import "./molecules/collection.js";
 import {sharedStyles} from "./styles/shared.js";
 import {githubIconTemplate, helpIconTeplate, shareIconTeplate} from "./util/icons.js";
-import {dispatchCloseAllDescriptionsEvent, loadIsCompact, setIsCompact, trackLinkClicked, copyToClipboard} from "./util/util.js";
+import {
+	measureException,
+	measureOpenHelp,
+	measureOpenShare,
+	measurePageView,
+	measureShareLink,
+	measureToggleCompact,
+	measureUserTiming
+} from "./util/measure.js";
+import {
+	copyToClipboard,
+	dispatchCloseAllDescriptionsEvent,
+	loadIsCompact,
+	measureLinkClick,
+	setIsCompact
+} from "./util/util.js";
 import {css, html, LitElement} from "./web_modules/lit-element.js";
 import {repeat} from "./web_modules/lit-html/directives/repeat.js";
 
@@ -150,11 +165,11 @@ export class App extends LitElement {
 		this.setupListeners();
 		this.setupCompact();
 
-		// Track page view (we only have this one page)
-		gtag("config", gaMeasurementId, {
-			"page_path": location.pathname,
-			"page_location": location.href
-		});
+		// Measure page view (we only have this one page)
+		measurePageView();
+
+		// Measure the performance
+		measureUserTiming(`App was connected`, `initial_load`, performance.now());
 	}
 
 	/**
@@ -167,14 +182,11 @@ export class App extends LitElement {
 			this.requestUpdate().then();
 		});
 
-		// Track all exceptions
+		// Measure all exceptions
 		window.addEventListener("error", e => {
 			const {message, filename, lineno, colno, error} = e;
 			const description = `${error.name} - ${message} (${filename}:[${lineno}, ${colno}])`;
-			gtag("event", "exception", {
-				description,
-				"fatal": true
-			});
+			measureException(description);
 		});
 
 		// Close all descriptions when escape is pressed
@@ -187,7 +199,7 @@ export class App extends LitElement {
 		});
 
 		// Listen for CTA events
-		window.addEventListener("click", trackLinkClicked);
+		window.addEventListener("click", measureLinkClick);
 	}
 
 	/**
@@ -239,11 +251,7 @@ export class App extends LitElement {
 		const compact = e.detail;
 		this.compact = compact;
 		setIsCompact(compact);
-
-		gtag("event", "toggle_compact", {
-			"event_category": "Engagement",
-			"event_label": compact ? `Activate compact mode` : `Deactivate compact mode`
-		});
+		measureToggleCompact(compact);
 
 		// Add the compact params to the URL
 		const params = new URLSearchParams(location.search);
@@ -263,18 +271,17 @@ export class App extends LitElement {
 	 */
 	async share () {
 
-		gtag("event", "open_share", {
-			"event_category": "Engagement",
-			"event_label": "Open share dialog"
-		});
+		measureOpenShare();
 
 		const config = getShareConfig();
 		try {
 			await navigator.share(config);
+			measureShareLink(`Native Share`);
 
 		} catch (err) {
 
 			// If the user cancelled the share we abort
+			// This was the best cross-browser solution..
 			if (err.message.includes("cancellation")) {
 				return;
 			}
@@ -287,7 +294,6 @@ export class App extends LitElement {
 			} catch (err) {
 				// As a last resort we just copy the link
 				copyToClipboard(config.url);
-				alert(`Link copied to clipboard.`);
 			}
 		}
 	}
@@ -297,12 +303,7 @@ export class App extends LitElement {
 	 * @returns {Promise<void>}
 	 */
 	async openHelp () {
-
-		gtag("event", "open_help", {
-			"event_category": "Engagement",
-			"event_label": "Open help dialog"
-		});
-
+		measureOpenHelp();
 		const {openHelp} = await import("./util/open-help.js");
 		await openHelp();
 	}

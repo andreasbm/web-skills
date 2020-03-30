@@ -1,5 +1,6 @@
 import {html, render} from "./../web_modules/lit-html.js";
 import {repeat} from "./../web_modules/lit-html/directives/repeat.js";
+import {measureShareLink} from "./measure.js";
 import {copyToClipboard} from "./util.js";
 
 /**
@@ -11,17 +12,6 @@ function openShareUrl (url) {
 }
 
 /**
- * Tracks that a link was shared.
- * @param name
- */
-function trackShareLink (name) {
-	gtag("event", "share_link", {
-		"event_category": "Engagement",
-		"event_label": `Open "${name}" share link`
-	});
-}
-
-/**
  * Renders the share options.
  * @param name
  * @param share
@@ -30,7 +20,7 @@ function trackShareLink (name) {
 function renderShareOption ([name, share]) {
 	return html`
 		<button class="option" @click="${() => {
-		trackShareLink(name);
+		measureShareLink(name);
 		share();
 	}}">
 			<img class="img" src="social/${name.toLowerCase().replace(" ", "")}.svg" />
