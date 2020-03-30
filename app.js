@@ -273,11 +273,19 @@ export class App extends LitElement {
 			await navigator.share(config);
 
 		} catch (err) {
-			if (err instanceof DOMException || err instanceof TypeError) {
+
+			// If the user cancelled the share we abort
+			if (err.message.includes("cancellation")) {
+				return;
+			}
+
+			try {
+				// Open fallback share if possible
 				const {openShare} = await import("./util/open-share.js");
 				await openShare(config);
 
-			} else {
+			} catch (err) {
+				// As a last resort we just copy the link
 				copyToClipboard(config.url);
 				alert(`Link copied to clipboard.`);
 			}
