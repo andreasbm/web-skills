@@ -14,26 +14,34 @@ export class Button extends LitElement {
 		return [
 			sharedStyles,
 			css`
-				:host {
-					display: inline-block;
+				:host, #button {
+					display: flex;
+					align-items: center;
+					justify-content: center;
 				}
-
+				
 				#button {
 					width: 100%;
-					padding: var(--spacing-m) var(--spacing-l);
-					background: none;
+					background: transparent;
 					color: inherit;
-					border-radius: var(--border-radius-s);
 					font-size: inherit;
-					border: 1px solid currentColor;
 					cursor: pointer;
 					transition: opacity 120ms ease;
-					outline: none;
-					opacity: 0.8;
+					opacity: 1;
+					border: none;
+					padding: 0;
+					margin: 0;
+				}
+				
+				:host([bordered]) #button {
+					padding: var(--spacing-m) var(--spacing-l);
+					border-radius: var(--border-radius-s);
+					border: 1px solid currentColor;
 				}
 
+
 				#button:hover {
-					opacity: 1;
+					opacity: 0.8;
 				}
 			`
 		];
@@ -41,7 +49,7 @@ export class Button extends LitElement {
 
 	render () {
 		return html`
-			<button id="button">
+			<button id="button" tabindex="0">
 				<slot></slot>
 			</button>
 		`;

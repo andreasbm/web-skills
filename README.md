@@ -418,7 +418,7 @@ The skills are derived from a combination of 10 years of experience, a bachelor 
 
 ### How can I support you?
 
-I am spending my spare time building Web Skills for free because I want to help people get into web development. My motivation comes from people finding Web Skills useful, so if you like the project feel free to support me in any way you like! For example, you are more than welcome to become a [stargazer on Github](https://github.com/andreasbm/web-skills/stargazers), share Web Skills with your friend and followers or create blog articles linking to Web Skills.
+I am spending my spare time building Web Skills for free because I want to help people get into web development. My motivation comes from people finding Web Skills useful, so if you like the project feel free to support me in any way you like! For example, you are more than welcome to become a [stargazer on Github](https://github.com/andreasbm/web-skills/stargazers), share Web Skills with your friend and followers or create blog articles linking to Web Skills. If you want to, it will absolutely make my day if you [buy me a coffee](https://www.buymeacoffee.com/AndreasMehlsen) to show your appreciation and support <3
 
 ### How can I get involved?
 

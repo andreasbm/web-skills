@@ -1,6 +1,6 @@
 import {googleIconTemplate, youtubeIconTemplate} from "../util/icons.js";
 import {measureCompleteSkill, measureShowDescription} from "../util/measure.js";
-import "./../atoms/icon-button.js";
+import "./../atoms/icon.js";
 import {auth, AuthEvents} from "./../firebase/auth.js";
 import {sharedStyles} from "./../styles/shared.js";
 import {
@@ -329,15 +329,15 @@ export class Description extends LitElement {
 			
 			<div id="smart-search">
 				<a id="search-google" href="https://www.google.com/search?q=${encodeURIComponent(skillSearchQuery)}" target="_blank" aria-label="Search on Google" rel="noopener" @click="${e => measureLinkClick(e)}">
-					<ws-icon-button .template="${googleIconTemplate}"></ws-icon-button>
+					<ws-icon hoverable .template="${googleIconTemplate}"></ws-icon>
 				</a>
 				<a id="search-youtube" href="https://www.youtube.com/results?search_query=${encodeURIComponent(skillSearchQuery)}" target="_blank" aria-label="Search on Youtube" rel="noopener" @click="${e => measureLinkClick(e)}">
-					<ws-icon-button .template="${youtubeIconTemplate}"></ws-icon-button>
+					<ws-icon hoverable .template="${youtubeIconTemplate}"></ws-icon>
 				</a>
 			</div>
 			
 			${isAuthenticated ? html`
-				<ws-button id="complete-button" @click="${this.toggleCompleteSkill}">${isCompleted ? `Uncomplete Skill` : `Complete Skill`}</ws-button>
+				<ws-button bordered id="complete-button" @click="${this.toggleCompleteSkill}">${isCompleted ? `Uncomplete Skill` : `Complete Skill`}</ws-button>
 			` : undefined}
 		`;
 	}

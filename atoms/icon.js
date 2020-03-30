@@ -19,12 +19,13 @@ class IconButton extends LitElement {
 					display: flex;
 					width: var(--icon-size, 2rem);
 					height: var(--icon-size, 2rem);
+					align-items: center;
+					justify-content: center;
 					opacity: 1;
-					transition: 120ms ease opacity;
-					cursor: pointer;
+					transition: opacity 120ms ease;
 				}
 				
-				:host(:hover), :host(:focus-visible) {
+				:host([hoverable]:hover) {
 					opacity: 0.8;
 				}
 			`
@@ -36,4 +37,4 @@ class IconButton extends LitElement {
 	}
 }
 
-customElements.define("ws-icon-button", IconButton);
+customElements.define("ws-icon", IconButton);

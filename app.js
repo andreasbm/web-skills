@@ -1,7 +1,7 @@
 import "./atoms/blur.js";
 import "./atoms/button.js";
 import "./atoms/compact-switch.js";
-import "./atoms/icon-button.js";
+import "./atoms/icon.js";
 import {defaultCompactPx, getShareConfig} from "./config.js";
 import {collections} from "./data.js";
 import {auth, AuthEvents} from "./firebase/auth.js";
@@ -53,48 +53,39 @@ export class App extends LitElement {
 					display: block;
 				}
 				
+				#header {
+					padding: var(--spacing-m) var(--spacing-l);
+				}
+				
 				#collections {
-					padding: 0 var(--spacing-xxxl) var(--spacing-l);
+					padding: 0 var(--spacing-xxxl);
 					display: flex;
     			    flex-direction: column;
     			    align-items: flex-start;
+				}
+				
+				#footer {
+					padding: var(--spacing-l) var(--spacing-xxxl);
 				}
 
 				.collection:not(:last-child) {
 					margin: 0 0 var(--spacing-xxl);
 				}
-
-				#toolbar-bottom {
-					padding: 0 var(--spacing-xxxl) var(--spacing-xxxl) var(--spacing-xxxl);
-				}
 				
-				#toolbar-top {
-					padding: var(--spacing-m) var(--spacing-l);
+				#header, #footer {
 					justify-content: space-between;
 				}
 				
-				#toolbar-top, #toolbar-top > div {
+				#header, #header > div, #footer, #footer > div{
 					display: flex;
 					align-items: center;
 				}
 				
-				#toolbar-top > div > :not(:last-child) {
+				#header > div > :not(:last-child),
+				#footer > div > :not(:last-child) {
 					margin: 0 var(--spacing-l) 0 0;
 				}
 				
-				#share-button, #help-button {
-					padding: 0;
-					border: none;
-					margin: 0;
-					background: transparent;
-					color: inherit;
-				}
-				
-				#sign-out {
-					display: flex;
-    			    align-items: center;
-				}
-
 				#avatar {
 					display: flex;
 					align-items: center;
@@ -105,16 +96,16 @@ export class App extends LitElement {
 					width: 2.14rem;
 					height: 2.14rem;
 					border-radius: 100%;
-					border: 1px solid currentColor;
+					border: 2px solid currentColor;
 					margin: 0 var(--spacing-m) 0 0;
 				}
 
-				#github {
-					color: var(--foreground);
-				}
-
-				:host([compact]) #collections, :host([compact]) #toolbar-bottom {
+				:host([compact]) #collections {
 					padding: 0 var(--spacing-l) var(--spacing-s);
+				}
+				
+				:host([compact]) #footer {
+					padding: var(--spacing-xxl) var(--spacing-l) var(--spacing-l);
 				}
 
 				:host([compact]) .collection {
@@ -130,7 +121,7 @@ export class App extends LitElement {
 					display: none;
 				}
 				
-				:host(:not([compact])) #toolbar-top {
+				:host(:not([compact])) #header {
 					position: fixed;
 					top: 0;
 					z-index: 1234567;
@@ -147,9 +138,28 @@ export class App extends LitElement {
 					align-content: center;
 				}
 				
+				a {
+					color: var(--foreground);
+					text-decoration: none;
+				}
+				
 				@media (max-width: 800px) {
 					#toggle-compact {
 						display: none;
+					}
+					
+					#footer > div {
+						flex-wrap: wrap;
+						flex-grow: 1;
+						justify-content: stretch;
+						align-items: center;
+					}
+					
+					#footer > div > * {
+						padding: var(--spacing-m);
+						width: 100%;
+						border: 2px solid currentColor;
+						margin: 0 0 var(--spacing-m) !important;
 					}
 				}
 			`
@@ -316,44 +326,53 @@ export class App extends LitElement {
 		const user = auth.user;
 
 		return html`
-			<div id="toolbar-top">
+			<header id="header">
 				<div>
-					<a id="github" href="https://github.com/andreasbm/web-skills" target="_blank" rel="noopener" aria-label="Open Github">
-						<ws-icon-button .template="${githubIconTemplate}"></ws-icon-button>
+					<a href="https://github.com/andreasbm/web-skills" target="_blank" rel="noopener" aria-label="Open Github">
+						<ws-icon hoverable .template="${githubIconTemplate}"></ws-icon>
 					</a>
+					${user != null ? html`
+						<div id="avatar">
+							<img class="img" src="${user.photoURL}" />
+							<span class="text">${user.displayName || user.email}</span>
+						</div>
+					` : undefined}
 				</div>
 				<div>
 					<div id="toggle-compact">
 						<ws-compact-switch @toggle="${this.toggleCompact}" ?checked="${this.compact}"></ws-compact-switch>
 					</div>
-					<button id="help-button" aria-label="Open help" tabindex="0" @click="${this.openHelp}">
-						<ws-icon-button .template="${helpIconTeplate}" ></ws-icon-button>
-					</button>
-					<button id="share-button" aria-label="Share website" tabindex="0" @click="${this.share}">
-						<ws-icon-button .template="${shareIconTeplate}"></ws-icon-button>
-					</button>
+					<ws-button aria-label="Open help" @click="${this.openHelp}">
+						<ws-icon .template="${helpIconTeplate}" ></ws-icon>
+					</ws-button>
+					<ws-button aria-label="Share website" @click="${this.share}">
+						<ws-icon .template="${shareIconTeplate}"></ws-icon>
+					</ws-button>
 				</div>
-			</div>
-			<div id="collections">
+			</header>
+			<main id="collections">
 				${repeat(collections, (collection, i) => html`
 					<ws-collection class="collection" index="${i + 1}" .collection="${collection}" ?compact="${this.compact}"></ws-collection>
 				`)}
-			</div>
-			<div id="toolbar-bottom">
-				${user != null ? html`
-					<div id="sign-out">
-						<ws-button @click="${signOut}">Sign out</ws-button>
-						<div id="avatar">
-							<img class="img" src="${user.photoURL}" />
-							<span class="text">${user.displayName || user.email}</span>
-						</div>
-					</div>
-				` : html`
-					<div id="sign-in">
-						<ws-button @click="${signIn}">Sign in with Google</ws-button>
-					</div>
-				`}
-			</div>
+			</main>
+			<footer id="footer">
+				<div>
+					${user != null ? html`
+						<ws-button @click="${signOut}">🔓 Sign out</ws-button>
+					` : html`
+						<ws-button @click="${signIn}">🔒 Sign in with Google</ws-button>
+					`}
+					<a href="https://github.com/andreasbm/web-skills/stargazers" target="_blank" aria-label="Become a stargazer">
+						<ws-button>⭐️ Become a stargazer</ws-button>
+					</a>
+					<a href="https://twitter.com/AndreasMehlsen" target="_blank" aria-label="Find on Twitter">
+						<ws-button>🐦 Find me on Twitter</ws-button>
+					</a>
+					<a href="https://www.buymeacoffee.com/AndreasMehlsen" target="_blank" aria-label="Buy coffee">
+						<ws-button>☕️ Buy me a cup of coffee</ws-button>
+					</a>
+				</div>
+			</footer>
 			<ws-blur id="blur"></ws-blur>
 		`;
 	}
