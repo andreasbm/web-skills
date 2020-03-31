@@ -44,7 +44,7 @@ export async function openShare ({title, text, url}) {
 		["LinkedIn", () => openShareUrl(`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(url)}&title=${encodeURIComponent(title)}&summary=${encodeURIComponent(text)}`)],
 		["Reddit", () => openShareUrl(`https://www.reddit.com/submit?url=${encodeURIComponent(url)}&title=${encodeURIComponent(text)}`)],
 		["Facebook", () => openShareUrl(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`)],
-		["Hacker News", () => openShareUrl(`https://news.ycombinator.com/submitlink?u=${encodeURIComponent(url)}&t=${encodeURIComponent(title)}`)],
+		["Hacker News", () => openShareUrl(`https://news.ycombinator.com/submitlink?u=${encodeURIComponent(url)}&t=${encodeURIComponent(text)}`)],
 		["WhatsApp", () => openShareUrl(`https://wa.me/?text=${encodeURIComponent(`${title}. ${text}. Find it here ${url}.`)}`)],
 		["Email", () => openShareUrl(`mailto:?subject=${encodeURIComponent(title)}&body=${encodeURIComponent(`${text}. Find it here ${url}.`)}`)],
 		["Copy", () => copyToClipboard(url)],

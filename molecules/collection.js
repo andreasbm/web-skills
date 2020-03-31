@@ -92,7 +92,7 @@ export class Collection extends LitElement {
 	 */
 	render () {
 		return html`
-			${this.collection.name != null ? html`<h1 id="title">${this.index != null ? `${this.index}. ` : undefined}${this.collection.name}</h1>` : undefined}
+			${this.collection.name != null ? html`<h1 id="title">${this.index != null ? `${this.index + 1}. ` : undefined}${this.collection.name}</h1>` : undefined}
 			<div id="areas">
 				${repeat(this.collection.areas || [], (area, i) => html`
 					<div class="area">

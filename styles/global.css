@@ -51,11 +51,12 @@ html {
 
 body {
 	margin: 0;
-	line-height: 1.5;
+	line-height: 1.2;
 	scroll-snap-type: both proximity;
 	scroll-padding: 50%;
 	overscroll-behavior: contain;
 	-webkit-overflow-scrolling: touch;
+	scroll-behavior: smooth;
 	/* overflow-y: overlay; */
 }
 

@@ -774,7 +774,7 @@ export const fundamentasCollection = {
 						{
 							name: "Developer console",
 							description: {
-								text: "Learn how to use the developer console of your favorite browser.",
+								text: "Learn how to use the developer console to debug your code.",
 								links: [
 									["MDN - Console", "https://developer.mozilla.org/en-US/docs/Web/API/Console"],
 									["Google Devs - Console API Reference", "https://developers.google.com/web/tools/chrome-devtools/console/api"],

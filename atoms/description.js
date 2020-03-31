@@ -34,7 +34,11 @@ export class Description extends LitElement {
 				type: Boolean,
 				reflect: true
 			},
-			direction: {
+			directionX: {
+				type: String,
+				reflect: true
+			},
+			directionY: {
 				type: String,
 				reflect: true
 			}
@@ -57,12 +61,18 @@ export class Description extends LitElement {
 					top: 50%;
     			    left: 0;
 					transform: translate(-7%, -5px);
+					cursor: default;
 				}
 				
-				:host([direction="left"]) {
+				:host([directionX="left"]) {
 					left: unset;
 					right: 0;
 					transform: translate(7%, -5px);
+				}
+				
+				:host([directionY="up"]) {
+					top: unset;
+					bottom: 50%;
 				}
 				
 				:host:before {
@@ -75,9 +85,15 @@ export class Description extends LitElement {
 					left: 15%;
 				}
 				
-				:host([direction="left"]):before {
+				:host([directionX="left"]):before {
 					left: unset;
 					right: 15%;
+				}
+				
+				:host([directionY="up"]):before {
+					top: unset;
+					top: 100%;
+					transform: rotate(180deg);
 				}
 				
 				#text {
@@ -186,7 +202,8 @@ export class Description extends LitElement {
 
 	constructor () {
 		super();
-		this.direction = "right";
+		this.directionX = "right";
+		this.directionY = "down";
 
 		this.requestClose = this.requestClose.bind(this);
 		this.checkOutsideClick = this.checkOutsideClick.bind(this);
@@ -218,8 +235,10 @@ export class Description extends LitElement {
 	}
 
 	updateDirection () {
-		const {left, width} = this.getBoundingClientRect();
-		this.direction = left + width + 50 >= window.innerWidth ? "left" : "right";
+		const {left, width, top, height} = this.getBoundingClientRect();
+		const directionOffset = 50;
+		this.directionX = left + width + directionOffset >= window.innerWidth ? "left" : "right";
+		this.directionY = window.scrollY + top + height + directionOffset >= document.body.scrollHeight ? "up" : "down";
 	}
 
 	/**

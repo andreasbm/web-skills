@@ -7,7 +7,7 @@
 			window.dataLayer = window.dataLayer || [];
 
 			// Disable GA on localhost
-			const disableGtag = location.hostname === `localhost`;
+			const disableGtag = location.hostname === `localhost` || location.hostname === `web-skills.web.app`;
 			if (disableGtag) {
 				window["ga-disable-UA-96179028-7"] = true;
 			}
@@ -140,7 +140,7 @@
 		<script defer src="https://www.gstatic.com/firebasejs/7.1.0/firebase-firestore.js"></script>
 
 		<!-- Polyfills -->
-		<script crossorigin src="https://polyfill.app/api/polyfill?features=es,template,shadow-dom,custom-elements,resizeobserver"></script>
+		<script crossorigin src="https://polyfill.app/api/polyfill?features=es,template,shadow-dom,custom-elements,intersection-observer"></script>
 
 		<!-- Initialize app -->
 		<ws-app></ws-app>

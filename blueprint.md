@@ -28,11 +28,11 @@ The skills are derived from a combination of 10 years of experience, a bachelor 
 
 ### How can I support you?
 
-I am spending my spare time building Web Skills for free because I want to help people get into web development. My motivation comes from people finding Web Skills useful, so if you like the project feel free to support me in any way you like! For example, you are more than welcome to become a [stargazer on Github](https://github.com/andreasbm/web-skills/stargazers), share Web Skills with your friend and followers or create blog articles linking to Web Skills. If you want to, it will absolutely make my day if you [buy me a coffee](https://www.buymeacoffee.com/AndreasMehlsen) to show your appreciation and support <3
+I am spending my spare time building Web Skills for free because I want to help people get into web development. My motivation comes from people finding Web Skills useful, so if you like the project feel free to support me in any way you like! For example, you are more than welcome to become a [stargazer](https://github.com/andreasbm/web-skills/stargazers), share Web Skills with your friend and followers or create blog articles linking to Web Skills. If you want to, it will absolutely make my day if you [support me with a cup of coffee](https://www.buymeacoffee.com/AndreasMehlsen)! <3
 
 ### How can I get involved?
 
-You are welcome to get involved in any way you like. If you want to, you can go to the [Github issues](https://github.com/andreasbm/web-skills/issues) and help me fix the spelling, fix issues or suggest some new features. Any involvement is highly appreciated!
+You are welcome to get involved in any way you like. If you want to, you can go to the [issues page](https://github.com/andreasbm/web-skills/issues) and help me fix the spelling, fix issues or suggest some new features. Any involvement is highly appreciated!
 
 ### How can I keep track of what skills I know?
 
@@ -44,11 +44,11 @@ I totally understand if you are a bit overwhelmed by the amount of skills on the
 
 ### Why haven't you included XYZ Technology?
 
-The skills are based on what I personally find to be the most useful on a day-to-day basis. If you think something really important is missing, you can always suggest it on [Github](https://github.com/andreasbm/web-skills/issues).
+The skills are based on what I personally find to be the most useful on a day-to-day basis. If you think something really important is missing, you can always suggest it on the [issues page](https://github.com/andreasbm/web-skills/issues).
 
 ### How can I get in contact with you?
 
-Reach out to me on Twitter at [https://twitter.com/AndreasMehlsen](@AndreasMehlsen) or take a look at [my website](https://andreasbm.github.io) if you want to learn more about who I am.
+Reach out to me on Twitter at [@AndreasMehlsen](https://twitter.com/AndreasMehlsen) or take a look at [my website](https://andreasbm.github.io) if you want to learn more about what other projects I'm working on.
 
 ## Fundamentals
 
@@ -595,7 +595,7 @@ Learn about the basics concepts of debugging.
 
 #### Developer console
 
-Learn how to use the developer console of your favorite browser.
+Learn how to use the developer console to debug your code.
 
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FWeb%2FAPI%2FConsole" alt="Logo" /> MDN - Console](https://developer.mozilla.org/en-US/docs/Web/API/Console)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdevelopers.google.com%2Fweb%2Ftools%2Fchrome-devtools%2Fconsole%2Fapi" alt="Logo" /> Google Devs - Console API Reference](https://developers.google.com/web/tools/chrome-devtools/console/api)

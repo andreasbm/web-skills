@@ -41,6 +41,10 @@ export class App extends LitElement {
 			compact: {
 				type: Boolean,
 				reflect: true
+			},
+			dragging: {
+				type: Boolean,
+				reflect: true
 			}
 		}
 	}
@@ -53,15 +57,26 @@ export class App extends LitElement {
 					display: block;
 				}
 				
+				:host(:not([compact])) {
+					cursor: grab;
+				}
+				
+				:host(:not([compact])[dragging]) {
+					cursor: grabbing;
+					will-change: scroll-position;
+					user-select: none;
+				}
+				
 				#header {
 					padding: var(--spacing-m) var(--spacing-l);
 				}
 				
 				#collections {
-					padding: 0 var(--spacing-xxxl);
+					padding: var(--spacing-xxxl) var(--spacing-xxxl) 0;
 					display: flex;
     			    flex-direction: column;
     			    align-items: flex-start;
+    			    min-width: min-content;
 				}
 				
 				#footer {
@@ -72,11 +87,11 @@ export class App extends LitElement {
 					margin: 0 0 var(--spacing-xxl);
 				}
 				
-				#header, #footer {
+				#header, #footer, #skip-navigation {
 					justify-content: space-between;
 				}
 				
-				#header, #header > div, #footer, #footer > div{
+				#header, #header > div, #footer, #footer > div, #skip-navigation, #skip-navigation > div {
 					display: flex;
 					align-items: center;
 				}
@@ -129,10 +144,6 @@ export class App extends LitElement {
 					background: var(--background-opaque);
 				}
 				
-				:host(:not([compact])) #collections {
-				    padding-top: var(--spacing-xxxl);
-				}
-				
 				#toggle-compact {
 					display: flex;
 					align-content: center;
@@ -143,11 +154,41 @@ export class App extends LitElement {
 					text-decoration: none;
 				}
 				
+				kbd {
+					font-family: inherit;
+					background: var(--background);
+					color: var(--foreground);
+					padding: 0 var(--spacing-xs);
+					border-radius: var(--border-radius-s);
+				}
+				
+				#skip-navigation {
+					position: fixed;
+					top: -9999;
+					left: -9999;
+					width: 100%;
+					opacity: 0;
+					padding: var(--spacing-m);
+					background: var(--foreground);
+					color: var(--background);
+				}
+				
+				#skip-navigation:focus-within {
+					display: flex;
+					outline: var(--focus-outline);
+					z-index: 123456789;
+					opacity: 1;
+					left: 0;
+					top: 0;
+				}
+				
 				@media (max-width: 800px) {
 					#toggle-compact {
 						display: none;
 					}
-					
+				}
+				
+				@media (max-width: 1000px) {
 					#footer > div {
 						flex-wrap: wrap;
 						flex-grow: 1;
@@ -162,6 +203,12 @@ export class App extends LitElement {
 						margin: 0 0 var(--spacing-m) !important;
 					}
 				}
+				
+				@media (any-pointer: coarse) {
+					#skip-navigation {
+						display: none;
+					}
+				}
 			`
 		];
 	}
@@ -174,6 +221,7 @@ export class App extends LitElement {
 
 		this.setupListeners();
 		this.setupCompact();
+		this.setupDragging();
 
 		// Measure page view (we only have this one page)
 		measurePageView();
@@ -199,17 +247,92 @@ export class App extends LitElement {
 			measureException(description);
 		});
 
+		window.addEventListener("selectstart", e => {
+			if (this.dragging) {
+				e.preventDefault();
+			}
+		});
+
 		// Close all descriptions when escape is pressed
 		window.addEventListener("keydown", e => {
 			switch (e.code) {
 				case "Escape":
 					dispatchCloseAllDescriptionsEvent();
 					break;
+				case "Digit7":
+					if (e.shiftKey && e.altKey) {
+						this.focusNavigationSelect();
+					}
+					break;
 			}
 		});
 
 		// Listen for CTA events
 		window.addEventListener("click", measureLinkClick);
+	}
+
+	/**
+	 * Setup dragging.
+	 */
+	setupDragging () {
+		let initialPosition = null;
+		let delta = null;
+		let initialScroll = null;
+
+		function isDialogVisible () {
+			return document.documentElement.hasAttribute("data-dialog-count") && document.documentElement.getAttribute("data-dialog-count") !== "0";
+		}
+
+		// Listen for drag start
+		window.addEventListener("mousedown", e => {
+			if (this.compact || isDialogVisible()) {
+				return;
+			}
+
+			initialScroll = {
+				x: window.scrollX,
+				y: window.scrollY
+			};
+
+			initialPosition = {
+				x: e.clientX,
+				y: e.clientY
+			};
+
+			this.dragging = true;
+		}, {passive: true});
+
+		// Listen for drag end
+		window.addEventListener("mouseup", e => {
+			if (this.compact || isDialogVisible()) {
+				return;
+			}
+
+			this.dragging = false;
+			initialPosition = null;
+			initialScroll = null;
+			delta = null;
+		}, {passive: true});
+
+		// Listen for the dragging
+		window.addEventListener("mousemove", e => {
+			if (this.dragging
+				&& !this.compact
+				&& initialPosition != null
+				&& !isDialogVisible()) {
+				delta = {
+					x: initialPosition.x - e.clientX,
+					y: initialPosition.y - e.clientY
+				};
+
+				const scrollX = initialScroll.x + delta.x;
+				const scrollY = initialScroll.y + delta.y;
+
+				requestAnimationFrame(() => {
+					window.scrollTo(scrollX, scrollY)
+				});
+			}
+		}, {passive: true});
 	}
 
 	/**
@@ -319,6 +442,27 @@ export class App extends LitElement {
 	}
 
 	/**
+	 * Selects a focus jump.
+	 * @param e
+	 */
+	selectFocusJump (e) {
+		const index = e.target.value;
+		const $focus = this.shadowRoot.querySelector(`.focus-anchor[data-collection="${index}"]`);
+		if ($focus != null) {
+			$focus.focus();
+			$focus.scrollIntoView({block: "start"});
+		}
+	}
+
+	/**
+	 * Focuses the navigation select.
+	 */
+	focusNavigationSelect () {
+		const $navigationSelection = this.shadowRoot.querySelector("#navigation-select");
+		$navigationSelection.focus();
+	}
+
+	/**
 	 * Renders the element.
 	 */
 	render () {
@@ -326,6 +470,20 @@ export class App extends LitElement {
 		const user = auth.user;
 
 		return html`
+			<div id="skip-navigation" tabindex="0" aria-label="Navigation Assistant" aria-keyshortcuts="Alt + /">
+				<div>
+					<span>Jump to&nbsp;</span>
+					<select id="navigation-select" @input="${this.selectFocusJump}">
+						<option disabled>Select a section on the page</option>
+						${repeat(collections, (collection, i) => html`
+							<option value="${i}">${collection.name}</option>
+						`)}
+					</select>
+				</div>
+				<div>
+					<span>Press <kbd>alt</kbd> + <kbd>/</kbd> to open this menu</span>
+				</div>
+			</div>
 			<header id="header">
 				<div>
 					<a href="https://github.com/andreasbm/web-skills" target="_blank" rel="noopener" aria-label="Open Github">
@@ -352,7 +510,8 @@ export class App extends LitElement {
 			</header>
 			<main id="collections">
 				${repeat(collections, (collection, i) => html`
-					<ws-collection class="collection" index="${i + 1}" .collection="${collection}" ?compact="${this.compact}"></ws-collection>
+					<span class="focus-anchor" data-collection="${i}" tabindex="0"></span>
+					<ws-collection class="collection" index="${i}" .collection="${collection}" ?compact="${this.compact}"></ws-collection>
 				`)}
 			</main>
 			<footer id="footer">
@@ -365,11 +524,11 @@ export class App extends LitElement {
 					<a href="https://github.com/andreasbm/web-skills/stargazers" target="_blank" aria-label="Become a stargazer">
 						<ws-button>⭐️ Become a stargazer</ws-button>
 					</a>
-					<a href="https://twitter.com/AndreasMehlsen" target="_blank" aria-label="Find on Twitter">
-						<ws-button>🐦 Find me on Twitter</ws-button>
+					<a href="https://twitter.com/AndreasMehlsen" target="_blank" aria-label="Open Twitter">
+						<ws-button>🐦 Say hi on Twitter</ws-button>
 					</a>
 					<a href="https://www.buymeacoffee.com/AndreasMehlsen" target="_blank" aria-label="Buy coffee">
-						<ws-button>☕️ Buy me a cup of coffee</ws-button>
+						<ws-button>☕️ Support me with a cup of coffee</ws-button>
 					</a>
 				</div>
 			</footer>
