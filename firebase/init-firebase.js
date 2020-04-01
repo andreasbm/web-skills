@@ -4,7 +4,7 @@ import {auth, CollectionNames} from "./auth.js";
 /**
  * Initializes firebase and subscribes to relevant collections.
  */
-export async function initFirebase () {
+export async function initFirebase (firebase) {
 	await firebase.initializeApp(firebaseConfig);
 
 	// Get database

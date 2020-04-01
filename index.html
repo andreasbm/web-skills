@@ -21,8 +21,8 @@
 				}
 			};
 
-			gtag('js', new Date());
-			gtag('config', 'UA-96179028-7', {"send_page_view": false});
+			gtag("js", new Date());
+			gtag("config", "UA-96179028-7", {"send_page_view": false});
 		</script>
 
 		<!--<base href="/web-skills/" />-->
@@ -82,8 +82,8 @@
 		<link rel="icon" sizes="16x16" href="www/icon16x16.png">
 		<link rel="icon" sizes="32x32" href="www/icon32x32.png">
 		<link rel="icon" sizes="48x48" href="www/icon48x48.png">
-		<link rel="icon" sizes="96x96" href="www/icon96x96.png">
-		<link rel="icon" sizes="120x120" href="www/icon120x120.png">
+		<link rel="icon" sizes="96x96" href="www/icon-circle96x96.png">
+		<link rel="icon" sizes="120x120" href="www/icon-circle120x120.png">
 		<link rel="icon" sizes="128x128" href="www/icon-circle128x128.png">
 		<link rel="icon" sizes="192x192" href="www/icon-circle192x192.png">
 		<link rel="icon" sizes="256x256" href="www/icon-circle256x256.png">
@@ -92,8 +92,8 @@
 		<link rel="apple-touch-icon" sizes="16x16" href="www/icon16x16.png">
 		<link rel="apple-touch-icon" sizes="32x32" href="www/icon32x32.png">
 		<link rel="apple-touch-icon" sizes="48x48" href="www/icon48x48.png">
-		<link rel="apple-touch-icon" sizes="96x96" href="www/icon96x96.png">
-		<link rel="apple-touch-icon" sizes="120x120" href="www/icon120x120.png">
+		<link rel="apple-touch-icon" sizes="96x96" href="www/icon-circle96x96.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="www/icon-circle120x120.png">
 		<link rel="apple-touch-icon" sizes="128x128" href="www/icon-circle128x128.png">
 		<link rel="apple-touch-icon" sizes="192x192" href="www/icon-circle192x192.png">
 		<link rel="apple-touch-icon" sizes="256x256" href="www/icon-circle256x256.png">
@@ -139,19 +139,12 @@
 	</head>
 	<body>
 
-		<!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
-		<script defer src="https://www.gstatic.com/firebasejs/7.1.0/firebase-app.js"></script>
-	
-		<!-- Add Firebase products that you want to use -->
-		<script defer src="https://www.gstatic.com/firebasejs/7.1.0/firebase-auth.js"></script>
-		<script defer src="https://www.gstatic.com/firebasejs/7.1.0/firebase-firestore.js"></script>
-
 		<!-- Polyfills -->
 		<script crossorigin src="https://polyfill.app/api/polyfill?features=es,template,shadow-dom,custom-elements,intersection-observer"></script>
 
-		<!-- Initialize app -->
+		<!-- App -->
+		<script src="app.js" type="module"></script>
 		<ws-app></ws-app>
-		<script type="module" src="app.js"></script>	
 
 	</body>
 </html>

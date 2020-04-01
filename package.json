@@ -59,6 +59,7 @@
 		}
 	],
 	"dependencies": {
+		"firebase": "^7.13.1",
 		"lit-element": "^2.2.1",
 		"lit-html": "^1.1.2",
 		"web-dialog": "0.0.8"
@@ -75,7 +76,10 @@
 			"lit-html",
 			"lit-element",
 			"web-dialog",
-			"lit-html/directives/repeat.js"
+			"lit-html/directives/repeat.js",
+			"firebase/app",
+			"firebase/auth",
+			"firebase/firestore"
 		]
 	}
 }

@@ -3,6 +3,9 @@
     "lit-html": "./lit-html.js",
     "lit-element": "./lit-element.js",
     "web-dialog": "./web-dialog.js",
-    "lit-html/directives/repeat": "./lit-html/directives/repeat.js"
+    "lit-html/directives/repeat": "./lit-html/directives/repeat.js",
+    "firebase/app": "./firebase/app.js",
+    "firebase/auth": "./firebase/auth.js",
+    "firebase/firestore": "./firebase/firestore.js"
   }
 }

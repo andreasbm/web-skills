@@ -106,7 +106,7 @@ export class Auth extends HTMLElement {
 	/**
 	 * Signs in with Google.
 	 */
-	async signInWithGoogle () {
+	async signInWithGoogle (firebase) {
 		const provider = new firebase.auth.GoogleAuthProvider();
 		return await firebase.auth().signInWithPopup(provider);
 	}
@@ -114,7 +114,7 @@ export class Auth extends HTMLElement {
 	/**
 	 * Signs out.
 	 */
-	async signOut () {
+	async signOut (firebase) {
 		await firebase.auth().signOut();
 	}
 

@@ -26,11 +26,15 @@ import {
 	measureLinkClick,
 	setIsCompact
 } from "./util/util.js";
+// Load firebase
+import {default as firebase} from "./web_modules/firebase/app.js";
+import "./web_modules/firebase/auth.js";
+import "./web_modules/firebase/firestore.js";
 import {css, html, LitElement} from "./web_modules/lit-element.js";
 import {repeat} from "./web_modules/lit-html/directives/repeat.js";
 
 // Initialize firebase
-initFirebase().then();
+initFirebase(firebase).then();
 
 /**
  * The main entry for the application.
@@ -361,7 +365,7 @@ export class App extends LitElement {
 	 */
 	async signIn () {
 		try {
-			await auth.signInWithGoogle();
+			await auth.signInWithGoogle(firebase);
 
 		} catch (err) {
 			const {openDialog} = await import("./web_modules/web-dialog.js");
@@ -378,8 +382,8 @@ export class App extends LitElement {
 	/**
 	 * Signs out the user.
 	 */
-	signOut () {
-		auth.signOut();
+	async signOut () {
+		await auth.signOut(firebase);
 	}
 
 	/**
