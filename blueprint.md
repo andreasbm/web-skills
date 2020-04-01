@@ -552,12 +552,6 @@ Learn about the Gecko browser engine.
 
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FGecko_(software)" alt="Logo" /> Gecko](https://en.wikipedia.org/wiki/Gecko_(software))
 
-#### Servo
-
-Learn about the Servo browser engine.
-
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fresearch.mozilla.org%2Fservo-engines%2F" alt="Logo" /> Servo](https://research.mozilla.org/servo-engines/)
-
 ### HTTP
 
 Learn how data is distributed through the HTTP protocol.
@@ -899,6 +893,7 @@ Learn how to add push notifications to your web app.
 Learn how to tell the browser about your web app and how it should behave when 'installed' by creating a web app manifest.
 
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdevelopers.google.com%2Fweb%2Ffundamentals%2Fweb-app-manifest%2F" alt="Logo" /> Google Devs - Web App Manifest](https://developers.google.com/web/fundamentals/web-app-manifest/)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fweb.dev%2Fadd-manifest%2F" alt="Logo" /> web.dev - Add a web app manifest](https://web.dev/add-manifest/)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwww.w3.org%2FTR%2Fappmanifest%2F" alt="Logo" /> W3C - Web App Manifest](https://www.w3.org/TR/appmanifest/)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FWeb%2FProgressive_web_apps%2FInstallable_PWAs" alt="Logo" /> MDN - How to make PWAs installable](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Installable_PWAs)
 
@@ -1041,6 +1036,7 @@ Learn about resource prioritization and how to inform the browser about the impo
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwww.igvita.com%2F2015%2F08%2F17%2Feliminating-roundtrips-with-preconnect%2F" alt="Logo" /> Eliminating Roundtrips with Preconnect](https://www.igvita.com/2015/08/17/eliminating-roundtrips-with-preconnect/)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fmedium.com%2Freloading%2Fpreload-prefetch-and-priorities-in-chrome-776165961bbf" alt="Logo" /> Addy Osmani - Preload, Prefetch And Priorities in Chrome](https://medium.com/reloading/preload-prefetch-and-priorities-in-chrome-776165961bbf)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fweb.dev%2Fuses-rel-preconnect%2F" alt="Logo" /> web.dev - Preconnect to required origins](https://web.dev/uses-rel-preconnect/)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2F3perf.com%2Fblog%2Flink-rels%2F" alt="Logo" /> Preload, prefetch and other <link> tags](https://3perf.com/blog/link-rels/)
 
 ### Caching
 

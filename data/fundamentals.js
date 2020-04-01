@@ -712,16 +712,7 @@ export const fundamentalsCollection = {
 									["Gecko", "https://en.wikipedia.org/wiki/Gecko_(software)"]
 								]
 							}
-						},
-						{
-							name: "Servo",
-							description: {
-								text: "Learn about the Servo browser engine.",
-								links: [
-									["Servo", "https://research.mozilla.org/servo-engines/"]
-								]
-							}
-						},
+						}
 					]
 				},
 				{
