@@ -4,12 +4,12 @@
 	"description": "A visual overview of useful skills to learn as a web developer",
 	"icons": [
 		{
-			"src": "www/icon192x192.png",
+			"src": "www/icon-circle192x192.png",
 			"type": "image/png",
 			"sizes": "192x192"
 		},
 		{
-			"src": "www/icon512x512.png",
+			"src": "www/icon-circle512x512.png",
 			"type": "image/png",
 			"sizes": "512x512"
 		}
