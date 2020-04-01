@@ -14,6 +14,7 @@ If you want to get started adding some resources to `web-skills` you are very we
 2. Get familiar with the structure of the data before getting your hands dirty. A skill is a part of an area, an area is a part of a collection.
 3. You can find all of the data in the `data` folder.
 4. In the `assets` folder you can find all of the images for the skills. The images follow a naming convention based on the collection and area the skill is a part of. As an example, the image for the skill "Relational Databases" which is a part of the area "Databases" which is a part of the collection "Databases & Servers" would be located at `/assets/databases-and-servers/databases/relational-databases.svg`.
+5. Currently the design with all assets is located in the `/design/design.sketch` file. If you don't have sketch is is therefore currently a bit of a challenge to add new icons. As of now you can simply add the icons to the correct path in the `/assets/` folder and I will make sure to add them to the `sketch` file.
 
 If you have any questions feel free to open an issue or send a PM to [@andreasmehlsen](https://twitter.com/andreasmehlsen) on Twitter.
 
