@@ -66,6 +66,14 @@ export class Auth extends HTMLElement {
 	}
 
 	/**
+	 * Set the firebase instance.
+	 * @param firebase
+	 */
+	setFirebase (firebase) {
+		this.firebase = firebase;
+	}
+
+	/**
 	 * Sets the user and saves it to local storage.
 	 * @param {*} user
 	 */
@@ -106,7 +114,9 @@ export class Auth extends HTMLElement {
 	/**
 	 * Signs in with Google.
 	 */
-	async signInWithGoogle (firebase) {
+	async signInWithGoogle () {
+		const firebase = this.firebase;
+		if (firebase == null) return;
 		const provider = new firebase.auth.GoogleAuthProvider();
 		return await firebase.auth().signInWithPopup(provider);
 	}
@@ -114,7 +124,9 @@ export class Auth extends HTMLElement {
 	/**
 	 * Signs out.
 	 */
-	async signOut (firebase) {
+	async signOut () {
+		const firebase = this.firebase;
+		if (firebase == null) return;
 		await firebase.auth().signOut();
 	}
 

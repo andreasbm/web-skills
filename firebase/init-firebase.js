@@ -1,15 +1,29 @@
 import {firebaseConfig} from "./../config.js";
+// Load firebase
+import {default as firebase} from "./../web_modules/firebase/app.js";
+import "./../web_modules/firebase/auth.js";
+import "./../web_modules/firebase/firestore.js";
 import {auth, CollectionNames} from "./auth.js";
+
+let isInitialized = false;
 
 /**
  * Initializes firebase and subscribes to relevant collections.
  */
-export async function initFirebase (firebase) {
+export async function initFirebase () {
+	if (isInitialized) {
+		return;
+	}
+
+	isInitialized = true;
 	await firebase.initializeApp(firebaseConfig);
 
 	// Get database
 	const db = firebase.firestore();
 	auth.setDb(db);
+
+	// Set Firebase
+	auth.setFirebase(firebase);
 
 	// Get auth from firebase
 	const firebaseAuth = firebase.auth();

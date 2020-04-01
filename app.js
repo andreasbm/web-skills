@@ -5,7 +5,6 @@ import "./atoms/icon.js";
 import {defaultCompactPx, getShareConfig} from "./config.js";
 import {collections} from "./data.js";
 import {auth, AuthEvents} from "./firebase/auth.js";
-import {initFirebase} from "./firebase/init-firebase.js";
 import "./molecules/collection.js";
 import {sharedStyles} from "./styles/shared.js";
 import {andreasIconTemplate, githubIconTemplate, helpIconTemplate, shareIconTemplate} from "./util/icons.js";
@@ -26,15 +25,17 @@ import {
 	measureLinkClick,
 	setIsCompact
 } from "./util/util.js";
-// Load firebase
-import {default as firebase} from "./web_modules/firebase/app.js";
-import "./web_modules/firebase/auth.js";
-import "./web_modules/firebase/firestore.js";
 import {css, html, LitElement} from "./web_modules/lit-element.js";
 import {repeat} from "./web_modules/lit-html/directives/repeat.js";
 
-// Initialize firebase
-initFirebase(firebase).then();
+/**
+ * Deferred init Firebase.
+ * @returns {Promise<void>}
+ */
+async function deferredInitFirebase () {
+	const {initFirebase} = await import("./firebase/init-firebase.js");
+	await initFirebase();
+}
 
 /**
  * The main entry for the application.
@@ -234,6 +235,11 @@ export class App extends LitElement {
 
 		// Measure the performance
 		measureUserTiming(`App was connected`, `initial_load`, performance.now());
+
+		// Initialize Firebase if the user is logged in
+		if (auth.isAuthenticated) {
+			deferredInitFirebase().then();
+		}
 	}
 
 	/**
@@ -365,7 +371,8 @@ export class App extends LitElement {
 	 */
 	async signIn () {
 		try {
-			await auth.signInWithGoogle(firebase);
+			await deferredInitFirebase();
+			await auth.signInWithGoogle();
 
 		} catch (err) {
 			const {openDialog} = await import("./web_modules/web-dialog.js");
@@ -383,7 +390,8 @@ export class App extends LitElement {
 	 * Signs out the user.
 	 */
 	async signOut () {
-		await auth.signOut(firebase);
+		await deferredInitFirebase();
+		await auth.signOut();
 	}
 
 	/**
