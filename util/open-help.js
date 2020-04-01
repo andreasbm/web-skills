@@ -25,6 +25,10 @@ export async function openHelp () {
 					margin: 0 0 var(--spacing-m);
 				}
 				
+				a {
+					color: var(--link);
+				}
+				
 				#close {
 					position: absolute;
 					top: 0;

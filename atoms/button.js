@@ -7,7 +7,12 @@ import {css, html, LitElement} from "./../web_modules/lit-element.js";
 export class Button extends LitElement {
 
 	static get properties () {
-		return {}
+		return {
+			ariaLabel: {
+				attribute: "aria-label",
+				reflect: true
+			}
+		}
 	}
 
 	static get styles () {
@@ -39,7 +44,6 @@ export class Button extends LitElement {
 					border: 1px solid currentColor;
 				}
 
-
 				#button:hover {
 					opacity: 0.8;
 				}
@@ -49,7 +53,7 @@ export class Button extends LitElement {
 
 	render () {
 		return html`
-			<button id="button" tabindex="0">
+			<button id="button" tabindex="0" aria-label="${this.ariaLabel}">
 				<slot></slot>
 			</button>
 		`;

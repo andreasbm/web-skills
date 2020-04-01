@@ -5,10 +5,10 @@ html {
 	--foreground: rgb(232, 232, 234);
 
 	--background-opaque: rgba(11, 11, 25, 0.9);
-	--link: #3366FF; 
+	--link: rgb(51, 102, 255);
 
-	--white: #FFFFFF;
-	--black: #000000;
+	--white: rgb(255, 255, 255);
+	--black: rgb(0, 0, 0);
 
 	--shade-400: rgb(62, 62, 62);
 	--shade-500: rgb(124, 124, 124);
@@ -18,7 +18,7 @@ html {
 	--shade-900: rgb(240, 240, 240);
 	
 	--accent-500: rgb(0, 121, 211);
-	--primary-500: rgb(254, 68, 1);
+	--primary-500: rgb(73, 203, 92);
 
 	--shadow: rgba(0, 0, 0, 0.15);
 
@@ -57,7 +57,6 @@ body {
 	overscroll-behavior: contain;
 	-webkit-overflow-scrolling: touch;
 	scroll-behavior: smooth;
-	/* overflow-y: overlay; */
 }
 
 @media (max-width: 800px) {

@@ -35,14 +35,14 @@ export function constructImagePathPrefix (collection, area, skill) {
 /**
  * Returns the skill id for a skill.
  * @param {*} collection
- * @param {*} area
- * @param {*} skill
+ * @param {*} [area]
+ * @param {*} [skill]
  */
-export function getSkillId (collection, area, skill) {
+export function getId (collection, area, skill) {
 	return [
-		collection.name,
-		area.name,
-		skill.name
+		collection != null ? collection.name : null,
+		area != null ? area.name : null,
+		skill != null ? skill.name : null,
 	].filter(name => name != null).map(pathify).join("-");
 }
 

@@ -6,8 +6,8 @@
 		<script>
 			window.dataLayer = window.dataLayer || [];
 
-			// Disable GA on localhost
-			const disableGtag = location.hostname === `localhost` || location.hostname === `web-skills.web.app`;
+			// Disable GA on dev
+			const disableGtag = !(location.hostname === `andreasbm.github.io` || location.hostname === `webskills.dev`);
 			if (disableGtag) {
 				window["ga-disable-UA-96179028-7"] = true;
 			}
@@ -32,6 +32,7 @@
 		<meta charset="UTF-8">
 		<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<link rel="manifest" href="manifest.json">
 
 		<!-- The theme color for the app -->
 		<meta name="theme-color" content="#0B0B19">
@@ -53,7 +54,6 @@
 		<meta name="description" content="A visual overview of useful skills to learn as a web developer">
 		<meta name="keywords" content="web, skills, learn, overview, links, html, css, javascript, accessibility, web components, pwa, build tools, frameworks, testing, architecture, design, ux, algorithms, backend">
 		<link href="https://andreasbm.github.io/web-skills" rel="author"/>
-		<link href="https://andreasbm.github.io/web-skills" rel="canonical"/>
 
 		<!-- Facebook -->
 		<meta property="og:url" content="https://andreasbm.github.io/web-skills">
@@ -98,9 +98,10 @@
 		<link rel="icon" sizes="512x512" href="www/icon512x512.png">
 		<link rel="apple-touch-icon" sizes="512x512" href="www/icon512x512.png">
 
-		<link rel="stylesheet" type="text/css" href="styles/global.css">
-		<link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700&display=swap" rel="stylesheet">
 		<link rel="preconnect" href="https://www.google-analytics.com">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://polyfill.app">
+		<link rel="prefetch" href="styles/global.css" as="style" />
 		<link rel="modulepreload" href="config.js" crossorigin="anonymous">
 		<link rel="modulepreload" href="app.js" crossorigin="anonymous">
 		<link rel="modulepreload" href="data.js" crossorigin="anonymous">
@@ -110,6 +111,8 @@
 		<link rel="modulepreload" href="molecules/area.js" crossorigin="anonymous">
 		<link rel="modulepreload" href="molecules/collection.js" crossorigin="anonymous">
 		<link rel="modulepreload" href="molecules/skill.js" crossorigin="anonymous">
+		<link rel="modulepreload" href="firebase/auth.js" crossorigin="anonymous">
+		<link rel="modulepreload" href="firebase/init-firebase.js" crossorigin="anonymous">
 		<link rel="modulepreload" href="atoms/blur.js" crossorigin="anonymous">
 		<link rel="modulepreload" href="atoms/button.js" crossorigin="anonymous">
 		<link rel="modulepreload" href="atoms/description.js" crossorigin="anonymous">
@@ -128,7 +131,10 @@
 		<link rel="modulepreload" href="data/team-collaboration.js" crossorigin="anonymous">
 		<link rel="modulepreload" href="data/testing.js" crossorigin="anonymous">
 		<link rel="modulepreload" href="data/web-components.js" crossorigin="anonymous">
+		<link rel="modulepreload" href="styles/shared.js" crossorigin="anonymous">
 
+		<link rel="stylesheet" type="text/css" href="styles/global.css">
+		<link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700&display=swap" rel="stylesheet">
 	</head>
 	<body>
 

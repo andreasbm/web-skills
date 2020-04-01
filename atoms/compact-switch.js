@@ -21,7 +21,7 @@ export class Button extends LitElement {
 			css`
 				:host {
 					--switch-knob-size: 25px;
-					--switch-knob-bg: var(--shade-800);
+					--switch-knob-bg: var(--foreground);
 					--switch-bg: var(--shade-700);
 					
 					display: inline-flex;
@@ -54,7 +54,7 @@ export class Button extends LitElement {
 					transform: scale(1.08);
 					box-shadow: 0 2px 5px var(--shadow);
 					position: relative;
-                    color: var(--shade-400);
+                    color: var(--background);
 				}
 				
 				.icon {

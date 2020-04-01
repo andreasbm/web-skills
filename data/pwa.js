@@ -100,8 +100,9 @@ export const pwaCollection = {
 						text: "Learn how to tell the browser about your web app and how it should behave when 'installed' by creating a web app manifest.",
 						links: [
 							["Google Devs - Web App Manifest", "https://developers.google.com/web/fundamentals/web-app-manifest/"],
+							["web.dev - Add a web app manifest", "https://web.dev/add-manifest/"],
 							["W3C - Web App Manifest", "https://www.w3.org/TR/appmanifest/"],
-							["MDN - How to make PWAs installable", "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Installable_PWAs"]
+							["MDN - How to make PWAs installable", "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Installable_PWAs"],
 						]
 					}
 				},
@@ -298,7 +299,8 @@ export const pwaCollection = {
 							["Google Devs - Resource Prioritization", "https://developers.google.com/web/fundamentals/performance/resource-prioritization"],
 							["Eliminating Roundtrips with Preconnect", "https://www.igvita.com/2015/08/17/eliminating-roundtrips-with-preconnect/"],
 							["Addy Osmani - Preload, Prefetch And Priorities in Chrome", "https://medium.com/reloading/preload-prefetch-and-priorities-in-chrome-776165961bbf"],
-							["web.dev - Preconnect to required origins", "https://web.dev/uses-rel-preconnect/"]
+							["web.dev - Preconnect to required origins", "https://web.dev/uses-rel-preconnect/"],
+							["Preload, prefetch and other <link> tags", "https://3perf.com/blog/link-rels/"]
 						]
 					},
 				},

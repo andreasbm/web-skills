@@ -8,7 +8,7 @@ import {auth, AuthEvents} from "./firebase/auth.js";
 import {initFirebase} from "./firebase/init-firebase.js";
 import "./molecules/collection.js";
 import {sharedStyles} from "./styles/shared.js";
-import {githubIconTemplate, helpIconTeplate, shareIconTeplate} from "./util/icons.js";
+import {andreasIconTemplate, githubIconTemplate, helpIconTemplate, shareIconTemplate} from "./util/icons.js";
 import {
 	measureException,
 	measureOpenHelp,
@@ -21,6 +21,7 @@ import {
 import {
 	copyToClipboard,
 	dispatchCloseAllDescriptionsEvent,
+	getId,
 	loadIsCompact,
 	measureLinkClick,
 	setIsCompact
@@ -164,17 +165,18 @@ export class App extends LitElement {
 				
 				#skip-navigation {
 					position: fixed;
-					top: -9999;
-					left: -9999;
 					width: 100%;
 					opacity: 0;
 					padding: var(--spacing-m);
 					background: var(--foreground);
 					color: var(--background);
+					top: -9999px;
+					left: -9999px;
+					z-index: -12345;
+					display: flex;
 				}
 				
 				#skip-navigation:focus-within {
-					display: flex;
 					outline: var(--focus-outline);
 					z-index: 123456789;
 					opacity: 1;
@@ -300,6 +302,7 @@ export class App extends LitElement {
 			};
 
 			this.dragging = true;
+
 		}, {passive: true});
 
 		// Listen for drag end
@@ -330,6 +333,9 @@ export class App extends LitElement {
 
 				requestAnimationFrame(() => {
 					window.scrollTo(scrollX, scrollY)
+
+					// Deselect everything
+					window.getSelection().removeAllRanges()
 				});
 			}
 		}, {passive: true});
@@ -470,10 +476,10 @@ export class App extends LitElement {
 		const user = auth.user;
 
 		return html`
-			<div id="skip-navigation" tabindex="0" aria-label="Navigation Assistant" aria-keyshortcuts="Alt + /">
+			<div id="skip-navigation">
 				<div>
 					<span>Jump to&nbsp;</span>
-					<select id="navigation-select" @input="${this.selectFocusJump}">
+					<select id="navigation-select" @input="${this.selectFocusJump}" aria-label="Navigation Assistant" aria-keyshortcuts="Alt + /">
 						<option disabled>Select a section on the page</option>
 						${repeat(collections, (collection, i) => html`
 							<option value="${i}">${collection.name}</option>
@@ -501,15 +507,18 @@ export class App extends LitElement {
 						<ws-compact-switch @toggle="${this.toggleCompact}" ?checked="${this.compact}"></ws-compact-switch>
 					</div>
 					<ws-button aria-label="Open help" @click="${this.openHelp}">
-						<ws-icon .template="${helpIconTeplate}" ></ws-icon>
+						<ws-icon .template="${helpIconTemplate}" ></ws-icon>
 					</ws-button>
 					<ws-button aria-label="Share website" @click="${this.share}">
-						<ws-icon .template="${shareIconTeplate}"></ws-icon>
+						<ws-icon .template="${shareIconTemplate}"></ws-icon>
 					</ws-button>
+					<a aria-label="Open author" href="https://andreasbm.github.io" target="_blank" rel="noopener">
+						<ws-icon hoverable .template="${andreasIconTemplate}" ></ws-icon>
+					</a>
 				</div>
 			</header>
 			<main id="collections">
-				${repeat(collections, (collection, i) => html`
+				${repeat(collections, getId, (collection, i) => html`
 					<span class="focus-anchor" data-collection="${i}" tabindex="0"></span>
 					<ws-collection class="collection" index="${i}" .collection="${collection}" ?compact="${this.compact}"></ws-collection>
 				`)}
@@ -521,13 +530,13 @@ export class App extends LitElement {
 					` : html`
 						<ws-button @click="${signIn}">🔒 Sign in with Google</ws-button>
 					`}
-					<a href="https://github.com/andreasbm/web-skills/stargazers" target="_blank" aria-label="Become a stargazer">
+					<a href="https://github.com/andreasbm/web-skills/stargazers" target="_blank" aria-label="Become a stargazer" rel="noopener">
 						<ws-button>⭐️ Become a stargazer</ws-button>
 					</a>
-					<a href="https://twitter.com/AndreasMehlsen" target="_blank" aria-label="Open Twitter">
+					<a href="https://twitter.com/AndreasMehlsen" target="_blank" aria-label="Open Twitter" rel="noopener">
 						<ws-button>🐦 Say hi on Twitter</ws-button>
 					</a>
-					<a href="https://www.buymeacoffee.com/AndreasMehlsen" target="_blank" aria-label="Buy coffee">
+					<a href="https://www.buymeacoffee.com/AndreasMehlsen" target="_blank" aria-label="Buy coffee" rel="noopener">
 						<ws-button>☕️ Support me with a cup of coffee</ws-button>
 					</a>
 				</div>

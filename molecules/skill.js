@@ -6,7 +6,7 @@ import {
 	attachLazyImgIntersectionObserver,
 	constructImagePathPrefix,
 	dispatchCloseAllDescriptionsEvent,
-	getSkillId,
+	getId,
 	listenForCloseAllDescriptionsEvent,
 } from "./../util/util.js";
 import {css, html, LitElement} from "./../web_modules/lit-element.js";
@@ -18,13 +18,13 @@ import {repeat} from "./../web_modules/lit-html/directives/repeat.js";
 export class Skill extends LitElement {
 	static get properties () {
 		return {
-			skill: {
+			collection: {
 				type: Object
 			},
 			area: {
 				type: Object
 			},
-			collection: {
+			skill: {
 				type: Object
 			},
 			compact: {
@@ -218,7 +218,7 @@ export class Skill extends LitElement {
 	}
 
 	get skillId () {
-		return getSkillId(this.collection, this.area, this.skill);
+		return getId(this.collection, this.area, this.skill);
 	}
 
 	constructor () {
@@ -348,7 +348,7 @@ export class Skill extends LitElement {
 					${skills.length > 1 ? html`
 						<div class="arrow-connection"></div>
 					` : undefined}
-					${repeat(skills, skill => html`
+					${repeat(skills, skill => getId(collection, area, skill), skill => html`
 						<div class="subskill">
 							<div class="arrow"></div>
 							<ws-skill .skill="${skill}" .collection="${collection}" .area="${area}" ?compact="${this.compact}"></ws-skill>

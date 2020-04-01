@@ -5,7 +5,7 @@ import {auth, AuthEvents} from "./../firebase/auth.js";
 import {sharedStyles} from "./../styles/shared.js";
 import {
 	currentConfettiCount,
-	getSkillId,
+	getId,
 	getSkillSearchQuery,
 	measureLinkClick,
 	playAudio,
@@ -185,7 +185,7 @@ export class Description extends LitElement {
 	}
 
 	get skillId () {
-		return getSkillId(this.collection, this.area, this.skill);
+		return getId(this.collection, this.area, this.skill);
 	}
 
 	get isAuthenticated () {

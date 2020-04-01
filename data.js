@@ -1,4 +1,4 @@
-import {fundamentasCollection} from "./data/fundamentals.js";
+import {fundamentalsCollection} from "./data/fundamentals.js";
 import {webcomponentsCollection} from "./data/web-components.js";
 import {accessibilityCollection} from "./data/accessibility.js";
 import {pwaCollection} from "./data/pwa.js";
@@ -16,7 +16,7 @@ import {databasesCollection} from "./data/databases.js";
  * All available collections.
  */
 export const collections = [
-	fundamentasCollection,
+	fundamentalsCollection,
 	accessibilityCollection,
 	webcomponentsCollection,
 	pwaCollection,

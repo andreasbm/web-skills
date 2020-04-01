@@ -1,3 +1,4 @@
+import {getId} from "../util/util.js";
 import {sharedStyles} from "./../styles/shared.js";
 import {css, html, LitElement} from "./../web_modules/lit-element.js";
 import {repeat} from "./../web_modules/lit-html/directives/repeat.js";
@@ -9,10 +10,10 @@ import "./skill.js";
 export class Area extends LitElement {
 	static get properties () {
 		return {
-			area: {
+			collection: {
 				type: Object
 			},
-			collection: {
+			area: {
 				type: Object
 			},
 			compact: {
@@ -74,10 +75,11 @@ export class Area extends LitElement {
 	 * @returns {f}
 	 */
 	renderSkills (skills) {
+		const {collection, area, compact} = this;
 		return html`
-			${repeat(skills, skill => html`
-				<ws-skill class="skill" .skill="${skill}" .collection="${this.collection}" .area="${this.area}" ?compact="${this.compact}"></ws-skill>
-				${skill.skills != null && this.compact ? html`
+			${repeat(skills, skill => getId(collection, area, skill), skill => html`
+				<ws-skill class="skill" .skill="${skill}" .collection="${collection}" .area="${area}" ?compact="${compact}"></ws-skill>
+				${skill.skills != null && compact ? html`
 					${this.renderSkills(skill.skills)}
 				` : ""}
 			`)}
@@ -88,10 +90,11 @@ export class Area extends LitElement {
 	 * Renders the element.
 	 */
 	render () {
+		const {area} = this;
 		return html`
-			${this.area.name != null ? html`<h4 id="title">${this.area.name}</h4>` : undefined}
+			${this.area.name != null ? html`<h4 id="title">${area.name}</h4>` : undefined}
 			<div id="skills">
-				${this.renderSkills(this.area.skills)}
+				${this.renderSkills(area.skills)}
 			</div>
 		`;
 	}

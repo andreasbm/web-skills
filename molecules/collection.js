@@ -1,3 +1,4 @@
+import {getId} from "../util/util.js";
 import {sharedStyles} from "./../styles/shared.js";
 import {css, html, LitElement} from "./../web_modules/lit-element.js";
 import {repeat} from "./../web_modules/lit-html/directives/repeat.js";
@@ -91,13 +92,15 @@ export class Collection extends LitElement {
 	 * Renders the element.
 	 */
 	render () {
+		const {collection, index, compact} = this;
+
 		return html`
-			${this.collection.name != null ? html`<h1 id="title">${this.index != null ? `${this.index + 1}. ` : undefined}${this.collection.name}</h1>` : undefined}
+			${collection.name != null ? html`<h1 id="title">${index != null ? `${index + 1}. ` : undefined}${collection.name}</h1>` : undefined}
 			<div id="areas">
-				${repeat(this.collection.areas || [], (area, i) => html`
+				${repeat(collection.areas || [], area => getId(collection, area), (area, i) => html`
 					<div class="area">
-						<ws-area .area="${area}" .collection="${this.collection}" ?compact="${this.compact}"></ws-area>
-						${i < this.collection.areas.length - 1 ? html`
+						<ws-area .area="${area}" .collection="${collection}" ?compact="${compact}"></ws-area>
+						${i < collection.areas.length - 1 ? html`
 							<hr class="line" />
 						` : undefined}
 					</div>

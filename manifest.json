@@ -1,0 +1,21 @@
+{
+	"short_name": "Web Skills",
+	"name": "Web Skills",
+	"description": "A visual overview of useful skills to learn as a web developer",
+	"icons": [
+		{
+			"src": "www/icon192x192.png",
+			"type": "image/png",
+			"sizes": "192x192"
+		},
+		{
+			"src": "www/icon512x512.png",
+			"type": "image/png",
+			"sizes": "512x512"
+		}
+	],
+	"start_url": "/",
+	"display": "standalone",
+	"background_color": "#0B0B19",
+	"theme_color": "#0B0B19"
+}
