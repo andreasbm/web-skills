@@ -81,6 +81,7 @@ export const fundamentalsCollection = {
 					description: {
 						text: "Learn the best practices of writing HTML.",
 						links: [
+							["MDN - HTML guidelines", "https://developer.mozilla.org/en-US/docs/MDN/Contribute/Guidelines/Code_guidelines/HTML"],
 							["W3Schools - HTML Coding Conventions", "https://www.w3schools.com/html/html5_syntax.asp"]
 						]
 					}
@@ -331,8 +332,9 @@ export const fundamentalsCollection = {
 					description: {
 						text: "Learn the best practices of writing CSS.",
 						links: [
-							["Speckyboy - Good and bad CSS practices", "https://speckyboy.com/good-bad-css-practices/"],
+							["MDN - CSS guidelines", "https://developer.mozilla.org/en-US/docs/MDN/Contribute/Guidelines/Code_guidelines/CSS"],
 							["MDN - Organizing your CSS", "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Organizing"],
+							["Speckyboy - Good and bad CSS practices", "https://speckyboy.com/good-bad-css-practices/"],
 						]
 					}
 				}
@@ -385,6 +387,7 @@ export const fundamentalsCollection = {
 							["MDN - DOM Introduction", "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction"],
 							["Freecodecamp - What's the DOM", "https://www.freecodecamp.org/news/whats-the-document-object-model-and-why-you-should-know-how-to-use-it-1a2d0bc5429d/"],
 							["Introduction to the DOM", "https://learn.co/lessons/introduction-to-the-dom"],
+							["htmldom.dev", "https://htmldom.dev/"],
 						]
 					},
 					skills: [
