@@ -162,10 +162,17 @@ export function setIsCompact (compact) {
 	}
 }
 
+/**
+ * Dispatches a close all event.
+ */
 export function dispatchCloseAllDescriptionsEvent () {
 	window.dispatchEvent(new CustomEvent("closeAllDescriptions"));
 }
 
+/**
+ * Listens for the close all event.
+ * @param cb
+ */
 export function listenForCloseAllDescriptionsEvent (cb) {
 	window.addEventListener("closeAllDescriptions", cb);
 }

@@ -134,6 +134,10 @@ export class Description extends LitElement {
 					word-break: break-word;
 				}
 				
+				a:visited {
+					color: var(--link-visited);
+				}
+				
 				.img {
 					font-size: 0;
 				}
