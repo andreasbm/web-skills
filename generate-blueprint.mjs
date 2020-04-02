@@ -82,8 +82,6 @@ writeFileSync(FILE_NAME, `<h1 align="center">Web Skills</h1>
 	</a>
 </p>
 <br />
-{{ template:line }}
-<br />
 <details>
 <summary>📖 Table of Contents</summary>
 <br />

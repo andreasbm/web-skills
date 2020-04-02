@@ -104,6 +104,7 @@ export class Skill extends LitElement {
 					user-select: none;
 					position: relative;
 					cursor: default;
+				    contain: strict;
 				}
 
 				#img {

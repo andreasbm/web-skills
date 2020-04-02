@@ -33,6 +33,7 @@ export class Collection extends LitElement {
 					border-radius: var(--border-radius-l);
 					background: var(--foreground);
 					color: var(--background);
+					contain: layout;
 				}
 
 				#title {

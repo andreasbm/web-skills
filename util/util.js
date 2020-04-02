@@ -126,7 +126,9 @@ export function attachLazyImgIntersectionObserver ($elem) {
 			if (isIntersecting) {
 				const dataSrc = target.getAttribute("data-src");
 				target.onload = () => {
-					target.setAttribute("loaded", "");
+					requestAnimationFrame(() => {
+						target.setAttribute("loaded", "");
+					});
 				};
 
 				target.src = dataSrc;

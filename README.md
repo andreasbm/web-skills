@@ -8,8 +8,6 @@
 	</a>
 </p>
 <br />
-![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)
-<br />
 <details>
 <summary>📖 Table of Contents</summary>
 <br />

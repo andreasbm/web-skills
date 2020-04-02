@@ -8,8 +8,6 @@
 	</a>
 </p>
 <br />
-{{ template:line }}
-<br />
 <details>
 <summary>📖 Table of Contents</summary>
 <br />
