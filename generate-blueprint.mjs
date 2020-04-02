@@ -1,4 +1,4 @@
-import {collections} from "./data.js";
+import {collections} from "./src/data.js";
 import {writeFileSync} from "fs";
 
 const LINE_BREAK = `\r\n`;

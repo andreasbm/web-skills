@@ -34,14 +34,14 @@
 		"backend"
 	],
 	"scripts": {
-		"serve": "npx servor . index.html 8080 --reload --browse",
+		"serve": "npx servor . index.html --reload --browse",
 		"s": "npm run serve",
 		"deploy": "firebase deploy",
 		"lit-check": "npx lit-analyzer . --strict",
 		"generate-blueprint": "node --experimental-modules generate-blueprint.mjs",
 		"readme": "npm run generate-blueprint && npx @appnest/readme generate",
-		"snowpack": "npx snowpack --optimize",
-		"postinstall": "npm run snowpack"
+		"snowpack": "npx snowpack --optimize --include \"src/**/*.js\"",
+		"prepare": "npm run snowpack"
 	},
 	"contributors": [
 		{
@@ -67,19 +67,5 @@
 	"devDependencies": {
 		"servor": "^3.2.0",
 		"snowpack": "^1.6.0"
-	},
-	"snowpack": {
-		"dedupe": [
-			"lit-html"
-		],
-		"webDependencies": [
-			"lit-html",
-			"lit-element",
-			"web-dialog",
-			"lit-html/directives/repeat.js",
-			"firebase/app",
-			"firebase/auth",
-			"firebase/firestore"
-		]
 	}
 }
