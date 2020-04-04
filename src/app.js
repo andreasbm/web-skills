@@ -1,3 +1,5 @@
+import {css, html, LitElement} from "./../web_modules/lit-element.js";
+import {repeat} from "./../web_modules/lit-html/directives/repeat.js";
 import "./atoms/blur.js";
 import "./atoms/button.js";
 import "./atoms/compact-switch.js";
@@ -10,6 +12,7 @@ import {sharedStyles} from "./styles/shared.js";
 import {andreasIconTemplate, githubIconTemplate, helpIconTemplate, shareIconTemplate} from "./util/icons.js";
 import {
 	measureException,
+	measureInstallEvent,
 	measureOpenHelp,
 	measureOpenShare,
 	measurePageView,
@@ -22,11 +25,9 @@ import {
 	dispatchCloseAllDescriptionsEvent,
 	getId,
 	loadIsCompact,
-	measureLinkClick,
+	onClickLink,
 	setIsCompact
 } from "./util/util.js";
-import {css, html, LitElement} from "./../web_modules/lit-element.js";
-import {repeat} from "./../web_modules/lit-html/directives/repeat.js";
 
 /**
  * Deferred init Firebase.
@@ -189,6 +190,7 @@ export class App extends LitElement {
 					top: 0;
 				}
 				
+				
 				@media (max-width: 800px) {
 					#toggle-compact {
 						display: none;
@@ -229,9 +231,18 @@ export class App extends LitElement {
 		this.setupListeners();
 		this.setupCompact();
 		this.setupDragging();
+		this.setupServiceWorker().then();
 
 		// Measure page view (we only have this one page)
 		measurePageView();
+	}
+
+	/**
+	 * Hook up first updated.
+	 * @param props
+	 */
+	firstUpdated (props) {
+		super.firstUpdated(props);
 
 		// Measure the performance
 		measureUserTiming(`App was connected`, `initial_load`, performance.now());
@@ -239,6 +250,13 @@ export class App extends LitElement {
 		// Initialize Firebase if the user is logged in
 		if (auth.isAuthenticated) {
 			deferredInitFirebase().then();
+		}
+
+		// Jump to collection
+		if (location.hash.length > 0) {
+			setTimeout(() => {
+				this.focusCollection(location.hash.slice(1));
+			}, 1000);
 		}
 	}
 
@@ -280,7 +298,12 @@ export class App extends LitElement {
 		});
 
 		// Listen for CTA events
-		window.addEventListener("click", measureLinkClick);
+		window.addEventListener("click", onClickLink);
+
+		// Listen for install event
+		window.addEventListener("appinstalled", e => {
+			measureInstallEvent();
+		});
 	}
 
 	/**
@@ -342,7 +365,7 @@ export class App extends LitElement {
 				const scrollY = initialScroll.y + delta.y;
 
 				requestAnimationFrame(() => {
-					window.scrollTo(scrollX, scrollY)
+					window.scrollTo(scrollX, scrollY);
 
 					// Deselect everything
 					window.getSelection().removeAllRanges()
@@ -350,6 +373,49 @@ export class App extends LitElement {
 			}
 		}, {passive: true});
 	}
+
+	/**
+	 * Sets up the service worker.
+	 * @returns {Promise<void>}
+	 */
+	async setupServiceWorker () {
+
+		if (!("serviceWorker" in navigator)) return;
+
+		// Register the service worker
+		const reg = await navigator.serviceWorker.register("sw.js");
+		if (reg == null) return;
+
+		// Reload when we get a new service worker and the user has clicked the "reload" button.
+		let isReloading = false;
+		navigator.serviceWorker.addEventListener("controllerchange", () => {
+			if (isReloading) return;
+			isReloading = true;
+			location.reload();
+		});
+
+		// Show reload button when there's a new update
+		reg.addEventListener("updatefound", () => {
+			const newWorker = reg.installing;
+			newWorker.addEventListener("statechange", async () => {
+				switch (newWorker.state) {
+					case "installed":
+						if (navigator.serviceWorker.controller !== null) {
+							const {openUpdate} = await import("./util/open-update.js");
+							openUpdate();
+						}
+						break;
+					default:
+						break;
+				}
+			});
+		});
+
+		// Check for updates every 30 minutes
+		setInterval(() => {
+			reg.update();
+		}, 1000 * 60 * 30);
+	};
 
 	/**
 	 * Sets up the compact property.
@@ -375,7 +441,7 @@ export class App extends LitElement {
 			await auth.signInWithGoogle();
 
 		} catch (err) {
-			const {openDialog} = await import("./web_modules/web-dialog.js");
+			const {openDialog} = await import("./../web_modules/web-dialog.js");
 			const {$dialog} = openDialog({
 				center: true,
 				$content: document.createTextNode(err.message)
@@ -439,7 +505,7 @@ export class App extends LitElement {
 
 			try {
 				// Open fallback share if possible
-				const {openShare} = await import("./src/util/open-share.js");
+				const {openShare} = await import("./util/open-share.js");
 				await openShare(config);
 
 			} catch (err) {
@@ -455,20 +521,19 @@ export class App extends LitElement {
 	 */
 	async openHelp () {
 		measureOpenHelp();
-		const {openHelp} = await import("./src/util/open-help.js");
+		const {openHelp} = await import("./util/open-help.js");
 		await openHelp();
 	}
 
 	/**
 	 * Selects a focus jump.
-	 * @param e
+	 * @param name
 	 */
-	selectFocusJump (e) {
-		const index = e.target.value;
-		const $focus = this.shadowRoot.querySelector(`.focus-anchor[data-collection="${index}"]`);
-		if ($focus != null) {
-			$focus.focus();
-			$focus.scrollIntoView({block: "start"});
+	focusCollection (name) {
+		const $anchor = this.shadowRoot.querySelector(`.focus-anchor[data-collection="${getId({name})}"]`);
+		if ($anchor != null) {
+			$anchor.focus();
+			$anchor.scrollIntoView({block: "start"});
 		}
 	}
 
@@ -491,10 +556,10 @@ export class App extends LitElement {
 			<div id="skip-navigation">
 				<div>
 					<span>Jump to&nbsp;</span>
-					<select id="navigation-select" @input="${this.selectFocusJump}" aria-label="Navigation Assistant" aria-keyshortcuts="Alt + /">
+					<select id="navigation-select" @input="${e => this.focusCollection(e.target.value)}" aria-label="Navigation Assistant" aria-keyshortcuts="Alt + /">
 						<option disabled>Select a section on the page</option>
-						${repeat(collections, (collection, i) => html`
-							<option value="${i}">${collection.name}</option>
+						${repeat(collections, ({name}) => html`
+							<option value="${name}">${name}</option>
 						`)}
 					</select>
 				</div>
@@ -531,7 +596,7 @@ export class App extends LitElement {
 			</header>
 			<main id="collections">
 				${repeat(collections, getId, (collection, i) => html`
-					<span class="focus-anchor" data-collection="${i}" tabindex="0"></span>
+					<span class="focus-anchor" data-collection="${getId(collection)}" tabindex="0"></span>
 					<ws-collection class="collection" index="${i}" .collection="${collection}" ?compact="${this.compact}"></ws-collection>
 				`)}
 			</main>

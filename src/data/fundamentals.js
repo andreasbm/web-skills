@@ -180,6 +180,7 @@ export const fundamentalsCollection = {
 						links: [
 							["MDN - Overflowing content", "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Overflowing_content"],
 							["W3Schools - CSS Layout: Overflow", "https://www.w3schools.com/css/css_overflow.asp"],
+							["Overflow In CSS", "https://ishadeed.com/article/overflow-css/"]
 						]
 					},
 				},*/

@@ -34,7 +34,7 @@
 		"backend"
 	],
 	"scripts": {
-		"serve": "npx servor . index.html --reload --browse",
+		"serve": "npx servor . index.html 1602 --browse",
 		"s": "npm run serve",
 		"deploy": "firebase deploy",
 		"lit-check": "npx lit-analyzer . --strict",
@@ -59,7 +59,7 @@
 		}
 	],
 	"dependencies": {
-		"firebase": "^7.13.1",
+		"firebase": "^7.13.2",
 		"lit-element": "^2.3.1",
 		"lit-html": "^1.2.1",
 		"web-dialog": "0.0.11"

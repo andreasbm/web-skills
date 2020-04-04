@@ -78,6 +78,13 @@ export function measureShowDescription (name) {
 	});
 }
 
+export function measureInstallEvent () {
+	gtag("event", "install", {
+		"event_category": "engagement",
+		"event_label": `The app was installed`,
+	});
+}
+
 export function measureUserTiming (label, category,  ms) {
 	gtag("event", "timing_complete", {
 		"name": "load",

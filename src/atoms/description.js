@@ -1,21 +1,14 @@
-import {googleIconTemplate, youtubeIconTemplate} from "../util/icons.js";
-import {measureCompleteSkill, measureShowDescription} from "../util/measure.js";
-import "./icon.js";
 import {auth, AuthEvents} from "../firebase/auth.js";
 import {sharedStyles} from "../styles/shared.js";
-import {
-	currentConfettiCount,
-	getId,
-	getSkillSearchQuery,
-	measureLinkClick,
-	playAudio,
-	sprayConfettiOnce
-} from "../util/util.js";
+import {googleIconTemplate, youtubeIconTemplate} from "../util/icons.js";
+import {measureCompleteSkill, measureShowDescription} from "../util/measure.js";
+import {getId, getSkillSearchQuery, onClickLink} from "../util/util.js";
 import {css, html, LitElement} from "./../../web_modules/lit-element.js";
 import {repeat} from "./../../web_modules/lit-html/directives/repeat.js";
+import "./icon.js";
 
 /**
- * Elements that presents the description of a skill.
+ * An element that presents the description of a skill.
  */
 export class Description extends LitElement {
 
@@ -238,6 +231,9 @@ export class Description extends LitElement {
 		this.updateDirection();
 	}
 
+	/**
+	 * Updates the direction of the description.
+	 */
 	updateDirection () {
 		const {left, width, top, height} = this.getBoundingClientRect();
 		const directionOffset = 50;
@@ -301,6 +297,7 @@ export class Description extends LitElement {
 		const newIsCompleted = !this.isCompleted;
 		auth.toggleCompleteSkill(this.skillId).then();
 		if (newIsCompleted) {
+			const {currentConfettiCount, sprayConfettiOnce, playAudio} = await import("./../util/confetti-helper.js");
 			if (currentConfettiCount() <= 2) {
 				sprayConfettiOnce();
 			}
@@ -317,8 +314,9 @@ export class Description extends LitElement {
 			// Measure that the skill was completed
 			measureCompleteSkill(name);
 		}
-
 	}
+
+
 
 	/**
 	 * Renders a link.
@@ -330,7 +328,7 @@ export class Description extends LitElement {
 		return html`
 			<div class="link">
 				<img class="img" loading="lazy" width="16" height="16" intrinsicsize="16x16" src="https://plus.google.com/_/favicon?domain_url=${encodeURIComponent(url)}" alt="Logo for ${name}" />
-				<a class="url" href="${url}" target="_blank" rel="noopener" @click="${e => measureLinkClick(e)}">${name}</a>
+				<a class="url" href="${url}" target="_blank" rel="noopener" @click="${e => onClickLink(e)}">${name}</a>
 			</div>
 		`;
 	}
@@ -351,10 +349,10 @@ export class Description extends LitElement {
 			` : undefined}
 			
 			<div id="smart-search">
-				<a id="search-google" href="https://www.google.com/search?q=${encodeURIComponent(skillSearchQuery)}" target="_blank" aria-label="Search on Google" rel="noopener" @click="${e => measureLinkClick(e)}">
+				<a id="search-google" href="https://www.google.com/search?q=${encodeURIComponent(skillSearchQuery)}" target="_blank" aria-label="Search on Google" rel="noopener" @click="${e => onClickLink(e)}">
 					<ws-icon hoverable .template="${googleIconTemplate}"></ws-icon>
 				</a>
-				<a id="search-youtube" href="https://www.youtube.com/results?search_query=${encodeURIComponent(skillSearchQuery)}" target="_blank" aria-label="Search on Youtube" rel="noopener" @click="${e => measureLinkClick(e)}">
+				<a id="search-youtube" href="https://www.youtube.com/results?search_query=${encodeURIComponent(skillSearchQuery)}" target="_blank" aria-label="Search on Youtube" rel="noopener" @click="${e => onClickLink(e)}">
 					<ws-icon hoverable .template="${youtubeIconTemplate}"></ws-icon>
 				</a>
 			</div>

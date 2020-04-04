@@ -1,4 +1,3 @@
-
 export const pwaCollection = {
 	name: "Progressive Webapps",
 	areas: [
@@ -60,7 +59,8 @@ export const pwaCollection = {
 							["Codelabs - Scripting the service worker", "https://codelabs.developers.google.com/codelabs/pwa-scripting-the-service-worker/index.html?index=..%2F..dev-pwa-training#0"],
 							["Codelabs - Caching files with the service worker", "https://codelabs.developers.google.com/codelabs/pwa-caching-service-worker/index.html?index=..%2F..dev-pwa-training#0"],
 							["Codelabs - Adding a Service Worker", "https://developers.google.com/web/fundamentals/codelabs/offline"],
-							["Google Devs - Debugging Service Workers", "https://developers.google.com/web/fundamentals/codelabs/debugging-service-workers"]
+							["Google Devs - Debugging Service Workers", "https://developers.google.com/web/fundamentals/codelabs/debugging-service-workers"],
+							["Caching best practices", "https://jakearchibald.com/2016/caching-best-practices/"],
 						]
 					},
 					skills: [
@@ -70,6 +70,7 @@ export const pwaCollection = {
 								text: "Learn how to make your web app working offline with an offline first approach.",
 								links: [
 									["Google Devs - The Offline Cookbook", "https://developers.google.com/web/fundamentals/instant-and-offline/offline-cookbook"],
+									["Udacity - Offline Web Applications", "https://www.udacity.com/course/offline-web-applications--ud899"],
 									["Offline First", "http://offlinefirst.org/"],
 									["Google Devs - Offline UX Considerations", "https://developers.google.com/web/fundamentals/instant-and-offline/offline-ux"],
 									["Google Devs - Offline Storage for Progressive Web Apps", "https://developers.google.com/web/fundamentals/instant-and-offline/web-storage/offline-for-pwa"],
@@ -114,6 +115,7 @@ export const pwaCollection = {
 							["web.dev - Installable", "https://web.dev/installable"],
 							["Google Devs - App Install Banners", "https://developers.google.com/web/fundamentals/app-install-banners/"],
 							["MDN - Add to Home screen", "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Add_to_home_screen"],
+							["web.dev - Provide a custom install experience", "https://web.dev/customize-install/"],
 						]
 					}
 				},

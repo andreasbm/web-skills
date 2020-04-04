@@ -2,8 +2,9 @@ import {sharedStyles} from "../styles/shared.js";
 import {randomNumberInRange} from "../util/util.js";
 import {css, html, LitElement} from "../../web_modules/lit-element.js";
 
+
 /**
- * A ConfettiParticle is something that looks like confetti
+ * A particle is something that looks like confetti
  */
 export class ConfettiParticle {
 	constructor ({innerHeight, innerWidth, maxAmount, colors, context}) {

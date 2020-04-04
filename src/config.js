@@ -2,6 +2,8 @@ export const defaultCompactPx = 800;
 
 export const gaMeasurementId = `UA-96179028-7`;
 
+export const compactStorageKey = "compact";
+
 export const firebaseConfig = {
 	apiKey: "AIzaSyAeptLYIAEF7MtzFjKo0XYtC6i0BXbqdjI",
 	authDomain: "web-skills.firebaseapp.com",

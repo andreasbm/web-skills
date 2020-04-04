@@ -1,6 +1,9 @@
 import {sharedStyles} from "../styles/shared.js";
 import {css, html, LitElement} from "../../web_modules/lit-element.js";
 
+/**
+ * An element that presents an icon.
+ */
 class IconButton extends LitElement {
 
 	static get properties () {
@@ -9,6 +12,11 @@ class IconButton extends LitElement {
 				type: Object
 			}
 		}
+	}
+
+	constructor () {
+		super();
+		this.role = "presentation";
 	}
 
 	static get styles () {

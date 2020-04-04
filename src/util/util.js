@@ -1,8 +1,5 @@
-import {Confetti} from "../atoms/confetti.js";
-import {lazyImgIntersectionObserverOptions} from "../config.js";
+import {lazyImgIntersectionObserverOptions, compactStorageKey} from "../config.js";
 import {measureCopyLink, measureLinkClicked} from "./measure.js";
-
-const AUDIO_CACHE = new Map();
 
 /**
  * Turns a skill name into a path.
@@ -71,51 +68,6 @@ export function randomNumberInRange (from, to) {
 }
 
 /**
- * Returns the current confetti count.
- */
-export function currentConfettiCount () {
-	return Array.from(document.querySelectorAll("ws-confetti")).length;
-}
-
-/**
- * Sprays confetti oe time.
- */
-export function sprayConfettiOnce () {
-	const $confetti = new Confetti();
-	$confetti.once = true;
-	$confetti.overlay = true;
-	$confetti.maxamount = randomNumberInRange(50, 150);
-
-	$confetti.addEventListener("stopped", () => {
-		$confetti.remove();
-	});
-
-	document.body.appendChild($confetti);
-	requestAnimationFrame(() => {
-		$confetti.start();
-	});
-}
-
-/**
- * Play audio with a cache.
- * @param {*} src
- * @param {*} volume
- */
-export function playAudio (src, volume = 1) {
-	const $audio = AUDIO_CACHE.get(src) || document.createElement("audio");
-	$audio.src = src;
-	$audio.volume = volume;
-
-	// Reset
-	$audio.pause();
-	$audio.currentTime = 0;
-
-	$audio.play();
-
-	AUDIO_CACHE.set(src, $audio);
-}
-
-/**
  * Attach an intersection observer that changes the data-src attribute to src on img element.
  * @param {*} $elem
  */
@@ -146,7 +98,7 @@ export function attachLazyImgIntersectionObserver ($elem) {
  * @returns {boolean}
  */
 export function loadIsCompact () {
-	return localStorage.getItem("compact") != null;
+	return localStorage.getItem(compactStorageKey) != null;
 }
 
 /**
@@ -155,10 +107,10 @@ export function loadIsCompact () {
  */
 export function setIsCompact (compact) {
 	if (compact) {
-		localStorage.setItem("compact", "");
+		localStorage.setItem(compactStorageKey, "");
 
 	} else {
-		localStorage.removeItem("compact");
+		localStorage.removeItem(compactStorageKey);
 	}
 }
 
@@ -175,24 +127,6 @@ export function dispatchCloseAllDescriptionsEvent () {
  */
 export function listenForCloseAllDescriptionsEvent (cb) {
 	window.addEventListener("closeAllDescriptions", cb);
-}
-
-/**
- * Measures a link click.
- * @param e
- */
-export function measureLinkClick (e) {
-
-	// Find the target by using the composed path to get the element through the shadow boundaries.
-	const $anchor = ("composedPath" in e) ? e.composedPath().find($elem => $elem instanceof HTMLAnchorElement) : e.target;
-
-	// Make sure the click is an anchor
-	if (!($anchor instanceof HTMLAnchorElement)) {
-		return;
-	}
-
-	const name = $anchor.ariaLabel || $anchor.innerText || $anchor.href;
-	measureLinkClicked(name);
 }
 
 /**
@@ -214,4 +148,22 @@ export function copyToClipboard (text) {
 
 	// Tell the user that the link was copied
 	alert(`Link copied to clipboard.`);
+}
+
+/**
+ * Measures a link click.
+ * @param e
+ */
+export function onClickLink (e) {
+
+	// Find the target by using the composed path to get the element through the shadow boundaries.
+	const $anchor = ("composedPath" in e) ? e.composedPath().find($elem => $elem instanceof HTMLAnchorElement) : e.target;
+
+	// Make sure the click is an anchor
+	if (!($anchor instanceof HTMLAnchorElement)) {
+		return;
+	}
+
+	const name = $anchor.ariaLabel || $anchor.innerText || $anchor.href;
+	measureLinkClicked(name);
 }
