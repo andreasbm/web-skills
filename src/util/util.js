@@ -1,4 +1,4 @@
-import {lazyImgIntersectionObserverOptions, compactStorageKey} from "../config.js";
+import {LAZY_IMG_INTERSECTION_OPTIONS, COMPACT_STORAGE_KEY} from "../config.js";
 import {measureCopyLink, measureLinkClicked} from "./measure.js";
 
 /**
@@ -89,7 +89,7 @@ export function attachLazyImgIntersectionObserver ($elem) {
 		});
 	};
 
-	const observer = new IntersectionObserver(callback, lazyImgIntersectionObserverOptions);
+	const observer = new IntersectionObserver(callback, LAZY_IMG_INTERSECTION_OPTIONS);
 	observer.observe($elem);
 }
 
@@ -98,7 +98,7 @@ export function attachLazyImgIntersectionObserver ($elem) {
  * @returns {boolean}
  */
 export function loadIsCompact () {
-	return localStorage.getItem(compactStorageKey) != null;
+	return localStorage.getItem(COMPACT_STORAGE_KEY) != null;
 }
 
 /**
@@ -107,10 +107,10 @@ export function loadIsCompact () {
  */
 export function setIsCompact (compact) {
 	if (compact) {
-		localStorage.setItem(compactStorageKey, "");
+		localStorage.setItem(COMPACT_STORAGE_KEY, "");
 
 	} else {
-		localStorage.removeItem(compactStorageKey);
+		localStorage.removeItem(COMPACT_STORAGE_KEY);
 	}
 }
 
@@ -133,7 +133,7 @@ export function listenForCloseAllDescriptionsEvent (cb) {
  * Copies text to clipboard.
  * @param text
  */
-export function copyToClipboard (text) {
+export async function copyToClipboard (text) {
 
 	// Measure the event
 	measureCopyLink(text);
@@ -147,7 +147,8 @@ export function copyToClipboard (text) {
 	document.body.removeChild($textarea);
 
 	// Tell the user that the link was copied
-	alert(`Link copied to clipboard.`);
+	const {showSnackbar} = await import("./show-snackbar.js");
+	showSnackbar(`Link copied to clipboard.`, {timeout: 2000});
 }
 
 /**

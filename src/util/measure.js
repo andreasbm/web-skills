@@ -1,7 +1,12 @@
-import {gaMeasurementId} from "../config.js";
+import {GA_MEASUREMENT_ID, APP_VERSION, IS_STAND_ALONE} from "../config.js";
+
+export function measureDimensions () {
+	gtag("set", "dimension1", APP_VERSION);
+	gtag("set", "dimension2", IS_STAND_ALONE);
+}
 
 export function measurePageView () {
-	gtag("config", gaMeasurementId, {
+	gtag("config", GA_MEASUREMENT_ID, {
 		"page_path": location.pathname,
 		"page_location": location.href
 	});
@@ -57,7 +62,7 @@ export function measureOpenShare () {
 }
 
 export function measureLogin (user) {
-	gtag("config", gaMeasurementId, {
+	gtag("config", GA_MEASUREMENT_ID, {
 		"user_id": user.uid
 	});
 

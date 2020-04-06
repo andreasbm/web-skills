@@ -1,6 +1,7 @@
 import "../atoms/button.js";
 import "../atoms/description.js";
 import {auth, AuthEvents} from "../firebase/auth.js";
+import {IS_TOUCH} from "../config.js";
 import {sharedStyles} from "../styles/shared.js";
 import {
 	attachLazyImgIntersectionObserver,
@@ -318,6 +319,7 @@ export class Skill extends LitElement {
 	 * Handles mouse enter event.
 	 */
 	onMouseEnter () {
+		if (IS_TOUCH) return;
 		this.hasMouseOver = true;
 	}
 
@@ -325,6 +327,7 @@ export class Skill extends LitElement {
 	 * Handles mouse leave event.
 	 */
 	onMouseLeave () {
+		if (IS_TOUCH) return;
 		this.hasMouseOver = false;
 		this.forceShowDescription = false;
 	}

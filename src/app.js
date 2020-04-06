@@ -4,13 +4,14 @@ import "./atoms/blur.js";
 import "./atoms/button.js";
 import "./atoms/compact-switch.js";
 import "./atoms/icon.js";
-import {defaultCompactPx, getShareConfig} from "./config.js";
+import {DEFAULT_COMPACT_PX, getShareConfig} from "./config.js";
 import {collections} from "./data.js";
 import {auth, AuthEvents} from "./firebase/auth.js";
 import "./molecules/collection.js";
 import {sharedStyles} from "./styles/shared.js";
 import {andreasIconTemplate, githubIconTemplate, helpIconTemplate, shareIconTemplate} from "./util/icons.js";
 import {
+	measureDimensions,
 	measureException,
 	measureInstallEvent,
 	measureOpenHelp,
@@ -231,10 +232,11 @@ export class App extends LitElement {
 		this.setupListeners();
 		this.setupCompact();
 		this.setupDragging();
-		this.setupServiceWorker().then();
 
-		// Measure page view (we only have this one page)
+		measureDimensions();
 		measurePageView();
+
+		this.setupServiceWorker().then();
 	}
 
 	/**
@@ -304,6 +306,20 @@ export class App extends LitElement {
 		window.addEventListener("appinstalled", e => {
 			measureInstallEvent();
 		});
+
+		// Listen for network changes
+		window.addEventListener("online", this.onNetworkChanged.bind(this));
+		window.addEventListener("offline", this.onNetworkChanged.bind(this));
+	}
+
+	/**
+	 * Show message when network status changes.
+	 * @returns {Promise<void>}
+	 */
+	async onNetworkChanged () {
+		const {showSnackbar} = await import("./util/show-snackbar.js");
+		const message = navigator.onLine ? `You are online again` : `You lost connection to the internet`;
+		showSnackbar(message, {timeout: 2000})
 	}
 
 	/**
@@ -379,17 +395,19 @@ export class App extends LitElement {
 	 * @returns {Promise<void>}
 	 */
 	async setupServiceWorker () {
-
 		if (!("serviceWorker" in navigator)) return;
 
-		// Register the service worker
-		const reg = await navigator.serviceWorker.register("sw.js");
+		// Register the service worker using a workaround that works on iOS < 12.2
+		// https://github.com/GoogleChrome/workbox/issues/1744
+		const {APP_VERSION: UNCACHED_APP_VERSION} = await import(`./config.js?c=${Math.random()}`);
+		const reg = await navigator.serviceWorker.register(`sw.js?v=${UNCACHED_APP_VERSION}`);
 		if (reg == null) return;
 
 		// Reload when we get a new service worker and the user has clicked the "reload" button.
+		const hasController = !!navigator.serviceWorker.controller;
 		let isReloading = false;
 		navigator.serviceWorker.addEventListener("controllerchange", () => {
-			if (isReloading) return;
+			if (isReloading || !hasController) return;
 			isReloading = true;
 			location.reload();
 		});
@@ -401,8 +419,17 @@ export class App extends LitElement {
 				switch (newWorker.state) {
 					case "installed":
 						if (navigator.serviceWorker.controller !== null) {
-							const {openUpdate} = await import("./util/open-update.js");
-							openUpdate();
+							const {showSnackbar} = await import("./util/show-snackbar.js");
+							showSnackbar(`Update available`, {
+								buttons: [
+									["Reload", async () => {
+										const reg = await navigator.serviceWorker.getRegistration();
+										if (reg == null || reg.waiting == null) return;
+										reg.waiting.postMessage({action: "skipWaiting"});
+									}],
+									["Dismiss", () => ({})]
+								]
+							});
 						}
 						break;
 					default:
@@ -411,10 +438,13 @@ export class App extends LitElement {
 			});
 		});
 
-		// Check for updates every 30 minutes
+		// Force check for update
+		reg.update().then();
+
+		// Check for updates every 10 minutes
 		setInterval(() => {
 			reg.update();
-		}, 1000 * 60 * 30);
+		}, 1000 * 60 * 10);
 	};
 
 	/**
@@ -429,7 +459,7 @@ export class App extends LitElement {
 		}
 
 		// Set initial compact
-		this.compact = window.innerWidth <= defaultCompactPx || loadIsCompact();
+		this.compact = window.innerWidth <= DEFAULT_COMPACT_PX || loadIsCompact();
 	}
 
 	/**
@@ -499,7 +529,8 @@ export class App extends LitElement {
 
 			// If the user cancelled the share we abort
 			// This was the best cross-browser solution..
-			if (err.message.includes("cancellation")) {
+			const errorMessage = (err.message || err.toString()).toLowerCase();
+			if (errorMessage.includes("cancellation") || errorMessage.includes("share canceled") || ("canShare" in navigator && navigator.canShare())) {
 				return;
 			}
 

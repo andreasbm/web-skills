@@ -1,8 +1,8 @@
 {
   "imports": {
-    "firebase/firebase-app.js": "./firebase/firebase-app.js",
-    "firebase/firebase-auth.js": "./firebase/firebase-auth.js",
-    "firebase/firebase-firestore.js": "./firebase/firebase-firestore.js",
+    "firebase/app/dist/index.esm.js": "./firebase/app/dist/index.esm.js",
+    "firebase/auth/dist/index.esm.js": "./firebase/auth/dist/index.esm.js",
+    "firebase/firestore/dist/index.esm.js": "./firebase/firestore/dist/index.esm.js",
     "lit-element": "./lit-element.js",
     "lit-html": "./lit-html.js",
     "lit-html/directives/repeat.js": "./lit-html/directives/repeat.js",

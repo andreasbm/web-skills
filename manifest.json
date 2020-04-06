@@ -2,6 +2,13 @@
 	"short_name": "Web Skills",
 	"name": "Web Skills",
 	"description": "A visual overview of useful skills to learn as a web developer",
+	"start_url": "/",
+	"lang": "en-US",
+	"display": "standalone",
+	"background_color": "#0B0B19",
+	"theme_color": "#0B0B19",
+	"orientation": "portrait-primary",
+	"categories": ["productivity", "education", "utilities"],
 	"icons": [
 		{
 			"src": "www/icon-circle192x192.png",
@@ -14,8 +21,16 @@
 			"sizes": "512x512"
 		}
 	],
-	"start_url": "/",
-	"display": "standalone",
-	"background_color": "#0B0B19",
-	"theme_color": "#0B0B19"
+	"screenshots": [
+		{
+			"src": "www/screenshot-1-1280x720.jpg",
+			"sizes": "1280x720",
+			"type": "image/jpeg"
+		},
+		{
+			"src": "www/screenshot-2-1280x720.jpg",
+			"sizes": "1280x720",
+			"type": "image/jpeg"
+		}
+	]
 }

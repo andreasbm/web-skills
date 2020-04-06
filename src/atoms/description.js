@@ -1,5 +1,6 @@
 import {auth, AuthEvents} from "../firebase/auth.js";
 import {sharedStyles} from "../styles/shared.js";
+import {IS_TOUCH} from "../config.js";
 import {googleIconTemplate, youtubeIconTemplate} from "../util/icons.js";
 import {measureCompleteSkill, measureShowDescription} from "../util/measure.js";
 import {getId, getSkillSearchQuery, onClickLink} from "../util/util.js";
@@ -153,7 +154,7 @@ export class Description extends LitElement {
 					margin: 0 var(--spacing-s) 0 0;
 				}
 				
-				@media (any-pointer: coarse) {
+				@media not (any-pointer: fine), (max-width: 800px) {
 					:host {
 						position: fixed;
 						bottom: 0;
@@ -205,6 +206,7 @@ export class Description extends LitElement {
 		this.requestClose = this.requestClose.bind(this);
 		this.checkOutsideClick = this.checkOutsideClick.bind(this);
 		this.onClick = this.onClick.bind(this);
+		this.requestUpdate = this.requestUpdate.bind(this);
 	}
 
 	/**
@@ -215,12 +217,13 @@ export class Description extends LitElement {
 		this.measureDidShow();
 
 		this.addEventListener("click", this.onClick);
-		auth.addEventListener(AuthEvents.authStateChanged, this.requestUpdate.bind(this));
-		auth.addEventListener(AuthEvents.completedSkillsChanged, this.requestUpdate.bind(this));
+		auth.addEventListener(AuthEvents.authStateChanged, this.requestUpdate);
+		auth.addEventListener(AuthEvents.completedSkillsChanged, this.requestUpdate);
 
-		if (this.compact) {
+		if (IS_TOUCH) {
 			window.addEventListener("touchstart", this.checkOutsideClick);
 			window.addEventListener("scroll", this.requestClose, {passive: true});
+
 		} else {
 			this.addEventListener("focusout", this.requestClose, {passive: true});
 		}
@@ -250,6 +253,8 @@ export class Description extends LitElement {
 		this.removeEventListener("click", this.onClick);
 		window.removeEventListener("scroll", this.requestClose);
 		window.removeEventListener("touchstart", this.checkOutsideClick);
+		auth.removeEventListener(AuthEvents.authStateChanged, this.requestUpdate);
+		auth.removeEventListener(AuthEvents.completedSkillsChanged, this.requestUpdate);
 	}
 
 	/**
@@ -287,6 +292,7 @@ export class Description extends LitElement {
 	 * Requests closing the skill.
 	 */
 	requestClose () {
+		console.log("REQUEST CLOSE");
 		this.dispatchEvent(new CustomEvent("close"));
 	}
 

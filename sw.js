@@ -1,7 +1,7 @@
+const SW_VERSION = 1;
 const APP_PREFIX = "web-skills";
-const VERSION = 1;
-const CACHE_NAME = `${APP_PREFIX}-v${VERSION}`;
-const DEBUG = false;
+const CACHE_NAME = `${APP_PREFIX}-v${SW_VERSION}`;
+const DEBUG = true;
 const URLS_TO_CACHE = [
 	"index.html",
 	"src/app.js",
@@ -11,7 +11,7 @@ const URLS_TO_CACHE = [
 	"src/util/util.js",
 	"src/util/open-help.js",
 	"src/util/open-share.js",
-	"src/util/open-update.js",
+	"src/util/show-snackbar.js",
 	"src/util/measure.js",
 	"src/util/confetti-helper.js",
 	"src/molecules/area.js",
@@ -40,8 +40,7 @@ const URLS_TO_CACHE = [
 	"src/data/web-components.js",
 	"src/styles/shared.js",
 	"src/styles/global.css",
-	"https://fonts.googleapis.com/css?family=Rubik:300,400,500,700&display=swap",
-	"https://www.googletagmanager.com/gtag/js?id=UA-96179028-7"
+	"web_modules/web-dialog.js"
 ];
 
 const BLACK_LISTED_REQUEST_PATHS = [
@@ -49,27 +48,30 @@ const BLACK_LISTED_REQUEST_PATHS = [
 ];
 
 /**
- * Install service worker.
+ * Precache when installed.
  */
 self.addEventListener("install", e => {
-	log(`SW: Installing ${CACHE_NAME}`);
+	log(`Installing`);
 	e.waitUntil(precache());
 });
 
 /**
- * Delete outdated caches.
+ * Delete old caches when activated.
  */
 self.addEventListener("activate", async e => {
-	log(`SW: Activate ${CACHE_NAME}`);
+	log(`Activate`);
 	self.clients.claim().then();
-	e.waitUntil(clearOldCaches());
+	e.waitUntil(deleteOldCaches());
 });
 
 /**
- * Handle fetch requests with a cache then network strategy.
+ * Handle fetch requests with a cache then network and cache strategy.
  */
 self.addEventListener("fetch", e => {
-	log(`SW: Fetch ${CACHE_NAME}`);
+	log(`Fetch`);
+
+	// Let the browser do its default thing for non-GET requests.
+	if (e.request.method !== 'GET') return;
 	e.respondWith((async () => await cacheOrNetworkAndCache(e))());
 });
 
@@ -77,7 +79,7 @@ self.addEventListener("fetch", e => {
  * Make it possible to skip the waiting.
  */
 self.addEventListener("message", async e => {
-	log(`SW: Message ${CACHE_NAME}`);
+	log(`Message`);
 	const {action} = e.data;
 	switch (action) {
 		case "skipWaiting":
@@ -93,7 +95,7 @@ self.addEventListener("message", async e => {
  */
 function log () {
 	if (DEBUG) {
-		console.log(...arguments);
+		console.log(`SW (${CACHE_NAME})`, ...arguments);
 	}
 }
 
@@ -109,10 +111,10 @@ async function precache () {
 }
 
 /**
- * Clears old caches.
+ * Deletes old caches.
  * @returns {Promise<void>}
  */
-async function clearOldCaches () {
+async function deleteOldCaches () {
 	const keys = await caches.keys();
 
 	// Delete old caches
@@ -140,16 +142,20 @@ function isBlacklistedUrl (url) {
 async function cacheOrNetworkAndCache (e) {
 	const {request} = e;
 
+	// DevTools opening will trigger these o-i-c requests, which we ignore.
+	// https://stackoverflow.com/a/49719964
+	if (request.cache === "only-if-cached" && request.mode !== "same-origin") {
+		return new Response();
+	}
+
 	// Try the cache
 	const cachedResponse = await caches.match(request);
+	log("Cache", cachedResponse);
 	if (cachedResponse != null) return cachedResponse;
-
-	// Try the preload
-	const preloadedResponse = await e.preloadResponse;
-	if (preloadedResponse != null) return preloadedResponse;
 
 	// Fallback to network
 	const response = await fetch(request);
+	log("Response", response);
 
 	// Cache response if necessary
 	if (response != null && response.ok && response.type === "basic" && !isBlacklistedUrl(response.url)) {

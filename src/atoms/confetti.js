@@ -2,7 +2,6 @@ import {sharedStyles} from "../styles/shared.js";
 import {randomNumberInRange} from "../util/util.js";
 import {css, html, LitElement} from "../../web_modules/lit-element.js";
 
-
 /**
  * A particle is something that looks like confetti
  */

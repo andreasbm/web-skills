@@ -51,7 +51,7 @@ export class Area extends LitElement {
                 
                 :host([compact]) #skills {
                     display: grid;
-					grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+					grid-template-columns: repeat(auto-fill, minmax(70px, 1fr));
 					grid-gap: var(--spacing-l);
 					margin: 0 0 var(--spacing-xl);
                 }

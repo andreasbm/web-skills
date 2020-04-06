@@ -1,5 +1,5 @@
 html {
-	--base-size: 14;
+	--base-size: 16;
 
 	--background: rgb(11, 11, 25);
 	--foreground: rgb(232, 232, 234);
@@ -45,6 +45,7 @@ html {
 
 	--focus-outline: 5px auto rgb(77, 144, 254);
 
+	font-size: calc(var(--base-size, 16) * 1px);
 	font-family: var(--font-family);
 	background: var(--background);
 	color: var(--foreground);
@@ -60,8 +61,3 @@ body {
 	scroll-behavior: smooth;
 }
 
-@media (max-width: 800px) {
-	html {
-		font-size: 12px;
-	}
-}

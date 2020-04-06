@@ -1,5 +1,6 @@
-import {getId} from "../util/util.js";
+import {getId, copyToClipboard} from "../util/util.js";
 import {sharedStyles} from "../styles/shared.js";
+import {getShareUrl} from "../config.js";
 import {css, html, LitElement} from "../../web_modules/lit-element.js";
 import {repeat} from "../../web_modules/lit-html/directives/repeat.js";
 import "./area.js";
@@ -40,6 +41,17 @@ export class Collection extends LitElement {
     			    letter-spacing: 2px;
 					text-transform: uppercase;
 					margin: 0 0 40px;
+					cursor: pointer;
+					position: relative;
+					display: inline-block;
+				}
+				
+				#title:hover:before {
+					content: "#";
+					color: var(--shade-500);
+					position: absolute;
+					transform: translateX(-110%);
+					font-size: 80%;
 				}
 
 				#areas {
@@ -81,11 +93,21 @@ export class Collection extends LitElement {
 				
 				@media (max-width: 800px) {
 					:host([compact]) #title {
+						font-size: var(--font-size-xl);
 						text-align: center;
+						display: block;
 					}
 				}
 			`
 		];
+	}
+
+	/**
+	 * Copy link to collection.
+	 */
+	copyLink () {
+		location.hash = `#${getId(this.collection)}`;
+		copyToClipboard(`${getShareUrl()}${location.hash}`)
 	}
 
 	/**
@@ -95,7 +117,7 @@ export class Collection extends LitElement {
 		const {collection, index, compact} = this;
 
 		return html`
-			${collection.name != null ? html`<h1 id="title">${index != null ? `${index + 1}. ` : undefined}${collection.name}</h1>` : undefined}
+			${collection.name != null ? html`<h1 id="title" @click="${this.copyLink}">${index != null ? `${index + 1}. ` : undefined}${collection.name}</h1>` : undefined}
 			<div id="areas">
 				${repeat(collection.areas || [], area => getId(collection, area), (area, i) => html`
 					<div class="area">

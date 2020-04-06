@@ -1,4 +1,6 @@
 import {html, render} from "../../web_modules/lit-html.js";
+import {APP_VERSION} from "./../config.js";
+import "../atoms/button.js";
 
 /**
  * Opens the dialog dialog.
@@ -38,11 +40,18 @@ export async function openHelp () {
 					font-size: 1.5rem;
 				}
 				
+				#version {
+					position: absolute;
+					right: var(--spacing-m);
+					bottom: var(--spacing-m);
+					color: var(--shade-500);
+				}
+				
 			</style>
 			
-			<a id="close" @click="${() => $dialog.close()}" aria-label="Close dialog">✖️</a>
-			
 			<div tabindex="0"></div>
+			<ws-button id="close" @click="${() => $dialog.close()}" aria-label="Close dialog">✖️</ws-button>
+			
 			<h2>Web Skills FAQ</h2>
 
 			<h3>What is Web Skills?</h3>
@@ -71,7 +80,8 @@ export async function openHelp () {
 
 			<h3>How can I get in contact with you?</h3>
 			<p>Reach out to me on Twitter at <a target="_blank" href="https://twitter.com/AndreasMehlsen" rel="noopener" aria-label="Open Twitter">@AndreasMehlsen</a> or take a look at <a target="_blank" href="https://andreasbm.github.io" rel="noopener" aria-label="Open personal website">my website</a> if you want to learn more about what other projects I'm working on.</p>
-
+			
+			<span id="version">v${APP_VERSION}</span>
 		`, $dialog)
 	});
 

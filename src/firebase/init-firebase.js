@@ -1,9 +1,8 @@
-import {firebaseConfig} from "../config.js";
-
 // Load firebase
-import {default as firebase} from "../../web_modules/firebase/firebase-app.js";
-import "../../web_modules/firebase/firebase-auth.js";
-import "./../web_modules/firebase/firebase-firestore.js";
+import {default as firebase} from "../../web_modules/firebase/app/dist/index.esm.js";
+import "../../web_modules/firebase/auth/dist/index.esm.js";
+import "../../web_modules/firebase/firestore/dist/index.esm.js";
+import {FIREBASE_CONFIG} from "../config.js";
 import {auth, CollectionNames} from "./auth.js";
 
 let isInitialized = false;
@@ -17,7 +16,7 @@ export async function initFirebase () {
 	}
 
 	isInitialized = true;
-	await firebase.initializeApp(firebaseConfig);
+	await firebase.initializeApp(FIREBASE_CONFIG);
 
 	// Get database
 	const db = firebase.firestore();
