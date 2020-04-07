@@ -1,8 +1,9 @@
 const SW_VERSION = 1;
 const APP_PREFIX = "web-skills";
 const CACHE_NAME = `${APP_PREFIX}-v${SW_VERSION}`;
-const DEBUG = true;
+const DEBUG = false;
 const URLS_TO_CACHE = [
+	"",
 	"index.html",
 	"src/app.js",
 	"src/config.js",
@@ -44,7 +45,9 @@ const URLS_TO_CACHE = [
 ];
 
 const BLACK_LISTED_REQUEST_PATHS = [
-	"livereload"
+	"livereload", // Don't cache the local development server files
+	"?c=", // Don't cache the config when we use it to find the newest version
+	"r/collect" // Don't cache anything GA related
 ];
 
 /**

@@ -2,7 +2,7 @@
 	"short_name": "Web Skills",
 	"name": "Web Skills",
 	"description": "A visual overview of useful skills to learn as a web developer",
-	"start_url": "/",
+	"start_url": "",
 	"lang": "en-US",
 	"display": "standalone",
 	"background_color": "#0B0B19",

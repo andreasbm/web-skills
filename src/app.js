@@ -235,8 +235,8 @@ export class App extends LitElement {
 
 		measureDimensions();
 		measurePageView();
+		measureUserTiming(`App was connected`, `initial_load`, performance.now());
 
-		this.setupServiceWorker().then();
 	}
 
 	/**
@@ -246,20 +246,16 @@ export class App extends LitElement {
 	firstUpdated (props) {
 		super.firstUpdated(props);
 
-		// Measure the performance
-		measureUserTiming(`App was connected`, `initial_load`, performance.now());
-
 		// Initialize Firebase if the user is logged in
 		if (auth.isAuthenticated) {
 			deferredInitFirebase().then();
 		}
 
-		// Jump to collection
-		if (location.hash.length > 0) {
-			setTimeout(() => {
-				this.focusCollection(location.hash.slice(1));
-			}, 1000);
-		}
+		// Delay some of the work
+		setTimeout(() => {
+			this.setupServiceWorker().then();
+			this.hashChanged();
+		}, 1000);
 	}
 
 	/**
@@ -308,18 +304,34 @@ export class App extends LitElement {
 		});
 
 		// Listen for network changes
-		window.addEventListener("online", this.onNetworkChanged.bind(this));
-		window.addEventListener("offline", this.onNetworkChanged.bind(this));
+		window.addEventListener("online", this.networkChanged.bind(this));
+		window.addEventListener("offline", this.networkChanged.bind(this));
+
+		// Listen for hash change
+		window.addEventListener("hashchange", this.hashChanged.bind(this));
 	}
 
 	/**
 	 * Show message when network status changes.
 	 * @returns {Promise<void>}
 	 */
-	async onNetworkChanged () {
+	async networkChanged () {
 		const {showSnackbar} = await import("./util/show-snackbar.js");
 		const message = navigator.onLine ? `You are online again` : `You lost connection to the internet`;
-		showSnackbar(message, {timeout: 2000})
+		showSnackbar(message, {
+			timeout: 5000, buttons: [
+				["Dismiss", () => ({})]
+			]
+		});
+	}
+
+	/**
+	 * Handles that the hash changed.
+	 */
+	hashChanged () {
+		if (location.hash.length > 0) {
+			this.focusCollection(location.hash.slice(1));
+		}
 	}
 
 	/**
@@ -397,18 +409,16 @@ export class App extends LitElement {
 	async setupServiceWorker () {
 		if (!("serviceWorker" in navigator)) return;
 
-		// Register the service worker using a workaround that works on iOS < 12.2
-		// https://github.com/GoogleChrome/workbox/issues/1744
+		// Register the service worker using a workaround that works on iOS < 12.2 (https://github.com/GoogleChrome/workbox/issues/1744)
+		// Use Github pages scope (https://gist.github.com/kosamari/7c5d1e8449b2fbc97d372675f16b566e)
 		const {APP_VERSION: UNCACHED_APP_VERSION} = await import(`./config.js?c=${Math.random()}`);
 		const reg = await navigator.serviceWorker.register(`sw.js?v=${UNCACHED_APP_VERSION}`);
 		if (reg == null) return;
 
 		// Reload when we get a new service worker and the user has clicked the "reload" button.
 		const hasController = !!navigator.serviceWorker.controller;
-		let isReloading = false;
-		navigator.serviceWorker.addEventListener("controllerchange", () => {
-			if (isReloading || !hasController) return;
-			isReloading = true;
+		navigator.serviceWorker.addEventListener("controllerchange", async () => {
+			if (!hasController) return;
 			location.reload();
 		});
 

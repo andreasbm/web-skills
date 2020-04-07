@@ -154,7 +154,7 @@ export class Description extends LitElement {
 					margin: 0 var(--spacing-s) 0 0;
 				}
 				
-				@media not (any-pointer: fine), (max-width: 800px) {
+				@media (any-pointer: coarse) and (max-width: 700px) {
 					:host {
 						position: fixed;
 						bottom: 0;
@@ -292,7 +292,6 @@ export class Description extends LitElement {
 	 * Requests closing the skill.
 	 */
 	requestClose () {
-		console.log("REQUEST CLOSE");
 		this.dispatchEvent(new CustomEvent("close"));
 	}
 

@@ -108,7 +108,7 @@ export class Button extends LitElement {
 	 */
 	render () {
 		return html`
-			<input tabindex="0" id="input" type="checkbox" @input="${e => this.toggleSwitch(e.target.checked)}" ?checked="${this.checked}" aria-label="Toggle compact mode" />
+			<input tabindex="0" id="input" type="checkbox" @change="${e => this.toggleSwitch(e.target.checked)}" ?checked="${this.checked}" aria-label="Toggle compact mode" />
 			<div id="knob">
 				<svg id="icon-compact" class="icon" preserveAspectRatio="none" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
 				  <g fill="currentColor" fill-rule="nonzero">
