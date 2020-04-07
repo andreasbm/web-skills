@@ -1,4 +1,4 @@
-export const APP_VERSION = 2;
+export const APP_VERSION = 3;
 export const IS_STAND_ALONE = ("standalone" in window.navigator && window.navigator.standalone) || window.matchMedia("(display-mode: standalone)").matches;
 export const IS_TOUCH = window.matchMedia("(any-pointer: coarse)").matches;
 export const DEFAULT_COMPACT_PX = 800;
