@@ -319,7 +319,7 @@ export class App extends LitElement {
 		const {showSnackbar} = await import("./util/show-snackbar.js");
 		const message = navigator.onLine ? `You are online again` : `You lost connection to the internet`;
 		showSnackbar(message, {
-			timeout: 5000, buttons: [
+			buttons: [
 				["Dismiss", () => ({})]
 			]
 		});
