@@ -182,32 +182,32 @@ export const pwaCollection = {
 					},
 					skills: [
 						{
-							name: "First meaningful paint",
+							name: "Largest Contentful Paint",
 							description: {
-								text: "Learn about the first meaningful paint and how it impacts the overall performance.",
+								text: "Learn about Largest Contentful Paint and how it impacts the overall performance.",
 								links: [
-									["web.dev - First Meaningful Paint", "https://web.dev/first-meaningful-paint/"],
-									["MDN - First meaningful paint", "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Loading#First_meaningful_paint"],
-									["Google Devs - First Meaningful Paint", "https://developers.google.com/web/tools/lighthouse/audits/first-meaningful-paint"]
+									["web.dev - Largest Contentful Paint", "https://web.dev/lcp/"],
+									["web.dev - Lighthouse Largest Contentful Paint", "https://web.dev/lighthouse-largest-contentful-paint"],
+									["Medium - New Performance Metric: What is Largest Contentful Paint?", "https://medium.com/speedrank-app/new-performance-metric-what-is-largest-contentful-paint-dc784a497dd5"]
 								]
 							},
 						},
 						{
-							name: "First CPU idle",
+							name: "Total Blocking Time",
 							description: {
-								text: "Learn about the first CPU idle and how it impacts the overall performance.",
+								text: "Learn about Total Blocking Time and how it impacts the overall performance.",
 								links: [
 									["web.dev - First CPU Idle", "https://web.dev/first-cpu-idle"],
-									["Google Devs - First CPU Idle", "https://developers.google.com/web/tools/lighthouse/audits/first-cpu-idle"],
+									["Google Devs - Total Blocking Time", "https://web.dev/tbt"],
 								]
 							},
 						},
 						{
-							name: "Time to interactive",
+							name: "Time to Interactive",
 							description: {
-								text: "Learn about time to interactive and how it impacts the overall performance.",
+								text: "Learn about Time to Interactive and how it impacts the overall performance.",
 								links: [
-									["web.dev - Time to Interactive", "https://web.dev/interactive/"],
+									["web.dev - Total Blocking Time", "https://web.dev/lighthouse-total-blocking-time/"],
 									["Google Devs - Time to Interactive", "https://developers.google.com/web/tools/lighthouse/audits/time-to-interactive"],
 								]
 							},
