@@ -3,7 +3,7 @@ import {sharedStyles} from "../styles/shared.js";
 import {IS_TOUCH} from "../config.js";
 import {googleIconTemplate, youtubeIconTemplate} from "../util/icons.js";
 import {measureCompleteSkill, measureShowDescription} from "../util/measure.js";
-import {getId, getSkillSearchQuery, onClickLink} from "../util/util.js";
+import {getId, getSkillSearchQuery, onClickLink, getURLOrigin} from "../util/util.js";
 import {css, html, LitElement} from "./../../web_modules/lit-element.js";
 import {repeat} from "./../../web_modules/lit-html/directives/repeat.js";
 import "./icon.js";
@@ -332,7 +332,7 @@ export class Description extends LitElement {
 		const [name, url] = link;
 		return html`
 			<div class="link">
-				<img class="img" loading="lazy" width="16" height="16" intrinsicsize="16x16" src="https://plus.google.com/_/favicon?domain_url=${encodeURIComponent(url)}" alt="Logo for ${name}" />
+				<img class="img" loading="lazy" width="16" height="16" intrinsicsize="16x16" src="https://plus.google.com/_/favicon?domain_url=${encodeURIComponent(getURLOrigin(url))}" alt="Logo for ${name}" />
 				<a class="url" href="${url}" target="_blank" rel="noopener" @click="${e => onClickLink(e)}">${name}</a>
 			</div>
 		`;

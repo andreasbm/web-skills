@@ -1,4 +1,4 @@
-import {LAZY_IMG_INTERSECTION_OPTIONS, COMPACT_STORAGE_KEY} from "../config.js";
+import {COMPACT_STORAGE_KEY, LAZY_IMG_INTERSECTION_OPTIONS} from "../config.js";
 import {measureCopyLink, measureLinkClicked} from "./measure.js";
 
 /**
@@ -169,4 +169,17 @@ export function onClickLink (e) {
 
 	const name = $anchor.ariaLabel || $anchor.innerText || $anchor.href;
 	measureLinkClicked(name);
+}
+
+/**
+ * Returns the origin of the url.
+ * @param url
+ * @returns {string}
+ */
+export function getURLOrigin (url) {
+	try {
+		return (new URL(url)).origin;
+	} catch (err) {
+		return url;
+	}
 }
