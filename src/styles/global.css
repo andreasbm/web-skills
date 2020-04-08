@@ -69,7 +69,7 @@ body {
 	left: 0;
 	width: 100%;
 	padding: var(--spacing-m);
-	z-index: 123456789;
+	z-index: 12345678;
 }
 
 #snack-container > :not(:last-child) {
