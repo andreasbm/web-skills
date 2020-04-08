@@ -1,3 +1,7 @@
+* {
+	box-sizing: border-box;
+}
+
 html {
 	--base-size: 16;
 
@@ -59,3 +63,15 @@ body {
 	scroll-behavior: smooth;
 }
 
+#snack-container {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	padding: var(--spacing-m);
+	z-index: 123456789;
+}
+
+#snack-container > :not(:last-child) {
+	margin: 0 0 var(--spacing-s);
+}

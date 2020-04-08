@@ -15,7 +15,7 @@ export class Snackbar extends LitElement {
 			sharedStyles,
 			css`
 				:host {
-					max-width: 23rem;
+				    max-width: 24rem;
 					width: 100%;
 					background: var(--background);
 					color: var(--foreground);
@@ -25,19 +25,32 @@ export class Snackbar extends LitElement {
 					cursor: default;
 					border-radius: var(--border-radius-s);
 					margin: 0 auto;
+					flex-wrap: wrap;
+					display: flex;
+					justify-content: flex-end;
+					align-items: center;
 				}
 				
-				:host, #buttons {
+				:host([wide]) {
+					max-width: 55rem;
+				}
+				
+				#buttons {
 					display: flex;
 					align-items: center;
+					flex-shrink: 0;
 				}
 				
 				#buttons {
 					color: var(--primary-500);
 				}
 				
-				::slotted([slot="button"]:not(:last-child)) {
-					margin: 0 var(--spacing-m) 0 0;
+				::slotted([slot="text"]) {
+					flex-grow: 1;
+				}
+				
+				::slotted([slot="button"]) {
+					padding: var(--spacing-s);
 				}
 			`
 		];
@@ -45,7 +58,7 @@ export class Snackbar extends LitElement {
 
 	render () {
 		return html`
-			<slot></slot>
+			<slot name="text"></slot>
 			<div id="buttons">
 				<slot name="button"></slot>
 			</div>

@@ -1,4 +1,4 @@
-import {COMPACT_STORAGE_KEY, LAZY_IMG_INTERSECTION_OPTIONS} from "../config.js";
+import {COMPACT_STORAGE_KEY, FIRST_VISIT_DATE_STORAGE_KEY, LAZY_IMG_INTERSECTION_OPTIONS, SNACK_CONTAINER_ID} from "../config.js";
 import {measureCopyLink, measureLinkClicked} from "./measure.js";
 
 /**
@@ -106,12 +106,7 @@ export function loadIsCompact () {
  * @param compact
  */
 export function setIsCompact (compact) {
-	if (compact) {
-		localStorage.setItem(COMPACT_STORAGE_KEY, "");
-
-	} else {
-		localStorage.removeItem(COMPACT_STORAGE_KEY);
-	}
+	compact ? localStorage.setItem(COMPACT_STORAGE_KEY, "") : localStorage.removeItem(COMPACT_STORAGE_KEY);
 }
 
 /**
@@ -183,3 +178,29 @@ export function getURLOrigin (url) {
 		return url;
 	}
 }
+
+/**
+ * Returns whether this is the first visit.
+ * @returns {boolean}
+ */
+export function getIsFirstVisit () {
+	return localStorage.getItem(FIRST_VISIT_DATE_STORAGE_KEY) == null;
+}
+
+/**
+ * Sets first visit date.
+ * @param date
+ */
+export function setFirstVisitDate (date) {
+	localStorage.setItem(FIRST_VISIT_DATE_STORAGE_KEY, date);
+}
+
+/**
+ * Returns the snack count.
+ * @returns {number}
+ */
+export function currentSnackCount () {
+	const $container = document.querySelector(`#${SNACK_CONTAINER_ID}`);
+	return $container == null ? 0 : $container.children.length;
+}
+

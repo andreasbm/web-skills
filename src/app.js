@@ -27,7 +27,10 @@ import {
 	getId,
 	loadIsCompact,
 	onClickLink,
-	setIsCompact
+	setIsCompact,
+	getIsFirstVisit,
+	setFirstVisitDate,
+	currentSnackCount
 } from "./util/util.js";
 
 /**
@@ -236,7 +239,6 @@ export class App extends LitElement {
 		measureDimensions();
 		measurePageView();
 		measureUserTiming(`App was connected`, `initial_load`, performance.now());
-
 	}
 
 	/**
@@ -255,7 +257,14 @@ export class App extends LitElement {
 		setTimeout(() => {
 			this.setupServiceWorker().then();
 			this.hashChanged();
+			setTimeout(() => {
+				if (getIsFirstVisit() && currentSnackCount() === 0) {
+					this.showHelpToast().then();
+					setFirstVisitDate(new Date());
+				}
+			}, 1000);
 		}, 1000);
+
 	}
 
 	/**
@@ -401,6 +410,21 @@ export class App extends LitElement {
 				});
 			}
 		}, {passive: true});
+	}
+
+	/**
+	 * Shows a help toast.
+	 * @returns {Promise<void>}
+	 */
+	async showHelpToast () {
+		const {showSnackbar} = await import("./util/show-snackbar.js");
+		showSnackbar(`Web Skills is an overview of useful skills to learn as a web developer. Not a roadmap.`, {
+			wide: true,
+			buttons: [
+				["Learn More", () => this.openHelp()],
+				["Dismiss", () => ({})]
+			]
+		});
 	}
 
 	/**
