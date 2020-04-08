@@ -38,7 +38,7 @@
 		"s": "npm run serve",
 		"deploy": "firebase deploy",
 		"lit-check": "npx lit-analyzer . --strict",
-		"generate-blueprint": "node --experimental-modules generate-blueprint.mjs",
+		"generate-blueprint": "node --experimental-modules generate-blueprint.js",
 		"readme": "npm run generate-blueprint && npx @appnest/readme generate",
 		"snowpack": "npx snowpack --optimize --include \"src/**/*.js\"",
 		"prepare": "npm run snowpack"
