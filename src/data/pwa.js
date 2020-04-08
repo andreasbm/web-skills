@@ -240,7 +240,7 @@ export const pwaCollection = {
 						{
 							name: "Offscreen images",
 							description: {
-								text: "Learn why offscreen images increases the load time and how to avoid them by lazy loading images.",
+								text: "Learn why offscreen images increase the load time and how to avoid them by lazy loading images.",
 								links: [
 									["web.dev - Defer offscreen images", "https://web.dev/offscreen-images/"],
 									["Google Devs - Properly Size Images", "https://developers.google.com/web/tools/lighthouse/audits/oversized-images"],
