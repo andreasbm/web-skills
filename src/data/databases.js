@@ -456,6 +456,19 @@ export const databasesCollection = {
 								]
 							},
 						},
+						{
+							name: "OpenAPI",
+							description: {
+								text: "Learn about the OpenAPI specification for describing RESTful APIs",
+								links: [
+									["OpenAPI specification", "https://swagger.io/specification/"],
+									["Tutorial of OpenAPI Specification", "https://medium.com/@amirm.lavasani/restful-apis-tutorial-of-openapi-specification-eeada0e3901d"],
+									["Improving the developer experience with OpenAPI Specification", "https://medium.com/adyen/improving-the-developer-experience-with-openapi-specification-f90fbf8077cf"],
+									["SwaggerHub - Public list of available OpenAPI definitions", "https://app.swaggerhub.com"],
+									["openapi.tools - List of available OpenAPI tools", "https://openapi.tools"],
+								]
+							},
+						},
 					]
 				},
 				{
