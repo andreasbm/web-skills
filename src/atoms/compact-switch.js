@@ -52,7 +52,7 @@ export class Button extends LitElement {
 					width: var(--switch-knob-size);
 					height: var(--switch-knob-size);
 					transform: scale(1.08);
-					box-shadow: 0 2px 5px var(--shadow);
+					box-shadow: var(--box-shadow);
 					position: relative;
                     color: var(--background);
 				}

@@ -38,7 +38,6 @@
 
 	<!-- The viewport meta tag -->
 	<meta name="viewport" content="initial-scale=1, minimum-scale=1, maximum-scale=3, user-scalable=yes, width=device-width">
-<!--	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" >-->
 
 	<!-- Mobile-friendly iOS meta tags -->
 	<meta name="apple-mobile-web-app-capable" content="yes">
@@ -125,50 +124,23 @@
 	<!-- Preload / connect -->
 	<link rel="preconnect" href="https://www.google-analytics.com">
 	<link rel="dns-prefetch" href="https://fonts.gstatic.com/">
-	<link rel="modulepreload" href="src/config.js" crossorigin="anonymous">
-	<link rel="modulepreload" href="src/app.js" crossorigin="anonymous">
-	<link rel="modulepreload" href="src/data.js" crossorigin="anonymous">
-	<link rel="modulepreload" href="src/util/icons.js" crossorigin="anonymous">
-	<link rel="modulepreload" href="src/util/util.js" crossorigin="anonymous">
-	<link rel="modulepreload" href="src/util/measure.js" crossorigin="anonymous">
-	<link rel="modulepreload" href="src/firebase/auth.js" crossorigin="anonymous">
-	<link rel="modulepreload" href="src/molecules/area.js" crossorigin="anonymous">
-	<link rel="modulepreload" href="src/molecules/collection.js" crossorigin="anonymous">
-	<link rel="modulepreload" href="src/molecules/skill.js" crossorigin="anonymous">
-	<link rel="modulepreload" href="src/atoms/blur.js" crossorigin="anonymous">
-	<link rel="modulepreload" href="src/atoms/button.js" crossorigin="anonymous">
-	<link rel="modulepreload" href="src/atoms/description.js" crossorigin="anonymous">
-	<link rel="modulepreload" href="src/atoms/icon.js" crossorigin="anonymous">
-	<link rel="modulepreload" href="src/atoms/compact-switch.js" crossorigin="anonymous">
-	<link rel="modulepreload" href="src/data/accessibility.js" crossorigin="anonymous">
-	<link rel="modulepreload" href="src/data/algorithms.js" crossorigin="anonymous">
-	<link rel="modulepreload" href="src/data/architecture-and-paradigmes.js" crossorigin="anonymous">
-	<link rel="modulepreload" href="src/data/build-tools.js" crossorigin="anonymous">
-	<link rel="modulepreload" href="src/data/databases.js" crossorigin="anonymous">
-	<link rel="modulepreload" href="src/data/design-and-ux.js" crossorigin="anonymous">
-	<link rel="modulepreload" href="src/data/frameworks-and-libraries.js" crossorigin="anonymous">
-	<link rel="modulepreload" href="src/data/fundamentals.js" crossorigin="anonymous">
-	<link rel="modulepreload" href="src/data/modern.js" crossorigin="anonymous">
-	<link rel="modulepreload" href="src/data/pwa.js" crossorigin="anonymous">
-	<link rel="modulepreload" href="src/data/team-collaboration.js" crossorigin="anonymous">
-	<link rel="modulepreload" href="src/data/testing.js" crossorigin="anonymous">
-	<link rel="modulepreload" href="src/data/web-components.js" crossorigin="anonymous">
+	<link rel="modulepreload" href="web_modules/lit-html.js" crossorigin="anonymous">
 	<link rel="modulepreload" href="web_modules/lit-element.js" crossorigin="anonymous">
-	<link rel="modulepreload" href="src/styles/shared.js" crossorigin="anonymous">
+	<link rel="modulepreload" href="web_modules/common/lit-html-6bb77aec.js" crossorigin="anonymous">
 
 	<link async rel="stylesheet" type="text/css" href="src/styles/global.css">
 	<link async href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700&display=swap" rel="stylesheet">
 </head>
 <body>
-<noscript>Please enable JavaScript to use this page.</noscript>
 
 <!-- Polyfills -->
-<script crossorigin
-        src="https://polyfill.app/api/polyfill?features=es,template,shadow-dom,custom-elements,intersection-observer"></script>
+<!--<script crossorigin
+        src="https://polyfill.app/api/polyfill?features=es,template,shadow-dom,custom-elements,intersection-observer"></script>-->
 
 <!-- App -->
 <script src="src/app.js" type="module"></script>
 <ws-app></ws-app>
 
+<noscript>Please enable JavaScript to use this page.</noscript>
 </body>
 </html>

@@ -72,25 +72,35 @@ export function randomNumberInRange (from, to) {
  * @param {*} $elem
  */
 export function attachLazyImgIntersectionObserver ($elem) {
+
+	const didIntersect = (target) => {
+		const dataSrc = target.getAttribute("data-src");
+		target.onload = () => {
+			requestAnimationFrame(() => {
+				target.setAttribute("loaded", "");
+			});
+		};
+
+		target.src = dataSrc;
+	};
+
 	const callback = (entries, observer) => {
 		entries.forEach(entry => {
 			const {isIntersecting, target} = entry;
 			if (isIntersecting) {
-				const dataSrc = target.getAttribute("data-src");
-				target.onload = () => {
-					requestAnimationFrame(() => {
-						target.setAttribute("loaded", "");
-					});
-				};
-
-				target.src = dataSrc;
+				didIntersect(target);
 				observer.unobserve(target);
 			}
 		});
 	};
 
-	const observer = new IntersectionObserver(callback, LAZY_IMG_INTERSECTION_OPTIONS);
-	observer.observe($elem);
+	if ("IntersectionObserver" in window) {
+		const observer = new IntersectionObserver(callback, LAZY_IMG_INTERSECTION_OPTIONS);
+		observer.observe($elem);
+
+	} else {
+		didIntersect($elem);
+	}
 }
 
 /**

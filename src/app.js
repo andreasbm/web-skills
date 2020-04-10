@@ -419,6 +419,7 @@ export class App extends LitElement {
 	async showHelpToast () {
 		const {showSnackbar} = await import("./util/show-snackbar.js");
 		showSnackbar(`Web Skills is an overview of useful skills to learn as a web developer`, {
+			timeout: 1000 * 20,
 			wide: true,
 			buttons: [
 				["Learn More", () => this.openHelp()],

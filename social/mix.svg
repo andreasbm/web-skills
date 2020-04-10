@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>social/mix</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="6.02298849 0 0 0 0 11.8615385 12 11.8615385 12 0"></polygon>
+    </defs>
+    <g id="social/mix" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval" fill="#FF8226" fill-rule="nonzero" cx="12" cy="12" r="12"></circle>
+        <g id="mix" transform="translate(6.000000, 7.000000)">
+            <g id="Fill-1-Clipped">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="path-1"></g>
+                <path d="M0,6.45 L0,10.6961538 C0,11.3232518 0.537241592,11.85 1.2,11.85 C1.86275841,11.85 2.4,11.3232518 2.4,10.6961538 L2.4,4.23461538 C2.33094724,5.47558897 1.28293736,6.46104628 0,6.45" id="Fill-1" fill="#FFD3B6" fill-rule="nonzero" mask="url(#mask-2)"></path>
+            </g>
+            <g id="Fill-3-Clipped" fill="#FFFFFF" fill-rule="nonzero">
+                <path d="M0,0 L0,6.46153846 C1.28074479,6.45854137 2.32696358,5.47322423 2.4,4.24615385 L2.4,3.13846154 C2.39589833,3.0985729 2.39746923,3.06862518 2.4,3.04615385 C2.44653672,2.43121926 2.9630853,1.95242536 3.6,1.93846154 C4.25547323,1.95242536 4.79179666,2.47909864 4.8,3.13846154 L4.8,7.75384615 C4.79198146,8.38111145 5.32821249,8.90769231 6,8.90769231 C6.65127914,8.90769231 7.18751017,8.38120389 7.2,7.75384615 L7.2,4.61538462 C7.18778737,2.07517407 9.30092386,0 11.9076923,0 L0,0" id="Fill-3"></path>
+            </g>
+            <g id="Combined-Shape-Clipped" transform="translate(6.000000, 0.000000)" fill="#FFD3B6" fill-rule="nonzero">
+                <path d="M6,-1.15525055e-07 L6,6.64615385 C6,7.27378315 5.46276877,7.8 4.8,7.8 C4.13727752,7.8 3.59995371,7.27378315 3.6,6.64615385 L3.6,6.04615385 C3.59995371,5.37725991 3.06272248,4.85104302 2.4,4.84615385 C1.73732382,4.85104302 1.2,5.37725991 1.2,6.04615385 L1.2,4.56923077 C1.2,2.24869315 2.96402248,0.318687107 5.24238531,-1.15525055e-07 L6,-1.15525055e-07 Z" id="Combined-Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
