@@ -329,6 +329,7 @@ export class App extends LitElement {
 		const message = navigator.onLine ? `You are online again` : `You lost connection to the internet`;
 		showSnackbar(message, {
 			timeout: navigator.onLine ? 4000 : null,
+			important: true,
 			buttons: [
 				["Dismiss", () => ({})]
 			]
@@ -422,7 +423,7 @@ export class App extends LitElement {
 			timeout: 1000 * 20,
 			wide: true,
 			buttons: [
-				["Learn More", () => this.openHelp()],
+				["Read More", () => this.openHelp()],
 				["Dismiss", () => ({})]
 			]
 		});
@@ -457,6 +458,7 @@ export class App extends LitElement {
 						if (navigator.serviceWorker.controller !== null) {
 							const {showSnackbar} = await import("./util/show-snackbar.js");
 							showSnackbar(`Update available`, {
+								important: true,
 								buttons: [
 									["Reload", async () => {
 										const reg = await navigator.serviceWorker.getRegistration();
