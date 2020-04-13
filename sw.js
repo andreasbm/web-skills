@@ -1,4 +1,4 @@
-const SW_VERSION = 4;
+const SW_VERSION = 5;
 const APP_PREFIX = "web-skills";
 const CACHE_NAME = `${APP_PREFIX}-v${SW_VERSION}`;
 const DEBUG = false;
