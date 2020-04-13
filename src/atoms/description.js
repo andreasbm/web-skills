@@ -1,9 +1,9 @@
+import {CLOSE_DESCRIPTION_EVENT, IS_TOUCH} from "../config.js";
 import {auth, AuthEvents} from "../firebase/auth.js";
 import {sharedStyles} from "../styles/shared.js";
-import {IS_TOUCH} from "../config.js";
 import {googleIconTemplate, youtubeIconTemplate} from "../util/icons.js";
 import {measureCompleteSkill, measureShowDescription} from "../util/measure.js";
-import {getId, getSkillSearchQuery, onClickLink, getURLOrigin} from "../util/util.js";
+import {getId, getSkillSearchQuery, getURLOrigin, onClickLink} from "../util/util.js";
 import {css, html, LitElement} from "./../../web_modules/lit-element.js";
 import {repeat} from "./../../web_modules/lit-html/directives/repeat.js";
 import "./icon.js";
@@ -217,6 +217,7 @@ export class Description extends LitElement {
 		this.measureDidShow();
 
 		this.addEventListener("click", this.onClick);
+		window.addEventListener(CLOSE_DESCRIPTION_EVENT, this.requestClose);
 		auth.addEventListener(AuthEvents.authStateChanged, this.requestUpdate);
 		auth.addEventListener(AuthEvents.completedSkillsChanged, this.requestUpdate);
 
@@ -253,6 +254,7 @@ export class Description extends LitElement {
 		this.removeEventListener("click", this.onClick);
 		window.removeEventListener("scroll", this.requestClose);
 		window.removeEventListener("touchstart", this.checkOutsideClick);
+		window.removeEventListener(CLOSE_DESCRIPTION_EVENT, this.requestClose);
 		auth.removeEventListener(AuthEvents.authStateChanged, this.requestUpdate);
 		auth.removeEventListener(AuthEvents.completedSkillsChanged, this.requestUpdate);
 	}
@@ -322,7 +324,6 @@ export class Description extends LitElement {
 	}
 
 
-
 	/**
 	 * Renders a link.
 	 * @param link
@@ -350,7 +351,7 @@ export class Description extends LitElement {
 			<h4 id="title">${name}</h4>
 			${description != null && description.text != null ? html`<p id="text">${description.text}</p>` : undefined}
 			${description != null && description.links != null && description.links.length > 0 ? html`
-				<div id="links">${repeat(description.links, this.renderLink.bind(this))}</div>
+				<div id="links">${repeat(description.links, link => link, this.renderLink.bind(this))}</div>
 			` : undefined}
 			
 			<div id="smart-search">

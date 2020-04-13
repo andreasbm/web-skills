@@ -1,14 +1,13 @@
 import "../atoms/button.js";
 import "../atoms/description.js";
-import {auth, AuthEvents} from "../firebase/auth.js";
 import {IS_TOUCH} from "../config.js";
+import {auth, AuthEvents} from "../firebase/auth.js";
 import {sharedStyles} from "../styles/shared.js";
 import {
 	attachLazyImgIntersectionObserver,
 	constructImagePathPrefix,
-	dispatchCloseAllDescriptionsEvent,
-	getId,
-	listenForCloseAllDescriptionsEvent,
+	dispatchCloseDescriptionEvent,
+	getId
 } from "../util/util.js";
 import {css, html, LitElement} from "./../../web_modules/lit-element.js";
 import {repeat} from "./../../web_modules/lit-html/directives/repeat.js";
@@ -237,12 +236,6 @@ export class Skill extends LitElement {
 		this.completed = this.getCompleted();
 		auth.addEventListener(AuthEvents.authStateChanged, this.authChanged.bind(this));
 		auth.addEventListener(AuthEvents.completedSkillsChanged, this.authChanged.bind(this));
-
-		listenForCloseAllDescriptionsEvent(() => {
-			if (this.isShowingDescription) {
-				this.closeDescription();
-			}
-		});
 	}
 
 	/**
@@ -308,7 +301,7 @@ export class Skill extends LitElement {
 	 */
 	toggleForceShowDescription () {
 		const forceShowDescription = !this.isShowingDescription;
-		dispatchCloseAllDescriptionsEvent();
+		dispatchCloseDescriptionEvent();
 		this.forceShowDescription = forceShowDescription;
 		if (!this.forceShowDescription) {
 			this.closeDescription();

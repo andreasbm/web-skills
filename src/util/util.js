@@ -1,4 +1,10 @@
-import {COMPACT_STORAGE_KEY, FIRST_VISIT_DATE_STORAGE_KEY, LAZY_IMG_INTERSECTION_OPTIONS, SNACK_CONTAINER_ID} from "../config.js";
+import {
+	CLOSE_DESCRIPTION_EVENT,
+	COMPACT_STORAGE_KEY,
+	FIRST_VISIT_DATE_STORAGE_KEY,
+	LAZY_IMG_INTERSECTION_OPTIONS,
+	SNACK_CONTAINER_ID
+} from "../config.js";
 import {measureCopyLink, measureLinkClicked} from "./measure.js";
 
 /**
@@ -122,16 +128,8 @@ export function setIsCompact (compact) {
 /**
  * Dispatches a close all event.
  */
-export function dispatchCloseAllDescriptionsEvent () {
-	window.dispatchEvent(new CustomEvent("closeAllDescriptions"));
-}
-
-/**
- * Listens for the close all event.
- * @param cb
- */
-export function listenForCloseAllDescriptionsEvent (cb) {
-	window.addEventListener("closeAllDescriptions", cb);
+export function dispatchCloseDescriptionEvent () {
+	window.dispatchEvent(new CustomEvent(CLOSE_DESCRIPTION_EVENT));
 }
 
 /**
@@ -191,10 +189,11 @@ export function getURLOrigin (url) {
 
 /**
  * Returns whether this is the first visit.
- * @returns {boolean}
+ * @returns {Date | null}
  */
-export function getIsFirstVisit () {
-	return localStorage.getItem(FIRST_VISIT_DATE_STORAGE_KEY) == null;
+export function getFirstVisit () {
+	const str = localStorage.getItem(FIRST_VISIT_DATE_STORAGE_KEY);
+	return str != null ? new Date(str) : null;
 }
 
 /**
@@ -214,3 +213,10 @@ export function currentSnackCount () {
 	return $container == null ? 0 : $container.children.length;
 }
 
+/**
+ * Returns whether the dialog is visible.
+ * @returns {boolean}
+ */
+export function isDialogVisible () {
+	return document.documentElement.hasAttribute("data-dialog-count") && document.documentElement.getAttribute("data-dialog-count") !== "0";
+}

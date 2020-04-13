@@ -34,7 +34,7 @@
 		"backend"
 	],
 	"scripts": {
-		"serve": "npx servor . index.html 1612 --browse",
+		"serve": "npx servor . index.html 1614 --browse",
 		"s": "npm run serve",
 		"deploy": "firebase deploy",
 		"lit-check": "npx lit-analyzer . --strict",

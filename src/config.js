@@ -6,6 +6,7 @@ export const GA_MEASUREMENT_ID = `UA-96179028-7`;
 export const COMPACT_STORAGE_KEY = "compact";
 export const FIRST_VISIT_DATE_STORAGE_KEY = "first_visit_date";
 export const SNACK_CONTAINER_ID = "snack-container";
+export const CLOSE_DESCRIPTION_EVENT = "closeDescription";
 
 export const FIREBASE_CONFIG = {
 	apiKey: "AIzaSyAeptLYIAEF7MtzFjKo0XYtC6i0BXbqdjI",
