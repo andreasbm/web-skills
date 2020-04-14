@@ -37,8 +37,7 @@
 	<meta name="theme-color" content="#0B0B19">
 
 	<!-- The viewport meta tag -->
-	<meta name="viewport" content="initial-scale=1, minimum-scale=1, maximum-scale=3, user-scalable=yes, width=device-width">
-<!--	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" >-->
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=3, user-scalable=yes">
 
 	<!-- Mobile-friendly iOS meta tags -->
 	<meta name="apple-mobile-web-app-capable" content="yes">
@@ -54,6 +53,7 @@
 	<meta name="description" content="A visual overview of useful skills to learn as a web developer">
 	<meta name="keywords"
 	      content="web, skills, learn, overview, links, html, css, javascript, accessibility, web components, pwa, build tools, frameworks, testing, architecture, design, ux, algorithms, backend">
+	<meta name="author" content="Andreas Mehlsen">
 	<link rel="author" href="https://andreasbm.github.io">
 	<link rel="canonical" href="https://andreasbm.github.io/web-skills/">
 
@@ -102,73 +102,31 @@
 	<link rel="apple-touch-icon" sizes="512x512" href="www/icon-circle512x512.png">
 
 	<!-- Splash -->
-	<link rel="apple-touch-startup-image" href="www/splash2048x2732.jpg" sizes="2048x2732">
-	<link rel="apple-touch-startup-image" href="www/splash1668x2224.jpg" sizes="1668x2224">
-	<link rel="apple-touch-startup-image" href="www/splash1536x2048.jpg" sizes="1536x2048">
-	<link rel="apple-touch-startup-image" href="www/splash1125x2436.jpg" sizes="1125x2436">
-	<link rel="apple-touch-startup-image" href="www/splash1242x2208.jpg" sizes="1242x2208">
-	<link rel="apple-touch-startup-image" href="www/splash750x1334.jpg" sizes="750x1334">
-	<link rel="apple-touch-startup-image" href="www/splash640x1136.jpg" sizes="640x1136">
-
-	<!-- iPhone X (1125px x 2436px) -->
-	<link href="www/splash-iphone5.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
-	<link href="www/splash-iphone6.png" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
-	<link href="www/splash-iphoneplus.png" media="(device-width: 621px) and (device-height: 1104px) and (-webkit-device-pixel-ratio: 3)" rel="apple-touch-startup-image" />
-	<link href="www/splash-iphonex.png" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3)" rel="apple-touch-startup-image" />
-	<link href="www/splash-iphonexr.png" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
-	<link href="www/splash-iphonexsmax.png" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3)" rel="apple-touch-startup-image" />
-	<link href="www/splash-ipad.png" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
-	<link href="www/splash-ipadpro1.png" media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
-	<link href="www/splash-ipadpro3.png" media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
-	<link href="www/splash-ipadpro2.png" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+	<link rel="apple-touch-startup-image" href="www/splash-iphone5.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)">
+	<link rel="apple-touch-startup-image" href="www/splash-iphone6.png" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)">
+	<link rel="apple-touch-startup-image" href="www/splash-iphoneplus.png" media="(device-width: 621px) and (device-height: 1104px) and (-webkit-device-pixel-ratio: 3)">
+	<link rel="apple-touch-startup-image" href="www/splash-iphonex.png" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3)">
+	<link rel="apple-touch-startup-image" href="www/splash-iphonexr.png" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2)">
+	<link rel="apple-touch-startup-image" href="www/splash-iphonexsmax.png" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3)">
+	<link rel="apple-touch-startup-image" href="www/splash-ipad.png" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2)">
+	<link rel="apple-touch-startup-image" href="www/splash-ipadpro1.png" media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2)">
+	<link rel="apple-touch-startup-image" href="www/splash-ipadpro3.png" media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2)">
+	<link rel="apple-touch-startup-image" href="www/splash-ipadpro2.png" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2)">
 
 	<!-- Preload / connect -->
 	<link rel="preconnect" href="https://www.google-analytics.com">
 	<link rel="dns-prefetch" href="https://fonts.gstatic.com/">
-	<link rel="modulepreload" href="src/config.js" crossorigin="anonymous">
-	<link rel="modulepreload" href="src/app.js" crossorigin="anonymous">
-	<link rel="modulepreload" href="src/data.js" crossorigin="anonymous">
-	<link rel="modulepreload" href="src/util/icons.js" crossorigin="anonymous">
-	<link rel="modulepreload" href="src/util/util.js" crossorigin="anonymous">
-	<link rel="modulepreload" href="src/util/measure.js" crossorigin="anonymous">
-	<link rel="modulepreload" href="src/firebase/auth.js" crossorigin="anonymous">
-	<link rel="modulepreload" href="src/molecules/area.js" crossorigin="anonymous">
-	<link rel="modulepreload" href="src/molecules/collection.js" crossorigin="anonymous">
-	<link rel="modulepreload" href="src/molecules/skill.js" crossorigin="anonymous">
-	<link rel="modulepreload" href="src/atoms/blur.js" crossorigin="anonymous">
-	<link rel="modulepreload" href="src/atoms/button.js" crossorigin="anonymous">
-	<link rel="modulepreload" href="src/atoms/description.js" crossorigin="anonymous">
-	<link rel="modulepreload" href="src/atoms/icon.js" crossorigin="anonymous">
-	<link rel="modulepreload" href="src/atoms/compact-switch.js" crossorigin="anonymous">
-	<link rel="modulepreload" href="src/data/accessibility.js" crossorigin="anonymous">
-	<link rel="modulepreload" href="src/data/algorithms.js" crossorigin="anonymous">
-	<link rel="modulepreload" href="src/data/architecture-and-paradigmes.js" crossorigin="anonymous">
-	<link rel="modulepreload" href="src/data/build-tools.js" crossorigin="anonymous">
-	<link rel="modulepreload" href="src/data/databases.js" crossorigin="anonymous">
-	<link rel="modulepreload" href="src/data/design-and-ux.js" crossorigin="anonymous">
-	<link rel="modulepreload" href="src/data/frameworks-and-libraries.js" crossorigin="anonymous">
-	<link rel="modulepreload" href="src/data/fundamentals.js" crossorigin="anonymous">
-	<link rel="modulepreload" href="src/data/modern.js" crossorigin="anonymous">
-	<link rel="modulepreload" href="src/data/pwa.js" crossorigin="anonymous">
-	<link rel="modulepreload" href="src/data/team-collaboration.js" crossorigin="anonymous">
-	<link rel="modulepreload" href="src/data/testing.js" crossorigin="anonymous">
-	<link rel="modulepreload" href="src/data/web-components.js" crossorigin="anonymous">
+	<link rel="modulepreload" href="web_modules/lit-html.js" crossorigin="anonymous">
 	<link rel="modulepreload" href="web_modules/lit-element.js" crossorigin="anonymous">
-	<link rel="modulepreload" href="src/styles/shared.js" crossorigin="anonymous">
+	<link rel="modulepreload" href="web_modules/common/lit-html-6bb77aec.js" crossorigin="anonymous">
 
 	<link async rel="stylesheet" type="text/css" href="src/styles/global.css">
 	<link async href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700&display=swap" rel="stylesheet">
 </head>
 <body>
-<noscript>Please enable JavaScript to use this page.</noscript>
+	<script src="src/app.js" type="module"></script>
+	<ws-app></ws-app>
 
-<!-- Polyfills -->
-<script crossorigin
-        src="https://polyfill.app/api/polyfill?features=es,template,shadow-dom,custom-elements,intersection-observer"></script>
-
-<!-- App -->
-<script src="src/app.js" type="module"></script>
-<ws-app></ws-app>
-
+	<noscript>Please enable JavaScript to use this page.</noscript>
 </body>
 </html>

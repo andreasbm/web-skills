@@ -7,7 +7,7 @@ import {SNACK_CONTAINER_ID} from "./../config.js";
  * Shows a snackbar.
  * @returns {Promise<void>}
  */
-export function showSnackbar (message, {buttons, timeout, wide} = {}) {
+export function showSnackbar (message, {buttons, timeout, wide, important} = {}) {
 	return new Promise(async (res) => {
 		await import("./../atoms/snackbar.js");
 
@@ -17,6 +17,11 @@ export function showSnackbar (message, {buttons, timeout, wide} = {}) {
 			$container = document.createElement("div");
 			$container.id = SNACK_CONTAINER_ID;
 			document.body.appendChild($container);
+		}
+
+		// Remove all children
+		if (important) {
+			$container.innerHTML = ``;
 		}
 
 		// Create snack

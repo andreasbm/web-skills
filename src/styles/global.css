@@ -26,6 +26,7 @@ html {
 	--primary-500: rgb(73, 203, 92);
 
 	--shadow: rgba(0, 0, 0, 0.15);
+	--box-shadow: 0 2px 5px var(--shadow);
 
 	--border-radius-s: calc(8 / var(--base-size) * 1rem); /* 8px; */
 	--border-radius-m: calc(20 / var(--base-size) * 1rem); /* 20px; */
@@ -53,6 +54,7 @@ html {
 	font-family: var(--font-family);
 	background: var(--background);
 	color: var(--foreground);
+	touch-action: manipulation;
 }
 
 body {

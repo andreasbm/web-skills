@@ -122,11 +122,13 @@ export const accessibilityCollection = {
 							description: {
 								text: "Learn how to create a sensible tab order and how to make it easy for the users to locate the currently focused element.",
 								links: [
+									["web.dev - Control focus with tabindex", "https://web.dev/control-focus-with-tabindex/"],
 									["Google Devs - Focus", "https://developers.google.com/web/fundamentals/accessibility/focus/"],
 									["Google Devs - Dom Order Matters", "https://developers.google.com/web/fundamentals/accessibility/focus/dom-order-matters"],
 									["Google Devs - Using Tabindex", "https://developers.google.com/web/fundamentals/accessibility/focus/using-tabindex"],
 									["Google Devs - Track Focus", "https://developers.google.com/web/tools/chrome-devtools/accessibility/focus"],
-									["W3C - :focus-visible", "https://drafts.csswg.org/selectors-4/#the-focus-visible-pseudo"],
+									["MDN - :focus-visible", "https://developer.mozilla.org/en-US/docs/Web/CSS/:focus-visible"],
+									["MDN - :focus-within", "https://developer.mozilla.org/en-US/docs/Web/CSS/:focus-within"]
 								]
 							}
 						}

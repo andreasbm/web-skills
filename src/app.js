@@ -9,7 +9,13 @@ import {collections} from "./data.js";
 import {auth, AuthEvents} from "./firebase/auth.js";
 import "./molecules/collection.js";
 import {sharedStyles} from "./styles/shared.js";
-import {andreasIconTemplate, githubIconTemplate, helpIconTemplate, shareIconTemplate} from "./util/icons.js";
+import {
+	andreasIconTemplate,
+	coffeeIconTemplate,
+	githubIconTemplate,
+	helpIconTemplate,
+	shareIconTemplate
+} from "./util/icons.js";
 import {
 	measureDimensions,
 	measureException,
@@ -23,14 +29,15 @@ import {
 } from "./util/measure.js";
 import {
 	copyToClipboard,
-	dispatchCloseAllDescriptionsEvent,
+	currentSnackCount,
+	dispatchCloseDescriptionEvent,
+	getFirstVisit,
 	getId,
+	isDialogVisible,
 	loadIsCompact,
 	onClickLink,
-	setIsCompact,
-	getIsFirstVisit,
 	setFirstVisitDate,
-	currentSnackCount
+	setIsCompact
 } from "./util/util.js";
 
 /**
@@ -194,6 +201,37 @@ export class App extends LitElement {
 					top: 0;
 				}
 				
+				#coffee {
+					position: relative;
+				}
+				
+				#steam {
+				  width: 80%;
+				  position: absolute;
+				  width: 40%;
+				  bottom: 100%;
+				  left: 50%;
+				  animation: 5s linear steaming infinite;
+				  filter: blur(3px);
+				  color: #FFF;
+				}
+				
+				@keyframes steaming {
+				  0% {
+				    opacity: 0;
+					transform: translate(-50%, 100%) rotate(40deg);
+				  }
+				  10% {
+				    opacity: 1;
+				  }
+				  70% {
+				    opacity: 1;
+				  }
+				  100% {
+				    opacity: 0;
+					transform: translate(-50%, -10%) rotate(-10deg);
+				  }
+				}
 				
 				@media (max-width: 800px) {
 					#toggle-compact {
@@ -258,7 +296,7 @@ export class App extends LitElement {
 			this.setupServiceWorker().then();
 			this.hashChanged();
 			setTimeout(() => {
-				if (getIsFirstVisit() && currentSnackCount() === 0) {
+				if (getFirstVisit() == null && currentSnackCount() === 0) {
 					this.showHelpToast().then();
 					setFirstVisitDate(new Date());
 				}
@@ -294,7 +332,7 @@ export class App extends LitElement {
 		window.addEventListener("keydown", e => {
 			switch (e.code) {
 				case "Escape":
-					dispatchCloseAllDescriptionsEvent();
+					dispatchCloseDescriptionEvent();
 					break;
 				case "Digit7":
 					if (e.shiftKey && e.altKey) {
@@ -329,6 +367,7 @@ export class App extends LitElement {
 		const message = navigator.onLine ? `You are online again` : `You lost connection to the internet`;
 		showSnackbar(message, {
 			timeout: navigator.onLine ? 4000 : null,
+			important: true,
 			buttons: [
 				["Dismiss", () => ({})]
 			]
@@ -351,10 +390,6 @@ export class App extends LitElement {
 		let initialPosition = null;
 		let delta = null;
 		let initialScroll = null;
-
-		function isDialogVisible () {
-			return document.documentElement.hasAttribute("data-dialog-count") && document.documentElement.getAttribute("data-dialog-count") !== "0";
-		}
 
 		// Listen for drag start
 		window.addEventListener("mousedown", e => {
@@ -419,9 +454,10 @@ export class App extends LitElement {
 	async showHelpToast () {
 		const {showSnackbar} = await import("./util/show-snackbar.js");
 		showSnackbar(`Web Skills is an overview of useful skills to learn as a web developer`, {
+			timeout: 1000 * 20,
 			wide: true,
 			buttons: [
-				["Learn More", () => this.openHelp()],
+				["Read More", () => this.openHelp()],
 				["Dismiss", () => ({})]
 			]
 		});
@@ -434,37 +470,33 @@ export class App extends LitElement {
 	async setupServiceWorker () {
 		if (!("serviceWorker" in navigator)) return;
 
-		// Register the service worker using a workaround that works on iOS < 12.2 (https://github.com/GoogleChrome/workbox/issues/1744)
-		// Use Github pages scope (https://gist.github.com/kosamari/7c5d1e8449b2fbc97d372675f16b566e)
-		const {APP_VERSION: UNCACHED_APP_VERSION} = await import(`./config.js?c=${Math.random()}`);
-		const reg = await navigator.serviceWorker.register(`sw.js?v=${UNCACHED_APP_VERSION}`);
+		// Register the service worker
+		const reg = await navigator.serviceWorker.register(`sw.js`, {updateViaCache: "none"});
 		if (reg == null) return;
+
+		// Handle cases where the updatefound event was missed
+		if (reg.waiting != null) {
+			this.showUpdateToast();
+		}
 
 		// Reload when we get a new service worker and the user has clicked the "reload" button.
 		const hasController = !!navigator.serviceWorker.controller;
+		let isRefreshing = false;
 		navigator.serviceWorker.addEventListener("controllerchange", async () => {
-			if (!hasController) return;
+			if (!hasController && !isRefreshing) return;
+			isRefreshing = true;
 			location.reload();
 		});
 
 		// Show reload button when there's a new update
 		reg.addEventListener("updatefound", () => {
 			const newWorker = reg.installing;
+			if (newWorker == null) return;
 			newWorker.addEventListener("statechange", async () => {
 				switch (newWorker.state) {
 					case "installed":
-						if (navigator.serviceWorker.controller !== null) {
-							const {showSnackbar} = await import("./util/show-snackbar.js");
-							showSnackbar(`Update available`, {
-								buttons: [
-									["Reload", async () => {
-										const reg = await navigator.serviceWorker.getRegistration();
-										if (reg == null || reg.waiting == null) return;
-										reg.waiting.postMessage({action: "skipWaiting"});
-									}],
-									["Dismiss", () => ({})]
-								]
-							});
+						if (hasController) {
+							this.showUpdateToast();
 						}
 						break;
 					default:
@@ -473,7 +505,7 @@ export class App extends LitElement {
 			});
 		});
 
-		// Force check for update
+		// Check for update
 		reg.update().then();
 
 		// Check for updates every 10 minutes
@@ -481,6 +513,25 @@ export class App extends LitElement {
 			reg.update();
 		}, 1000 * 60 * 10);
 	};
+
+	/**
+	 * Shows an update toast.
+	 * @returns {Promise<void>}
+	 */
+	async showUpdateToast () {
+		const {showSnackbar} = await import("./util/show-snackbar.js");
+		showSnackbar(`Update available`, {
+			important: true,
+			buttons: [
+				["Reload", async () => {
+					const reg = await navigator.serviceWorker.getRegistration();
+					if (reg == null || reg.waiting == null) return;
+					reg.waiting.postMessage({action: "skipWaiting"});
+				}],
+				["Dismiss", () => ({})]
+			]
+		});
+	}
 
 	/**
 	 * Sets up the compact property.
@@ -657,6 +708,10 @@ export class App extends LitElement {
 					</ws-button>
 					<a aria-label="Open author" href="https://andreasbm.github.io" target="_blank" rel="noopener" title="Say hi">
 						<ws-icon hoverable .template="${andreasIconTemplate}" ></ws-icon>
+					</a>
+					<a id="coffee" aria-label="Buy coffee" href="https://www.buymeacoffee.com/AndreasMehlsen" rel="noopener" title="Support me <3" target="_blank">
+						<svg id="steam" viewBox="0 0 250 327" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor" stroke-width="41"><path d="M119.563 265.584c-27-20.344-43.822-41.277-50.465-62.8-6.643-21.522-7.9-45.48-3.771-71.875M170.152 189.86c12.91-24.089 19.139-47.393 18.685-69.913-.453-22.52-5.297-42.502-14.53-59.947"/></g></svg>
+						<ws-icon hoverable .template="${coffeeIconTemplate}"></ws-icon>
 					</a>
 				</div>
 			</header>

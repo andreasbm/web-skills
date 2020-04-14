@@ -19,7 +19,7 @@ export class Snackbar extends LitElement {
 					width: 100%;
 					background: var(--background);
 					color: var(--foreground);
-					box-shadow: 0 2px 5px var(--shadow);
+					box-shadow: var(--box-shadow); 
 					justify-content: space-between;
 					padding: var(--spacing-m);
 					cursor: default;
@@ -29,6 +29,7 @@ export class Snackbar extends LitElement {
 					display: flex;
 					justify-content: flex-end;
 					align-items: center;
+					box-shadow: var(--box-shadow);
 				}
 				
 				:host([wide]) {
