@@ -3,7 +3,9 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>web-components/constructible-stylesheets</title>
     <desc>Created with Sketch.</desc>
-    <defs></defs>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
+    </defs>
     <g id="web-components/constructible-stylesheets" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#2C396B" stroke-width="2">
             <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
@@ -25,6 +27,22 @@
             </g>
             <polygon id="Shape" fill="#61729B" points="6.31445312 31.2617188 46.6855469 31.2617188 46.6855469 34.3671875 6.31445312 34.3671875"></polygon>
             <polygon id="Shape" fill="#47568C" points="26.5 31.2617188 46.6855469 31.2617188 46.6855469 34.3671875 26.5 34.3671875"></polygon>
+        </g>
+        <g id="Group-2" transform="translate(2.000000, 2.000000)">
+            <g id="Rectangle-5">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Mask" fill-rule="nonzero"></g>
+                <g id="Group-3" mask="url(#mask-2)">
+                    <g transform="translate(48.500000, 14.000000) rotate(-330.000000) translate(-48.500000, -14.000000) translate(6.000000, 6.000000)">
+                        <rect id="Rectangle-5" stroke="#2C396B" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" transform="translate(42.530445, 8.258053) rotate(-90.000000) translate(-42.530445, -8.258053) " x="36" y="-33" width="13.0608891" height="82.5161056"></rect>
+                        <text id="PROPOSAL" stroke="none" fill="none" font-family="Rubik-Bold, Rubik" font-size="8" font-weight="bold">
+                            <tspan x="20.124" y="11" fill="#2C396B">PROPOSAL</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
         </g>
     </g>
 </svg>

@@ -3,7 +3,9 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>web-components/form-participation</title>
     <desc>Created with Sketch.</desc>
-    <defs></defs>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
+    </defs>
     <g id="web-components/form-participation" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="container" transform="translate(2.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#155688" stroke-width="2">
             <rect id="mask" x="-1" y="-1" width="71" height="71" rx="14"></rect>
@@ -35,6 +37,22 @@
             <rect id="Rectangle-path" fill="#FFB655" transform="translate(29.868760, 32.516496) rotate(-45.000000) translate(-29.868760, -32.516496) " x="28.9355677" y="27.383938" width="1.86638478" height="10.2651163" rx="0.933192389"></rect>
             <rect id="Rectangle-path" fill="#FFB655" transform="translate(31.517721, 39.444435) rotate(-45.000000) translate(-31.517721, -39.444435) " x="30.5845288" y="36.6448582" width="1.86638478" height="5.59915434" rx="0.933192389"></rect>
             <path d="M22.4,16.8 C21.8845342,16.8 21.4666667,17.2178676 21.4666667,17.7333333 L21.4666667,21.4666667 C21.4666667,21.9821324 21.8845342,22.4 22.4,22.4 C22.9154658,22.4 23.3333333,21.9821324 23.3333333,21.4666667 L23.3333333,17.7333333 C23.3333333,17.2178676 22.9154658,16.8 22.4,16.8 Z" id="Shape" fill="#FF9811"></path>
+        </g>
+        <g id="Group-2" transform="translate(2.000000, 2.000000)">
+            <g id="Rectangle-5">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Mask" fill-rule="nonzero"></g>
+                <g id="Group-3" mask="url(#mask-2)">
+                    <g transform="translate(48.500000, 14.000000) rotate(-330.000000) translate(-48.500000, -14.000000) translate(6.000000, 6.000000)">
+                        <rect id="Rectangle-5" stroke="#155688" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" transform="translate(42.530445, 8.258053) rotate(-90.000000) translate(-42.530445, -8.258053) " x="36" y="-33" width="13.0608891" height="82.5161056"></rect>
+                        <text id="PROPOSAL" stroke="none" fill="none" font-family="Rubik-Bold, Rubik" font-size="8" font-weight="bold">
+                            <tspan x="20.124" y="11" fill="#155688">PROPOSAL</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
         </g>
     </g>
 </svg>

@@ -6,7 +6,7 @@ export const webcomponentsCollection = {
 				{
 					name: "Custom Elements",
 					description: {
-						text: "Learn how to create new HTML tags with custom elements.",
+						text: "Learn how to create new HTML tags with Custom Elements.",
 						links: [
 							["Google Devs - Custom Elements", "https://developers.google.com/web/fundamentals/web-components/customelements"],
 							["MDN - Using Custom Elements", "https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_custom_elements"],
@@ -21,7 +21,7 @@ export const webcomponentsCollection = {
 				{
 					name: "HTML Templates",
 					description: {
-						text: "Learn how to use HTML templates to create a flexible template that can then be used to populate the shadow DOM.",
+						text: "Learn how to use HTML templates to create flexible templates that can then be used to populate the Shadow DOM.",
 						links: [
 							["MDN - Using Templates & Slots", "https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_templates_and_slots"],
 							["Javascript.info - Template Element", "https://javascript.info/template-element"],
@@ -32,7 +32,7 @@ export const webcomponentsCollection = {
 				{
 					name: "Shadow DOM",
 					description: {
-						text: "Learn how to encapsulate your CSS using shadow dom.",
+						text: "Learn how to encapsulate your CSS using Shadow DOM.",
 						links: [
 							["Google Devs - Shadow DOM", "https://developers.google.com/web/fundamentals/web-components/shadowdom"],
 							["MDN - Using Shadow DOM", "https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_shadow_DOM"],
@@ -47,7 +47,7 @@ export const webcomponentsCollection = {
 						{
 							name: "Shadow Parts",
 							description: {
-								text: "Learn how to style the inside of a shadow tree from outside of that shadow tree by using shadow parts.",
+								text: "Learn how to style the inside of a shadow tree from outside of that Shadow Tree by using Shadow Parts.",
 								links: [
 									["Fergald - CSS Shadow ::part and ::theme", "https://github.com/fergald/docs/blob/master/explainers/css-shadow-parts-1.md"],
 									["MDN - ::part", "https://developer.mozilla.org/en-US/docs/Web/CSS/::part"],
@@ -61,7 +61,7 @@ export const webcomponentsCollection = {
 						{
 							name: "Slots",
 							description: {
-								text: "Learn how to compose custom elements by using slots.",
+								text: "Learn how to compose Custom Elements by using slots.",
 								links: [
 									["Alligator.io - Composing Custom Elements", "https://alligator.io/web-components/composing-slots-named-slots/"],
 									["Javascript.info - Slots Composition", "https://javascript.info/slots-composition"],
@@ -73,9 +73,21 @@ export const webcomponentsCollection = {
 					]
 				},
 				{
+					name: "Best practices",
+					description: {
+						text: "Get familiar with best practices when it comes to building Web Components.",
+						links: [
+							["Google Devs - Custom Element Best Practices", "https://developers.google.com/web/fundamentals/web-components/best-practices"],
+							["Webcomponents.org - Web Components Best Practices", "https://www.webcomponents.org/community/articles/web-components-best-practices"],
+							["mateusortiz - Web Components the Right Way", "https://github.com/mateusortiz/webcomponents-the-right-way"],
+							["dev.to - Making Web Components for Different Contexts", "https://dev.to/equinusocio/making-web-components-for-different-contexts-25ed"]
+						]
+					}
+				},
+				{
 					name: "Constructible Stylesheets",
 					description: {
-						text: "Learn how to use constructible stylesheets to create reusable styles when using shadow dom.",
+						text: "Learn how the Constructible Stylesheets proposal enables reusable styles when using shadow dom.",
 						links: [
 							["Google Devs - Constructable Stylesheets", "https://developers.google.com/web/updates/2019/02/constructable-stylesheets"],
 							["W3C - Constructable Stylesheet Objects", "https://wicg.github.io/construct-stylesheets/"],
@@ -87,21 +99,9 @@ export const webcomponentsCollection = {
 					}
 				},
 				{
-					name: "Best practices",
-					description: {
-						text: "Get familiar with best practices when it comes to building web components.",
-						links: [
-							["Google Devs - Custom Element Best Practices", "https://developers.google.com/web/fundamentals/web-components/best-practices"],
-							["Webcomponents.org - Web Components Best Practices", "https://www.webcomponents.org/community/articles/web-components-best-practices"],
-							["mateusortiz - Web Components the Right Way", "https://github.com/mateusortiz/webcomponents-the-right-way"],
-							["dev.to - Making Web Components for Different Contexts", "https://dev.to/equinusocio/making-web-components-for-different-contexts-25ed"]
-						]
-					}
-				},
-				{
 					name: "Form Participation",
 					description: {
-						text: "Learn how the form participation API proposal enables elements, other than built-in form control elements, to participate in form submission and validation.",
+						text: "Learn how the Form Participation API proposal enables elements, other than built-in form control elements, to participate in form submission and validation.",
 						links: [
 							["Form Participation API Explained", "https://docs.google.com/document/d/1JO8puctCSpW-ZYGU8lF-h4FWRIDQNDVexzHoOQ2iQmY/edit"],
 							["Chrome Status - Form-associated custom elements", "https://www.chromestatus.com/features/4708990554472448"],

@@ -501,7 +501,7 @@ export const modernCollection = {
 				{
 					name: "Native File System",
 					description: {
-						text: "Learn how to use the Native File System API to interact with files on the user's local device.",
+						text: "Learn how to the Native File System API proposal enables interacting with files on the user's local device.",
 						links: [
 							["Google Devs - The Native File System API", "https://developers.google.com/web/updates/2019/08/native-file-system"],
 							["Github - Native File System", "https://github.com/WICG/native-file-system/blob/master/EXPLAINER.md"],

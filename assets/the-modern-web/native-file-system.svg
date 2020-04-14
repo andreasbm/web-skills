@@ -3,7 +3,9 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>the-modern-web/native-file-system</title>
     <desc>Created with Sketch.</desc>
-    <defs></defs>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
+    </defs>
     <g id="the-modern-web/native-file-system" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="container" transform="translate(2.000000, 2.000000)" fill-rule="nonzero">
             <rect id="mask" stroke="#343B4E" stroke-width="2" fill="#FFFFFF" x="-1" y="-1" width="71" height="71" rx="14"></rect>
@@ -17,6 +19,22 @@
                     <rect id="Rectangle-path" x="0.36440678" y="0" width="7.28813559" height="1.45762712"></rect>
                     <rect id="Rectangle-path" x="0.36440678" y="2.91525424" width="11.6610169" height="1.45762712"></rect>
                     <rect id="Rectangle-path" x="0.36440678" y="5.83050847" width="11.6610169" height="1.45762712"></rect>
+                </g>
+            </g>
+        </g>
+        <g id="Group-2" transform="translate(2.000000, 2.000000)">
+            <g id="Rectangle-5">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Mask" fill-rule="nonzero"></g>
+                <g id="Group-3" mask="url(#mask-2)">
+                    <g transform="translate(48.500000, 14.000000) rotate(-330.000000) translate(-48.500000, -14.000000) translate(6.000000, 6.000000)">
+                        <rect id="Rectangle-5" stroke="#343B4E" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" transform="translate(42.530445, 8.258053) rotate(-90.000000) translate(-42.530445, -8.258053) " x="36" y="-33" width="13.0608891" height="82.5161056"></rect>
+                        <text id="PROPOSAL" stroke="none" fill="none" font-family="Rubik-Bold, Rubik" font-size="8" font-weight="bold">
+                            <tspan x="20.124" y="11" fill="#343B4E">PROPOSAL</tspan>
+                        </text>
+                    </g>
                 </g>
             </g>
         </g>

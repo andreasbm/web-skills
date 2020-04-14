@@ -119,14 +119,15 @@ export const pwaCollection = {
 					}
 				},
 				{
-					name: "Touch Events",
+					name: "Pointer Events",
 					description: {
-						text: "Learn how to respond to touch gestures in intuitive ways.",
+						text: "Learn how to handle inputs from pointing devices such as a mouse, pen/stylus or touch.",
 						links: [
-							["Google Devs - Add Touch to Your Site", "https://developers.google.com/web/fundamentals/design-and-ux/input/touch"],
-							["MDN - Touch Events", "https://developer.mozilla.org/en-US/docs/Web/API/Touch_events"],
 							["MDN - Pointer Events", "https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events"],
-							["Google Devs - Touch Action Options", "https://developers.google.com/web/updates/2016/10/touch-action"]
+							["Google Devs - Add Touch to Your Site", "https://developers.google.com/web/fundamentals/design-and-ux/input/touch"],
+							["Google Devs - Pointing the Way Forward", "https://developers.google.com/web/updates/2016/10/pointer-events"],
+							["Google Devs - Touch Action Options", "https://developers.google.com/web/updates/2016/10/touch-action"],
+							["W3C - Pointer Events", "https://www.w3.org/TR/pointerevents/"]
 						]
 					}
 				}
