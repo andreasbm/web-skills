@@ -114,8 +114,7 @@ export const pwaCollection = {
 						links: [
 							["web.dev - Installable", "https://web.dev/installable"],
 							["Google Devs - App Install Banners", "https://developers.google.com/web/fundamentals/app-install-banners/"],
-							["MDN - Add to Home screen", "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Add_to_home_screen"],
-							["web.dev - Provide a custom install experience", "https://web.dev/customize-install/"],
+							["MDN - Add to Home screen", "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Add_to_home_screen"]
 						]
 					}
 				},
