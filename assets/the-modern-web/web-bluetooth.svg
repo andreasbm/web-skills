@@ -16,18 +16,17 @@
             <path d="M15.9107135,20.9590643 L21.5531228,15.1020702 C22.0602339,14.5757193 22.0602339,13.7425146 21.5531228,13.2162456 L15.0021871,6.41625731 C14.6174737,6.0171345 14.0289825,5.89154386 13.515076,6.09876023 C13.0010058,6.30605848 12.664269,6.80481871 12.664269,7.35916959 L12.664269,17.5892398 L8.40433918,13.1673684 C7.88363743,12.6270994 7.02333333,12.610807 6.4825731,13.1315088 C5.94205848,13.6522924 5.9260117,14.5125965 6.44679532,15.0532749 L12.1361988,20.9589825 L6.44679532,26.8646901 C5.92609357,27.4053684 5.94214035,28.2655906 6.4825731,28.7864561 C6.74619883,29.0405029 7.08596491,29.1667485 7.42532164,29.1667485 C7.7817076,29.1667485 8.1374386,29.0274854 8.40433918,28.7505965 L12.664269,24.3287251 L12.664269,34.5587135 C12.664269,35.1130643 13.000924,35.6118246 13.515076,35.8191228 C13.6798012,35.8855205 13.8522222,35.9178596 14.0230877,35.9178596 C14.3852865,35.9177778 14.7408538,35.7727836 15.0021871,35.5016257 L21.5531228,28.7016374 C22.0602339,28.1752865 22.0602339,27.3420819 21.5531228,26.8158129 L15.9107135,20.9590643 Z M15.3825614,10.7289123 L18.6872982,14.1592398 L15.3825614,17.5895673 L15.3825614,10.7289123 Z M15.3825614,31.1892164 L15.3825614,24.3285614 L18.6872982,27.7588889 L15.3825614,31.1892164 Z" id="Shape" fill="#FFFFFF"></path>
         </g>
         <g id="Group-2" transform="translate(2.000000, 2.000000)">
-            <g id="Rectangle-5">
-                <mask id="mask-2" fill="white">
-                    <use xlink:href="#path-1"></use>
-                </mask>
-                <g id="Mask" fill-rule="nonzero"></g>
-                <g id="Group-3" mask="url(#mask-2)">
-                    <g transform="translate(36.937822, 15.366025) rotate(-330.000000) translate(-36.937822, -15.366025) translate(-12.562178, 6.366025)">
-                        <rect id="Rectangle-5" stroke="#00345A" stroke-width="2" fill-opacity="0.8" fill="#FFFFFF" fill-rule="nonzero" transform="translate(49.394249, 8.863804) rotate(-90.000000) translate(-49.394249, -8.863804) " x="42.2580528" y="-39.5304446" width="14.2723918" height="96.7884973"></rect>
-                        <text id="EXPERIMENTAL" stroke="none" fill="none" font-family="Rubik-Bold, Rubik" font-size="7" font-weight="bold">
-                            <tspan x="28.588" y="11.3339746" fill="#00345A">EXPERIMENTAL</tspan>
-                        </text>
-                    </g>
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Mask" fill-rule="nonzero"></g>
+            <g id="Group-3" mask="url(#mask-2)">
+                <g transform="translate(36.179470, 18.534830) rotate(21.000000) translate(-36.179470, -18.534830) translate(-13.820530, 10.034830)">
+                    <rect id="Rectangle-5" stroke="#00345A" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" transform="translate(50.136196, 8.394249) rotate(-90.000000) translate(-50.136196, -8.394249) " x="43" y="-40" width="14.2723918" height="96.7884973"></rect>
+                    <text id="EXPERIMENTAL" stroke="none" fill="none" font-family="Rubik-Bold, Rubik" font-size="8" font-weight="bold" letter-spacing="0.100000001">
+                        <tspan x="19.406" y="11" fill="#00345A">EXPERIMENTA</tspan>
+                        <tspan x="77.794" y="11" fill="#00345A">L</tspan>
+                    </text>
                 </g>
             </g>
         </g>

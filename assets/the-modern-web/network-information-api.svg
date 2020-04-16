@@ -24,18 +24,17 @@
             <path d="M37.5,37.5211914 C37.0396484,37.5211914 36.6666992,37.1481445 36.6666992,36.6878906 L36.6666992,33.6498047 C36.6666992,33.1894531 37.0397461,32.8165039 37.5,32.8165039 C37.9603516,32.8165039 38.3333008,33.1895508 38.3333008,33.6498047 L38.3333008,36.6878906 C38.3333008,37.1481445 37.9603516,37.5211914 37.5,37.5211914 Z" id="Shape" fill="#FFFFFF"></path>
         </g>
         <g id="Group-2" transform="translate(2.000000, 2.000000)">
-            <g id="Rectangle-5">
-                <mask id="mask-2" fill="white">
-                    <use xlink:href="#path-1"></use>
-                </mask>
-                <g id="Mask" fill-rule="nonzero"></g>
-                <g id="Group-3" mask="url(#mask-2)">
-                    <g transform="translate(36.937822, 15.366025) rotate(-330.000000) translate(-36.937822, -15.366025) translate(-12.562178, 6.366025)">
-                        <rect id="Rectangle-5" stroke="#1B4145" stroke-width="2" fill-opacity="0.8" fill="#FFFFFF" fill-rule="nonzero" transform="translate(49.394249, 8.863804) rotate(-90.000000) translate(-49.394249, -8.863804) " x="42.2580528" y="-39.5304446" width="14.2723918" height="96.7884973"></rect>
-                        <text id="EXPERIMENTAL" stroke="none" fill="none" font-family="Rubik-Bold, Rubik" font-size="7" font-weight="bold">
-                            <tspan x="28.588" y="11.3339746" fill="#1B4145">EXPERIMENTAL</tspan>
-                        </text>
-                    </g>
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Mask" fill-rule="nonzero"></g>
+            <g id="Group-3" mask="url(#mask-2)">
+                <g transform="translate(36.179470, 18.534830) rotate(21.000000) translate(-36.179470, -18.534830) translate(-13.820530, 10.034830)">
+                    <rect id="Rectangle-5" stroke="#1B4145" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" transform="translate(50.136196, 8.394249) rotate(-90.000000) translate(-50.136196, -8.394249) " x="43" y="-40" width="14.2723918" height="96.7884973"></rect>
+                    <text id="EXPERIMENTAL" stroke="none" fill="none" font-family="Rubik-Bold, Rubik" font-size="8" font-weight="bold" letter-spacing="0.100000001">
+                        <tspan x="19.406" y="11" fill="#1B4145">EXPERIMENTA</tspan>
+                        <tspan x="77.794" y="11" fill="#1B4145">L</tspan>
+                    </text>
                 </g>
             </g>
         </g>
