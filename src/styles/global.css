@@ -10,8 +10,9 @@ html {
 
 	--background-opaque: rgba(11, 11, 25, 0.9);
 
-	--link: rgb(51, 102, 255);
-	--link-visited: rgb(43, 85, 197);
+
+	--link: rgb(92, 133, 255);
+	--link-visited: rgb(92, 133, 255);
 
 	--white: rgb(255, 255, 255);
 	--black: rgb(0, 0, 0);

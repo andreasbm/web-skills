@@ -29,10 +29,10 @@
                 </mask>
                 <g id="Mask" fill-rule="nonzero"></g>
                 <g id="Group-3" mask="url(#mask-2)">
-                    <g transform="translate(48.500000, 14.000000) rotate(-330.000000) translate(-48.500000, -14.000000) translate(6.000000, 6.000000)">
-                        <rect id="Rectangle-5" stroke="#343B4E" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" transform="translate(42.530445, 8.258053) rotate(-90.000000) translate(-42.530445, -8.258053) " x="36" y="-33" width="13.0608891" height="82.5161056"></rect>
-                        <text id="PROPOSAL" stroke="none" fill="none" font-family="Rubik-Bold, Rubik" font-size="8" font-weight="bold">
-                            <tspan x="20.124" y="11" fill="#343B4E">PROPOSAL</tspan>
+                    <g transform="translate(36.937822, 15.366025) rotate(-330.000000) translate(-36.937822, -15.366025) translate(-12.562178, 6.366025)">
+                        <rect id="Rectangle-5" stroke="#343B4E" stroke-width="2" fill-opacity="0.8" fill="#FFFFFF" fill-rule="nonzero" transform="translate(49.394249, 8.863804) rotate(-90.000000) translate(-49.394249, -8.863804) " x="42.2580528" y="-39.5304446" width="14.2723918" height="96.7884973"></rect>
+                        <text id="EXPERIMENTAL" stroke="none" fill="none" font-family="Rubik-Bold, Rubik" font-size="7" font-weight="bold">
+                            <tspan x="28.588" y="11.3339746" fill="#343B4E">EXPERIMENTAL</tspan>
                         </text>
                     </g>
                 </g>

@@ -157,18 +157,6 @@ export const modernCollection = {
 					}
 				},
 				{
-					name: "Web XR",
-					description: {
-						text: "Learn how to use Web XR for virtual- and augmented reality experiences.",
-						links: [
-							["MDN - WebXR Device API", "https://developer.mozilla.org/en-US/docs/Web/API/WebXR_Device_API"],
-							["Google Devs - Welcome to the immersive web", "https://developers.google.com/web/updates/2018/05/welcome-to-immersive"],
-							["New API to Bring Augmented Reality to the Web", "https://hacks.mozilla.org/2018/09/webxr/"],
-							["W3C - WebXR Device API", "https://immersive-web.github.io/webxr/"],
-						]
-					},
-				},
-				{
 					name: "HTTP/2",
 					description: {
 						text: "Learn about the faster and more convenient HTTP/2 protocol.",
@@ -207,88 +195,6 @@ export const modernCollection = {
 							["Alligator - Your First Steps with the Web Audio API", "https://alligator.io/js/first-steps-web-audio-api/"],
 						]
 					}
-				},
-				{
-					name: "Web Bluetooth",
-					description: {
-						text: "Learn how to use the Web Bluetooth API to connect with nearby devices.",
-						links: [
-							["MDN - Web Bluetooth API", "https://developer.mozilla.org/en-US/docs/Web/API/Web_Bluetooth_API"],
-							["Google Devs - Interact with Bluetooth devices", "https://developers.google.com/web/updates/2015/07/interact-with-ble-devices-on-the-web"],
-							["What Web Can Do Today -	Bluetooth", "https://whatwebcando.today/bluetooth.html"],
-							["W3C - Web Bluetooth", "https://webbluetoothcg.github.io/web-bluetooth/"],
-							["Web Bluetooth Samples", "https://googlechrome.github.io/samples/web-bluetooth/"],
-						]
-					},
-				},
-				{
-					name: "Web USB",
-					description: {
-						text: "Learn how to use the Web USB API to connect with hardware through a cable.",
-						links: [
-							["MDN - USB", "https://developer.mozilla.org/en-US/docs/Web/API/USB"],
-							["WICG - Web USB", "https://github.com/WICG/webusb"],
-							["Google Devs - Access USB Devices on the Web", "https://developers.google.com/web/updates/2016/03/access-usb-devices-on-the-web"],
-							["What Web Can Do Today -	Web USB", "https://whatwebcando.today/usb.html"],
-						]
-					},
-				},
-				{
-					name: "Credentials Manager API",
-					description: {
-						text: "Learn about the Credentials Manager API and how it can help you authenticating users.",
-						links: [
-							["MDN - Credential Management API", "https://developer.mozilla.org/en-US/docs/Web/API/Credential_Management_API"],
-							["Google Devs - The Credential Management API", "https://developers.google.com/web/fundamentals/security/credential-management"],
-							["Google Devs - Sign in Users", "https://developers.google.com/web/fundamentals/security/credential-management/retrieve-credentials"],
-							["Google Devs - Save Credentials from Forms", "https://developers.google.com/web/fundamentals/security/credential-management/save-forms"],
-							["What Web Can Do Today - Credentials", "https://whatwebcando.today/credentials.html"],
-						]
-					},
-					skills: [
-						{
-							name: "Web Authentication API",
-							description: {
-								text: "Learn how to use the Web Authentication API to provide a strong authentication with public key cryptography.",
-								links: [
-									["MDN - Web Authentication API", "https://developer.mozilla.org/en-US/docs/Web/API/Web_Authentication_API"],
-									["W3C - Web Authentication: An API for accessing Public Key Credentials", "https://www.w3.org/TR/webauthn-2/"],
-									["Google Devs - Enabling Strong Authentication with WebAuthn", "https://developers.google.com/web/updates/2018/05/webauthn"],
-									["Introduction to Web Authentication: The New W3C Spec", "https://auth0.com/blog/introduction-to-web-authentication/"],
-									["Microsoft - Web Authentication and Windows Hello", "https://docs.microsoft.com/en-us/microsoft-edge/dev-guide/windows-integration/web-authentication"],
-									["Web Authentication: What It Is and What It Means for Passwords", "https://duo.com/blog/web-authentication-what-it-is-and-what-it-means-for-passwords"],
-								]
-							},
-						}
-					]
-				},
-				{
-					name: "Houdini",
-					description: {
-						text: "Learn about the Houdini project and get excited about the future of CSS.",
-						links: [
-							["Google Devs - Houdini, Demystifying CSS", "https://developers.google.com/web/updates/2016/05/houdini"],
-							["web.dev - Smarter custom properties", "https://web.dev/css-props-and-vals/"],
-							["CSS Houdini Experiments", "https://css-houdini.rocks/"],
-							["Interactive Introduction to CSS Houdini", "http://houdini.glitch.me/"],
-							["W3C - CSS Houdini Wiki", "https://github.com/w3c/css-houdini-drafts/wiki"],
-							["Google Devs - Houdini's Animation Worklet", "https://developers.google.com/web/updates/2018/10/animation-worklet"],
-						]
-					}
-				},
-				{
-					name: "Project Fugu",
-					description: {
-						text: "Learn about Project Fugu project and get excited about the future of the web.",
-						links: [
-							["Our commitment to a more capable web", "https://blog.chromium.org/2018/11/our-commitment-to-more-capable-web.html"],
-							["Web Capabilities (Fugu)", "https://www.chromium.org/teams/web-capabilities-fugu"],
-							["Chromium Bugs - Fugu", "https://bugs.chromium.org/p/chromium/issues/list?q=proj-fugu"],
-							["Google Devs - Unlocking new capabilities for the web", "https://developers.google.com/web/updates/capabilities"],
-							["Youtube - Unlocking New Capabilities for the Web", "https://www.youtube.com/watch?v=GSiUzuB-PoI"],
-							["Controlling Access to Powerful Web Platform Features", "https://chromium.googlesource.com/chromium/src/+/f384207e04ad27f58287e972907f17ad66acc115/docs/security/permissions-for-powerful-web-platform-features.md"],
-						]
-					},
 				},
 				{
 					name: "Observers",
@@ -446,19 +352,6 @@ export const modernCollection = {
 					}
 				},
 				{
-					name: "Network Information API",
-					description: {
-						text: "Learn how the Network Information API can give you information about the state of the network of your users.",
-						links: [
-							["MDN - Network Information API", "https://developer.mozilla.org/en-US/docs/Web/API/Network_Information_API"],
-							["Addy Osmani - Adaptive Serving", "https://addyosmani.com/blog/adaptive-serving/"],
-							["W3C - Network Information API", "https://wicg.github.io/netinfo/"],
-							["Network Information API Sample", "https://googlechrome.github.io/samples/network-information/"],
-							["What Web Can Do Today - Network Type & Speed", "https://whatwebcando.today/network-type-speed.html"],
-						]
-					},
-				},
-				{
 					name: "Speech Recognition",
 					description: {
 						text: "Learn how to use the Speech Recognition API to analyze speech.",
@@ -487,32 +380,6 @@ export const modernCollection = {
 					},
 				},
 				{
-					name: "Presentation",
-					description: {
-						text: "Learn how to use the Presentation API to allow your web app to use the presentation display mode in the browser or at an external display device.",
-						links: [
-							["MDN - Presentation API", "https://developer.mozilla.org/en-US/docs/Web/API/Presentation_API"],
-							["What Web Can Do Today - Presentation Features", "https://whatwebcando.today/presentation.html"],
-							["Google Devs - Present web pages to secondary attached displays", "https://developers.google.com/web/updates/2018/04/present-web-pages-to-secondary-attached-displays"],
-							["W3C - Presentation API", "https://w3c.github.io/presentation-api"],
-						]
-					},
-				},
-				{
-					name: "Native File System",
-					description: {
-						text: "Learn how to the Native File System API proposal enables interacting with files on the user's local device.",
-						links: [
-							["Google Devs - The Native File System API", "https://developers.google.com/web/updates/2019/08/native-file-system"],
-							["Github - Native File System", "https://github.com/WICG/native-file-system/blob/master/EXPLAINER.md"],
-							["W3C - Native File System", "https://wicg.github.io/native-file-system/"],
-							["Native File System Web API - Chromium Security Model", "https://docs.google.com/document/d/1NJFd-EWdUlQ7wVzjqcgXewqC5nzv_qII4OvlDtK6SE8/edit#heading=h.7nki9mck5t64"],
-							["Chromestatus - Native File System", "https://www.chromestatus.com/feature/6284708426022912"],
-							["W3C - File API", "https://w3c.github.io/FileAPI/"],
-						]
-					},
-				},
-				{
 					name: "Browser Extensions",
 					description: {
 						text: "Learn how to build browser extensions to enhance the functionality of your browser.",
@@ -521,19 +388,6 @@ export const modernCollection = {
 							["Chrome - What are extensions?", "https://developer.chrome.com/extensions"],
 							["Chrome - Getting Started with Extensions", "https://developer.chrome.com/extensions/getstarted"],
 							["Youtube - Google Chrome Extensions", "https://www.youtube.com/view_play_list?p=CA101D6A85FE9D4B"],
-						]
-					},
-				},
-				{
-					name: "Shape Detection",
-					description: {
-						text: "Learn how to use the Shape Detection API to detect shapes such as faces or barcodes in pictures.",
-						links: [
-							["W3C - Accelerated Shape Detection in Images", "https://wicg.github.io/shape-detection-api/"],
-							["Google Devs - A Picture is Worth a Thousand Words", "https://developers.google.com/web/updates/2019/01/shape-detection"],
-							["Github - Shape Detection API Specification", "https://github.com/WICG/shape-detection-api"],
-							["Introduction to the Shape Detection API", "https://blog.arnellebalane.com/introduction-to-the-shape-detection-api-e07425396861"],
-							["Face detection using Shape Detection API", "https://paul.kinlan.me/face-detection/"],
 						]
 					},
 				},
@@ -573,7 +427,153 @@ export const modernCollection = {
 							["Medium - How to use JavaScript Proxies for Fun and Profit", "https://medium.com/dailyjs/how-to-use-javascript-proxies-for-fun-and-profit-365579d4a9f8"],
 						]
 					},
-				}
+				},
+				{
+					name: "Houdini",
+					description: {
+						text: "Learn about the Houdini project and get excited about the future of CSS.",
+						links: [
+							["Google Devs - Houdini, Demystifying CSS", "https://developers.google.com/web/updates/2016/05/houdini"],
+							["web.dev - Smarter custom properties", "https://web.dev/css-props-and-vals/"],
+							["CSS Houdini Experiments", "https://css-houdini.rocks/"],
+							["Interactive Introduction to CSS Houdini", "http://houdini.glitch.me/"],
+							["W3C - CSS Houdini Wiki", "https://github.com/w3c/css-houdini-drafts/wiki"],
+							["Google Devs - Houdini's Animation Worklet", "https://developers.google.com/web/updates/2018/10/animation-worklet"],
+						]
+					}
+				},
+				{
+					name: "Project Fugu",
+					description: {
+						text: "Learn about Project Fugu project and get excited about the future of the web.",
+						links: [
+							["Our commitment to a more capable web", "https://blog.chromium.org/2018/11/our-commitment-to-more-capable-web.html"],
+							["Web Capabilities (Fugu)", "https://www.chromium.org/teams/web-capabilities-fugu"],
+							["Chromium Bugs - Fugu", "https://bugs.chromium.org/p/chromium/issues/list?q=proj-fugu"],
+							["Google Devs - Unlocking new capabilities for the web", "https://developers.google.com/web/updates/capabilities"],
+							["Youtube - Unlocking New Capabilities for the Web", "https://www.youtube.com/watch?v=GSiUzuB-PoI"],
+							["Controlling Access to Powerful Web Platform Features", "https://chromium.googlesource.com/chromium/src/+/f384207e04ad27f58287e972907f17ad66acc115/docs/security/permissions-for-powerful-web-platform-features.md"],
+						]
+					},
+				},
+				{
+					name: "Web Authentication API",
+					description: {
+						text: "Learn how to use the Web Authentication API to provide a strong authentication with public key cryptography.",
+						links: [
+							["MDN - Web Authentication API", "https://developer.mozilla.org/en-US/docs/Web/API/Web_Authentication_API"],
+							["W3C - Web Authentication: An API for accessing Public Key Credentials", "https://www.w3.org/TR/webauthn-2/"],
+							["Google Devs - Enabling Strong Authentication with WebAuthn", "https://developers.google.com/web/updates/2018/05/webauthn"],
+							["Introduction to Web Authentication: The New W3C Spec", "https://auth0.com/blog/introduction-to-web-authentication/"],
+							["Microsoft - Web Authentication and Windows Hello", "https://docs.microsoft.com/en-us/microsoft-edge/dev-guide/windows-integration/web-authentication"],
+							["Web Authentication: What It Is and What It Means for Passwords", "https://duo.com/blog/web-authentication-what-it-is-and-what-it-means-for-passwords"],
+						]
+					},
+					skills: [
+						{
+							name: "Credentials Manager API",
+							description: {
+								text: "Learn about the Credentials Manager API proposal and how it can help authenticating users.",
+								links: [
+									["MDN - Credential Management API", "https://developer.mozilla.org/en-US/docs/Web/API/Credential_Management_API"],
+									["Google Devs - The Credential Management API", "https://developers.google.com/web/fundamentals/security/credential-management"],
+									["Google Devs - Sign in Users", "https://developers.google.com/web/fundamentals/security/credential-management/retrieve-credentials"],
+									["Google Devs - Save Credentials from Forms", "https://developers.google.com/web/fundamentals/security/credential-management/save-forms"],
+									["What Web Can Do Today - Credentials", "https://whatwebcando.today/credentials.html"],
+								]
+							}
+						}
+					]
+				},
+				{
+					name: "Native File System",
+					description: {
+						text: "Learn how to the Native File System API proposal enables interacting with files on the user's local device.",
+						links: [
+							["Google Devs - The Native File System API", "https://developers.google.com/web/updates/2019/08/native-file-system"],
+							["Github - Native File System", "https://github.com/WICG/native-file-system/blob/master/EXPLAINER.md"],
+							["W3C - Native File System", "https://wicg.github.io/native-file-system/"],
+							["Native File System Web API - Chromium Security Model", "https://docs.google.com/document/d/1NJFd-EWdUlQ7wVzjqcgXewqC5nzv_qII4OvlDtK6SE8/edit#heading=h.7nki9mck5t64"],
+							["Chromestatus - Native File System", "https://www.chromestatus.com/feature/6284708426022912"],
+							["W3C - File API", "https://w3c.github.io/FileAPI/"],
+						]
+					},
+				},
+				{
+					name: "Shape Detection",
+					description: {
+						text: "Learn how to use the Shape Detection API to detect shapes such as faces or barcodes in pictures.",
+						links: [
+							["W3C - Accelerated Shape Detection in Images", "https://wicg.github.io/shape-detection-api/"],
+							["web.dev - A Picture is Worth a Thousand Words", "https://web.dev/shape-detection/"],
+							["Github - Shape Detection API Specification", "https://github.com/WICG/shape-detection-api"],
+							["Introduction to the Shape Detection API", "https://blog.arnellebalane.com/introduction-to-the-shape-detection-api-e07425396861"],
+							["Face detection using Shape Detection API", "https://paul.kinlan.me/face-detection/"],
+						]
+					},
+				},
+				{
+					name: "Web Bluetooth",
+					description: {
+						text: "Learn how to use the Web Bluetooth API proposal can be used to connect with nearby devices.",
+						links: [
+							["MDN - Web Bluetooth API", "https://developer.mozilla.org/en-US/docs/Web/API/Web_Bluetooth_API"],
+							["Google Devs - Interact with Bluetooth devices", "https://developers.google.com/web/updates/2015/07/interact-with-ble-devices-on-the-web"],
+							["What Web Can Do Today -	Bluetooth", "https://whatwebcando.today/bluetooth.html"],
+							["W3C - Web Bluetooth", "https://webbluetoothcg.github.io/web-bluetooth/"],
+							["Web Bluetooth Samples", "https://googlechrome.github.io/samples/web-bluetooth/"],
+						]
+					},
+				},
+				{
+					name: "Web USB",
+					description: {
+						text: "Learn how to use the Web USB API proposal can be used to connect with hardware through a cable.",
+						links: [
+							["MDN - USB", "https://developer.mozilla.org/en-US/docs/Web/API/USB"],
+							["WICG - Web USB", "https://github.com/WICG/webusb"],
+							["Google Devs - Access USB Devices on the Web", "https://developers.google.com/web/updates/2016/03/access-usb-devices-on-the-web"],
+							["What Web Can Do Today -	Web USB", "https://whatwebcando.today/usb.html"],
+						]
+					},
+				},
+				{
+					name: "Web XR",
+					description: {
+						text: "Learn how to use Web XR API proposal for virtual- and augmented reality experiences.",
+						links: [
+							["MDN - WebXR Device API", "https://developer.mozilla.org/en-US/docs/Web/API/WebXR_Device_API"],
+							["Google Devs - Welcome to the immersive web", "https://developers.google.com/web/updates/2018/05/welcome-to-immersive"],
+							["New API to Bring Augmented Reality to the Web", "https://hacks.mozilla.org/2018/09/webxr/"],
+							["W3C - WebXR Device API", "https://immersive-web.github.io/webxr/"],
+						]
+					},
+				},
+				{
+					name: "Presentation",
+					description: {
+						text: "Learn how to use the Presentation API proposal to allow your web app to use the presentation display mode in the browser or at an external display device.",
+						links: [
+							["MDN - Presentation API", "https://developer.mozilla.org/en-US/docs/Web/API/Presentation_API"],
+							["What Web Can Do Today - Presentation Features", "https://whatwebcando.today/presentation.html"],
+							["Google Devs - Present web pages to secondary attached displays", "https://developers.google.com/web/updates/2018/04/present-web-pages-to-secondary-attached-displays"],
+							["W3C - Presentation API", "https://w3c.github.io/presentation-api"],
+						]
+					},
+				},
+				{
+					name: "Network Information API",
+					description: {
+						text: "Learn how the Network Information API can give you information about the state of the network of your users.",
+						links: [
+							["MDN - Network Information API", "https://developer.mozilla.org/en-US/docs/Web/API/Network_Information_API"],
+							["Addy Osmani - Adaptive Serving", "https://addyosmani.com/blog/adaptive-serving/"],
+							["W3C - Network Information API", "https://wicg.github.io/netinfo/"],
+							["Network Information API Sample", "https://googlechrome.github.io/samples/network-information/"],
+							["What Web Can Do Today - Network Type & Speed", "https://whatwebcando.today/network-type-speed.html"],
+						]
+					},
+				},
 				// SMS Receiver API - https://web.dev/sms-receiver-api-announcement/
 				// Badging API - https://web.dev/badging-api/
 				// Contacts API - https://web.dev/contact-picker/

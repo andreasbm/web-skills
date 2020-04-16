@@ -3,7 +3,9 @@
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>the-modern-web/shape-detection</title>
     <desc>Created with Sketch.</desc>
-    <defs></defs>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="69" height="69" rx="14"></rect>
+    </defs>
     <g id="the-modern-web/shape-detection" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="container" transform="translate(2.000000, 2.000000)" fill-rule="nonzero">
             <rect id="mask" stroke="#011840" stroke-width="2" fill="#FFFFFF" x="-1" y="-1" width="71" height="71" rx="14"></rect>
@@ -44,6 +46,22 @@
                 <path d="M30.46875,33.8203125 C29.6274062,33.8203125 28.9453125,34.5024062 28.9453125,35.34375 L28.9453125,41.640625 L26,41.640625 L26,44.6875 L30.46875,44.6875 C31.3100938,44.6875 31.9921875,44.0054063 31.9921875,43.1640625 L31.9921875,35.34375 C31.9921875,34.5024062 31.3100938,33.8203125 30.46875,33.8203125 Z" id="Shape" fill="#00215A"></path>
                 <path d="M48.9023438,27.5234375 L3.09765625,27.5234375 C2.2563125,27.5234375 1.57421875,26.8413438 1.57421875,26 C1.57421875,25.1586562 2.2563125,24.4765625 3.09765625,24.4765625 L48.9023438,24.4765625 C49.7436875,24.4765625 50.4257812,25.1586562 50.4257812,26 C50.4257812,26.8413438 49.7436875,27.5234375 48.9023438,27.5234375 Z" id="Shape" fill="#F90053"></path>
                 <path d="M48.9023438,24.4765625 L26,24.4765625 L26,27.5234375 L48.9023438,27.5234375 C49.7436875,27.5234375 50.4257812,26.8413438 50.4257812,26 C50.4257812,25.1586562 49.7436875,24.4765625 48.9023438,24.4765625 Z" id="Shape" fill="#A50043"></path>
+            </g>
+        </g>
+        <g id="Group-2" transform="translate(2.000000, 2.000000)">
+            <g id="Rectangle-5">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Mask" fill-rule="nonzero"></g>
+                <g id="Group-3" mask="url(#mask-2)">
+                    <g transform="translate(36.937822, 15.366025) rotate(-330.000000) translate(-36.937822, -15.366025) translate(-12.562178, 6.366025)">
+                        <rect id="Rectangle-5" stroke="#011840" stroke-width="2" fill-opacity="0.8" fill="#FFFFFF" fill-rule="nonzero" transform="translate(49.394249, 8.863804) rotate(-90.000000) translate(-49.394249, -8.863804) " x="42.2580528" y="-39.5304446" width="14.2723918" height="96.7884973"></rect>
+                        <text id="EXPERIMENTAL" stroke="none" fill="none" font-family="Rubik-Bold, Rubik" font-size="7" font-weight="bold">
+                            <tspan x="28.588" y="11.3339746" fill="#011840">EXPERIMENTAL</tspan>
+                        </text>
+                    </g>
+                </g>
             </g>
         </g>
     </g>
