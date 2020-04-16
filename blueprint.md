@@ -44,6 +44,10 @@ I totally understand if you are a bit overwhelmed by the amount of skills on the
 
 The skills are based on what I personally find to be the most useful on a day-to-day basis. If you think something really important is missing, you can always suggest it on the [issues page](https://github.com/andreasbm/web-skills/issues).
 
+### What does the "experimental" banner mean?
+
+When a skill is described as experimental, it means that the technology is immature and currently in the process of being added to the Web platform (or considered for addition). Think carefully before you start using experimental technology in any kind of production project. The definition used in Web Skills is based on the excellent definition used on [MDN](https://developer.mozilla.org/en-US/docs/MDN/Contribute/Guidelines/Conventions_definitions#Experimental). You are very welcome to open an issue if you see a skill you believe should be marked as "experimental" or have the banner removed.
+
 ### How can I get in contact with you?
 
 Reach out to me on Twitter at [@AndreasMehlsen](https://twitter.com/AndreasMehlsen) or take a look at [my website](https://andreasbm.github.io) if you want to learn more about what other projects I'm working on.
@@ -580,6 +584,7 @@ Learn how it is possible to use polyfills to increase the browser support for yo
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdeveloper.mozilla.org" alt="Logo" /> MDN - Polyfill](https://developer.mozilla.org/en-US/docs/Glossary/Polyfill)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fmedium.com" alt="Logo" /> Introduction To Polyfills & Their Usage](https://medium.com/beginners-guide-to-mobile-web-development/introduction-to-polyfills-their-usage-9cd6db4b1923)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwww.w3.org" alt="Logo" /> W3C - Polyfills and the evolution of the Web](https://www.w3.org/2001/tag/doc/polyfills/)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=http%3A%2F%2Fcaniuse.com" alt="Logo" /> Can I use](http://caniuse.com/)
 
 ### Debugging
 
@@ -2286,15 +2291,6 @@ Learn how to use variable fonts and how it is possible to customize fonts withou
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdevelopers.google.com" alt="Logo" /> Google Devs - Introduction to variable fonts](https://developers.google.com/web/fundamentals/design-and-ux/typography/variable-fonts)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwww.youtube.com" alt="Logo" /> Supercharged - Variable Fonts](https://www.youtube.com/watch?v=B42rUMdcB7c)
 
-### Web XR
-
-Learn how to use Web XR for virtual- and augmented reality experiences.
-
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdeveloper.mozilla.org" alt="Logo" /> MDN - WebXR Device API](https://developer.mozilla.org/en-US/docs/Web/API/WebXR_Device_API)
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdevelopers.google.com" alt="Logo" /> Google Devs - Welcome to the immersive web](https://developers.google.com/web/updates/2018/05/welcome-to-immersive)
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fhacks.mozilla.org" alt="Logo" /> New API to Bring Augmented Reality to the Web](https://hacks.mozilla.org/2018/09/webxr/)
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fimmersive-web.github.io" alt="Logo" /> W3C - WebXR Device API](https://immersive-web.github.io/webxr/)
-
 ### HTTP/2
 
 Learn about the faster and more convenient HTTP/2 protocol.
@@ -2325,68 +2321,6 @@ Learn how to use the Web Audio API to add audio to your web app.
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwww.html5rocks.com" alt="Logo" /> HTML5 Rocks - Getting Started with Web Audio API](https://www.html5rocks.com/en/tutorials/webaudio/intro/)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fmedium.com" alt="Logo" /> All You Need to Know About the Web Audio API](https://medium.com/better-programming/all-you-need-to-know-about-the-web-audio-api-3df170559378)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Falligator.io" alt="Logo" /> Alligator - Your First Steps with the Web Audio API](https://alligator.io/js/first-steps-web-audio-api/)
-
-### Web Bluetooth
-
-Learn how to use the Web Bluetooth API to connect with nearby devices.
-
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdeveloper.mozilla.org" alt="Logo" /> MDN - Web Bluetooth API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Bluetooth_API)
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdevelopers.google.com" alt="Logo" /> Google Devs - Interact with Bluetooth devices](https://developers.google.com/web/updates/2015/07/interact-with-ble-devices-on-the-web)
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwhatwebcando.today" alt="Logo" /> What Web Can Do Today -	Bluetooth](https://whatwebcando.today/bluetooth.html)
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwebbluetoothcg.github.io" alt="Logo" /> W3C - Web Bluetooth](https://webbluetoothcg.github.io/web-bluetooth/)
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fgooglechrome.github.io" alt="Logo" /> Web Bluetooth Samples](https://googlechrome.github.io/samples/web-bluetooth/)
-
-### Web USB
-
-Learn how to use the Web USB API to connect with hardware through a cable.
-
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdeveloper.mozilla.org" alt="Logo" /> MDN - USB](https://developer.mozilla.org/en-US/docs/Web/API/USB)
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fgithub.com" alt="Logo" /> WICG - Web USB](https://github.com/WICG/webusb)
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdevelopers.google.com" alt="Logo" /> Google Devs - Access USB Devices on the Web](https://developers.google.com/web/updates/2016/03/access-usb-devices-on-the-web)
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwhatwebcando.today" alt="Logo" /> What Web Can Do Today -	Web USB](https://whatwebcando.today/usb.html)
-
-### Credentials Manager API
-
-Learn about the Credentials Manager API and how it can help you authenticating users.
-
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdeveloper.mozilla.org" alt="Logo" /> MDN - Credential Management API](https://developer.mozilla.org/en-US/docs/Web/API/Credential_Management_API)
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdevelopers.google.com" alt="Logo" /> Google Devs - The Credential Management API](https://developers.google.com/web/fundamentals/security/credential-management)
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdevelopers.google.com" alt="Logo" /> Google Devs - Sign in Users](https://developers.google.com/web/fundamentals/security/credential-management/retrieve-credentials)
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdevelopers.google.com" alt="Logo" /> Google Devs - Save Credentials from Forms](https://developers.google.com/web/fundamentals/security/credential-management/save-forms)
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwhatwebcando.today" alt="Logo" /> What Web Can Do Today - Credentials](https://whatwebcando.today/credentials.html)
-
-#### Web Authentication API
-
-Learn how to use the Web Authentication API to provide a strong authentication with public key cryptography.
-
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdeveloper.mozilla.org" alt="Logo" /> MDN - Web Authentication API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Authentication_API)
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwww.w3.org" alt="Logo" /> W3C - Web Authentication: An API for accessing Public Key Credentials](https://www.w3.org/TR/webauthn-2/)
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdevelopers.google.com" alt="Logo" /> Google Devs - Enabling Strong Authentication with WebAuthn](https://developers.google.com/web/updates/2018/05/webauthn)
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fauth0.com" alt="Logo" /> Introduction to Web Authentication: The New W3C Spec](https://auth0.com/blog/introduction-to-web-authentication/)
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdocs.microsoft.com" alt="Logo" /> Microsoft - Web Authentication and Windows Hello](https://docs.microsoft.com/en-us/microsoft-edge/dev-guide/windows-integration/web-authentication)
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fduo.com" alt="Logo" /> Web Authentication: What It Is and What It Means for Passwords](https://duo.com/blog/web-authentication-what-it-is-and-what-it-means-for-passwords)
-
-### Houdini
-
-Learn about the Houdini project and get excited about the future of CSS.
-
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdevelopers.google.com" alt="Logo" /> Google Devs - Houdini, Demystifying CSS](https://developers.google.com/web/updates/2016/05/houdini)
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fweb.dev" alt="Logo" /> web.dev - Smarter custom properties](https://web.dev/css-props-and-vals/)
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fcss-houdini.rocks" alt="Logo" /> CSS Houdini Experiments](https://css-houdini.rocks/)
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=http%3A%2F%2Fhoudini.glitch.me" alt="Logo" /> Interactive Introduction to CSS Houdini](http://houdini.glitch.me/)
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fgithub.com" alt="Logo" /> W3C - CSS Houdini Wiki](https://github.com/w3c/css-houdini-drafts/wiki)
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdevelopers.google.com" alt="Logo" /> Google Devs - Houdini's Animation Worklet](https://developers.google.com/web/updates/2018/10/animation-worklet)
-
-### Project Fugu
-
-Learn about Project Fugu project and get excited about the future of the web.
-
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fblog.chromium.org" alt="Logo" /> Our commitment to a more capable web](https://blog.chromium.org/2018/11/our-commitment-to-more-capable-web.html)
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwww.chromium.org" alt="Logo" /> Web Capabilities (Fugu)](https://www.chromium.org/teams/web-capabilities-fugu)
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fbugs.chromium.org" alt="Logo" /> Chromium Bugs - Fugu](https://bugs.chromium.org/p/chromium/issues/list?q=proj-fugu)
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdevelopers.google.com" alt="Logo" /> Google Devs - Unlocking new capabilities for the web](https://developers.google.com/web/updates/capabilities)
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwww.youtube.com" alt="Logo" /> Youtube - Unlocking New Capabilities for the Web](https://www.youtube.com/watch?v=GSiUzuB-PoI)
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fchromium.googlesource.com" alt="Logo" /> Controlling Access to Powerful Web Platform Features](https://chromium.googlesource.com/chromium/src/+/f384207e04ad27f58287e972907f17ad66acc115/docs/security/permissions-for-powerful-web-platform-features.md)
 
 ### Observers
 
@@ -2505,16 +2439,6 @@ Learn how the Gamepad API can help you integrate with various controllers such a
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=http%3A%2F%2Fluser.github.io" alt="Logo" /> luser - Gamepad Test](http://luser.github.io/gamepadtest/)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdeveloper.mozilla.org" alt="Logo" /> MDN - Implementing controls using the Gamepad API](https://developer.mozilla.org/en-US/docs/Games/Techniques/Controls_Gamepad_API)
 
-### Network Information API
-
-Learn how the Network Information API can give you information about the state of the network of your users.
-
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdeveloper.mozilla.org" alt="Logo" /> MDN - Network Information API](https://developer.mozilla.org/en-US/docs/Web/API/Network_Information_API)
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Faddyosmani.com" alt="Logo" /> Addy Osmani - Adaptive Serving](https://addyosmani.com/blog/adaptive-serving/)
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwicg.github.io" alt="Logo" /> W3C - Network Information API](https://wicg.github.io/netinfo/)
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fgooglechrome.github.io" alt="Logo" /> Network Information API Sample](https://googlechrome.github.io/samples/network-information/)
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwhatwebcando.today" alt="Logo" /> What Web Can Do Today - Network Type & Speed](https://whatwebcando.today/network-type-speed.html)
-
 ### Speech Recognition
 
 Learn how to use the Speech Recognition API to analyze speech.
@@ -2537,26 +2461,6 @@ Learn how to use Interaction Media Queries to optimize the user experience for t
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwww.w3.org" alt="Logo" /> W3C - Interaction Media Features](https://www.w3.org/TR/mediaqueries-4/#mf-interaction)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwhatwebcando.today" alt="Logo" /> What Web Can Do Today - Pointing Device Adaptation](https://whatwebcando.today/pointer-adaptation.html)
 
-### Presentation
-
-Learn how to use the Presentation API to allow your web app to use the presentation display mode in the browser or at an external display device.
-
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdeveloper.mozilla.org" alt="Logo" /> MDN - Presentation API](https://developer.mozilla.org/en-US/docs/Web/API/Presentation_API)
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwhatwebcando.today" alt="Logo" /> What Web Can Do Today - Presentation Features](https://whatwebcando.today/presentation.html)
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdevelopers.google.com" alt="Logo" /> Google Devs - Present web pages to secondary attached displays](https://developers.google.com/web/updates/2018/04/present-web-pages-to-secondary-attached-displays)
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fw3c.github.io" alt="Logo" /> W3C - Presentation API](https://w3c.github.io/presentation-api)
-
-### Native File System
-
-Learn how to the Native File System API proposal enables interacting with files on the user's local device.
-
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdevelopers.google.com" alt="Logo" /> Google Devs - The Native File System API](https://developers.google.com/web/updates/2019/08/native-file-system)
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fgithub.com" alt="Logo" /> Github - Native File System](https://github.com/WICG/native-file-system/blob/master/EXPLAINER.md)
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwicg.github.io" alt="Logo" /> W3C - Native File System](https://wicg.github.io/native-file-system/)
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdocs.google.com" alt="Logo" /> Native File System Web API - Chromium Security Model](https://docs.google.com/document/d/1NJFd-EWdUlQ7wVzjqcgXewqC5nzv_qII4OvlDtK6SE8/edit#heading=h.7nki9mck5t64)
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwww.chromestatus.com" alt="Logo" /> Chromestatus - Native File System](https://www.chromestatus.com/feature/6284708426022912)
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fw3c.github.io" alt="Logo" /> W3C - File API](https://w3c.github.io/FileAPI/)
-
 ### Browser Extensions
 
 Learn how to build browser extensions to enhance the functionality of your browser.
@@ -2565,16 +2469,6 @@ Learn how to build browser extensions to enhance the functionality of your brows
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdeveloper.chrome.com" alt="Logo" /> Chrome - What are extensions?](https://developer.chrome.com/extensions)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdeveloper.chrome.com" alt="Logo" /> Chrome - Getting Started with Extensions](https://developer.chrome.com/extensions/getstarted)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwww.youtube.com" alt="Logo" /> Youtube - Google Chrome Extensions](https://www.youtube.com/view_play_list?p=CA101D6A85FE9D4B)
-
-### Shape Detection
-
-Learn how to use the Shape Detection API to detect shapes such as faces or barcodes in pictures.
-
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwicg.github.io" alt="Logo" /> W3C - Accelerated Shape Detection in Images](https://wicg.github.io/shape-detection-api/)
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdevelopers.google.com" alt="Logo" /> Google Devs - A Picture is Worth a Thousand Words](https://developers.google.com/web/updates/2019/01/shape-detection)
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fgithub.com" alt="Logo" /> Github - Shape Detection API Specification](https://github.com/WICG/shape-detection-api)
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fblog.arnellebalane.com" alt="Logo" /> Introduction to the Shape Detection API](https://blog.arnellebalane.com/introduction-to-the-shape-detection-api-e07425396861)
-* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fpaul.kinlan.me" alt="Logo" /> Face detection using Shape Detection API](https://paul.kinlan.me/face-detection/)
 
 ### Pointer Lock API
 
@@ -2603,6 +2497,117 @@ Learn how to use proxies to intercept certain operations and implement custom be
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fblog.bitsrc.io" alt="Logo" /> A practical guide to Javascript Proxy](https://blog.bitsrc.io/a-practical-guide-to-es6-proxy-229079c3c2f0?gi=92cd1f951006)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fhackernoon.com" alt="Logo" /> Introducing Javascript ES6 Proxies](https://hackernoon.com/introducing-javascript-es6-proxies-1327419ab413)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fmedium.com" alt="Logo" /> Medium - How to use JavaScript Proxies for Fun and Profit](https://medium.com/dailyjs/how-to-use-javascript-proxies-for-fun-and-profit-365579d4a9f8)
+
+### Houdini
+
+Learn about the Houdini project and get excited about the future of CSS.
+
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdevelopers.google.com" alt="Logo" /> Google Devs - Houdini, Demystifying CSS](https://developers.google.com/web/updates/2016/05/houdini)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fweb.dev" alt="Logo" /> web.dev - Smarter custom properties](https://web.dev/css-props-and-vals/)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fcss-houdini.rocks" alt="Logo" /> CSS Houdini Experiments](https://css-houdini.rocks/)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=http%3A%2F%2Fhoudini.glitch.me" alt="Logo" /> Interactive Introduction to CSS Houdini](http://houdini.glitch.me/)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fgithub.com" alt="Logo" /> W3C - CSS Houdini Wiki](https://github.com/w3c/css-houdini-drafts/wiki)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdevelopers.google.com" alt="Logo" /> Google Devs - Houdini's Animation Worklet](https://developers.google.com/web/updates/2018/10/animation-worklet)
+
+### Project Fugu
+
+Learn about Project Fugu project and get excited about the future of the web.
+
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fblog.chromium.org" alt="Logo" /> Our commitment to a more capable web](https://blog.chromium.org/2018/11/our-commitment-to-more-capable-web.html)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwww.chromium.org" alt="Logo" /> Web Capabilities (Fugu)](https://www.chromium.org/teams/web-capabilities-fugu)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fbugs.chromium.org" alt="Logo" /> Chromium Bugs - Fugu](https://bugs.chromium.org/p/chromium/issues/list?q=proj-fugu)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdevelopers.google.com" alt="Logo" /> Google Devs - Unlocking new capabilities for the web](https://developers.google.com/web/updates/capabilities)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwww.youtube.com" alt="Logo" /> Youtube - Unlocking New Capabilities for the Web](https://www.youtube.com/watch?v=GSiUzuB-PoI)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fchromium.googlesource.com" alt="Logo" /> Controlling Access to Powerful Web Platform Features](https://chromium.googlesource.com/chromium/src/+/f384207e04ad27f58287e972907f17ad66acc115/docs/security/permissions-for-powerful-web-platform-features.md)
+
+### Web Authentication API
+
+Learn how to use the Web Authentication API to provide a strong authentication with public key cryptography.
+
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdeveloper.mozilla.org" alt="Logo" /> MDN - Web Authentication API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Authentication_API)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwww.w3.org" alt="Logo" /> W3C - Web Authentication: An API for accessing Public Key Credentials](https://www.w3.org/TR/webauthn-2/)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdevelopers.google.com" alt="Logo" /> Google Devs - Enabling Strong Authentication with WebAuthn](https://developers.google.com/web/updates/2018/05/webauthn)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fauth0.com" alt="Logo" /> Introduction to Web Authentication: The New W3C Spec](https://auth0.com/blog/introduction-to-web-authentication/)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdocs.microsoft.com" alt="Logo" /> Microsoft - Web Authentication and Windows Hello](https://docs.microsoft.com/en-us/microsoft-edge/dev-guide/windows-integration/web-authentication)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fduo.com" alt="Logo" /> Web Authentication: What It Is and What It Means for Passwords](https://duo.com/blog/web-authentication-what-it-is-and-what-it-means-for-passwords)
+
+#### Credentials Manager API
+
+Learn about the Credentials Manager API proposal and how it can help authenticating users.
+
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdeveloper.mozilla.org" alt="Logo" /> MDN - Credential Management API](https://developer.mozilla.org/en-US/docs/Web/API/Credential_Management_API)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdevelopers.google.com" alt="Logo" /> Google Devs - The Credential Management API](https://developers.google.com/web/fundamentals/security/credential-management)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdevelopers.google.com" alt="Logo" /> Google Devs - Sign in Users](https://developers.google.com/web/fundamentals/security/credential-management/retrieve-credentials)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdevelopers.google.com" alt="Logo" /> Google Devs - Save Credentials from Forms](https://developers.google.com/web/fundamentals/security/credential-management/save-forms)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwhatwebcando.today" alt="Logo" /> What Web Can Do Today - Credentials](https://whatwebcando.today/credentials.html)
+
+### Native File System
+
+Learn how to the Native File System API proposal enables interacting with files on the user's local device.
+
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdevelopers.google.com" alt="Logo" /> Google Devs - The Native File System API](https://developers.google.com/web/updates/2019/08/native-file-system)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fgithub.com" alt="Logo" /> Github - Native File System](https://github.com/WICG/native-file-system/blob/master/EXPLAINER.md)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwicg.github.io" alt="Logo" /> W3C - Native File System](https://wicg.github.io/native-file-system/)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdocs.google.com" alt="Logo" /> Native File System Web API - Chromium Security Model](https://docs.google.com/document/d/1NJFd-EWdUlQ7wVzjqcgXewqC5nzv_qII4OvlDtK6SE8/edit#heading=h.7nki9mck5t64)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwww.chromestatus.com" alt="Logo" /> Chromestatus - Native File System](https://www.chromestatus.com/feature/6284708426022912)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fw3c.github.io" alt="Logo" /> W3C - File API](https://w3c.github.io/FileAPI/)
+
+### Shape Detection
+
+Learn how to use the Shape Detection API to detect shapes such as faces or barcodes in pictures.
+
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwicg.github.io" alt="Logo" /> W3C - Accelerated Shape Detection in Images](https://wicg.github.io/shape-detection-api/)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fweb.dev" alt="Logo" /> web.dev - A Picture is Worth a Thousand Words](https://web.dev/shape-detection/)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fgithub.com" alt="Logo" /> Github - Shape Detection API Specification](https://github.com/WICG/shape-detection-api)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fblog.arnellebalane.com" alt="Logo" /> Introduction to the Shape Detection API](https://blog.arnellebalane.com/introduction-to-the-shape-detection-api-e07425396861)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fpaul.kinlan.me" alt="Logo" /> Face detection using Shape Detection API](https://paul.kinlan.me/face-detection/)
+
+### Web Bluetooth
+
+Learn how to use the Web Bluetooth API proposal can be used to connect with nearby devices.
+
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdeveloper.mozilla.org" alt="Logo" /> MDN - Web Bluetooth API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Bluetooth_API)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdevelopers.google.com" alt="Logo" /> Google Devs - Interact with Bluetooth devices](https://developers.google.com/web/updates/2015/07/interact-with-ble-devices-on-the-web)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwhatwebcando.today" alt="Logo" /> What Web Can Do Today -	Bluetooth](https://whatwebcando.today/bluetooth.html)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwebbluetoothcg.github.io" alt="Logo" /> W3C - Web Bluetooth](https://webbluetoothcg.github.io/web-bluetooth/)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fgooglechrome.github.io" alt="Logo" /> Web Bluetooth Samples](https://googlechrome.github.io/samples/web-bluetooth/)
+
+### Web USB
+
+Learn how to use the Web USB API proposal can be used to connect with hardware through a cable.
+
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdeveloper.mozilla.org" alt="Logo" /> MDN - USB](https://developer.mozilla.org/en-US/docs/Web/API/USB)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fgithub.com" alt="Logo" /> WICG - Web USB](https://github.com/WICG/webusb)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdevelopers.google.com" alt="Logo" /> Google Devs - Access USB Devices on the Web](https://developers.google.com/web/updates/2016/03/access-usb-devices-on-the-web)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwhatwebcando.today" alt="Logo" /> What Web Can Do Today -	Web USB](https://whatwebcando.today/usb.html)
+
+### Web XR
+
+Learn how to use Web XR API proposal for virtual- and augmented reality experiences.
+
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdeveloper.mozilla.org" alt="Logo" /> MDN - WebXR Device API](https://developer.mozilla.org/en-US/docs/Web/API/WebXR_Device_API)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdevelopers.google.com" alt="Logo" /> Google Devs - Welcome to the immersive web](https://developers.google.com/web/updates/2018/05/welcome-to-immersive)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fhacks.mozilla.org" alt="Logo" /> New API to Bring Augmented Reality to the Web](https://hacks.mozilla.org/2018/09/webxr/)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fimmersive-web.github.io" alt="Logo" /> W3C - WebXR Device API](https://immersive-web.github.io/webxr/)
+
+### Presentation
+
+Learn how to use the Presentation API proposal to allow your web app to use the presentation display mode in the browser or at an external display device.
+
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdeveloper.mozilla.org" alt="Logo" /> MDN - Presentation API](https://developer.mozilla.org/en-US/docs/Web/API/Presentation_API)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwhatwebcando.today" alt="Logo" /> What Web Can Do Today - Presentation Features](https://whatwebcando.today/presentation.html)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdevelopers.google.com" alt="Logo" /> Google Devs - Present web pages to secondary attached displays](https://developers.google.com/web/updates/2018/04/present-web-pages-to-secondary-attached-displays)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fw3c.github.io" alt="Logo" /> W3C - Presentation API](https://w3c.github.io/presentation-api)
+
+### Network Information API
+
+Learn how the Network Information API can give you information about the state of the network of your users.
+
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdeveloper.mozilla.org" alt="Logo" /> MDN - Network Information API](https://developer.mozilla.org/en-US/docs/Web/API/Network_Information_API)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Faddyosmani.com" alt="Logo" /> Addy Osmani - Adaptive Serving](https://addyosmani.com/blog/adaptive-serving/)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwicg.github.io" alt="Logo" /> W3C - Network Information API](https://wicg.github.io/netinfo/)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fgooglechrome.github.io" alt="Logo" /> Network Information API Sample](https://googlechrome.github.io/samples/network-information/)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwhatwebcando.today" alt="Logo" /> What Web Can Do Today - Network Type & Speed](https://whatwebcando.today/network-type-speed.html)
 
 
 ## Algorithms & Data structures
