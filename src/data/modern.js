@@ -445,7 +445,7 @@ export const modernCollection = {
 				{
 					name: "Project Fugu",
 					description: {
-						text: "Learn about Project Fugu project and get excited about the future of the web.",
+						text: "Learn about Project Fugu project and get excited about the future of the Web.",
 						links: [
 							["Our commitment to a more capable web", "https://blog.chromium.org/2018/11/our-commitment-to-more-capable-web.html"],
 							["Web Capabilities (Fugu)", "https://www.chromium.org/teams/web-capabilities-fugu"],
@@ -488,7 +488,7 @@ export const modernCollection = {
 				{
 					name: "Native File System",
 					description: {
-						text: "Learn how to the Native File System API proposal enables interacting with files on the user's local device.",
+						text: "Learn how the Native File System API proposal enables interacting with files on the user's local device.",
 						links: [
 							["Google Devs - The Native File System API", "https://developers.google.com/web/updates/2019/08/native-file-system"],
 							["Github - Native File System", "https://github.com/WICG/native-file-system/blob/master/EXPLAINER.md"],
@@ -502,7 +502,7 @@ export const modernCollection = {
 				{
 					name: "Shape Detection",
 					description: {
-						text: "Learn how to use the Shape Detection API to detect shapes such as faces or barcodes in pictures.",
+						text: "Learn how the Shape Detection API proposal can be use to detect shapes such as faces or barcodes in pictures.",
 						links: [
 							["W3C - Accelerated Shape Detection in Images", "https://wicg.github.io/shape-detection-api/"],
 							["web.dev - A Picture is Worth a Thousand Words", "https://web.dev/shape-detection/"],
@@ -515,7 +515,7 @@ export const modernCollection = {
 				{
 					name: "Web Bluetooth",
 					description: {
-						text: "Learn how to use the Web Bluetooth API proposal can be used to connect with nearby devices.",
+						text: "Learn how the Web Bluetooth API proposal can be used to connect with nearby devices.",
 						links: [
 							["MDN - Web Bluetooth API", "https://developer.mozilla.org/en-US/docs/Web/API/Web_Bluetooth_API"],
 							["Google Devs - Interact with Bluetooth devices", "https://developers.google.com/web/updates/2015/07/interact-with-ble-devices-on-the-web"],
@@ -528,7 +528,7 @@ export const modernCollection = {
 				{
 					name: "Web USB",
 					description: {
-						text: "Learn how to use the Web USB API proposal can be used to connect with hardware through a cable.",
+						text: "Learn the Web USB API proposal can be used to connect with hardware through a cable.",
 						links: [
 							["MDN - USB", "https://developer.mozilla.org/en-US/docs/Web/API/USB"],
 							["WICG - Web USB", "https://github.com/WICG/webusb"],
@@ -552,7 +552,7 @@ export const modernCollection = {
 				{
 					name: "Presentation",
 					description: {
-						text: "Learn how to use the Presentation API proposal to allow your web app to use the presentation display mode in the browser or at an external display device.",
+						text: "Learn how the Presentation API proposal enables your web app to use the presentation display mode in the browser or at an external display device.",
 						links: [
 							["MDN - Presentation API", "https://developer.mozilla.org/en-US/docs/Web/API/Presentation_API"],
 							["What Web Can Do Today - Presentation Features", "https://whatwebcando.today/presentation.html"],
@@ -564,7 +564,7 @@ export const modernCollection = {
 				{
 					name: "Network Information API",
 					description: {
-						text: "Learn how the Network Information API can give you information about the state of the network of your users.",
+						text: "Learn how the Network Information API proposal can give you information about the state of the network.",
 						links: [
 							["MDN - Network Information API", "https://developer.mozilla.org/en-US/docs/Web/API/Network_Information_API"],
 							["Addy Osmani - Adaptive Serving", "https://addyosmani.com/blog/adaptive-serving/"],

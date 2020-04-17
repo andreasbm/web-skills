@@ -2511,7 +2511,7 @@ Learn about the Houdini project and get excited about the future of CSS.
 
 ### Project Fugu
 
-Learn about Project Fugu project and get excited about the future of the web.
+Learn about Project Fugu project and get excited about the future of the Web.
 
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fblog.chromium.org" alt="Logo" /> Our commitment to a more capable web](https://blog.chromium.org/2018/11/our-commitment-to-more-capable-web.html)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwww.chromium.org" alt="Logo" /> Web Capabilities (Fugu)](https://www.chromium.org/teams/web-capabilities-fugu)
@@ -2543,7 +2543,7 @@ Learn about the Credentials Manager API proposal and how it can help authenticat
 
 ### Native File System
 
-Learn how to the Native File System API proposal enables interacting with files on the user's local device.
+Learn how the Native File System API proposal enables interacting with files on the user's local device.
 
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdevelopers.google.com" alt="Logo" /> Google Devs - The Native File System API](https://developers.google.com/web/updates/2019/08/native-file-system)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fgithub.com" alt="Logo" /> Github - Native File System](https://github.com/WICG/native-file-system/blob/master/EXPLAINER.md)
@@ -2554,7 +2554,7 @@ Learn how to the Native File System API proposal enables interacting with files 
 
 ### Shape Detection
 
-Learn how to use the Shape Detection API to detect shapes such as faces or barcodes in pictures.
+Learn how the Shape Detection API proposal can be use to detect shapes such as faces or barcodes in pictures.
 
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwicg.github.io" alt="Logo" /> W3C - Accelerated Shape Detection in Images](https://wicg.github.io/shape-detection-api/)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fweb.dev" alt="Logo" /> web.dev - A Picture is Worth a Thousand Words](https://web.dev/shape-detection/)
@@ -2564,7 +2564,7 @@ Learn how to use the Shape Detection API to detect shapes such as faces or barco
 
 ### Web Bluetooth
 
-Learn how to use the Web Bluetooth API proposal can be used to connect with nearby devices.
+Learn how the Web Bluetooth API proposal can be used to connect with nearby devices.
 
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdeveloper.mozilla.org" alt="Logo" /> MDN - Web Bluetooth API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Bluetooth_API)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdevelopers.google.com" alt="Logo" /> Google Devs - Interact with Bluetooth devices](https://developers.google.com/web/updates/2015/07/interact-with-ble-devices-on-the-web)
@@ -2574,7 +2574,7 @@ Learn how to use the Web Bluetooth API proposal can be used to connect with near
 
 ### Web USB
 
-Learn how to use the Web USB API proposal can be used to connect with hardware through a cable.
+Learn the Web USB API proposal can be used to connect with hardware through a cable.
 
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdeveloper.mozilla.org" alt="Logo" /> MDN - USB](https://developer.mozilla.org/en-US/docs/Web/API/USB)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fgithub.com" alt="Logo" /> WICG - Web USB](https://github.com/WICG/webusb)
@@ -2592,7 +2592,7 @@ Learn how to use Web XR API proposal for virtual- and augmented reality experien
 
 ### Presentation
 
-Learn how to use the Presentation API proposal to allow your web app to use the presentation display mode in the browser or at an external display device.
+Learn how the Presentation API proposal enables your web app to use the presentation display mode in the browser or at an external display device.
 
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdeveloper.mozilla.org" alt="Logo" /> MDN - Presentation API](https://developer.mozilla.org/en-US/docs/Web/API/Presentation_API)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwhatwebcando.today" alt="Logo" /> What Web Can Do Today - Presentation Features](https://whatwebcando.today/presentation.html)
@@ -2601,7 +2601,7 @@ Learn how to use the Presentation API proposal to allow your web app to use the 
 
 ### Network Information API
 
-Learn how the Network Information API can give you information about the state of the network of your users.
+Learn how the Network Information API proposal can give you information about the state of the network.
 
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdeveloper.mozilla.org" alt="Logo" /> MDN - Network Information API](https://developer.mozilla.org/en-US/docs/Web/API/Network_Information_API)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Faddyosmani.com" alt="Logo" /> Addy Osmani - Adaptive Serving](https://addyosmani.com/blog/adaptive-serving/)
