@@ -38,6 +38,17 @@ export const frameworksAndLibrariesCollection = {
 					},
 				},
 				{
+					name: "Ember",
+					description: {
+						text: "Learn about Ember.js and how you can use it for building web apps.",
+						links: [
+							["Ember", "https://emberjs.com/"],
+							["Ember Quick Start Guide", "https://guides.emberjs.com/release/getting-started/quick-start/"],
+							["Ember Observer - Ember Addon Ecosystem", "https://emberobserver.com/"],
+						]
+					},
+				},
+				{
 					name: "Angular",
 					description: {
 						text: "Learn about Angular and how you can use it for building web apps.",
