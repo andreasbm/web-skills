@@ -42,7 +42,7 @@ export const accessibilityCollection = {
 						{
 							name: "ARIA",
 							description: {
-								text: "Learn how to use ARIA descriptions an labels to help assstive technology understanding your website.",
+								text: "Learn how to use ARIA descriptions an labels to help assistive technology understanding your website.",
 								links: [
 									["Google Devs - ARIA Labels", "https://developers.google.com/web/fundamentals/accessibility/semantics-aria/aria-labels-and-relationships"],
 									["Google Devs - Hiding and updating content", "https://developers.google.com/web/fundamentals/accessibility/semantics-aria/hiding-and-updating-content"],

@@ -643,7 +643,7 @@ Learn about the accessibility tree and how assistive technology uses it.
 
 #### ARIA
 
-Learn how to use ARIA descriptions an labels to help assstive technology understanding your website.
+Learn how to use ARIA descriptions an labels to help assistive technology understanding your website.
 
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdevelopers.google.com" alt="Logo" /> Google Devs - ARIA Labels](https://developers.google.com/web/fundamentals/accessibility/semantics-aria/aria-labels-and-relationships)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdevelopers.google.com" alt="Logo" /> Google Devs - Hiding and updating content](https://developers.google.com/web/fundamentals/accessibility/semantics-aria/hiding-and-updating-content)
