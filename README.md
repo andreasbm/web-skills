@@ -1765,7 +1765,7 @@ Learn how you can use Parcel to bundle your code.
 
 #### Snowpack
 
-Learn how you can use Snowpack instead of a bundler.
+Learn how Snowpack can replace the traditional app bundler during development.
 
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwww.snowpack.dev" alt="Logo" /> Snowpack](https://www.snowpack.dev/)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwww.snowpack.dev" alt="Logo" /> Snowpack - Quickstart](https://www.snowpack.dev/#quickstart)

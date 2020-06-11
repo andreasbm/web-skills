@@ -1,4 +1,4 @@
-export const APP_VERSION = 6;
+export const APP_VERSION = 7;
 export const IS_STAND_ALONE = ("standalone" in window.navigator && window.navigator.standalone) || window.matchMedia("(display-mode: standalone)").matches;
 export const IS_TOUCH = window.matchMedia("(any-pointer: coarse)").matches;
 export const DEFAULT_COMPACT_PX = 800;
@@ -7,6 +7,9 @@ export const COMPACT_STORAGE_KEY = "compact";
 export const FIRST_VISIT_DATE_STORAGE_KEY = "first_visit_date";
 export const SNACK_CONTAINER_ID = "snack-container";
 export const CLOSE_DESCRIPTION_EVENT = "closeDescription";
+
+// For now we only use native share on smaller screens due to web share bug.
+export const ALLOW_NATIVE_SHARE = window.innerWidth < DEFAULT_COMPACT_PX;
 
 export const FIREBASE_CONFIG = {
 	apiKey: "AIzaSyAeptLYIAEF7MtzFjKo0XYtC6i0BXbqdjI",

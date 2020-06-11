@@ -81,7 +81,7 @@ export const buildtoolsCollection = {
 						{
 							name: "Snowpack",
 							description: {
-								text: "Learn how you can use Snowpack instead of a bundler.",
+								text: "Learn how Snowpack can replace the traditional app bundler during development.",
 								links: [
 									["Snowpack", "https://www.snowpack.dev/"],
 									["Snowpack - Quickstart", "https://www.snowpack.dev/#quickstart"],

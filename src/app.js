@@ -4,7 +4,7 @@ import "./atoms/blur.js";
 import "./atoms/button.js";
 import "./atoms/compact-switch.js";
 import "./atoms/icon.js";
-import {DEFAULT_COMPACT_PX, getShareConfig} from "./config.js";
+import {ALLOW_NATIVE_SHARE, DEFAULT_COMPACT_PX, getShareConfig} from "./config.js";
 import {collections} from "./data.js";
 import {auth, AuthEvents} from "./firebase/auth.js";
 import "./molecules/collection.js";
@@ -603,32 +603,36 @@ export class App extends LitElement {
 	 * @returns {Promise<void>}
 	 */
 	async share () {
-
 		measureOpenShare();
 
 		const config = getShareConfig();
-		try {
-			await navigator.share(config);
-			measureShareLink(`Native Share`);
 
-		} catch (err) {
-
-			// If the user cancelled the share we abort
-			// This was the best cross-browser solution..
-			const errorMessage = (err.message || err.toString()).toLowerCase();
-			if (errorMessage.includes("cancellation") || errorMessage.includes("share canceled") || ("canShare" in navigator && navigator.canShare())) {
-				return;
-			}
-
+		// When navigator.share and navigator.canShare works without issues in the future we don't need this check.
+		if (ALLOW_NATIVE_SHARE) {
 			try {
-				// Open fallback share if possible
-				const {openShare} = await import("./util/open-share.js");
-				await openShare(config);
+				await navigator.share(config);
+				measureShareLink(`Native Share`);
+				return;
 
 			} catch (err) {
-				// As a last resort we just copy the link
-				copyToClipboard(config.url);
+
+				// If the user cancelled the share we abort. This was the best cross-browser solution.
+				const errorMessage = (err.message || err.toString()).toLowerCase();
+				if (errorMessage.includes("cancellation") || errorMessage.includes("share canceled") || ("canShare" in navigator && navigator.canShare())) {
+					return;
+				}
 			}
+		}
+
+		// Use the custom share
+		try {
+			// Open fallback share if possible
+			const {openShare} = await import("./util/open-share.js");
+			await openShare(config);
+
+		} catch (err) {
+			// As a last resort we just copy the link
+			await copyToClipboard(config.url);
 		}
 	}
 
