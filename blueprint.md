@@ -3224,6 +3224,16 @@ Learn about the CRUD operations.
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwww.youtube.com" alt="Logo" /> Youtube - Introduction to CRUD Operations](https://www.youtube.com/watch?v=Lyi8SoVdkhM)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Ftyk.io" alt="Logo" /> REST was NEVER about CRUD](https://tyk.io/rest-never-crud/)
 
+#### OpenAPI
+
+Learn about the OpenAPI specification for describing RESTful APIs
+
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fswagger.io" alt="Logo" /> OpenAPI specification](https://swagger.io/specification/)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fmedium.com" alt="Logo" /> Tutorial of OpenAPI Specification](https://medium.com/@amirm.lavasani/restful-apis-tutorial-of-openapi-specification-eeada0e3901d)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fmedium.com" alt="Logo" /> Improving the developer experience with OpenAPI Specification](https://medium.com/adyen/improving-the-developer-experience-with-openapi-specification-f90fbf8077cf)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fapp.swaggerhub.com" alt="Logo" /> SwaggerHub - Public list of available OpenAPI definitions](https://app.swaggerhub.com)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fopenapi.tools" alt="Logo" /> openapi.tools - List of available OpenAPI tools](https://openapi.tools)
+
 ### Express
 
 Learn about the Node.js web application framework called Express.
