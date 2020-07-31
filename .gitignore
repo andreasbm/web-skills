@@ -12,6 +12,7 @@ package-lock.json
 # dependencies
 /node_modules
 /functions/node_modules
+/web_modules
 
 # IDEs and editors
 /.idea
