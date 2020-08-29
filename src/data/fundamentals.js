@@ -268,9 +268,9 @@ export const fundamentalsCollection = {
 					]
 				},
 				{
-					name: "Responsive Design",
+					name: "응답형 디자인",
 					description: {
-						text: "Learn how to make your website responsive so it works across different screen sizes.",
+						text: "다양한 화면 크기에서 작동하도록 웹 사이트를 반응 형으로 만드는 방법을 알아 봅니다.",
 						links: [
 							["MDN - Responsive design", "https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design"],
 							["Responsive Web Design Fundamentals by Google", "https://www.udacity.com/course/responsive-web-design-fundamentals--ud893"],
