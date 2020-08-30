@@ -2,7 +2,7 @@ export const fundamentalsCollection = {
 	name: "Fundamentals",
 	areas: [
 		{
-			name: "HTML",
+			name: "테스팅",
 			skills: [
 				{
 					name: "Syntax",
