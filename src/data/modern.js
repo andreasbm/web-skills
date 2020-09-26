@@ -45,7 +45,7 @@ export const modernCollection = {
 								text: "Learn how to use Web RTC for establishing real-time communication.",
 								links: [
 									["MDN - WebRTC API", "https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API"],
-									["WebRTC - Getting Started", "https://webrtc.org/start/"],
+									["WebRTC - Getting Started", "https://webrtc.org/getting-started/overview"],
 									["WebRTC samples", "https://webrtc.github.io/samples/"],
 									["Wikipedia - WebRTC", "https://en.wikipedia.org/wiki/WebRTC"],
 									["What Web Can Do Today - WebRTC", "https://whatwebcando.today/realtime.html"],
