@@ -393,7 +393,7 @@ export class App extends LitElement {
 
 		// Listen for drag start
 		window.addEventListener("mousedown", e => {
-			if (this.compact || isDialogVisible()) {
+			if (e.button !== 0 || this.compact || isDialogVisible()) {
 				return;
 			}
 
