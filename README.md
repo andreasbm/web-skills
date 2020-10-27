@@ -396,6 +396,7 @@
 	* [GraphQL](#graphql)
 	* [GNU/Linux](#gnulinux)
 	* [Docker](#docker)
+	* [Kubernetes](#kubernetes)
 	* [SSH](#ssh)
 * [➤ Contributors](#-contributors)
 * [➤ License](#-license)
@@ -3690,6 +3691,17 @@ Learn how to use Docker.
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdocker-curriculum.com" alt="Logo" /> Docker for beginners](https://docker-curriculum.com/)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fopensource.com" alt="Logo" /> What is Docker?](https://opensource.com/resources/what-docker)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdocs.docker.com" alt="Logo" /> Get Started, Part 1: Orientation and setup](https://docs.docker.com/get-started/)
+
+### Kubernetes
+Learn about Kubernetes
+
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwww.kubernetes.io" alt="Logo" /> Kubernetes.io](https://kubernetes.io)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwww.kubernetes.io" alt="Logo" /> Automated rollouts and rolbacks](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwww.wikipedia.org" alt="Logo" /> Wikipedia - Kubernetes](https://pt.wikipedia.org/wiki/Kubernetes)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwww.kubernetes.io" alt="Logo" /> What is Kubernetes?](https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/)
+
+
+
 
 ### SSH
 

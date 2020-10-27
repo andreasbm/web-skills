@@ -3262,6 +3262,15 @@ Learn how to use Docker.
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fopensource.com" alt="Logo" /> What is Docker?](https://opensource.com/resources/what-docker)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdocs.docker.com" alt="Logo" /> Get Started, Part 1: Orientation and setup](https://docs.docker.com/get-started/)
 
+### Kubernetes
+
+Learn about Kubernetes
+
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fkubernetes.io" alt="Logo" /> Kubernetes.io](https://kubernetes.io)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fkubernetes.io" alt="Logo" /> Automated rollouts and rolbacks](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fpt.wikipedia.org" alt="Logo" /> Kubernetes](https://pt.wikipedia.org/wiki/Kubernetes)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fkubernetes.io" alt="Logo" /> Documentation](https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/)
+
 ### SSH
 
 Learn how to use SSH and learn how to connect to a device using an SSH client.
