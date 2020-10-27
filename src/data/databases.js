@@ -502,7 +502,7 @@ export const databasesCollection = {
                             ["Kubernetes.io", "https://kubernetes.io"],
                             ["Automated rollouts and rolbacks", "https://kubernetes.io/docs/concepts/workloads/controllers/deployment/"],
                             ["Kubernetes", "https://pt.wikipedia.org/wiki/Kubernetes"],
-                            ["Documentation", "https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/"]
+                            ["What is Kubernetes?", "https://kubernetes.io/docs/concepts/overview/what-is-kubernetes/"]
                         ]
                     },
                 },
