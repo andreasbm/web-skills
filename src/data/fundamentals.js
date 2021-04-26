@@ -167,7 +167,7 @@ export const fundamentalsCollection = {
 									["Margin Collapse in CSS: What, Why, and How", "https://medium.com/@joseph0crick/margin-collapse-in-css-what-why-and-how-328c10e37ca0"],
 									["CSS Tricks - What You Should Know About Collapsing Margins", "https://css-tricks.com/what-you-should-know-about-collapsing-margins/"],
 									["What's the Deal with Collapsible Margins?", "https://bitsofco.de/collapsible-margins/"],
-									["What’s the Deal with Margin Collapse?", "https://jonathan-harrell.com/whats-the-deal-with-margin-collapse/"],
+									["What’s the Deal with Margin Collapse?", "https://jonathan-harrell.com/blog/what%E2%80%99s-the-deal-with-margin-collapse/"],
 								]
 							},
 						}
