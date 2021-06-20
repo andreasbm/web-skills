@@ -7,7 +7,7 @@ export const fundamentalsCollection = {
 				{
 					name: "Syntax",
 					description: {
-						text: "Learn the basics of HTML and get comfortable with it's syntax and main concepts.",
+						text: "Learn the basics of HTML and get comfortable with its syntax and main concepts.",
 						links: [
 							["MDN - HTML Basics", "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics"],
 							["MDN - Introduction to HTML", "https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML"],
@@ -18,7 +18,7 @@ export const fundamentalsCollection = {
 						{
 							name: "Basic Tags",
 							description: {
-								text: "Get familiar with the basic HTML tags",
+								text: "Get familiar with the basic HTML tags.",
 								links: [
 									["MDN - HTML elements reference", "https://developer.mozilla.org/en-US/docs/Web/HTML/Element"],
 									["Tutorialspoint - Basic HTML tags", "https://www.tutorialspoint.com/html/html_basic_tags.htm"],
@@ -94,7 +94,7 @@ export const fundamentalsCollection = {
 				{
 					name: "Syntax",
 					description: {
-						text: "Learn the basics of CSS and get comfortable with it's syntax and main concepts.",
+						text: "Learn the basics of CSS and get comfortable with its syntax and main concepts.",
 						links: [
 							["MDN - CSS Basics", "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics"],
 							["W3Schools - CSS Tutorial", "https://www.w3schools.com/css/default.asp"],
@@ -348,7 +348,7 @@ export const fundamentalsCollection = {
 				{
 					name: "Syntax",
 					description: {
-						text: "Learn the basics of Javascript and get comfortable with it's syntax and main concepts.",
+						text: "Learn the basics of Javascript and get comfortable with its syntax and main concepts.",
 						links: [
 							["MDN - Javascript First Steps", "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps"],
 							["MDN - Javascript Basics", "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics"],
@@ -480,7 +480,7 @@ export const fundamentalsCollection = {
 				{
 					name: "Template Literals",
 					description: {
-						text: "Learn how template literals and tagged templates and help you manipulate strings.",
+						text: "Learn how template literals and tagged templates can help you manipulate strings.",
 						links: [
 							["MDN - Template literals", "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals"],
 							["MDN - ES6 In Depth: Template strings", "https://hacks.mozilla.org/2015/05/es6-in-depth-template-strings-2/"],
@@ -760,7 +760,7 @@ export const fundamentalsCollection = {
 				{
 					name: "Debugging",
 					description: {
-						text: "Learn about the basics concepts of debugging.",
+						text: "Learn about the basic concepts of debugging.",
 						links: [
 							["Google Devs - Inspect and Edit Pages and Styles", "https://developers.google.com/web/tools/chrome-devtools/inspect-styles/"],
 							["MDN - Cross browser testing", "https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing"],

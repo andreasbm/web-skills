@@ -6,7 +6,7 @@ export const modernCollection = {
 				{
 					name: "Streams",
 					description: {
-						text: "Learn about streams and how they can help you effeciently transporting data.",
+						text: "Learn about streams and how they can help you in efficiently transporting data.",
 						links: [
 							["MDN - Streams", "https://developer.mozilla.org/en-US/docs/Web/API/Streams_API"],
 							["MDN - Streams API concepts", "https://developer.mozilla.org/en-US/docs/Web/API/Streams_API/Concepts"],
@@ -84,7 +84,7 @@ export const modernCollection = {
 				{
 					name: "Speech Synthesis",
 					description: {
-						text: "Learn how the speech synthesis API can help you converting text to speech.",
+						text: "Learn how the speech synthesis API can help you in converting text to speech.",
 						links: [
 							["Google Devs - Web apps that talk", "https://developers.google.com/web/updates/2014/01/Web-apps-that-talk-Introduction-to-the-Speech-Synthesis-API"],
 							["MDN - window.speechSynthesis", "https://developer.mozilla.org/en-US/docs/Web/API/Window/speechSynthesis"],
@@ -199,7 +199,7 @@ export const modernCollection = {
 				{
 					name: "Observers",
 					description: {
-						text: "Learn about the observer pattern and get comfortable concepts such as subjects and observers.",
+						text: "Learn about the observer pattern and get comfortable with concepts such as subjects and observers.",
 						links: [
 							["Javascript Observers and You", "https://chromatichq.com/blog/javascript-observers-and-you"],
 							["How to Use the Observable Pattern in JavaScript", "https://webdevstudios.com/2019/02/19/observable-pattern-in-javascript/"],
@@ -224,7 +224,7 @@ export const modernCollection = {
 						{
 							name: "Intersection Observer",
 							description: {
-								text: "Learn how to use the Intersection Observer API can help you detect when an element is visible on the screen.",
+								text: "Learn how to use the Intersection Observer API and how it can help you detect when an element is visible on the screen.",
 								links: [
 									["MDN - Intersection Observer API", "https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API"],
 									["W3C - Intersection Observer", "https://www.w3.org/TR/intersection-observer/"],
@@ -314,7 +314,7 @@ export const modernCollection = {
 				{
 					name: "Share",
 					description: {
-						text: "Learn how the Web Share API can help users sharing your web app.",
+						text: "Learn how the Web Share API can help users share your web app.",
 						links: [
 							["MDN - Share", "https://developer.mozilla.org/en-US/docs/Web/API/Navigator/share"],
 							["Google Devs - Introducing the Web Share API", "https://developers.google.com/web/updates/2016/09/navigator-share"],
@@ -473,7 +473,7 @@ export const modernCollection = {
 						{
 							name: "Credentials Manager API",
 							description: {
-								text: "Learn about the Credentials Manager API proposal and how it can help authenticating users.",
+								text: "Learn about the Credentials Manager API proposal and how it can help authenticate users.",
 								links: [
 									["MDN - Credential Management API", "https://developer.mozilla.org/en-US/docs/Web/API/Credential_Management_API"],
 									["Google Devs - The Credential Management API", "https://developers.google.com/web/fundamentals/security/credential-management"],

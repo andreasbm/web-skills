@@ -87,7 +87,7 @@ export const webcomponentsCollection = {
 				{
 					name: "Constructible Stylesheets",
 					description: {
-						text: "Learn how the Constructible Stylesheets proposal enables reusable styles when using shadow dom.",
+						text: "Learn how the Constructible Stylesheets proposal enables reusable styles when using Shadow DOM.",
 						links: [
 							["Google Devs - Constructable Stylesheets", "https://developers.google.com/web/updates/2019/02/constructable-stylesheets"],
 							["W3C - Constructable Stylesheet Objects", "https://wicg.github.io/construct-stylesheets/"],
