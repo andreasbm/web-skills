@@ -393,7 +393,7 @@ export const databasesCollection = {
 				{
 					name: "Request-Reply Protocol",
 					description: {
-						text: "Learn how computers communicate with eachother using the request-reply protocol.",
+						text: "Learn how computers communicate with each other using the request-reply protocol.",
 						links: [
 							["Wikipedia - Request Response", "https://en.wikipedia.org/wiki/Request%E2%80%93response"],
 							["Youtube - Event-Driven Architecture", "https://www.youtube.com/watch?v=3bxAm3XIFmk"],

@@ -40,7 +40,7 @@ export const buildtoolsCollection = {
 				{
 					name: "Module Bundlers",
 					description: {
-						text: "Learn about module bundler and how they can help bundling your code.",
+						text: "Learn about module bundlers and how they can help bundling your code.",
 						links: [
 							["dev.to - What is a module bundler?", "https://dev.to/tanhauhau/what-is-module-bundler-and-how-does-it-work-3gp2"],
 							["Freecodecamp - Let’s learn how module bundlers work", "https://www.freecodecamp.org/news/lets-learn-how-module-bundlers-work-and-then-write-one-ourselves-b2e3fe6c88ae/"],

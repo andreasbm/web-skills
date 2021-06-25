@@ -2,7 +2,7 @@ export const pwaCollection = {
 	name: "Progressive Webapps",
 	areas: [
 		{
-			name: "API's",
+			name: "APIs",
 			skills: [
 				{
 					name: "Storage",
@@ -228,7 +228,7 @@ export const pwaCollection = {
 						{
 							name: "Dynamic Import",
 							description: {
-								text: "Learn how to use dynamic import to lazy load javascript.",
+								text: "Learn how to use dynamic import to lazy load Javascript.",
 								links: [
 									["V8 - Dynamic import()", "https://v8.dev/features/dynamic-import"],
 									["JavaScript dynamic import() & export", "https://medium.com/@WebReflection/javascript-dynamic-import-export-b0e8775a59d4"],
@@ -274,7 +274,7 @@ export const pwaCollection = {
 				{
 					name: "Codesplitting",
 					description: {
-						text: "Learn about codesplitting an how dividing your code into multiple chunks makes your web app faster.",
+						text: "Learn about codesplitting and how dividing your code into multiple chunks makes your web app faster.",
 						links: [
 							["Google Devs - Reduce JavaScript Payloads", "https://developers.google.com/web/fundamentals/performance/optimizing-javascript/code-splitting"],
 							["All you need to know about JavaScript code splitting", "https://www.creativebloq.com/how-to/all-you-need-to-know-about-javascript-code-splitting"]
@@ -309,7 +309,7 @@ export const pwaCollection = {
 				{
 					name: "Caching",
 					description: {
-						text: "Learn about caching and how it can be uses to make web apps load faster.",
+						text: "Learn about caching and how it can be used to make web apps load faster.",
 						links: [
 							["Google Devs - HTTP Caching", "https://developers.google.com/web/fundamentals/performance/get-started/httpcaching-6"],
 							["MDN - HTTP caching", "https://developer.mozilla.org/en-US/docs/Web/HTTP/Caching"]
@@ -362,7 +362,7 @@ export const pwaCollection = {
 						{
 							name: "Stack",
 							description: {
-								text: "Learn about the stack and how to investigate the staack trace when debugging.",
+								text: "Learn about the stack and how to investigate the stack trace when debugging.",
 								links: [
 									["Javascript Stack Trade - Using it to debug", "https://www.scalyr.com/blog/javascript-stack-trace-understanding-it-and-using-it-to-debug/"],
 									["MDN - console.trace()", "https://developer.mozilla.org/en-US/docs/Web/API/Console/trace"],
@@ -586,7 +586,7 @@ export const pwaCollection = {
 						{
 							name: "Cross-Site Scripting",
 							description: {
-								text: "Learn about cross-site scripting and how it is possible mitigate these kind of attacks.",
+								text: "Learn about cross-site scripting and how it is possible mitigate these kinds of attacks.",
 								links: [
 									["MDN - Cross-site scripting", "https://developer.mozilla.org/en-US/docs/Glossary/Cross-site_scripting"],
 									["OWASP - Cross-site Scripting (XSS)", "https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)"],
@@ -598,7 +598,7 @@ export const pwaCollection = {
 						{
 							name: "Clickjacking",
 							description: {
-								text: "Learn about clickjacking and how it is possible to mitigate these kind of attacks.",
+								text: "Learn about clickjacking and how it is possible to mitigate these kinds of attacks.",
 								links: [
 									["OWASP - Clickjacking", "https://www.owasp.org/index.php/Clickjacking"],
 									["Wikipedia - Clickjacking", "https://en.wikipedia.org/wiki/Clickjacking"],

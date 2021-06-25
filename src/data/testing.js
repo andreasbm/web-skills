@@ -51,7 +51,7 @@ export const testingCollection = {
 						{
 							name: "Acceptance Testing",
 							description: {
-								text: "Learn about acceptance testing and how it can be used to test the software for acceptability",
+								text: "Learn about acceptance testing and how it can be used to test the software for acceptability.",
 								links: [
 									["What is User Acceptance Testing?", "https://www.guru99.com/user-acceptance-testing.html"],
 									["Acceptance Testing", "http://softwaretestingfundamentals.com/acceptance-testing/"],
@@ -137,7 +137,7 @@ export const testingCollection = {
 				{
 					name: "Continuous integration",
 					description: {
-						text: "Learn about continuous integration and it can enable iterative software development.",
+						text: "Learn about continuous integration and how it can enable iterative software development.",
 						links: [
 							["dev.to - Continuous Integration Explained", "https://dev.to/markoa/continuous-integration-explained-59f9"],
 							["Continuous Integration Tutorial", "https://www.tutorialspoint.com/continuous_integration/index.htm"],

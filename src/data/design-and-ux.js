@@ -230,7 +230,7 @@ export const designAndUXCollection = {
 						{
 							name: "Hit Targets",
 							description: {
-								text: "Learn about hit targets can why they should not be neglected.",
+								text: "Learn about hit targets and why they should not be neglected.",
 								links: [
 									["Finger-Friendly Design", "https://www.smashingmagazine.com/2012/02/finger-friendly-design-ideal-mobile-touchscreen-target-sizes/"],
 									["Size matters! Accessibility and Touch Targets", "https://medium.com/@zacdicko/size-matters-accessibility-and-touch-targets-56e942adc0cc"],

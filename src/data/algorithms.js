@@ -168,7 +168,7 @@ export const algorithmsCollection = {
 						{
 							name: "Cost model",
 							description: {
-								text: "Learn how to setup a cost model for an algorithm.",
+								text: "Learn how to set up a cost model for an algorithm.",
 								links: [
 									["Wikipedia - Analysis of algorithms", "https://en.wikipedia.org/wiki/Analysis_of_algorithms"],
 									["Analysis of Algorithms", "https://aofa.cs.princeton.edu/10analysis/"],

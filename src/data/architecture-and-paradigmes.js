@@ -7,7 +7,7 @@ export const architectureCollection = {
 				{
 					name: "Programming Paradigms",
 					description: {
-						text: "Learn how programming languages can be categoried into different paraigmes based on their features.",
+						text: "Learn how programming languages can be categoried into different paradigms based on their features.",
 						links: [
 							["Wikipedia - Programming paradigm", "https://en.wikipedia.org/wiki/Programming_paradigm"],
 							["Introduction of Programming Paradigms", "https://www.geeksforgeeks.org/introduction-of-programming-paradigms/"],
@@ -68,7 +68,7 @@ export const architectureCollection = {
 						{
 							name: "Higher-Order Functions",
 							description: {
-								text: "Learn about higher-order functions and when it can be used to make your code more readable.",
+								text: "Learn about higher-order functions and how they can be used to make your code more readable.",
 								links: [
 									["Higher-Order Functions", "https://www.sitepoint.com/higher-order-functions-javascript/"],
 									["Freecodecamp - A quick intro to Higher-Order Functions", "https://www.freecodecamp.org/news/a-quick-intro-to-higher-order-functions-in-javascript-1a014f89c6b/"],
