@@ -598,7 +598,7 @@ export const pwaCollection = {
 						{
 							name: "Clickjacking",
 							description: {
-								text: "Learn about clickjacking and how it is possible to mitigate these kind of attacks.",
+								text: "Learn about clickjacking and how it is possible to mitigate these kinds of attacks.",
 								links: [
 									["OWASP - Clickjacking", "https://www.owasp.org/index.php/Clickjacking"],
 									["Wikipedia - Clickjacking", "https://en.wikipedia.org/wiki/Clickjacking"],
