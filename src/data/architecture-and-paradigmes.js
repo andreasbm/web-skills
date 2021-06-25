@@ -7,7 +7,7 @@ export const architectureCollection = {
 				{
 					name: "Programming Paradigms",
 					description: {
-						text: "Learn how programming languages can be categoried into different paradigmes based on their features.",
+						text: "Learn how programming languages can be categoried into different paradigms based on their features.",
 						links: [
 							["Wikipedia - Programming paradigm", "https://en.wikipedia.org/wiki/Programming_paradigm"],
 							["Introduction of Programming Paradigms", "https://www.geeksforgeeks.org/introduction-of-programming-paradigms/"],
