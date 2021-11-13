@@ -78,3 +78,6 @@ body {
 #snack-container > :not(:last-child) {
 	margin: 0 0 var(--spacing-s);
 }
+a {
+  text-decoration: none !important;
+}
