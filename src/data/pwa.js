@@ -364,7 +364,7 @@ export const pwaCollection = {
 							description: {
 								text: "Learn about the stack and how to investigate the staack trace when debugging.",
 								links: [
-									["Javascript Stack Trade - Using it to debug", "https://www.scalyr.com/blog/javascript-stack-trace-understanding-it-and-using-it-to-debug/"],
+									["Javascript Stack Trace - Using it to debug", "https://www.scalyr.com/blog/javascript-stack-trace-understanding-it-and-using-it-to-debug/"],
 									["MDN - console.trace()", "https://developer.mozilla.org/en-US/docs/Web/API/Console/trace"],
 									["V8 - Stack trace API", "https://v8.dev/docs/stack-trace-api"],
 									["Confused about Stack and Heap?", "https://medium.com/fhinkel/confused-about-stack-and-heap-2cf3e6adb771"],
