@@ -3542,6 +3542,7 @@ Learn about deadlocks and why they should be avoided.
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwhatis.techtarget.com" alt="Logo" /> Deadlock Definition](https://whatis.techtarget.com/definition/deadlock)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwww.javatpoint.com" alt="Logo" /> Introduction to Deadlock](https://www.javatpoint.com/os-deadlocks-introduction)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdev.to" alt="Logo" /> dev.to - Understanding SQL Server Deadlocks](https://dev.to/integerman/understanding-sql-server-deadlocks-2ej6)
+* [ ] [Deadlock in a database management system](https://www.scaler.com/topics/dbms/deadlock-in-dbms/)	
 
 #### Precedence graph
 
