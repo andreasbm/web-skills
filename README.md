@@ -3507,6 +3507,9 @@ Learn about the ACID properties of transactions.
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwww.ibm.com" alt="Logo" /> ACID properties of transactions](https://www.ibm.com/support/knowledgecenter/en/SSGMCP_5.4.0/product-overview/acid.html)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fblog.yugabyte.com" alt="Logo" /> A Primer on ACID Transactions](https://blog.yugabyte.com/a-primer-on-acid-transactions/)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fstackoverflow.com" alt="Logo" /> Stackoverflow - How do ACID and database transactions work?](https://stackoverflow.com/questions/3740280/how-do-acid-and-database-transactions-work)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fvladmihalcea.com" alt="Logo" /> Acid Properties in DBMS](https://www.scaler.com/topics/acid-properties-in-dbms/)
+	
+	
 
 #### Serializability
 
@@ -3517,6 +3520,8 @@ Learn how to determine whether a schedule is serializable and leaves the databas
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fbeginnersbook.com" alt="Logo" /> DBMS Serializability](https://beginnersbook.com/2018/12/dbms-serializability/)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwww.geeksforgeeks.org" alt="Logo" /> View Serializability in DBMS Transactions](https://www.geeksforgeeks.org/view-serializability-in-dbms-transactions/)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwww.geeksforgeeks.org" alt="Logo" /> Conflict Serializability in DBMS](https://www.geeksforgeeks.org/conflict-serializability-in-dbms/)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fvladmihalcea.com" alt="Logo" /> 
+Serializability in DBMS](https://www.scaler.com/topics/dbms/serializability-in-dbms/)
 
 #### Locks
 
@@ -3539,6 +3544,7 @@ Learn about deadlocks and why they should be avoided.
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwhatis.techtarget.com" alt="Logo" /> Deadlock Definition](https://whatis.techtarget.com/definition/deadlock)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwww.javatpoint.com" alt="Logo" /> Introduction to Deadlock](https://www.javatpoint.com/os-deadlocks-introduction)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdev.to" alt="Logo" /> dev.to - Understanding SQL Server Deadlocks](https://dev.to/integerman/understanding-sql-server-deadlocks-2ej6)
+* [ ] [Deadlock in a database management system](https://www.scaler.com/topics/dbms/deadlock-in-dbms/)	
 
 #### Precedence graph
 
