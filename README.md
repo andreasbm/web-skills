@@ -3520,6 +3520,8 @@ Learn how to determine whether a schedule is serializable and leaves the databas
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fbeginnersbook.com" alt="Logo" /> DBMS Serializability](https://beginnersbook.com/2018/12/dbms-serializability/)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwww.geeksforgeeks.org" alt="Logo" /> View Serializability in DBMS Transactions](https://www.geeksforgeeks.org/view-serializability-in-dbms-transactions/)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwww.geeksforgeeks.org" alt="Logo" /> Conflict Serializability in DBMS](https://www.geeksforgeeks.org/conflict-serializability-in-dbms/)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fvladmihalcea.com" alt="Logo" /> 
+Serializability in DBMS](https://www.scaler.com/topics/dbms/serializability-in-dbms/)
 
 #### Locks
 
