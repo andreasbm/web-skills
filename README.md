@@ -3474,7 +3474,8 @@ Learn how to find functional dependencies to improve your database design.
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwww.guru99.com" alt="Logo" /> DBMS Functional Dependency](https://www.guru99.com/dbms-functional-dependency.html)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fen.wikipedia.org" alt="Logo" /> Wikipedia - Armstrong's axioms](https://en.wikipedia.org/wiki/Armstrong%27s_axioms)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwww.includehelp.com" alt="Logo" /> Armstrong's Axioms in Functional Dependency](https://www.includehelp.com/dbms/armstrongs-axioms-in-functional-dependency.aspx)
-
+* [ ] [<img style="margin-bottom: 0;" src="https://www.scaler.com/topics/favicon.ico" alt="Logo" /> Scaler Topics - Functional Dependency in DBMS](https://www.scaler.com/topics/dbms/functional-dependency-in-dbms/)
+	
 #### Normal Forms
 
 Learn how normal forms can help you normalize your database.
