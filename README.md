@@ -1938,6 +1938,7 @@ Learn about various software testing methodologies and why it is important to te
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fen.wikipedia.org" alt="Logo" /> Wikipedia - Software testing](https://en.wikipedia.org/wiki/Software_testing)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fsmartbear.com" alt="Logo" /> Software Testing Methodologies](https://smartbear.com/learn/automated-testing/software-testing-methodologies/)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwww.inflectra.com" alt="Logo" /> Learn The Methods & Tools](https://www.inflectra.com/ideas/topic/testing-methodologies.aspx)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwww.interviewbit.com" alt="Logo" /> Types of Software Testing Methodologies](https://www.interviewbit.com/blog/software-testing-methodologies)
 
 #### Unit Testing
 
@@ -2295,6 +2296,7 @@ Learn about git and how it is used for version control.
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=http%3A%2F%2Fgit-school.github.io" alt="Logo" /> Visualizing Git](http://git-school.github.io/visualizing-git/)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwww.codecademy.com" alt="Logo" /> Codecademy - Learn Gitthis](https://www.codecademy.com/learn/learn-git)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fgit-hint.netlify.com" alt="Logo" /> Git Hint](https://git-hint.netlify.com/)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwww.interviewbit.com" alt="Logo" /> Top GIT Commands You Must Know](https://www.interviewbit.com/blog/git-commands)
 
 #### Github
 
@@ -2345,6 +2347,7 @@ Learn about waterfall development and when to use it.
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwww.tutorialspoint.com" alt="Logo" /> Waterfall Model](https://www.tutorialspoint.com/sdlc/sdlc_waterfall_model.htm)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwww.seguetech.com" alt="Logo" /> Waterfall vs. Agile](https://www.seguetech.com/waterfall-vs-agile-methodology/)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fairbrake.io" alt="Logo" /> Waterfall Model: What and when](https://airbrake.io/blog/sdlc/waterfall-model)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwww.interviewbit.com" alt="Logo" /> Waterfall Model in Software Engineering](https://www.interviewbit.com/blog/waterfall-model-in-software-engineering)
 
 ### Test Driven Development
 
