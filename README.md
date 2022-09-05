@@ -3440,6 +3440,7 @@ Learn how to use indexing to speed up your database.
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fchartio.com" alt="Logo" /> What Does Indexing Do?](https://chartio.com/learn/databases/how-does-indexing-work/)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwww.freecodecamp.org" alt="Logo" /> An in-depth look at Database Indexing](https://www.freecodecamp.org/news/database-indexing-at-a-glance-bb50809d48bd/)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fmedium.com" alt="Logo" /> Indexing your database data — the easy way](https://medium.com/faun/explained-indexing-your-database-data-the-easy-way-3c7127ed36a)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2www.scaler.com/topics" alt="Logo" /> Logo Indexing In Database](https://www.scaler.com/topics/dbms/indexing-in-dbms/)
 
 ### Data Integrity
 
