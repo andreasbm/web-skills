@@ -363,7 +363,8 @@
 	* [Relational Databases](#relational-databases)
 		* [SQL](#sql)
 		* [MySQL](#mysql)
-		* [PostgreSQL](#postgresql)
+		* [Postgr
+	eSQL](#postgresql)
 	* [Non-relational Databases](#non-relational-databases)
 		* [Redis](#redis)
 		* [MongoDB](#mongodb)
@@ -3408,6 +3409,8 @@ Learn how data modelling can help your database design.
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fen.wikipedia.org" alt="Logo" /> Wikipedia - Database Modelling](https://en.wikipedia.org/wiki/Data_modeling)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwww.guru99.com" alt="Logo" /> What is Data Modelling?](https://www.guru99.com/data-modelling-conceptual-logical.html)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fsearchdatamanagement.techtarget.com" alt="Logo" /> Data Modeling Definition](https://searchdatamanagement.techtarget.com/definition/data-modeling)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwww.scaler.com/topics" alt="Logo" /> Data Models in DBMS](https://www.scaler.com/topics/dbms/data-models-in-dbms/)
+
 
 #### ER Diagram
 
