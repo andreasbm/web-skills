@@ -3533,6 +3533,7 @@ Learn about locks and when they should be used.
 Learn about deadlocks and why they should be avoided.
 
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwww.geeksforgeeks.org" alt="Logo" /> Deadlock in DBMS](https://www.geeksforgeeks.org/deadlock-in-dbms/)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwww.scaler.com/topics/" alt="Logo" /> Deadlock in Java](https://www.scaler.com/topics/deadlock-in-java/)	
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fen.wikipedia.org" alt="Logo" /> Wikipedia - Deadlock](https://en.wikipedia.org/wiki/Deadlock)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwww.studytonight.com" alt="Logo" /> What is a Deadlock?](https://www.studytonight.com/operating-system/deadlocks)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fdocs.oracle.com" alt="Logo" /> Oracle - Deadlocks](https://docs.oracle.com/javadb/10.8.3.0/devguide/cdevconcepts28436.html)
