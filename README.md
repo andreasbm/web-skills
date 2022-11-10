@@ -3506,6 +3506,7 @@ Learn about the ACID properties of transactions.
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fen.wikipedia.org" alt="Logo" /> Wikipedia - ACID](https://en.wikipedia.org/wiki/ACID)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwww.ibm.com" alt="Logo" /> ACID properties of transactions](https://www.ibm.com/support/knowledgecenter/en/SSGMCP_5.4.0/product-overview/acid.html)
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fblog.yugabyte.com" alt="Logo" /> A Primer on ACID Transactions](https://blog.yugabyte.com/a-primer-on-acid-transactions/)
+* [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fwww.scaler.com/topics/" alt="Logo" /> ACID Properties in DBMS](https://www.scaler.com/topics/dbms/acid-properties-in-dbms/)	
 * [ ] [<img style="margin-bottom: 0;" src="https://plus.google.com/_/favicon?domain_url=https%3A%2F%2Fstackoverflow.com" alt="Logo" /> Stackoverflow - How do ACID and database transactions work?](https://stackoverflow.com/questions/3740280/how-do-acid-and-database-transactions-work)
 
 #### Serializability
